@@ -1,26 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Project QuadVerse
 
-First, run the development server:
+Project QuadVerse is a personal developmental project, build by a entry-level Front-end developer aiming to perfect and polish his programming skill. This is his first shot at wriiting a README and also Git. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+This website is currently running locally on [http://localhost:3000](http://localhost:3000) at the time of this writing.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+I'm just about to start the project, hopeful it comes out great. Fingers crossed.
 
 ## Learn More
 
@@ -33,6 +19,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The final plan is to deploy this app on [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js and make it available for mass access on the internet.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
