@@ -7,7 +7,7 @@ import { AnimatePresence } from 'framer-motion';
 
 
 
-const apod = () => {
+const Apod = () => {
     const ctx = useContext(themeContext);
     const { setShowOtherPageLinks } = ctx;
     const [showExit, setShowExit] = useState(false);
@@ -42,4 +42,4 @@ const apod = () => {
     )
 }
 
-export default apod
+export default Apod

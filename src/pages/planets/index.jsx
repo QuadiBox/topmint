@@ -5,7 +5,7 @@ import { AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 
 
-const index = () => {
+const Index = () => {
     const [showExit, setShowExit] = useState(false);
     const router = useRouter();
 
@@ -40,4 +40,4 @@ const index = () => {
     )
 }
 
-export default index
+export default Index

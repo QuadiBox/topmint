@@ -6,7 +6,7 @@ import { useRouter } from 'next/router';
 import { AnimatePresence } from 'framer-motion';
 import Sect1 from '../../components/search/Sect1';
 
-const index = () => {
+const Index = () => {
   const [showExit, setShowExit] = useState(false);
   const router = useRouter();
   const ctx = useContext(themeContext);
@@ -40,4 +40,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Index

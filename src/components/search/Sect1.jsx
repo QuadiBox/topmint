@@ -12,14 +12,6 @@ const Sect1 = () => {
         }
     };
 
-    const options2 = {
-        method: 'GET',
-        headers: {
-          'X-Api-Key': '1hFEDzXJC/e9iqNlf7PrYg==Tonfv5LRMUaeUZhL',
-          'Content-Type': 'application/json'
-        }
-      }
-
 
     useEffect(() => {
         const dataFetch = async () => {
