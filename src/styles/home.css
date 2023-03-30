@@ -1,0 +1,2133 @@
+:root {
+    --primary-clr: #a706f1;
+    --sec-clr: #ff5882;
+    --brown-clr1: #FF964E;
+    --brown-clr2: #FFCB4B;
+    --blue-clr: #0086FF;
+    --text-clr2: #f9d9f9;
+    --text-clr1: #FFF6FF;
+    --dark-clr1: #090208;
+    --dark-clr2: #241822;
+    --secBg-clr: #42273F;
+    --bg1-opac05: #130711b2;
+    --bg1-opac02: #1307115d;
+    --bg2-opac05: #2418227b;
+    --bg2-opac02: #2418224e;
+    --bg2-opac07: #241822da;
+
+    --borderline-clr: rgba(128, 128, 128, 0.401);
+    --borderline-clr2: rgba(128, 128, 128, 0.106);
+    
+    --gen-padding: 10%;
+    --small-padding: 5%;
+
+    --clip-type1: polygon(0% 0%, 35% 0%, 40% 3%, 60% 3%, 65% 0%, 100% 0%, 100% 35%, 99% 40%, 99% 60%, 100% 65%, 100% 100%, 65% 100%, 60% 97%, 40% 97%, 35% 100%, 0% 100%, 0% 65%, 1% 60%, 1% 40%, 0% 35%, 0% 0%);
+    --clip-type2: polygon(5% 0%, 35% 0%, 40% 3%, 60% 3%, 65% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 65% 100%, 60% 97%, 40% 97%, 35% 100%, 5% 100%, 0% 95%, 0% 5%);
+
+    --font-unica: 'Unica One', sans-serif;
+    --font-jost: 'Jost', sans-serif;
+}
+
+
+
+
+.homeLoaderMain{
+    width: 100%;
+    height: 100dvh;
+    background-image: linear-gradient(to bottom right, var(--bg2-opac05), 50%, var(--bg2-opac05)), url(/AbsMainImg.jpg);
+    background-size: 120%;
+    background-position: 0% 0%;
+    overflow: hidden;
+    display: flex;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    transform-origin: center;
+    position: relative;
+    z-index: 250;
+}
+
+.theNavbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 100;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.551);
+    background-color: rgba(56, 55, 55, 0.194);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(5px);
+    padding-inline: var(--gen-padding);
+
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+
+.logoAbsMain .theLogo{
+    display: flex;
+    align-items: center;
+    gap: 2.5px;
+}
+
+
+.logoAbsMain .Q{
+    font-size: 1.9em;
+    color: var(--text-clr1);
+    font-family: 'Unica One', sans-serif;
+}
+
+.logoAbsMain .V{
+    font-size: 1.9em;
+    color: var(--text-clr2);
+    margin-left: -3px;
+    font-family: 'Unica One', sans-serif;
+}
+
+.logoAbsMain i{
+    color: var(--primary-clr);
+    font-size: 1.7em;
+    margin-left: 5px;
+}
+
+
+.rightNav{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 30px;
+}
+
+.searchLinkNav {
+    position: relative;
+    height: 100%;
+}
+
+.searchLinkNav p{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-inline: 4px;
+    font-size: 1.1em;
+    font-weight: 300;
+    font-family: var(--font-unica);
+    background: linear-gradient(to right, var(--primary-clr), 50%,var(--primary-clr), 50%, var(--text-clr1));
+    background-size: 200%;
+    background-position: 100% 0%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transition:  background-position 0.35s ease-in-out;
+}
+
+.searchLinkNav p:hover{
+    background-position: 0% 0%;
+}
+
+.hamburgerCntn{
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+.hamburgerCntn:hover span:nth-child(2){
+    width: 100%;
+}
+
+.hamburgerCntn:hover .marker, .searchLinkNav:hover .marker{
+    display: block;
+}
+
+.hamburger{
+    width: 32px;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 8px;
+    transform-origin: center;
+}
+
+.marker{
+    width: 6px;
+    aspect-ratio: 1;
+    background-color: var(--primary-clr);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    display: none;
+}
+
+
+.hamburger span:nth-child(1) {
+    width: 100%;
+    background-color: var(--primary-clr);
+    height: 1px;
+    border-radius: 10px;
+}
+
+.hamburger span:nth-child(2) {
+    width: 70%;
+    background-color: var(--text-clr2);
+    height: 1px;
+    border-radius: 10px;
+    transition: width 0.26s ease-in-out;
+}
+
+.hamburgerCntn .mainPageLinks{
+    width: max-content;
+    padding: 2em 0px;
+    background-color: transparent;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 110%;
+    right: 0;
+}
+
+.mainPageLinks .linkHeader{
+    margin-inline: 0;
+}
+
+
+.sectonAbsMain{
+    position: relative;
+    padding-inline: var(--gen-padding);
+    width: 100%;
+    padding-top: 4em;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.sectonAbsMain h1{
+    font-size: 4em;
+    font-weight: 300;
+    color: var(--text-clr1);
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.sectonAbsMain h1 span > div{
+    font-size: 1.1em;
+    color: var(--primary-clr);
+    font-family: 'Unica One', sans-serif;
+}
+
+.sectonAbsMain p{
+    color: var(--text-clr2);
+    font-weight: 300;
+    font-size: 1.2em;
+    width: 60%;
+}
+
+.sectonAbsMain p span{
+    font-size: 1em;
+    color: var(--primary-clr);
+    font-weight: 400;
+    font-family: var(--font-jost);
+}
+
+.bottomAbs{
+    width: 80%;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.imageDisplays{
+    position: relative;
+    width: 100%;
+    transform: scale(0.6);
+    transform-origin: center top;
+    animation: planetcntn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards 0.3s;
+}
+
+@keyframes planetcntn {
+    to{
+        transform: scale(1);
+    }
+}
+
+.absImg{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+}
+
+.sun{
+    transform: translate(-50%, 0%);
+    width: 250px;
+    height: 250px;
+    animation: sun 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards 0.4s;
+}
+
+@keyframes sun {
+    to{
+        transform: translate(-50%, -7%);
+    }
+}
+
+.earth{
+    opacity: 0;
+    transform: translate(-50%, -7%);
+    animation: earth 0.4s ease-in-out forwards 0.8s;
+}
+
+@keyframes earth {
+    to{
+        transform: translate(40%, 20%)  rotateZ(720deg);
+        opacity: 1;
+    }
+}
+
+.pluto{
+    opacity: 0;
+    transform: translate(-50%, -7%);
+    animation: pluto 0.4s ease-in-out forwards 0.7s;
+}
+
+@keyframes pluto {
+    to{
+        transform: translate(0%, 0%) rotateZ(360deg);
+        opacity: 1;
+    }
+}
+
+
+.jupiter{
+    opacity: 0;
+    transform: translate(-50%, -7%);
+    animation: jupiter 0.4s ease-in-out forwards 0.7s;
+}
+
+@keyframes jupiter {
+    to{
+        transform: translate(-100%, -3%) rotateZ(-360deg);
+        opacity: 1;
+    }
+}
+
+.mars{
+    opacity: 0;
+    transform: translate(-50%, -7%);
+    animation: mars 0.4s ease-in-out forwards 0.7s;
+}
+
+@keyframes mars {
+    to{
+        transform: translate(-150%, 14%) rotateZ(-720deg);
+        opacity: 1;
+    }
+}
+
+.displayAnimation{
+    width: 350px;
+    height: 400px;
+    margin-top: 2%;
+    background-color: #a706f123;
+    backdrop-filter: blur(8px);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 10px;
+    cursor: pointer;
+    isolation: isolate;
+    transform-origin: center;
+    clip-path: polygon(5% 0%, 35% 0%, 40% 3%, 60% 3%, 65% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 65% 100%, 60% 97%, 40% 97%, 35% 100%, 5% 100%, 0% 95%, 0% 5%);
+}
+
+.displayAnimation:hover .detailsCard{
+    transform: translateY(0%);
+}
+
+.displayAnimation:hover .displayerClose{
+    opacity: 1;
+}
+
+
+.displayAnimation .borderline{
+    width: 98%;
+    height: 96%;
+    border: 1px solid rgba(128, 128, 128, 0.401);
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.panOverlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300%;
+    background: linear-gradient(to bottom, #a706f12a,3px , #a706f12a,3px, transparent, 3px , transparent);
+    background-size: 100% 9px;
+    z-index: 3;
+    pointer-events: none;
+
+    animation: panOverlay 20s linear infinite;
+}
+
+@keyframes panOverlay{
+    from {
+        background-position: 0% 0%;
+    }
+
+    to {
+        background-position: 0% -100%;
+    }
+}
+
+.displayer{
+    width: 100%;
+    height: 100%;
+    background-position: 20% 20%;
+    background-size: 350%; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: vidPanning 30s linear infinite 0.8s;
+}
+
+@keyframes vidPanning{
+    0%{
+        background-position: 20% 20%;
+        background-size: 350%; 
+    }
+
+    20%{
+        background-position: 32% 30%;
+        background-size: 340%;
+    }
+
+    20.0001%{
+        background-position: 80% 60%;
+        background-size: 300%;
+    }
+
+    40%{
+        background-position: 90% 55%;
+        background-size: 300%;
+    }
+
+    40.0001%{
+        background-position: 45% 85%;
+        background-size: 300%;
+    }
+
+    60%{
+        background-position: 40% 70%;
+        background-size: 300%; 
+    }
+
+    60.0001%{
+        background-position: 20% 80%;
+        background-size: 360%;
+    }
+
+    80%{
+        background-position: 25% 60%;
+        background-size: 320%;
+    }
+
+    80.0001%{
+        background-position: 90% 80%;
+        background-size: 350%;
+    }
+
+    100%{
+        background-position: 87% 60%;
+        background-size: 320%;
+    }
+
+
+}
+
+
+.detailsCard{
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60%;
+    clip-path: polygon(0% 0%, 35% 0%, 40% 1.5%, 60% 1.5%, 65% 0%, 100% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 0%);
+    background-color: var(--bg1-opac05);
+    backdrop-filter: blur(13px);
+    padding: 10px 5%;
+    border-radius: 10px;
+    transform: translateY(100%);
+    transition: transform 0.35s ease-out;
+}
+
+.detailsCard h2{
+    font-size: 1.4em;
+    color: var(--text-clr1);
+    font-family: var(--font-unica);
+}
+
+.detailsCard h2 span{
+    font-size: 1.2em;
+    font-weight: 200;
+    color: var(--primary-clr);
+    font-family: var(--font-jost);
+}
+
+.detailsCard p{
+    font-size: 0.77em;
+    color: var(--text-clr2);
+    font-weight: 500;
+    width: 100%;
+    margin-top: 3px;
+}
+
+.detailsCard p span{
+    font-size: 1.12em;
+    color: var(--text-clr2);
+    font-weight: 300;
+}
+
+
+.dragger{
+    position: absolute;
+    width: 20%;
+    height: 0.5px;
+    border-radius: 4px;
+    background-color: var(--text-clr1);
+    top: 4%;
+    left: 40%;
+    cursor: pointer;
+    z-index: 6;
+}
+
+.dragger2{
+    position: absolute;
+    width: 20%;
+    height: 1px;
+    border-radius: 4px;
+    background-color: var(--text-clr1);
+    bottom: 4%;
+    left: 40%;
+    cursor: pointer;
+    z-index: 6;
+}
+
+.displayerClose{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 30px;
+    aspect-ratio: 1;
+    border: 1px solid var(--borderline-clr);
+    border-radius: 7px;
+    background-color: var(--bg1-opac05);
+    backdrop-filter: blur(12px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.35s ease-in-out;
+    z-index: 6;
+}
+
+.displayerClose i{
+    font-size: 1.4em;
+    color: var(--text-clr1);
+}
+
+
+.scrollIndicator{
+    padding-inline: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    width: max-content;
+    cursor: pointer;
+}
+
+.scrollIndicator i{
+    font-size: 2em;
+    color: rgba(162, 161, 161, 0.903);
+    animation: bounce 2.2s ease infinite;
+}
+
+.scrollIndicator p{
+    width: max-content;
+    background: linear-gradient(135deg,  var(--text-clr1), rgba(173, 172, 172, 0.53), var(--text-clr1), rgba(173, 172, 172, 0.53), var(--text-clr1));
+    background-size: 120%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    background-clip: text;
+    background-position-x: 0px;
+    animation: swipe 3s ease-in-out infinite alternate;
+    font-size: 0.95em;
+    font-weight: 500;
+    font-family: var(--font-jost);
+}
+
+@keyframes swipe {
+    0%{
+        background-position-x: 0px;
+    }
+
+    100%{
+        background-position-x: 300px;
+    }
+}
+
+@keyframes bounce {
+    0%{
+        transform: translateY(0%);
+    }
+
+    15%{
+        transform: translateY(20%);
+    }
+    30%{
+        transform: translateY(0%);
+    }
+    45%{
+        transform: translateY(30%);
+    }
+    60%{
+        transform: translateY(0%);  
+    }
+    75%{
+        transform: translateY(20%); 
+    }
+    100%{
+        transform: translateY(0%); 
+    }
+}
+
+/** Home Page Styling Starts Here ***/
+
+.theHomePage{
+    width: 100vw;
+    background-color: var(--dark-clr1);
+    position: relative;
+    background: radial-gradient(circle, var(--text-clr2) 3%, transparent 1%);
+    background-size: 3em 3em;
+    height: 100vh;
+    /* scroll-snap-type: y proximity; */
+    overflow-y: scroll;
+}
+
+.theHomePage::-webkit-scrollbar{
+    width: 7px;
+    height: 2px;
+    background-color: var(--dark-clr1);
+}
+
+.theHomePage::-webkit-scrollbar-track{
+    background: transparent;
+    padding: 3px;
+    width: 100%;
+}
+
+.theHomePage::-webkit-scrollbar-thumb{
+    border-radius: 7px;
+    background: var(--primary-clr);
+}
+
+.transitionPage{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    background-color: var(--dark-clr1);
+    padding-block: 0.6em;
+    overflow: hidden;
+}
+
+.transSingleSect{
+    display: flex;
+    align-items: center;
+    gap: 13.5px;
+    width: 100%;
+    overflow: hidden;
+    height: max-content;
+    margin-left: 15px;
+    margin-top: 6px;
+}
+
+.transSingleSect span{
+    font-size: 3.8em;
+    color: var(--bg1-opac05);
+    font-family: var(--font-unica);
+    transition: color 0.35s ease;
+    cursor: crosshair;
+    height: max-content;
+}
+
+.transSingleSect span:hover{
+    color: var(--text-clr2);
+}
+
+.theHomePage section{
+    min-height: 100vh;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+
+.sect1-home{
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-position: 0% 50%;
+    position: relative;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(circle, var(--text-clr2) 3%, transparent 0.5%);
+    background-size: 3em 3em;
+}
+
+.apod{
+    width: 100%;
+    flex: 1;
+    padding-inline: var(--gen-padding);
+    padding-top: 2.6em;
+    position: relative;
+    isolation: isolate;
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+    background-color: #100914de;
+    backdrop-filter: blur(1px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.apod h1{
+    font-size: 4em;
+    font-family: var(--font-unica);
+    font-weight: 300;
+    color: var(--text-clr1);
+}
+
+.apodDisplayer{
+    width: 50%;
+    aspect-ratio: 16/9;
+    border-radius: 18px;
+    background-color: #a706f123;
+    backdrop-filter: blur(8px);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 10px;
+    cursor: pointer;
+    margin-inline: auto;
+    isolation: isolate;
+    transform-origin: center;
+    clip-path: polygon(0% 0%, 35% 0%, 40% 3%, 60% 3%, 65% 0%, 100% 0%, 100% 35%, 99% 40%, 99% 60%, 100% 65%, 100% 100%, 65% 100%, 60% 97%, 40% 97%, 35% 100%, 0% 100%, 0% 65%, 1% 60%, 1% 40%, 0% 35%, 0% 0%);
+}
+
+.borderLineApod{
+    width: 98%;
+    height: 94%;
+    border: 1px solid rgba(128, 128, 128, 0.401);
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.apodImg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: 100%;
+    background-position: center;
+    z-index: 1;
+}
+
+.apodVid{
+    width: 105%;
+    height: 105%;
+    position: absolute;
+    background-size: 100%;
+    background-position: center;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transform: translate(-2%, -2%);
+}
+
+.apodDisplayer:hover .apodDetails{
+    transform: translateY(0%);
+}
+
+.apodDetails{
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 0;
+    left: 0;
+    gap: 15px;
+    padding: 4% 4%;
+    background: var(--bg2-opac07);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    transform: translateY(100%);
+    transition: transform 0.35s ease;
+}
+
+.leftDetails{
+    flex: 2;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: center;
+}
+
+.apodDetails .leftDetails h2{
+    font-family: var(--font-unica);
+    color: var(--text-clr2);
+    font-size: 1.5em;
+}
+
+.leftDetails p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 9; 
+    white-space: pre-wrap;
+    width: 100%;
+    font-size: 0.87em;
+    font-weight: 500;
+    color: var(--text-clr1);
+}
+
+.leftDetails p span {
+    font-size: 1.13em;
+    font-weight: 300;
+}
+
+.rightDetails{
+    flex: 1;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.apodError{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.apodError h3{
+    color: var(--text-clr1);
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+}
+
+.apodError p{
+    text-align: center;
+    font-weight: 400;
+    color: var(--text-clr1);
+    font-size: 1.05em;
+}
+
+.apodFooter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.apodFooter h3{
+    font-size: 1.15em;
+    color: var(--text-clr1);
+    font-weight: 300;
+    /* font-family: var(--font-jost); */
+}
+
+.exploreApod{
+    width: 100px;
+    aspect-ratio: 16/6;
+    border-radius: 4px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: var(--sec-clr);
+    justify-content: center;
+    font-family: var(--font-unica);
+    font-weight: 500;
+    transition: transform 0.3s ease;
+    clip-path: polygon(0% 0%, 35% 0%, 40% 3%, 60% 3%, 65% 0%, 100% 0%, 100% 35%, 99% 40%, 99% 60%, 100% 65%, 100% 100%, 65% 100%, 60% 97%, 40% 97%, 35% 100%, 0% 100%, 0% 65%, 1% 60%, 1% 40%, 0% 35%, 0% 0%);
+}
+
+.afterHover{
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+}
+
+
+.afterHover:hover:after{
+    transform: translateY(0%);
+}
+
+.afterHover::after{
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.35s ease-in-out;
+    background-color: var(--primary-clr);
+}
+
+.sect2-home{
+    background: radial-gradient(circle, var(--text-clr2) 3%, transparent 2%);
+    background-size: 3em 3em;
+    isolation: isolate;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    padding-inline: var(--gen-padding);
+    padding-top: 4.2%;
+    padding-bottom: 3em;
+}
+
+.sect2-home h1{
+    font-size: 3em;
+    font-family: var(--font-unica);
+    color: var(--text-clr1);
+    font-weight: 400;
+}
+
+.instruction{
+    font-size: 1.03em;
+    font-weight: 300;
+    counter-reset: var(--text-clr1);
+}
+
+.divider{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1px;
+    background-color: var(--borderline-clr2);
+    width: 100%;
+}
+
+.sect2-home .taskbar{
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-end;
+    height: 70%;
+    justify-content: space-between;
+}
+
+.taskbar .animationControl{
+    width: 45px;
+    aspect-ratio: 1;
+    background-color: #cd96e942;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transform-origin: center;
+}
+
+.taskbar .animationControl i{
+    font-size: 1.7em;
+    color: var(--text-clr1);
+}
+
+.planetDataDisplay {
+    width: 250px;
+    aspect-ratio: 9/14;
+    background-size: 130%;
+    background-position: center;
+    background-repeat: no-repeat;
+    clip-path: polygon(5% 0%, 35% 0%, 40% 3%, 60% 3%, 65% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 65% 100%, 60% 97%, 40% 97%, 35% 100%, 5% 100%, 0% 95%, 0% 5%);
+    position: relative;
+    isolation: isolate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.planetDataDisplayerCloser{
+    position: absolute;
+    top: 5%;
+    right: 6%;
+    width: 30px;
+    aspect-ratio: 1;
+    border: 1px solid var(--borderline-clr);
+    border-radius: 7px;
+    background-color: var(--bg1-opac05);
+    backdrop-filter: blur(12px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    transform-origin: center;
+}
+
+.planetDataDisplayerCloser i{
+    font-size: 1.4em;
+    color: var(--text-clr1);
+}
+
+.thePlanetdatas{
+    width: 100%;
+    height: 100%;
+    padding: 9% 6%;
+    display: flex;
+    gap: 10px;
+    z-index: 2;
+    flex-direction: column;
+    background: var(--bg2-opac07);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+}
+
+.thePlanetdatas .top{
+    flex: 1;
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.thePlanetdatas .planetdatabottom{
+    flex: 2;
+    width: 100%;
+}
+
+.planetdatabottom h2{
+    font-size: 1.6em;
+    font-family: var(--font-unica);
+    color: var(--text-clr2);
+}
+
+.planetdatabottom h2 span{
+    font-size: 1.02em;
+    color: var(--primary-clr);
+}
+
+.planetdatabottom h3{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4; 
+    white-space: pre-wrap;
+    width: 100%;
+    font-size: 1.1em;
+    font-weight: 400;
+    color: var(--text-clr1);
+}
+
+.planetdatabottom p{
+    color: var(--text-clr2);
+    font-size: 0.91em;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+.planetdatabottom p span{
+    font-size: 1.15em;
+    font-weight: 300;
+    color: var(--text-clr1);
+}
+
+.hintBar{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    width: 260px;
+    z-index: 8;
+    border-radius: 10px;
+    background-color: var(--bg2-opac07);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.hintBar .first{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+}
+
+.hintBar .first .coloredtile{
+    height: 10px;
+    aspect-ratio: 1;
+    border-radius: 3px;
+}
+
+.coloredtile.purple{
+    background-color: var(--primary-clr);
+}
+
+.coloredtile.white{
+    background-color: var(--text-clr2);
+}
+
+.coloredtile.orange{
+    background-color: var(--sec-clr);
+}
+
+.hintBar .first p{
+    font-size: 0.87em;
+    color: var(--text-clr2);
+    font-weight: 400;
+}
+
+.solarDisplay{
+    --max-orbit: 625px;
+
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.solarCntn{
+    position: relative;
+    min-height: 80%;
+    aspect-ratio: 1;
+    isolation: isolate;
+}
+
+.orbit{
+    border-radius: 50%;
+    border: 1px dashed var(--borderline-clr);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.sunOrbit{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    isolation: isolate;
+}
+
+.sunOrbit .theSun{
+    width: 130px;
+    height: 130px;
+}
+
+.solarFlare1{
+    position: absolute;
+    width: 100%;
+    aspect-ratio: 1;
+    background-color: rgba(165, 146, 2, 0.373);
+    z-index: -1;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    transform: scale(1);
+    transform-origin: center;
+    filter: blur(5px);
+    animation: flareScaler 3s linear 0s alternate infinite;
+}
+
+.solarFlare2{
+    position: absolute;
+    width: 120%;
+    aspect-ratio: 1;
+    background-color: rgba(165, 146, 2, 0.173);
+    z-index: -1;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    transform: translate(-8%, -8%) scale(1);
+    transform-origin: center;
+    filter: blur(5px);
+    animation: flareScaler2 3.2s linear alternate infinite;
+}
+
+@keyframes flareScaler {
+    0%{
+        transform: scale(0.7);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes flareScaler2 {
+    0%{
+        transform: translate(-8%, -8%) scale(0.8);
+    }
+
+    100% {
+        transform: translate(-8%, -8%) scale(1);
+    }
+}
+
+.neptuneOrbit{
+    width: var(--max-orbit);
+    aspect-ratio: 1;
+    animation: clockWiseOrbiter 990s linear infinite;
+}
+
+.planet{
+    left: 0;
+    position: absolute;
+}
+
+.theNeptune{
+    width: 140px;
+    height: 97px;
+    top: 30%;
+    left: -10%;
+}
+
+.uranusOrbit{
+    width: calc(var(--max-orbit) - 70px);
+    aspect-ratio: 1;
+    animation: anticlockWiseOrbiter 504s linear infinite;
+}
+
+.theUranus{
+    width: 80px;
+    height: 58px;
+    top: 60%;
+    left: -5%;
+}
+
+.saturnOrbit{
+    width: calc(var(--max-orbit) - 142px);
+    aspect-ratio: 1;
+    animation: clockWiseOrbiter 174s linear infinite;
+}
+
+.theSaturn{
+    width: 120px;
+    height: 100px;
+    left: 5%;
+    animation: satarunAnticlockWiseRotation 174s linear infinite;
+}
+
+.jupiterOrbit{
+    width: calc(var(--max-orbit) - 200px);
+    aspect-ratio: 1;
+    animation: clockWiseOrbiter 72s linear infinite;
+}
+
+.theJupiter{
+    width: 90px;
+    height: 90px;
+    left: 84%;
+    top: 20%;
+}
+
+.marsOrbit{
+    width: calc(var(--max-orbit) - 290px);
+    aspect-ratio: 1;
+    animation: clockWiseOrbiter 11.28s linear infinite;
+}
+
+.theMars{
+    width: 39px;
+    height: 39px;
+    left: 40%;
+    top: 94%;
+}
+
+.earthOrbit{
+    width: calc(var(--max-orbit) - 340px);
+    aspect-ratio: 1; 
+    animation: clockWiseOrbiter 6s linear infinite;
+}
+
+.theEarth{
+    width: 43px;
+    height: 43px;
+    left: 85%;
+    top: 70%;
+}
+
+.venusOrbit{
+    width: calc(var(--max-orbit) - 380px);
+    aspect-ratio: 1; 
+    animation: anticlockWiseOrbiter 3.78s linear infinite;
+}
+
+.theVenus{
+    width: 45px;
+    height: 33px;
+    left: 50%;
+    top: -6.2%;
+}
+
+.mercuryOrbit{
+    width: calc(var(--max-orbit) - 420px);
+    aspect-ratio: 1;  
+    animation: clockWiseOrbiter 1.5s linear infinite;
+}
+
+.theMercury{
+    width: 35px;
+    height: 28px;
+    left: -2%;
+    top: 20%;
+}
+
+@keyframes clockWiseOrbiter {
+    0% {
+        transform: translate(-50%, -50%) rotateZ(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotateZ(360deg);
+    }
+}
+
+@keyframes anticlockWiseOrbiter {
+    0% {
+        transform: translate(-50%, -50%) rotateZ(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotateZ(-360deg);
+    }
+}
+
+@keyframes satarunAnticlockWiseRotation {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(-360deg);
+    }
+}
+
+.sect3-home{
+    width: 100%;
+    min-height: 130vh;
+    position: relative;
+    isolation: isolate;
+    background: radial-gradient(circle, var(--text-clr2) 3%, transparent 2%);
+    background-size: 3em 3em;
+    padding-top: 2.6%;
+    padding-inline: var(--gen-padding);
+    overflow-x: hidden;
+}
+
+.sect3-home h1, .sect4-home h1, .sect5-home h1{
+    font-size: 3.2em;
+    font-family: var(--font-unica);
+    color: var(--text-clr1);
+    font-weight: 400;
+}
+
+.marsWeatherDataCntn{
+    width: 80%;
+    height: 570px;
+    position: relative;
+    overflow: hidden;
+    margin-inline: auto;
+    margin-top: 2em;
+    border-radius: 10px;
+    background-color: var(--bg1-opac05);
+    transform-origin: center;
+    clip-path: polygon(0% 0%, 35% 0%, 40% 3%, 60% 3%, 65% 0%, 100% 0%, 100% 35%, 99% 40%, 99% 60%, 100% 65%, 100% 100%, 65% 100%, 60% 97%, 40% 97%, 35% 100%, 0% 100%, 0% 65%, 1% 60%, 1% 40%, 0% 35%, 0% 0%);
+}
+
+.marsWeatherDataCntn iframe{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+@media screen and (max-width: 1435px)  {
+    .marsWeatherDataCntn{
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1199px)  {
+    .marsWeatherDataCntn{
+        height: 530px;
+    }
+}
+
+@media screen and (max-width: 749px)  {
+    .marsWeatherDataCntn{
+        height: 500px;
+    }
+}
+
+.hintcard{
+    position: absolute;
+    top: 6%;
+    right: 10%;
+    width: 260px;
+    z-index: 8;
+    border-radius: 10px;
+    background-color: var(--bg2-opac07);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.hintcard .first{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+}
+
+.hintcard .first .coloredtile{
+    height: 10px;
+    aspect-ratio: 1;
+    border-radius: 3px;
+}
+
+.coloredtile.brown{
+    background-color: var(--brown-clr1);
+}
+
+.sect4-home{
+    width: 100%;
+    height: max-content;
+    position: relative;
+    isolation: isolate;
+    background: radial-gradient(circle, var(--text-clr2) 3%, transparent 2%);
+    background-size: 3em 3em;
+}
+
+.subSect4-home{
+    padding-top: 2.6%;
+    padding-inline: var(--gen-padding);
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-rows: max-content 1fr;
+    background: linear-gradient(to bottom, var(--bg1-opac02), 40%, var(--dark-clr1));
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.subSect4-home .animationControl{
+    position: absolute;
+    top: 10%;
+    right: var(--gen-padding);
+    z-index: 4;
+    width: 45px;
+    aspect-ratio: 1;
+    background-color: #cd96e942;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.animationControl i{
+    font-size: 1.7em;
+    color: var(--text-clr1);
+}
+
+.articlesDisplayerHome{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.articlesCntn{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.articleUnit{
+    width: 100px;
+    height: 300px;
+    border-radius: 90px;
+    background-size: cover;
+    position: relative;
+    isolation: isolate;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    padding: 15px 24px;
+    gap: 20px;
+    background-color: var(--bg2-opac05);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    transition: flex 0.45s ease-in-out;
+}
+
+.darkener{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--bg2-opac05);
+    width: 100%;
+    height: 100%;
+}
+
+.articleUnit:focus-within {
+    flex: 1;
+    border-radius: 20px;
+    transition: flex 0.35s ease-in-out;
+}
+
+.articleUnit:focus-within .articleTopic {
+    display: block;
+    opacity: 1;
+}
+
+.articleUnit:focus-within .icofont-minus{
+    display: block;
+}
+
+.articleUnit:focus-within .icofont-plus{
+    display: none;
+}
+
+.articleTopic{
+    display: none;
+    opacity: 0;
+    z-index: 2;
+    transition: all 0.5s ease;
+}
+
+
+.article1{
+    background-image: url(/io.webp);
+}
+
+.article2{
+    background-image: url(/solarsystem2.jpg);
+}
+
+.article3{
+    background-image: url(/TRAPPIST-1.jpg);
+}
+
+.article4{
+    background-image: url(/enceladus.webp);
+}
+
+
+
+.expand{
+    width: 50px;
+    aspect-ratio: 1;
+    border: 1px solid var(--borderline-clr);
+    border-radius: 50%;
+    background-color: var(--bg1-opac05);
+    backdrop-filter: blur(12px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.expand i{
+    font-size: 1.2em;
+    color: var(--text-clr2);
+}
+
+.expand .icofont-plus{
+    display: block;
+}
+
+.expand .icofont-minus{
+    display: none;
+}
+
+
+.articleTopic a{
+    font-size: 1.8em;
+    font-weight: 400;
+    color: var(--text-clr1);
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; 
+    white-space: pre-wrap;
+}
+
+.articleTopic a:hover{
+    text-decoration: underline;
+}
+
+.articleTopic p{
+    font-size: 0.89em;
+    color: var(--text-clr1);
+    font-weight: 400;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; 
+    white-space: pre-wrap;
+    margin-top: 3px;
+}
+
+@keyframes articleScaler {
+    0%{
+        transform: scaleY(1);
+    }
+
+    100%{
+        transform: scaleY(0.83);
+    }
+}
+
+.sect5-home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding-top: 2.6%;
+    padding-inline: var(--gen-padding);
+    isolation: isolate;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to top, var(--dark-clr1), #090208d2, #170d16ce, #090208b8), url(https://mars.nasa.gov/assets/mrn/mrn_splash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contactCntnHome{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: auto;
+    gap: 2%;
+}
+
+.contactForm{
+    height: max-content;
+    padding-block: 25px;
+    padding-inline: 4%;
+    background-color: var(--dark-clr2);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    border-radius: 10px;
+    clip-path: polygon(0% 0%, 86% 0%, 91% 3%, 100% 3%, 100% 97%, 91% 97%, 86% 100%, 0% 100%, 0% 65%, 1% 60%, 1% 40%, 0% 35%, 0% 0%);
+}
+
+.mailInputCntn{
+    --input-Height: 74px;
+
+    height: var(--input-Height);
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+    isolation: isolate;
+    background-color: var(--dark-clr2);
+}
+
+.mailInputCntn:focus-within .animatedInputBorder,
+.textareaCntn:focus-within .animatedInputBorder
+{
+    transform: translateY(0px);
+    background-color: var(--sec-clr);
+}
+
+.NameInput{
+    width: 100%;
+    height: 100%;
+    font-size: 1.4em;
+    color: var(--text-clr1);
+    font-weight: 300;
+    background-color: var(--dark-clr2);
+    padding-left: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    opacity: 1;
+    outline: none;
+    border: none;
+}
+
+.animatedInputBorder{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-clr);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: translateY(calc(var(--input-Height) - 1px));
+    transition: transform 0.4s ease-out, background-color 0.35s ease;
+}
+
+.textareaCntn{
+    --input-Height: 140px;
+
+    height: var(--input-Height);
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+    isolation: isolate;
+    background-color: var(--dark-clr2);
+}
+
+.textareaCntn textarea{
+    width: 100%;
+    height: 100%;
+    background-color: var(--dark-clr2);
+    border: none;
+    outline: none;
+    font-size: 1.3em;
+    font-weight: 300;
+    color: var(--text-clr1);
+    resize: none;
+    padding-inline: 12px;
+    padding-block: 10px;
+    border-radius: 10px;
+}
+
+.submitFeedbackBtn{
+    background-color: var(--sec-clr);
+    border: none;
+    outline: none;
+    color: var(--text-clr1);
+    font-family: var(--font-unica);
+    padding: 7px 25px;
+    width: max-content;
+    clip-path: var(--clip-type1);
+    cursor: pointer;
+    font-size: 1.05em;
+    margin-left: 3px;
+}
+
+
+.complementaryCard{
+    background-image: url(https://mars.nasa.gov/assets/footer_bg.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 5%;
+    isolation: isolate;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    clip-path: polygon(9% 3%, 14% 0%, 100% 0%, 100% 35%, 99% 40%, 99% 60%, 100% 65%, 100% 100%, 14% 100%, 9% 97%, 0% 97%, 0% 3%);
+}
+
+.complementaryCard h3{
+    width: 85%;
+    font-size: 2.1em;
+    font-weight: 300;
+    color: var(--text-clr1);
+    font-family: var(--font-jost);
+}
+
+.complementaryCard p{
+    font-size: 0.94em;
+    font-weight: 400;
+    color: var(--text-clr2);
+    margin-top: 9px;
+}
+
+.complementaryCard .filterCard{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--bg2-opac05);
+    z-index: -1;
+}
+
+.footerHome{
+    background: var(--dark-clr1);
+    height: max-content;
+    width: 100%;
+    transform-origin: bottom;
+}
+
+.subfooter{
+    width: 100%;
+    background-image: linear-gradient(to bottom, var(--dark-clr2), var(--dark-clr2), var(--dark-clr2), var(--bg2-opac07), var(--bg2-opac05), var(--bg1-opac02)) , url(/plutoUtil.jpg);
+    height: max-content;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-block: 6%;
+    padding-inline: var(--gen-padding);
+    clip-path: polygon(0% 0%, 35% 0%, 40% 2%, 60% 2%, 65% 0%, 100% 0%, 100% 100%, 0% 100%);
+    transform-origin: bottom;
+}
+
+.footerLinkOptions{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding-top: 1.7em;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.linkCouple{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 250px;
+}
+
+.linkUnit{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.linkHeader{
+    background-color: var(--dark-clr1);
+    clip-path: var(--clip-type1);
+    color: var(--text-clr1);
+    width: max-content;
+    margin-inline: auto;
+    transition: background-size 0.5s ease-in-out;
+}
+
+
+.linkHeader.solarsystem{
+    background-image: linear-gradient(to bottom, #3b015686, #9305d47d), url(/solarsystemLarge.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+
+.linkHeader.planets{
+    background-image: linear-gradient(to bottom, #4d3b0086, #b165017d), url(/jupiterHiRes.jpg);
+    background-size: 100%;
+    background-position: center top;
+}
+
+.linkHeader.dwarfplanets{
+    background-image: linear-gradient(to bottom, #3a140086, #b147017d), url(/pluto.png);
+    background-size: 100%;
+    background-position: center top;
+}
+
+.linkHeader.asteroids{
+    background-image: linear-gradient(to bottom, #3b444686, #6b87877d), url(/4_vesta.jpg);
+    background-size: 100%;
+    background-position: center 15%;
+}
+
+.linkHeader.moons{
+    background-image: linear-gradient(to bottom, #00403a86, #01b1ae7d), url(/enceladus.webp);
+    background-size: 100%;
+    background-position: center top;
+}
+
+.linkHeader.spacemissions{
+    background-image: linear-gradient(to bottom, #30300086, #c0ad1b7d), url(/Voyager_1.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+
+.linkHeader a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 25px;
+    font-size: 1.15em;
+    font-family: var(--font-unica);
+}
+
+.linkHeader:hover{
+    background-size: 150%;
+}
+
+
+
+.linkList{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+
+.unitLink{
+    font-size: 0.95em;
+    color: var(--text-clr1);
+    font-weight: 400;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 4px 10px;
+    width: max-content;
+}
+
+.unitLink .coloredtile{
+    width: 2px;
+    height: 4px;
+    border-radius: 3px;
+}
+
+.lightred{
+    background-color: rgb(255, 119, 0);
+    color: rgb(255, 119, 0);
+}
+
+.blue1{
+    background-color: #44a6fc;
+    color: #44a6fc;
+}
+
+.blue2{
+    background-color: #0061b6;
+    color: #0061b6;
+}
+
+.brown1{
+    background-color: rgb(231, 86, 3);
+    color: rgb(231, 86, 3);
+}
+
+.brown2{
+    background-color: brown;
+    color: brown;
+}
+
+.lightbrown{
+    background-color: var(--brown-clr1);
+    color: var(--brown-clr1);
+}
+
+.brown3{
+    background-color: #b68e2a;
+    color: #b68e2a;
+}
+
+.brown4{
+    background-color: rgb(253, 198, 126);
+}
+
+.yellow{
+    background-color: rgb(199, 199, 0);
+}
+
+.grey{
+    background-color: #6b8787;
+}
+
+.grey2{
+    background-color: rgb(111, 111, 111);
+}
+
+.grey3{
+    background-color: #7e6f6f;
+}
+
+.pitchblack{
+    background-color: rgb(17, 0, 21);
+}
+
+.darkblue{
+    background-color: rgb(13, 0, 43);
+}
+
+.unitLink:hover p{
+    text-decoration: underline;
+    text-decoration-color: inherit;
+}
+
+
+.footerDetails{
+    margin-top: 2em;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-end;
+    padding-top: 3em;
+}
+
+.footerDivider{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    height: 1px;
+    transform: scaleX(0.8);
+    transform-origin: center;
+    transition: transform 0.4s ease-in-out;
+    background: linear-gradient(to right, transparent, var(--text-clr2), transparent);
+}
+
+.footerheightToggler{
+    width: 40px;
+    aspect-ratio: 1;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid var(--borderline-clr);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.footerheightToggler i{
+    font-size: 1.6em;
+    color: var(--text-clr1);
+    transition: transform 0.45s ease-in-out;
+}
+
+.pageLinks{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.pageLinks p{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.pageLinks p i{
+    font-size: 1.3em;
+    color: var(--primary-clr);
+}
+
+.pageLinks p span{
+    font-size: 0.92em;
+    color: var(--text-clr2);
+    font-weight: 300;
+}
+
+.twitter{
+    width: 30px;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: transparent;
+    clip-path: var(--clip-type1);
+    border-radius: 4px;
+}
+
+.twitter i{
+    font-size: 1.4em;
+    color: var(--text-clr1);
+    transition: color 0.3s ease;
+}
+
+.footerDetails > p{
+    font-size: 0.95em;
+    font-weight: 300;
+    color: var(--text-clr1);
+}
+
+.twitter:hover i{
+    color: var(--primary-clr);
+}
+
+
+
+

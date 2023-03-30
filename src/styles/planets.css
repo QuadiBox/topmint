@@ -1,0 +1,137 @@
+:root {
+    --primary-clr: #a706f1;
+    --sec-clr: #ff5882;
+    --brown-clr1: #FF964E;
+    --brown-clr2: #FFCB4B;
+    --blue-clr: #0086FF;
+    --text-clr2: #f9d9f9;
+    --text-clr1: #FFF6FF;
+    --dark-clr1: #090208;
+    --dark-clr2: #241822;
+    --secBg-clr: #42273F;
+    --bg1-opac05: #130711b2;
+    --bg1-opac09: #130711e6;
+    --bg1-opac02: #1307115d;
+    --bg2-opac05: #2418227b;
+    --bg2-opac02: #2418224e;
+    --bg2-opac07: #241822da;
+    --bg2-opac09: #241822ea;
+
+    --borderline-clr: rgba(128, 128, 128, 0.401);
+    --borderline-clr2: rgba(128, 128, 128, 0.106);
+    
+    --gen-padding: 10%;
+    --small-padding: 5%;
+
+    --clip-type1: polygon(0% 0%, 35% 0%, 40% 3%, 60% 3%, 65% 0%, 100% 0%, 100% 35%, 99% 40%, 99% 60%, 100% 65%, 100% 100%, 65% 100%, 60% 97%, 40% 97%, 35% 100%, 0% 100%, 0% 65%, 1% 60%, 1% 40%, 0% 35%, 0% 0%);
+    --clip-type2: polygon(5% 0%, 35% 0%, 40% 3%, 60% 3%, 65% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 65% 100%, 60% 97%, 40% 97%, 35% 100%, 5% 100%, 0% 95%, 0% 5%);
+
+    --font-unica: 'Unica One', sans-serif;
+    --font-jost: 'Jost', sans-serif;
+}
+
+
+.planetsBasicPage{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.planetsBasicPage > h1{
+    font-size: 3em;
+    color: paleturquoise;
+}
+
+.sect1-search{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(transparent, var(--bg2-opac02), var(--bg1-opac02), var(--bg1-opac05)), url(/bgImg3.jpg);
+    background-size: cover;
+    background-position: center 50%;
+    display: grid;
+    grid-template-rows: 60px 1fr max-content;
+}
+
+.theSearch{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theSearch h1{
+    font-size: 6.2em;
+    color: var(--text-clr2);
+    font-family: var(--font-unica);
+    font-weight: 400;
+}
+
+.searchLinks{
+    width: 100%;
+    background-color: var(--bg1-opac02);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border-top: 1px solid var(--borderline-clr);
+    padding-inline: var(--gen-padding);
+    display: flex;
+    gap: 15px;
+    padding-block: 1.2em;
+    overflow: hidden;
+}
+
+.searchOptCntn{
+    height: 100%;
+    width: max-content;
+}
+
+.searchlinkUnit{
+    background-color: var(--bg1-opac09);
+    backdrop-filter: blur(17px);
+    -webkit-backdrop-filter: blur(17px);
+    clip-path: var(--clip-type1);
+    display: grid;
+    place-content: center;
+    padding-inline: 14px;
+    padding-block: 13px;
+    isolation: isolate;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.searchlinkUnit::after{
+    content: "";
+    width: 150%;
+    height: 150%;
+    background-color: #a706f11d;
+    position: absolute;
+    top: 50%;
+    left:  50%;
+    z-index: -1;
+    border-radius: 50%; 
+    transition: all 0.4s ease;
+}
+
+.searchlinkUnit:hover::after{
+    top: -22%;
+    left: -22%;
+    background-color: #a706f196;
+}
+
+.searchlinkUnit h2{
+    font-size: 1.3em;
+    color: var(--text-clr2);
+    font-weight: 300;
+    font-family: var(--font-unica);
+}
+
+.searchlinkUnit p{
+    font-size: 0.95em;
+    color: var(--text-clr1);
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+
