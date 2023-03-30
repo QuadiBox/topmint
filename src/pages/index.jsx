@@ -321,8 +321,6 @@ export default function Home({ apod }) {
 }
 
 export async function getServerSideProps () {
-  const apiKey = process.env.NASA_API_KEY;
-
   const myDate = new Date();
   const dayOfMonth = myDate.getDate();
   const month = myDate.getMonth();
