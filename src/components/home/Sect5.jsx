@@ -119,7 +119,7 @@ const Sect5 = () => {
 
 
             <div style={{overflowY: "hidden"}}><motion.h1 variants={childVarUp}>{text}</motion.h1></div>
-            <motion.p variants={childVarSlide} className="instruction">...we'll love to know what you think about this website</motion.p>
+            <motion.p variants={childVarSlide} className="instruction">...we&apos;ll love to know what you think about this website</motion.p>
 
             <motion.div variants={parentVariant} className="contactCntnHome">
                 <motion.form variants={childFullSlideLeft} className="contactForm">
@@ -130,7 +130,7 @@ const Sect5 = () => {
                             required
                             autoComplete="true"
                             spellCheck="false"
-                            placeholder='Fullname'
+                            placeholder="Fullname"
                         />
                         <div className="animatedInputBorder"></div>
                     </motion.div>
@@ -142,7 +142,7 @@ const Sect5 = () => {
                             required
                             autoComplete="true"
                             spellCheck="false"
-                            placeholder='Email'
+                            placeholder="Email"
                         />
                         <div className="animatedInputBorder"></div>
                     </motion.div>
@@ -152,12 +152,12 @@ const Sect5 = () => {
                         <div className="animatedInputBorder"></div>
                     </motion.div>
 
-                    <motion.button variants={childVarUp} type="submit" className='submitFeedbackBtn afterHover'>Send</motion.button>
+                    <motion.button variants={childVarUp} type="submit" className="submitFeedbackBtn afterHover">Send</motion.button>
                 </motion.form>
 
                 <motion.div variants={childFullSlideRight} className="complementaryCard">
                     <div className="filterCard"></div>
-                    <h3>" The sky is not the limit. There are footprints on the Moon and beyond. "</h3>
+                    <h3>&quot; The sky is not the limit. There are footprints on the Moon and beyond. &quot;</h3>
                     <p>- Buzz Aldrin, 2009</p>
                 </motion.div>
             </motion.div>

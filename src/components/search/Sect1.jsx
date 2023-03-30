@@ -74,22 +74,22 @@ const Sect1 = () => {
 
     return (
 
-        <motion.section initial="init" animate="finale" variants={ParentVar} className='sect1-search'>
+        <motion.section initial="init" animate="finale" variants={ParentVar} className="sect1-search">
             <Navbar/>
             <div className="theSearch">
                 <div style={{overflowY: "hidden"}}><motion.h1 variants={slideUp}>Search</motion.h1></div>
             </div>
             <div className="searchLinks">
-                <motion.div variants={swipe} className='searchOptCntn'>
+                <motion.div variants={swipe} className="searchOptCntn">
                     <Link href={"/search/apod"} className="searchlinkUnit">
                         <h2>A.P.O.D.</h2>
-                        <p>Browse through all the past astronomy pictures of the day, just input the day date and get to view that day's A.P.O.D.</p>
+                        <p>Browse through all the past astronomy pictures of the day, just input the day date and get to view that day&apos;s A.P.O.D.</p>
                     </Link>
                 </motion.div>
                 <motion.div variants={swipe} className="searchOptCntn">
                     <Link href={"/search/image_video_library"} className="searchlinkUnit">
                         <h2>Image/Video Library</h2>
-                        <p>Browse through a vast data of images and videos from NASA's images and videos library. By passing a search query, you gain acces to all corresponding image/video data in the NASA image database.</p>
+                        <p>Browse through a vast data of images and videos from NASA&apos;s images and videos library. By passing a search query, you gain acces to all corresponding image/video data in the NASA image database.</p>
                     </Link>
                 </motion.div>
                 <motion.div variants={swipe} className="searchOptCntn">
@@ -101,7 +101,7 @@ const Sect1 = () => {
                 <motion.div variants={swipe} className="searchOptCntn">
                     <Link href={"/search/stars_quest"} className="searchlinkUnit">
                         <h2>Stars Quest</h2>
-                        <p>Similar to our "Planet Query" search option but only gets you data about stars and their constellations.</p>
+                        <p>Similar to our &quot;Planet Query&quot; search option but only gets you data about stars and their constellations.</p>
                     </Link>
                 </motion.div>
             </div>

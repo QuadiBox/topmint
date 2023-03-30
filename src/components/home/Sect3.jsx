@@ -114,9 +114,9 @@ const Sect3 = () => {
             <div className="divider"></div>
 
 
-            <div className='headTextCntn'>
+            <div className="headTextCntn">
                 <div style={{overflowY: "hidden"}}><motion.h1 variants={childVarUp}>{text}</motion.h1></div>
-                <motion.p variants={childVarSlide} className="instruction">...data gathered by NASA's Curiosity Rover</motion.p>
+                <motion.p variants={childVarSlide} className="instruction">...data gathered by NASA&apos;s Curiosity Rover</motion.p>
             </div>
 
             <motion.div variants={scaleVertival} className="marsWeatherDataCntn">

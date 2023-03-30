@@ -35,7 +35,7 @@ const Sect4 = () => {
     };
 
     useEffect(() => {
-        if ( inView ) {
+        if ( inView2 ) {
             handleWordEffect();
         }
 
@@ -106,23 +106,23 @@ const Sect4 = () => {
                     <motion.div variants={slideleft} tabIndex="100" className="articleUnit article1">
                         <div className="darkener"></div>
                         <div className="expand"><i className="icofont-plus"></i> <i className="icofont-minus"></i></div>
-                        <div className='articleTopic'>
+                        <div className="articleTopic">
                             <Link href={"/articles/Io"}>Io: A World of Constant Chaos</Link>
-                            <p>A detailed account of jupiter's moon Io and it's raging volcanic activities</p>
+                            <p>A detailed account of jupiter&apos;s moon Io and it&apos;s raging volcanic activities</p>
                         </div>
                     </motion.div>
                     <motion.div variants={slideleft} tabIndex="200" className="articleUnit article2">
                         <div className="darkener"></div>
                         <div className="expand"><i className="icofont-plus"></i> <i className="icofont-minus"></i></div>
-                        <div className='articleTopic'>
+                        <div className="articleTopic">
                             <Link href={"/articles/solarSystem"}>Solar System History 101</Link>
-                            <p>From where we came to what we've been through and where we are.</p>
+                            <p>From where we came to what we&apos;ve been through and where we are.</p>
                         </div>
                     </motion.div>
                     <motion.div variants={slideleft} tabIndex="300" className="articleUnit article3">
                         <div className="darkener"></div>
                         <div className="expand"><i className="icofont-plus"></i> <i className="icofont-minus"></i></div>
-                        <div className='articleTopic'>
+                        <div className="articleTopic">
                             <Link href={"/articles/arewealone"}>Are we alone?</Link>
                             <p>Walking through the adventures of space exploration and finding signs of extraterestrial lifeforms.</p>
                         </div>
@@ -130,15 +130,15 @@ const Sect4 = () => {
                     <motion.div variants={slideleft} tabIndex="400" className="articleUnit article4">
                         <div className="darkener"></div>
                         <div className="expand"><i className="icofont-plus"></i> <i className="icofont-minus"></i></div>
-                        <div className='articleTopic'>
+                        <div className="articleTopic">
                             <Link href={"/articles/enceladus"}>Enceladus: The Shiny World of Ice</Link>
-                            <p>Detailed accounts of the Voyager 1, 2 and Cassini Huygens missions discoveries about Saturn's Moon Enceladus.</p>
+                            <p>Detailed accounts of the Voyager 1, 2 and Cassini Huygens missions discoveries about Saturn&apos;s Moon Enceladus.</p>
                         </div>
                     </motion.div>
                     <motion.div variants={slideleft} tabIndex="500" style={{backgroundImage: "url(/carinaNebula.jpg)"}} className="articleUnit article5">
                         <div className="darkener"></div>
                         <div className="expand"><i className="icofont-plus"></i> <i className="icofont-minus"></i></div>
-                        <div className='articleTopic'>
+                        <div className="articleTopic">
                             <Link href={"/articles"}>More...</Link>
                             <p>Get access to all space-related articles written by our amazing writing teams.</p>
                         </div>
