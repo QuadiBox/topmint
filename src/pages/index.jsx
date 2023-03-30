@@ -336,7 +336,7 @@ export async function getServerSideProps () {
 
 
 
-  const response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=${apiKey}&date=${ddmmyyyy}`);
+  const response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=enHpDWxtD5yefBSZ24PQey3jlAkE24zKrHDl6Eq4&date=${ddmmyyyy}`);
   const data = await response.json();
 
   return {
