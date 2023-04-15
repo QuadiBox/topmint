@@ -27,7 +27,7 @@ const Index = () => {
 
     return (
         <div className='planetsBasicPage'>
-            <h1>This is the planets page</h1>
+            <h1>This is the moons page</h1>
             <Link href={"/search"}>search page</Link>
 
             <TransitionPage animateState={"initial"}/>

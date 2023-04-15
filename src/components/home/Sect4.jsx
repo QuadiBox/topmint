@@ -94,10 +94,8 @@ const Sect4 = () => {
 
         <div className="subSect4-home">
 
-            <div>
-                <div style={{overflowY: "hidden"}}><motion.h1 variants={childVarUp}>{text}</motion.h1></div>
-                <motion.p variants={childVarSlide} className="instruction">...get to read some exciting news about our universe and all it contains</motion.p>
-            </div>
+            <div style={{overflowY: "hidden"}}><motion.h1 variants={childVarUp}>{text}</motion.h1></div>
+            <motion.p variants={childVarSlide} className="instruction">...get to read some exciting news about our universe and all it contains</motion.p>
             
 
             <div className="articlesDisplayerHome">

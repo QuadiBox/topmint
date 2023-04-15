@@ -392,151 +392,149 @@ const Sect2 = () => {
 
 
 
-  return (
-    <motion.section ref={sectionRef} variants={parentVar} animate="clad" className="sect2-home">
-      <div className="banner"></div>
-      <div className="divider"></div>
+    return (
+      <motion.section ref={sectionRef} variants={parentVar} animate="clad" className="sect2-home">
+        <div className="banner"></div>
+        <div className="divider"></div>
 
-      <div>
         <div style={{overflowY: "hidden"}}><motion.h1 variants={childVarUp}>{text}</motion.h1></div>
         <motion.p variants={childVarSlide} className="instruction">...click on any of the planets to view a litte data about it</motion.p>
-      </div>
 
-      <div className="taskbar">
-        <motion.div variants={scaler} className="animationControl" onClick={() => {setAnimationState(prev => !prev)}}><i className={`${animationState ? "icofont-ui-pause": "icofont-ui-play"}`}></i></motion.div>
-        <AnimatePresence>
-          {displayToggler && (
-            <motion.div variants={parentVariant} initial="init" animate="finale" exit="exit" className="planetDataDisplay" style={{backgroundImage: `url(${displayedData?.displayImage})`}}>
-              <motion.div variants={parentFadeIn} className="thePlanetdatas" style={{overflow: "hidden"}}>
-                <motion.div variants={scaleUp} onClick={handleCloseDataDisplay} className="planetDataDisplayerCloser"><i className="icofont-close"></i></motion.div>
-                <motion.div variants={fadeInOut}  className="top" style={{backgroundImage: `url(${displayedData?.displayImage})`}}></motion.div>
-                <div className="planetdatabottom">
-                  <div style={{overflowY: "hidden"}}><motion.h2 variants={slideUp}>{displayedData?.name} [<span> {displayedData?.astroSign} </span>]</motion.h2></div>
-                  <motion.h3 variants={swipeRight}>{displayedData?.note}</motion.h3>
-                  <motion.p variants={swipeRight}>Location: <span>{displayedData?.location}</span></motion.p>
-                  <motion.p variants={swipeRight}>Satellites: <span>{displayedData?.satellites}</span></motion.p>
-                </div>
+        <div className="taskbar">
+          <motion.div variants={scaler} className="animationControl" onClick={() => {setAnimationState(prev => !prev); console.log(23);}}><i className={`${animationState ? "icofont-ui-pause": "icofont-ui-play"}`}></i></motion.div>
+          <AnimatePresence>
+            {displayToggler && (
+              <motion.div variants={parentVariant} initial="init" animate="finale" exit="exit" className="planetDataDisplay" style={{backgroundImage: `url(${displayedData?.displayImage})`}}>
+                <motion.div variants={parentFadeIn} className="thePlanetdatas" style={{overflow: "hidden"}}>
+                  <motion.div variants={scaleUp} onClick={handleCloseDataDisplay} className="planetDataDisplayerCloser"><i className="icofont-close"></i></motion.div>
+                  <motion.div variants={fadeInOut}  className="top" style={{backgroundImage: `url(${displayedData?.displayImage})`}}></motion.div>
+                  <div className="planetdatabottom">
+                    <div style={{overflowY: "hidden"}}><motion.h2 variants={slideUp}>{displayedData?.name} [<span> {displayedData?.astroSign} </span>]</motion.h2></div>
+                    <motion.h3 variants={swipeRight}>{displayedData?.note}</motion.h3>
+                    <motion.p variants={swipeRight}>Location: <span>{displayedData?.location}</span></motion.p>
+                    <motion.p variants={swipeRight}>Satellites: <span>{displayedData?.satellites}</span></motion.p>
+                  </div>
+                </motion.div>
               </motion.div>
+            )}
+          </AnimatePresence>
+        </div>
+
+        <motion.div variants={slideleft} className="hintBar">
+          <div className="first">
+            <span className="coloredtile purple"></span>
+            <p>A.U. (Astronomical Unit) = 149.6 million km</p>
+          </div>
+          <div className="first">
+            <span className="coloredtile white"></span>
+            <p>Planets sizes are not to scale</p>
+          </div>
+          <div className="first">
+            <span className="coloredtile orange"></span>
+            <p>Orbital periods are relatively accurate (6s = 365days)</p>
+          </div>
+        </motion.div>
+
+        <div className="solarDisplay">
+          <div className="solarCntn">
+            <motion.div variants={fadeIn} className="neptuneOrbit orbit" style={{animationPlayState: `${animationState ? "running" : "paused"}`}}>
+              {" "}
+              <Image
+                src="/neptune2png.png"
+                className="theNeptune planet"
+                width={315}
+                height={200}
+                alt="neptune"
+                onClick={() => {handleDisplayedData(planetData[8])}}
+              />
             </motion.div>
-          )}
-        </AnimatePresence>
-      </div>
-
-      <motion.div variants={slideleft} className="hintBar">
-        <div className="first">
-          <span className="coloredtile purple"></span>
-          <p>A.U. (Astronomical Unit) = 149.6 million km</p>
+            <motion.div variants={fadeIn} className="uranusOrbit orbit" style={{animationPlayState: `${animationState ? "running" : "paused"}`}}>
+              <Image
+                src="/uranus.png"
+                className="theUranus planet"
+                width={200}
+                height={200}
+                alt="uranus"
+                onClick={() => {handleDisplayedData(planetData[7])}}
+              />
+            </motion.div>
+            <motion.div variants={fadeIn} className="saturnOrbit orbit" style={{animationPlayState: `${animationState ? "running" : "paused"}`}}>
+              <Image
+                src="/saturn.png"
+                className="theSaturn planet"
+                width={200}
+                height={200}
+                alt="saturn"
+                style={{animationPlayState: `${animationState ? "running" : "paused"}`}}
+                onClick={() => {handleDisplayedData(planetData[6])}}
+              />
+            </motion.div>
+            <motion.div variants={fadeIn} className="jupiterOrbit orbit" style={{animationPlayState: `${animationState ? "running" : "paused"}`}}>
+              <Image
+                src="/jupiter1.png"
+                className="theJupiter planet"
+                width={200}
+                height={200}
+                alt="jupiter"
+                onClick={() => {handleDisplayedData(planetData[5])}}
+              />
+            </motion.div>
+            <motion.div variants={fadeIn} className="marsOrbit orbit" style={{animationPlayState: `${animationState ? "running" : "paused"}`}}>
+              <Image
+                src="/mars2png.png"
+                className="theMars planet"
+                width={200}
+                height={200}
+                alt="mars"
+                onClick={() => {handleDisplayedData(planetData[4])}}
+              />
+            </motion.div>
+            <motion.div variants={fadeIn} className="earthOrbit orbit" style={{animationPlayState: `${animationState ? "running" : "paused"}`}}>
+              <Image
+                src="/earth1.png"
+                className="theEarth planet"
+                width={200}
+                height={200}
+                alt="earth"
+                onClick={() => {handleDisplayedData(planetData[3])}}
+              />
+            </motion.div>
+            <motion.div variants={fadeIn} className="venusOrbit orbit" style={{animationPlayState: `${animationState ? "running" : "paused"}`}}>
+              <Image
+                src="/venus.png"
+                className="theVenus planet"
+                width={260}
+                height={200}
+                alt="venus"
+                onClick={() => {handleDisplayedData(planetData[2])}}
+              />
+            </motion.div>
+            <motion.div variants={fadeIn} className="mercuryOrbit orbit" style={{animationPlayState: `${animationState ? "running" : "paused"}`}}>
+              <Image
+                src="/mercury_new.png"
+                className="theMercury planet"
+                width={260}
+                height={200}
+                alt="mercury"
+                onClick={() => {handleDisplayedData(planetData[1])}}
+              />
+            </motion.div>
+            <motion.div variants={fadeIn} className="sunOrbit" style={{animationPlayState: `${animationState ? "running" : "paused"}`}}>
+              <Image
+                src="/sun.png"
+                className="theSun"
+                width={300}
+                height={300}
+                alt="sun"
+                onClick={() => {handleDisplayedData(planetData[0])}}
+              />
+              <div className="solarFlare1" style={{animationPlayState: `${animationState ? "running" : "paused"}`}}></div>
+              <div className="solarFlare2" style={{animationPlayState: `${animationState ? "running" : "paused"}`}}></div>
+            </motion.div>
+          </div>
         </div>
-        <div className="first">
-          <span className="coloredtile white"></span>
-          <p>Planets sizes are not to scale</p>
-        </div>
-        <div className="first">
-          <span className="coloredtile orange"></span>
-          <p>Orbital periods are relatively accurate (6s = 365days)</p>
-        </div>
-      </motion.div>
-
-      <div className="solarDisplay">
-        <div className="solarCntn">
-          <motion.div variants={fadeIn} className="neptuneOrbit orbit" style={{animationPlayState: `${animationState ? "running" : "paused"}`}}>
-            {" "}
-            <Image
-              src="/neptune2png.png"
-              className="theNeptune planet"
-              width={315}
-              height={200}
-              alt="neptune"
-              onClick={() => {handleDisplayedData(planetData[8])}}
-            />
-          </motion.div>
-          <motion.div variants={fadeIn} className="uranusOrbit orbit" style={{animationPlayState: `${animationState ? "running" : "paused"}`}}>
-            <Image
-              src="/uranus.png"
-              className="theUranus planet"
-              width={200}
-              height={200}
-              alt="uranus"
-              onClick={() => {handleDisplayedData(planetData[7])}}
-            />
-          </motion.div>
-          <motion.div variants={fadeIn} className="saturnOrbit orbit" style={{animationPlayState: `${animationState ? "running" : "paused"}`}}>
-            <Image
-              src="/saturn.png"
-              className="theSaturn planet"
-              width={200}
-              height={200}
-              alt="saturn"
-              style={{animationPlayState: `${animationState ? "running" : "paused"}`}}
-              onClick={() => {handleDisplayedData(planetData[6])}}
-            />
-          </motion.div>
-          <motion.div variants={fadeIn} className="jupiterOrbit orbit" style={{animationPlayState: `${animationState ? "running" : "paused"}`}}>
-            <Image
-              src="/jupiter1.png"
-              className="theJupiter planet"
-              width={200}
-              height={200}
-              alt="jupiter"
-              onClick={() => {handleDisplayedData(planetData[5])}}
-            />
-          </motion.div>
-          <motion.div variants={fadeIn} className="marsOrbit orbit" style={{animationPlayState: `${animationState ? "running" : "paused"}`}}>
-            <Image
-              src="/mars2png.png"
-              className="theMars planet"
-              width={200}
-              height={200}
-              alt="mars"
-              onClick={() => {handleDisplayedData(planetData[4])}}
-            />
-          </motion.div>
-          <motion.div variants={fadeIn} className="earthOrbit orbit" style={{animationPlayState: `${animationState ? "running" : "paused"}`}}>
-            <Image
-              src="/earth1.png"
-              className="theEarth planet"
-              width={200}
-              height={200}
-              alt="earth"
-              onClick={() => {handleDisplayedData(planetData[3])}}
-            />
-          </motion.div>
-          <motion.div variants={fadeIn} className="venusOrbit orbit" style={{animationPlayState: `${animationState ? "running" : "paused"}`}}>
-            <Image
-              src="/venus.png"
-              className="theVenus planet"
-              width={260}
-              height={200}
-              alt="venus"
-              onClick={() => {handleDisplayedData(planetData[2])}}
-            />
-          </motion.div>
-          <motion.div variants={fadeIn} className="mercuryOrbit orbit" style={{animationPlayState: `${animationState ? "running" : "paused"}`}}>
-            <Image
-              src="/mercury_new.png"
-              className="theMercury planet"
-              width={260}
-              height={200}
-              alt="mercury"
-              onClick={() => {handleDisplayedData(planetData[1])}}
-            />
-          </motion.div>
-          <motion.div variants={fadeIn} className="sunOrbit" style={{animationPlayState: `${animationState ? "running" : "paused"}`}}>
-            <Image
-              src="/sun.png"
-              className="theSun"
-              width={300}
-              height={300}
-              alt="sun"
-              onClick={() => {handleDisplayedData(planetData[0])}}
-            />
-            <div className="solarFlare1" style={{animationPlayState: `${animationState ? "running" : "paused"}`}}></div>
-            <div className="solarFlare2" style={{animationPlayState: `${animationState ? "running" : "paused"}`}}></div>
-          </motion.div>
-        </div>
-      </div>
-    </motion.section>
-  );
+      </motion.section>
+    );
 };
 
 export default Sect2;

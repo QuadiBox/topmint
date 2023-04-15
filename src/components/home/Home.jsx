@@ -242,7 +242,7 @@ const HomePage = ({ apod = defaultApod }) => {
             <Sect3/>
             <Sect4/>
             <Sect5/>
-            <Footer/>
+            <Footer bg={"#090208"}/>
             
             <TransitionPage animateState={"initial"}/>
             <AnimatePresence mode="wait">

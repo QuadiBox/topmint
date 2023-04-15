@@ -52,6 +52,7 @@
     display: flex;
     align-items: center;
     position: sticky;
+    top: 0;
     z-index: 100;
     justify-content: space-between;
     border-bottom: 1px solid rgba(128, 128, 128, 0.551);
@@ -708,7 +709,7 @@
 
 .apod{
     width: 100%;
-    flex: 1;
+    height: calc(100vh - 60px);
     padding-inline: var(--gen-padding);
     padding-top: 2.6em;
     position: relative;
@@ -774,8 +775,8 @@
 }
 
 .apodVid{
-    width: 105%;
-    height: 105%;
+    width: 103%;
+    height: 103%;
     position: absolute;
     background-size: 100%;
     background-position: center;
@@ -882,7 +883,6 @@
     font-size: 1.15em;
     color: var(--text-clr1);
     font-weight: 300;
-    /* font-family: var(--font-jost); */
 }
 
 .exploreApod{
@@ -921,7 +921,7 @@
     z-index: -1;
     border-radius: 50%;
     transform: translate(-50%, -50%);
-    transition: transform 0.35s ease-in-out;
+    transition: transform 0.45s ease-in-out;
     background-color: var(--primary-clr);
 }
 
@@ -945,12 +945,17 @@
     font-family: var(--font-unica);
     color: var(--text-clr1);
     font-weight: 400;
+    position: relative;
+    z-index: 10;
+    width: max-content;
 }
 
 .instruction{
     font-size: 1.03em;
     font-weight: 300;
     counter-reset: var(--text-clr1);
+    position: relative;
+    z-index: 20;
 }
 
 .divider{
@@ -1145,15 +1150,15 @@
     --max-orbit: 625px;
 
     width: 100%;
-    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: var(--max-orbit);
 }
 
 .solarCntn{
     position: relative;
-    min-height: 80%;
+    min-height: var(--max-orbit);
     aspect-ratio: 1;
     isolation: isolate;
 }
@@ -1172,7 +1177,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    position: relative;
     isolation: isolate;
 }
 
@@ -1378,6 +1382,7 @@
     background: radial-gradient(circle, var(--text-clr2) 3%, transparent 2%);
     background-size: 3em 3em;
     padding-top: 2.6%;
+    padding-bottom: 2em;
     padding-inline: var(--gen-padding);
     overflow-x: hidden;
 }
@@ -1472,44 +1477,26 @@
 
 .subSect4-home{
     padding-top: 2.6%;
+    padding-bottom: 1.2em;
     padding-inline: var(--gen-padding);
     width: 100%;
     min-height: 100vh;
     position: relative;
-    display: grid;
-    grid-template-rows: max-content 1fr;
     background: linear-gradient(to bottom, var(--bg1-opac02), 40%, var(--dark-clr1));
     background-size: 100%;
     background-repeat: no-repeat;
-}
-
-.subSect4-home .animationControl{
-    position: absolute;
-    top: 10%;
-    right: var(--gen-padding);
-    z-index: 4;
-    width: 45px;
-    aspect-ratio: 1;
-    background-color: #cd96e942;
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(15px);
-    border-radius: 10px;
+    overflow-x: hidden;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
+    flex-direction: column;
 }
 
-.animationControl i{
-    font-size: 1.7em;
-    color: var(--text-clr1);
-}
 
 .articlesDisplayerHome{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex: 1;
 }
 
 .articlesCntn{

@@ -1,6 +1,7 @@
 import '../styles/globals.css';
 import '../styles/home.css';
-import "../styles/planets.css"
+import "../styles/search.css"
+import "../styles/solarsystem.css"
 import Head from "next/head";
 import { Alegreya } from "next/font/google";
 import { useState, useRef } from 'react';

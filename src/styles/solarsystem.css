@@ -1,0 +1,601 @@
+:root {
+    --primary-clr: #a706f1;
+    --sec-clr: #ff5882;
+    --brown-clr1: #ff964e;
+    --brown-clr2: #ffcb4b;
+    --blue-clr: #0086ff;
+    --text-clr2: #f9d9f9;
+    --text-clr1: #fff6ff;
+    --dark-clr1: #090208;
+    --dark-clr2: #241822;
+    --secBg-clr: #42273f;
+    --bg1-opac05: #130711b2;
+    --bg1-opac09: #130711e6;
+    --bg1-opac02: #1307115d;
+    --bg2-opac05: #2418227b;
+    --bg2-opac02: #2418224e;
+    --bg2-opac07: #241822da;
+    --bg2-opac09: #241822ea;
+  
+    --borderline-clr: rgba(128, 128, 128, 0.401);
+    --borderline-clr2: rgba(128, 128, 128, 0.106);
+  
+    --gen-padding: 10%;
+    --small-padding: 5%;
+  
+    --clip-type1: polygon(
+      0% 0%,
+      35% 0%,
+      40% 3%,
+      60% 3%,
+      65% 0%,
+      100% 0%,
+      100% 35%,
+      99% 40%,
+      99% 60%,
+      100% 65%,
+      100% 100%,
+      65% 100%,
+      60% 97%,
+      40% 97%,
+      35% 100%,
+      0% 100%,
+      0% 65%,
+      1% 60%,
+      1% 40%,
+      0% 35%,
+      0% 0%
+    );
+    --clip-type3: polygon(
+      0% 0%,
+      35% 0%,
+      40% 3%,
+      60% 3%,
+      65% 0%,
+      100% 0%,
+      100% 35%,
+      97% 40%,
+      97% 60%,
+      100% 65%,
+      100% 100%,
+      65% 100%,
+      60% 97%,
+      40% 97%,
+      35% 100%,
+      0% 100%,
+      0% 65%,
+      3% 60%,
+      3% 40%,
+      0% 35%,
+      0% 0%
+    );
+    --clip-type2: polygon(
+      5% 0%,
+      35% 0%,
+      40% 3%,
+      60% 3%,
+      65% 0%,
+      95% 0%,
+      100% 5%,
+      100% 95%,
+      95% 100%,
+      65% 100%,
+      60% 97%,
+      40% 97%,
+      35% 100%,
+      5% 100%,
+      0% 95%,
+      0% 5%
+    );
+  
+    --font-unica: "Unica One", sans-serif;
+    --font-jost: "Jost", sans-serif;
+    --font-IBM: 'IBM Plex Mono', monospace;
+    --font-metro: 'Metrophobic', sans-serif;
+}
+
+.solarsystemHomePage{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    background-color: var(--dark-clr2);
+    background: radial-gradient(
+        circle at 50% 100%,
+        var(--bg2-opac02) 5%,
+        var(--bg2-opac05) 5% 10%,
+        var(--bg2-opac02) 10% 15%,
+        var(--bg2-opac05) 15% 20%,
+        var(--bg2-opac02) 20% 25%,
+        var(--bg2-opac05) 25% 30%,
+        var(--bg2-opac02) 30% 35%,
+        var(--bg2-opac05) 35% 40%,
+        transparent 40%
+      ),
+      radial-gradient(
+        circle at 100% 50%,
+        var(--bg2-opac02) 5%,
+        var(--bg2-opac05) 5% 10%,
+        var(--bg2-opac02) 10% 15%,
+        var(--bg2-opac05) 15% 20%,
+        var(--bg2-opac02) 20% 25%,
+        var(--bg2-opac05) 25% 30%,
+        var(--bg2-opac02) 30% 35%,
+        var(--bg2-opac05) 35% 40%,
+        transparent 40%
+      ),
+      radial-gradient(
+        circle at 50% 0%,
+        var(--bg2-opac02) 5%,
+        var(--bg2-opac05) 5% 10%,
+        var(--bg2-opac02) 10% 15%,
+        var(--bg2-opac05) 15% 20%,
+        var(--bg2-opac02) 20% 25%,
+        var(--bg2-opac05) 25% 30%,
+        var(--bg2-opac02) 30% 35%,
+        var(--bg2-opac05) 35% 40%,
+        transparent 40%
+      ),
+      radial-gradient(
+        circle at 0 50%,
+        var(--bg2-opac02) 5%,
+        var(--bg2-opac05) 5% 10%,
+        var(--bg2-opac02) 10% 15%,
+        var(--bg2-opac05) 15% 20%,
+        var(--bg2-opac02) 20% 25%,
+        var(--bg2-opac05) 25% 30%,
+        var(--bg2-opac02) 30% 35%,
+        var(--bg2-opac05) 35% 40%,
+        transparent 40%
+      );
+    background-size: 2em 2em;
+    opacity: 1;
+}
+
+.solarSystem-Sect1{
+    width: 100%;
+    padding: var(--gen-padding);
+    background-image: linear-gradient( 150deg, var(--bg1-opac09),var(--bg1-opac05), var(--bg1-opac02)), url("https://solarsystem.nasa.gov/internal_resources/6057/sshero.jpg");
+    height: 65vh;
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+}
+
+.solarSystem-Sect1 h1{
+    font-size: 4.5em;
+    font-weight: 500;
+    color: var(--text-clr2);
+    font-family: var(--font-unica);
+}
+
+.solarSystem-Sect1 .details{
+    margin-left: 20px;
+    user-select: none;
+}
+
+.solarSystem-Sect1 .details p{
+    font-size: 1.3em;
+    font-weight: 300;
+    color: var(--text-clr1);
+    width: 40ch;
+}
+
+
+.valueByNumber{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    background-color: var(--bg2-opac07);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    user-select: none;
+}
+
+.unitVBN{
+    width: max-content;
+    padding-inline: 7px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.unitVBN p{
+    font-size: 1.05em;
+    color: var(--sec-clr);
+    font-weight: 500;
+    font-family: var(--font-unica);
+}
+
+.unitVBN h3{
+    font-size: 1.2em;
+    color: var(--text-clr2);
+    font-weight: 400;
+    font-family: var(--font-IBM);
+}
+
+.navigationSelect{
+    min-height: 60px;
+    background-color: var(--secBg-clr);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.navOptionsCntn{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.navigationSelect p{
+    --color: var(--text-clr2);
+    color: var(--color);
+    font-size: 1.4em;
+    font-weight: 400;
+    font-family: var(--font-unica);
+    height: 100%;
+    text-align: center;
+    transition: color 0.35s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.navigationSelect p::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: var(--color);
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+    transform-origin: right;
+}
+
+.navigationSelect p:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+
+.navigationSelect .activeNavOption{
+    --color: var(--sec-clr);
+    color: var(--color);
+}
+
+.navMarker{
+    position: absolute;
+    width: 20px;
+    height: 12px;
+    background-color: var(--secBg-clr);
+    top: 160%;
+    left: 29%;
+    transition: left 0.45s ease-in-out;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+}
+
+
+.utilDiv{
+    height: 100vh;
+    width: 100%;
+}
+
+.systemMainSect{
+    width: 100%;
+    min-height: 100vh;
+    padding-inline: var(--gen-padding);
+    padding-block: 4em 5em;
+}
+
+.oversiewSection{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.topBoxSystem{
+    width: 40%;
+    padding: 18px;
+    font-size: 1.15em;
+    font-weight: 300;
+    color: var(--text-clr1);
+    border: 3px solid var(--secBg-clr);
+    border-radius: 15px;
+    margin-inline: auto;
+    position: relative;
+}
+
+.topBoxSystem h2{
+    font-size: 1.4em;
+    font-family: var(--font-unica);
+    font-weight: 400;
+    color: var(--text-clr2);
+    color: var(--sec-clr);
+    position: absolute;
+    top: 0;
+    left: 25px;
+    transform: translateY(-50%);
+    background-color: var(--bg2-opac05);
+}
+
+.paragraphSect{
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    width: 50%;
+}
+
+.paragraph{
+    width: 100%;
+    font-size: 1.25em;
+    color: var(--text-clr1);
+    font-weight: 300;
+}
+
+.sectionIframe{
+    width: 700px;
+    height: max-content;
+}
+
+.iframeCntn{
+    width: 100%;
+    height: 480px;
+    border-radius: 15px;
+    overflow: hidden;
+    clip-path: var(--clip-type1);
+    position: relative;
+    isolation: isolate;
+    background-color: var(--dark-clr2);
+    cursor: grab;
+}
+
+.iframeCntn::after{
+    content: "";
+    position: absolute;
+    width: 96%;
+    height: 91%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid var(--borderline-clr);
+    z-index: 5;
+    border-radius: inherit;
+    pointer-events: none;
+}
+
+.iframeCntn iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.sectionIframe p {
+    margin-top: 10px;
+    font-size: 0.97em;
+    color: var(--text-clr2);
+    font-weight: 300;
+    margin-inline: auto;
+}
+
+.oversiewSection .planetUnitDataCntn{
+    aspect-ratio: 1/0.7;
+}
+
+.oversiewSection .planetUnitData{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    height: 100%;
+}
+
+.planetUnitData .factNumber {
+    width: 50px;
+    font-size: 30px;
+    aspect-ratio: 1;
+    clip-path: var(--clip-type3);
+    background-color: var(--secBg-clr);
+    color: var(--text-clr2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-unica);
+    border-radius: 10px;
+}
+
+.planetUnitData h4{
+    font-size: 1.5em;
+    font-weight: 500;
+    color: var(--text-clr2);
+    font-family: var(--font-unica);
+}
+
+.planetUnitData > span{
+    font-size: 1.1em;
+    color: var(--text-clr1);
+    font-weight: 300;
+    text-align: center;
+}
+
+.nextPrevSect{
+    width: 100%;
+    padding-block: 0em 2em;
+    padding-inline: var(--gen-padding);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.nextPrevSect .nextPrev{
+    padding-block: 8px;
+    padding-inline: 12px 25px;
+    border: 3px solid var(--secBg-clr);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-radius: 10px;
+    transition: border-color 0.45s ease;
+}
+
+.nextPrev:hover{
+    border-color: var(--sec-clr);
+}
+
+.navPrev{
+    margin-right: auto;
+}
+
+.navNext{
+    margin-left: auto;
+}
+
+.nextPrev p{
+    font-size: 0.93em;
+    font-family: var(--font-jost);
+    font-weight: 300;
+    color: var(--sec-clr);
+}
+
+.nextPrev h3{
+    font-size: 1.5em;
+    color: var(--text-clr2);
+    margin-left: 10px;
+    font-weight: 500;
+    font-family: var(--font-unica);
+}
+
+.inDepthSect {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.unitParagraph{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 50%;
+}
+
+.unitParagraph h2{
+    font-size: 1.9em;
+    font-weight: 500;
+    font-family: var(--font-unica);
+    color: var(--text-clr2);
+    padding-block: 3px;
+    border-bottom: 1px dashed var(--secBg-clr);
+}
+
+.unitParagraph h3{
+    margin-left: 10px;
+    font-size: 1.4em;
+    font-weight: 400;
+    color: var(--text-clr1);
+}
+
+.unitParagraph p{
+    font-size: 1.25em;
+    color: var(--text-clr1);
+    font-family: var(--font-jost);
+    font-weight: 300;
+}
+
+.firstText::first-letter {
+    initial-letter: 2;
+    color: var(--text-clr2);
+    font-weight: 300;
+}
+
+.unitDetailImage{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 19px;
+}
+
+.unitDetailImage img{
+    width: 100%;
+    aspect-ratio: 16/8;
+    object-fit: contain;
+    object-position: center;
+}
+
+.unitDetailImage p{
+    font-size: 0.96em;
+    font-weight: 300;
+    color: gray;
+}
+
+.summarySystemSect{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding-block: 1em 0em;
+}
+
+.unitSummary{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 60%;
+}
+
+
+.summaryUnitDetail{
+    width: 100%;
+    gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(max-content, 1fr));
+}
+
+.unitSummary h2{
+    font-size: 2.1em;
+    font-weight: 500;
+    font-family: var(--font-unica);
+    color: var(--text-clr2);
+    padding-block: 3px;
+    border-bottom: 1px dashed var(--secBg-clr);
+}
+
+.summaryUnitDetail p{
+    font-size: 0.97em;
+    color: var(--text-clr2);
+    font-weight: 400;
+    font-family: var(--font-jost);
+}
+
+
+.summaryUnitDetail p span {
+    font-size: 1.2em;
+    color: var(--text-clr1);
+    font-weight: 300;
+    font-family: var(--font-jost);
+}

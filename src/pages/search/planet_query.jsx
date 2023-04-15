@@ -3,22 +3,17 @@ import { handleToggles } from '../../utilities/Randomizer';
 import { themeContext } from '../../../providers/ThemeProvider';
 import TransitionPage from '../../components/transitionPage';
 import { useRouter } from 'next/router';
-import { AnimatePresence } from 'framer-motion';
-import Sect1 from '../../components/search/A_P_O_D';
-import Apod_Sect2 from '../../components/search/Apod_Sect2';
-import Footer from '../../components/footer';
-import { motion } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
+import Navbar from '../../components/navbar';
+import MiniFooter from '../../components/MiniFooter';
+import Planet_querySect1 from '../../components/search/Planet_querySect1';
 
 
-
-const Apod = () => {
+const Planet_query = () => {
     const ctx = useContext(themeContext);
     const { setShowOtherPageLinks } = ctx;
     const [showExit, setShowExit] = useState(false);
     const router = useRouter();
-    const [apodDisplay, setApodDisplay] = useState({});
-    const [ LSData , setLSData ] = useState([]);
-
 
     useEffect(() => {
         const handleBeforeRouteChange = (url) => {
@@ -50,14 +45,41 @@ const Apod = () => {
         }
     }
 
-    
-
+    const slideUp = {
+        init: {
+            y: "120%",
+            rotate: 10,
+            opacity: 0.1
+        },
+        finale: {
+            y: 0,
+            opacity: 1,
+            rotate: 0,
+            transition: {
+                type: "spring",
+                damping: 30,
+                stiffness: 200
+            }
+        }
+    }
 
     return (
-        <motion.div initial="init" animate="finale" variants={grandparentvar} className='apodBasicPage' onClick={(e) => {handleToggles( e, setShowOtherPageLinks)}}>
-            <Sect1 apodDisplay={apodDisplay} setApodDisplay={setApodDisplay} LSData={LSData} setLSData={setLSData}/>
-            <Apod_Sect2 setApodDisplay={setApodDisplay} LSData={LSData} setLSData={setLSData}/>
-            <Footer bg={"transparent"}/>
+        <motion.div initial="init" animate="finale" variants={grandparentvar} className='planetQueryBasicPage' onClick={(e) => {handleToggles( e, setShowOtherPageLinks)}}>
+            <Navbar/>
+            <div className="topQueryDisplay" style={{backgroundImage: "url(/planetqueryHori.jpg)"}}>
+                <div style={{overflow: "hidden"}}>
+                    <motion.h1 variants={slideUp}>Planet Query</motion.h1>
+                </div>
+
+                <img src={"/spikyAbs.svg"} alt="spikyImage" />
+            </div>
+
+            <Planet_querySect1/>
+
+            <MiniFooter/>
+
+
+
             <TransitionPage animateState={"initial"}/>
             <AnimatePresence mode='wait'>
                 {!showExit && (
@@ -68,4 +90,4 @@ const Apod = () => {
     )
 }
 
-export default Apod
+export default Planet_query

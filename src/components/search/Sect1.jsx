@@ -4,25 +4,25 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 
 const Sect1 = () => {
-    const options = {
-        method: 'GET',
-        headers: {
-            'X-RapidAPI-Key': '4ce9e43e39mshe3bda1663a5f8f0p16b219jsn6c70ea38b9d1',
-            'X-RapidAPI-Host': 'planets-by-api-ninjas.p.rapidapi.com'
-        }
-    };
+    // const options = {
+    //     method: 'GET',
+    //     headers: {
+    //         'X-RapidAPI-Key': '4ce9e43e39mshe3bda1663a5f8f0p16b219jsn6c70ea38b9d1',
+    //         'X-RapidAPI-Host': 'planets-by-api-ninjas.p.rapidapi.com'
+    //     }
+    // };
 
 
-    useEffect(() => {
-        const dataFetch = async () => {
-            const fetcher = await fetch('https://planets-by-api-ninjas.p.rapidapi.com/v1/planets?category=sciencenature&ofset=30', options);
-            const res = await fetcher.json();
+    // useEffect(() => {
+    //     const dataFetch = async () => {
+    //         const fetcher = await fetch('https://planets-by-api-ninjas.p.rapidapi.com/v1/planets?category=sciencenature&ofset=30', options);
+    //         const res = await fetcher.json();
             
-            console.log(res);
-        }
+    //         console.log(res);
+    //     }
 
-        dataFetch();
-    }, []);
+    //     dataFetch();
+    // }, []);
 
     //Animation Variables
     const ParentVar = {
@@ -48,10 +48,11 @@ const Sect1 = () => {
         finale: {
           y: 0,
           opacity: 1,
-          transition: {
-            ease: "easeOut",
-            duration: 0.45
-          }
+            transition: {
+                type: "spring",
+              damping: 30,
+              stiffness: 200
+            }
         }
     }
 
@@ -64,8 +65,9 @@ const Sect1 = () => {
             x: 0,
             opacity: 1,
             transition: {
-              ease: "easeIn",
-              duration: 0.45
+              type: "spring",
+              damping: 30,
+              stiffness: 200
             }
         }
     }
@@ -99,7 +101,7 @@ const Sect1 = () => {
                     </Link>
                 </motion.div>
                 <motion.div variants={swipe} className="searchOptCntn">
-                    <Link href={"/search/stars_quest"} className="searchlinkUnit">
+                    <Link href={"/search/star_quest"} className="searchlinkUnit">
                         <h2>Stars Quest</h2>
                         <p>Similar to our &quot;Planet Query&quot; search option but only gets you data about stars and their constellations.</p>
                     </Link>
