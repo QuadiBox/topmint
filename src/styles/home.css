@@ -1360,7 +1360,7 @@
     }
 
     100% {
-        transform: translate(-50%, -50%) rotateZ(-360deg);
+        transform: translate(-50%, -50%) rotateZ(360deg);
     }
 }
 
@@ -1963,7 +1963,7 @@
 }
 
 .brown1{
-    background-color: rgb(231, 86, 3);
+    background-color: #e75603;
     color: rgb(231, 86, 3);
 }
 
@@ -1983,11 +1983,16 @@
 }
 
 .brown4{
-    background-color: rgb(253, 198, 126);
+    background-color: #fdc67e;
 }
 
 .yellow{
-    background-color: rgb(199, 199, 0);
+    background-color: #c7c700;
+}
+
+.earth {
+    background-color: #83ee18;
+    color: #83ee18;
 }
 
 .grey{
@@ -1995,7 +2000,7 @@
 }
 
 .grey2{
-    background-color: rgb(111, 111, 111);
+    background-color: #6f6f6f;
 }
 
 .grey3{

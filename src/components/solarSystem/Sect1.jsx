@@ -1,11 +1,8 @@
-import React from 'react'
-import Navbar from '../navbar'
+import Navbar from '../navbar';
 
 const Sect1 = ({ data }) => {
-
-
   return (
-    <section className='solarSystem-Sect1'>
+    <section className='solarSystem-Sect1' style={{backgroundImage: `linear-gradient( 150deg, var(--bg1-opac09),var(--bg1-opac05), var(--bg1-opac02)), url(${data?.baseImgUrl})`}}>
         <div className="heroSect-1">
           <div className="details">
             <div>

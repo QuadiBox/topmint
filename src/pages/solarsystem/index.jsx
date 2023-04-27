@@ -41,9 +41,6 @@ const Home = ({ data }) => {
 
     return (
         <div className='solarsystemHomePage' onClick={(e) => {handleToggles( e, setShowOtherPageLinks)}}>
-            {/* <div>
-                <iframe src="https://eyes.nasa.gov/apps/solar-system/#/home?embed=true&amp;logo=false" width="900" height="400" frameborder="0" scrolling='no'></iframe>
-            </div> */}
             
             <Navbar/>
             <Sect1 data={data}/>

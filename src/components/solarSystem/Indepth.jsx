@@ -44,18 +44,25 @@ const Indepth = ({ data }) => {
                             elem?.texts.map((elem, index) => {
                                 if (elem?.content_type === "text") {
                                     return (
-                                        <>
-                                        {elem.head && (
-                                            <h3>{elem.head} - </h3>
-                                        )}
+                                        <div>
+                                            {elem.head && (
+                                                <h3>{elem.head} - </h3>
+                                            )}
                                             <p className={index === 0 && idx === 0 ? 'firstText' : ""} key={`${index + 1}text`}>{elem.content}</p>
-                                        </>
+                                        </div>
                                     )
-                                } else {
+                                } else if (elem?.content_type === "image") {
                                     return (
                                         <div className="unitDetailImage" key={`${index + 1}image`}>
                                             <img src={elem.content} alt="BlaBla Vlad image" />
                                             <p className="imageDetails">{elem?.content_description}</p>
+                                        </div>
+                                    )
+                                } else {
+                                    return(
+                                        <div className="iframeCntn-indepth">
+                                            <iframe src={`https://www.youtube.com/embed/${elem.content}`} frameborder="0" 
+                                            scrolling='no' width="900" height="600"></iframe>
                                         </div>
                                     )
                                 }

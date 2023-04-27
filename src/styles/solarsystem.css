@@ -158,7 +158,6 @@
 .solarSystem-Sect1{
     width: 100%;
     padding: var(--gen-padding);
-    background-image: linear-gradient( 150deg, var(--bg1-opac09),var(--bg1-opac05), var(--bg1-opac02)), url("https://solarsystem.nasa.gov/internal_resources/6057/sshero.jpg");
     height: 65vh;
     background-size: 100%;
     background-position: center;
@@ -233,7 +232,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
+    position: sticky;
+    top: 0;
 }
 
 .navOptionsCntn{
@@ -369,7 +369,7 @@
     cursor: grab;
 }
 
-.iframeCntn::after{
+.iframeCntn::after, .iframeCntn-indepth::after{
     content: "";
     position: absolute;
     width: 96%;
@@ -394,6 +394,9 @@
     color: var(--text-clr2);
     font-weight: 300;
     margin-inline: auto;
+}
+.oversiewSection .planetDataSection{
+    padding-block: 3.4em 0.9em;
 }
 
 .oversiewSection .planetUnitDataCntn{
@@ -440,7 +443,7 @@
 
 .nextPrevSect{
     width: 100%;
-    padding-block: 0em 2em;
+    padding-block: 2em 2em;
     padding-inline: var(--gen-padding);
     display: flex;
     justify-content: space-between;
@@ -512,9 +515,14 @@
 
 .unitParagraph h3{
     margin-left: 10px;
-    font-size: 1.4em;
-    font-weight: 400;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 2;
     color: var(--text-clr1);
+    text-decoration: underline;
+    text-decoration-color: var(--bg1-opac09);
+    text-underline-offset: 3px;
+    text-decoration-thickness: 0.5px;
 }
 
 .unitParagraph p{
@@ -550,6 +558,23 @@
     font-size: 0.96em;
     font-weight: 300;
     color: gray;
+}
+
+.iframeCntn-indepth{
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 15px;
+    overflow: hidden;
+    clip-path: var(--clip-type1);
+    position: relative;
+    isolation: isolate;
+    background-color: var(--dark-clr2);
+    cursor: grab;
+}
+
+.iframeCntn-indepth iframe{
+    width: 100%;
+    height: 100%;
 }
 
 .summarySystemSect{
@@ -598,4 +623,69 @@
     color: var(--text-clr1);
     font-weight: 300;
     font-family: var(--font-jost);
+}
+
+.PlanetListSect{
+    width: 100%;
+    min-height: 50vh;
+    padding-inline: var(--gen-padding);
+    padding-block: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    clip-path: var(--clip-type2);
+    background: radial-gradient(circle at top left,transparent 9%,  var(--bg1-opac02) 10% , var(--bg1-opac02) 15% , transparent 16%) , radial-gradient(circle at bottom left,transparent 9%,  var(--bg1-opac02) 10% , var(--bg1-opac02) 15% , transparent 16%), radial-gradient(circle at top right ,transparent 9%,  var(--bg1-opac02) 10% , var(--bg1-opac02) 15% , transparent 16%) , radial-gradient(circle at bottom right,transparent 9%,  var(--bg1-opac02) 10% , var(--bg1-opac02) 15% , transparent 16%),radial-gradient(circle, transparent 25%, var(--bg2-opac09)  26%),linear-gradient(0deg, transparent 44%,  var(--bg1-opac02) 45%,  var(--bg1-opac02) 55%, transparent 56%), linear-gradient(90deg, transparent 44%,  var(--bg1-opac02) 45%,  var(--bg1-opac02) 55%, transparent 56%);
+    background-size: 0.6em 0.6em;
+    background-color: var(--bg2-opac09);
+}
+
+.PlanetListSect h1{
+    font-size: 3em;
+    font-family: var(--font-unica);
+    color: var(--text-clr2);
+    text-align: center;
+    font-weight: 300;
+}
+
+.planetLists{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+    gap: 23px;
+    margin-top: 40px;
+}
+
+.planetLists a{
+    aspect-ratio: 16/9;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 10px;
+    clip-path: var(--clip-type1);
+    border-radius: 10px;
+    background-color: var(--bg1-opac09);
+    transition: background-color 0.4s ease;
+}
+
+.planetLists a:hover{
+    background-color: var(--bg1-opac02);
+}
+
+.planetLists a img{
+    height: 90%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.planetListDetail h3{
+    font-size: 1.7em;
+    font-family: var(--font-unica);
+}
+
+.planetListDetail p{
+    margin-top: 7px;
+    font-size: 1.05em;
+    color: var(--text-clr2);
+    font-weight: 350;
 }

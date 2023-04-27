@@ -22,24 +22,24 @@ const Footer = ({ bg }) => {
                                             <p>Sun</p>
                                         </Link>
                                     </li>
-                                    <li><Link className='unitLink' href={"/solarsystem/0ort_cloud"}><span className="coloredtile lightbrown"></span><p>Oort Cloud</p></Link></li>
-                                    <li><Link className='unitLink' href={"/solarsystem/kuiper_belt"}><span className="coloredtile darkblue"></span><p>Kuiper Belt</p></Link></li>
-                                    <li><Link className='unitLink' href={"/solarsystem/eclipses"}><span className="coloredtile brown2"></span><p>Eclipses</p></Link></li>
-                                    <li><Link className='unitLink' href={"/solarsystem/beyond..."}><span className="coloredtile pitchblack"></span><p>Beyond...</p></Link></li>
+                                    <li><Link className='unitLink' href={"/solarsystem/asteroid_belt"}><span className="coloredtile brown4"></span><p>Asteroid Belt</p></Link></li>
+                                    <li><Link className='unitLink' href={"/solarsystem/oort_cloud"}><span className="coloredtile grey"></span><p>Oort Cloud</p></Link></li>
+                                    <li><Link className='unitLink' href={"/solarsystem/kuiper_belt"}><span className="coloredtile grey3"></span><p>Kuiper Belt</p></Link></li>
+                                    <li><Link className='unitLink' href={"/solarsystem/beyond"}><span className="coloredtile brown2"></span><p>Beyond...</p></Link></li>
                                 </ul>
                             </div>
 
                             <div className="linkUnit">
-                                <div className='linkHeader planets'><Link href={"/Planets"}>Planets</Link></div>
+                                <div className='linkHeader planets'><Link href={"/planets"}>Planets</Link></div>
                                 <ul className="linkList">
-                                    <li><Link className='unitLink' href={"/Planets/Mercury"}><span className="coloredtile grey2"></span><p>Mercury</p></Link></li>
-                                    <li><Link className='unitLink' href={"/Planets/Venus"}><span className="coloredtile brown3"></span><p>Venus</p></Link></li>
-                                    <li><Link className='unitLink' href={"/Planets/Earth"}><span className="coloredtile blue2"></span><p>Earth</p></Link></li>
-                                    <li><Link className='unitLink' href={"/Planets/Mars"}><span className="coloredtile brown1"></span><p>Mars</p></Link></li>
-                                    <li><Link className='unitLink' href={"/Planets/Jupiter"}><span className="coloredtile brown4"></span><p>Jupiter</p></Link></li>
-                                    <li><Link className='unitLink' href={"/Planets/Saturn"}><span className="coloredtile brown3"></span><p>Saturn</p></Link></li>
-                                    <li><Link className='unitLink' href={"/Planets/Uranus"}><span className="coloredtile blue1"></span><p>Uranus</p></Link></li>
-                                    <li><Link className='unitLink' href={"/Planets/Neptune"}><span className="coloredtile blue2"></span><p>Neptune</p></Link></li>
+                                    <li><Link className='unitLink' href={"/planets/mercury"}><span className="coloredtile grey2"></span><p>Mercury</p></Link></li>
+                                    <li><Link className='unitLink' href={"/planets/venus"}><span className="coloredtile brown3"></span><p>Venus</p></Link></li>
+                                    <li><Link className='unitLink' href={"/planets/earth"}><span className="coloredtile earth"></span><p>Earth</p></Link></li>
+                                    <li><Link className='unitLink' href={"/planets/mars"}><span className="coloredtile brown1"></span><p>Mars</p></Link></li>
+                                    <li><Link className='unitLink' href={"/planets/jupiter"}><span className="coloredtile brown4"></span><p>Jupiter</p></Link></li>
+                                    <li><Link className='unitLink' href={"/planets/saturn"}><span className="coloredtile brown3"></span><p>Saturn</p></Link></li>
+                                    <li><Link className='unitLink' href={"/planets/uranus"}><span className="coloredtile blue1"></span><p>Uranus</p></Link></li>
+                                    <li><Link className='unitLink' href={"/planets/neptune"}><span className="coloredtile blue2"></span><p>Neptune</p></Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -57,9 +57,9 @@ const Footer = ({ bg }) => {
                             <div className="linkUnit">
                                 <div className='linkHeader moons'><Link href={"/moons"}>Moons</Link></div>
                                 <ul className="linkList">
-                                    <li><Link className='unitLink' href={"/moons/earth"}><span className="coloredtile blue2"></span><p>Earth(1)</p></Link></li>
+                                    <li><Link className='unitLink' href={"/moons/earth"}><span className="coloredtile earth"></span><p>Earth(1)</p></Link></li>
                                     <li><Link className='unitLink' href={"/moons/mars"}><span className="coloredtile brown1"></span><p>Mars(2)</p></Link></li>
-                                    <li><Link className='unitLink' href={"/moons/jupiter"}><span className="coloredtile brown4"></span><p>Jupiter(80)</p></Link></li>
+                                    <li><Link className='unitLink' href={"/moons/jupiter"}><span className="coloredtile brown4"></span><p>Jupiter(95)</p></Link></li>
                                     <li><Link className='unitLink' href={"/moons/saturn"}><span className="coloredtile brown3"></span><p>Saturn(83)</p></Link></li>
                                     <li><Link className='unitLink' href={"/moons/uranus"}><span className="coloredtile blue1"></span><p>Uranus(27)</p></Link></li>
                                     <li><Link className='unitLink' href={"/moons/neptune"}><span className="coloredtile blue2"></span><p>Neptune(14)</p></Link></li>

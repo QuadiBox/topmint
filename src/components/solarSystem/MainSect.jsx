@@ -24,10 +24,6 @@ const MainSect = ({ data, navOption }) => {
                     )
                 }
             </AnimatePresence>
-            {/* <AnimatePresence mode='wait'>
-            </AnimatePresence>
-            <AnimatePresence mode='wait'>
-            </AnimatePresence> */}
 
 
         </section>
