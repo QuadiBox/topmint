@@ -72,7 +72,7 @@ export default function Home({ apod }) {
     }
 
     backgroundRef.current.animate(keyframes, {
-      duration: 600,
+      duration: 1200,
       fill: "forwards"
     });
   }
@@ -226,11 +226,12 @@ export default function Home({ apod }) {
           <motion.div initial="init" animate="finale" exit="exit" variants={parentVar} ref={backgroundRef} className="homeLoaderMain" onMouseMove={handleBackgroundShift} onScroll={landingPageCloser}>
             
             <section className="sectonAbsMain">
-              <div>
+              <div className="introCntn">
                 <div style={{overflowY: "hidden"}}>
                   <motion.h1 variants={slideUp}>Welcome to the <span style={{overflow: "hidden"}}><motion.div variants={swipe}>QuadVerse</motion.div></span></motion.h1>
                 </div>
-                <motion.p variants={fadeIn}>The best space for all true and worthy space <span>enthusiasts</span> & <span>inquisitors</span>. QuadVerse is a eccentric digital platform for all amazing space-related informations </motion.p>
+                <motion.p variants={fadeIn}> <span>Quadverse</span> is a website dedicated to <span>everything space-related</span>. It provides <span>articles</span> on space news, detailed information on the <span>solar system, planets, moons, dwarf planets, comets, asteroids, and beyond</span>. Users can also explore the <span>Solar System</span> and <span>exoplanets</span> through a 3D interface powered by NASA&apos;s Eyes on the Solar System and Eyes on Exoplanets.</motion.p>
+                <motion.p variants={fadeIn}>With <span>Quadverse</span>, users can satiate their curiosity for space by reading about the latest space-related news and diving deep into the wonders of the solar system and beyond. They can also visually explore the solar system and exoplanets with the help of an <span>interactive 3D interface</span> powered by <span>NASA</span>, making for an engaging and <span>educational experience</span>.</motion.p>
               </div>
 
               <AnimatePresence>
@@ -240,7 +241,7 @@ export default function Home({ apod }) {
                     <div className="dragger"></div>
                     <div className="dragger2"></div>
                     <div className="borderline"></div>
-                    <div className="panOverlay"></div>
+                    {/* <div className="panOverlay"></div> */}
                     <motion.div style={{background: `url(${displayTypes[0].displayImage})`}} variants={displayerAnim} className="displayer"></motion.div>
                     <div className="detailsCard">
                       <h2>{displayTypes[0]?.details?.title} [<span title="Jupiter Astrological Sign">{displayTypes[0]?.details?.astroSign}</span>]</h2>
@@ -258,7 +259,7 @@ export default function Home({ apod }) {
                     <div className="dragger"></div>
                     <div className="dragger2"></div>
                     <div className="borderline"></div>
-                    <div className="panOverlay"></div>
+                    {/* <div className="panOverlay"></div> */}
                     <motion.div style={{background: `url(${displayTypes[1].displayImage})`}} variants={displayerAnim} className="displayer"></motion.div>
                     <div className="detailsCard">
                       <h2>{displayTypes[1]?.details?.title} [<span title="Pluto Astrological Sign">{displayTypes[1]?.details?.astroSign}</span>]</h2>
@@ -276,7 +277,7 @@ export default function Home({ apod }) {
                     <div className="dragger"></div>
                     <div className="dragger2"></div>
                     <div className="borderline"></div>
-                    <div className="panOverlay"></div>
+                    {/* <div className="panOverlay"></div> */}
                     <motion.div style={{background: `url(${displayTypes[2].displayImage})`}} variants={displayerAnim} className="displayer"></motion.div>
                     <div className="detailsCard">
                       <h2>{displayTypes[2]?.details?.title} [<span title="Moon's Astrological Sign"> {displayTypes[2]?.details?.astroSign} </span>]</h2>
@@ -292,17 +293,8 @@ export default function Home({ apod }) {
               </AnimatePresence>
 
 
-
-
               <div className="bottomAbs">
-                <div className="imageDisplays">
-                  <Image src="/earth1.png" className="earth absImg"  width={200} height={200} alt="earth"/>
-                  <Image src="/pluto.png" className="pluto absImg" width={200} height={200} alt="saturn"/>
-                  <Image src="/mars2png.png" className="mars absImg" width={200} height={200} alt="saturn"/>
-                  <Image src="/jupiter1.png" className="jupiter absImg" width={200} height={200} alt="saturn"/>
-                  <Image src="/sun.png" className="sun absImg"  width={300} height={300} alt="sun"/>
-                </div>
-
+                
                 <div className="scrollIndicator" onClick={landingPageCloser}>
                   <i className="icofont-bubble-down"></i>
                   <p>Click Here To Explore</p>
@@ -314,7 +306,9 @@ export default function Home({ apod }) {
       </AnimatePresence>
 
       {!showAbsMain && (
-        <HomePage apod={apod}/>
+        <>
+          <HomePage apod={apod}/>
+        </>
       )}
     </>
   );

@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { motion, useInView, AnimatePresence } from 'framer-motion';
 
 
@@ -56,6 +57,7 @@ const Sect2 = () => {
       location: "0 A.U. from the Sun",
       satellites: "None",
       mythology: "Egyptian sun god (Ra Amun).",
+      link: "/solarsystem/sun"
     },
     {
       id: "planet01",
@@ -68,6 +70,7 @@ const Sect2 = () => {
       mythology: "Roman god of commerce, messenger of the gods (Mercurius)",
       spacecraft: "Mariner 10 (1974 and 1975) and MESSENGER (2004)",
       planetType: "Rocky",
+      link: "/planets/mercury"
     },
     {
       id: "planet02",
@@ -81,6 +84,7 @@ const Sect2 = () => {
         "Roman goddess of love, beauty, desire, sex, fertility, prosperity, and victory (Venus)",
       spacecraft: "Venera 1 (1971) and Venera 7 (1970)",
       planetType: "Rocky",
+      link: "/planets/venus"
     },
     {
       id: "planet03",
@@ -93,6 +97,7 @@ const Sect2 = () => {
       mythology: "None",
       spacecraft: "All",
       planetType: "Rocky",
+      link: "/planets/earth"
     },
     {
       id: "planet04",
@@ -106,6 +111,7 @@ const Sect2 = () => {
       spacecraft:
         "Marinar 4 (1965), Viking 1 (1976), Sojourner (1997) and Zhurong (2021)",
       planetType: "Rocky",
+      link: "/planets/mars"
     },
     {
       id: "planet05",
@@ -120,6 +126,7 @@ const Sect2 = () => {
       spacecraftVisits:
         "Pioneer 10 (1973), Voyager 1 and 2 (1979), Gallileo orbiter (1995), New Horizons (2007) and Juno (2016)",
       planetType: "Gas",
+      link: "/planets/jupiter"
     },
     {
       id: "planet06",
@@ -135,6 +142,7 @@ const Sect2 = () => {
       spacecraftVisits:
         "Pioneer 11 (1979), Voyager 1 (1980), Voyager 2 (1981) and Cassini Huygens (2004)",
       planetType: "Gas",
+      link: "/planets/saturn"
     },
     {
       id: "planet07",
@@ -147,6 +155,7 @@ const Sect2 = () => {
       mythology: "Greek sky deity (Caelus).",
       spacecraftVisits: "Voyager 2 (1989)",
       planetType: "Icy",
+      link: "/planets/uranus"
     },
     {
       id: "planet08",
@@ -160,6 +169,7 @@ const Sect2 = () => {
       mythology: "Roman god of the sea (Poseidon).",
       spacecraftVisits: "Voyager 2 (1989)",
       planetType: "Icy",
+      link: "/planets/neptune"
     },
   ];
 
@@ -171,6 +181,34 @@ const Sect2 = () => {
   const handleCloseDataDisplay = () => {
     setDisplayToggler(false);
     setDisplayedData({});
+  };
+
+  const handlePrevPlanetData = () => {
+    const currentIndex = planetData.findIndex((elem) => elem.id === displayedData.id);
+
+    if ( currentIndex <= 0) {
+      setDisplayedData(planetData[planetData.length - 1]);
+    } else (
+      setDisplayedData(planetData[currentIndex - 1])
+    );
+  };
+
+  const handleNextPlanetData = () => {
+    const currentIndex = planetData.findIndex((elem) => elem.id === displayedData.id);
+
+    if ( currentIndex >= planetData.length - 1) {
+      setDisplayedData(planetData[0]);
+    } else (
+      setDisplayedData(planetData[currentIndex + 1])
+    );
+  }
+
+  const handleClosePopup = (e) => {
+    if ( e.target.classList[0] === "planetDataPopupCntn") {
+      setDisplayToggler(false);
+    } else {
+      return
+    }
   };
 
   //Animation Variables
@@ -282,7 +320,7 @@ const Sect2 = () => {
       opacity: 1,
       transition: {
         ease: "easeIn",
-        duration: 0.1,
+        duration: 0.05,
         when: "beforeChildren",
         staggerChildren: 0.3,
       }
@@ -291,7 +329,7 @@ const Sect2 = () => {
       opacity: 1,
       transition: {
         ease: "easeOut",
-        duration: 0.1,
+        duration: 0.05,
         when: "afterChildren",
         staggerChildren: 0.1,
       }
@@ -329,6 +367,8 @@ const Sect2 = () => {
       transition: {
         ease: "easeOut",
         duration: 0.3,
+        when: "beforeChildren",
+        staggerChildren: 0.1,
       }
     },
     exit: {
@@ -337,6 +377,8 @@ const Sect2 = () => {
       transition: {
         ease: "easeOut",
         duration: 0.1,
+        when: "afterChildren",
+        staggerChildren: 0.1,
       }
     }
   }
@@ -394,11 +436,13 @@ const Sect2 = () => {
 
     return (
       <motion.section ref={sectionRef} variants={parentVar} animate="clad" className="sect2-home">
-        <div className="banner"></div>
+        <div className="banner_sect2 banner"></div>
         <div className="divider"></div>
 
-        <div style={{overflowY: "hidden"}}><motion.h1 variants={childVarUp}>{text}</motion.h1></div>
-        <motion.p variants={childVarSlide} className="instruction">...click on any of the planets to view a litte data about it</motion.p>
+        <div className="dodgy">
+          <div style={{overflowY: "hidden"}}><motion.h1 variants={childVarUp}>{text}</motion.h1></div>
+          <motion.p variants={childVarSlide} className="instruction">...click on any of the planets to view a litte data about it</motion.p>
+        </div>
 
         <div className="taskbar">
           <motion.div variants={scaler} className="animationControl" onClick={() => {setAnimationState(prev => !prev); console.log(23);}}><i className={`${animationState ? "icofont-ui-pause": "icofont-ui-play"}`}></i></motion.div>
@@ -533,6 +577,36 @@ const Sect2 = () => {
             </motion.div>
           </div>
         </div>
+
+        <AnimatePresence>
+          {
+            displayToggler && (
+              <motion.div initial="init" animate="finale" exit="exit" variants={parentVariant} className="planetDataPopupCntn" onClick={handleClosePopup}>
+                <motion.div variants={slideUp} className="planetDataPopup" style={{backgroundImage: `url(${displayedData?.displayImage})`}}>
+                  <div className="popupNextPrev">
+                    <motion.div variants={slideUp} className="previousData" onClick={handlePrevPlanetData}><i className="icofont-swoosh-left"></i></motion.div>
+                    <motion.div variants={slideUp} className="previousData" onClick={handleNextPlanetData}><i className="icofont-swoosh-right"></i></motion.div>
+                  </div>
+
+                  <div className="popupOverlay"></div>
+
+                  <Link href={displayedData?.link} className="planetdataReadMore">Read more...</Link>
+
+                  <div className="dataPopupCntn">
+                    <div style={{ overflow: "hidden"}}>
+                      <motion.h2 variants={slideUp}>{displayedData?.name} [ <span>{displayedData?.astroSign}</span> ]</motion.h2>
+                    </div>
+                    <motion.h3 variants={swipeRight}>{displayedData?.note}</motion.h3>
+                    <motion.p variants={swipeRight}>Location: <span>{displayedData?.location}</span></motion.p>
+                    <motion.p variants={swipeRight}>Satellites: <span>{displayedData?.satellites}</span></motion.p>
+                  </div>
+                </motion.div>
+              </motion.div>
+
+            )
+          }
+        </AnimatePresence>
+
       </motion.section>
     );
 };

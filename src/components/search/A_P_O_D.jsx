@@ -1,5 +1,4 @@
 import React, { useContext, useState, useEffect } from "react";
-import Navbar from "../navbar";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Loader from "../Loader";
@@ -283,9 +282,7 @@ const Sect1 = ({ apodDisplay, setApodDisplay, LSData , setLSData }) => {
 
 
     return (
-        <section className="Sect1-apod" id="apodTop">
-            <Navbar />
-            
+        <section className="Sect1-apod" id="apodTop">            
             <div className="apodSection">
                 <motion.div variants={parentvar} className="pathHistory" style={{overflowY: "hidden"}}>
                     <motion.div variants={slideUp} className="pathLink">
@@ -303,7 +300,7 @@ const Sect1 = ({ apodDisplay, setApodDisplay, LSData , setLSData }) => {
 
                 <motion.div variants={scaleX} tabIndex="1" className="apodDisplayer">
                     <motion.div variants={fadeIn} className="borderLineApod"></motion.div>
-                    {/* <div className="panOverlay"></div> */}
+                    <div className="panOverlay"></div>
                     <motion.div variants={fadeIn} className="dragger"></motion.div>
                     <motion.div variants={fadeIn} className="dragger2"></motion.div>
 

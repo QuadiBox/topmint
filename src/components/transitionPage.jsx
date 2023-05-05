@@ -48,7 +48,10 @@ const TransitionPage = ({ animateState }) => {
     return (
         <motion.div initial="init" animate="finale" exit="exit" variants={animateState === "initial" ? transitionInit : transitionExit} className='transitionPage'>
             {sectNum.map((elem, idx) => (
-                <TransitionPageSect Determiner={idx%2 === 0? 24 : 0} key={idx}/>
+                <>
+                    <TransitionPageSect Determiner={idx%2 === 0? 24 : 0} keysy={1} index={idx}/>
+                    <TransitionPageSect Determiner={idx%3 === 0? 24 : 0} keysy={2}  index={idx}/>
+                </>
             ))}
         </motion.div>
     )

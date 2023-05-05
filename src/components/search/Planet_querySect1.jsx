@@ -43,14 +43,17 @@ const Planet_querySect1 = () => {
                         setIsError({ status:false, msg: response?.body});
                         setIsLoading(false);
                         setPlanetData(response);
+                        setQuery("");
                     } else if (Array.isArray(response) && response?.length <= 0) {
                         setIsLoading(false);
                         setIsError({ state:true, msg: "No Matching Data"});
                         setPlanetData(response);
+                        setQuery("");
                     } else {
                         setIsLoading(false);
                         setIsError({ state:true, msg: response.body});
                         console.log("error:", response.body);
+                        setQuery("");
                     }
                 })
                 .catch(err => {
@@ -183,7 +186,7 @@ const Planet_querySect1 = () => {
                 });
               break;
             case "minTemp":
-                setPlaceHolderText('Search for ... (e.g. 0)');
+                setPlaceHolderText('Search for ... (e.g. 1)');
                 setSearchInfo('Minimum average surface temperature of the planet in Kelvin.');
                 setPQParams({
                     name: false,
@@ -217,7 +220,7 @@ const Planet_querySect1 = () => {
                 });
               break;
             case "minDistance":
-                setPlaceHolderText('Search for ... (e.g. 0)');
+                setPlaceHolderText('Search for ... (e.g. 0.2)');
                 setSearchInfo('minimum distance the planet is from Earth in light years.');
                 setPQParams({
                     name: false,
@@ -234,7 +237,7 @@ const Planet_querySect1 = () => {
                 });
               break;
             case "maxDistance":
-                setPlaceHolderText('Search for ... (e.g. 100000)');
+                setPlaceHolderText('Search for ... (e.g. 1000)');
                 setSearchInfo('Maximum distance the planet is from Earth in light years.');
                 setPQParams({
                     name: false,
@@ -372,7 +375,7 @@ const Planet_querySect1 = () => {
         </motion.div>
 
         <div className="imgLibsearchbox">
-            <motion.div variants={parentvar} style={{overflowY: "hidden"}}>
+            <motion.div variants={parentvar} style={{overflow: "hidden"}}>
                 <motion.form className="imgsearchInputCntn" onSubmit={handleGetPlanetData}>
                     <motion.input variants={slideUp} value={query} type="text" onChange={(e) => {setQuery(e.target.value)}} name="imgLibSearch" placeholder={placeHolderText}/>
                     <motion.button variants={swipeLeft} type="submit">Go</motion.button>

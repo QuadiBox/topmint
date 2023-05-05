@@ -9,9 +9,9 @@ const Footer = ({ bg }) => {
 
   return (
         <motion.footer className='footerHome' style={{backgroundColor: `${bg}`}}>
-            <motion.div layout transition={{ duration: 0.4, ease: "easeInOut" }} className="subfooter">
+            <motion.div  transition={{ duration: 0.4, ease: "easeInOut" }} className="subfooter">
                 {showPageLinks && (
-                    <motion.div layout className="footerLinkOptions">
+                    <motion.div  className="footerLinkOptions">
                         <div className="linkCouple">
                             <div className="linkUnit">
                                 <div className='linkHeader solarsystem'><Link href={"/solarsystem"}>Solar System</Link></div>
@@ -34,7 +34,7 @@ const Footer = ({ bg }) => {
                                 <ul className="linkList">
                                     <li><Link className='unitLink' href={"/planets/mercury"}><span className="coloredtile grey2"></span><p>Mercury</p></Link></li>
                                     <li><Link className='unitLink' href={"/planets/venus"}><span className="coloredtile brown3"></span><p>Venus</p></Link></li>
-                                    <li><Link className='unitLink' href={"/planets/earth"}><span className="coloredtile earth"></span><p>Earth</p></Link></li>
+                                    <li><Link className='unitLink' href={"/planets/earth"}><span className="coloredtile earthgreen"></span><p>Earth</p></Link></li>
                                     <li><Link className='unitLink' href={"/planets/mars"}><span className="coloredtile brown1"></span><p>Mars</p></Link></li>
                                     <li><Link className='unitLink' href={"/planets/jupiter"}><span className="coloredtile brown4"></span><p>Jupiter</p></Link></li>
                                     <li><Link className='unitLink' href={"/planets/saturn"}><span className="coloredtile brown3"></span><p>Saturn</p></Link></li>
@@ -57,7 +57,7 @@ const Footer = ({ bg }) => {
                             <div className="linkUnit">
                                 <div className='linkHeader moons'><Link href={"/moons"}>Moons</Link></div>
                                 <ul className="linkList">
-                                    <li><Link className='unitLink' href={"/moons/earth"}><span className="coloredtile earth"></span><p>Earth(1)</p></Link></li>
+                                    <li><Link className='unitLink' href={"/moons/earth"}><span className="coloredtile earthgreen"></span><p>Earth(1)</p></Link></li>
                                     <li><Link className='unitLink' href={"/moons/mars"}><span className="coloredtile brown1"></span><p>Mars(2)</p></Link></li>
                                     <li><Link className='unitLink' href={"/moons/jupiter"}><span className="coloredtile brown4"></span><p>Jupiter(95)</p></Link></li>
                                     <li><Link className='unitLink' href={"/moons/saturn"}><span className="coloredtile brown3"></span><p>Saturn(83)</p></Link></li>
@@ -93,7 +93,9 @@ const Footer = ({ bg }) => {
                     <div className="pageLinks">
                         <Link className='unitLink' href={"/help"}><span className="coloredtile purple"></span><p>Help</p></Link>
                         <Link className='unitLink' href={"/about"}><span className="coloredtile brown3"></span><p>About</p></Link>
-                        <p><i className="icofont-email"></i> <span>quadvox0@gmail.com</span></p>
+                        <Link className='unitLink' href={"/glossary"}><span className="coloredtile earthgreen"></span><p>Glossary</p></Link>
+                        <Link className='unitLink' href={"/playground"}><span className="coloredtile brown2"></span><p>PlayGround</p></Link>
+                        <p><i className="icofont-email"></i> <span>oladojaabdquadridamilola@gmail.com</span></p>
                         <a className="twitter" href="https://twitter.com/Quadvox" target="_blank"><i className="icofont-twitter"></i></a>
                         <a className="twitter" href='https://github.com/QuadiBox' target="_blank"><i className="icofont-github"></i></a>
                     </div>

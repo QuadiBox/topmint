@@ -5,6 +5,8 @@ export const themeContext = createContext(null);
 const ThemeProvider = ({ children }) => {
     const [showAbsMain, setShowAbsMain] = useState(true);
     const [showOtherPageLinks, setShowOtherPageLinks] = useState(false);
+    const [ mainData, setMainData ] = useState([]);
+
 
 
   return (
@@ -13,7 +15,9 @@ const ThemeProvider = ({ children }) => {
                 showAbsMain,
                 setShowAbsMain,
                 showOtherPageLinks,
-                setShowOtherPageLinks
+                setShowOtherPageLinks,
+                mainData,
+                setMainData,
             }}
         >
             {children}

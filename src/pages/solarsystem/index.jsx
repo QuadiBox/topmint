@@ -34,10 +34,6 @@ const Home = ({ data }) => {
         };
     }, [router.events]);
 
-    useEffect(() => {
-        console.log(data);
-    }, []);
-
 
     return (
         <div className='solarsystemHomePage' onClick={(e) => {handleToggles( e, setShowOtherPageLinks)}}>
@@ -53,7 +49,7 @@ const Home = ({ data }) => {
                         Overview
                         {
                             navOption === "overview" && (
-                                <motion.div layoutId="pointer" className="navMarker"></motion.div>
+                                <motion.span layoutId="pointer" className="navMarker"></motion.span>
                             ) 
                         }
                     </p>
@@ -64,7 +60,7 @@ const Home = ({ data }) => {
                         In Depth
                         {
                             navOption === "indepth" && (
-                                <motion.div layoutId="pointer" className="navMarker"></motion.div>
+                                <motion.span layoutId="pointer" className="navMarker"></motion.span>
                             ) 
                         }
                     </p>
@@ -75,14 +71,14 @@ const Home = ({ data }) => {
                         Summary
                         {
                             navOption === "summary" && (
-                                <motion.div layoutId="pointer" className="navMarker"></motion.div>
+                                <motion.span layoutId="pointer" className="navMarker"></motion.span>
                             ) 
                         }
                     </p>
                 </div>
             </div>
 
-            <MainSect data={data} navOption={navOption}/>
+            <MainSect data={data} navOption={navOption} factor={6}/>
 
             <div className="nextPrevSect">
                 {

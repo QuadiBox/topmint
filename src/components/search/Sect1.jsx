@@ -1,28 +1,8 @@
-import React, { useEffect } from 'react'
 import Navbar from '../navbar'
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
 const Sect1 = () => {
-    // const options = {
-    //     method: 'GET',
-    //     headers: {
-    //         'X-RapidAPI-Key': '4ce9e43e39mshe3bda1663a5f8f0p16b219jsn6c70ea38b9d1',
-    //         'X-RapidAPI-Host': 'planets-by-api-ninjas.p.rapidapi.com'
-    //     }
-    // };
-
-
-    // useEffect(() => {
-    //     const dataFetch = async () => {
-    //         const fetcher = await fetch('https://planets-by-api-ninjas.p.rapidapi.com/v1/planets?category=sciencenature&ofset=30', options);
-    //         const res = await fetcher.json();
-            
-    //         console.log(res);
-    //     }
-
-    //     dataFetch();
-    // }, []);
 
     //Animation Variables
     const ParentVar = {
@@ -75,7 +55,6 @@ const Sect1 = () => {
     
 
     return (
-
         <motion.section initial="init" animate="finale" variants={ParentVar} className="sect1-search">
             <Navbar/>
             <div className="theSearch">

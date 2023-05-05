@@ -126,7 +126,7 @@ const Star_questSect1 = () => {
                 });
               break;
             case "maxDistance":
-                setPlaceHolderText('Search for ... (e.g. 100000)');
+                setPlaceHolderText('Search for ... (e.g. 50)');
                 setSearchInfo('Maximum distance the star is from Earth in light years.');
                 setPQParams({
                     name: false,
@@ -160,17 +160,18 @@ const Star_questSect1 = () => {
                         setIsError({ status:false, msg: ""});
                         setIsLoading(false);
                         setPlanetData(response);
+                        setQuery("");
                     } else if (Array.isArray(response) && response?.length <= 0) {
                         setIsLoading(false);
                         setIsError({ state:true, msg: "No Matching Data"});
                         setPlanetData(response);
+                        setQuery("");
                     } else {
                         setIsLoading(false);
                         setIsError({ state:true, msg: response.error});
                         console.log("error:", response);
+                        setQuery("");
                     }
-
-                    // console.log(response);
                 })
                 .catch(err => {
                     setIsLoading(false);

@@ -157,11 +157,19 @@
 
 .solarSystem-Sect1{
     width: 100%;
-    padding: var(--gen-padding);
+    padding-inline: var(--gen-padding);
     height: 65vh;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     position: relative;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-height: 990px) {
+    .solarSystem-Sect1 {
+        height: 35vh;
+    }
 }
 
 .solarSystem-Sect1 h1{
@@ -191,6 +199,8 @@
     width: 100%;
     min-height: 70px;
     display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
     align-items: center;
     justify-content: space-around;
     gap: 20px;
@@ -210,6 +220,7 @@
     justify-content: center;
     gap: 3px;
 }
+
 
 .unitVBN p{
     font-size: 1.05em;
@@ -244,6 +255,7 @@
     align-items: center;
     gap: 30px;
 }
+
 
 .navigationSelect p{
     --color: var(--text-clr2);
@@ -403,6 +415,7 @@
     aspect-ratio: 1/0.7;
 }
 
+
 .oversiewSection .planetUnitData{
     display: flex;
     align-items: center;
@@ -489,6 +502,106 @@
     font-family: var(--font-unica);
 }
 
+@media screen and (max-width: 1100px) {
+    .topBoxSystem{
+        width: 80%;
+        padding: 18px;
+    }
+
+    .paragraphSect{
+        gap: 20px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 649px) {
+    .solarSystem-Sect1 {
+        height: 450px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .unitVBN {
+        width: 47%;
+    }
+
+    .unitVBN p{
+        font-size: 1.05em;
+    }
+
+    .unitVBN h3{
+        font-size: 1.1em;
+    }
+
+    .navOptionsCntn{
+        width: 90%;
+    }
+
+    .navigationSelect {
+        min-height: 40px;
+    }
+
+    .navigationSelect p::after{
+        height: 1px;
+    }
+
+    .navMarker {
+        top: 140%;
+    }
+
+    .systemMainSect{
+        padding-block: 3.5em 5em;
+    }
+
+    .topBoxSystem{
+        width: 90%;
+        padding: 18px;
+    }
+
+    .paragraphSect{
+        gap: 20px;
+        width: 100%;
+    }
+
+    .sectionIframe{
+        width: 100%;
+        height: max-content;
+    }
+    
+    .iframeCntn{
+        width: 100%;
+        height: 450px;
+    }
+
+    .oversiewSection .planetDataSection{
+        padding-block: 2.6em 0.9em;
+    }
+    
+    .oversiewSection .planetUnitDataCntn{
+        aspect-ratio: 1/0.65;
+    }
+
+    .nextPrevSect .nextPrev{
+        padding-block: 8px;
+        padding-inline: 10px 20px;
+        border: 2px solid var(--secBg-clr);
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        border-radius: 10px;
+        transition: border-color 0.45s ease;
+    }
+
+    .nextPrev p{
+        font-size: 0.98em;
+    }
+
+    .nextPrev h3{
+        font-size: 1.33em;
+        color: var(--text-clr2);
+    }
+}
+
 .inDepthSect {
     width: 100%;
     display: flex;
@@ -547,7 +660,7 @@
     margin-top: 19px;
 }
 
-.unitDetailImage img{
+.unitDetailImage img, .unitDetailImage video{
     width: 100%;
     aspect-ratio: 16/8;
     object-fit: contain;
@@ -569,8 +682,9 @@
     position: relative;
     isolation: isolate;
     background-color: var(--dark-clr2);
-    cursor: grab;
+    cursor: pointer;
 }
+
 
 .iframeCntn-indepth iframe{
     width: 100%;
@@ -654,12 +768,68 @@
     grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
     gap: 23px;
     margin-top: 40px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+    .unitParagraph{
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        width: 80%;
+    }
+
+    .planetLists{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(43%, 1fr));
+        gap: 23px;
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .unitSummary {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 649px) {
+    .unitParagraph{
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        width: 100%;
+    }
+
+    .iframeCntn-indepth{
+        border-radius: 8px;
+    }
+
+    .unitSummary{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        width: 100%;
+    }
+
+    .PlanetListSect{
+        border-radius: 10px;
+        clip-path: polygon(0% 0%, 35% 0%, 40% 1%, 60% 1%, 65% 0%, 100% 0%, 100% 100%, 65% 100%, 60% 99%, 40% 99%, 35% 100%, 0% 100%);
+    }
+
+    .planetLists{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+        gap: 23px;
+        margin-top: 40px;
+        width: 100%;
+    }
 }
 
 .planetLists a{
     aspect-ratio: 16/9;
     display: flex;
     align-items: center;
+    position: relative;
     gap: 16px;
     padding: 10px;
     clip-path: var(--clip-type1);
@@ -670,6 +840,18 @@
 
 .planetLists a:hover{
     background-color: var(--bg1-opac02);
+}
+
+.planetLists a:hover i{
+    transform: rotate(360deg);
+}
+
+.planetLists a i{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 1.3em;
+    transition: transform 0.4s ease-in-out;
 }
 
 .planetLists a img{

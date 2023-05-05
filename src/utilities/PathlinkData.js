@@ -240,7 +240,7 @@ export const linksData = {
                     title: "Watch To Learn More...",
                     texts: [
                         {
-                            content_type: "video",
+                            content_type: "embed_video",
                             content: "libKVRa01L8",
                             content_description: "How many planets are in the solar system? How did it form in the Milky Way galaxy? Learn facts about the solar system's genesis, plus its planets, moons, and asteroids."
                         },  
@@ -786,7 +786,7 @@ export const linksData = {
                     title: "Watch To Learn More...",
                     texts: [
                         {
-                            content_type: "video",
+                            content_type: "embed_video",
                             content: "2HoTK_Gqi2Q",
                             content_description: "The sun keeps the planets in its orbit with a tremendous gravitational force. What would happen if it disappeared entirely? Learn about the star at the center of our solar system, and how it is critical to all life as we know it."
                         },  
@@ -1220,7 +1220,7 @@ export const linksData = {
                     title: "Watch To Learn More...",
                     texts: [
                         {
-                            content_type: "video",
+                            content_type: "embed_video",
                             content: "H_3boFSZRGI",
                             content_description: "How large is our cosmos? more about oort Cloud."
                         },  
@@ -1583,7 +1583,7 @@ export const linksData = {
                     title: "Watch To Learn More...",
                     texts: [
                         {
-                            content_type: "video",
+                            content_type: "embed_video",
                             content: "2cQai-ec3J0",
                             content_description: "Almost everything you could want to know about the Kuiper belt.."
                         },  
@@ -1625,7 +1625,7 @@ export const linksData = {
                 },
             ],
             overview: {
-                name: "Beyond Our Solar System",
+                name: "What's Beyond Our Solar System",
                 topBox: null,
                 paragraphs: [
                     "Our Sun is one of at least 100 billion stars in the Milky Way, a spiral galaxy about 100,000 light-years across. The stars are arranged in a pinwheel pattern with four major arms, and we live in one of them, about two-thirds of the way outward from the center.",
@@ -1917,7 +1917,7 @@ export const linksData = {
                     title: "Watch To Learn More...",
                     texts: [
                         {
-                            content_type: "video",
+                            content_type: "embed_video",
                             content: "qOpYYPzVOG4",
                             content_description: "From the planets, to the stars, to the systems, to the great unknown of the universe, join us as we explore what lies beyond our solar system!."
                         },  
@@ -2291,7 +2291,7 @@ export const linksData = {
                     title: "Watch To Learn More...",
                     texts: [
                         {
-                            content_type: "video",
+                            content_type: "embed_video",
                             content: "5FJMpWkyY8E",
                             content_description: "By contrast, there is a real realm of chaos between the orbits of Mars and Jupiter. This is where hundreds of thousands of small celestial objects whizz around space in all sorts of directions, occasionally crossing other objects' orbits."
                         },  
@@ -2786,7 +2786,7 @@ export const linksData = {
                     title: "Watch To Learn More...",
                     texts: [
                         {
-                            content_type: "video",
+                            content_type: "embed_video",
                             content: "lcZTcfdZ3Ow",
                             content_description: "A journey through our Solar System to all of the confirmed planets. These amazing worlds show us a tiny fraction of what is possible in the vast expanse of space and time. "
                         },  
@@ -3112,7 +3112,7 @@ export const linksData = {
                         {
                             content_type: "image",
                             head: null,
-                            content: "/mercury_orbit.jpg",
+                            content: "/mercury_orbit.gif",
                             content_description: "Animation of Mercury's and Earth's revolution around the Sun: Mercury is approximately 0.3871 astronomical units (AU) compared to the Earth out from the Sun, and it takes It takes 88 days to complete an orbit, thus the animated gif shows it revolving the Sun approximately 4.14 times (yellow trail) compared to Earth's 365 days(blue trail)"
                         },                          
                         {
@@ -3200,7 +3200,7 @@ export const linksData = {
                         {
                             content_type: "text",
                             head: null,
-                            content: "Italian astronomer Giuseppe Colombo noted that the rotation value was about two-thirds of Mercury's orbital period, and proposed that the planet's orbital and rotational periods were locked into a 3:2 rather than a 1:1 resonance.[181] Data from Mariner 10 subsequently confirmed this view.[182] This means that Schiaparelli's and Antoniadi's maps were not 'wrong'. Ground-based optical observations did not shed much further light on Mercury, but radio astronomers using interferometry at microwave wavelengths, a technique that enables removal of the solar radiation, were able to discern physical and chemical characteristics of the subsurface layers to a depth of several meters.  In 2000, high-resolution lucky imaging observations were conducted by the Mount Wilson Observatory 1.5 meter Hale telescope. They provided the first views that resolved surface features on the parts of Mercury that were not imaged in the Mariner 10 mission. Most of the planet has been mapped by the Arecibo radar telescope, with 5 km (3.1 mi) resolution, including polar deposits in shadowed craters of what may be water ice.",
+                            content: "Italian astronomer Giuseppe Colombo noted that the rotation value was about two-thirds of Mercury's orbital period, and proposed that the planet's orbital and rotational periods were locked into a 3:2 rather than a 1:1 resonance. Data from Mariner 10 subsequently confirmed this view. This means that Schiaparelli's and Antoniadi's maps were not 'wrong'. Ground-based optical observations did not shed much further light on Mercury, but radio astronomers using interferometry at microwave wavelengths, a technique that enables removal of the solar radiation, were able to discern physical and chemical characteristics of the subsurface layers to a depth of several meters.  In 2000, high-resolution lucky imaging observations were conducted by the Mount Wilson Observatory 1.5 meter Hale telescope. They provided the first views that resolved surface features on the parts of Mercury that were not imaged in the Mariner 10 mission. Most of the planet has been mapped by the Arecibo radar telescope, with 5 km (3.1 mi) resolution, including polar deposits in shadowed craters of what may be water ice.",
                             content_description: null
                         }, 
                         {
@@ -3251,9 +3251,9 @@ export const linksData = {
                     title: "Watch To Learn More...",
                     texts: [
                         {
-                            content_type: "video",
-                            content: "rX_NCCpw5Uo&list=PL2gLpWRK0QlBl6GSpAXnsCt6QB4EJD89y",
-                            content_description: "Almost everything you could want to know about the closest planet to the Sun, Mercury. Real HD photos and videos taken by the MESSENGER probe. We discuss the orbit, climate, geographical features, and general physical characteristics or Mercury, and a lot more."
+                            content_type: "embed_video",
+                            content: "0KBjnNuhRHs",
+                            content_description: "The planet Mercury is named after the messenger of the Roman gods because of its fleeting nature across the sky. Find out the reason behind its incredible speed, if it is indeed the hottest planet in the Solar System, and why the smallest planet in the solar system is slowly shrinking."
                         },  
                     ]
                 }
@@ -3455,7 +3455,7 @@ export const linksData = {
                 },
                 {
                     key: "One Way Light Time From Sun",
-                    value: "8.889 minutes"
+                    value: "~6 minutes"
                 },
                 {
                     key: "Length Of Year",
@@ -3467,7 +3467,7 @@ export const linksData = {
                 },
             ],
             overview: {
-                name: "Mercury",
+                name: "Venus",
                 topBox: null,
                 paragraphs: [
                     "Venus is the second planet from the Sun and is Earth's closest planetary neighbor. It's one of the four inner, terrestrial (or rocky) planets, and it's often called Earth's twin because it's similar in size and density. These are not identical twins, however - there are radical differences between the two worlds.",
@@ -3573,7 +3573,7 @@ export const linksData = {
                         {
                             content_type: "text",
                             head: null,
-                            content: "The ancient Romans could easily see seven bright objects in the sky: the Sun, the Moon, and the five brightest planets (Mercury, Venus, Mars, Jupiter, and Saturn). They named the objects after their most important gods. Venus, the third brightest object after the Sun and Moon, was named after the Roman goddess of love and beauty. It's the only planet named after a female god. The astronomical symbol for Venus is a  circle with a small cross beneath is the so-called Venus symbol (♀). The symbol is of ancient Greek origin.",
+                            content: "The ancient Romans could easily see seven bright objects in the sky: the Sun, the Moon, and the five brightest planets (Mercury, Venus, Mars, Jupiter, and Saturn). They named the objects after their most important gods. Venus, the third brightest object after the Sun and Moon, was named after the Roman goddess of love and beauty. It's the only planet named after a female god. The astronomical symbol for Venus is a  circle with a small cross beneath, the so-called Venus symbol (♀). The symbol is of ancient Greek origin.",
                             content_description: null
                         },
                     ]
@@ -3584,211 +3584,151 @@ export const linksData = {
                         {
                             content_type: "text",
                             head: null,
-                            content: 'Mercury is one of four terrestrial planets in the Solar System, and is a rocky body like Earth. It is the smallest planet in the Solar System, with an equatorial radius of 2,439.7 kilometres (1,516.0 mi). Mercury is also smaller—albeit more massive—than the largest natural satellites in the Solar System, Ganymede and Titan. Mercury consists of approximately 70% metallic and 30% silicate material',
+                            content: "Venus is one of the four terrestrial planets in the Solar System, meaning that it is a rocky body like Earth. It is similar to Earth in size and mass and is often described as Earth's 'sister' or 'twin'. If we could slice Venus and Earth in half, pole to pole, and place them side by side, they would look remarkably similar. Each planet has an iron core enveloped by a hot-rock mantle; the thinnest of skins forms a rocky, exterior crust. On both planets, this thin skin changes form and sometimes erupts into volcanoes in response to the ebb and flow of heat and pressure deep beneath. Venus is close to spherical due to its slow rotation. Venus has a diameter of 12,103.6 km (7,520.8 mi)—only 638.4 km (396.7 mi) less than Earth's—and its mass is 81.5% of Earth's. Conditions on the Venusian surface differ radically from those on Earth because its dense atmosphere is 96.5% carbon dioxide, with most of the remaining 3.5% being nitrogen. The surface pressure is 9.3 megapascals (93 bars), and the average surface temperature is 737 K (464 °C; 867 °F), above the critical points of both major constituents and making the surface atmosphere a supercritical fluid out of mainly supercritical carbon dioxide and some supercritical nitrogen.",
                             content_description: null
                         },
                         {
                             content_type: "text",
                             head: "Internal Structure",
-                            content: "Mercury appears to have a solid silicate crust and mantle overlying a solid, iron sulfide outer core layer, a deeper liquid core layer, and a solid inner core. The planet's density is the second highest in the Solar System at 5.427 g/cm3, only slightly less than Earth's density of 5.515 g/cm3. The radius of Mercury's core is estimated to be 2,020 ± 30 km (1,255 ± 19 mi) and it occupies about 57% of its volume; for Earth this proportion is 17%. Research published in 2007 suggests that Mercury has a molten core.Surrounding the core is a 500-700 km (310-430 mi) mantle consisting of silicates.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "Mercury's core has a higher iron content than that of any other major planet in the Solar System, and several theories have been proposed to explain this. The most widely accepted theory is that Mercury originally had a metal-silicate ratio similar to common chondrite meteorites, thought to be typical of the Solar System's rocky matter, and a mass approximately 2.25 times its current mass. Early in the Solar System's history, Mercury may have been struck by a planetesimal of approximately 1/6 Mercury's mass and several thousand kilometers across. The impact would have stripped away much of the original crust and mantle, leaving the core behind as a relatively major component. A similar process, known as the giant impact hypothesis, has been proposed to explain the formation of the Moon",
-                            content_description: null
-                        },
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "Alternatively, Mercury may have formed from the solar nebula before the Sun's energy output had stabilized. It would initially have had twice its present mass, but as the protosun contracted, temperatures near Mercury could have been between 2,500 and 3,500 K and possibly even as high as 10,000 K. Much of Mercury's surface rock could have been vaporized at such temperatures, forming an atmosphere of 'rock vapor' that could have been carried away by the solar wind. A third hypothesis proposes that the solar nebula caused drag on the particles from which Mercury was accreting, which meant that lighter particles were lost from the accreting material and not gathered by Mercury.",
+                            content: "Without data from reflection seismology or knowledge of its moment of inertia, little direct information is available about the internal structure and geochemistry of Venus. The similarity in size and density between Venus and Earth suggests they share a similar internal structure: a core, mantle, and crust. Like that of Earth, the Venusian core is most likely at least partially liquid because the two planets have been cooling at about the same rate, although a completely solid core cannot be ruled out. The slightly smaller size of Venus means pressures are 24% lower in its deep interior than Earth's. The predicted values for the moment of inertia based on planetary models suggest a core radius of 2,900-3,450 km. This is in line with the first observation-based estimate of 3,500 km.",
                             content_description: null
                         },
                         {
                             content_type: "image",
                             head: null,
-                            content: "/mercury_structure.png",
-                            content_description: "Mercury's internal structure and magnetic field. Created: 11 November 2019"
-                        },
-                        {
-                            content_type: "text",
-                            head: "Surface Geology",
-                            content: "Mercury's surface is similar in appearance to that of the Moon, showing extensive mare-like plains and heavy cratering, indicating that it has been geologically inactive for billions of years. It is more heterogeneous than the surface of Mars or the Moon, both of which contain significant stretches of similar geology, such as maria and plateaus. Albedo features are areas of markedly different reflectivity, which include impact craters, the resulting ejecta, and ray systems. Larger albedo features correspond to higher reflectivity plains. Mercury has dorsa (also called 'wrinkle-ridges'), Moon-like highlands, montes (mountains), planitiae (plains), rupes (escarpments), and valles (valleys).",
-                            content_description: null
+                            content: "/venus_structure.png",
+                            content_description: "The differentiated structure of Venus. Created: 29 April 2011."
                         },
                         {
                             content_type: "text",
                             head: null,
-                            content: "The planet's mantle is chemically heterogeneous, suggesting the planet went through a magma ocean phase early in its history. Crystallization of minerals and convective overturn resulted in layered, chemically heterogeneous crust with large-scale variations in chemical composition observed on the surface. The crust is low in iron but high in sulfur, resulting from the stronger early chemically reducing conditions than is found in the other terrestrial planets. The surface is dominated by iron-poor pyroxene and olivine,  along with sodium-rich plagioclase and minerals of mixed magnesium, calcium, and iron-sulfide. The less reflective regions of the crust are high in carbon, most likely in the form of graphite.",
+                            content: "The principal difference between the two planets is the lack of evidence for plate tectonics on Venus, possibly because its crust is too strong to subduct without water to make it less viscous. This results in reduced heat loss from the planet, preventing it from cooling and providing a likely explanation for its lack of an internally generated magnetic field. Instead, Venus may lose its internal heat in periodic major resurfacing events.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Surface Geology and Geography",
+                            content: "The Venusian surface was a subject of speculation until some of its secrets were revealed by planetary science in the 20th century. Venera landers in 1975 and 1982 returned images of a surface covered in sediment and relatively angular rocks. The surface was mapped in detail by Magellan in 1990-91. The ground shows evidence of extensive volcanism, and the sulfur in the atmosphere may indicate that there have been recent eruptions.",
                             content_description: null
                         },
                         {
                             content_type: "image",
-                            content: "/mercury_geology.jpg",
-                            content_description: "Unmasking the Secrets of Mercury: MASCS spectrum scan of Mercury's surface by MESSENGER. The MASCS instrument was designed to study both the exosphere and surface of Mercury. To learn more about the minerals and surface processes on Mercury, the Visual and Infrared Spectrometer (VIRS) portion of MASCS has been diligently collecting single tracks of spectral surface measurements since MESSENGER entered orbit. To accentuate the geological context of the spectral measurements, the MASCS data have been overlain on the MDIS monochrome mosaic."
-                        },
-                        {
-                            content_type: "text",
-                            head: "Impact Basins and Craters",
-                            content: 'Mercury was heavily bombarded by comets and asteroids during and shortly following its formation 4.6 billion years ago, as well as during a possibly separate subsequent episode called the Late Heavy Bombardment that ended 3.8 billion years ago. Mercury received impacts over its entire surface during this period of intense crater formation, facilitated by the lack of any atmosphere to slow impactors down. During this time Mercury was volcanically active; basins were filled by magma, producing smooth plains similar to the maria found on the Moon. One of the most unusual craters is Apollodorus, or "the Spider", which hosts a serious of radiating troughs extending outwards from its impact site',
-                            content_description: null
+                            head: null,
+                            content: "/venus_venera.png",
+                            content_description: "Rectified and colourized surface image, Venera 10 (1975). USSR Venera 10 Venus ground 1975 colorized by Don P. Mitchell."
                         },
                         {
                             content_type: "text",
                             head: null,
-                            content: "Craters on Mercury range in diameter from small bowl-shaped cavities to multi-ringed impact basins hundreds of kilometers across. They appear in all states of degradation, from relatively fresh rayed craters to highly degraded crater remnants. Mercurian craters differ subtly from lunar craters in that the area blanketed by their ejecta is much smaller, a consequence of Mercury's stronger surface gravity. The largest known crater is Caloris Planitia, or Caloris Basin, with a diameter of 1,550 km. The impact that created the Caloris Basin was so powerful that it caused lava eruptions and left a concentric mountainous ring ~2 km tall surrounding the impact crater.",
+                            content: "About 80% of the Venusian surface is covered by smooth, volcanic plains, consisting of 70% plains with wrinkle ridges and 10% smooth or lobate plains. Two highland 'continents' make up the rest of its surface area, one lying in the planet's northern hemisphere and the other just south of the equator. The northern continent is called Ishtar Terra after Ishtar, the Babylonian goddess of love, and is about the size of Australia. Maxwell Montes, the highest mountain on Venus, lies on Ishtar Terra. Its peak is 11 km (7 mi) above the Venusian average surface elevation. The southern continent is called Aphrodite Terra, after the Greek mythological goddess of love, and is the larger of the two highland regions at roughly the size of South America. A network of fractures and faults covers much of this area.",
                             content_description: null
                         },
                         {
                             content_type: "image",
-                            content: "/mercury_basin.jpg",
-                            content_description: "Perspective view of Caloris Basin - high (red); low (blue): In this perspective view, we look northwest over the Caloris Basin, a depression about 1500 km in diameter formed several billion years ago by the impact of a large projectile into the surface of Mercury. The mountain range at the edge of the basin can be seen as an arc in the background. In the foreground, we see a set of tectonic troughs, known as Pantheon Fossae, radiating from the center of the basin outward toward the edge of the basin interior. A 41-km-diameter impact crater, Apollodorus, is superposed just slightly off from the center of Pantheon Fossae. White and red are high topography, and greens and blues are low topography, with a total height differences of roughly 4 km."
+                            content: "/venus_geography.jpg",
+                            content_description: "Color-coded elevation map, showing the elevated terrae 'continents' in yellow and minor features of Venus. This map of Venus was compiled from data recorded by NASA's Pioneer Venus Orbiter spacecraft beginning in 1978. Created: 1 March 1981."
                         },
                         {
                             content_type: "text",
                             head: null,
-                            content: "At the antipode of the Caloris Basin is a large region of unusual, hilly terrain known as the 'Weird Terrain'. One hypothesis for its origin is that shock waves generated during the Caloris impact traveled around Mercury, converging at the basin's antipode (180 degrees away). The resulting high stresses fractured the surface.[68] Alternatively, it has been suggested that this terrain formed as a result of the convergence of ejecta at this basin's antipode. Overall, 46 impact basins have been identified. A notable basin is the 400 km wide, multi-ring Tolstoj Basin that has an ejecta blanket extending up to 500 km from its rim and a floor that has been filled by smooth plains materials. Beethoven Basin has a similar-sized ejecta blanket and a 625 km diameter rim.",
+                            content: 'The absence of evidence of lava flow accompanying any of the visible calderas remains an enigma. The planet has few impact craters, demonstrating that the surface is relatively young, at 300-600 million years old. Venus has some unique surface features in addition to the impact craters, mountains, and valleys commonly found on rocky planets. Among these are flat-topped volcanic features called "farra", which look somewhat like pancakes and range in size from 20 to 50 km (12 to 31 mi) across, and from 100 to 1,000 m (330 to 3,280 ft) high; radial, star-like fracture systems called "novae"; features with both radial and concentric fractures resembling spider webs, known as "arachnoids"; and "coronae", circular rings of fractures sometimes surrounded by a depression. These features are volcanic in origin. The longitude of physical features on Venus are expressed relative to its prime meridian. The original prime meridian passed through the radar-bright spot at the centre of the oval feature Eve, located south of Alpha Regio. After the Venera missions were completed, the prime meridian was redefined to pass through the central peak in the crater Ariadne on Sedna Planitia.',
                             content_description: null
                         },
                         {
                             content_type: "text",
-                            head: "Plains",
-                            content: "There are two geologically distinct plains regions on Mercury. Gently rolling, hilly plains in the regions between craters are Mercury's oldest visible surfaces, predating the heavily cratered terrain. These inter-crater plains appear to have obliterated many earlier craters, and show a general paucity of smaller craters below about 30 km in diameter. Smooth plains are widespread flat areas that fill depressions of various sizes and bear a strong resemblance to the lunar maria. Unlike lunar maria, the smooth plains of Mercury have the same albedo as the older inter-crater plains. All the smooth plains of Mercury formed significantly later than the Caloris basin, as evidenced by appreciably smaller crater densities than on the Caloris ejecta blanket.",
+                            head: null,
+                            content: "The stratigraphically oldest tessera terrains have consistently lower thermal emissivity than the surrounding basaltic plains measured by Venus Express and Magellan, indicating a different, possibly a more felsic, mineral assemblage. The mechanism to generate a large amount of felsic crust usually requires the presence of water ocean and plate tectonics, implying that habitable condition had existed on early Venus with large bodies of water at some point. However, the nature of tessera terrains is far from certain.",
                             content_description: null
                         },
                         {
                             content_type: "text",
-                            head: "Compressional Features",
-                            content: "One unusual feature of Mercury's surface is the numerous compression folds, or rupes, that crisscross the plains. These also exist on the moon, but are much more prominent on Mercury. As Mercury's interior cooled, it contracted and its surface began to deform, creating wrinkle ridges and lobate scarps associated with thrust faults. The scarps can reach lengths of 1000 km and heights of 3 km. These compressional features can be seen on top of other features, such as craters and smooth plains, indicating they are more recent. Small-scale thrust fault scarps have been found, tens of meters in height and with lengths in the range of a few km, that appear to be less than 50 million years old, indicating that compression of the interior and consequent surface geological activity continue to the present.",
+                            head: null,
+                            content: "On your tour of Venus, during the 117 days you're waiting for sunset, you might stop by a volcanic crater, Sacajawea, named for Lewis and Clark's Native American guide. Or stroll through a deep canyon, Diana, named for the Roman goddess of the hunt. Other notable features of the Venus landscape include: “Pancake” domes with flat tops and steep sides, as wide as 38 miles (62 kilometers), likely formed by the extrusion of highly viscous lava, “Tick” domes, odd volcanoes with radiating spurs that, from above, make them look like their blood-feeding namesake, Tesserae, terrain with intricate patterns of ridges and grooves that suggest the scorching temperatures make rock behave in some ways more like peanut butter beneath a thin and strong chocolate layer on Venus.",
                             content_description: null
                         },
                         {
                             content_type: "text",
                             head: "Volcanism",
-                            content: 'There is evidence for pyroclastic flows on Mercury from low-profile shield volcanoes. 51 pyroclastic deposits have been identified, where 90% of them are found within impact craters. A study of the degradation state of the impact craters that host pyroclastic deposits suggests that pyroclastic activity occurred on Mercury over a prolonged interval. A "rimless depression" inside the southwest rim of the Caloris Basin consists of at least nine overlapping volcanic vents, each individually up to 8 km in diameter. It is thus a "compound volcano".',
+                            content: "Much of the Venusian surface appears to have been shaped by volcanic activity. Venus has several times as many volcanoes as Earth, and it has 167 large volcanoes that are over 100 km (60 mi) across. The only volcanic complex of this size on Earth is the Big Island of Hawaii. More than 85,000 volcanoes on Venus were identified and mapped. This is not because Venus is more volcanically active than Earth, but because its crust is older and is not subject to the same erosion process. Earth's oceanic crust is continually recycled by subduction at the boundaries of tectonic plates, and has an average age of about 100 million years, whereas the Venusian surface is estimated to be 300-600 million years old.",
                             content_description: null
                         },
-
-                        
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Several lines of evidence point to ongoing volcanic activity on Venus. Sulfur dioxide concentrations in the upper atmosphere dropped by a factor of 10 between 1978 and 1986, jumped in 2006, and again declined 10-fold. This may mean that levels had been boosted several times by large volcanic eruptions.  In 2023, scientists reexamined topographical images of the Maat Mons region taken by the Magellan orbiter. Using computer simulations they determined that the topography had changed during an 8-month interval, and have concluded that active volcanism was the cause.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Craters",
+                            content: "Almost a thousand impact craters on Venus are evenly distributed across its surface. On other cratered bodies, such as Earth and the Moon, craters show a range of states of degradation. On the Moon, degradation is caused by subsequent impacts, whereas on Earth it is caused by wind and rain erosion. On Venus, about 85% of the craters are in pristine condition. The number of craters, together with their well-preserved condition, indicates the planet underwent a global resurfacing event 300-600 million years ago, followed by a decay in volcanism. Venusian craters range from 3 to 280 km (2 to 174 mi) in diameter. No craters are smaller than 3 km, because of the effects of the dense atmosphere on incoming objects. Objects with less than a certain kinetic energy are slowed so much by the atmosphere that they do not create an impact crater. Incoming projectiles less than 50 m (160 ft) in diameter will fragment and burn up in the atmosphere before reaching the ground.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/venus_crater.jpg",
+                            content_description: "Three impact craters are displayed in this three-dimensional perspective view of the surface of Venus. The center of the image is located at approximately 27 degrees south latitude, 339 degrees east longitude in the northwestern portion of Lavinia Planitia. The viewpoint is located southwest of Saskia Crater which appears centered in the lower portion of the image. Saskia is a crater with a diameter of 37.3km. Danilova, a crater with a diameter of 47.6km appears above and to the left of Saskia in the image. Aglaonice, a crater with a diameter of 62.7km is shown to the right of Danilova. Simulated color and a digital elevation map developed by the U.S. Geological Survey are used to enhance small-scale structure. The simulated hues are based on color images recorded by the Soviet Venera 13 and 14 spacecraft."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Atmosphere",
+                            content: "Venus' atmosphere is one of extremes. With the hottest surface in the solar system, apart from the Sun itself, Venus is hotter even than the innermost planet, charbroiled Mercury. To outlive the short-lived Venera probes, your rambling sojourn on Venus would presumably include unimaginably strong insulation as temperatures push toward 900 degrees Fahrenheit (482 Celsius). You would need an extremely thick, pressurized outer shell to avoid being crushed by the weight of the atmosphere - which would press down on you as if you were 0.6 miles (1 kilometer) deep in the ocean.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The atmosphere is mostly carbon dioxide, the same gas driving the greenhouse effect on Venus and Earth, with clouds composed of sulfuric acid. Venus's atmosphere is rich in primordial noble gases compared to that of Earth. This enrichment indicates an early divergence from Earth in evolution. An unusually large comet impact or accretion of a more massive primary atmosphere from solar nebula have been proposed to explain the enrichment. However, the atmosphere is depleted of radiogenic argon, a proxy to mantle degassing, suggesting an early shutdown of major magmatism. And at the surface, the hot, high-pressure carbon dioxide behaves in a corrosive fashion. But a stranger transformation begins as you rise higher. Temperature and pressure begin to ease.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/venus_atmosphere.png",
+                            content_description: "Cloud structure of the Venusian atmosphere, made visible through ultraviolet imaging. Processed using ultraviolet (365nm & 283nm) filtered images of Venus taken by Akatsuki on December 23 2016. JAXA/ISAS/DARTS/Kevin M. Gill."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Magnetic field and core",
+                            content: "In 1967, Venera 4 found Venus's magnetic field to be much weaker than that of Earth. This magnetic field is induced by an interaction between the ionosphere and the solar wind, rather than by an internal dynamo as in the Earth's core. Venus's small induced magnetosphere provides negligible protection to the atmosphere against solar and cosmic radiation, reaching at elevations of 54 to 48 km Earth-like levels.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Even though Venus is similar in size to Earth and has a similar-sized iron core, the planet does not have its own internally generated magnetic field. Instead, Venus has what is known as an induced magnetic field. This weak magnetic field is created by the interaction of the Sun's magnetic field and the planet's outer atmosphere. Ultraviolet light from the Sun excites gases in Venus' outermost atmosphere; these electrically excited gases are called ions, and thus this region is called the ionosphere (Earth has an ionosphere as well). The solar wind - a million-mile-per-hour gale of electrically charged particles streaming continuously from the Sun - carries with it the Sun's magnetic field. When the Sun's magnetic field interacts with the electrically excited ionosphere of Venus, it creates or induces, a magnetic field there. This induced magnetic field envelops the planet and is shaped like an extended teardrop, or the tail of a comet, as the solar wind blows past Venus and outward into the solar system.",
+                            content_description: null
+                        },
                     ]
                 },
                 {
-                    title: "Surface Conditions and Exosphere",
+                    title: "Orbit & Rotation",
                     texts: [
                         {
                             content_type: "text",
                             head: null,
-                            content: "The surface temperature of Mercury ranges from 100 to 700 K (-173 to 427 °C; -280 to 800 °F) at the most extreme places: 0°N, 0°W, or 180°W. It never rises above 180 K at the poles, due to the absence of an atmosphere and a steep temperature gradient between the equator and the poles. The subsolar point reaches about 700 K during perihelion (0°W or 180°W), but only 550 K at aphelion (90° or 270°W). On the dark side of the planet, temperatures average 110 K. The intensity of sunlight on Mercury's surface ranges between 4.59 and 10.61 times the solar constant (1,370 W·m-2).",
+                            content: "Venus has an orbit with a semi-major axis of 0.723 au (108,200,000 km; 67,200,000 mi), and an eccentricity of 0.007. The low eccentricity and comparatively small size of its orbit give Venus the least range in distance between perihelion and aphelion of the planets: 1.46 million km. The planet orbits the Sun once every 225 days and travels 4.54 au (679,000,000 km; 422,000,000 mi) in doing so, giving an average orbital speed of 35 km/s (78,000 mph). The planet has a near orbital resonance of 8 Earth orbits to 13 Venus orbits, with inferior conjunctions occurring with a synodic period of 584 days, on average. The 3.4° inclination of Venus's orbit is great enough to usually prevent the inferior planet from passing directly between the Sun and Earth at inferior conjunction. Such solar transits of Venus rarely occur, but with great predictability and interest.",
                             content_description: null
                         },
                         {
                             content_type: "text",
                             head: null,
-                            content: "Instead of an atmosphere, Mercury possesses a thin exosphere made up of atoms blasted off the surface by the solar wind and striking meteoroids. Mercury's exosphere is composed mostly of oxygen, sodium, hydrogen, helium, and potassium.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "Although the daylight temperature at the surface of Mercury is generally extremely high, observations strongly suggest that ice (frozen water) exists on Mercury. The floors of deep craters at the poles are never exposed to direct sunlight, and temperatures there remain below 102 K, far lower than the global average. This creates a cold trap where ice can accumulate. The icy regions are estimated to contain about 1.0e14 - 1.0e15 kg of ice, and may be covered by a layer of regolith that inhibits sublimation. By comparison, the Antarctic ice sheet on Earth has a mass of about 4e18 kg, and Mars's south polar cap contains about 1.0e16 kg of water. The origin of the ice on Mercury is not yet known, but the two most likely sources are from outgassing of water from the planet's interior or deposition by impacts of comets.",
-                            content_description: null
-                        },                          
-                        {
-                            content_type: "image",
-                            head: null,
-                            content: "/water_on_mercury.jpg",
-                            content_description: "Composite of the north pole of Mercury, where NASA confirmed the discovery of a large volume of water ice, in permanently dark craters that are found there."
-                        },                          
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "Sodium, potassium and calcium were discovered in the atmosphere during the 1980-1990s, and are thought to result primarily from the vaporization of surface rock struck by micrometeorite impacts including presently from Comet Encke. In 2008, magnesium was discovered by MESSENGER. Studies indicate that, at times, sodium emissions are localized at points that correspond to the planet's magnetic poles. This would indicate an interaction between the magnetosphere and the planet's surface.",
-                            content_description: null
-                        },                          
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: 'According to NASA, Mercury is not a suitable planet for Earth-like life. It has a surface boundary exosphere instead of a layered atmosphere, extreme temperatures, and high solar radiation. It is unlikely that any living beings can withstand those conditions.[101] Some parts of the subsurface of Mercury may have been habitable, and perhaps life forms, albeit likely primitive microorganisms, may have existed on the planet',
-                            content_description: null
-                        },                          
-                        {
-                            content_type: "text",
-                            head: "Magnetic Field and Magnetosphere",
-                            content: "Despite its small size and slow 59-day-long rotation, Mercury has a significant, and apparently global, magnetic field. According to measurements taken by Mariner 10, the magnetic-field strength at Mercury's equator is about 300 nT. Like that of Earth, Mercury's magnetic field is dipolar. Unlike Earth's, Mercury's poles are nearly aligned with the planet's spin axis. Mercury's magnetic field is offset relative to the planet's equator. Though Mercury's magnetic field at the surface has just 1% the strength of Earth's, it interacts with the magnetic field of the solar wind to sometimes create intense magnetic tornadoes that funnel the fast, hot solar wind plasma down to the surface of the planet. When the ions strike the surface, they knock off neutrally charged atoms and send them on a loop high into the sky.",
+                            content: "Venus has the lowest gravitational potential difference to Earth than any other planet, needing the lowest delta-v to transfer between them. All planets in the Solar System orbit the Sun in an anticlockwise direction as viewed from above Earth's north pole. Most planets rotate on their axes in an anticlockwise direction, but Venus rotates clockwise in retrograde rotation once every 243 Earth days - the slowest rotation of any planet. This Venusian sidereal day lasts therefore longer than a Venusian year (243 versus 224.7 Earth days). Slowed by its strong atmospheric current the length of the day also fluctuates by up to 20 minutes.  Because of the retrograde rotation, the length of a solar day on Venus is significantly shorter than the sidereal day, at 116.75 Earth days (making the Venusian solar day shorter than Mercury's 176 Earth days — the 116-day figure is close to the average number of days it takes Mercury to slip underneath the Earth in its orbit). One Venusian year is about 1.92 Venusian solar days. To an observer on the surface of Venus, the Sun would rise in the west and set in the east, although Venus's opaque clouds prevent observing the Sun from the planet's surface.",
                             content_description: null
                         },
                         {
                             content_type: "image",
                             head: null,
-                            content: "/mercury_magnetic_field.jpg",
-                            content_description: "Graph showing relative strength of Mercury's magnetic field"
-                        },                           
+                            content: "/venus_rotation.gif",
+                            content_description: "Venus orbits the Sun at an average distance of about 108 million kilometers (about 0.7 AU), and completes an orbit every 224.65 days. Venus is the second closest planet from the Sun and it revolves round the Sun approximately 1.6 times (yellow trail) in Earth's 365 days (red trail)."
+                        }, 
                         {
                             content_type: "text",
                             head: null,
-                            content: "Mercury's magnetic field is strong enough to deflect the solar wind around the planet, creating a magnetosphere. The planet's magnetosphere, though small enough to fit within Earth, is strong enough to trap solar wind plasma. This contributes to the space weathering of the planet's surface. Observations taken by the Mariner 10 spacecraft detected this low energy plasma in the magnetosphere of the planet's nightside. Bursts of energetic particles in the planet's magnetotail indicate a dynamic quality to the planet's magnetosphere.",
+                            content: "Venus has no natural satellites. It has several trojan asteroids: the quasi-satellite 2002 VE(68) and two other temporary trojans, 2001 CK32 and 2012 XE(133). The orbital space of Venus has a dust ring-cloud, with a suspected origin either from Venus-trailing asteroids, interplanetary dust migrating in waves, or the remains of the Solar System's original circumstellar disc that formed the planetary system.",
                             content_description: null
-                        },                          
-                    ]
-                },
-                {
-                    title: "Orbit, Rotation, and Longitude",
-                    texts: [
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "Mercury has the most eccentric orbit of all the planets in the Solar System; its eccentricity is 0.21 with its distance from the Sun ranging from 46,000,000 to 70,000,000 km (29,000,000 to 43,000,000 mi). It takes 87.969 Earth days to complete an orbit. Mercury has a 3:2 spin-orbit resonance of the its rotation around its axis, it results in complex variations of the surface temperature. The resonance makes a single solar day (the length between two meridian transits of the Sun) on Mercury last exactly two Mercury years, or about 176 Earth days.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "Mercury's orbit is inclined by 7 degrees to the plane of Earth's orbit (the ecliptic), the largest of all eight known solar planets. As a result, transits of Mercury across the face of the Sun can only occur when the planet is crossing the plane of the ecliptic at the time it lies between Earth and the Sun, which is in May or November. This occurs about every seven years on average. Mercury's axial tilt is almost zero, with the best measured value as low as 0.027 degrees. This is significantly smaller than that of Jupiter, which has the second smallest axial tilt of all planets at 3.1 degrees. This means that to an observer at Mercury's poles, the center of the Sun never rises more than 2.1 arcminutes above the horizon",
-                            content_description: null
-                        },
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "At certain points on Mercury's surface, an observer would be able to see the Sun peek up a little more than two-thirds of the way over the horizon, then reverse and set before rising again, all within the same Mercurian day. This is because approximately four Earth days before perihelion, Mercury's angular orbital velocity equals its angular rotational velocity so that the Sun's apparent motion ceases; closer to perihelion, Mercury's angular orbital velocity then exceeds the angular rotational velocity. Thus, to a hypothetical observer on Mercury, the Sun appears to move in a retrograde direction. Four Earth days after perihelion, the Sun's normal apparent motion resumes. A similar effect would have occurred if Mercury had been in synchronous rotation: the alternating gain and loss of rotation over revolution would have caused a libration of 23.65° in longitude.",
-                            content_description: null
-                        },                          
-                        {
-                            content_type: "image",
-                            head: null,
-                            content: "/mercury_orbit.jpg",
-                            content_description: "Animation of Mercury's and Earth's revolution around the Sun: Mercury is approximately 0.3871 astronomical units (AU) compared to the Earth out from the Sun, and it takes It takes 88 days to complete an orbit, thus the animated gif shows it revolving the Sun approximately 4.14 times (yellow trail) compared to Earth's 365 days(blue trail)"
-                        },                          
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "Mercury attains inferior conjunction (nearest approach to Earth) every 116 Earth days on average, but this interval can range from 105 days to 129 days due to the planet's eccentric orbit. Mercury can come as near as 82,200,000 km (0.549 astronomical units; 51.1 million miles) to Earth, and that is slowly declining: The next approach to within 82,100,000 km (51 million mi) is in 2679, and to within 82,000,000 km (51 million mi) in 4487, but it will not be closer to Earth than 80,000,000 km (50 million mi) until 28,622. Its period of retrograde motion as seen from Earth can vary from 8 to 15 days on either side of inferior conjunction. This large range arises from the planet's high orbital eccentricity. Essentially because Mercury is closest to the Sun, when taking an average over time, Mercury is most often the closest planet to the Earth, and—in that measure—it is the closest planet to each of the other planets in the Solar System.",
-                            content_description: null
-                        },                         
-                        {
-                            content_type: "text",
-                            head: "Spin-orbit Resonance",
-                            content: "For many years it was thought that Mercury was synchronously tidally locked with the Sun, rotating once for each orbit and always keeping the same face directed towards the Sun, in the same way that the same side of the Moon always faces Earth. Radar observations in 1965 proved that the planet has a 3:2 spin-orbit resonance, rotating three times for every two revolutions around the Sun. The eccentricity of Mercury's orbit makes this resonance stable—at perihelion, when the solar tide is strongest, the Sun is nearly still in Mercury's sky. The rare 3:2 resonant tidal locking is stabilized by the variance of the tidal force along Mercury's eccentric orbit, acting on a permanent dipole component of Mercury's mass distribution.",
-                            content_description: null
-                        },                         
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "The original reason astronomers thought it was synchronously locked was that, whenever Mercury was best placed for observation, it was always nearly at the same point in its 3:2 resonance, hence showing the same face. This is because, coincidentally, Mercury's rotation period is almost exactly half of its synodic period with respect to Earth. Due to Mercury's 3:2 spin-orbit resonance, a solar day lasts about 176 Earth days. A sidereal day (the period of rotation) lasts about 58.7 Earth days. Simulations indicate that the orbital eccentricity of Mercury varies chaotically from nearly zero (circular) to more than 0.45 over millions of years due to perturbations from the other planets. This was thought to explain Mercury's 3:2 spin-orbit resonance (rather than the more usual 1:1), because this state is more likely to arise during a period of high eccentricity. However, accurate modeling based on a realistic model of tidal response has demonstrated that Mercury was captured into the 3:2 spin-orbit state at a very early stage of its history, within 20 (more likely, 10) million years after its formation.",
-                            content_description: null
-                        },                         
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "Numerical simulations show that a future secular orbital resonant perihelion interaction with Jupiter may cause the eccentricity of Mercury's orbit to increase to the point where there is a 1% chance that the orbit will be destabilized in the next five billion years. If this happens, Mercury may fall into the Sun, collide with Venus, be ejected from the Solar System, or even disrupt the rest of the inner Solar System.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "text",
-                            head: "Longitude Convention",
-                            content: "The longitude convention for Mercury puts the zero of longitude at one of the two hottest points on the surface, as described above. However, when this area was first visited, by Mariner 10, this zero meridian was in darkness, so it was impossible to select a feature on the surface to define the exact position of the meridian. Therefore, a small crater further west was chosen, called Hun Kal, which provides the exact reference point for measuring longitude. The center of Hun Kal defines the 20° west meridian. A 1970 International Astronomical Union resolution suggests that longitudes be measured positively in the westerly direction on Mercury. The two hottest places on the equator are therefore at longitudes 0° W and 180° W, and the coolest points on the equator are at longitudes 90° W and 270° W. However, the MESSENGER project uses an east-positive convention.",
-                            content_description: null
-                        },                         
+                        },                      
                     ]
                 },
                 {
@@ -3797,25 +3737,55 @@ export const linksData = {
                         {
                             content_type: "text",
                             head: null,
-                            content: "Mercury's apparent magnitude is calculated to vary between -2.48 (brighter than Sirius) around superior conjunction and +7.25 (below the limit of naked-eye visibility) around inferior conjunction. The mean apparent magnitude is 0.23 while the standard deviation of 1.78 is the largest of any planet. The mean apparent magnitude at superior conjunction is -1.89 while that at inferior conjunction is +5.93. Observation of Mercury is complicated by its proximity to the Sun, as it is lost in the Sun's glare for much of the time. Mercury can be observed for only a brief period during either morning or evening twilight.",
+                            content: "To the naked eye, Venus appears as a white point of light brighter than any other planet or star (apart from the Sun). The planet's mean apparent magnitude is -4.14 with a standard deviation of 0.31. The brightest magnitude occurs during crescent phase about one month before or after inferior conjunction. Venus fades to about magnitude -3 when it is backlit by the Sun. The planet is bright enough to be seen in broad daylight, but is more easily visible when the Sun is low on the horizon or setting. As an inferior planet, it always lies within about 47° of the Sun.",
                             content_description: null
                         },
                         {
                             content_type: "text",
                             head: null,
-                            content: "But in some cases Mercury can better be observed in daylight with a telescope when the position is known because it is higher in the sky and less atmospheric effects affect the view of the planet. When proper safety precautions are taken to prevent inadvertently pointing the telescope at the Sun (and thus blinding the user), Mercury can be viewed as close as 4° to the Sun when near superior conjunction when it is almost at its brightest. Mercury can, like several other planets and the brightest stars, be seen during a total solar eclipse.",
+                            content: 'Venus "overtakes" Earth every 584 days as it orbits the Sun. As it does so, it changes from the "Evening Star", visible after sunset, to the "Morning Star", visible before sunrise. Although Mercury, the other inferior planet, reaches a maximum elongation of only 28° and is often difficult to discern in twilight, Venus is hard to miss when it is at its brightest. Its greater maximum elongation means it is visible in dark skies long after sunset. As the brightest point-like object in the sky, Venus is a commonly misreported "unidentified flying object".',
+                            content_description: null
+                        }, 
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/venus_observation.jpg",
+                            content_description: "Venus reflected on the Pacific Ocean: Venus, pictured center-right, is always brighter than all other planets or stars at their maximal brightness, as seen from Earth. Jupiter is visible at the top of the image. Created: 15 November 2008."
+                        },                                                  
+                        {
+                            content_type: "text",
+                            head: "Phases",
+                            content: 'As it orbits the Sun, Venus displays phases like those of the Moon in a telescopic view. The planet appears as a small and "full" disc when it is on the opposite side of the Sun (at superior conjunction). Venus shows a larger disc and "quarter phase" at its maximum elongations from the Sun, and appears its brightest in the night sky. The planet presents a much larger thin "crescent" in telescopic views as it passes along the near side between Earth and the Sun. Venus displays its largest size and "new phase" when it is between Earth and the Sun (at inferior conjunction). Its atmosphere is visible through telescopes by the halo of sunlight refracted around it. The phases are clearly visible in a 4" telescope.',
+                            content_description: null
+                        },    
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/venus_phases.jpg",
+                            content_description: "The phases of Venus and evolution of its apparent diameter."
+                        },                                             
+                        {
+                            content_type: "text",
+                            head: "Transits",
+                            content: "The Venusian orbit is slightly inclined relative to Earth's orbit; thus, when the planet passes between Earth and the Sun, it usually does not cross the face of the Sun. Transits of Venus occur in cycles of 243 years with the current pattern of transits being pairs of transits separated by eight years, at intervals of about 105.5 years or 121.5 years—a pattern first discovered in 1639 by the English astronomer Jeremiah Horrocks. The latest pair was June 8, 2004 and June 5-6, 2012. The transit could be watched live from many online outlets or observed locally with the right equipment and conditions.",
+                            content_description: null
+                        },    
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/venus_transit.jpg",
+                            content_description: "2012 transit of Venus, projected to a white card by a telescope; Transit of Venus viewed in Wagga Wagga, three telescopes were set up by the Wagga Wagga Observatory at the Civic Centre for those who wanted to view it safely. Created: 6 June 2012."
+                        },                                                
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The preceding pair of transits occurred in December 1874 and December 1882; the following pair will occur in December 2117 and December 2125. The 1874 transit is the subject of the oldest film known, the 1874 Passage de Venus. Historically, transits of Venus were important, because they allowed astronomers to determine the size of the astronomical unit, and hence the size of the Solar System as shown by Horrocks in the 1639 transit of Venus. Captain Cook's exploration of the east coast of Australia came after he had sailed to Tahiti in 1768 to observe a transit of Venus.",
                             content_description: null
                         },                                                  
                         {
                             content_type: "text",
-                            head: null,
-                            content: "Mercury is more often and easily visible from the Southern Hemisphere than from the Northern. This is because Mercury's maximum western elongation occurs only during early autumn in the Southern Hemisphere, whereas its greatest eastern elongation happens only during late winter in the Southern Hemisphere. In both of these cases, the angle at which the planet's orbit intersects the horizon is maximized, allowing it to rise several hours before sunrise in the former instance and not set until several hours after sundown in the latter from southern mid-latitudes, such as Argentina and South Africa. An alternate method for viewing Mercury involves observing the planet during daylight hours when conditions are clear, ideally when it is at its greatest elongation. This allows the planet to be found easily, even when using telescopes with 8 cm (3.1 in) apertures. However, great care must be taken to obstruct the Sun from sight because of the extreme risk for eye damage. This method bypasses the limitation of twilight observing when the ecliptic is located at a low elevation (e.g. on autumn evenings).",
-                            content_description: null
-                        },                                                  
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "Ground-based telescope observations of Mercury reveal only an illuminated partial disk with limited detail. The first of two spacecraft to visit the planet was Mariner 10, which mapped about 45% of its surface from 1974 to 1975. The second is the MESSENGER spacecraft, which after three Mercury flybys between 2008 and 2009, attained orbit around Mercury on March 17, 2011, to study and map the rest of the planet. The Hubble Space Telescope cannot observe Mercury at all, due to safety procedures that prevent its pointing too close to the Sun.",
+                            head: "Pentagram of Venus",
+                            content: "The pentagram of Venus is the path that Venus makes as observed from Earth. Successive inferior conjunctions of Venus repeat with a orbital resonance of 13:8 (Earth orbits eight times for every 13 orbits of Venus), shifting 144° upon sequential inferior conjunctions. The 13:8 ratio is approximate. 8/13 is approximately 0.61538 while Venus orbits the Sun in 0.61519 years. The pentagram of Venus is sometimes referred to as the petals of Venus due to the path's visual similarity to a flower.",
                             content_description: null
                         },                                                  
                     ]
@@ -3825,69 +3795,98 @@ export const linksData = {
                     texts: [
                         {
                             content_type: "text",
-                            head: "Ground-based Telescopic Research",
-                            content: 'The first telescopic observations of Mercury were made by Thomas Harriot and Galileo from 1610. In 1612, Simon Marius observed the brightness of Mercury varied with the orbital position of the planet and concluded it had phases "in the same way as Venus and the Moon". In 1631, Pierre Gassendi made the first telescopic observations of the transit of a planet across the Sun when he saw a transit of Mercury predicted by Johannes Kepler. In 1639, Giovanni Zupi used a telescope to discover that the planet had orbital phases similar to Venus and the Moon. The observation demonstrated conclusively that Mercury orbited around the Sun.',
+                            head: null,
+                            content: "Humanity's first interplanetary spaceflight was achieved in 1961 with the robotic space probe Venera 1 of the Soviet Venera program flying to Venus, though it lost contact en route. Therefore the first successful interplanetary mission was the Mariner 2 mission to Venus of the United States' Mariner program, passing on 14 December 1962 at 34,833 km (21,644 mi) above the surface of Venus and gathering data on the planet's atmosphere. Additionally radar observations of Venus were first carried out in the 1960s, and provided the first measurements of the rotation period, which were close to the actual value.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "After Venera 3 in 1966, humanity's first probe and lander to reach and impact another celestial body other than the Moon, couldn't return data, Venera 4 in 1967, successfully for the first time at location deployed science experiments before impacting. Venera 4 showed the surface temperature was hotter than Mariner 2 had calculated, at almost 500 °C (932 °F), determined that the atmosphere was 95% carbon dioxide (CO2), and discovered that Venus's atmosphere was considerably denser than Venera 4's designers had anticipated. In an early example of space cooperation the data of Venera 4 was joint with the 1967 Mariner 5 data, analysed by a combined Soviet-American science team in a series of colloquia over the following year.",
+                            content_description: null
+                        }, 
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "On 15 December 1970, Venera 7 became the first spacecraft to soft land on another planet and the first to transmit data from there back to Earth. In 1974, Mariner 10 swung by Venus to bend its path toward Mercury and took ultraviolet photographs of the clouds, revealing the extraordinarily high wind speeds in the Venusian atmosphere. This was the first interplanetary gravity assist ever used, a technique which would be used by later probes. Radar observations in the 1970s revealed details of the Venusian surface for the first time. Pulses of radio waves were beamed at the planet using the 300 m (1,000 ft) radio telescope at Arecibo Observatory, and the echoes revealed two highly reflective regions, designated the Alpha and Beta regions. The observations revealed a bright region attributed to mountains, which was called Maxwell Montes. These three features are now the only ones on Venus that do not have female names.",
+                            content_description: null
+                        }, 
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In 1975, the Soviet Venera 9 and 10 landers transmitted the first images from the surface of Venus, which were in black and white. NASA obtained additional data with the Pioneer Venus project that consisted of two separate missions: the Pioneer Venus Multiprobe and Pioneer Venus Orbiter, orbiting Venus between 1978 and 1992. In 1982 the first colour images of the surface were obtained with the Soviet Venera 13 and 14 landers. After Venera 15 and 16 operated between 1983 and 1984 in orbit, conducting detailed mapping of 25% of Venus's terrain (from the north pole to 30°N latitude), the successful Soviet Venera program came to a close.",
+                            content_description: null
+                        }, 
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: '/venus_first_view.png',
+                            content_description: "First view and first clear 180-degree panorama of Venus's surface as well as any other planet than Earth (1975, Soviet Venera 9 lander). Black-and-white image of barren, black, slate-like rocks against a flat sky. The ground and the probe are the focus."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In 1985 the Vega program with its Vega 1 and Vega 2 missions carried the last entry probes and carried the first ever extraterrestrial aerobots for the first time achiving atmospheric flight outside Earth by employing inflatable baloons. Between 1990 and 1994 Magellan operated in orbit until deorbiting, mapping the surface of Venus. Furthermore probes like Galileo (1990), Cassini-Huygens (1998/1999), and MESSENGER (2006/2007) visited Venus with flybys flying to other destinations. In April 2006, Venus Express the first dedicated Venus mission by the European Space Agency (ESA) entered orbit around Venus. Venus Express provided unprecedented observation of Venus's atmosphere. ESA concluded the Venus Express mission in December 2014 deorbiting it in January 2015. 2010 the first successful interplanetary solar sail spacecraft IKAROS traveled to Venus for a flyby.",
+                            content_description: null
+                        }, 
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: '/venus_topo_map.jpg',
+                            content_description: "Position of Venera landing sites superimposed on combined Magellan/Pioneer/Venera topography data in Winkel Tripel projection using Grass GIS and GMT 4.5.6. Red dots denote sites returning images, black central dots sites of surface sampling analysis. Created: 24 July 2013."
+                        }, 
+                        {
+                            content_type: "text",
+                            head: "Active and Future missions",
+                            content: "As of 2020, Japan's Akatsuki is since its orbital insertion on 7 December 2015 the only probe in orbit around Venus. Additionally flybys by other probes have been performed studying Venus on their way, as with the Parker Solar Probe and the Solar Orbiter. There are several probing proposals under study by Roscosmos, NASA, ISRO, ESA, and the private sector (e.g. by Rocketlab).",
+                            content_description: null
+                        },                                                    
+                    ]
+                },
+                {
+                    title: "Human Presence",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Venus is the place of the first interplanetary human presence, mediated through robotic missions, with the first successful landings on another planet and extraterrestrial body other than the Moon. Currently in orbit is Akatsuki, and other probes routinely use Venus for gravity assist maneuvers capturing some data about Venus on the way. The only nation that has sent lander probes to the surface of Venus has been the Soviet Union, which has been used by Russian officials to call Venus a 'Russian planet'.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Search for life",
+                            content: "Speculation on the possibility of life on Venus's surface decreased significantly after the early 1960s when it became clear that the conditions are extreme compared to those on Earth. Venus's extreme temperature and atmospheric pressure make water-based life as currently known unlikely. Some scientists have speculated that thermoacidophilic extremophile microorganisms might exist in the cooler, acidic upper layers of the Venusian atmosphere).",
+                            content_description: null
+                        }, 
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In August 2019, astronomers led by Yeon Joo Lee reported that long-term pattern of absorbance and albedo changes in the atmosphere of the planet Venus caused by 'unknown absorbers', which may be chemicals or even large colonies of microorganisms high up in the atmosphere of the planet, affect the climate. Their light absorbance is almost identical to that of micro-organisms in Earth's clouds. Similar conclusions have been reached by other studies.",
+                            content_description: null
+                        }, 
+                        {
+                            content_type: "text",
+                            head: "Planetary Protection",
+                            content: "The Committee on Space Research is a scientific organization established by the International Council for Science. Among their responsibilities is the development of recommendations for avoiding interplanetary contamination. For this purpose, space missions are categorized into five groups. Due to the harsh surface environment of Venus, Venus has been under the planetary protection category two. This indicates that there is only a remote chance that spacecraft-borne contamination could compromise investigations.",
+                            content_description: null
+                        }, 
+                        {
+                            content_type: "text",
+                            head: "Crewed Flight",
+                            content: "Studies of routes for crewed missions to Mars have since the 1960s proposed opposition missions instead of direct conjunction missions with Venus gravity assist flybys, demonstrating that they should be quicker and safer missions to Mars, with better return or abort flight windows, and less or the same amount of radiation exposure from the flight as direct Mars flights. Early in the space age the Soviet Union and the United States proposed the TMK-MAVR and Manned Venus flyby crewed flyby missions to Venus, though they were never realized.",
+                            content_description: null
+                        }, 
+                        {
+                            content_type: "text",
+                            head: "Habitation",
+                            content: "While the surface conditions of Venus are inhospitable, the atmospheric pressure, temperature, or solar and cosmic radiation 50 km above the surface are similar to those at Earth's surface. With this in mind, Soviet engineer Sergey Zhitomirskiy (Сергей Житомирский, 1929-2004) in 1971 and NASA aerospace engineer Geoffrey A. Landis in 2003 suggested the use of aerostats for crewed exploration and possibly for permanent 'floating cities' in the Venusian atmosphere, an alternative to the popular idea of living on planetary surfaces such as Mars. Among the many engineering challenges for any human presence in the atmosphere of Venus are the corrosive amounts of sulfuric acid in the atmosphere. NASA's High Altitude Venus Operational Concept is a mission concept that proposed a crewed aerostat design.",
                             content_description: null
                         },
                         {
                             content_type: "image",
                             head: null,
-                            content: '/mercury_observation.png',
-                            content_description: "The Transit of Mercury which occurred on May 9th, 2016, as viewed at 9:24:01AM CDT (14:24:01 UTC) from East Grand Forks, MN. Mercury is visible as a black dot below and to the left of center, and sunspot AR2542 is prominently visible above center (as well as AR2543 below it and AR2544 on the upper left edge of the Sun). The equipment used for the photograph were a Nikon D5500 DSLR (shutter speed 1/30th of a second, ISO 100), a Celestron C6-R Refractor, a Baader Planetarium ASTF-140 solar filter, and a Lumicon 2' #58 dark green filter."
-                        },
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "A rare event in astronomy is the passage of one planet in front of another (occultation), as seen from Earth. Mercury and Venus occult each other every few centuries, and the event of May 28, 1737 is the only one historically observed, having been seen by John Bevis at the Royal Greenwich Observatory. The next occultation of Mercury by Venus will be on December 3, 2133. In June 1962, Soviet scientists at the Institute of Radio-engineering and Electronics of the USSR Academy of Sciences, led by Vladimir Kotelnikov, became the first to bounce a radar signal off Mercury and receive it, starting radar observations of the planet. Three years later, radar observations by Americans Gordon H. Pettengill and Rolf B. Dyce, using the 300-meter Arecibo radio telescope in Puerto Rico, showed conclusively that the planet's rotational period was about 59 days.",
-                            content_description: null
-                        }, 
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "Italian astronomer Giuseppe Colombo noted that the rotation value was about two-thirds of Mercury's orbital period, and proposed that the planet's orbital and rotational periods were locked into a 3:2 rather than a 1:1 resonance.[181] Data from Mariner 10 subsequently confirmed this view.[182] This means that Schiaparelli's and Antoniadi's maps were not 'wrong'. Ground-based optical observations did not shed much further light on Mercury, but radio astronomers using interferometry at microwave wavelengths, a technique that enables removal of the solar radiation, were able to discern physical and chemical characteristics of the subsurface layers to a depth of several meters.  In 2000, high-resolution lucky imaging observations were conducted by the Mount Wilson Observatory 1.5 meter Hale telescope. They provided the first views that resolved surface features on the parts of Mercury that were not imaged in the Mariner 10 mission. Most of the planet has been mapped by the Arecibo radar telescope, with 5 km (3.1 mi) resolution, including polar deposits in shadowed craters of what may be water ice.",
-                            content_description: null
-                        }, 
-                        {
-                            content_type: "text",
-                            head: "Mariner 10",
-                            content: "The first spacecraft to visit Mercury was NASA's Mariner 10 (1974-1975). The spacecraft used the gravity of Venus to adjust its orbital velocity so that it could approach Mercury, making it both the first spacecraft to use this gravitational 'slingshot' effect and the first NASA mission to visit multiple planets. Mariner 10 provided the first close-up images of Mercury's surface, which immediately showed its heavily cratered nature, and revealed many other types of geological features, such as the giant scarps that were later ascribed to the effect of the planet shrinking slightly as its iron core cools. Unfortunately, the same face of the planet was lit at each of Mariner 10's close approaches. This made close observation of both sides of the planet impossible, and resulted in the mapping of less than 45% of the planet's surface.",
-                            content_description: null
-                        }, 
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "The spacecraft made three close approaches to Mercury, the closest of which took it to within 327 km (203 mi) of the surface. At the first close approach, instruments detected a magnetic field, to the great surprise of planetary geologists—Mercury's rotation was expected to be much too slow to generate a significant dynamo effect. The second close approach was primarily used for imaging, but at the third approach, extensive magnetic data were obtained. On March 24, 1975, just eight days after its final close approach, Mariner 10 ran out of fuel. Because its orbit could no longer be accurately controlled, mission controllers instructed the probe to shut down. Mariner 10 is thought to be still orbiting the Sun, passing close to Mercury every few months.",
-                            content_description: null
-                        }, 
-                        {
-                            content_type: "image",
-                            head: null,
-                            content: '/Mariner_10.jpg',
-                            content_description: "This model of Mariner 10 shows the spacecraft as it appeared during flight. The Mariner 10 mission required more course corrections than any previous mission and was the first spacecraft to use the gravitational pull of one planet to help it reach another planet. This craft was also the first to use the solar wind as a means of locomotion; when the probe's thruster fuel ran low, scientists used the solar panels as sails to make course corrections."
-                        }, 
-                        {
-                            content_type: "text",
-                            head: "MESSENGER",
-                            content: "A second NASA mission to Mercury, named MESSENGER (MErcury Surface, Space ENvironment, GEochemistry, and Ranging), was launched on August 3, 2004. It made a fly-by of Earth in August 2005, and of Venus in October 2006 and June 2007 to place it onto the correct trajectory to reach an orbit around Mercury. A first fly-by of Mercury occurred on January 14, 2008, a second on October 6, 2008, and a third on September 29, 2009. Most of the hemisphere not imaged by Mariner 10 was mapped during these fly-bys. The probe successfully entered an elliptical orbit around the planet on March 18, 2011. The first orbital image of Mercury was obtained on March 29, 2011. The probe finished a one-year mapping mission, and then entered a one-year extended mission into 2013. In addition to continued observations and mapping of Mercury, MESSENGER observed the 2012 solar maximum.",
-                            content_description: null
-                        },     
-                        {
-                            content_type: "image",
-                            head: null,
-                            content: '/MESSENGER.jpg',
-                            content_description: "Artist depiction of the MESSENGER spacecraft in orbit around Mercury."
-                        },                                          
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "The mission was designed to clear up six key issues: Mercury's high density, its geological history, the nature of its magnetic field, the structure of its core, whether it has ice at its poles, and where its tenuous atmosphere comes from. To this end, the probe carried imaging devices that gathered much-higher-resolution images of much more of Mercury than Mariner 10, assorted spectrometers to determine abundances of elements in the crust, and magnetometers and devices to measure velocities of charged particles. MESSENGER's final maneuver was on April 24, 2015, and it crashed into Mercury's surface on April 30, 2015. The spacecraft's impact with Mercury occurred near 3:26 pm EDT on April 30, 2015, leaving a crater estimated to be 16 m (52 ft) in diameter.",
-                            content_description: null
-                        },  
-                        {
-                            content_type: "text",
-                            head: "BepiColombo",
-                            content: "The European Space Agency and the Japanese Space Agency developed and launched a joint mission called BepiColombo, which will orbit Mercury with two probes: one to map the planet and the other to study its magnetosphere. Launched on October 20, 2018, BepiColombo is expected to reach Mercury in 2025. It will release a magnetometer probe into an elliptical orbit, then chemical rockets will fire to deposit the mapper probe into a circular orbit. Both probes will operate for one terrestrial year. The mapper probe carries an array of spectrometers similar to those on MESSENGER, and will study the planet at many different wavelengths including infrared, ultraviolet, X-ray and gamma ray. BepiColombo conducted the first of its six planned Mercury flybys on October 1, 2021.",
-                            content_description: null
+                            content: '/venus_habitation.jpg',
+                            content_description: "Artist's rendering of a NASA High Altitude Venus Operational Concept (HAVOC) crewed floating outpost on Venus."
                         },                                                
                     ]
                 },
@@ -3895,9 +3894,9 @@ export const linksData = {
                     title: "Watch To Learn More...",
                     texts: [
                         {
-                            content_type: "video",
-                            content: "rX_NCCpw5Uo&list=PL2gLpWRK0QlBl6GSpAXnsCt6QB4EJD89y",
-                            content_description: "Almost everything you could want to know about the closest planet to the Sun, Mercury. Real HD photos and videos taken by the MESSENGER probe. We discuss the orbit, climate, geographical features, and general physical characteristics or Mercury, and a lot more."
+                            content_type: "embed_video",
+                            content: "-Ecm4N0NLYI",
+                            content_description: "Almost everything you could want to know about the second closest planet to the Sun, Venus. We discuss the orbit, climate, geographical features, and general physical characteristics of Venus, and a lot more."
                         },  
                     ]
                 }
@@ -4073,7 +4072,3416 @@ export const linksData = {
                     ]
                 },
             ],
-            dateUpdate: "2023-04-28"
+            dateUpdate: "2023-04-29"
+        },
+        earth: {
+            name: "Earth",
+            baseImgUrl: "/earth_poster_A.jpg",
+            baseText: "Earth",
+            subText: "Earth, our home planet, is the only place we know of so far that's inhabited by living things. It's also the only planet in our solar system with liquid water on the surface.",
+            next: {
+                key: "Mars",
+                value: "/planets/mars"
+            },
+            prev: {
+                key: "Venus",
+                value: "/planets/venus"
+            },
+            subdata: [
+                {
+                    key: "Distance From Sun",
+                    value: "93,615,784 miles"
+                },
+                {
+                    key: "One Way Light Time From Sun",
+                    value: "~8.333 minutes"
+                },
+                {
+                    key: "Length Of Year",
+                    value: "365 Earth Days"
+                },
+                {
+                    key: "Satellites Count",
+                    value: "1"
+                },
+            ],
+            overview: {
+                name: "Earth",
+                topBox: null,
+                paragraphs: [
+                    "Our home planet is the third planet from the Sun, and the only place we know of so far that's inhabited by living things.",
+                    "While Earth is only the fifth largest planet in the solar system, it is the only world in our solar system with liquid water on the surface. Just slightly larger than nearby Venus, Earth is the biggest of the four planets closest to the Sun, all of which are made of rock and metal.",
+                    "The name Earth is at least 1,000 years old. All of the planets, except for Earth, were named after Greek and Roman gods and goddesses. However, the name Earth is a Germanic word, which simply means “the ground.”"
+                ],
+                iframeLink: {
+                    type: "iframe",
+                    content: "https://eyes.nasa.gov/apps/solar-system/#/earth?embed=true&amp;logo=false" ,
+                    content_description: ""
+                },
+                facts_12: [
+                    {
+                        headText: "THIRD ROCK",
+                        text: "Earth orbits our Sun, a star. Earth is the third planet from the Sun at a distance of about 93 million miles (150 million km)."
+                    },
+                    {
+                        headText: "AS THE WORLD TURNS",
+                        text: "A day on Earth is 24 hours. Earth makes a complete orbit around the sun (a year in Earth time) in about 365 days."
+                    },
+                    {
+                        headText: "EASY BREATH",
+                        text: "Earth's atmosphere is 78 percent nitrogen, 21 percent oxygen and 1 percent other ingredients,the perfect balance to breathe and live."
+                    },
+                    {
+                        headText: "WE'RE ON IT",
+                        text: "Earth is a rocky planet with a solid and dynamic surface of mountains, canyons, plains and more. Most of our planet is covered in water and it's we call our 'Home planet'."
+                    },
+                    {
+                        headText: "ORBITAL SCIENCE",
+                        text: "Many orbiting spacecraft study the Earth from above as a whole system—observing the atmosphere, ocean, glaciers, and the solid earth."
+                    },
+                    {
+                        headText: "PROTECTIVE SHIELD",
+                        text: "Our atmosphere protects us from incoming meteoroids, most of which break up in our atmosphere before they can strike the surface. Earth also has a strong and large magnetic field that protects it from harmful solar wind and cosmic radiation."
+                    },
+                    {
+                        headText: "MEASURING UP!",
+                        text: "If the Sun were as tall as a typical front door, Earth would be the size of a nickel."
+                    },
+                    {
+                        headText: "GOLDILOCKS ZONE",
+                        text: 'Earth is located in the "Goldilocks zone" of the solar system, which is the region where conditions are just right for the existence of liquid water and potentially life.'
+                    },
+                    {
+                        headText: "THE STANDARD",
+                        text: "Earth is located at an average distance of about 93 million miles (149.6 million kilometers) from the Sun, which is the standard for measuring one astronomical unit (AU)."
+                    },
+                    {
+                        headText: "LIFE EXISTENSE",
+                        text: 'Earth is the only known planet to support life, with a wide variety of species inhabiting the land, sea, and air. It also  has a diverse range of ecosystems, from tropical rainforests to deserts to polar ice caps.'
+                    },
+                    {
+                        headText: "OUR COSMIC COMPANION",
+                        text: "Earth has one natural satellite, the Moon, which is the fifth largest moon in the solar system. 5 Quasi-satellites, >4,500 operational artificial satellites, >18,000 tracked space debris and no rings."
+                    },
+                    {
+                        headText: "HUMAN IMPACT",
+                        text: "Humans have had a significant impact on Earth's environment, with pollution, deforestation, and climate change causing widespread changes to the planet." 
+                    },
+                ]
+            },
+            inDepth: [
+                {
+                    title: "Introduction",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Earth is the third planet from the Sun and the only place known in the universe where life has originated and found habitability. While Earth may not contain the largest volumes of water in the Solar System, only Earth sustains liquid surface water, extending over 70.8% of the Earth with its ocean, making Earth an ocean world. Land, consisting of continents and islands, extends over 29.2% of the Earth and is widely covered by vegetation. Below Earth's surface material lies Earth's crust consisting of several slowly moving tectonic plates, which interact to produce mountain ranges, volcanoes, and earthquakes. Earth's liquid outer core generates a magnetic field that shapes the magnetosphere of Earth, largely deflecting destructive solar winds and cosmic radiation.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Earth has an atmosphere, which sustains Earth's surface conditions and protects it from most meteoroids and UV-light at entry.  The water vapor acts as a greenhouse gas and, together with other greenhouse gases in the atmosphere, particularly carbon dioxide (CO2), creates the conditions for both liquid surface water and water vapor to persist via the capturing of energy from the Sun's light. This process maintains the current average surface temperature of 14.76 °C, at which water is liquid under atmospheric pressure.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Earth is rounded into an ellipsoid with a circumference of about 40,000 km. It is the densest planet in the Solar System. Of the four rocky planets, it is the largest and most massive. Earth is about eight light-minutes away from the Sun and orbits it, taking a year (about 365.25 days) to complete one revolution. The Earth rotates around its own axis in slightly less than a day (in about 23 hours and 56 minutes). The Earth's axis of rotation is tilted with respect to the perpendicular to its orbital plane around the Sun, producing seasons. Earth is orbited by one permanent natural satellite, the Moon, which orbits Earth at 384,400 km (1.28 light seconds) and is roughly a quarter as wide as Earth. Through tidal locking, the Moon always faces the Earth with the same side, which causes tides, stabilizes Earth's axis, and gradually slows its rotation.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/terrestrial_planet_sizes.jpg",
+                            content_description: "Earth to scale among the terrestrial planets of the Solar System, which are arranged by the order of their Inner Solar System orbits outward from the Sun (from left: Mercury, Venus, Earth and Mars)."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Earth, like most other bodies in the Solar System, formed 4.5 billion years ago from gas in the early Solar System. During the first billion years of Earth's history, the ocean formed and then life developed within it. Life spread globally and has been altering Earth's atmosphere and surface, leading to the Great Oxidation Event two billion years ago. Humans emerged 300,000 years ago, and have reached a population of 8 billion today. Humans depend on Earth's biosphere and natural resources for their survival, but have increasingly impacted the planet's environment. Humanity's current impact on Earth's climate and biosphere is unsustainable, threatening the livelihood of humans and many other forms of life, causing widespread extinctions.",
+                            content_description: null
+                        },
+                        
+                    ]
+                },
+                {
+                    title: "Nomenclature",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The name Earth is at least 1,000 years old. All of the planets, except for Earth, were named after Greek and Roman gods and goddesses. However, the name Earth is a Germanic word, which simply means “the ground.” The astronomical symbol for Venus is a globus cruciger, the Venus symbol (♁).",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Natural History",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: "Formation",
+                            content: "The oldest material found in the Solar System is dated to 4.5682(+0.0002; -0.0004) Ga (billion years) ago. By 4.54±0.04 Ga the primordial Earth had formed. The bodies in the Solar System formed and evolved with the Sun. In theory, a solar nebula partitions a volume out of a molecular cloud by gravitational collapse, which begins to spin and flatten into a circumstellar disk, and then the planets grow out of that disk with the Sun. A nebula contains gas, ice grains, and dust (including primordial nuclides). According to nebular theory, planetesimals formed by accretion, with the primordial Earth being estimated as likely taking anywhere from 70 to 100 million years to form.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/solarsystemFormation.jpg",
+                            content_description: "Artist's impression of the early Solar System's protoplanetary disk, out of which Earth and other Solar System bodies formed."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Estimates of the age of the Moon range from 4.5 Ga to significantly younger. A leading hypothesis is that it was formed by accretion from material loosed from Earth after a Mars-sized object with about 10% of Earth's mass, named Theia, collided with Earth. It hit Earth with a glancing blow and some of its mass merged with Earth. Between approximately 4.1 and 3.8 Ga, numerous asteroid impacts during the Late Heavy Bombardment caused significant changes to the greater surface environment of the Moon and, by inference, to that of Earth.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "After Formation",
+                            content: "Earth's atmosphere and oceans were formed by volcanic activity and outgassing. Water vapor from these sources condensed into the oceans, augmented by water and ice from asteroids, protoplanets, and comets. Sufficient water to fill the oceans may have been on Earth since it formed. In this model, atmospheric greenhouse gases kept the oceans from freezing when the newly forming Sun had only 70% of its current luminosity. By 3.5 Ga, Earth's magnetic field was established, which helped prevent the atmosphere from being stripped away by the solar wind.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "As the molten outer layer of Earth cooled it formed the first solid crust, which is thought to have been mafic in composition. The first continental crust, which was more felsic in composition, formed by the partial melting of this mafic crust. The presence of grains of the mineral zircon of Hadean age in Eoarchean sedimentary rocks suggests that at least some felsic crust existed as early as 4.4 Ga, only 140 Ma after Earth's formation.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "New continental crust forms as a result of plate tectonics, a process ultimately driven by the continuous loss of heat from Earth's interior. Over the period of hundreds of millions of years, tectonic forces have caused areas of continental crust to group together to form supercontinents that have subsequently broken apart. At approximately 750 Ma, one of the earliest known supercontinents, Rodinia, began to break apart. The continents later recombined to form Pannotia at 600-540 Ma, then finally Pangaea, which also began to break apart at 180 Ma. The most recent pattern of ice ages began about 40 Ma, and then intensified during the Pleistocene about 3 Ma. High- and middle-latitude regions have since undergone repeated cycles of glaciation and thaw, repeating about every 21,000, 41,000 and 100,000 years. The Last Glacial Period, colloquially called the 'last ice age', covered large parts of the continents, to the middle latitudes, in ice and ended about 11,700 years ago.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/earth_early.jpg",
+                            content_description: "Pale orange dot artist's impression of the early Earth tinted orange by its methane-rich early atmosphere: When haze built up in the atmosphere of Archean Earth, the young planet might have looked like this artist's interpretation - a pale orange dot. A team led by Goddard scientists thinks the haze was self-limiting, cooling the surface by about 36 degrees Fahrenheit (20 Kelvins) - not enough to cause runaway glaciation. The team's modeling suggests that atmospheric haze might be helpful for identifying earthlike exoplanets that could be habitable."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Origin of Life and Evolution",
+                            content: "Chemical reactions led to the first self-replicating molecules about four billion years ago. A half billion years later, the last common ancestor of all current life arose. The evolution of photosynthesis allowed the Sun's energy to be harvested directly by life forms. The resultant molecular oxygen (O2) accumulated in the atmosphere and due to interaction with ultraviolet solar radiation, formed a protective ozone layer (O3) in the upper atmosphere. The incorporation of smaller cells within larger ones resulted in the development of complex cells called eukaryotes. True multicellular organisms formed as cells within colonies became increasingly specialized. Aided by the absorption of harmful ultraviolet radiation by the ozone layer, life colonized Earth's surface.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/earth_evolution.png",
+                            content_description: "Artist's impression of the Archean, the eon after Earth's formation, featuring round stromatolites, which are early oxygen-producing forms of life from billions of years ago. After the Late Heavy Bombardment, Earth's crust had cooled, its water-rich barren surface is marked by continents and volcanoes, with the Moon still orbiting Earth half as close than today, appearing 2.8 times larger and producing strong tides."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "During the Neoproterozoic, 1000 to 539 Ma, much of Earth might have been covered in ice. This hypothesis has been termed 'Snowball Earth', and it is of particular interest because it preceded the Cambrian explosion, when multicellular life forms significantly increased in complexity. Following the Cambrian explosion, 535 Ma, there have been at least five major mass extinctions and many minor ones. Apart from the proposed current Holocene extinction event, the most recent was 66 Ma, when an asteroid impact triggered the extinction of the non-avian dinosaurs and other large reptiles, but largely spared small animals such as insects, mammals, lizards and birds. Mammalian life has diversified over the past 66 Mys, and several million years ago an African ape species gained the ability to stand upright. This facilitated tool use and encouraged communication that provided the nutrition and stimulation needed for a larger brain, which led to the evolution of humans. The development of agriculture, and then civilization, led to humans having an influence on Earth and the nature and quantity of other life forms that continues to this day.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Future",
+                            content: "Earth's expected long-term future is tied to that of the Sun. Over the next 1.1 billion years, solar luminosity will increase by 10%, and over the next 3.5 billion years by 40%. Earth's increasing surface temperature will accelerate the inorganic carbon cycle, reducing CO2 concentration to levels lethally low for plants (10 ppm for C4 photosynthesis) in approximately 100-900 million years. The lack of vegetation will result in the loss of oxygen in the atmosphere, making animal life impossible. Due to the increased luminosity, Earth's mean temperature may reach 100 °C (212 °F) in 1.5 billion years, and all ocean water will evaporate and be lost to space, which may trigger a runaway greenhouse effect, within an estimated 1.6 to 3 billion years.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/earth_future.jpg",
+                            content_description: "Conjectured illustration of the scorched Earth after the Sun has entered the red giant phase, about 5-7 billion years from now."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The Sun will evolve to become a red giant in about 5 billion years. Models predict that the Sun will expand to roughly 1 AU (150 million km; 93 million mi), about 250 times its present radius. Earth's fate is less clear. As a red giant, the Sun will lose roughly 30% of its mass, so, without tidal effects, Earth will move to an orbit 1.7 AU (250 million km; 160 million mi) from the Sun when the star reaches its maximum radius, otherwise, with tidal effects, it may enter the Sun's atmosphere and be vaporized.",
+                            content_description: null
+                        },
+                        
+                    ]
+                },
+                { 
+                    title: "Physical Characteristics",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: "Size and Shape",
+                            content: "Earth has a rounded shape, through hydrostatic equilibrium, with an average diameter of 12,742 kilometers (7,918 mi), making it the fifth largest planetary sized and largest terrestrial object of the Solar System. Due to Earth's rotation it has the shape of an ellipsoid, bulging at its Equator, reaching 43 kilometers (27 mi) further out from its center of mass than at its poles. Earth's shape furthermore has local topographic variations. Though the largest local variations, like the Mariana Trench (10,925 meters or 35,843 feet below local sea level), only shortens Earth's average radius by 0.17% and Mount Everest (8,848 meters or 29,029 feet above local sea level) lengthens it by only 0.14%. Since Earth's surface is farthest out from Earth's center of mass at its equatorial bulge, the summit of the volcano Chimborazo in Ecuador (6,384.4 km or 3,967.1 mi) is its farthest point out. Parallel to the rigid land topography the Ocean exhibits a more dynamic topography. To measure the local variation of Earth's topography, geodesy employs an idealized Earth producing a shape called a geoid.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/earth_topography.png",
+                            content_description: "Present-day Earth topography and bathymetry at 15-minute horizontal resolution. Showing the 'Geoid' shape of the Earth. Derived from the National Geophysical Data Center's TerrainBase Digital Terrain Model (v1.0). The original dataset is at 5-minute resolution, and this has been averaged down to 15-minute resolution. It is plotted here using a Mollweide projection (using MATLAB and the M_Map package)."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Internal Structure",
+                            content: "Earth's interior, like that of the other terrestrial planets, is divided into layers by their chemical or physical (rheological) properties. The outer layer is a chemically distinct silicate solid crust, which is underlain by a highly viscous solid mantle. The crust is separated from the mantle by the Mohorovičić discontinuity. The thickness of the crust varies from about 6 kilometers (3.7 mi) to 30-50 km (19-31 mi). The crust and the cold, rigid, top of the upper mantle are collectively known as the lithosphere, which is divided into independently moving tectonic plates.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/earth_internal_structure.png",
+                            content_description: "Cutaway diagram of Earth's internal structure (to scale) with inset showing detailed breakdown of structure (not to scale)."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Beneath the lithosphere is the asthenosphere, a relatively low-viscosity layer on which the lithosphere rides. Important changes in crystal structure within the mantle occur at 410 and 660 km (250 and 410 mi) below the surface, spanning a transition zone that separates the upper and lower mantle. Beneath the mantle, an extremely low viscosity liquid outer core lies above a solid inner core. Earth's inner core may be rotating at a slightly higher angular velocity than the remainder of the planet, advancing by 0.1-0.5° per year, although both somewhat higher and much lower rates have also been proposed. The radius of the inner core is about one-fifth of that of Earth, density increases with depth. Among the Solar System's planetary-sized objects Earth is the object with the highest density.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Surface Geology and Geography",
+                            content: "Earth's surface is the top layer of Earth's rigid or liquid structure, at the interface with its atmosphere. Earth as an idealized spheroid has a surface area of about 510 million km2 (197 million sq mi). Earth can be divided into two hemispheres. Generally, Earth is divided by latitude into the polar Northern and Southern hemispheres, or by longitude into the continental Eastern and Western hemispheres. Regarding the surface distribution of land and water, Earth can be divided into an oceans-focused water hemisphere and a landmasses-focused land hemisphere.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Most of Earth's surface is made of water, in liquid form or in smaller amounts as ice. 70.8% or 361.13 million km2 (139.43 million sq mi) of Earth's surface consists of the interconnected ocean, making it Earth's global ocean or world ocean. The world ocean is commonly divided into the Pacific Ocean, Atlantic Ocean, Indian Ocean, Southern Ocean, and Arctic Ocean, from largest to smallest. The ocean fills the oceanic basins. The ocean floor comprises abyssal plains, continental shelves, seamounts, submarine volcanoes,oceanic trenches, submarine canyons, oceanic plateaus, and a globe-spanning mid-ocean ridge system.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            content: "/earth_surface.jpg",
+                            content_description: "Approximately 70.8% of Earth's surface is ocean water, the remaining 29.2% is land. At the polar regions, Earth's ocean and land surface is mostly covered by ice, as depicted in this composite image of the Antarctic sea ice cover over the Southern Ocean (in grey) and Antarctica (in white)."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "At Earth's polar regions, the ocean surface is covered by a seasonally variable amount of sea ice that often connects with polar land, permafrost and ice sheets, forming polar ice caps. Earth's land is 29.2%, or 148.94 million km2 (57.51 million sq mi) of Earth's surface area. Earth's land consists of many islands around the globe, but mainly of four continental landmasses, which are, from largest to smallest: Africa-Eurasia, America (landmass), Antarctica, and Australia (landmass). Land can be covered by surface water, snow, ice, artificial structures or vegetation. Most of Earth's land hosts vegetation, but ice sheets (10%), not including the equally large land under permafrost) or cold as well as hot deserts (33 %) occupy also considerable amounts of it.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The pedosphere is the outermost layer of Earth's continental surface and is composed of soil and subject to soil formation processes. Soil is crucial for land to be arable. Earth's total arable land is 10.7% of the land surface, with 1.3% being permanent cropland. Earth has an estimated 16.7 million km2 (6.4 million sq mi) of cropland and 33.5 million km2 (12.9 million sq mi) of pastureland. The pedosphere and the ocean, with its ocean floor, rest on Earth's crust, which together with parts of the upper mantle form Earth's lithosphere. Earth's crust is divided into oceanic and continental crusts, while the latter consists of lower density material such as the igneous rocks granite and andesite. Basalt, a denser volcanic rock primarily constitutes the lithosphere of the ocean floors.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Earth's surface topography consists mostly of the topography of the ocean surface and to a lesser extend of the terrain of Earth's crust above sea level. Erosion and tectonics, volcanic eruptions, flooding, weathering, glaciation, the growth and decomposition of biomass into soil or other remains such as coral reefs, and meteorite impacts are among the processes that constantly reshape Earth's crust over geological time. Sedimentary rock is formed from the accumulation of sediment that becomes buried and compacted together. Nearly 75% of the continental surfaces are covered by sedimentary rocks, although they form about 5% of the crust. The third form of rock material found on Earth is metamorphic rock, which is created from the transformation of pre-existing rock types through high pressures, high temperatures, or both. The most abundant silicate minerals on Earth's surface include quartz, feldspars, amphibole, mica, pyroxene and olivine. Common carbonate minerals include calcite (found in limestone) and dolomite.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Tectonic Plates",
+                            content: "Earth's mechanically rigid outer layer of Earth's crust and upper mantle, the lithosphere, is divided into tectonic plates. These plates are rigid segments that move relative to each other at one of three boundaries types: at convergent boundaries, two plates come together; at divergent boundaries, two plates are pulled apart; and at transform boundaries, two plates slide past one another laterally. Along these plate boundaries, earthquakes, volcanic activity, mountain-building, and oceanic trench formation can occur. The tectonic plates ride on top of the asthenosphere, the solid but less-viscous part of the upper mantle that can flow and move along with the plates.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The seven major plates are the Pacific, North American, Eurasian, African, Antarctic, Indo-Australian, and South American. Other notable plates include the Arabian Plate, the Caribbean Plate, the Nazca Plate off the west coast of South America and the Scotia Plate in the southern Atlantic Ocean. The Australian Plate fused with the Indian Plate between 50 and 55 Ma. The fastest-moving plates are the oceanic plates, with the Cocos Plate advancing at a rate of 75 mm/a (3.0 in/year) and the Pacific Plate moving 52-69 mm/a (2.0-2.7 in/year). At the other extreme, the slowest-moving plate is the South American Plate, progressing at a typical rate of 10.6 mm/a (0.42 in/year).",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Chemical Composition",
+                            content: "Earth's mass is approximately 5.97e24 kg (5,970 Yg). It is composed mostly of iron (32.1% by mass), oxygen (30.1%), silicon (15.1%), magnesium (13.9%), sulfur (2.9%), nickel (1.8%), calcium (1.5%), and aluminum (1.4%), with the remaining 1.2% consisting of trace amounts of other elements. Due to gravitational separation, the core is primarily composed of the denser elements: iron (88.8%), with smaller amounts of nickel (5.8%), sulfur (4.5%), and less than 1% trace elements. The most common rock constituents of the crust are oxides. Over 99% of the crust is composed of various oxides of eleven elements, principally oxides containing silicon (the silicate minerals), aluminum, iron, calcium, magnesium, potassium, or sodium.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Gravitational Field",
+                            content: "The gravity of Earth is the acceleration that is imparted to objects due to the distribution of mass within Earth. Near Earth's surface, gravitational acceleration is approximately 9.8 m/s2 (32 ft/s2). Local differences in topography, geology, and deeper tectonic structure cause local and broad regional differences in Earth's gravitational field, known as gravity anomalies.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Magnetic Field & Magnetosphere",
+                            content: "Our planet's rapid rotation and molten nickel-iron core give rise to a magnetic field, which the solar wind distorts into a teardrop shape in space. (The solar wind is a stream of charged particles continuously ejected from the Sun.) When charged particles from the solar wind become trapped in Earth's magnetic field, they collide with air molecules above our planet's magnetic poles. These air molecules then begin to glow and cause aurorae, or the northern and southern lights.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/earth_magnetosphere.png",
+                            content_description: "Schematic of Earth's magnetosphere, with the solar wind flows from left to right."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The extent of Earth's magnetic field in space defines the magnetosphere. Ions and electrons of the solar wind are deflected by the magnetosphere; solar wind pressure compresses the dayside of the magnetosphere, to about 10 Earth radii, and extends the nightside magnetosphere into a long tail. The magnetic field is what causes compass needles to point to the North Pole regardless of which way you turn. But the magnetic polarity of Earth can change, flipping the direction of the magnetic field. The geologic record tells scientists that a magnetic reversal takes place about every 400,000 years on average, but the timing is very irregular. As far as we know, such a magnetic reversal doesn't cause any harm to life on Earth, and a reversal is very unlikely to happen for at least another thousand years. But when it does happen, compass needles are likely to point in many different directions for a few centuries while the switch is being made. And after the switch is completed, they will all point south instead of north.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Orbit & Rotation",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: "Rotation",
+                            content: "Earth's rotation period relative to the Sun—its mean solar day—is 86,400 seconds of mean solar time (86,400.0025 SI seconds). Earth's rotation period relative to the fixed stars, called its stellar day by the International Earth Rotation and Reference Systems Service (IERS), is 86,164.0989 seconds of mean solar time (UT1), or 23h 56m 4.0989s. Earth's rotation period relative to the precessing or moving mean March equinox (when the Sun is at 90° on the equator), is 86,164.0905 seconds of mean solar time (UT1) (23h 56m 4.0905s). Thus the sidereal day is shorter than the stellar day by about 8.4 ms. Apart from meteors within the atmosphere and low-orbiting satellites, the main apparent motion of celestial bodies in Earth's sky is to the west at a rate of 15°/h = 15'/min. For bodies near the celestial equator, this is equivalent to an apparent diameter of the Sun or the Moon every two minutes; from Earth's surface, the apparent sizes of the Sun and the Moon are approximately the same.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/earth_rotation.gif",
+                            content_description: "Earth's rotation imaged by Deep Space Climate Observatory, showing axis tilt: DSCOVR EPIC - Earth Polychromatic Imaging Camera 20 images taken by the NASA probe showing the Earth spin at 23.4 degrees of tilt."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Orbit",
+                            content: "Earth orbits the Sun, making Earth the third-closest planet to the Sun and part of the inner Solar System. Earth's average orbital distance is about 150 million km (93 million mi), which is the basis for the Astronomical Unit and is equal to roughly 8.3 light minutes or 380 times Earth's distance to the Moon. Earth orbits the Sun every 365.2564 mean solar days, or one sidereal year. With an apparent movement of the Sun in Earth's sky at a rate of about 1°/day eastward, which is one apparent Sun or Moon diameter every 12 hours. Due to this motion, on average it takes 24 hours—a solar day—for Earth to complete a full rotation about its axis so that the Sun returns to the meridian. The orbital speed of Earth averages about 29.78 km/s (107,200 km/h; 66,600 mph), which is fast enough to travel a distance equal to Earth's diameter, about 12,742 km (7,918 mi), in seven minutes, and the distance to the Moon, 384,000 km (239,000 mi), in about 3.5 hours.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The Moon and Earth orbit a common barycenter every 27.32 days relative to the background stars. When combined with the Earth-Moon system's common orbit around the Sun, the period of the synodic month, from new moon to new moon, is 29.53 days. The Hill sphere, or the sphere of gravitational influence, of Earth is about 1.5 million km (930,000 mi) in radius. This is the maximum distance at which Earth's gravitational influence is stronger than the more distant Sun and planets. Objects must orbit Earth within this radius, or they can become unbound by the gravitational perturbation of the Sun. Earth, along with the Solar System, is situated in the Milky Way and orbits about 28,000 light-years from its center. It is about 20 light-years above the galactic plane in the Orion Arm.",
+                            content_description: null
+                        },                      
+                        {
+                            content_type: "text",
+                            head: "Axial Tilt and Seasons",
+                            content: "The axial tilt of Earth is approximately 23.439281° with the axis of its orbit plane, always pointing towards the Celestial Poles. Due to Earth's axial tilt, the amount of sunlight reaching any given point on the surface varies over the course of the year. This causes the seasonal change in climate, with summer in the Northern Hemisphere occurring when the Tropic of Cancer is facing the Sun, and in the Southern Hemisphere when the Tropic of Capricorn faces the Sun. In each instance, winter occurs simultaneously in the opposite hemisphere. During the summer, the day lasts longer, and the Sun climbs higher in the sky. In winter, the climate becomes cooler and the days shorter. Above the Arctic Circle and below the Antarctic Circle there is no daylight at all for part of the year, causing a polar night, and this night extends for several months at the poles themselves. These same latitudes also experience a midnight sun, where the sun remains visible all day.",
+                            content_description: null
+                        }, 
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/earth_axial_tilt.png",
+                            content_description: "Earth's axial tilt causing different angles of seasonal illumination at different orbital positions around the Sun. Created: 1 July 2015"
+                        },                     
+                    ]
+                },
+                {
+                    title: "Earth-Moon System",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The Moon is a relatively large, terrestrial, planet-like natural satellite, with a diameter about one-quarter of the Earth's. It is the largest moon in the Solar System relative to the size of its planet, although Charon is larger relative to the dwarf planet Pluto. The natural satellites of other planets are also referred to as 'moons', after Earth's. The most widely accepted theory of the Moon's origin, the giant-impact hypothesis, states that it formed from the collision of a Mars-size protoplanet called Theia with the early Earth. This hypothesis explains (among other things) the Moon's relative lack of iron and volatile elements and the fact that its composition is nearly identical to that of Earth's crust.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The gravitational attraction between Earth and the Moon causes tides on Earth. The same effect on the Moon has led to its tidal locking: its rotation period is the same as the time it takes to orbit Earth. As a result, it always presents the same face to the planet. As the Moon orbits Earth, different parts of its face are illuminated by the Sun, leading to the lunar phases. Due to their tidal interaction, the Moon recedes from Earth at the rate of approximately 38 mm/a (1.5 in/year). Over millions of years, these tiny modifications—and the lengthening of Earth's day by about 23 µs/yr—add up to significant changes. Viewed from Earth, the Moon is just far enough away to have almost the same apparent-sized disk as the Sun. The angular size (or solid angle) of these two bodies match because, although the Sun's diameter is about 400 times as large as the Moon's, it is also 400 times more distant. This allows total and annular solar eclipses to occur on Earth.",
+                            content_description: null
+                        },                                                
+                        {
+                            content_type: "text",
+                            head: "Asteroids and Artificial satellites",
+                            content: "Earth's co-orbital asteroids population consists of quasi-satellites, objects with a horseshoe orbit and trojans. There are at least five quasi-satellites, including 469219 Kamoʻoalewa. A trojan asteroid companion, 2010 TK7, is librating around the leading Lagrange triangular point, L4, in Earth's orbit around the Sun. The tiny near-Earth asteroid 2006 RH120 makes close approaches to the Earth-Moon system roughly every twenty years. During these approaches, it can orbit Earth for brief periods of time. As of September 2021, there are 4,550 operational, human-made satellites orbiting Earth. There are also inoperative satellites, including Vanguard 1, the oldest satellite currently in orbit, and over 16,000 pieces of tracked space debris. Earth's largest artificial satellite is the International Space Station.",
+                            content_description: null
+                        },    
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/earth_neos.jpg",
+                            content_description: "Debris plot by NASA. A computer-generated image of objects in Earth orbit that are currently being tracked. Approximately 95% of the objects in this illustration are orbital debris, i.e., not functional satellites. The dots represent the current location of each item. The orbital debris dots are scaled according to the image size of the graphic to optimize their visibility and are not scaled to Earth. The image provides a good visualization of where the greatest orbital debris populations exist. This image is generated from a distant oblique vantage point to provide a good view of the object population in the geosynchronous region (around 35,785 km altitude). Note the larger population of objects over the northern hemisphere is due mostly to Russian objects in high-inclination, high-eccentricity orbits."
+                        },                                                  
+                    ]
+                },
+                {
+                    title: "Atmosphere and Hydrosphere",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: "Atmosphere",
+                            content: "The atmospheric pressure at Earth's sea level averages 101.325 kPa (14.696 psi), with a scale height of about 8.5 km (5.3 mi). A dry atmosphere is composed of 78.084% nitrogen, 20.946% oxygen, 0.934% argon, and trace amounts of carbon dioxide and other gaseous molecules. Water vapor content varies between 0.01% and 4% but averages about 1%. Clouds cover around two thirds of Earth's surface, more so over oceans than land. The height of the troposphere varies with latitude, ranging between 8 km (5 mi) at the poles to 17 km (11 mi) at the equator, with some variation resulting from weather and seasonal factors. Earth's biosphere has significantly altered its atmosphere. Oxygenic photosynthesis evolved 2.7 Gya, forming the primarily nitrogen-oxygen atmosphere of today. This change enabled the proliferation of aerobic organisms and, indirectly, the formation of the ozone layer due to the subsequent conversion of atmospheric O2 into O3. The ozone layer blocks ultraviolet solar radiation, permitting life on land.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Other atmospheric functions important to life include transporting water vapor, providing useful gases, causing small meteors to burn up before they strike the surface, and moderating temperature. This last phenomenon is the greenhouse effect: trace molecules within the atmosphere serve to capture thermal energy emitted from the surface, thereby raising the average temperature. Water vapor, carbon dioxide, methane, nitrous oxide, and ozone are the primary greenhouse gases in the atmosphere. Without this heat-retention effect, the average surface temperature would be -18 °C (0 °F), in contrast to the current +15 °C (59 °F), and life on Earth probably would not exist in its current form.",
+                            content_description: null
+                        }, 
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The upper atmosphere, the atmosphere above the troposphere, is usually divided into the stratosphere, mesosphere, and thermosphere. Each layer has a different lapse rate, defining the rate of change in temperature with height. Beyond these, the exosphere thins out into the magnetosphere, where the geomagnetic fields interact with the solar wind. Within the stratosphere is the ozone layer, a component that partially shields the surface from ultraviolet light and thus is important for life on Earth. The Kármán line, defined as 100 km (62 mi) above Earth's surface, is a working definition for the boundary between the atmosphere and outer space.",
+                            content_description: null
+                        }, 
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: '/earth_atmosphere.jpg',
+                            content_description: "A view of Earth with different layers of its atmosphere visible: the troposphere with its shadows casting clouds and a band of stratospheric blue sky at the horizon, and above this a line of green airglow of the lower thermosphere around an altitude of 100 km, at the edge of space."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Hydrosphere",
+                            content: "Earth's hydrosphere is the sum of Earth's water and its distribution. Most of Earth's hydrosphere consists of Earth's global ocean. Nevertheless, Earth's hydrosphere also consists of water in the atmosphere and on land, including clouds, inland seas, lakes, rivers, and underground waters down to a depth of 2,000 m (6,600 ft). The mass of the oceans is approximately 1.35e18 metric tons or about 1/4400 of Earth's total mass. The oceans cover an area of 361.8 million km2 (139.7 million sq mi) with a mean depth of 3,682 m (12,080 ft), resulting in an estimated volume of 1.332 billion km3 (320 million cu mi). If all of Earth's crustal surface were at the same elevation as a smooth sphere, the depth of the resulting world ocean would be 2.7 to 2.8 km (1.68 to 1.74 mi). About 97.5% of the water is saline; the remaining 2.5% is fresh water. Most fresh water, about 68.7%, is present as ice in ice caps and glaciers. The remaining 30% is ground water, 1% surface water (covering only 2.8% of Earth's land) and other small forms of fresh water deposits such as permafrost, water vapor in the atmosphere, biological binding, etc..",
+                            content_description: null
+                        }, 
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In Earth's coldest regions, snow survives over the summer and changes into ice. This accumulated snow and ice eventually forms into glaciers, bodies of ice that flow under the influence of their own gravity. Alpine glaciers form in mountainous areas, whereas vast ice sheets form over land in polar regions. The flow of glaciers erodes the surface changing it dramatically, with the formation of U-shaped valleys and other landforms. Sea ice in the Arctic covers an area about as big as the United States, although it is quickly retreating as a consequence of climate change. The average salinity of Earth's oceans is about 35 grams of salt per kilogram of seawater (3.5% salt). Most of this salt was released from volcanic activity or extracted from cool igneous rocks. The oceans are also a reservoir of dissolved atmospheric gases, which are essential for the survival of many aquatic life forms.",
+                            content_description: null
+                        },                                                    
+                    ]
+                },
+                {
+                    title: "Life on Earth",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Earth is the only known place that was and has been habitable for life. Earth's life developed in Earth's early bodies of water some hundred million years after Earth formed. Earth's life has been shaping and inhabiting many particular ecosystems on Earth and has eventually expanded globally forming an overarching biosphere. Therefore, life has impacted Earth, significantly altering Earth's atmosphere and surface over long periods of time, causing changes like the Great oxidation event.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Earth's life has over time greatly diversified, allowing the biosphere to have different biomes, which are inhabited by comparatively similar plants and animals. The different biomes developed at distinct elevations or water depths, planetary temperature latitudes and on land also with different humidity. Earth's species diversity and biomass reaches a peak in shallow waters and with forests, particularly in equatorial, warm and humid conditions. While freezing polar regions and high altitudes, or extremely arid areas are relatively barren of plant and animal life. Earth provides liquid water, an environment where complex organic molecules can assemble and interact, and sufficient energy to sustain a metabolism. Plants and other organisms take up nutrients from water, soils and the atmosphere. These nutrients are constantly recycled between different species.",
+                            content_description: null
+                        },  
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/earth_weather.gif",
+                            content_description: "An animation of the changing density of productive vegetation on land (low in brown; heavy in dark green) and phytoplankton at the ocean surface (low in purple; high in yellow)."
+                        }, 
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Extreme weather, such as tropical cyclones (including hurricanes and typhoons), occurs over most of Earth's surface and has a large impact on life in those areas. From 1980 to 2000, these events caused an average of 11,800 human deaths per year. Many places are subject to earthquakes, landslides, tsunamis, volcanic eruptions, tornadoes, blizzards, floods, droughts, wildfires, and other calamities and disasters. Human impact is felt in many areas due to pollution of the air and water, acid rain, loss of vegetation (overgrazing, deforestation, desertification), loss of wildlife, species extinction, soil degradation, soil depletion and erosion. Human activities release greenhouse gases into the atmosphere which cause global warming. This is driving changes such as the melting of glaciers and ice sheets, a global rise in average sea levels, increased risk of drought and wildfires, and migration of species to colder areas.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Natural Resources and Land Use",
+                            content: "Earth has resources that have been exploited by humans. Those termed non-renewable resources, such as fossil fuels, are only replenished over geological timescales. Large deposits of fossil fuels are obtained from Earth's crust, consisting of coal, petroleum, and natural gas. These deposits are used by humans both for energy production and as feedstock for chemical production. Mineral ore bodies have also been formed within the crust through a process of ore genesis, resulting from actions of magmatism, erosion, and plate tectonics. These metals and other elements are extracted by mining, a process which often brings environmental and health damage.",
+                            content_description: null
+                        }, 
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/earth_land_use.png",
+                            content_description: "Earth's land use for human agriculture."
+                        }, 
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Earth's biosphere produces many useful biological products for humans, including food, wood, pharmaceuticals, oxygen, and the recycling of organic waste. The land-based ecosystem depends upon topsoil and fresh water, and the oceanic ecosystem depends on dissolved nutrients washed down from the land. In 2019, 39 million km2 (15 million sq mi) of Earth's land surface consisted of forest and woodlands, 12 million km2 (4.6 million sq mi) was shrub and grassland, 40 million km2 (15 million sq mi) were used for animal feed production and grazing, and 11 million km2 (4.2 million sq mi) were cultivated as croplands.Of the 12-14% of ice-free land that is used for croplands, 2 percentage points were irrigated in 2015.[268] Humans use building materials to construct shelters.",
+                            content_description: null
+                        },                                               
+                    ]
+                },
+                {
+                    title: "Watch To Learn More...",
+                    texts: [
+                        {
+                            content_type: "embed_video",
+                            content: "dSVLn_vZi6o",
+                            content_description: "Everything you could want to know about our home planet, Earth. When it comes to astronomical subjects for videos, I don't think you could ask for a more beautiful subject than Earth."
+                        },  
+                    ]
+                }
+            ],
+             summary: [
+                {
+                    head: "Designations",
+                    keyValue: [
+                        {
+                            key: "Alternative names",
+                            value: "Prithvi, Gaia, Terra, Tellus, the world, the globe, Sol III, Mother Earth."
+                        },
+                        {
+                            key: "Adjectives",
+                            value: "Earthly, terrestrial, terran, tellurian."
+                        },
+                    ]
+                },
+                {
+                    head: "Orbital Characteristics",
+                    keyValue: [
+                        {
+                            key: "Aphelion",
+                            value: "152,097,597 kilometres (94,509,065 mi)"
+                        },
+                        {
+                            key: "Perihelion",
+                            value: "149598023 km (92955902 mi)"
+                        },
+                        {
+                            key: "Eccentricity",
+                            value: "0.0167086"
+                        },
+                        {
+                            key: "Orbital Period (sidereal)",
+                            value: "365.256363004 days; (1.00001742096 aj)"
+                        },
+                        {
+                            key: "Average Orbital Speed",
+                            value: "29.7827 km/s; (107218 km/h; 66622 mph)"
+                        },
+                        {
+                            key: "Mean Anomaly",
+                            value: "358.617°"
+                        },
+                        {
+                            key: "Inclination",
+                            value: "7.155° to the Sun's equator; 1.57869° to invariable plane; 0.00005° to J2000 ecliptic."
+                        },
+                        {
+                            key: "Longitude of Ascending Node",
+                            value: "-11.26064° to J2000 ecliptic"
+                        },
+                        {
+                            key: "Time of Perihelion",
+                            value: "2023-Jan-04"
+                        },
+                        {
+                            key: "Argument of Perihelion",
+                            value: "114.20783°"
+                        },
+                        {
+                            key: "Satellites",
+                            value: "1 natural satellite: the Moon, 5 quasi-satellites, >4 500 operational artificial satellites, >18,000 tracked space debris"
+                        },
+                    ]
+                },
+                {
+                    head: "Physical Characteristics",  
+                    keyValue: [
+                        {
+                            key: "Mean Radius",
+                            value: "6,371.0 km (3958.8 mi)"
+                        },
+                        {
+                            key: "Equatorial Radius",
+                            value: "6,378.137 km (3963.191 mi)"
+                        },
+                        {
+                            key: "Polar Radius",
+                            value: "6356.752 km (3949.903 mi)"
+                        },
+                        {
+                            key: "Flattening",
+                            value: "1/298.257222101 (ETRS89)"
+                        },
+                        {
+                            key: "Circumference",
+                            value: "40075.017 km equatorial (24901.461 mi); 40007.86 km meridional (24859.73 mi)"
+                        },
+                        {
+                            key: "Surface Area",
+                            value: "Total: 510072000 km^2 (196940000 sq mi), Land: 148940000 km2 (57510000 sq mi) - 29.2%, Ocean: 361132000 km2 (139434000 sq mi) - 70.8%"
+                        },
+                        {
+                            key: "Volume",
+                            value: "1.08321e12 cu km (2.59876e11 cu mi)"
+                        },
+                        {
+                            key: "Mass",
+                            value: "5.972168e24 kg (1.31668e25 lb) (3.0e-6 M☉)"
+                        },
+                        {
+                            key: "Mean Density",
+                            value: "5.5134 g/cu cm(0.19918 lb/cu in)"
+                        },
+                        {
+                            key: "Surface Gravity",
+                            value: "9.80665 m/sq s (1 g; 32.1740 ft/sq s)"
+                        },
+                        {
+                            key: "Moment of Inertia Factor",
+                            value: "0.3307"
+                        },
+                        {
+                            key: "Escape Velocity",
+                            value: "11.186 km/s (40270 km/h; 25020 mph)"
+                        },
+                        {
+                            key: "Synodic Rotation Period",
+                            value: "1.0 days (24h 00m 00s)"
+                        },
+                        {
+                            key: "Sidereal Rotation Period",
+                            value: "0.99726968 days (23h 56m 4.100s)"
+                        },
+                        {
+                            key: "Equatorial Rotation Velocity",
+                            value: "0.4651 km/s (1674.4 km/h; 1040.4 mph)"
+                        },
+                        {
+                            key: "Axial Tilt",
+                            value: "23.4392811°"
+                        },
+                        {
+                            key: "Albedo",
+                            value: "0.367 geometric; 0.306 Bond."
+                        },
+                        {
+                            key: "Temperature",
+                            value: "287.91 K (14.76 °C) (blackbody temperature)"
+                        },
+                        {
+                            key: "Minimum Surface Temp.",
+                            value: "-89.2 °C; -128.5 °F"
+                        },
+                        {
+                            key: "Mean Surface Temp.",
+                            value: "14.76 °C (2022); 58.568 °F (2022)"
+                        },
+                        {
+                            key: "Maximum Surface Temp.",
+                            value: "56.7 °C; 134.0 °F"
+                        },
+                        {
+                            key: "Surface Equivalent Dose Rate",
+                            value: "0.274 μSv/h"
+                        },
+                    ]
+                },
+                {
+                    head: "Atmosphere",  
+                    keyValue: [
+                        {
+                            key: "Surface Pressure",
+                            value: "101.325 kPa (at Mean Sea level)"
+                        },
+                        {
+                            key: "Composition by Volume",
+                            value: "78.08% nitrogen (N2; dry air), 20.95% oxygen (O2), ~1% water vapor (climate variable), 0.9340% argon, 0.0413% carbon dioxide, 0.00182% neon 0.00052% helium, 0.00019% methane, 0.00011% krypton, 0.00006% hydrogen."
+                        },
+    
+                    ]
+                },
+            ],
+            dateUpdate: "2023-04-30"
+        },
+        mars: {
+            name: "Mars",
+            baseImgUrl: "/mars_poster_A.jpg",
+            baseText: "Mars",
+            subText: "Mars is a dusty, cold, desert world with a very thin atmosphere. There is strong evidence Mars was billions of years ago, wetter and warmer, with a thicker atmosphere.",
+            next: {
+                key: "Jupiter",
+                value: "/planets/jupiter"
+            },
+            prev: {
+                key: "Earth",
+                value: "/planets/earth"
+            },
+            subdata: [
+                {
+                    key: "Distance From Sun",
+                    value: "141,700,000 miles"
+                },
+                {
+                    key: "One Way Light Time From Sun",
+                    value: "~13 minutes"
+                },
+                {
+                    key: "Length Of Year",
+                    value: "687 Earth Days"
+                },
+                {
+                    key: "Satellites Count",
+                    value: "2"
+                },
+            ],
+            overview: {
+                name: "Mars",
+                topBox: null,
+                paragraphs: [
+                    "Mars is the fourth planet from the Sun - a dusty, cold, desert world with a very thin atmosphere. Mars is also a dynamic planet with seasons, polar ice caps, canyons, extinct volcanoes, and evidence that it was even more active in the past. NASA currently has two rovers (Curiosity and Perseverance), one lander (InSight), and one helicopter (Ingenuity) exploring the surface of Mars.",
+                    "Perseverance rover, the largest, most advanced rover NASA has sent to another world, touched down on Mars on Feb. 18, 2021, after a 203-day journey traversing 293 million miles (472 million kilometers). The Ingenuity helicopter rode to Mars attached to the belly of Perseverance.", "Perseverance is one of three spacecraft that arrived at Mars in 2021. The Hope orbiter from the United Arab Emirates arrived on Feb. 9, 2021. China's Tianwen-1 mission arrived on Feb. 10, 2021, and includes an orbiter, a lander, and a rover. Europe and India also have spacecraft studying Mars from orbit. In May 2021, China became the second nation to ever land successfully on Mars when its Zhurong Mars rover touched down.", "An international fleet of eight orbiters is studying the Red Planet from above including three NASA orbiters: 2001 Mars Odyssey, Mars Reconnaissance Orbiter, and MAVEN. These robotic explorers have found lots of evidence that Mars was much wetter and warmer, with a thicker atmosphere, billions of years ago."
+                ],
+                iframeLink: {
+                    type: "iframe",
+                    content: "https://eyes.nasa.gov/apps/solar-system/#/mars?embed=true&amp;logo=false" ,
+                    content_description: ""
+                },
+                facts_12: [
+                    {
+                        headText: "FOURTH ROCK",
+                        text: "Mars orbits our Sun, a star. Mars is the fourth planet from the Sun at an average distance of about 228 million km (142 million miles) or 1.52 AU."
+                    },
+                    {
+                        headText: "SMALL PLANET",
+                        text: "If the Sun were as tall as a typical front door, Earth would be the size of a dime, and Mars would be about as big as an aspirin tablet."
+                    },
+                    {
+                        headText: "RUGGED TERRAIN",
+                        text: "Mars is a rocky planet. Its solid surface has been altered by volcanoes, impacts, winds, crustal movement and chemical reactions."
+                    },
+                    {
+                        headText: "BRING A SPACESUIT",
+                        text: "Mars has a thin atmosphere made up mostly of carbon dioxide (CO2), argon (Ar), nitrogen (N2), and a small amount of oxygen and water vapor."
+                    },
+                    {
+                        headText: "LONGER DAYS",
+                        text: "One day on Mars takes a little over 24 hours. Mars makes a complete orbit around the Sun (a year in Martian time) in 687 Earth days."
+                    },
+                    {
+                        headText: "TOUGH PLACE FOR LIFE",
+                        text: "At this time, Mars' surface cannot support life as we know it. Current missions are determining Mars' past and future potential for life."
+                    },
+                    {
+                        headText: "RUSTY PLANET",
+                        text: "Mars is known as the Red Planet because iron minerals in the Martian soil oxidize, or rust, causing the soil and atmosphere to look red."
+                    },
+                    {
+                        headText: "RECORDS HOLDER",
+                        text: ' Mars also has the largest canyon in the solar system, called Valles Marineris, which is about 4,000 kilometers (2,500 miles) long. It is also home to the largest volcano in the solar system, Olympus Mons, which is about three times the height of Mount Everest.'
+                    },
+                    {
+                        headText: "THE JUNKYARD",
+                        text: "Mars is located in the 'asteroid belt' between Jupiter and Mars, which is often called the solar system's 'graveyard' or 'junkyard' because it contains many rocky debris."
+                    },
+                    {
+                        headText: "DUSTY STORMS",
+                        text: "Mars experiences intense dust storms that can cover the entire planet and last for months at a time. These storms have been one the heavy challenges Mars exploration rovers face on the Red Planet as these storms cover the rovers' solar panels with dust."
+                    },
+                    {
+                        headText: "COSMIC COMPANIONS",
+                        text: "Mars has two small moons, Phobos and Deimos, which are irregularly shaped and heavily cratered."
+                    },
+                    {
+                        headText: "MANY MISSIONS",
+                        text: "Several missions have visited this planet, from flybys and orbiters to rovers on the surface.The first true Mars mission success was the Mariner 4 flyby in 1965." 
+                    },
+                ]
+            },
+            inDepth: [
+                {
+                    title: "Introduction",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Mars is the fourth planet from the Sun and the third largest and massive terrestrial object in the Solar System. Mars has a thin atmosphere and a crust primarily composed of elements similar to Earth's crust, as well as a core made of iron and nickel. Mars has surface features such as impact craters, valleys, dunes, and polar ice caps. Mars has two small, irregularly shaped moons, Phobos and Deimos. Some of the most notable surface features on Mars include Olympus Mons, the largest volcano and highest-known mountain in the Solar System, and Valles Marineris, one of the largest canyons in the Solar System. The Borealis basin in the Northern Hemisphere covers approximately 40% of the planet and may be a large impact feature.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Days and seasons on Mars are comparable to those of Earth, as the planets have a similar rotation period and tilt of the rotational axis relative to the ecliptic plane. Liquid water on the surface of Mars cannot exist due to low atmospheric pressure, which is less than 1% of the atmospheric pressure on Earth. Both of Mars's polar ice caps appear to be made largely of water.In the distant past, Mars was likely wetter, and thus possibly more suited for life. It is not known whether life has ever existed on Mars.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/terrestrial_planet_sizes.jpg",
+                            content_description: "Mars to scale among the terrestrial planets of the Solar System, which are arranged by the order of their Inner Solar System orbits outward from the Sun (from left: Mercury, Venus, Earth and Mars)."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Mars has been explored by several uncrewed spacecraft, beginning with Mariner 4 in 1965. NASA's Viking 1 lander transmitted the first images from the Martian surface in 1976. Two countries have successfully deployed rovers on Mars, the United States first doing so with Sojourner in 1997 and China with Zhurong in 2021. There are also planned future missions to Mars, such as a NASA-ESA Mars Sample Return set to happen in 2026, and the Rosalind Franklin rover mission, which was intended to launch in 2018 but was delayed to 2024 at the earliest, with a more likely launch date at 2028. Mars can be viewed from Earth with the naked eye, as can its reddish coloring. This appearance, due to the iron oxide prevalent on its surface, has led to Mars often being called the Red Planet. It is among the brightest objects in Earth's sky, with an apparent magnitude that reaches -2.94, comparable to that of Jupiter and surpassed only by Venus, the Moon and the Sun. Mars has been observed since ancient times. Over the millennia it has been featured in culture and the arts in ways that have reflected humanity's growing knowledge of it.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Nomenclature",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Mars was named by the ancient Romans for their god of war because its reddish color was reminiscent of blood. Other civilizations also named the planet for this attribute for example, the Egyptians called it 'Her Desher' meaning 'the red one'. Even today, it is frequently called the 'Red Planet' because iron minerals in the Martian dirt oxidize, or rust, causing the surface to look red. The astronomical symbol for Venus is a Mars' shield and spear, the Mars symbol (♂).",
+                            content_description: null
+                        },
+                    ]
+                },
+                { 
+                    title: "Physical Characteristics",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Mars is approximately half the diameter of Earth, with a surface area only slightly less than the total area of Earth's dry land. Mars is less dense than Earth, having about 15% of Earth's volume and 11% of Earth's mass, resulting in about 38% of Earth's surface gravity. The red-orange appearance of the Martian surface is caused by ferric oxide, or rust. It can look like butterscotch; other common surface colors include golden, brown, tan, and greenish, depending on the minerals present.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Internal Structure",
+                            content: "Like Earth, Mars has differentiated into a dense metallic core overlaid by less dense materials. Current models of its interior imply a core consisting primarily of iron and nickel with about 16-17% sulfur. This iron(II) sulfide core is thought to be twice as rich in lighter elements as Earth's. The core is surrounded by a silicate mantle that formed many of the tectonic and volcanic features on the planet, but it appears to be dormant. Besides silicon and oxygen, the most abundant elements in the Martian crust are iron, magnesium, aluminium, calcium, and potassium. The average thickness of the planet's crust is about 50 kilometres (31 mi), with a maximum thickness of 125 kilometres (78 mi). By comparison, Earth's crust averages 40 kilometres (25 mi) in thickness.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Mars is seismically active. In 2019, it was reported that InSight (now offline) had detected and recorded over 450 marsquakes and related events. The Martian core radius is abnormally large, accounting for more than half the radius of Mars and about half the size of the Earth's core. To this, it has been suggested that the core contains some amount of lighter elements like oxygen and hydrogen in addition to the iron-nickel alloy and about 15% of sulfur. The core of Mars is overlaid by the rocky mantle, which does not seem to have a thermally insulating layer analogous to the Earth's lower mantle. The Martian mantle appears to be solid down to the depth of about 500 km, where the low-velocity zone (partially melted asthenosphere) begins. Below the asthenosphere the velocity of seismic waves starts to grow again; and at the depth of about 1050 km lies the boundary of the transition zone extending down to the core.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Surface Geology",
+                            content: "Mars is a terrestrial planet with a surface that consists of minerals containing silicon and oxygen, metals, and other elements that typically make up rock. The Martian surface is primarily composed of tholeiitic basalt, although parts are more silica-rich than typical basalt and may be similar to andesitic rocks on Earth, or silica glass. Regions of low albedo suggest concentrations of plagioclase feldspar, with northern low albedo regions displaying higher than normal concentrations of sheet silicates and high-silicon glass. Parts of the southern highlands include detectable amounts of high-calcium pyroxenes. Localized concentrations of hematite and olivine have been found. Much of the surface is deeply covered by finely grained iron(III) oxide dust.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "video",
+                            head: null,
+                            content: "/mars_features.webm",
+                            content_description: "Animation (00:40) showing major features of Mars."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Although Mars has no evidence of a structured global magnetic field, observations show that parts of the planet's crust have been magnetized, suggesting that alternating polarity reversals of its dipole field have occurred in the past. This paleomagnetism of magnetically susceptible minerals is similar to the alternating bands found on Earth's ocean floors. One theory, published in 1999 and re-examined in October 2005 (with the help of the Mars Global Surveyor), is that these bands suggest plate tectonic activity on Mars four billion years ago, before the planetary dynamo ceased to function and the planet's magnetic field faded.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "After the formation of the planets, all were subjected to the so-called 'Late Heavy Bombardment'. About 60% of the surface of Mars shows a record of impacts from that era, whereas much of the remaining surface is probably underlain by immense impact basins caused by those events. There is evidence of an enormous impact basin in the Northern Hemisphere of Mars, spanning 10,600 by 8,500 kilometres (6,600 by 5,300 mi), or roughly four times the size of the Moon's South Pole - Aitken basin, the largest impact basin yet discovered. This theory suggests that Mars was struck by a Pluto-sized body about four billion years ago. The event, thought to be the cause of the Martian hemispheric dichotomy, created the smooth Borealis basin that covers 40% of the planet.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Soil",
+                            content: "The Phoenix lander returned data showing Martian soil to be slightly alkaline and containing elements such as magnesium, sodium, potassium and chlorine. These nutrients are found in soils on Earth. They are necessary for growth of plants. Experiments performed by the lander showed that the Martian soil has a basic pH of 7.7, and contains 0.6% of the salt perchlorate, concentrations that are toxic to humans.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/mars_soil.jpg",
+                            content_description: "Curiosity's view of Martian soil and boulders after crossing the 'Dingo Gap' sand dune."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Hydrology",
+                            content: "Water in its liquid form cannot exist on the surface of Mars due to low atmospheric pressure, which is less than 1% that of Earth, except at the lowest of elevations for short periods. The two polar ice caps appear to be made largely of water. The volume of water ice in the south polar ice cap, if melted, would be enough to cover the entire surface of the planet with a depth of 11 metres (36 ft). Large quantities of ice are thought to be trapped within the thick cryosphere of Mars. Radar data from Mars Express and the Mars Reconnaissance Orbiter (MRO) show large quantities of ice at both poles, and at middle latitudes. The Phoenix lander directly sampled water ice in shallow Martian soil on 31 July 2008.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/mars_water_ice.png",
+                            content_description: "Martian plain covered by water ice, precipitated through adhering to dry ice, observed by Viking 2 lander. Created: 2010-02-25; original photo was taken 1979-05-18."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Landforms visible on Mars strongly suggest that liquid water has existed on the planet's surface. Huge linear swathes of scoured ground, known as outflow channels, cut across the surface in about 25 places. These are thought to be a record of erosion caused by the catastrophic release of water from subsurface aquifers, though some of these structures have been hypothesized to result from the action of glaciers or lava. One of the larger examples, Ma'adim Vallis, is 700 kilometres (430 mi) long, much greater than the Grand Canyon, with a width of 20 kilometres (12 mi) and a depth of 2 kilometres (1.2 mi) in places. It is thought to have been carved by flowing water early in Mars's history. The youngest of these channels are thought to have formed only a few million years ago.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Volcanoes",
+                            content: "The shield volcano Olympus Mons (Mount Olympus) is an extinct volcano in the vast upland region Tharsis, which contains several other large volcanoes. The edifice is over 600 km (370 mi) wide. Because the mountain is so large, with complex structure at its edges, allocating a height to it is difficult. Its local relief, from the foot of the cliffs which form its northwest margin to its peak, is over 21 km (13 mi), a little over twice the height of Mauna Kea as measured from its base on the ocean floor. The total elevation change from the plains of Amazonis Planitia, over 1,000 km (620 mi) to the northwest, to the summit approaches 26 km (16 mi),rison stands at just over 8.8 kilometres (5.5 mi). Consequently, Olympus Mons is either the tallest or second-tallest mountain in the Solar System; the only known mountain which might be taller is the Rheasilvia peak on the asteroid Vesta, at 20-25 km (12-16 mi).",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/mars_volcano.jpg",
+                            content_description: "Viking 1 image of Olympus Mons. The volcano and related terrain are approximately 550 km (340 mi) across. A composite Viking orbiter image of Olympus Mons on Mars, the tallest known volcano and mountain in the Solar System."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Impact Craters",
+                            content: "The dichotomy of Martian topography is striking: northern plains flattened by lava flows contrast with the southern highlands, pitted and cratered by ancient impacts. It is possible that, four billion years ago, the Northern Hemisphere of Mars was struck by an object one-tenth to two-thirds the size of Earth's Moon. If this is the case, the Northern Hemisphere of Mars would be the site of an impact crater 10,600 by 8,500 kilometres (6,600 by 5,300 mi) in size, or roughly the area of Europe, Asia, and Australia combined, surpassing Utopia Planitia and the Moon's South Pole-Aitken basin as the largest impact crater in the Solar System.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Mars is scarred by a number of impact craters: a total of 43,000 craters with a diameter of 5 kilometres (3.1 mi) or greater have been found. The largest exposed crater is Hellas, which is 2,300 kilometres (1,400 mi) wide and 7,000 metres (23,000 ft) deep, and is a light albedo feature clearly visible from Earth. There are other notable impact features, such as Argyre, which is around 1,800 kilometres (1,100 mi) in diameter, and Isidis, which is around 1,500 kilometres (930 mi) in diameter. Due to the smaller mass and size of Mars, the probability of an object colliding with the planet is about half that of Earth. Mars is located closer to the asteroid belt, so it has an increased chance of being struck by materials from that source. Mars is more likely to be struck by short-period comets, i.e., those that lie within the orbit of Jupiter. Martian craters can have a morphology that suggests the ground became wet after the meteor impacted.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Tectonic Sites",
+                            content: 'The large canyon, Valles Marineris (Latin for "Mariner Valleys", also known as Agathodaemon in the old canal maps), has a length of 4,000 kilometres (2,500 mi) and a depth of up to 7 kilometres (4.3 mi). The length of Valles Marineris is equivalent to the length of Europe and extends across one-fifth the circumference of Mars. By comparison, the Grand Canyon on Earth is only 446 kilometres (277 mi) long and nearly 2 kilometres (1.2 mi) deep. Valles Marineris was formed due to the swelling of the Tharsis area, which caused the crust in the area of Valles Marineris to collapse. In 2012, it was proposed that Valles Marineris is not just a graben, but a plate boundary where 150 kilometres (93 mi) of transverse motion has occurred, making Mars a planet with possibly a two-tectonic plate arrangement.',
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/mars_tectonic_plates.jpeg",
+                            content_description: "Global mosaic of 102 Viking 1 Orbiter images of Mars taken on orbit 1,334, 22 February 1980. The images are projected into point perspective, representing what a viewer would see from a spacecraft at an altitude of 2,500 km. At center is Valles Marineris, over 3000 km long and up to 8 km deep. Note the channels running up (north) from the central and eastern portions of Valles Marineris to the area at upper right, Chryse Planitia. At left are the three Tharsis Montes and to the south is ancient, heavily impacted terrain. (Viking 1 Orbiter, MG07S078-334SP)."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Atmosphere & Magnetosphere",
+                            content: "Mars lost its magnetosphere 4 billion years ago, possibly because of numerous asteroid strikes, so the solar wind interacts directly with the Martian ionosphere, lowering the atmospheric density by stripping away atoms from the outer layer. Compared to Earth, the atmosphere of Mars is quite rarefied. Atmospheric pressure on the surface today ranges from a low of 30 Pa (0.0044 psi) on Olympus Mons to over 1,155 Pa (0.1675 psi) in Hellas Planitia, with a mean pressure at the surface level of 600 Pa (0.087 psi). The mean surface pressure is only 0.6% of Earth's 101.3 kPa (14.69 psi). The scale height of the atmosphere is about 10.8 kilometres (6.7 mi), which is higher than Earth's 6 kilometres (3.7 mi), because the surface gravity of Mars is only about 38% of Earth's.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/mars_atmosphere.jpg",
+                            content_description: "This Viking 1 orbiter image shows the thin atmosphere of Mars. The mountains of the southern Argyre Basin is visible, with Galle crater left of center. Viking image number is 040A63. The photo was taken through red color filter. Created: 1 January 1976."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The atmosphere of Mars consists of about 96% carbon dioxide, 1.93% argon and 1.89% nitrogen along with traces of oxygen and water. The atmosphere is quite dusty, containing particulates about 1.5 µm in diameter which give the Martian sky a tawny color when seen from the surface. It may take on a pink hue due to iron oxide particles suspended in it. The concentration of methane in the Martian atmosphere fluctuates from about 0.24 ppb during the northern winter to about 0.65 ppb during the summer. Auroras have been detected on Mars. Because Mars lacks a global magnetic field, the types and distribution of auroras there differ from those on Earth; rather than being mostly restricted to polar regions as is the case on Earth, a Martian aurora can encompass the planet. In September 2017, NASA reported radiation levels on the surface of the planet Mars were temporarily doubled, and were associated with an aurora 25 times brighter than any observed earlier, due to a massive, and unexpected, solar storm in the middle of the month.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Climate",
+                            content: "Of all the planets in the Solar System, the seasons of Mars are the most Earth-like, due to the similar tilts of the two planets' rotational axes. The lengths of the Martian seasons are about twice those of Earth's because Mars's greater distance from the Sun leads to the Martian year being about two Earth years long. Martian surface temperatures vary from lows of about -110 °C (-166 °F) to highs of up to 35 °C (95 °F) in equatorial summer. The wide range in temperatures is due to the thin atmosphere which cannot store much solar heat, the low atmospheric pressure, and the low thermal inertia of Martian soil. The planet is 1.52 times as far from the Sun as Earth, resulting in just 43% of the amount of sunlight. If Mars had an Earth-like orbit, its seasons would be similar to Earth's because its axial tilt is similar to Earth's. The comparatively large eccentricity of the Martian orbit has a significant effect.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/mars_storm_1.jpg",
+                            content_description: "Detail of a Martian dust storm, as viewed from orbit."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The seasons in the Southern Hemisphere are more extreme and the seasons in the northern are milder than would otherwise be the case. The summer temperatures in the south can be warmer than the equivalent summer temperatures in the north by up to 30 °C (54 °F). Mars has the largest dust storms in the Solar System, reaching speeds of over 160 km/h (100 mph). These can vary from a storm over a small area, to gigantic storms that cover the entire planet. They tend to occur when Mars is closest to the Sun, and have been shown to increase the global temperature.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/mars_storm_2.jpg",
+                            content_description: "Mars without a dust storm in June 2001 (on left) and with a global dust storm in July 2001 (on right), as seen by Mars Global Surveyor."
+                        },
+                    ]
+                },
+                {
+                    title: "Orbit & Rotation",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Mars's average distance from the Sun is roughly 230 million km (143 million mi), and its orbital period is 687 (Earth) days. The solar day (or sol) on Mars is only slightly longer than an Earth day: 24 hours, 39 minutes, and 35.244 seconds. A Martian year is equal to 1.8809 Earth years, or 1 year, 320 days, and 18.2 hours. The axial tilt of Mars is 25.19° relative to its orbital plane, which is similar to the axial tilt of Earth. As a result, Mars has seasons like Earth, though on Mars they are nearly twice as long because its orbital period is that much longer. Mars has a relatively pronounced orbital eccentricity of about 0.09; of the seven other planets in the Solar System, only Mercury has a larger orbital eccentricity.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Mars approaches Earth in a synodic period of 779.94 days. Earth orbits the Sun the closest to Mars's orbit around the Sun, and Mars orbit is the second closest to Earth after the orbit of Venus. Therefore, their closest approaches, the inferior conjunctions, are the second closest for Earth after those with Venus, and the closest for Mars to any other planet. The gravitational potential difference, and thus the delta-v needed to transfer between Mars and Earth is the second lowest for Earth and the lowest for Mars to any other planet, while transfers can possibly be optimized with Venus flybys.",
+                            content_description: null
+                        },                    
+                    ]
+                },
+                {
+                    title: "Moons",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Mars has two relatively small (compared to Earth's) natural moons, Phobos (about 22 kilometres (14 mi) in diameter) and Deimos (about 12 kilometres (7.5 mi) in diameter), which orbit close to the planet. The origin of both moons is unclear, although a popular theory states that they were asteroids captured into Martian orbit. Both satellites were discovered in 1877 by Asaph Hall and were named after the characters Phobos (the deity of panic and fear) and Deimos (the deity of terror and dread), twins from Greek mythology who accompanied their father Ares, god of war, into battle. Mars was the Roman equivalent to Ares.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/mars_phobos.jpg",
+                            content_description: "Enhanced-color HiRISE image of Phobos, showing a series of mostly parallel grooves and crater chains, with Stickney crater at right. Created: 23 March 2008."
+                        }, 
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "From the surface of Mars, the motions of Phobos and Deimos appear different from that of the Earth's satellite, the Moon. Phobos rises in the west, sets in the east, and rises again in just 11 hours. Deimos, being only just outside synchronous orbit where the orbital period would match the planet's period of rotation, rises as expected in the east, but slowly. Because the orbit of Phobos is below synchronous altitude, tidal forces from Mars are gradually lowering its orbit. In about 50 million years, it could either crash into Mars's surface or break up into a ring structure around the planet. While in contrast, Deimos being outside the synchronous orbit, is gradually moving away from Mars. Eventually, in millions of years to come, Mars might lose both of its precious natural companions.  Mars may have yet-undiscovered moons, smaller than 50 to 100 metres (160 to 330 ft) in diameter, and a dust ring is predicted to currently exist between Phobos and Deimos.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/mars_deimos.jpg",
+                            content_description: "Enhanced-color HiRISE image of Deimos (not to scale), showing its smooth blanket of regolith. Created: 23 March 2008; Color-enhanced image of Deimos, a moon of Mars, captured by the HiRISE instrument on the Mars Reconnaissance Orbiter on 21 Feb 2009. Cropped from source image. Created: 9 March 2009."
+                        },                                                    
+                                                   
+                    ]
+                },
+                {
+                    title: "Exploration",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Dozens of crewless spacecraft, including orbiters, landers, and rovers, have been sent to Mars by the Soviet Union, the United States, Europe, India, the United Arab Emirates, and China to study the planet's surface, climate, and geology. NASA's Mariner 4 was the first spacecraft to visit Mars; launched on 28 November 1964, it made its closest approach to the planet on 15 July 1965. Mariner 4 detected the weak Martian radiation belt, measured at about 0.1% that of Earth, and captured the first images of another planet from deep space.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Once spacecraft visited the planet during NASA's Mariner missions in the 1960s and 1970s, many previous concepts of Mars were radically broken. After the results of the Viking life-detection experiments, the hypothesis of a dead planet was generally accepted. The data from Mariner 9 and Viking allowed better maps of Mars to be made, and the Mars Global Surveyor mission, which launched in 1996 and operated until late 2006, produced complete, extremely detailed maps of the Martian topography, magnetic field and surface minerals. These maps are available online at websites including Google Mars. Both the Mars Reconnaissance Orbiter and Mars Express continued exploring with new instruments and supporting lander missions. NASA provides two online tools: Mars Trek, which provides visualizations of the planet using data from 50 years of exploration, and Experience Curiosity, which simulates traveling on Mars in 3-D with Curiosity.",
+                            content_description: null
+                        },  
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "As of 2023, Mars is host to thirteen functioning spacecraft. Eight are in orbit: 2001 Mars Odyssey, Mars Express, Mars Reconnaissance Orbiter, MAVEN, ExoMars Trace Gas Orbiter, the Hope orbiter, and the Tianwen-1 orbiter. Another five are on the surface: the Mars Science Laboratory Curiosity rover, the Perseverance rover, the Ingenuity helicopter, the Tianwen-1 lander, and the Zhurong rover. Planned missions to Mars include the Rosalind Franklin rover mission, designed to search for evidence of past life, which was intended to be launched in 2018 but has been repeatedly delayed, with a launch date pushed to 2024 at the earliest, with a more likely one sometime in 2028. A current concept for a joint NASA-ESA mission to return samples from Mars would launch in 2026.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/mars_ingenuity.jpg",
+                            content_description: "Ingenuity helicopter on Mars, preparing for its first flight, April 2021. Created: 8 April 2021."
+                        }, 
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Several plans for a human mission to Mars have been proposed throughout the 20th and 21st centuries, but none have come to fruition. In 2021, China was planning to send a crewed Mars mission in 2033. Privately held companies such as SpaceX have also proposed plans to send humans to Mars, with the eventual goal to settle on the planet. The moon Phobos has been proposed as an anchor point for a space elevator.",
+                            content_description: null
+                        },                                            
+                    ]
+                },
+                {
+                    title: "Watch To Learn More...",
+                    texts: [
+                        {
+                            content_type: "embed_video",
+                            content: "NXbCNAIIAxw",
+                            content_description: "Everything you could want to know about Mars, in 4K! Real HD photos and videos taken by rovers and orbiters around the Red Planet. We discuss the orbit, climate, geographical features, polar ice caps of Mars, and a lot more."
+                        },  
+                    ]
+                }
+            ],
+             summary: [
+                {
+                    head: "Designations",
+                    keyValue: [
+                        {
+                            key: "Alternative names",
+                            value: "The Red Planet."
+                        },
+                        {
+                            key: "Adjectives",
+                            value: "Martian."
+                        },
+                    ]
+                },
+                {
+                    head: "Orbital Characteristics",
+                    keyValue: [
+                        {
+                            key: "Aphelion",
+                            value: "249261000 km (154884000 mi; 1.66621 AU)"
+                        },
+                        {
+                            key: "Perihelion",
+                            value: "206650000 km (128410000 mi; 1.3814 AU)"
+                        },
+                        {
+                            key: "Semi-major Axis",
+                            value: "227939366 km (141634956 mi; 1.52368055 AU)"
+                        },
+                        {
+                            key: "Eccentricity",
+                            value: "0.0934"
+                        },
+                        {
+                            key: "Orbital Period (sidereal)",
+                            value: "686.980 days (1.88085 yr; 668.5991 sols)"
+                        },
+                        {
+                            key: "Orbital Period (synodic)",
+                            value: "779.94 days (2.1354 yr)"
+                        },
+                        {
+                            key: "Average Orbital Speed",
+                            value: "24.07 km/s (86700 km/h; 53800 mph)"
+                        },
+                        {
+                            key: "Mean Anomaly",
+                            value: "19.412°"
+                        },
+                        {
+                            key: "Inclination",
+                            value: "1.850° to ecliptic; 5.65° to Sun's equator; 1.63° to invariable plane"
+                        },
+                        {
+                            key: "Longitude of Ascending Node",
+                            value: "49.57854°"
+                        },
+                        {
+                            key: "Time of Perihelion",
+                            value: "2022-Jun-21"
+                        },
+                        {
+                            key: "Argument of Perihelion",
+                            value: "286.5°"
+                        },
+                        {
+                            key: "Satellites",
+                            value: "2 natural satellite: Phobos and Deimos."
+                        },
+                    ]
+                },
+                {
+                    head: "Physical Characteristics",  
+                    keyValue: [
+                        {
+                            key: "Mean Radius",
+                            value: "3389.5 ± 0.2 km (2106.1 ± 0.1 mi)"
+                        },
+                        {
+                            key: "Equatorial Radius",
+                            value: "3396.2 ± 0.1 km (2110.3 ± 0.1 mi; 0.533 Earths)"
+                        },
+                        {
+                            key: "Polar Radius",
+                            value: "3376.2 ± 0.1 km (2097.9 ± 0.1 mi; 0.531 Earths)"
+                        },
+                        {
+                            key: "Flattening",
+                            value: "0.00589 ± 0.00015"
+                        },
+                        {
+                            key: "Circumference",
+                            value: "40075.017 km equatorial (24901.461 mi); 40007.86 km meridional (24859.73 mi)"
+                        },
+                        {
+                            key: "Surface Area",
+                            value: "144.37e6 sq.km (5.574e7 sq. mi; 0.284 Earths)"
+                        },
+                        {
+                            key: "Volume",
+                            value: "1.63118e11 cu.km (0.151 Earths)"
+                        },
+                        {
+                            key: "Mass",
+                            value: "6.4171e23 kg (0.107 Earths)"
+                        },
+                        {
+                            key: "Mean Density",
+                            value: "3.9335 g/cu.cm (0.1421 lb/cu in)"
+                        },
+                        {
+                            key: "Surface Gravity",
+                            value: "3.72076 m/sq.s (12.2072 ft/sq.s; 0.3794 g)"
+                        },
+                        {
+                            key: "Moment of Inertia Factor",
+                            value: "0.3644 ± 0.0005"
+                        },
+                        {
+                            key: "Escape Velocity",
+                            value: "5.027 km/s (18100 km/h; 11250 mph)"
+                        },
+                        {
+                            key: "Synodic Rotation Period",
+                            value: "1.02749125 days; 24h 39m 36s"
+                        },
+                        {
+                            key: "Sidereal Rotation Period",
+                            value: "1.025957 days; 24h 37m 22.7s"
+                        },
+                        {
+                            key: "Equatorial Rotation Velocity",
+                            value: "241 m/s (870 km/h; 540 mph)"
+                        },
+                        {
+                            key: "Axial Tilt",
+                            value: "25.19° to its orbital plane"
+                        },
+                        {
+                            key: "North Pole Right Ascension",
+                            value: "317.68143°; 21h 10m 44s"
+                        },
+                        {
+                            key: "North Pole Declination",
+                            value: "52.88650°"
+                        },
+                        {
+                            key: "Albedo",
+                            value: "0.170 geometric; 0.25 Bond."
+                        },
+                        {
+                            key: "Temperature",
+                            value: "209 K (-64 °C) (blackbody temperature)"
+                        },
+                        {
+                            key: "Minimum Surface Temp.",
+                            value: "-110 °C; -166 °F"
+                        },
+                        {
+                            key: "Mean Surface Temp.",
+                            value: "-60 °C; -80 °F"
+                        },
+                        {
+                            key: "Maximum Surface Temp.",
+                            value: "35 °C; 95 °F"
+                        },
+                        {
+                            key: "Surface Absorbed Dose Rate",
+                            value: "8.8 μGy/h"
+                        },
+                        {
+                            key: "Surface Equivalent Dose Rate",
+                            value: "27 μSv/h"
+                        },
+                        {
+                            key: "Apparent Magnitude",
+                            value: "-2.94 to +1.86"
+                        },
+                        {
+                            key: "Angular Diameter",
+                            value: "3.5-25.1″"
+                        },
+                    ]
+                },
+                {
+                    head: "Atmosphere",  
+                    keyValue: [
+                        {
+                            key: "Surface Pressure",
+                            value: "0.636 (0.4-0.87) kPa; 0.00628 atm."
+                        },
+                        {
+                            key: "Composition by Volume",
+                            value: "95.97% carbon dioxide, 1.93% argon, 1.89% nitrogen, 0.146% oxygen, 0.0557% carbon monoxide, 0.0210% water vapor."
+                        },
+    
+                    ]
+                },
+            ],
+            dateUpdate: "2023-04-30"
+        },
+        jupiter: {
+            name: "Jupiter",
+            baseImgUrl: "/jupiter_poster_A.jpg",
+            baseText: "Jupiter",
+            subText: "Jupiter is more than twice as massive than the other planets of our solar system combined. The giant planet's Great Red Spot is a centuries-old storm bigger than Earth.",
+            next: {
+                key: "Saturn",
+                value: "/planets/saturn"
+            },
+            prev: {
+                key: "Mars",
+                value: "/planets/mars"
+            },
+            subdata: [
+                {
+                    key: "Distance From Sun",
+                    value: "483,766,802 miles"
+                },
+                {
+                    key: "One Way Light Time From Sun",
+                    value: "~43 minutes"
+                },
+                {
+                    key: "Length Of Year",
+                    value: "4,333 Earth Days"
+                },
+                {
+                    key: "Satellites Count",
+                    value: "95"
+                },
+            ],
+            overview: {
+                name: "Jupiter",
+                topBox: {
+                    headText: "The Great Red Spot",
+                    text: "The Great Red Spot is a persistent high-pressure region in the atmosphere of Jupiter, producing an anticyclonic storm that is the largest in the Solar System. Located 22 degrees south of Jupiter's equator, it produces wind-speeds up to 432 km/h (268 mph). Observations from 1665 to 1713 are believed to be of the same storm; if this is correct, it has existed for at least 358 years. It was next observed in September 1831, with 60 recorded observations between then and 1878, when continuous observations began."
+                },
+                paragraphs: [
+                    "Jupiter has a long history of surprising scientists - all the way back to 1610 when Galileo Galilei found the first moons beyond Earth. That discovery changed the way we see the universe. Fifth in line from the Sun, Jupiter is by far the largest planet in the solar system, more than twice as massive as all the other planets combined.",
+                    "Jupiter's familiar stripes and swirls are actually cold, windy clouds of ammonia and water, floating in an atmosphere of hydrogen and helium. Jupiter's iconic Great Red Spot is a giant storm bigger than Earth that has raged for hundreds of years. One spacecraft, NASA's Juno orbiter,  is currently exploring this giant world."
+                ],
+                iframeLink: {
+                    type: "iframe",
+                    content: "https://eyes.nasa.gov/apps/solar-system/#/jupiter?embed=true&amp;logo=false" ,
+                    content_description: ""
+                },
+                facts_12: [
+                    {
+                        headText: "THE GRANDEST PLANET",
+                        text: "Eleven Earths could fit across Jupiter's equator. If Earth were the size of a grape, Jupiter would be the size of a basketball."
+                    },
+                    {
+                        headText: "FIFTH PLANET",
+                        text: "Jupiter orbits about 484 million miles (778 million kilometers) or 5.2 Astronomical Units (AU) from our Sun (Earth is one AU from the Sun)."
+                    },
+                    {
+                        headText: "GIANT GAS BALL",
+                        text: "Jupiter is a gas giant and so lacks an Earth-like surface. If it has a solid inner core at all, it's likely only about the size of Earth."
+                    },
+                    {
+                        headText: "MASSIVE WORLD, LIGHT ELEMENTS",
+                        text: "Jupiter's atmosphere is made up mostly of hydrogen (H2) and helium (He), two of the lightest elements known."
+                    },
+                    {
+                        headText: "RINGED WORLD",
+                        text: "In 1979 the Voyager mission discovered Jupiter's faint ring system. All four giant planets in our solar system have ring systems."
+                    },
+                    {
+                        headText: "SUPER STORM",
+                        text: "Jupiter's Great Red Spot is a gigantic storm that's about twice the size of Earth and has been raging for at least 400 years."
+                    },
+                    {
+                        headText: "INGREDIENTS FOR LIFE?",
+                        text: "Jupiter cannot support life as we know it. But some of Jupiter's moons have oceans beneath their crusts that might support life."
+                    },
+                    {
+                        headText: "SWIFT 'N' STRONG",
+                        text: "Jupiter has the fastest rotation of any planet in the solar system, with a day that lasts only about 9 hours and 56 minutes. It has a powerful magnetic field that is about 20,000 times stronger than Earth's."
+                    },
+                    {
+                        headText: "BIG INFLUENCE",
+                        text: "Jupiter's strong gravitational pull affects the orbits of other planets and objects in the solar system, and is thought to have played a role in the formation of the solar system."
+                    },
+                    {
+                        headText: "COSMIC GUARDIAN",
+                        text: "The events of Comet Shoemaker-Levy 9's interaction with Jupiter greatly highlighted Jupiter's role in protecting the inner planets from both interstellar and in-system debris by acting as a 'cosmic vacuum cleaner' for the Solar System ( Jupiter barrier )."
+                    },
+                    {
+                        headText: "COSMIC COMPANIONS",
+                        text: "Jupiter has at least 79 moons, including the four largest known as the Galilean moons: Io, Europa, Ganymede, and Callisto."
+                    },
+                    {
+                        headText: "EXPLORING JUPITER",
+                        text: "Nine spacecraft have visited Jupiter. Seven flew by and two have orbited the gas giant. Juno, the most recent, arrived at Jupiter in 2016." 
+                    },
+                ]
+            },
+            inDepth: [
+                {
+                    title: "Introduction",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Jupiter is the fifth planet from the Sun and the largest in the Solar System. A gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined, and slightly less than one one-thousandth the mass of the Sun. Jupiter is the third brightest natural object in the Earth's night sky after the Moon and Venus, and it has been observed since prehistoric times. It was named after Jupiter, the chief deity of ancient Roman religion.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Jupiter is primarily composed of hydrogen (90% by volume), followed by helium, which constitutes a quarter of its mass and a tenth of its volume. The ongoing contraction of Jupiter's interior generates more heat than the planet receives from the Sun. Because of its rapid rotation rate of 1 rotation per 10 hours, the planet's shape is an oblate spheroid: it has a slight but noticeable bulge around the equator. The outer atmosphere is divided into a series of latitudinal bands, with turbulence and storms along their interacting boundaries. The most obvious result of this is the Great Red Spot, a giant storm which has been observed since 1831 and possibly earlier.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/jupiterXearth.jpg",
+                            content_description: "Full disk view of Jupiter in natural color, showing comparison of planet Earth to Jupiter's ever-raging Great Red Spot. Earth would fit comfortable within the Great Storm that has been raging for more than 400years."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Jupiter is surrounded by a faint planetary ring system and has a powerful magnetosphere. The planet's magnetic tail is nearly 800 million kilometres (5.3 astronomical units; 500 million miles) long. Jupiter forms a system of 95 known moons and probably many more, including the four large moons discovered by Galileo Galilei in 1610: Io, Europa, Ganymede, and Callisto. Ganymede, the largest of the four, is larger than the planet Mercury. Callisto is the second largest; Io and Europa are approximately the size of Earth's Moon.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Nomenclature",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In both the ancient Greek and Roman civilizations, Jupiter was named after the chief god of the divine pantheon: Zeus to the Greeks and Jupiter to the Romans. The International Astronomical Union formally adopted the name Jupiter for the planet in 1976, and has since named its newly discovered satellites for the god's lovers, favourites, and descendants. The planetary symbol for Jupiter, ♃, descends from a Greek zeta with a horizontal stroke, ⟨Ƶ⟩, as an abbreviation for Zeus.",
+                            content_description: null
+                        },
+                    ]
+                },
+                { 
+                    title: "Physical Characteristics",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Jupiter is a gas giant, being primarily composed of gas and liquid rather than solid matter. It is the largest planet in the Solar System, with a diameter of 142,984 km (88,846 mi) at its equator. The average density of Jupiter, 1.326 g/cm3, is about the same as sugar syrup (syrup USP), and is lower than those of the four terrestrial planets.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Internal Structure",
+                            content: "Before the early 21st century, most scientists proposed one of two scenarios for the formation of Jupiter. If the planet accreted first as a solid body, it would consist of a dense core, a surrounding layer of liquid metallic hydrogen (with some helium) extending outward to about 80% of the radius of the planet, and an outer atmosphere consisting primarily of molecular hydrogen. Alternatively, if the planet collapsed directly from the gaseous protoplanetary disk, it was expected to completely lack a core, consisting instead of denser and denser fluid (predominantly molecular and metallic hydrogen) all the way to the centre. Data from the Juno mission showed that Jupiter has a diffuse core that mixes into its mantle. It is estimated that the core takes up 30 - 50% of the planet's radius, and contains heavy elements with a combined mass 7 - 25 times the Earth.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/jupiter_internal_structure.png",
+                            content_description: "Diagram of Jupiter, its interior, surface features, rings, and inner moons. A 3D renderer was used to make the skeleton for this picture so everything is drawn to scale (except the aurorae). * This diagram was drawn precisely to the specifications in the sources. However scientists aren't actually sure if Jupiter has an actual core or if there's actually such a thing as metallic hydrogen, which is currently purely theoretical."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Outside the layer of metallic hydrogen lies a transparent interior atmosphere of hydrogen. At this depth, the pressure and temperature are above molecular hydrogen's critical pressure of 1.3 MPa and critical temperature of 33 K (-240.2 °C; -400.3 °F). In this state, there are no distinct liquid and gas phases—hydrogen is said to be in a supercritical fluid state. The hydrogen and helium gas extending downward from the cloud layer gradually transitions to a liquid in deeper layers, possibly resembling something akin to an ocean of liquid hydrogen and other supercritical fluids. Physically, the gas gradually becomes hotter and denser as depth increases. Rain-like droplets of helium and neon precipitate downward through the lower atmosphere, depleting the abundance of these elements in the upper atmosphere. Rainfalls of diamonds have been suggested to occur, as well as on Saturn and the ice giants Uranus and Neptune.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The temperature and pressure inside Jupiter increase steadily inward as the heat of planetary formation can only escape by convection. At a surface depth where the atmospheric pressure level is 1 bar (0.10 MPa), the temperature is around 165 K (-108 °C; -163 °F). The region where supercritical hydrogen changes gradually from a molecular fluid to a metallic fluid spans pressure ranges of 50 - 400 GPa with temperatures of 5,000-8,400 K (4,730-8,130 °C; 8,540-14,660 °F), respectively. The temperature of Jupiter's diluted core is estimated to be 20,000 K (19,700 °C; 35,500 °F) with a pressure of around 4,000 GPa.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Composition, Size and Mass",
+                            content: "Jupiter's upper atmosphere is about 90% hydrogen and 10% helium by volume. Since helium atoms are more massive than hydrogen molecules, Jupiter's atmosphere is approximately 24% helium by mass. The atmosphere also contains trace amounts of methane, water vapour, ammonia, and silicon-based compounds. There are also fractional amounts of carbon, ethane, hydrogen sulfide, neon, oxygen, phosphine, and sulfur. The outermost layer of the atmosphere contains crystals of frozen ammonia. Through infrared and ultraviolet measurements, trace amounts of benzene and other hydrocarbons have also been found. The interior of Jupiter contains denser materials—by mass it is roughly 71% hydrogen, 24% helium, and 5% other elements. Based on spectroscopy, Saturn is thought to be similar in composition to Jupiter, but the other giant planets Uranus and Neptune have relatively less hydrogen and helium and relatively more of the next most common elements, including oxygen, carbon, nitrogen, and sulfur. Those planets are known as ice giants, because the majority of their volatile compounds are in solid form.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Jupiter's mass is 2.5 times that of all the other planets in the Solar System combined—so massive that its barycentre with the Sun lies above the Sun's surface at 1.068 solar radii from the Sun's centre. Jupiter is much larger than Earth and considerably less dense: it has 1,321 times the volume of the Earth, but only 318 times the mass. Jupiter's radius is about one tenth the radius of the Sun, and its mass is one thousandth the mass of the Sun, as the densities of the two bodies are similar. A 'Jupiter mass' (MJ or MJup) is often used as a unit to describe masses of other objects, particularly extrasolar planets and brown dwarfs. For example, the extrasolar planet HD 209458 b has a mass of 0.69 MJ, while Kappa Andromedae b has a mass of 12.8 MJ. Jupiter radiates more heat than it receives through solar radiation, due to the Kelvin-Helmholtz mechanism within its contracting interior. This process causes Jupiter to shrink by about 1 mm (0.039 in)/yr. At the time of its formation, Jupiter was hotter and was about twice its current diameter.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Atmosphere",
+                            content: "The atmosphere of Jupiter extends to a depth of 3,000 km (2,000 mi) below the cloud layers. Jupiter is perpetually covered with clouds of ammonia crystals, which may contain ammonium hydrosulfide as well. The clouds are located in the tropopause layer of the atmosphere, forming bands at different latitudes, known as tropical regions. These are subdivided into lighter-hued zones and darker belts. The interactions of these conflicting circulation patterns cause storms and turbulence. Wind speeds of 100 metres per second (360 km/h; 220 mph) are common in zonal jet streams. The zones have been observed to vary in width, colour and intensity from year to year, but they have remained stable enough for scientists to name them.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/jupiter_storms.gif",
+                            content_description: "Timelapse of Jupiter's cloud system moving over the course of one month (photographed during Voyager 1 flyby in 1979): Jupiter seen by Voyager 1 probe with blue filter. One image was taken every Jupiter day (approximately 10 hours) and Voyager 1 flew from 58 million to 31 million kilometers from Jupiter during that time. The small, round, dark spots appearing in some frames are the shadows cast by the moons passing between Jupiter and the Sun, while the small, white flashes around the planet, are the moons themselves."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The cloud layer is about 50 km (31 mi) deep, and consists of at least two decks of ammonia clouds: a thin clearer region on top with a thick lower deck. There may be a thin layer of water clouds underlying the ammonia clouds, as suggested by flashes of lightning detected in the atmosphere of Jupiter. These electrical discharges can be up to a thousand times as powerful as lightning on Earth.  Upper-atmospheric lightning has been observed in Jupiter's upper atmosphere, bright flashes of light that last around 1.4 milliseconds. These are known as 'elves' or 'sprites' and appear blue or pink due to the hydrogen.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/jupiter_south_storms.jpg",
+                            content_description: "Southern Storms - This image shows Jupiter's south pole, as seen by NASA's Juno spacecraft from an altitude of 32,000 miles (52,000 kilometers). The oval features are cyclones, up to 600 miles (1,000 kilometers) in diameter. Multiple images taken with the JunoCam instrument on three separate orbits were combined to show all areas in daylight, enhanced color, and stereographic projection."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The orange and brown colours in the clouds of Jupiter are caused by upwelling compounds that change colour when they are exposed to ultraviolet light from the Sun. The exact makeup remains uncertain, but the substances are thought to be made up of phosphorus, sulfur or possibly hydrocarbons. These colourful compounds, known as chromophores, mix with the warmer clouds of the lower deck. The light-coloured zones are formed when rising convection cells form crystallising ammonia that hides the chromophores from view. Jupiter has a low axial tilt, thus making it that the poles always receive less solar radiation than the planet's equatorial region. Convection within the interior of the planet transports energy to the poles, balancing out the temperatures at the cloud layer.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Great Red Spot and other vortices",
+                            content: "A well-known feature of Jupiter is the Great Red Spot, a persistent anticyclonic storm located 22° south of the equator. It is known to have existed since at least 1831, and possibly since 1665. Images by the Hubble Space Telescope have shown two more \"red spots\" adjacent to the Great Red Spot. The storm is visible through Earth-based telescopes with an aperture of 12 cm or larger. The oval object rotates counterclockwise, with a period of about six days. The maximum altitude of this storm is about 8 km (5 mi) above the surrounding cloud tops. The Spot's composition and the source of its red colour remain uncertain, although photodissociated ammonia reacting with acetylene is a likely explanation.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/jupiter_great_red_spot.jpg",
+                            content_description: "Close-up of the Great Red Spot  and surrounding turbulent zones imaged by the Juno spacecraft in April 2018."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The Great Red Spot is larger than the Earth. Mathematical models suggest that the storm is stable and will be a permanent feature of the planet. However, it has significantly decreased in size since its discovery. Initial observations in the late 1800s showed it to be approximately 41,000 km (25,500 mi) across. By the time of the Voyager flybys in 1979, the storm had a length of 23,300 km (14,500 mi) and a width of approximately 13,000 km (8,000 mi).  As of 2015, the storm was measured at approximately 16,500 by 10,940 km (10,250 by 6,800 mi), and was decreasing in length by about 930 km (580 mi) per year. In October 2021, a Juno flyby mission measured the depth of the Great Red Spot, putting it at around 300-500 kilometres (190-310 mi).",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In 2000, an atmospheric feature formed in the southern hemisphere that is similar in appearance to the Great Red Spot, but smaller. This was created when smaller, white oval-shaped storms merged to form a single feature—these three smaller white ovals were formed in 1939-1940. The merged feature was named Oval BA. It has since increased in intensity and changed from white to red, earning it the nickname \"Little Red Spot\". In April 2017, a \"Great Cold Spot\" was discovered in Jupiter's thermosphere at its north pole. This feature is 24,000 km (15,000 mi) across, 12,000 km (7,500 mi) wide, and 200 °C (360 °F) cooler than surrounding material. While this spot changes form and intensity over the short term, it has maintained its general position in the atmosphere for more than 15 years. It may be a giant vortex similar to the Great Red Spot, and appears to be quasi-stable like the vortices in Earth's thermosphere. This feature may be formed by interactions between charged particles generated from Io and the strong magnetic field of Jupiter, resulting in a redistribution of heat flow.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Magnetosphere",
+                            content: "Jupiter's magnetic field is the strongest of any planet in the Solar System, with a dipole moment of 4.170 gauss (0.4170 mT) that is tilted at an angle of 10.31° to the pole of rotation. The surface magnetic field strength varies from 2 gauss (0.20 mT) up to 20 gauss (2.0 mT). This field is thought to be generated by eddy currents—swirling movements of conducting materials within the liquid, metallic hydrogen core. At about 75 Jupiter radii from the planet, the interaction of the magnetosphere with the solar wind generates a bow shock. The four largest moons of Jupiter all orbit within the magnetosphere, which protects them from the solar wind.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The volcanoes on the moon Io emit large amounts of sulfur dioxide, forming a gas torus along its orbit. The gas is ionized in Jupiter's magnetosphere, producing sulfur and oxygen ions. They, together with hydrogen ions originating from the atmosphere of Jupiter, form a plasma sheet in Jupiter's equatorial plane. The plasma in the sheet co-rotates with the planet, causing deformation of the dipole magnetic field into that of a magnetodisk. Electrons within the plasma sheet generate a strong radio signature, with short, superimposed bursts in the range of 0.6-30 MHz that are detectable from Earth with consumer-grade shortwave radio receivers.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/jupiter_aurorae.gif",
+                            content_description: "Aurorae on the north and south poles (animation). The Sun is depicted as the yellow dot rising up just to left of the planet. Located at the north and south poles, the gas giant's auroras are shown in purple. Jupiter's tenuous rings are shown gray. More information about"
+                        },
+                        {
+                            content_type: "text",
+                            head: "Planetary Rings",
+                            content: "Jupiter has a faint planetary ring system composed of three main segments: an inner torus of particles known as the halo, a relatively bright main ring, and an outer gossamer ring. These rings appear to be made of dust, whereas Saturn's rings are made of ice. The main ring is most likely made out of material ejected from the satellites Adrastea and Metis, which is drawn into Jupiter because of the planet's strong gravitational influence. New material is added by additional impacts. In a similar way, the moons Thebe and Amalthea are believed to produce the two distinct components of the dusty gossamer ring. There is evidence of a fourth ring that may consist of collisional debris from Amalthea that is strung along the same moon's orbit.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Orbit & Rotation",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Jupiter is the only planet whose barycentre with the Sun lies outside the volume of the Sun, though by only 7% of the Sun's radius. The average distance between Jupiter and the Sun is 778 million km (5.2 AU) and it completes an orbit every 11.86 years. This is approximately two-fifths the orbital period of Saturn, forming a near orbital resonance. The orbital plane of Jupiter is inclined 1.30° compared to Earth. Because the eccentricity of its orbit is 0.049, Jupiter is slightly over 75 million km nearer the Sun at perihelion than aphelion. The axial tilt of Jupiter is relatively small, only 3.13°, so its seasons are insignificant compared to those of Earth and Mars.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Jupiter's rotation is the fastest of all the Solar System's planets, completing a rotation on its axis in slightly less than ten hours; this creates an equatorial bulge easily seen through an amateur telescope. Because Jupiter is not a solid body, its upper atmosphere undergoes differential rotation. The rotation of Jupiter's polar atmosphere is about 5 minutes longer than that of the equatorial atmosphere.",
+                            content_description: null
+                        },                    
+                    ]
+                },
+                {
+                    title: "Moons",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Jupiter has 95 known natural satellites, and it is likely that this number would go up in the future due to improved instrumentation. Of these, 79 are less than 10 km in diameter. The four largest moons are Io, Europa, Ganymede, and Callisto, collectively known as the \"Galilean moons\", and are visible from Earth with binoculars on a clear night.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Galilean Moons",
+                            content: "The moons discovered by Galileo—Io, Europa, Ganymede, and Callisto—are among the largest in the Solar System. The orbits of Io, Europa, and Ganymede form a pattern known as a Laplace resonance; for every four orbits that Io makes around Jupiter, Europa makes exactly two orbits and Ganymede makes exactly one. This resonance causes the gravitational effects of the three large moons to distort their orbits into elliptical shapes, because each moon receives an extra tug from its neighbours at the same point in every orbit it makes. The tidal force from Jupiter, on the other hand, works to circularize their orbits.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/jupiter_galilean_moon.jpg",
+                            content_description: "The Galilean moons. From left to right, in order of increasing distance from Jupiter: Io, Europa, Ganymede, Callisto: This composite includes the four largest moons of Jupiter which are known as the Galilean satellites. The Galilean satellites were first seen by the Italian astronomer Galileo Galilei in 1610. Shown from left to right in order of increasing distance from Jupiter, Io is closest, followed by Europa, Ganymede, and Callisto. The order of these satellites from the planet Jupiter helps to explain some of the visible differences among the moons. Io is subject to the strongest tidal stresses from the massive planet. These stresses generate internal heating which is released at the surface and makes Io the most volcanically active body in our solar system."
+                        },    
+                        {
+                            content_type: "text",
+                            head: "Classification",
+                            content: "Jupiter's moons were traditionally classified into four groups of four, based on their similar orbital elements. This picture has been complicated by the discovery of numerous small outer moons since 1999. Jupiter's moons are currently divided into several different groups, although there are several moons which are not part of any group. The eight innermost regular moons, which have nearly circular orbits near the plane of Jupiter's equator, are thought to have formed alongside Jupiter, whilst the remainder are irregular moons and are thought to be captured asteroids or fragments of captured asteroids. The irregular moons within each group may have a common origin, perhaps as a larger moon or captured body that broke up.",
+                            content_description: null
+                        },                                                
+                                                   
+                    ]
+                },
+                {
+                    title: "Interaction With The Solar System",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "As the most massive of the eight planets, the gravitational influence of Jupiter has helped shape the Solar System. With the exception of Mercury, the orbits of the system's planets lie closer to Jupiter's orbital plane than the Sun's equatorial plane. The Kirkwood gaps in the asteroid belt are mostly caused by Jupiter, and the planet may have been responsible for the purported Late Heavy Bombardment in the inner Solar System's history. In addition to its moons, Jupiter's gravitational field controls numerous asteroids that have settled around the Lagrangian points that precede and follow the planet in its orbit around the Sun. These are known as the \"Trojan asteroids\".",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Jupiter has been called the Solar System's vacuum cleaner because of its immense gravity well and location near the inner Solar System. There are more impacts on Jupiter, such as comets, than on any other planet in the Solar System. For example, Jupiter experiences about 200 times more asteroid and comet impacts than Earth. This topic remains controversial among scientists, as some think it draws comets towards Earth from the Kuiper belt, while others believes that Jupiter protects Earth from the Oort cloud. In July 1994, the Comet Shoemaker-Levy 9 comet collided with Jupiter. The impacts were closely observed by observatories around the world, including the Hubble Space Telescope and Galileo spacecraft.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/jupiter_SL9.png",
+                            content_description: "A NASA Hubble Space Telescope (HST) image of comet Shoemaker-Levy 9, taken on May 17, 1994, with the Wide Field Planetary Camera 2 (WFPC2) in wide field mode. When the comet was observed, its train of 21 icy fragments stretched across 1.1 million km (710 thousand miles) of space, or 3 times the distance between Earth and the Moon. This required 6 WFPC exposures spaced along the comet train to include all the nuclei. The image was taken in red light. The comet was approximately 660 million km (410 million miles) from Earth when the picture was taken, on a mid-July collision course with the gas giant planet Jupiter."
+                        },                                                    
+                                                   
+                    ]
+                },
+                {
+                    title: "Exploration",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Jupiter has been visited by automated spacecraft since 1973, when the space probe Pioneer 10 passed close enough to Jupiter to send back revelations about its properties and phenomena. Beginning in 1973, several spacecraft have performed planetary flyby manoeuvres that brought them within observation range of Jupiter. The Pioneer missions obtained the first close-up images of Jupiter's atmosphere and several of its moons. Six years later, the Voyager missions vastly improved the understanding of the Galilean moons and discovered Jupiter's rings. They also confirmed that the Great Red Spot was anticyclonic. The next mission to encounter Jupiter was the Ulysses solar probe. In February 1992, it performed a flyby manoeuvre to attain a polar orbit around the Sun. During this pass, the spacecraft studied Jupiter's magnetosphere.",
+                            content_description: null 
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In 2000, the Cassini probe flew by Jupiter on its way to Saturn, and provided higher-resolution images. The New Horizons probe flew by Jupiter in 2007 for a gravity assist en route to Pluto. The probe's cameras measured plasma output from volcanoes on Io and studied all four Galilean moons in detail.",
+                            content_description: null
+                        },  
+                        {
+                            content_type: "text",
+                            head: "Galileo Mission",
+                            content: "The first spacecraft to orbit Jupiter was the Galileo mission, which reached the planet on December 7, 1995. It remained in orbit for over seven years, conducting multiple flybys of all the Galilean moons and Amalthea. The spacecraft also witnessed the impact of Comet Shoemaker-Levy 9 when it collided with Jupiter in 1994. Some of the goals for the mission were thwarted due to a malfunction in Galileo's high-gain antenna. Data from this mission revealed that hydrogen composes up to 90% of Jupiter's atmosphere.[54] The recorded temperature was more than 300 °C (570 °F) and the windspeed measured more than 644 km/h (>400 mph) before the probes was deliberately vaporized to avoid any possibility of the spacecraft crashing into and possibly contaminating the moon Europa, which may harbour life.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Juno Mission",
+                            content: "NASA's Juno mission arrived at Jupiter on July 4, 2016 with the goal of studying the planet in detail from a polar orbit. The spacecraft was originally intended to orbit Jupiter thirty-seven times over a period of twenty months. During the mission, the spacecraft will be exposed to high levels of radiation from Jupiter's magnetosphere, which may cause future failure of certain instruments. On August 27, 2016, the spacecraft completed its first fly-by of Jupiter and sent back the first-ever images of Jupiter's north pole. Juno completed 12 orbits before the end of its budgeted mission plan, ending July 2018. In June of that year, NASA extended the mission operations plan to July 2021, and in January of that year the mission was extended to September 2025 with four lunar flybys: one of Ganymede, one of Europa, and two of Io. When Juno reaches the end of the mission, it will perform a controlled deorbit and disintegrate into Jupiter's atmosphere. This will avoid the risk of collision with Jupiter's moons.",
+                            content_description: null
+                        },                                            
+                        {
+                            content_type: "text",
+                            head: "Future Mission",
+                            content: "There is great interest in missions to study Jupiter's larger icy moons, which may have subsurface liquid oceans. A plan for the NASA-led Jupiter Europa Orbiter and the ESA-led Jupiter Ganymede Orbiter has been achieved as the European Space Agency's Jupiter Icy Moon Explorer (JUICE), launched on April 14, 2023, followed by NASA's Europa Clipper mission, scheduled for launch in 2024. Other proposed missions include the Chinese National Space Administration's Tianwen-4 mission which aims to launch an orbiter to the Jovian system and possibly Callisto around 2035, and CNSA's Interstellar Express and NASA's Interstellar Probe, which would both use Jupiter's gravity to help them reach the edges of the heliosphere.",
+                            content_description: null
+                        },                                            
+                    ]
+                },
+                {
+                    title: "Watch To Learn More...",
+                    texts: [
+                        {
+                            content_type: "embed_video",
+                            content: "aFnNCwTkYo8",
+                            content_description: "Everything you could want to know about Jupiter, the fifth planet from the Sun. Real HD photos and videos taken by the Cassini-Huygens, Galileo orbiters and also telescopes like Hubble."
+                        },  
+                    ]
+                }
+            ],
+             summary: [
+                {
+                    head: "Designations",
+                    keyValue: [
+                        {
+                            key: "Named After",
+                            value: "Jupiter, also known as Jove, the god of the sky and thunder, and king of the gods in ancient Roman religion and mythology. "
+                        },
+                        {
+                            key: "Adjectives",
+                            value: "Jovian."
+                        },
+                    ]
+                },
+                {
+                    head: "Orbital Characteristics",
+                    keyValue: [
+                        {
+                            key: "Aphelion",
+                            value: "816.363 Gm (5.4570 AU)"
+                        },
+                        {
+                            key: "Perihelion",
+                            value: "2740.595 Gm (4.9506 AU)"
+                        },
+                        {
+                            key: "Semi-major Axis",
+                            value: "778.479 Gm (5.2038 AU)"
+                        },
+                        {
+                            key: "Eccentricity",
+                            value: "0.0489"
+                        },
+                        {
+                            key: "Orbital Period (sidereal)",
+                            value: "11.862 yr; 4,332.59 days; 10,476.8 Jovian solar days."
+                        },
+                        {
+                            key: "Orbital Period (synodic)",
+                            value: "398.88 days"
+                        },
+                        {
+                            key: "Average Orbital Speed",
+                            value: "13.07 km/s (8.12 mi/s)"
+                        },
+                        {
+                            key: "Mean Anomaly",
+                            value: "20.020°"
+                        },
+                        {
+                            key: "Inclination",
+                            value: "1.303° to ecliptic; 6.09° to Sun's equator; 0.32° to invariable plane"
+                        },
+                        {
+                            key: "Longitude of Ascending Node",
+                            value: "100.464°"
+                        },
+                        {
+                            key: "Time of Perihelion",
+                            value: "21 January, 2023"
+                        },
+                        {
+                            key: "Argument of Perihelion",
+                            value: "273.867°"
+                        },
+                        {
+                            key: "Known Satellites",
+                            value: "95 (as of 2023)"
+                        },
+                    ]
+                },
+                {
+                    head: "Physical Characteristics",  
+                    keyValue: [
+                        {
+                            key: "Mean Radius",
+                            value: "69,911 km (43,441 mi); 10.973 of Earth's"
+                        },
+                        {
+                            key: "Equatorial Radius",
+                            value: "71,492 km (44,423 mi); 11.209 R🜨 (of Earth's); 0.10045 R☉ (of Sun's)"
+                        },
+                        {
+                            key: "Polar Radius",
+                            value: "66,854 km (41,541 mi); 10.517 of Earth's"
+                        },
+                        {
+                            key: "Flattening",
+                            value: "0.06487"
+                        },
+                        {
+                            key: "Surface Area",
+                            value: "6.1469e10 sq.km (2.3733e10 sq.mi); 120.4 of Earth's"
+                        },
+                        {
+                            key: "Volume",
+                            value: "1.4313e15 cu.km3 (3.434e14 cu.mi); 1,321 of Earth's"
+                        },
+                        {
+                            key: "Mass",
+                            value: "1.8982e27 kg (4.1848e27 lb); 317.8 of Earth's; 1/1047 of Sun's"
+                        },
+                        {
+                            key: "Mean Density",
+                            value: "1,326 kg/cu.m (2,235 lb/cu.yd)"
+                        },
+                        {
+                            key: "Surface Gravity",
+                            value: "24.79 m/s2 (81.3 ft/s2); 2.528 g"
+                        },
+                        {
+                            key: "Moment of Inertia Factor",
+                            value: "0.2756 ± 0.0006"
+                        },
+                        {
+                            key: "Escape Velocity",
+                            value: "59.5 km/s (37.0 mi/s)"
+                        },
+                        {
+                            key: "Synodic Rotation Period",
+                            value: "9.9258 h (9h 55m 33s)"
+                        },
+                        {
+                            key: "Sidereal Rotation Period",
+                            value: "9.9250 hours (9h 55m 30s)"
+                        },
+                        {
+                            key: "Equatorial Rotation Velocity",
+                            value: "12.6 km/s (7.8 mi/s; 45,000 km/h)"
+                        },
+                        {
+                            key: "Axial Tilt",
+                            value: "3.13° (to orbit)"
+                        },
+                        {
+                            key: "North Pole Right Ascension",
+                            value: "268.057°; 17h 52m 14s"
+                        },
+                        {
+                            key: "North Pole Declination",
+                            value: "64.495°"
+                        },
+                        {
+                            key: "Albedo",
+                            value: "0.503 (Bond), 0.538 (geometric)."
+                        },
+                        {
+                            key: "Temperature",
+                            value: "88 K (-185 °C) (blackbody temperature)"
+                        },
+                        {
+                            key: "Mean Surface Temp.",
+                            value: "165 K (1 bar); 128 K (0.1 bar)"
+                        },
+                        {
+                            key: "Apparent Magnitude",
+                            value: "-2.94 to -1.66"
+                        },
+                        {
+                            key: "Angular Diameter",
+                            value: "29.8″ to 50.1″"
+                        },
+                    ]
+                },
+                {
+                    head: "Atmosphere",  
+                    keyValue: [
+                        {
+                            key: "Surface Pressure",
+                            value: "200 - 600 kPa (30 - 90 psi) (opaque cloud deck)"
+                        },
+                        {
+                            key: "Scale Height",
+                            value: "27 km (17 mi)."
+                        },
+                        {
+                            key: "Composition by Volume",
+                            value: "89% ± 2.0% hydrogen, 10% ± 2.0% helium, 0.3% ± 0.1% methane, 0.026% ± 0.004% ammonia, 0.0028% ± 0.001% hydrogen deuteride, 0.0006% ± 0.0002% ethane, 0.0004% ± 0.0004% water."
+                        },
+    
+                    ]
+                },
+            ],
+            dateUpdate: "2023-04-30"
+        },
+        saturn: {
+            name: "Saturn",
+            baseImgUrl: "/saturn_poster_A.jpg",
+            baseText: "Saturn",
+            subText: "Adorned with a dazzling, complex system of icy rings, Saturn is unique in our solar system. The other giant planets have rings, but none are as spectacular as Saturn's.",
+            next: {
+                key: "Uranus",
+                value: "/planets/uranus"
+            },
+            prev: {
+                key: "Jupiter",
+                value: "/planets/jupiter"
+            },
+            subdata: [
+                {
+                    key: "Distance From Sun",
+                    value: "887,000,000 miles"
+                },
+                {
+                    key: "One Way Light Time From Sun",
+                    value: "~80 minutes"
+                },
+                {
+                    key: "Length Of Year",
+                    value: "10,759 Earth Days"
+                },
+                {
+                    key: "Satellites Count",
+                    value: "82"
+                },
+            ],
+            overview: {
+                name: "Saturn",
+                topBox: {
+                    headText: "RINGS OF SATURN",
+                    text: "The rings of Saturn are the most extensive ring system of any planet in the Solar System. They consist of countless small particles, ranging in size from micrometers to meters, that orbit around Saturn. The ring particles are made almost entirely of water ice, with a trace component of rocky material."
+                },
+                paragraphs: [
+                    "Saturn is the sixth planet from the Sun and the second-largest planet in our solar system. Adorned with thousands of beautiful ringlets, Saturn is unique among the planets. It is not the only planet to have rings made of chunks of ice and rock but none are as spectacular or as complicated as Saturn's.",
+                    "Like fellow gas giant Jupiter, Saturn is a massive ball made mostly of hydrogen and helium. At least 83 moons are known to orbit Saturn, of which 53 are officially named; this does not include the hundreds of moonlets in its rings. Titan, Saturn's largest moon and the second largest in the Solar System."
+                ],
+                iframeLink: {
+                    type: "iframe",
+                    content: "https://eyes.nasa.gov/apps/solar-system/#/saturn?embed=true&amp;logo=false" ,
+                    content_description: ""
+                },
+                facts_12: [
+                    {
+                        headText: "A COLOSSAL PLANET",
+                        text: "Nine Earths side by side would almost span Saturn's diameter. That doesn't include Saturn's rings. It is is the second largest planet in the solar system, with a diameter of about 72,367 miles (116,460 kilometers)."
+                    },
+                    {
+                        headText: "IN DIM LIGHT",
+                        text: "Saturn is the sixth planet from our Sun (a star) and orbits at a distance of about 886 million miles (1.4 billion kilometers) from the Sun."
+                    },
+                    {
+                        headText: "GIANT GAS BALL",
+                        text: "Saturn is a gas-giant planet and therefore does not have a solid surface like Earth's. But it might have a solid core somewhere in there."
+                    },
+                    {
+                        headText: "HOLD ON TIGHT",
+                        text: "Saturn has the second fastest winds of any planet in the solar system after Neptune, with speeds of up to 1,800 kilometers per hour (1,100 miles per hour) at its equator."
+                    },
+                    {
+                        headText: "GLORIOUS RINGS",
+                        text: "Saturn has the most spectacular ring system, with seven rings and several gaps and divisions between them."
+                    },
+                    {
+                        headText: "PULL 'N' SPIN",
+                        text: "Saturn has a gravity that is only slightly less stronger than Earth's, making it possible to stand on the planet's surface (if it had one). It also rotates on its axis once every 10.7 hours, making it the second fastest rotating planet after Jupiter."
+                    },
+                    {
+                        headText: "HEXAGONAL STORMS",
+                        text: "Saturn has a hexagonal-shaped storm at its north pole, which is believed to be caused by the planet's fast rotation and jet streams."
+                    },
+                    {
+                        headText: "RING RAIN",
+                        text: "Saturn's ring system is slowly raining down onto the planet's surface, with an estimated 10,000 kilograms of material falling every second. The rings are being pulled into Saturn by gravity as a dusty rain of ice particles under the influence of Saturn's magnetic field."
+                    },
+                    {
+                        headText: "CASSINI-HUYGENS",
+                        text: "Saturn has been extensively studied by the Cassini spacecraft (NASA's Saturn orbiter), which orbited the planet for 13 years before being intentionally crashed into its atmosphere in 2017. Huygens (ESA's Titan lander), scrutinized the clouds, atmosphere, and surface of Saturn's moon Titan in its descent on January 15, 2005."
+                    },
+                    {
+                        headText: "LIFELESS BEHEMOTH",
+                        text: "Saturn cannot support life as we know it, but some of Saturn's moons have conditions that might support life."
+                    },
+                    {
+                        headText: "A PLANETARY SYSTEM",
+                        text: "Saturn has 53 known moons with an additional 29 moons awaiting confirmation of their discovery, that is a total of 82 moons. The largest of them being Titan, Enceladus, and Mimas."
+                    },
+                    {
+                        headText: "RARE DESTINATION",
+                        text: "Few missions have visited Saturn: Pioneer 11 and Voyagers 1 and 2 flew by; But Cassini orbited Saturn 294 times from 2004 to 2017." 
+                    },
+                ]
+            },
+            inDepth: [
+                {
+                    title: "Introduction",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth. It has only one-eighth the average density of Earth, but is over 95 times more massive. Saturn's interior is most likely composed of a rocky core, surrounded by a deep layer of metallic hydrogen, an intermediate layer of liquid hydrogen and liquid helium, and finally, a gaseous outer layer. Saturn has a pale yellow hue due to ammonia crystals in its upper atmosphere.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/saturn_during_Equinox.jpg",
+                            content_description: "This Natural color view of the planet Saturn was created from images collected shortly after Cassini began its extended Equinox Mission in July 2008. (Saturn actually reached equinox on August 11, 2009.). Some of Saturn's Moons are visible in this image as small dots overlaying saturn, the dot in the bottom left corner is Titan."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "An electrical current within the metallic hydrogen layer is thought to give rise to Saturn's planetary magnetic field, which is weaker than Earth's, but which has a magnetic moment 580 times that of Earth due to Saturn's larger size. Saturn's magnetic field strength is around one-twentieth of Jupiter's. The outer atmosphere is generally bland and lacking in contrast, although long-lived features can appear. Wind speeds on Saturn can reach 1,800 kilometres per hour (1,100 miles per hour). The planet's most notable feature is its prominent ring system, which is composed mainly of ice particles, with a smaller amount of rocky debris and dust. At least 83 moons[29] are known to orbit Saturn, of which 53 are officially named; this does not include the hundreds of moonlets in its rings. Titan, Saturn's largest moon and the second largest in the Solar System.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Nomenclature And Mythology",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Saturn is named after the Roman god of wealth and agriculture and father of Jupiter. Its astronomical symbol (♄) has been traced back to the Greek Oxyrhynchus Papyri, where it can be seen to be a Greek kappa-rho with a horizontal stroke, as an abbreviation for Κρονος (Cronus), the Greek name for the planet. It later came to look like a lower-case Greek eta, with the cross added at the top in the 16th century to Christianize this pagan symbol. The Romans named the seventh day of the week Saturday, Sāturni diēs (\"Saturn's Day\"), for the planet Saturn.",
+                            content_description: null
+                        },
+                    ]
+                },
+                { 
+                    title: "Physical Characteristics",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Saturn is a gas giant composed predominantly of hydrogen and helium. It lacks a definite surface, though it is likely to have a solid core. Its equatorial and polar radii differ by almost 10%: 60,268 km versus 54,364 km. Saturn is the only planet of the Solar System that is less dense than water, about 30% less. Although Saturn's core is considerably denser than water, the average specific density of the planet is 0.69 g/cm3 due to the atmosphere. Jupiter has 318 times Earth's mass, and Saturn is 95 times Earth's mass. Together, Jupiter and Saturn hold 92% of the total planetary mass in the Solar System.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Internal Structure",
+                            content: "Despite consisting mostly of hydrogen and helium, most of Saturn's mass is not in the gas phase, because hydrogen becomes a non-ideal liquid when the density is above 0.01 g/cm3, which is reached at a radius containing 99.9% of Saturn's mass. The temperature, pressure, and density inside Saturn all rise steadily toward the core, which causes hydrogen to be a metal in the deeper layers. Standard planetary models suggest that the interior of Saturn is similar to that of Jupiter, having a small rocky core surrounded by hydrogen and helium, with trace amounts of various volatiles. Saturn's central regions contain about 50% hydrogen by mass, while Jupiter's contain approximately 67% hydrogen.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/saturn_internal_structure.png",
+                            content_description: "Diagram of Saturn, to scale."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "This core is similar in composition to Earth, but is more dense. However, measurements of Saturn's rings suggest a much more diffuse core with a mass equal to about 17 Earths and a radius equal to around 60% of Saturn's entire radius. This is surrounded by a thicker liquid metallic hydrogen layer, followed by a liquid layer of helium-saturated molecular hydrogen that gradually transitions to a gas with increasing altitude. The outermost layer spans 1,000 km and consists of gas. Saturn has a hot interior, reaching 11,700 °C at its core, and radiates 2.5 times more energy into space than it receives from the Sun. Rainfalls of diamonds have been suggested to occur within Saturn, as well as in Jupiter and ice giants Uranus and Neptune.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Atmosphere",
+                            content: "The outer atmosphere of Saturn contains 96.3% molecular hydrogen and 3.25% helium by volume. Trace amounts of ammonia, acetylene, ethane, propane, phosphine, and methane have been detected in Saturn's atmosphere. The upper clouds are composed of ammonia crystals, while the lower level clouds appear to consist of either ammonium hydrosulfide (NH4SH) or water. Cassini observed a series of cloud features found in northern latitudes, nicknamed the \"String of Pearls\". These features are cloud clearings that reside in deeper cloud layers.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Cloud Layer",
+                            content: "Saturn's atmosphere exhibits a banded pattern similar to Jupiter's, but Saturn's bands are much fainter and are much wider near the equator. The nomenclature used to describe these bands is the same as on Jupiter. Saturn's finer cloud patterns were not observed until the flybys of the Voyager spacecraft during the 1980s. Since then, Earth-based telescopy has improved to the point where regular observations can be made. The composition of the clouds varies with depth and increasing pressure. In the upper cloud layers, with the temperature in the range 100-160 K and pressures extending between 0.5-2 bar, the clouds consist of ammonia ice. Water ice clouds begin at a level where the pressure is about 2.5 bar and extend down to 9.5 bar, where temperatures range from 185 to 270 K. Intermixed in this layer is a band of ammonium hydrosulfide ice, lying in the pressure range 3-6 bar with temperatures of 190-235 K. Finally, the lower layers, where pressures are between 10 and 20 bar and temperatures are 270-330 K, contains a region of water droplets with ammonia in aqueous solution.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Saturn's usually bland atmosphere occasionally exhibits long-lived ovals and other features common on Jupiter. In 1990, the Hubble Space Telescope imaged an enormous white cloud near Saturn's equator that was not present during the Voyager encounters, and in 1994 another smaller storm was observed. The 1990 storm was an example of a Great White Spot, a unique but short-lived phenomenon that occurs once every Saturnian year, roughly every 30 Earth years, around the time of the northern hemisphere's summer solstice. Previous Great White Spots were observed in 1876, 1903, 1933 and 1960, with the 1933 storm being the most famous. If the periodicity is maintained, another storm will occur in about 2020. The winds on Saturn are the second fastest among the Solar System's planets, after Neptune's. Voyager data indicate peak easterly winds of 500 m/s (1,800 km/h).",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/saturn_atmosphere.jpg",
+                            content_description: "The huge storm (great white spot) churning through the atmosphere in Saturn's northern hemisphere overtakes itself as it encircles the planet in this true-color view from NASA's Cassini spacecraft. Image credit: NASA/JPL-Caltech/SSI."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Magnetosphere",
+                            content: "Saturn has an intrinsic magnetic field that has a simple, symmetric shape—a magnetic dipole. Its strength at the equator—0.2 gauss (µT)—is approximately one twentieth of that of the field around Jupiter and slightly weaker than Earth's magnetic field. As a result, Saturn's magnetosphere is much smaller than Jupiter's.When Voyager 2 entered the magnetosphere, the solar wind pressure was high and the magnetosphere extended only 19 Saturn radii, or 1.1 million km (712,000 mi), although it enlarged within several hours, and remained so for about three days. Most probably, the magnetic field is generated similarly to that of Jupiter—by currents in the liquid metallic-hydrogen layer called a metallic-hydrogen dynamo. This magnetosphere is efficient at deflecting the solar wind particles from the Sun. The moon Titan orbits within the outer part of Saturn's magnetosphere and contributes plasma from the ionized particles in Titan's outer atmosphere. Saturn's magnetosphere, like Earth's, produces aurorae.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/saturn_aurorae.jpg",
+                            content_description: "Astronomers using the NASA/ESA Hubble Space Telescope have captured new images of the dancing auroral lights at Saturn's north pole. Taken from Hubble's perspective in orbit around the Earth, these images provide a detailed look at Saturn's stormy aurorae — revealing previously unseen dynamics in the choreography of the auroral glow. The cause of the changing patterns in Saturn's aurorae is an ongoing mystery in planetary science. These ultraviolet images, taken by Hubble's super-sensitive Advanced Camera for Surveys, add new insight by capturing moments when Saturn's magnetic field is affected by bursts of particles streaming out from the Sun. Saturn has a long, comet-like magnetic tail known as a magnetotail."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Planetary Rings",
+                            content: "Saturn is probably best known for the system of planetary rings that makes it visually unique. The rings extend from 6,630 to 120,700 kilometers (4,120 to 75,000 mi) outward from Saturn's equator and average approximately 20 meters (66 ft) in thickness. They are composed predominantly of water ice, with trace amounts of tholin impurities and a peppered coating of approximately 7% amorphous carbon. The particles that make up the rings range in size from specks of dust up to 10 m. While the other gas giants also have ring systems, Saturn's is the largest and most visible. Some ice in the E ring comes from the moon Enceladus's geysers. The water abundance of the rings varies radially, with the outermost ring A being the most pure in ice water. This abundance variance may be explained by meteor bombardment.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/saturn_rings.jpg",
+                            content_description: "The rings of Saturn (imaged here by Cassini in 2007) are the most massive and conspicuous in the Solar System."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Beyond the main rings, at a distance of 12 million km from the planet is the sparse Phoebe ring. It is tilted at an angle of 27° to the other rings and, like Phoebe, orbits in retrograde fashion. Some of the moons of Saturn, including Pandora and Prometheus, act as shepherd moons to confine the rings and prevent them from spreading out. Pan and Atlas cause weak, linear density waves in Saturn's rings that have yielded more reliable calculations of their masses.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Orbit & Rotation",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The average distance between Saturn and the Sun is over 1.4 billion kilometers (9 AU). With an average orbital speed of 9.68 km/s, it takes Saturn 10,759 Earth days (or about 29+1⁄2 years) to finish one revolution around the Sun. As a consequence, it forms a near 5:2 mean-motion resonance with Jupiter. The elliptical orbit of Saturn is inclined 2.48° relative to the orbital plane of the Earth. In March 2007, it was found that the variation of radio emissions from the planet did not match Saturn's rotation rate. This variance may be caused by geyser activity on Saturn's moon Enceladus. The water vapor emitted into Saturn's orbit by this activity becomes charged and creates a drag upon Saturn's magnetic field, slowing its rotation slightly relative to the rotation of the planet.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/saturn_rotation.gif",
+                            content_description: "This is an animation of the 28 images of Saturn (simulated views using a computer program written by Tom Ruen). This animation demonstrates the 29.5-year orbital period of Saturn by opposition date, as well as the dramatic changes in the orientation of the planet's ring disk. The ring system revolves around a fixed axis, so both sides of the ring disk are visible from Earth during each period in which Saturn orbits the Sun."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "An apparent oddity for Saturn is that it does not have any known trojan asteroids. These are minor planets that orbit the Sun at the stable Lagrangian points, designated L4 and L5, located at 60° angles to the planet along its orbit. Trojan asteroids have been discovered for Mars, Jupiter, Uranus, and Neptune. Orbital resonance mechanisms, including secular resonance, are believed to be the cause of the missing Saturnian trojans.",
+                            content_description: null
+                        },                    
+                    ]
+                },
+                {
+                    title: "Moons",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Saturn has 83 known moons, 53 of which have formal names. It is estimated that there are another 100±30 outer irregular moons larger than 3 km (2 mi) in diameter. In addition, there is evidence of dozens to hundreds of moonlets with diameters of 40 - 500 meters in Saturn's rings, which are not considered to be true moons. Titan, the largest moon, comprises more than 90% of the mass in orbit around Saturn, including the rings. Saturn's second-largest moon, Rhea, may have a tenuous ring system of its own, along with a tenuous atmosphere.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The moons discovered by Galileo—Io, Europa, Ganymede, and Callisto—aMany of the other moons are small: 34 are less than 10 km in diameter and another 14 between 10 and 50 km in diameter. Traditionally, most of Saturn's moons have been named after Titans of Greek mythology. Titan is the only satellite in the Solar System with a major atmosphere, in which a complex organic chemistry occurs. It is the only satellite with hydrocarbon lakes. Saturn's moon Enceladus, which seems similar in chemical makeup to comets,[108] has often been regarded as a potential habitat for microbial life. Evidence of this possibility includes the satellite's salt-rich particles having an \"ocean-like\" composition that indicates most of Enceladus's expelled ice comes from the evaporation of liquid salt water. A 2015 flyby by Cassini through a plume on Enceladus found most of the ingredients to sustain life forms that live by methanogenesis. In April 2014, NASA scientists reported the possible beginning of a new moon within the A Ring, which was imaged by Cassini on 15 April 2013.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/saturn_moons.jpg",
+                            content_description: "Original caption from NASA: Saturn's Rings (Artist's Concept) This is an artist's concept of Saturn's rings and major icy moons. Saturn's rings make up an enormous, complex structure. From edge-to-edge, the ring system would not even fit in the distance between Earth and the Moon. The seven main rings are labeled in the order in which they were discovered. From the planet outward, they are D, C, B, A, F, G and E."
+                        },    
+                                                   
+                    ]
+                },
+                {
+                    title: "Exploration",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The observation and exploration of Saturn can be divided into three phases. The first phase is ancient observations (such as with the naked eye), before the invention of modern telescopes. The second phase began in the 17th century, with telescopic observations from Earth, which improved over time. The third phase is visitation by space probes, in orbit or on flyby. In the 21st century, telescopic observations continue from Earth (including Earth-orbiting observatories like the Hubble Space Telescope) and, until its 2017 retirement, from the Cassini orbiter around Saturn.",
+                            content_description: null 
+                        }, 
+                        {
+                            content_type: "text",
+                            head: "Pioneer 11 Flyby",
+                            content: "Pioneer 11 made the first flyby of Saturn in September 1979, when it passed within 20,000 km of the planet's cloud tops. Images were taken of the planet and a few of its moons, although their resolution was too low to discern surface detail. The spacecraft also studied Saturn's rings, revealing the thin F-ring and the fact that dark gaps in the rings are bright when viewed at high phase angle (towards the Sun), meaning that they contain fine light-scattering material. In addition, Pioneer 11 measured the temperature of Titan.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Voyager Flybys",
+                            content: "In November 1980, the Voyager 1 probe visited the Saturn system. It sent back the first high-resolution images of the planet, its rings and satellites. Surface features of various moons were seen for the first time. Voyager 1 performed a close flyby of Titan, increasing knowledge of the atmosphere of the moon. Almost a year later, in August 1981, Voyager 2 continued the study of the Saturn system. More close-up images of Saturn's moons were acquired, as well as evidence of changes in the atmosphere and the rings. Unfortunately, during the flyby, the probe's turnable camera platform stuck for a couple of days and some planned imaging was lost. Saturn's gravity was used to direct the spacecraft's trajectory towards Uranus. The probes discovered and confirmed several new satellites orbiting near or within the planet's rings, as well as the small Maxwell Gap (a gap within the C Ring) and Keeler gap (a 42 km-wide gap in the A Ring).",
+                            content_description: null
+                        },  
+                        {
+                            content_type: "text",
+                            head: "Cassini-Huygens Spacecraft",
+                            content: "The Cassini-Huygens space probe entered orbit around Saturn on 1 July 2004. In June 2004, it conducted a close flyby of Phoebe, sending back high-resolution images and data. Cassini's flyby of Saturn's largest moon, Titan, captured radar images of large lakes and their coastlines with numerous islands and mountains. The orbiter completed two Titan flybys before releasing the Huygens probe on 25 December 2004. Huygens descended onto the surface of Titan on 14 January 2005. Starting in early 2005, scientists used Cassini to track lightning on Saturn. The power of the lightning is approximately 1,000 times that of lightning on Earth. In 2006, NASA reported that Cassini had found evidence of liquid water reservoirs no more than tens of meters below the surface that erupt in geysers on Saturn's moon Enceladus.",
+                            content_description: null
+                        },  
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "From 2004 to 2 November 2009, the probe discovered and confirmed eight new satellites. In April 2013 Cassini sent back images of a hurricane at the planet's north pole 20 times larger than those found on Earth, with winds faster than 530 km/h (330 mph). On 15 September 2017, the Cassini-Huygens spacecraft performed the \"Grand Finale\" of its mission: a number of passes through gaps between Saturn and Saturn's inner rings. The atmospheric entry of Cassini ended the mission.",
+                            content_description: null
+                        },  
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/saturn_eclipse.jpg",
+                            content_description: "Saturn eclipsing the sun, seen from behind from the Cassini orbiter. The image is a composite assembled from images taken by the Cassini spacecraft on 15 September, 2006. Individual rings seen include (in order, starting from most distant) E ring Pallene ring (visible very faintly in an arc just below Saturn) G ring Janus/Epimetheus ring (faint) F ring (narrow brightest feature) Main rings (A,B,C) D ring (bluish, nearest Saturn)."
+                        },                                          
+                        {
+                            content_type: "text",
+                            head: "Future Mission",
+                            content: "The continued exploration of Saturn is still considered to be a viable option for NASA as part of their ongoing New Frontiers program of missions. NASA previously requested for plans to be put forward for a mission to Saturn that included the Saturn Atmospheric Entry Probe, and possible investigations into the habitability and possible discovery of life on Saturn's moons Titan and Enceladus by Dragonfly.",
+                            content_description: null
+                        },                                            
+                    ]
+                },
+                {
+                    title: "Watch To Learn More...",
+                    texts: [
+                        {
+                            content_type: "embed_video",
+                            content: "7F_A4gMxsfE",
+                            content_description: "Everything you could want to know about Saturn, the sixth planet from the Sun. Real HD photos and videos taken by the Cassini-Huygens and telescopes like Hubble."
+                        },  
+                    ]
+                }
+            ],
+             summary: [
+                {
+                    head: "Designations",
+                    keyValue: [
+                        {
+                            key: "Named After",
+                            value: "Saturn, Roman god of wealth and agriculture and father of Jupiter."
+                        },
+                        {
+                            key: "Adjectives",
+                            value: "Saturnian, Cronian/Kronian."
+                        },
+                    ]
+                },
+                {
+                    head: "Orbital Characteristics",
+                    keyValue: [
+                        {
+                            key: "Aphelion",
+                            value: "1,514.50 million km (10.1238 AU)"
+                        },
+                        {
+                            key: "Perihelion",
+                            value: "1,352.55 million km (9.0412 AU)"
+                        },
+                        {
+                            key: "Semi-major Axis",
+                            value: "1,433.53 million km (9.5826 AU)"
+                        },
+                        {
+                            key: "Eccentricity",
+                            value: "0.0565"
+                        },
+                        {
+                            key: "Orbital Period (sidereal)",
+                            value: "29.4571 year, 10,759.22 days, 24,491.07 Saturnian solar days"
+                        },
+                        {
+                            key: "Orbital Period (synodic)",
+                            value: "378.09 days"
+                        },
+                        {
+                            key: "Average Orbital Speed",
+                            value: "9.68 km/s (6.01 mi/s)"
+                        },
+                        {
+                            key: "Mean Anomaly",
+                            value: "317.020°"
+                        },
+                        {
+                            key: "Inclination",
+                            value: "2.485° to ecliptic, 5.51° to Sun's equator, 0.93° to invariable plane"
+                        },
+                        {
+                            key: "Longitude of Ascending Node",
+                            value: "113.665°"
+                        },
+                        {
+                            key: "Time of Perihelion",
+                            value: "2032-Nov-29"
+                        },
+                        {
+                            key: "Argument of Perihelion",
+                            value: "339.392°"
+                        },
+                        {
+                            key: "Known Satellites",
+                            value: "83 with formal designations; innumerable additional moonlets."
+                        },
+                    ]
+                },
+                {
+                    head: "Physical Characteristics",  
+                    keyValue: [
+                        {
+                            key: "Mean Radius",
+                            value: "58,232 km (36,184 mi); 9.1402 Earths"
+                        },
+                        {
+                            key: "Equatorial Radius",
+                            value: "60,268 km (37,449 mi); 9.449 Earths"
+                        },
+                        {
+                            key: "Polar Radius",
+                            value: "54,364 km (33,780 mi); 8.552 Earths"
+                        },
+                        {
+                            key: "Flattening",
+                            value: "0.09796"
+                        },
+                        {
+                            key: "Circumference",
+                            value: "365882.4 km equatorial (227348.8 mi)"
+                        },
+                        {
+                            key: "Surface Area",
+                            value: "4.27e10 sq.km (1.65e10 sq.mi); 83.703 Earths"
+                        },
+                        {
+                            key: "Volume",
+                            value: "8.2713e14 cu.km (1.9844e14 cu.mi); 763.59 Earths"
+                        },
+                        {
+                            key: "Mass",
+                            value: "5.6834e26 kg; 95.159 Earths"
+                        },
+                        {
+                            key: "Mean Density",
+                            value: "0.687 g/cm3 (0.0248 lb/cu in) (less than water); 0.1246 Earths"
+                        },
+                        {
+                            key: "Surface Gravity",
+                            value: "10.44 m/s2 (34.3 ft/s2); 1.065 g"
+                        },
+                        {
+                            key: "Moment of Inertia Factor",
+                            value: "0.22"
+                        },
+                        {
+                            key: "Escape Velocity",
+                            value: "35.5 km/s (22.1 mi/s)"
+                        },
+                        {
+                            key: "Synodic Rotation Period",
+                            value: "10h 32m 36s; 10.5433 hours"
+                        },
+                        {
+                            key: "Sidereal Rotation Period",
+                            value: "10h 33m 38s (+1m 52s; -1m 19s)"
+                        },
+                        {
+                            key: "Equatorial Rotation Velocity",
+                            value: "9.87 km/s (6.13 mi/s; 35,500 km/h)"
+                        },
+                        {
+                            key: "Axial Tilt",
+                            value: "26.73° (to orbit)"
+                        },
+                        {
+                            key: "North Pole Right Ascension",
+                            value: "40.589°; 2h 42m 21s"
+                        },
+                        {
+                            key: "North Pole Declination",
+                            value: "83.537°"
+                        },
+                        {
+                            key: "Albedo",
+                            value: "0.342 (Bond); 0.499 (geometric)"
+                        },
+                        {
+                            key: "Minimum Surface Temp.",
+                            value: "88 K (0.1 bar)"
+                        },
+                        {
+                            key: "Mean Surface Temp.",
+                            value: "134 K (1 bar); 97 K (0.1 bar)"
+                        },
+                        {
+                            key: "Maximum Surface Temp.",
+                            value: "151 K (0.1 bar)"
+                        },
+                        {
+                            key: "Apparent Magnitude",
+                            value: "-0.55 to +1.17"
+                        },
+                        {
+                            key: "Angular Diameter",
+                            value: "14.5″ to 20.1″ (excludes rings)"
+                        },
+                    ]
+                },
+                {
+                    head: "Atmosphere",  
+                    keyValue: [
+                        {
+                            key: "Surface Pressure",
+                            value: "140 kPa"
+                        },
+                        {
+                            key: "Scale Height",
+                            value: "59.5 km (37.0 mi)"
+                        },
+                        {
+                            key: "Composition by Volume",
+                            value: "96.3% ± 2.4% hydrogen, 3.25% ± 2.4% helium, 0.45% ± 0.2% methane, 0.0125% ± 0.0075% ammonia, 0.0110% ± 0.0058% hydrogen deuteride, 0.0007% ± 0.00015% ethane, Icy volatiles: ammonia water, ice ammonium hydrosulfide."
+                        },
+    
+                    ]
+                },
+            ],
+            dateUpdate: "2023-05-01"
+        },
+        uranus: {
+            name: "Uranus",
+            baseImgUrl: "/uranus_poster_A.jpg",
+            baseText: "Uranus",
+            subText: "Uranus, seventh planet from the Sun, rotates at a nearly 90-degree angle from the plane of its orbit. This unique tilt makes Uranus appear to spin on its side.",
+            next: {
+                key: "Neptune",
+                value: "/planets/neptune"
+            },
+            prev: {
+                key: "Saturn",
+                value: "/planets/saturn"
+            },
+            subdata: [
+                {
+                    key: "Distance From Sun",
+                    value: "1,783,939,400 miles"
+                },
+                {
+                    key: "One Way Light Time From Sun",
+                    value: "2h 40m"
+                },
+                {
+                    key: "Length Of Year",
+                    value: "30,687 Earth Days"
+                },
+                {
+                    key: "Satellites Count",
+                    value: "27"
+                },
+            ],
+            overview: {
+                name: "Uranus",
+                topBox: null,
+                paragraphs: [
+                    "Uranus is the seventh planet from the Sun, and has the third-largest diameter in our solar system. It was the first planet found with the aid of a telescope, Uranus was discovered in 1781 by astronomer William Herschel, although he originally thought it was either a comet or a star.",
+                    "It was two years later that the object was universally accepted as a new planet, in part because of observations by astronomer Johann Elert Bode. Herschel tried unsuccessfully to name his discovery Georgium Sidus after King George III. Instead, the scientific community accepted Bode's suggestion to name it Uranus, the Greek god of the sky, as suggested by Bode.", "As with gas giants, ice giants lack a well-defined solid surface. Uranus's atmosphere is similar to Jupiter's and Saturn's in its primary composition of hydrogen and helium, but it contains more 'ices' such as water, ammonia, and methane, along with traces of other hydrocarbons. It has the coldest planetary atmosphere in the Solar System, with a minimum temperature of 49 kelvins (-224 °C; -371 °F)."
+                ],
+                iframeLink: {
+                    type: "iframe",
+                    content: "https://eyes.nasa.gov/apps/solar-system/#/uranus?embed=true&amp;logo=false" ,
+                    content_description: ""
+                },
+                facts_12: [
+                    {
+                        headText: "BIG PLANET",
+                        text: "Uranus is about four times wider than Earth. If Earth were a large apple, Uranus would be the size of a basketball."
+                    },
+                    {
+                        headText: "SEVENTH WANDERER",
+                        text: "Uranus orbits our Sun, a star, and is the seventh planet from the Sun at a distance of about 1.8 billion miles (2.9 billion kilometers)."
+                    },
+                    {
+                        headText: "SHORT-ISH DAY, LONGISH YEAR",
+                        text: "Uranus takes about 17 hours to rotate once (a Uranian day), and about 84 Earth years to complete an orbit of the Sun (a Uranian year)."
+                    },
+                    {
+                        headText: "VARIABLE WINDS",
+                        text: "Uranus has some of the strongest winds in the solar system, reaching speeds of up to 560 miles (900 kilometers) per hour."
+                    },
+                    {
+                        headText: "FAINT RINGS",
+                        text: "Uranus has 13 known rings. The inner rings are narrow and dark and the outer rings are brightly colored.They are difficult to see from Earth."
+                    },
+                    {
+                        headText: "TILT 'N' SPIN",
+                        text: "Like Venus, Uranus rotates east to west. But Uranus is unique in that it rotates on its side.  Due to its extreme axial tilt, Uranus experiences extreme seasons. Its poles receive more sunlight than its equator."
+                    },
+                    {
+                        headText: "FOUND BY MISTAKE",
+                        text: "Uranus was discovered in 1781 by British astronomer William Herschel, who was actually searching for comets. It was named after the Greek god of the sky, Uranus, who was also the father of Saturn."
+                    },
+                    {
+                        headText: "ICE GIANT",
+                        text: "Uranus is an ice giant. Most of its mass is a hot, dense fluid of 'icy' materials; water, methane and ammonia above a small rocky core."
+                    },
+                    {
+                        headText: "BEAUTY BLUE",
+                        text: "Uranus has a thick atmosphere of mostly hydrogen and helium with a significant amount of methane gas. It appears blue-green in color due to the presence of methane gas in its atmosphere."
+                    },
+                    {
+                        headText: "LIFELESS GIANT",
+                        text: "Uranus cannot support life as we know it."
+                    },
+                    {
+                        headText: "COSMIC COMPANIONS",
+                        text: "Uranus has 27 known moons, and they are named after characters from the works of William Shakespeare and Alexander Pope. The five largest are Miranda, Ariel, Umbriel, Titania, and Oberon."
+                    },
+                    {
+                        headText: "RARE DESTINATION",
+                        text: "Voyager 2 is the only spacecraft to fly by Uranus. No spacecraft has orbited this distant planet to study it at length and up close. Must be a bit lonely out there." 
+                    },
+                ]
+            },
+            inDepth: [
+                {
+                    title: "Introduction",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Uranus is the seventh planet from the Sun. It is named after Greek sky deity Uranus (Caelus), who in Greek mythology is the father of Cronus (Saturn), a grandfather of Zeus (Jupiter) and great-grandfather of Ares (Mars). Uranus has the third-largest planetary radius and fourth-largest planetary mass in the Solar System. The planet is similar in composition to Neptune, and both have bulk chemical compositions which differ from those of the other two giant planets, Jupiter and Saturn (the gas giants). For this reason, scientists often distinguish Uranus and Neptune as \"ice giants\". As with gas giants, ice giants lack a well-defined solid surface. Uranus's atmosphere is similar to Jupiter's and Saturn's in its primary composition of hydrogen and helium, but it contains more \"ices\" such as water, ammonia, and methane, along with traces of other hydrocarbons.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/uranusXearth.jpg",
+                            content_description: "Diameter comparison of Uranus and Earth. Approximate scale is 90 km/px."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "It has the coldest planetary atmosphere in the Solar System, with a minimum temperature of 49 kelvins (-224 °C; -371 °F). It has a complex, layered cloud structure; water is thought to make up the lowest clouds and methane the uppermost layer. The planet's interior is mainly composed of ices and rock. Like the other giant planets, Uranus has a ring system, a magnetosphere, and numerous moons. The Uranian system has a unique configuration because its axis of rotation is tilted sideways, nearly into the plane of its solar orbit. Therefore, its north and south poles lie where most other planets have their equators. In 1986, images from Voyager 2 showed Uranus as an almost featureless planet in visible light, without the cloud bands or storms associated with the other giant planets. No other spacecraft has yet visited the planet. Observations from Earth have shown seasonal change and increased weather activity as Uranus approached its equinox in 2007, and, based on images by the Hubble Space Telescope, other such changes as well in 2023. Wind speeds can reach 250 metres per second (900 km/h; 560 mph).",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Nomenclature And Mythology",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The name of Uranus references the ancient Greek deity of the sky Ouranos (Ancient Greek: Οὐρανός), known as Caelus in Roman mythology, the father of Cronus (Saturn) and grandfather of Zeus (Jupiter), which was rendered as Uranus in Latin. It is the only one of the eight planets whose English name derives from a figure of Greek mythology. The adjectival form of Uranus is \"Uranian\".",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Uranus has two astronomical symbols. The first to be proposed, ⛢, was proposed by Johann Gottfried Köhler at Bode's request in 1782. Köhler suggested that the new planet be given the symbol for platinum, which had been described scientifically only 30 years before. As there was no alchemical symbol for platinum, he suggested ⛢, a combination of the planetary-metal symbols ☉ (gold) and ♂ (iron), as platinum (or 'white gold') is found mixed with iron. Bode thought that an upright orientation, ⛢, fit better with the symbols for the other planets while remaining distinct. This symbol predominates in modern astronomical use in the rare cases that symbols are used at all.The second symbol, ♅, was suggested by Lalande in 1784. In a letter to Herschel, Lalande described it as \"un globe surmonté par la première lettre de votre nom\" (\"a globe surmounted by the first letter of your surname\"). The second symbol is nearly universal in astrology.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Uranus is called by a variety of names in other languages. In Chinese, Japanese, Korean, and Vietnamese, its name is literally translated as the \"sky king star\" (天王星). In Thai, its official name is Dao Yurenat (ดาวยูเรนัส), as in English. Its other name in Thai is Dao Maruettayu (ดาวมฤตยู, Star of Mṛtyu), after the Sanskrit word for 'death', Mrtyu (मृत्यु). In Mongolian, its name is Tengeriin Van (Тэнгэрийн ван), translated as 'King of the Sky', reflecting its namesake god's role as the ruler of the heavens. In Hawaiian, its name is Hele'ekala, the Hawaiian rendering of the name 'Herschel'. In Māori, its name is Whērangi.",
+                            content_description: null
+                        },
+                    ]
+                },
+                { 
+                    title: "Physical Characteristics",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: "Internal Structure",
+                            content: "Uranus's mass is roughly 14.5 times that of Earth, making it the least massive of the giant planets. Its diameter is slightly larger than Neptune's at roughly four times that of Earth. A resulting density of 1.27 g/cu.cm makes Uranus the second least dense planet, after Saturn. This value indicates that it is made primarily of various ices, such as water, ammonia, and methane.  Hydrogen and helium constitute only a small part of the total, with between 0.5 and 1.5 Earth masses. The remainder of the non-ice mass (0.5 to 3.7 Earth masses) is accounted for by rocky material.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The standard model of Uranus's structure is that it consists of three layers: a rocky (silicate/iron-nickel) core in the centre, an icy mantle in the middle and an outer gaseous hydrogen/helium envelope. The core is relatively small, with a mass of only 0.55 Earth masses and a radius less than 20% of Uranus'; the mantle comprises its bulk, with around 13.4 Earth masses, and the upper atmosphere is relatively insubstantial, weighing about 0.5 Earth masses and extending for the last 20% of Uranus's radius. Uranus's core density is around 9 g/cm3, with a pressure in the centre of 8 million bars (800 GPa) and a temperature of about 5000 K. The ice mantle is not in fact composed of ice in the conventional sense, but of a hot and dense fluid consisting of water, ammonia and other volatiles. This fluid, which has a high electrical conductivity, is sometimes called a water-ammonia ocean.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/uranus_internal_structure.png",
+                            content_description: "Diagram of the interior of Uranus."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The extreme pressure and temperature deep within Uranus may break up the methane molecules, with the carbon atoms condensing into crystals of diamond that rain down through the mantle like hailstones. The bulk compositions of Uranus and Neptune are different from those of Jupiter and Saturn, with ice dominating over gases, hence justifying their separate classification as ice giants.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Atmosphere",
+                            content: "Although there is no well-defined solid surface within Uranus's interior, the outermost part of Uranus's gaseous envelope that is accessible to remote sensing is called its atmosphere. Remote-sensing capability extends down to roughly 300 km below the 1 bar (100 kPa) level, with a corresponding pressure around 100 bar (10 MPa) and temperature of 320 K (47 °C; 116 °F). The tenuous thermosphere extends over two planetary radii from the nominal surface, which is defined to lie at a pressure of 1 bar. The Uranian atmosphere can be divided into three layers: the troposphere, between altitudes of -300 and 50 km (-186 and 31 mi) and pressures from 100 to 0.1 bar (10 MPa to 10 kPa); the stratosphere, spanning altitudes between 50 and 4,000 km (31 and 2,485 mi) and pressures of between 0.1 and 10-10 bar (10 kPa to 10 µPa); and the thermosphere extending from 4,000 km to as high as 50,000 km from the surface. There is no mesosphere.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The composition of Uranus's atmosphere is different from its bulk, consisting mainly of molecular hydrogen and helium. The helium molar fraction, i.e. the number of helium atoms per molecule of gas, is 0.15 ± 0.03 in the upper troposphere, which corresponds to a mass fraction 0.26 ± 0.05. This value is close to the protosolar helium mass fraction of 0.275 ± 0.01, indicating that helium has not settled in its centre as it has in the gas giants. The third-most-abundant component of Uranus's atmosphere is methane (2.3%). Methane has prominent absorption bands in the visible and near-infrared (IR), making Uranus aquamarine or cyan in colour. The abundances of less volatile compounds such as ammonia, water, and hydrogen sulfide in the deep atmosphere are poorly known. They are probably also higher than solar values. Along with methane, trace amounts of various hydrocarbons are found in the stratosphere of Uranus, which are thought to be produced from methane by photolysis induced by the solar ultraviolet (UV) radiation. They include ethane, acetylene, methylacetylene, and diacetylene. Spectroscopy has also uncovered traces of water vapour, carbon monoxide and carbon dioxide in the upper atmosphere, which can only originate from an external source such as infalling dust and comets.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/uranus_atmosphere_rings.png",
+                            content_description: "The infrared image features dramatic rings as well as bright features in the planet's atmosphere. The James Webb Space Telescope's data demonstrates the observatory's unprecedented sensitivity for the faintest dusty rings, which have only ever been imaged by two other facilities: the Voyager 2 spacecraft as it flew past the planet in 1986, and the Keck Observatory with advanced adaptive optics."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The Uranian thermosphere, together with the upper part of the stratosphere, corresponds to the ionosphere of Uranus. Observations show that the ionosphere occupies altitudes from 2,000 to 10,000 km (1,200 to 6,200 mi). The Uranian ionosphere is denser than that of either Saturn or Neptune, which may arise from the low concentration of hydrocarbons in the stratosphere. The ionosphere is mainly sustained by solar UV radiation and its density depends on the solar activity. Auroral activity is insignificant as compared to Jupiter and Saturn.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Magnetosphere",
+                            content: "Before the arrival of Voyager 2, no measurements of the Uranian magnetosphere had been taken, so its nature remained a mystery. Before 1986, scientists had expected the magnetic field of Uranus to be in line with the solar wind, because it would then align with Uranus's poles that lie in the ecliptic. Voyager's observations revealed that Uranus's magnetic field is peculiar, both because it does not originate from its geometric centre, and because it is tilted at 59° from the axis of rotation. In fact the magnetic dipole is shifted from Uranus's centre towards the south rotational pole by as much as one third of the planetary radius. This unusual geometry results in a highly asymmetric magnetosphere, where the magnetic field strength on the surface in the southern hemisphere can be as low as 0.1 gauss (10 µT), whereas in the northern hemisphere it can be as high as 1.1 gauss (110 µT). The average field at the surface is 0.23 gauss (23 µT).",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Despite its curious alignment, in other respects the Uranian magnetosphere is like those of other planets: it has a bow shock at about 23 Uranian radii ahead of it, a magnetopause at 18 Uranian radii, a fully developed magnetotail, and radiation belts. Overall, the structure of Uranus's magnetosphere is different from Jupiter's and more similar to Saturn's. Uranus's magnetotail trails behind it into space for millions of kilometres and is twisted by its sideways rotation into a long corkscrew.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/uranus_magnetosphere.gif",
+                            content_description: "An animated GIF showing Uranus' magnetic field. The yellow arrow points to the Sun, the light blue arrow marks Uranus' magnetic axis, and the dark blue arrow marks Uranus' rotation axis."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Uranus's magnetosphere contains charged particles: mainly protons and electrons, with a small amount of H2+ ions. Many of these particles probably derive from the thermosphere. The ion and electron energies can be as high as 4 and 1.2 megaelectronvolts, respectively. The density of low-energy (below 1 kiloelectronvolt) ions in the inner magnetosphere is about 2 cm^-3. The particle population is strongly affected by the Uranian moons, which sweep through the magnetosphere, leaving noticeable gaps. The particle flux is high enough to cause darkening or space weathering of their surfaces on an astronomically rapid timescale of 100,000 years. This may be the cause of the uniformly dark colouration of the Uranian satellites and rings. Uranus has relatively well developed aurorae, which are seen as bright arcs around both magnetic poles. Unlike Jupiter's, Uranus's aurorae seem to be insignificant for the energy balance of the planetary thermosphere. In March 2020, NASA astronomers reported the detection of a large atmospheric magnetic bubble, also known as a plasmoid, released into outer space from the planet Uranus, after reevaluating old data recorded by the Voyager 2 space probe during a flyby of the planet in 1986.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Planetary Rings",
+                            content: "The Uranian rings are composed of extremely dark particles, which vary in size from micrometres to a fraction of a metre. Thirteen distinct rings are presently known, the brightest being the ε ring. All except two rings of Uranus are extremely narrow, they are usually a few kilometres wide. The rings are probably quite young; the dynamics considerations indicate that they did not form with Uranus. The matter in the rings may once have been part of a moon (or moons) that was shattered by high-speed impacts. From numerous pieces of debris that formed as a result of those impacts, only a few particles survived, in stable zones corresponding to the locations of the present rings.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/uranus_rings.jpg",
+                            content_description: "Uranus in 2005. Rings, southern collar and a bright cloud in the northern hemisphere are visible (HST ACS image)."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In December 2005, the Hubble Space Telescope detected a pair of previously unknown rings. The largest is located twice as far from Uranus as the previously known rings. These new rings are so far from Uranus that they are called the \"outer\" ring system. Hubble also spotted two small satellites, one of which, Mab, shares its orbit with the outermost newly discovered ring. The new rings bring the total number of Uranian rings to 13. In April 2006, images of the new rings from the Keck Observatory yielded the colours of the outer rings: the outermost is blue and the other one red. One hypothesis concerning the outer ring's blue colour is that it is composed of minute particles of water ice from the surface of Mab that are small enough to scatter blue light. In contrast, Uranus's inner rings appear grey.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Orbit & Rotation",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Uranus orbits the Sun once every 84 years. In 2033, the planet will have made its third complete orbit around the Sun since being discovered in 1781. The planet has returned to the point of its discovery northeast of Zeta Tauri twice since then, on 25 March 1865 and 29 March 1949. Uranus will return to this location again on 3 April 2033. Its average distance from the Sun is roughly 20 AU (3 billion km; 2 billion mi). The difference between its minimum and maximum distance from the Sun is 1.8 AU, larger than that of any other planet, though not as large as that of dwarf planet Pluto. The intensity of sunlight varies inversely with the square of distance, and so on Uranus (at about 20 times the distance from the Sun compared to Earth) it is about 1/400 the intensity of light on Earth. The rotational period of the interior of Uranus is 17 hours, 14 minutes. As on all the giant planets, its upper atmosphere experiences strong winds in the direction of rotation. At some latitudes, such as about 60 degrees south, visible features of the atmosphere move much faster, making a full rotation in as little as 14 hours.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/uranus_rotation.gif",
+                            content_description: "Simulated Earth view of Uranus from 1986 to 2030, from southern summer solstice in 1986 to equinox in 2007 and northern summer solstice in 2028."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Axial Tilt",
+                            content: "The Uranian axis of rotation is approximately parallel with the plane of the Solar System, with an axial tilt of 97.77° (as defined by prograde rotation). This gives it seasonal changes completely unlike those of the other planets. Near the solstice, one pole faces the Sun continuously and the other faces away, with only a narrow strip around the equator experiencing a rapid day-night cycle, with the Sun low over the horizon. At the other side of Uranus's orbit the orientation of the poles towards the Sun is reversed. Each pole gets around 42 years of continuous sunlight, followed by 42 years of darkness. Near the time of the equinoxes, the Sun faces the equator of Uranus giving a period of day-night cycles similar to those seen on most of the other planets. The reason for Uranus's unusual axial tilt is also not known with certainty, but the usual speculation is that during the formation of the Solar System, an Earth-sized protoplanet collided with Uranus, causing the skewed orientation.",
+                            content_description: null
+                        },                    
+                    ]
+                },
+                {
+                    title: "Moons",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Uranus has 27 known natural satellites. The names of these satellites are chosen from characters in the works of Shakespeare and Alexander Pope. The five main satellites are Miranda, Ariel, Umbriel, Titania, and Oberon. The Uranian satellite system is the least massive among those of the giant planets; the combined mass of the five major satellites would be less than half that of Triton (largest moon of Neptune) alone. The largest of Uranus's satellites, Titania, has a radius of only 788.9 km (490.2 mi), or less than half that of the Moon, but slightly more than Rhea, the second-largest satellite of Saturn, making Titania the eighth-largest moon in the Solar System. Uranus's satellites have relatively low albedos; ranging from 0.20 for Umbriel to 0.35 for Ariel (in green light). They are ice-rock conglomerates composed of roughly 50% ice and 50% rock.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/uranus_moons.png",
+                            content_description: "Major moons of Uranus in order of increasing distance (left to right), at their proper relative sizes and albedos (collage of Voyager 2 photographs)."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The moons discovered by Galileo—Io, Europa, Ganymede, and Callisto—aMany of the other moons are small: 34 are less than 10 km in diameter and another 14 between 10 and 50 km in diameter. Traditionally, most of Saturn's moons have been named after Titans of Greek mythology. Titan is the only satellite in the Solar System with a major atmosphere, in which a complex organic chemistry occurs. It is the only satellite with hydrocarbon lakes. Saturn's moon Enceladus, which seems similar in chemical makeup to comets, has often been regarded as a potential habitat for microbial life. Evidence of this possibility includes the satellite's salt-rich particles having an \"ocean-like\" composition that indicates most of Enceladus's expelled ice comes from the evaporation of liquid salt water. A 2015 flyby by Cassini through a plume on Enceladus found most of the ingredients to sustain life forms that live by methanogenesis. In April 2014, NASA scientists reported the possible beginning of a new moon within the A Ring, which was imaged by Cassini on 15 April 2013.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Uranus has at least one horseshoe orbiter occupying the Sun-Uranus L3 Lagrangian point—a gravitationally unstable region at 180° in its orbit, 83982 Crantor. Crantor moves inside Uranus's co-orbital region on a complex, temporary horseshoe orbit. 2010 EU65 is also a promising Uranus horseshoe librator candidate.",
+                            content_description: null
+                        },
+                            
+                                                   
+                    ]
+                },
+                {
+                    title: "Exploration",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In 1986, NASA's Voyager 2 interplanetary probe encountered Uranus. This flyby remains the only investigation of Uranus carried out from a short distance and no other visits are planned. Voyager 1 was unable to visit Uranus because investigation of Saturn's moon Titan was considered a priority. This trajectory took Voyager 1 out of the plane of the ecliptic, ending its planetary science mission. Launched in 1977, Voyager 2 made its closest approach to Uranus on 24 January 1986, coming within 81,500 km (50,600 mi) of the cloudtops, before continuing its journey to Neptune. The spacecraft studied the structure and chemical composition of Uranus's atmosphere, including its unique weather, caused by its axial tilt of 97.77°. It made the first detailed investigations of its five largest moons and discovered 10 new ones. Voyager 2 examined all nine of the system's known rings and discovered two more. It also studied the magnetic field, its irregular structure, its tilt and its unique corkscrew magnetotail caused by Uranus's sideways orientation.",
+                            content_description: null 
+                        },                                         
+                        {
+                            content_type: "text",
+                            head: "Future Mission",
+                            content: "A Uranus orbiter and probe was recommended by the 2013 - 2022 Planetary Science Decadal Survey published in 2011; the proposal envisages launch during 2020 - 2023 and a 13-year cruise to Uranus. A Uranus entry probe could use Pioneer Venus Multiprobe heritage and descend to 1 - 5 atmospheres. The ESA evaluated a \"medium-class\" mission called Uranus Pathfinder. A New Frontiers Uranus Orbiter has been evaluated and recommended in the study, The Case for a Uranus Orbiter. Such a mission is aided by the ease with which a relatively big mass can be sent to the system, over 1500 kg with an Atlas 521 and 12-year journey. In April, 2022, the next Planetary Science Decadal Survey placed its highest priority for the next \"flagship\" project on a full package mission (orbiter and probe) to Uranus, with a projected launch window starting in 2031. The \"dearth\" of ice giant science was key to its prioritization. Another key issue was that such a mission would use extant technology, and not require development of other instruments and systems to be successful.",
+                            content_description: null
+                        },                                            
+                    ]
+                },
+                {
+                    title: "Watch To Learn More...",
+                    texts: [
+                        {
+                            content_type: "embed_video",
+                            content: "tCmC0XOKO5Q",
+                            content_description: "Almost everything you could want to know about the 7th planet from the Sun, Uranus."
+                        },  
+                    ]
+                }
+            ],
+             summary: [
+                {
+                    head: "Discovery",
+                    keyValue: [
+                        {
+                            key: "Discovered By",
+                            value: "William Herschel"
+                        },
+                        {
+                            key: "Discovery Date",
+                            value: "13 March 1781"
+                        },
+                    ]
+                },
+                {
+                    head: "Designations",
+                    keyValue: [
+                        {
+                            key: "Named After",
+                            value: "The Latin form Ūranus of the Greek god Οὐρανός Ouranos."
+                        },
+                        {
+                            key: "Adjectives",
+                            value: "Uranian"
+                        },
+                    ]
+                },
+                {
+                    head: "Orbital Characteristics",
+                    keyValue: [
+                        {
+                            key: "Aphelion",
+                            value: "20.0965 AU (3006.39 Gm)"
+                        },
+                        {
+                            key: "Perihelion",
+                            value: "18.2861 AU (2735.56 Gm)"
+                        },
+                        {
+                            key: "Semi-major Axis",
+                            value: "19.19126 AU (2870.972 Gm)"
+                        },
+                        {
+                            key: "Eccentricity",
+                            value: "0.04717"
+                        },
+                        {
+                            key: "Orbital Period (sidereal)",
+                            value: "84.0205 yr; 30,688.5 days; 42,718 Uranian solar days"
+                        },
+                        {
+                            key: "Orbital Period (synodic)",
+                            value: "369.66 days"
+                        },
+                        {
+                            key: "Average Orbital Speed",
+                            value: "6.80 km/s"
+                        },
+                        {
+                            key: "Mean Anomaly",
+                            value: "142.238600°"
+                        },
+                        {
+                            key: "Inclination",
+                            value: "0.773° to ecliptic; 6.48° to Sun's equator; 0.99° to invariable plane"
+                        },
+                        {
+                            key: "Longitude of Ascending Node",
+                            value: "74.006°"
+                        },
+                        {
+                            key: "Time of Perihelion",
+                            value: "17-19 August 2050"
+                        },
+                        {
+                            key: "Argument of Perihelion",
+                            value: "96.998857°"
+                        },
+                        {
+                            key: "Known Satellites",
+                            value: "27"
+                        },
+                    ]
+                },
+                {
+                    head: "Physical Characteristics",  
+                    keyValue: [
+                        {
+                            key: "Mean Radius",
+                            value: "25,362 ± 7km"
+                        },
+                        {
+                            key: "Equatorial Radius",
+                            value: "25,559 ± 4km; 4.007 Earths"
+                        },
+                        {
+                            key: "Polar Radius",
+                            value: "24,973 ± 20km; 3.929 Earths"
+                        },
+                        {
+                            key: "Flattening",
+                            value: "0.0229 ± 0.0008"
+                        },
+                        {
+                            key: "Circumference",
+                            value: "159,354.1 km"
+                        },
+                        {
+                            key: "Surface Area",
+                            value: "8.1156e9 sq.km; 15.91 Earths"
+                        },
+                        {
+                            key: "Volume",
+                            value: "6.833e13 cu.km; 63.086 Earths"
+                        },
+                        {
+                            key: "Mass",
+                            value: "(8.6810 ± 0.0013)e25 kg; 14.536 Earths; GM=5,793,939 ± 13 cu.km/sq.s"
+                        },
+                        {
+                            key: "Mean Density",
+                            value: "1.27 g/cu.cm"
+                        },
+                        {
+                            key: "Surface Gravity",
+                            value: "8.69 m/sq.s; 0.886 g"
+                        },
+                        {
+                            key: "Moment of Inertia Factor",
+                            value: "0.23"
+                        },
+                        {
+                            key: "Escape Velocity",
+                            value: "21.3 km/s"
+                        },
+                        {
+                            key: "Synodic Rotation Period",
+                            value: "-0.71832 days; -17h 14m 23s (retrograde)"
+                        },
+                        {
+                            key: "Sidereal Rotation Period",
+                            value: "-0.71833 days; -17h 14min 24s (retrograde)"
+                        },
+                        {
+                            key: "Equatorial Rotation Velocity",
+                            value: "2.59 km/s; 9,320 km/h"
+                        },
+                        {
+                            key: "Axial Tilt",
+                            value: "97.77° (to orbit)"
+                        },
+                        {
+                            key: "North Pole Right Ascension",
+                            value: "17h 9m 15s; 257.311°"
+                        },
+                        {
+                            key: "North Pole Declination",
+                            value: "-15.175°"
+                        },
+                        {
+                            key: "Albedo",
+                            value: "0.300 (Bond); 0.488 (geometric)"
+                        },
+                        {
+                            key: "Minimum Surface Temp.",
+                            value: "47 K (0.1 bar (tropopause))"
+                        },
+                        {
+                            key: "Mean Surface Temp.",
+                            value: "76 K/-197.2 °C (1 bar level); 53 K (0.1 bar (tropopause))"
+                        },
+                        {
+                            key: "Maximum Surface Temp.",
+                            value: "57 K (0.1 bar (tropopause))"
+                        },
+                        {
+                            key: "Apparent Magnitude",
+                            value: "5.38 to 6.03"
+                        },
+                        {
+                            key: "Angular Diameter",
+                            value: "3.3″ to 4.1″"
+                        },
+                    ]
+                },
+                {
+                    head: "Atmosphere",  
+                    keyValue: [
+                        {
+                            key: "Scale height",
+                            value: "27.7 km"
+                        },
+                        {
+                            key: "Composition by Volume",
+                            value: "Below 1.3 bar (130 kPa): 83 ± 3% hydrogen, 15 ± 3% helium, 2.3% methane, 0.009% (0.007 - 0.015%) hydrogen deuteride, hydrogen sulfide (trace amount). Icy volatiles: ammoniawater iceammonium, hydrosulfidemethane hydrate."
+                        },
+    
+                    ]
+                },
+            ],
+            dateUpdate: "2023-05-02"
+        },
+        neptune: {
+            name: "Neptune",
+            baseImgUrl: "/neptune_poster_A.jpg",
+            baseText: "Neptune",
+            subText: "Neptune, the eighth and most distant major planet orbiting our Sun is dark, cold and whipped by supersonic winds sweeping accross the planets at speed up to 1,200mph. It was the first planet located through mathematical calculations.",
+            next: {
+                key: "Dwarf Planets",
+                value: "/dwarf_planets"
+            },
+            prev: {
+                key: "Uranus",
+                value: "/planets/uranus"
+            },
+            subdata: [
+                {
+                    key: "Distance From Sun",
+                    value: "2,795,084,800 miles"
+                },
+                {
+                    key: "One Way Light Time From Sun",
+                    value: "4 hours"
+                },
+                {
+                    key: "Length Of Year",
+                    value: "60,190 Earth Days"
+                },
+                {
+                    key: "Satellites Count",
+                    value: "14"
+                },
+            ],
+            overview: {
+                name: "Neptune",
+                topBox: {
+                    headText: "THE GREAT DARK SPOT",
+                    text: "The Great Dark Spot (also known as GDS-89, for Great Dark Spot, 1989) was one of a series of dark spots on Neptune similar in appearance to Jupiter's Great Red Spot. In 1989, GDS-89 was the first Great Dark Spot on Neptune to be observed by NASA's Voyager 2 space probe. Like Jupiter's spot, Great Dark Spots are anticyclonic storms. Unlike Jupiter's spot, which has lasted for hundreds of years, their lifetimes appear to be shorter, forming and dissipating once every few years or so."
+                },
+                paragraphs: [
+                    "More than 30 times as far from the Sun as Earth, Neptune is the only planet in our solar system not visible to the naked eye and the first predicted by mathematics before its discovery. In 2011 Neptune completed its first 165-year orbit since its discovery in 1846.", "It is the fourth-largest planet in the Solar System by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, and slightly more massive than its near-twin Uranus. The planet orbits the Sun once every 164.8 years at an average distance of 30.1 astronomical units (4.5 billion kilometres; 2.8 billion miles). It is named after the Roman god of the sea and has the astronomical symbol ♆, representing Neptune's trident.", "Neptune is not visible to the unaided eye and is the only planet in the Solar System found by mathematical prediction rather than by empirical observation. Unexpected changes in the orbit of Uranus led Alexis Bouvard to hypothesise that its orbit was subject to gravitational perturbation by an unknown planet. After Bouvard's death, the position of Neptune was predicted from his observations, independently, by John Couch Adams and Urbain Le Verrier.", "NASA's Voyager 2 is the only spacecraft to have visited Neptune up close. It flew past in 1989 on its way out of the solar system.",
+                ],
+                iframeLink: {
+                    type: "iframe",
+                    content: "https://eyes.nasa.gov/apps/solar-system/#/neptune?embed=true&amp;logo=false" ,
+                    content_description: ""
+                },
+                facts_12: [
+                    {
+                        headText: "ANOTHER BIG ONE",
+                        text: "Neptune is about four times wider than Earth. If Earth were a large apple, Neptune would be the size of a basketball."
+                    },
+                    {
+                        headText: "EIGHT WANDERER",
+                        text: "Neptune orbits our Sun, a star, and is the eighth planet from the Sun at a distance of about 2.8 billion miles (4.5 billion kilometers)."
+                    },
+                    {
+                        headText: "SHORT DAY, LONG YEAR",
+                        text: "Neptune takes about 16 hours to rotate once (a Neptunian day), and about 165 Earth years to orbit the sun (a Neptunian year)."
+                    },
+                    {
+                        headText: "SUPER WINDS",
+                        text: "The wind speeds on Neptune are the highest in the solar system, with winds that can reach over 1,200 miles per hour."
+                    },
+                    {
+                        headText: "FAINT RINGS",
+                        text: "Neptune has at least five main rings and four more ring arcs, which are clumps of dust and debris likely formed by the gravity of a nearby moon."
+                    },
+                    {
+                        headText: "ACTIVE ATMOSPHERE",
+                        text: "Neptune has a very active weather system, with large storms and a \"Great Dark Spot\" that was visible in the 1980s. It also has a very strong magnetic field, about 27 times stronger than Earth's."
+                    },
+                    {
+                        headText: "FOUND BY MATH",
+                        text: "Neptune was the first planet to be discovered by mathematical prediction, rather than by observation. Unexpected changes in the orbit of Uranus led Alexis Bouvard to hypothesise that its orbit was subject to gravitational perturbation by an unknown planet. This hypothesis led to the discovery of Neptune. "
+                    },
+                    {
+                        headText: "ICE GIANT",
+                        text: "Neptune is an ice giant. Most of its mass is a hot, dense fluid of \"icy\" materials; water, methane and ammonia above a small rocky core."
+                    },
+                    {
+                        headText: "BEAUTY BLUE",
+                        text: "At high altitudes, Neptune's atmosphere is 80% hydrogen and 19% helium. A trace amount of methane is also present. Neptune's blue color is due to the absorption of red light by the methane in its atmosphere."
+                    },
+                    {
+                        headText: "LIFELESS GIANT",
+                        text: "Neptune cannot support life as we know it."
+                    },
+                    {
+                        headText: "COSMIC COMPANIONS",
+                        text: "Neptune has 14 known moons which are named after sea gods and nymphs in Greek mythology. The largest of which is Triton."
+                    },
+                    {
+                        headText: "A SINGLE VISIT",
+                        text: "Voyager 2 is the only spacecraft to have visited Neptune. No spacecraft has orbited this distant planet to study it at length and up close." 
+                    },
+                ]
+            },
+            inDepth: [
+                {
+                    title: "Introduction",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Neptune is the eighth planet from the Sun and the farthest known planet in the Solar System. It is the fourth-largest planet in the Solar System by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, and slightly more massive than its near-twin Uranus. Neptune is denser and physically smaller than Uranus because its greater mass causes more gravitational compression of its atmosphere. Being composed primarily of gases and liquids, it has no well-defined solid surface. The planet orbits the Sun once every 164.8 years at an average distance of 30.1 astronomical units (4.5 billion kilometres; 2.8 billion miles).",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/neptuneXearth.jpg",
+                            content_description: "Diameter comparison of Neptune and Earth. The two images linked below were combined to create a new size comparison of Neptune and Earth, using a close to true-color image of Neptune."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Neptune is not visible to the unaided eye and is the only planet in the Solar System found by mathematical prediction rather than by empirical observation. Unexpected changes in the orbit of Uranus led Alexis Bouvard to hypothesise that its orbit was subject to gravitational perturbation by an unknown planet. After Bouvard's death, the position of Neptune was predicted from his observations, independently, by John Couch Adams and Urbain Le Verrier. Neptune was subsequently observed with a telescope on 23 September 1846 by Johann Galle within a degree of the position predicted by Le Verrier. Its largest moon, Triton, was discovered shortly thereafter, though none of the planet's remaining 14 known moons were located telescopically until the 20th century. Like the gas giants (Jupiter and Saturn), Neptune's atmosphere is composed primarily of hydrogen and helium, along with traces of hydrocarbons and possibly nitrogen, but contains a higher proportion of ices such as water, ammonia and methane.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Similar to Uranus, its interior is primarily composed of ices and rock; both planets are normally considered \"ice giants\" to distinguish them. Along with Rayleigh scattering, traces of methane in the outermost regions in part account for the planet's blue appearance. Neptune's weather patterns are driven by the strongest sustained winds of any planet in the Solar System, with recorded wind speeds as high as 2,100 km/h (580 m/s; 1,300 mph). Because of its great distance from the Sun, Neptune's outer atmosphere is one of the coldest places in the Solar System, with temperatures at its cloud tops approaching 55 K (-218 °C; -361 °F). Temperatures at the planet's centre are approximately 5,400 K (5,100 °C; 9,300 °F). Neptune has a faint and fragmented ring system (labelled \"arcs\"), which was discovered in 1984, then later confirmed by Voyager 2.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Nomenclature And Mythology",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In Roman mythology, Neptune was the god of the sea, identified with the Greek Poseidon. The demand for a mythological name seemed to be in keeping with the nomenclature of the other planets, all of which were named for deities in Greek and Roman mythology. The usual adjectival form is Neptunian. The nonce form Poseidean, from Poseidon, has also been used, though the usual adjectival form of Poseidon is Poseidonian.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Neptune's astronomical symbol ♆, representing Neptune's trident. Most languages today use some variant of the name \"Neptune\" for the planet; indeed, in Chinese, Vietnamese, Japanese, and Korean, the planet's name was translated as \"sea king star\" (海王星). In Mongolian, Neptune is called Dalain van (Далайн ван), reflecting its namesake god's role as the ruler of the sea. In modern Greek the planet is called Poseidon (Ποσειδώνας, Poseidonas), the Greek counterpart of Neptune.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In Hebrew, Rahab (רהב), from a Biblical sea monster mentioned in the Book of Psalms, was selected in a vote managed by the Academy of the Hebrew Language in 2009 as the official name for the planet, even though the existing Latin term Neptun (נפטון) is commonly used. In Māori, the planet is called Tangaroa, named after the Māori god of the sea. In Nahuatl, the planet is called Tlāloccītlalli, named after the rain god Tlāloc. In Thai, Neptune is referred to by its Westernised name Dao Nepchun/Nepjun (ดาวเนปจูน), but is also called Dao Ket (ดาวเกตุ, 'star of Ketu'), after Ketu (केतु), the descending lunar node, who plays a role in Hindu astrology. In Malay, the name Waruna, after the Hindu god of seas, is attested as far back as the 1970s, but was eventually superseded by the Latinate equivalents Neptun (in Malaysian) or Neptunus (in Indonesian).",
+                            content_description: null
+                        },
+                    ]
+                },
+                { 
+                    title: "Physical Characteristics",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Neptune's mass of 1.0243e26 kg is intermediate between Earth and the larger gas giants: it is 17 times that of Earth but just 1/19th that of Jupiter. Its gravity at 1 bar is 11.15 m/sq.s, 1.14 times the surface gravity of Earth, and surpassed only by Jupiter. Neptune's equatorial radius of 24,764 km is nearly four times that of Earth. Neptune, like Uranus, is an ice giant, a subclass of giant planet, because they are smaller and have higher concentrations of volatiles than Jupiter and Saturn. In the search for exoplanets, Neptune has been used as a metonym: discovered bodies of similar mass are often referred to as \"Neptunes\", just as scientists refer to various extrasolar bodies as \"Jupiters\".",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Internal Structure",
+                            content: "Neptune's internal structure resembles that of Uranus. Its atmosphere forms about 5 to 10% of its mass and extends perhaps 10 to 20% of the way towards the core, where it reaches pressures of about 10 GPa, or about 100,000 times that of Earth's atmosphere. Increasing concentrations of methane, ammonia and water are found in the lower regions of the atmosphere. The mantle is equivalent to 10 to 15 Earth masses and is rich in water, ammonia and methane.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The mantle may consist of a layer of ionic water in which the water molecules break down into a soup of hydrogen and oxygen ions, and deeper down superionic water in which the oxygen crystallises but the hydrogen ions float around freely within the oxygen lattice. At a depth of 7,000 km, the conditions may be such that methane decomposes into diamond crystals that rain downwards like hailstones. The core of Neptune is likely composed of iron, nickel and silicates, with an interior model giving a mass about 1.2 times that of Earth. The pressure at the centre is 7 Mbar (700 GPa), about twice as high as that at the centre of Earth, and the temperature may be 5,400 K.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/neptune_internal_structure.png",
+                            content_description: "Diagram of the interior of Neptune."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Atmosphere",
+                            content: "At high altitudes, Neptune's atmosphere is 80% hydrogen and 19% helium. A trace amount of methane is also present. Prominent absorption bands of methane exist at wavelengths above 600 nm, in the red and infrared portion of the spectrum. As with Uranus, this absorption of red light by the atmospheric methane is part of what gives Neptune its blue hue, although Neptune's blue differs from Uranus's milder light blue. Neptune's atmosphere is subdivided into two main regions: the lower troposphere, where temperature decreases with altitude, and the stratosphere, where temperature increases with altitude. The boundary between the two, the tropopause, lies at a pressure of 0.1 bars (10 kPa). The stratosphere then gives way to the thermosphere at a pressure lower than 1e-5 to 1e-4 bars (1 to 10 Pa). The thermosphere gradually transitions to the exosphere.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/neptune_atmosphere.jpg",
+                            content_description: "Combined colour and near-infrared image of Neptune, showing bands of methane in its atmosphere, and four of its moons, Proteus, Larissa, Galatea, and Despina."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Models suggest that Neptune's troposphere is banded by clouds of varying compositions depending on altitude. The upper-level clouds lie at pressures below one bar, where the temperature is suitable for methane to condense. For pressures between one and five bars (100 and 500 kPa), clouds of ammonia and hydrogen sulfide are thought to form. Above a pressure of five bars, the clouds may consist of ammonia, ammonium sulfide, hydrogen sulfide and water. Deeper clouds of water ice should be found at pressures of about 50 bars (5.0 MPa), where the temperature reaches 273 K (0 °C). Underneath, clouds of ammonia and hydrogen sulfide may be found. High-altitude clouds on Neptune have been observed casting shadows on the opaque cloud deck below. There are also high-altitude cloud bands that wrap around the planet at constant latitude. These circumferential bands have widths of 50-150 km and lie about 50-110 km above the cloud deck. These altitudes are in the layer where weather occurs, the troposphere. Weather does not occur in the higher stratosphere or thermosphere.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/neptune_clouds.jpg",
+                            content_description: "Bands of high-altitude clouds cast shadows on Neptune's lower cloud deck. The resolution of this image is 11 kilometers (6.8 miles per pixel) and the range is only 157,000 kilometers (98,000 miles). The width of the cloud streaks range from 50 to 200 kilometers (31 to 124 miles), and their shadow widths range from 30 to 50 kilometers (18 to 31 miles). Cloud heights appear to be of the order of 50 kilometers (31 miles)."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Neptune's spectra suggest that its lower stratosphere is hazy due to condensation of products of ultraviolet photolysis of methane, such as ethane and ethyne. The stratosphere is also home to trace amounts of carbon monoxide and hydrogen cyanide. The stratosphere of Neptune is warmer than that of Uranus due to the elevated concentration of hydrocarbons. For reasons that remain obscure, the planet's thermosphere is at an anomalously high temperature of about 750 K. The planet is too far from the Sun for this heat to be generated by ultraviolet radiation. One candidate for a heating mechanism is atmospheric interaction with ions in the planet's magnetic field. Other candidates are gravity waves from the interior that dissipate in the atmosphere. The thermosphere contains traces of carbon dioxide and water, which may have been deposited from external sources such as meteorites and dust.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Magnetosphere",
+                            content: "Neptune resembles Uranus in its magnetosphere, with a magnetic field strongly tilted relative to its rotational axis at 47° and offset at least 0.55 radius, or about 13,500 km from the planet's physical centre. Before Voyager 2's arrival at Neptune, it was hypothesised that Uranus's tilted magnetosphere was the result of its sideways rotation. In comparing the magnetic fields of the two planets, scientists now think the extreme orientation may be characteristic of flows in the planets' interiors. This field may be generated by convective fluid motions in a thin spherical shell of electrically conducting liquids (probably a combination of ammonia, methane and water)[81] resulting in a dynamo action.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The dipole component of the magnetic field at the magnetic equator of Neptune is about 14 microteslas (0.14 G). The dipole magnetic moment of Neptune is about 2.2e17 T·cu m (14 μT·RN^3, where RN is the radius of Neptune). Neptune's bow shock, where the magnetosphere begins to slow the solar wind, occurs at a distance of 34.9 times the radius of the planet. The magnetopause, where the pressure of the magnetosphere counterbalances the solar wind, lies at a distance of 23 - 26.5 times the radius of Neptune. The tail of the magnetosphere extends out to at least 72 times the radius of Neptune, and likely much farther.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Storms",
+                            content: "In 1989, the Great Dark Spot, an anticyclonic storm system spanning 13,000 km x 6,600 km (8,100 mi x 4,100 mi) was discovered by NASA's Voyager 2 spacecraft. The storm resembled the Great Red Spot of Jupiter. Some five years later, on 2 November 1994, the Hubble Space Telescope did not see the Great Dark Spot on the planet. Instead, a new storm similar to the Great Dark Spot was found in Neptune's northern hemisphere. The Scooter is another storm, a white cloud group farther south than the Great Dark Spot. This nickname first arose during the months leading up to the Voyager 2 encounter in 1989, when they were observed moving at speeds faster than the Great Dark Spot.  The Small Dark Spot is a southern cyclonic storm, the second-most-intense storm observed during the 1989 encounter. It was initially completely dark, but as Voyager 2 approached the planet, a bright core developed and can be seen in most of the highest-resolution images. More recently, in 2018, a newer main dark spot and smaller dark spot were identified and studied.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/neptune_great_dark_spot.jpg",
+                            content_description: "The Great Dark Spot (top), Scooter (middle white cloud), and the Small Dark Spot (bottom), with contrast exaggerated."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Planetary Rings",
+                            content: "Neptune has a planetary ring system, though one much less substantial than that of Saturn. The rings may consist of ice particles coated with silicates or carbon-based material, which most likely gives them a reddish hue. The three main rings are the narrow Adams Ring, 63,000 km from the centre of Neptune, the Le Verrier Ring, at 53,000 km, and the broader, fainter Galle Ring, at 42,000 km. A faint outward extension to the Le Verrier Ring has been named Lassell; it is bounded at its outer edge by the Arago Ring at 57,000 km.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/neptune_rings.png",
+                            content_description: "In this James Webb Space Telescope's image, Neptune resembles a pearl with rings that look like ethereal concentric ovals around it. There are 2 thinner, crisper rings and 2 broader, fainter rings. A few extremely bright patches on the lower half of Neptune represent methane ice clouds. Six tiny white dots, which are six of Neptune's 14 moons, are scattered among the rings."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The outermost ring, Adams, contains five prominent arcs now named Courage, Liberté, Egalité 1, Egalité 2 and Fraternité (Courage, Liberty, Equality and Fraternity). The existence of arcs was difficult to explain because the laws of motion would predict that arcs would spread out into a uniform ring over short timescales. Astronomers now estimate that the arcs are corralled into their current form by the gravitational effects of Galatea, a moon just inward from the ring. Earth-based observations announced in 2005 appeared to show that Neptune's rings are much more unstable than previously thought. Images taken from the W. M. Keck Observatory in 2002 and 2003 show considerable decay in the rings when compared to images by Voyager 2. In particular, it seems that the Liberté arc might disappear in as little as one century.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Orbit & Rotation",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The average distance between Neptune and the Sun is 4.5 billion km (about 30.1 astronomical units (AU)), and it completes an orbit on average every 164.79 years, subject to a variability of around ±0.1 years. The perihelion distance is 29.81 AU; the aphelion distance is 30.33 AU. On 11 July 2011, Neptune completed its first full barycentric orbit since its discovery in 1846. The elliptical orbit of Neptune is inclined 1.77° compared to that of Earth. The axial tilt of Neptune is 28.32°, which is similar to the tilts of Earth (23°) and Mars (25°). As a result, Neptune experiences similar seasonal changes to Earth. The long orbital period of Neptune means that the seasons last for forty Earth years. Its sidereal rotation period (day) is roughly 16.11 hours. Because its axial tilt is comparable to Earth's, the variation in the length of its day over the course of its long year is not any more extreme.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/neptune_orbit.gif",
+                            content_description: "Neptune (red arc) completes one orbit around the Sun (centre) for every 164.79 orbits of Earth. The light blue object represents Uranus."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Orbital Resonances",
+                            content: "Neptune's orbit has a profound impact on the region directly beyond it, known as the Kuiper belt. The Kuiper belt is a ring of small icy worlds, similar to the asteroid belt but far larger, extending from Neptune's orbit at 30 AU out to about 55 AU from the Sun. Much in the same way that Jupiter's gravity dominates the asteroid belt, shaping its structure, so Neptune's gravity dominates the Kuiper belt. Over the age of the Solar System, certain regions of the Kuiper belt became destabilised by Neptune's gravity, creating gaps in its structure. The region between 40 and 42 AU is an example. The most heavily populated resonance in the Kuiper belt, with over 200 known objects, is the 2:3 resonance. Objects in this resonance complete 2 orbits for every 3 of Neptune, and are known as plutinos because the largest of the known Kuiper belt objects, Pluto, is among them. Although Pluto crosses Neptune's orbit regularly, the 2:3 resonance ensures they can never collide. The 3:4, 3:5, 4:7 and 2:5 resonances are less populated.",
+                            content_description: null
+                        },                    
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Neptune has a number of known trojan objects occupying both the Sun-Neptune L4 and L5 Lagrangian points—gravitationally stable regions leading and trailing Neptune in its orbit, respectively.Neptune trojans can be viewed as being in a 1:1 resonance with Neptune. Some Neptune trojans are remarkably stable in their orbits, and are likely to have formed alongside Neptune rather than being captured. The first object identified as associated with Neptune's trailing L5 Lagrangian point was 2008 LC18. Neptune also has a temporary quasi-satellite, (309239) 2007 RW10. The object has been a quasi-satellite of Neptune for about 12,500 years and it will remain in that dynamical state for another 12,500 years.",
+                            content_description: null
+                        },                    
+                    ]
+                },
+                {
+                    title: "Moons",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Neptune has 14 known moons. Triton is the largest Neptunian moon, comprising more than 99.5% of the mass in orbit around Neptune, and it is the only one massive enough to be spheroidal. Triton was discovered by William Lassell just 17 days after the discovery of Neptune itself. Unlike all other large planetary moons in the Solar System, Triton has a retrograde orbit, indicating that it was captured rather than forming in place; it was probably once a dwarf planet in the Kuiper belt. It is close enough to Neptune to be locked into a synchronous rotation, and it is slowly spiralling inward because of tidal acceleration. It will eventually be torn apart, in about 3.6 billion years, when it reaches the Roche limit. In 1989, Triton was the coldest object that had yet been measured in the Solar System, with estimated temperatures of 38 K (-235 °C).",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/neptune_triton.jpg",
+                            content_description: "Global Color Mosaic of Triton, taken by Voyager 2 in 1989. Created: 25 August 1989."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Neptune's second-known satellite (by order of discovery), the irregular moon Nereid, has one of the most eccentric orbits of any satellite in the Solar System. The eccentricity of 0.7512 gives it an apoapsis that is seven times its periapsis distance from Neptune.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "From July to September 1989, Voyager 2 discovered six moons of Neptune.Of these, the irregularly shaped Proteus is notable for being as large as a body of its density can be without being pulled into a spherical shape by its own gravity. Although the second-most-massive Neptunian moon, it is only 0.25% the mass of Triton. Neptune's innermost four moons; Naiad, Thalassa, Despina and Galatea, orbit close enough to be within Neptune's rings. The next-farthest out, Larissa, was originally discovered in 1981 when it had occulted a star. This occultation had been attributed to ring arcs, but when Voyager 2 observed Neptune in 1989, Larissa was found to have caused it. Five new irregular moons discovered between 2002 and 2003 were announced in 2004. A new moon and the smallest yet, Hippocamp, was found in 2013 by combining multiple Hubble images. Because Neptune was the Roman god of the sea, Neptune's moons have been named after lesser sea gods.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/neptune_moons.jpg",
+                            content_description: "A composite Hubble image showing Hippocamp with other previously discovered inner moons in Neptune's ring system. This composite image shows the location of Neptune's moon Hippocamp, formerly known just as S/2004 N 1, orbiting the giant planet Neptune, about 4.8 billion kilometres from Earth. The moon is only about 34 kilometres in diameter and dim, and was therefore missed by NASA's Voyager 2 spacecraft cameras when the probe flew by Neptune in 1989. Hubble took the colour inset of Neptune on August 19, 2009."
+                        },
+                            
+                                                   
+                    ]
+                },
+                {
+                    title: "Exploration",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Voyager 2 is the only spacecraft that has visited Neptune. The spacecraft's closest approach to the planet occurred on 25 August 1989. Because this was the last major planet the spacecraft could visit, it was decided to make a close flyby of the moon Triton, regardless of the consequences to the trajectory, similarly to what was done for Voyager 1's encounter with Saturn and its moon Titan. The images relayed back to Earth from Voyager 2 became the basis of a 1989 American PBS (Public Broadcasting Service) all-night program, Neptune All Night. The spacecraft performed a near-encounter with the moon Nereid before it came within 4,400 km of Neptune's atmosphere on 25 August, then passed close to the planet's largest moon Triton later the same day. Voyager 2 verified the existence of a magnetic field surrounding the planet and discovered that the field was offset from the centre and tilted in a manner similar to the field around Uranus.",
+                            content_description: null 
+                        },                                         
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Six new moons were discovered, and the planet was shown to have more than one ring. The flyby also provided the first accurate measurement of Neptune's mass which was found to be 0.5 percent less than previously calculated. The new figure disproved the hypothesis that an undiscovered Planet X acted upon the orbits of Neptune and Uranus.",
+                            content_description: null 
+                        },                                         
+                        {
+                            content_type: "text",
+                            head: "Future Mission",
+                            content: "Since 2018, the China National Space Administration has been studying a concept for a pair of Voyager-like interstellar probes tentatively known as Interstellar Express or Interstellar Heliosphere Probe. Both probes will be launched at the same time in 2024 and take differing paths to explore opposing ends of the heliosphere; the second probe, IHP-2, will fly by Neptune in January 2038, passing only 1,000 km above the cloud tops, and potentially carry an atmospheric impactor to be released during its approach. Afterward, it will continue on its mission throughout the Kuiper belt toward the tail of the heliosphere, so far unexplored.",
+                            content_description: null
+                        },                                            
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "After Voyager 2 and IHP-2's flybys, the next step in scientific exploration of the Neptunian system is considered to be an orbital mission; most proposals have been by NASA, most often for a Flagship orbiter. Such a hypothetical mission is envisioned to be possible in the late 2020s or early 2030s. The proposed New Horizons 2 mission (which was later scrapped) might also have done a close flyby of the Neptunian system. Currently a pending proposal for the Discovery program, Trident would conduct a flyby of Neptune and Triton; however, the mission was not selected for Discovery 15 or 16. Neptune Odyssey is the current mission concept for a Neptune orbiter and atmospheric probe being studied as a possible large strategic science mission by NASA that would launch between 2031 and 2033, and arrive at Neptune by 2049.",
+                            content_description: null
+                        },                                            
+                    ]
+                },
+                {
+                    title: "Watch To Learn More...",
+                    texts: [
+                        {
+                            content_type: "embed_video",
+                            content: "faKnto4Pb6c",
+                            content_description: "Almost everything you could want to know about the 8th planet from the Sun, Neptune."
+                        },  
+                    ]
+                }
+            ],
+             summary: [
+                {
+                    head: "Discovery",
+                    keyValue: [
+                        {
+                            key: "Discovered By",
+                            value: "Johann Galle, Urbain Le Verrier, John Couch Adams."
+                        },
+                        {
+                            key: "Discovery Date",
+                            value: "23 September 1846."
+                        },
+                    ]
+                },
+                {
+                    head: "Designations",
+                    keyValue: [
+                        {
+                            key: "Named After",
+                            value: "Neptune, the Roman god of the sea, identified with the Greek Poseidon."
+                        },
+                        {
+                            key: "Adjectives",
+                            value: "Neptunian, Poseidean."
+                        },
+                    ]
+                },
+                {
+                    head: "Orbital Characteristics",
+                    keyValue: [
+                        {
+                            key: "Aphelion",
+                            value: "30.33 AU (4.54 billion km)"
+                        },
+                        {
+                            key: "Perihelion",
+                            value: "29.81 AU (4.46 billion km)"
+                        },
+                        {
+                            key: "Semi-major Axis",
+                            value: "30.07 AU (4.50 billion km)"
+                        },
+                        {
+                            key: "Eccentricity",
+                            value: "0.008678"
+                        },
+                        {
+                            key: "Orbital Period (sidereal)",
+                            value: "164.8 yr; 60,195 days; 89,666 Neptunian solar days"
+                        },
+                        {
+                            key: "Orbital Period (synodic)",
+                            value: "367.49 days"
+                        },
+                        {
+                            key: "Average Orbital Speed",
+                            value: "5.43 km/s"
+                        },
+                        {
+                            key: "Mean Anomaly",
+                            value: "259.883°"
+                        },
+                        {
+                            key: "Inclination",
+                            value: "1.770° to ecliptic; 6.43° to Sun's equator; 0.74° to invariable plane."
+                        },
+                        {
+                            key: "Longitude of Ascending Node",
+                            value: "131.783°"
+                        },
+                        {
+                            key: "Time of Perihelion",
+                            value: "2042-Sep-04"
+                        },
+                        {
+                            key: "Argument of Perihelion",
+                            value: "273.187°"
+                        },
+                        {
+                            key: "Known Satellites",
+                            value: "14"
+                        },
+                    ]
+                },
+                {
+                    head: "Physical Characteristics",  
+                    keyValue: [
+                        {
+                            key: "Mean Radius",
+                            value: "24,622 ± 19 km"
+                        },
+                        {
+                            key: "Equatorial Radius",
+                            value: "24,764 ± 15 km; 3.883 Earths"
+                        },
+                        {
+                            key: "Polar Radius",
+                            value: "24,341 ± 30 km; 3.829 Earths"
+                        },
+                        {
+                            key: "Flattening",
+                            value: "0.0171 ± 0.0013"
+                        },
+                        {
+                            key: "Surface Area",
+                            value: "7.6187e9 sq.km; 14.98 Earths"
+                        },
+                        {
+                            key: "Volume",
+                            value: "6.253e13 sq.km; 57.74 Earths"
+                        },
+                        {
+                            key: "Mass",
+                            value: "1.02413e26 kg; 17.147 Earths; 5.15e-5 Suns"
+                        },
+                        {
+                            key: "Mean Density",
+                            value: "1.638 g/cu.cm"
+                        },
+                        {
+                            key: "Surface Gravity",
+                            value: "11.15 m/sq.s; 1.14 g"
+                        },
+                        {
+                            key: "Moment of Inertia Factor",
+                            value: "0.23 (estimate)"
+                        },
+                        {
+                            key: "Escape Velocity",
+                            value: "23.5 km/s"
+                        },
+                        {
+                            key: "Synodic Rotation Period",
+                            value: "0.67125 days; 16h 6m 36s"
+                        },
+                        {
+                            key: "Sidereal Rotation Period",
+                            value: "0.6713 day; 16h 6m 36s"
+                        },
+                        {
+                            key: "Equatorial Rotation Velocity",
+                            value: "2.68 km/s (9,650 km/h)"
+                        },
+                        {
+                            key: "Axial Tilt",
+                            value: "28.32° (to orbit)"
+                        },
+                        {
+                            key: "North Pole Right Ascension",
+                            value: "19h 57m 20s; 299.3°"
+                        },
+                        {
+                            key: "North Pole Declination",
+                            value: "42.950°"
+                        },
+                        {
+                            key: "Albedo",
+                            value: "0.290 (bond); 0.442 (geometric)"
+                        },
+                        {
+                            key: "Mean Surface Temp.",
+                            value: "72 K/-201 °C (1 bar level); 55 K/-218 °C (0.1 bar/10 kPa)"
+                        },
+                        {
+                            key: "Apparent Magnitude",
+                            value: "7.67 to 8.00"
+                        },
+                        {
+                            key: "Angular Diameter",
+                            value: "2.2 - 2.4″"
+                        },
+                    ]
+                },
+                {
+                    head: "Atmosphere",  
+                    keyValue: [
+                        {
+                            key: "Scale height",
+                            value: "19.7 ± 0.6 km"
+                        },
+                        {
+                            key: "Composition by Volume",
+                            value: "80% ± 3.2% hydrogen, 19% ± 3.2% helium, 1.5% ± 0.5% methane, ~0.019% hydrogen deuteride, ~0.00015% ethane. Icy volatiles: ammonia water, ice ammonium hydrosulfide, methane ice."
+                        },
+    
+                    ]
+                },
+            ],
+            dateUpdate: "2023-05-03"
         },
     }
 }

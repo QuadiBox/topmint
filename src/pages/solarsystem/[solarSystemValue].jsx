@@ -33,11 +33,6 @@ export default function SolarSystemValue ({ data, param }) {
         };
     }, [router.events]);
 
-    useEffect(() => {
-        console.log(data);
-        console.log(param);
-    }, []);
-
 
     return (
         <div className='solarsystemHomePage' onClick={(e) => {handleToggles( e, setShowOtherPageLinks)}}>
@@ -55,7 +50,7 @@ export default function SolarSystemValue ({ data, param }) {
                                 Overview
                                 {
                                     navOption === "overview" && (
-                                        <motion.div layoutId="pointer" className="navMarker"></motion.div>
+                                        <motion.span layoutId="pointer" className="navMarker"></motion.span>
                                     ) 
                                 }
                             </p>
@@ -71,7 +66,7 @@ export default function SolarSystemValue ({ data, param }) {
                                 In Depth
                                 {
                                     navOption === "indepth" && (
-                                        <motion.div layoutId="pointer" className="navMarker"></motion.div>
+                                        <motion.span layoutId="pointer" className="navMarker"></motion.span>
                                     ) 
                                 }
                             </p>
@@ -87,7 +82,7 @@ export default function SolarSystemValue ({ data, param }) {
                                 Summary
                                 {
                                     navOption === "summary" && (
-                                        <motion.div layoutId="pointer" className="navMarker"></motion.div>
+                                        <motion.span layoutId="pointer" className="navMarker"></motion.span>
                                     ) 
                                 }
                             </p>
@@ -96,7 +91,7 @@ export default function SolarSystemValue ({ data, param }) {
                     }
                 </div>
             </div>
-            <MainSect data={data} navOption={navOption}/>
+            <MainSect data={data} navOption={navOption} factor={3}/>
 
             <div className="nextPrevSect">
                 {
@@ -144,4 +139,4 @@ export async function getServerSideProps (context) {
             param: solarSystemValue,
         }
     }
-  }
+}

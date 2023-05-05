@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import Navbar from '../navbar';
+import React, { useState, useContext } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
+import { themeContext } from '../../../providers/ThemeProvider';
 
 const Image_library_sect1 = () => {
     const [searchFilterParams, setSearchFilterParams] = useState({
@@ -12,9 +12,10 @@ const Image_library_sect1 = () => {
         start_Year: 1920,
         end_Year: 2023
     });
+    const ctx = useContext(themeContext);
+    const { mainData, setMainData } = ctx;
     
     
-    const [ mainData, setMainData ] = useState([]);
     const [ isLoading, setIsLoading ] = useState(false);
     const [ isError, setIsError ] = useState({
         state: false,
@@ -36,9 +37,9 @@ const Image_library_sect1 = () => {
 
             
             if ( data.collection?.items ) {
-                console.log(data.collection);
                 setMainData(data.collection?.items);
                 setIsLoading(false);
+                setQuery("");
             } else if ( data.collection?.items === undefined) {
                 console.log('Error fetching data:', data);
                 setIsLoading(false);
@@ -47,6 +48,7 @@ const Image_library_sect1 = () => {
                     state: true,
                     msg: data?.reason
                 });
+                setQuery("");
             }
         } catch (error) {
             console.error();('Error fetching data:', error);
@@ -56,6 +58,7 @@ const Image_library_sect1 = () => {
                 state: true,
                 msg: data?.reason
             });
+            setQuery("");
         }
     };
 
@@ -87,10 +90,8 @@ const Image_library_sect1 = () => {
         if (video.getAttribute("src") && !mediaPlayState) {
             video.play();
             setMediaPlayState(prev => !prev);
-            console.log("video played");
         } else if (!video.getAttribute("src") && !mediaPlayState ) {
             utilFetch(vlad).then(data => {
-                console.log("Data received:", data); 
                 video.setAttribute("src", data);
                 video.play();
                 setMediaPlayState(prev => !prev);
@@ -99,8 +100,6 @@ const Image_library_sect1 = () => {
         } else if (video.getAttribute("src") && mediaPlayState) {
             video.pause();
             setMediaPlayState(prev => !prev);
-            console.log("video paused");
-            console.log(video.getAttribute("src"));
         }
     };
 
@@ -198,8 +197,6 @@ const Image_library_sect1 = () => {
 
   return (
     <section className='imageLibrarySect1'>
-        <Navbar/>
-
         <div className="imgLibrarysection">
             <motion.div variants={parentvar} className="pathHistory" style={{overflowY: "hidden"}}>
                 <motion.div variants={slideUp} className="pathLink">
@@ -218,7 +215,7 @@ const Image_library_sect1 = () => {
             <div className="searchandFilters">
                 <div className="imgLibsearchbox">
                     <motion.form variants={parentvar} className="imgsearchInputCntn" onSubmit={handleSearchLibrary}>
-                        <motion.input variants={slideUp} value={query} type="text" onChange={(e) => {setQuery(e.target.value)}} name="imgLibSearch" placeholder='Search for ... (e.g. "Mars")'/>
+                        <motion.input variants={slideUp} value={query} type="text" onChange={(e) => {setQuery(e.target.value)}} name="imgLibSearch" placeholder='Search for ... (e.g. "Ceres")'/>
                         <motion.button variants={swipeLeft} type="submit">Go</motion.button>
                     </motion.form>
 
@@ -307,8 +304,6 @@ const Image_library_sect1 = () => {
                                             </motion.div>
                                         </div>
                                     </div>
-
-
                                 </div>
                             </motion.div>
                         )

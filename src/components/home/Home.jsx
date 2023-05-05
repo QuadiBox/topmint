@@ -23,10 +23,7 @@ const defaultApod = {
 
 
 const HomePage = ({ apod = defaultApod }) => {
-    const [text, setText] = useState("☉E⚷☉E⚷♄φI ♀⚶♁♅ ♆ ♃⚸☾🜍 ♃⚸☾🜍");
     const [showExit, setShowExit] = useState(false);
-    const loadtext = "Astronomy Picture of the Day"
-    const letters = "A}\sJ:X|#f*Gkl,;_!C/<sdR";
     const ctx = useContext(themeContext);
     const { setShowOtherPageLinks } = ctx;
     const router = useRouter();
@@ -46,36 +43,6 @@ const HomePage = ({ apod = defaultApod }) => {
         };
     }, [router.events]);
 
-    const handleWordEffect = () => {
-        let iterations = 0;
-    
-        const inetrvals = setInterval(() => {
-          const utilArr = loadtext.split(""). map((letter, idx) => {
-            if (idx < iterations) {
-              return loadtext[idx];
-            }
-    
-            return letters[Math.floor(Math.random() * 24)]
-          }).join("");
-    
-          setText(utilArr);
-    
-            if (iterations >= 28) {
-                clearInterval(inetrvals)
-            }
-    
-          iterations += 1;
-        }, 30);
-    
-    };
-
-    useEffect(() => {
-        const Timeout = setTimeout(handleWordEffect, 600);
-        
-        return () => {
-            clearTimeout(Timeout);
-        }
-    }, []);
 
     const backShift = useRef(null);
 
@@ -173,13 +140,13 @@ const HomePage = ({ apod = defaultApod }) => {
 
     return (
         <div ref={backShift} className="theHomePage" onClick={(e) => {handleToggles( e, setShowOtherPageLinks)}} onMouseMove={handleBackgroundShift}>
-            
+            <Navbar/>
+
             <section  className="sect1-home">
-                <Navbar/>
                 <motion.div variants={parentVar} initial="init" animate="finale" className="apod">
                     <div className="banner"></div>
                     
-                    <div style={{overflowY: "hidden"}}><motion.h1 variants={slideUp}>{text}</motion.h1></div>
+                    <div style={{overflow: "hidden"}}><motion.h1 variants={slideUp}>Astronomy Picture of the Day</motion.h1></div>
                     
                     {apod?.title !== undefined ? (
                         <motion.div variants={scaleUp} tabIndex="1" className="apodDisplayer">
@@ -211,7 +178,7 @@ const HomePage = ({ apod = defaultApod }) => {
                     ) : (
                         <motion.div variants={scaleUp} tabIndex="1" className="apodDisplayer">
                             <div className="borderLineApod"></div>
-                            {/* <div className="panOverlay"></div> */}
+                            <div className="panOverlay"></div>
                             <div className="dragger"></div>
                             <div className="dragger2"></div>
                             <motion.div variants={fadeIn} className="apodImg" style={{backgroundImage: `url(${defaultApod?.hdurl})`}}></motion.div>

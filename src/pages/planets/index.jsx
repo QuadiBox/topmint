@@ -45,6 +45,7 @@ const Index = ({ data }) => {
                note: "Mercury, the smallest planet in our solar system and closest to the Sun,  is only slightly larger than Earth's Moon. Mercury is the fastest planet, zipping around the Sun every 88 Earth days.",
                image_src: "/mercury_poster.jpg",
                link: "/planets/mercury",
+               icon:  null
             },
             {
                 id: "planet02",
@@ -53,6 +54,7 @@ const Index = ({ data }) => {
                note: "Venus spins slowly in the opposite direction from most planets. A thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system.",
                image_src: "/venus_poster_A.jpg",
                link: "/planets/venus",
+               icon: null
             },
             {
                 id: "planet03",
@@ -61,6 +63,7 @@ const Index = ({ data }) => {
                note: "Earth, our home planet, is the only place we know of so far that's inhabited by living things. It's also the only planet in our solar system with liquid water on the surface.",
                image_src: "/earth_poster_A.jpg",
                link: "/planets/earth",
+               icon:  null
             },
             {
                 id: "planet04",
@@ -69,6 +72,7 @@ const Index = ({ data }) => {
                note: "Mars is a dusty, cold, desert world with a very thin atmosphere. There is strong evidence Mars was billions of years ago wetter and warmer, with a thicker atmosphere.",
                image_src: "/mars_poster_A.jpg",
                link: "/planets/mars",
+               icon: null
             },
             {
                 id: "planet05",
@@ -77,6 +81,7 @@ const Index = ({ data }) => {
                note: "Jupiter is more than twice as massive than the other planets of our solar system combined. The giant planet's Great Red spot is a centuries old storm bigger than Earth.",
                image_src: "/jupiter_poster_A.jpg",
                link: "/planets/jupiter",
+               icon:  null
             },
             {
                 id: "planet06",
@@ -85,6 +90,7 @@ const Index = ({ data }) => {
                note: "Adorned with a dazzling, complex system of icy rings, Saturn is unique in our solar system. The other giant planets have rings, but none are as spectacular as Saturn's.",
                image_src: "/saturn_poster_A.jpg",
                link: "/planets/saturn",
+               icon: null
             },
             {
                 id: "planet07",
@@ -93,6 +99,7 @@ const Index = ({ data }) => {
                note: "Uranus, seventh planet from the Sun, rotates at a nearly 90-degree angle from the plane of its orbit. This unique tilt makes Uranus appear to spin on its side.",
                image_src: "/uranus_poster_A.jpg",
                link: "/planets/uranus",
+               icon: null
             },
             {
                 id: "planet08",
@@ -101,6 +108,7 @@ const Index = ({ data }) => {
                note: "Neptune, the eighth and most distant major planet orbiting our Sun, is dark, cold and whipped by supersonic winds. It was the first planet located through mathematical calculations.",
                image_src: "/neptune_poster_A.jpg",
                link: "/planets/neptune",
+               icon:  null
             },
         ]
     }
@@ -122,7 +130,7 @@ const Index = ({ data }) => {
                                 Overview
                                 {
                                     navOption === "overview" && (
-                                        <motion.div layoutId="pointer" className="navMarker"></motion.div>
+                                        <motion.span layoutId="pointer" className="navMarker"></motion.span>
                                     ) 
                                 }
                             </p>
@@ -138,7 +146,7 @@ const Index = ({ data }) => {
                                 In Depth
                                 {
                                     navOption === "indepth" && (
-                                        <motion.div layoutId="pointer" className="navMarker"></motion.div>
+                                        <motion.span layoutId="pointer" className="navMarker"></motion.span>
                                     ) 
                                 }
                             </p>
@@ -154,7 +162,7 @@ const Index = ({ data }) => {
                                 Summary
                                 {
                                     navOption === "summary" && (
-                                        <motion.div layoutId="pointer" className="navMarker"></motion.div>
+                                        <motion.span layoutId="pointer" className="navMarker"></motion.span>
                                     ) 
                                 }
                             </p>
@@ -163,7 +171,7 @@ const Index = ({ data }) => {
                     }
                 </div>
             </div>
-            <MainSect data={data} navOption={navOption}/>
+            <MainSect data={data} navOption={navOption} factor={9}/>
             <Planets_Sect planetsListData={planetsListData}/>
 
             <div className="nextPrevSect">
@@ -191,7 +199,7 @@ const Index = ({ data }) => {
             <TransitionPage animateState={"initial"}/>
             <AnimatePresence mode='wait'>
                 {!showExit && (
-                     <TransitionPage animateState={"exit"}/>
+                    <TransitionPage animateState={"exit"}/>
                 )}
             </AnimatePresence>
         </div>

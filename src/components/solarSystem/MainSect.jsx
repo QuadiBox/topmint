@@ -4,7 +4,7 @@ import OverviewSect from './OverviewSect'
 import Summary from './Summary'
 import { AnimatePresence } from 'framer-motion'
 
-const MainSect = ({ data, navOption }) => {
+const MainSect = ({ data, navOption, factor }) => {
     return (
         <section className='systemMainSect'>
             <AnimatePresence mode='wait'>
@@ -15,7 +15,7 @@ const MainSect = ({ data, navOption }) => {
                 }
                 {
                     navOption === "indepth" && (
-                        <Indepth data={data?.inDepth}/>
+                        <Indepth data={data?.inDepth} factor={factor}/>
                     )
                 }
                 {

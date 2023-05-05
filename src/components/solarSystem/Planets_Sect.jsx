@@ -11,7 +11,12 @@ const Planets_Sect = ({ planetsListData }) => {
                 {
                     planetsListData.the_data.map((elem) => (
                         <Link href={elem.link} key={elem.id}>
-                            <img src={elem?.image_src} alt="Mercury" />
+                            {
+                                elem?.icon && (
+                                    <i className={elem?.icon} style={{color: elem.color}}></i>
+                                )
+                            }
+                            <img src={elem?.image_src} alt={elem?.name} />
                             <div className="planetListDetail">
                                 <h3 style={{color: elem.color}}>{elem?.name}</h3>
                                 <p>{elem?.note}</p>

@@ -8,6 +8,7 @@ import Sect1 from '../../components/search/A_P_O_D';
 import Apod_Sect2 from '../../components/search/Apod_Sect2';
 import Footer from '../../components/footer';
 import { motion } from 'framer-motion';
+import Navbar from '../../components/navbar';
 
 
 
@@ -55,6 +56,7 @@ const Apod = () => {
 
     return (
         <motion.div initial="init" animate="finale" variants={grandparentvar} className='apodBasicPage' onClick={(e) => {handleToggles( e, setShowOtherPageLinks)}}>
+            <Navbar/>
             <Sect1 apodDisplay={apodDisplay} setApodDisplay={setApodDisplay} LSData={LSData} setLSData={setLSData}/>
             <Apod_Sect2 setApodDisplay={setApodDisplay} LSData={LSData} setLSData={setLSData}/>
             <Footer bg={"transparent"}/>

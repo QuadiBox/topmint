@@ -7,6 +7,7 @@ import { AnimatePresence } from 'framer-motion';
 import Image_library_sect1 from '../../../components/search/image_library_sect1';
 import Footer from '../../../components/footer';
 import { motion } from 'framer-motion';
+import Navbar from '../../../components/navbar';
 
 const Image_video_library = () => {
   const ctx = useContext(themeContext);
@@ -47,6 +48,7 @@ const Image_video_library = () => {
 
   return (
     <motion.div initial="init" animate="finale" variants={grandparentvar} className='imageVideoBasicPage' onClick={(e) => {handleToggles( e, setShowOtherPageLinks)}}>
+      <Navbar/>
       <Image_library_sect1/>
       <Footer bg={"transparent"}/>
 
