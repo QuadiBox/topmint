@@ -118,7 +118,6 @@ const Sect3 = () => {
             <motion.p variants={childVarSlide} className="instruction">...data gathered by NASA&apos;s Curiosity Rover</motion.p>
 
             <motion.div variants={scaleVertival} className="marsWeatherDataCntn">
-                {/* <div className="panOverlay"></div> */}
                 <motion.iframe variants={fadeIn} src='https://mars.nasa.gov/layout/embed/image/mslweather/' width="1000" height="570" scrolling='no' frameBorder='0'></motion.iframe>
             </motion.div>
 

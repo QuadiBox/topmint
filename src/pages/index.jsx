@@ -241,7 +241,7 @@ export default function Home({ apod }) {
                     <div className="dragger"></div>
                     <div className="dragger2"></div>
                     <div className="borderline"></div>
-                    {/* <div className="panOverlay"></div> */}
+                    <div className="panOverlay"></div>
                     <motion.div style={{background: `url(${displayTypes[0].displayImage})`}} variants={displayerAnim} className="displayer"></motion.div>
                     <div className="detailsCard">
                       <h2>{displayTypes[0]?.details?.title} [<span title="Jupiter Astrological Sign">{displayTypes[0]?.details?.astroSign}</span>]</h2>
@@ -259,7 +259,7 @@ export default function Home({ apod }) {
                     <div className="dragger"></div>
                     <div className="dragger2"></div>
                     <div className="borderline"></div>
-                    {/* <div className="panOverlay"></div> */}
+                    <div className="panOverlay"></div>
                     <motion.div style={{background: `url(${displayTypes[1].displayImage})`}} variants={displayerAnim} className="displayer"></motion.div>
                     <div className="detailsCard">
                       <h2>{displayTypes[1]?.details?.title} [<span title="Pluto Astrological Sign">{displayTypes[1]?.details?.astroSign}</span>]</h2>
@@ -277,7 +277,7 @@ export default function Home({ apod }) {
                     <div className="dragger"></div>
                     <div className="dragger2"></div>
                     <div className="borderline"></div>
-                    {/* <div className="panOverlay"></div> */}
+                    <div className="panOverlay"></div>
                     <motion.div style={{background: `url(${displayTypes[2].displayImage})`}} variants={displayerAnim} className="displayer"></motion.div>
                     <div className="detailsCard">
                       <h2>{displayTypes[2]?.details?.title} [<span title="Moon's Astrological Sign"> {displayTypes[2]?.details?.astroSign} </span>]</h2>

@@ -11,7 +11,7 @@ export default function Document() {
         <link rel="icon" href="/favicon.ico"/>
         <link rel="stylesheet" href="/icofont/icofont.min.css"/>
         <meta property="og:title" content="QuadVerse"/>
-        <meta property="og:description" content="A finely designed website for all space enthusiast and explorer to learn and find more about our solar system and the universe in general. It is a personal project"/>
+        <meta property="og:description" content="A finely designed website for all space enthusiast and explorer to learn and find more about our solar system and the universe at large. It is a personal project."/>
         <meta property="og:image" content="/favicon.ico"/>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>

@@ -1631,7 +1631,7 @@
 
   .searchLinks {
     flex-wrap: wrap;
-    min-height: 350px;
+    min-height: 310px;
   }
 
   .searchOptCntn {
@@ -1813,8 +1813,13 @@
 
 @media screen and (max-width: 380px) {
   .sect1-search {
-    grid-template-rows: 1fr 55%;
+    grid-template-rows: 1fr 60%;
     animation-play-state: paused;
+  }
+
+  .searchLinks {
+    flex-wrap: wrap;
+    min-height: 380px;
   }
 }
 

@@ -934,7 +934,7 @@
     left: 0;
     background-color: var(--bg1-opac05);
     z-index: 100;
-    display: flex;
+    display: none;
     align-items: flex-end;
     overflow: hidden;
 }
@@ -1301,6 +1301,10 @@
         background-position: 5% 50%;
     }
 
+    .sectonAbsMain {
+        height: 100vh;
+    }
+
     .sectonAbsMain h1 {
         font-size: 3.4em;
     }
@@ -1314,7 +1318,7 @@
     }
 
     .bottomAbs {
-        bottom: 15px;
+        bottom: 10px;
     }
 
     .theHomePage {
@@ -1354,8 +1358,8 @@
 
     .apod{
         width: 100%;
-        padding-top: calc(60px + 4.5em);
-        padding-bottom: 4.5em;
+        padding-top: calc(60px + 2.2em);
+        padding-bottom: 3em;
         gap: 60px;
         align-items: center;
         justify-content: flex-start;
@@ -1369,7 +1373,7 @@
     .apodDisplayer {
         width: 100%;
         aspect-ratio: 16/11;
-        border-radius: 6px;
+        border-radius: 11px;
     }
 
     .apodDetails{
@@ -1401,6 +1405,10 @@
         padding-inline: var(--gen-padding);
         padding-top: 3em;
         padding-bottom: 3em;
+    }
+
+    .planetDataPopupCntn {
+        display: flex;
     }
 
     .planetDataDisplay{
@@ -1654,8 +1662,8 @@
 .sect3-home{
     width: 100%;
     min-height: 630px;
-    max-height: 730px;
-    height: 130vh;
+    max-height: 800px;
+    height: 138vh;
     position: relative;
     isolation: isolate;
     background: radial-gradient(circle, var(--text-clr2) 3%, transparent 2%);
@@ -1663,7 +1671,7 @@
     padding-top: 2.6%;
     padding-bottom: 2em;
     padding-inline: var(--gen-padding);
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .sect3-home h1, .sect4-home h1, .sect5-home h1{
@@ -2084,6 +2092,16 @@
     clip-path: polygon(9% 3%, 14% 0%, 100% 0%, 100% 35%, 99% 40%, 99% 60%, 100% 65%, 100% 100%, 14% 100%, 9% 97%, 0% 97%, 0% 3%);
 }
 
+@media screen and (min-height: 990px)  {
+    
+    .sect3-home{
+        min-height: 630px;
+        max-height: 700px;
+        height: 130vh;
+        padding-top: 2.7em;
+        padding-bottom: 2em;
+    }
+}
 @media screen and (max-width: 1000px)  {
     
     .contactCntnHome{
@@ -2092,7 +2110,13 @@
 }
 
 @media screen and (max-width: 649px) {
-
+    .sect3-home{
+        min-height: 630px;
+        max-height: 740px;
+        height: 130vh;
+        padding-top: 2.7em;
+        padding-bottom: 2em;
+    }
 
     .marsWeatherDataCntn {
         width: 100%;
@@ -2138,6 +2162,7 @@
 
     .sect5-home{
         height: 85vh;
+        min-height: 610px;
         padding-top: 2.6em;
         padding-inline: var(--gen-padding);
     }
