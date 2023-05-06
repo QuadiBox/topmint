@@ -15,7 +15,7 @@ const Sect1 = () => {
                 duration: 0.1,
                 delay: 0.3,
                 when: "beforeChildren",
-                staggerChildren: 0.3
+                staggerChildren: 0.14
             }
         }
     }

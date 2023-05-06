@@ -92,7 +92,7 @@ const MiniFooter = () => {
                 <motion.div variants={logoV} className="V">
                     Verse
                 </motion.div>{" "}
-                <motion.i variants={logoI} className="icofont-readernaut"></motion.i>
+                <motion.img variants={logoI} src="/LogoVerse.svg" alt="Quadverse logo" />
             </Link>
         </motion.div>
         <motion.span variants={slideUp}>

@@ -157,7 +157,7 @@ const Navbar = () => {
             <div className="leftNav" style={{overflowY: "hidden"}}>
                 <motion.div initial="init" animate="finale" variants={logoParent} className="logoAbsMain">
                     <Link className="theLogo" href={"/"} style={{overflow: "hidden"}}>
-                        <motion.div variants={logoQ} className="Q">Quad</motion.div> <motion.div variants={logoV} className="V">Verse</motion.div> <motion.i variants={LogoI} className="icofont-readernaut"></motion.i>
+                        <motion.div variants={logoQ} className="Q">Quad</motion.div> <motion.div variants={logoV} className="V">Verse</motion.div> <motion.img variants={LogoI} src="/LogoVerse.svg" alt="Quadverse logo" /> 
                     </Link>
                 </motion.div>
             </div>

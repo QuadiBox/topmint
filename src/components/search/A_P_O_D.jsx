@@ -1,17 +1,9 @@
-import React, { useContext, useState, useEffect } from "react";
+import  { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Loader from "../Loader";
 
 const Sect1 = ({ apodDisplay, setApodDisplay, LSData , setLSData }) => {
-    const defaultApod = {
-        title: "Pillars of Creation",
-        date: "Inifity",
-        copyright: "None",
-        explanation:
-        "An elephant trunks of interstellar gas and dust in the Eagle Nebula, in the Serpens constellation, some 6,500-7,000 light-years (2,000-2,100 pc; 61-66 Em) from Earth. Photograph taken by Hubble's Telescope on April 1, 1995.",
-        hdurl: "/pillarsofcreation.png",
-    };
 
     const Error = {
         title: "Error !!!",

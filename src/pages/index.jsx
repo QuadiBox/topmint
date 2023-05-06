@@ -136,8 +136,9 @@ export default function Home({ apod }) {
       y: 0,
       opacity: 1,
       transition: {
-        ease: "easeOut",
-        duration: 0.45
+        type: "spring",
+        damping: 30,
+        stiffness: 200
       }
     },
     exit: {
@@ -164,25 +165,26 @@ export default function Home({ apod }) {
     },
     exit: {
       opacity: 0,
-      y: "-70%",
+      y: "-75%",
       transition: {
-        duration: 0.66,
+        duration: 0.76,
+        ease: "easeOut"
       }
     }
   }
 
   const fadeIn = {
     init: {
-      y: "40%",
+      y: "50%",
       opacity: 0
     },
     finale: {
       y: 0,
       opacity: 1,
       transition: {
-        ease: "easeOut",
-        duration: 0.3,
-        delay: 0.4
+        type: "spring",
+        damping: 30,
+        stiffness: 200
       }
     },
     exit: {
@@ -221,7 +223,7 @@ export default function Home({ apod }) {
 
   return (
     <>
-      <AnimatePresence>
+      <AnimatePresence mode="wait">
         {showAbsMain && (
           <motion.div initial="init" animate="finale" exit="exit" variants={parentVar} ref={backgroundRef} className="homeLoaderMain" onMouseMove={handleBackgroundShift} onScroll={landingPageCloser}>
             

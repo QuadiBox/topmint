@@ -113,8 +113,8 @@
   background-repeat: no-repeat;
   display: grid;
   grid-template-rows: 1fr max-content;
-  animation-play-state: paused;
   animation: vidPanning 60s linear infinite 0.8s;
+  animation-play-state: paused;
 }
 
 @keyframes vidPanning{

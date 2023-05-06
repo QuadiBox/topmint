@@ -95,7 +95,6 @@
     --font-metro: 'Metrophobic', sans-serif;
 }
 
-
 .homeLoaderMain{
     width: 100%;
     min-height: 100dvh;
@@ -135,7 +134,7 @@
 
 .logoAbsMain .theLogo{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     gap: 2.5px;
 }
 
@@ -157,6 +156,13 @@
     color: var(--primary-clr);
     font-size: 1.7em;
     margin-left: 5px;
+}
+
+.logoAbsMain img {
+    width: 24px;
+    aspect-ratio: 1;
+    margin-left: 3px;
+    margin-block: auto;
 }
 
 
@@ -912,7 +918,7 @@
 .instruction{
     font-size: 1.03em;
     font-weight: 300;
-    counter-reset: var(--text-clr1);
+    color: var(--text-clr1);
     position: relative;
     z-index: 20;
 }
@@ -1751,6 +1757,10 @@
     height: 10px;
     aspect-ratio: 1;
     border-radius: 3px;
+}
+
+.hintcard .first p {
+    color: var(--text-clr2);
 }
 
 .coloredtile.brown{
