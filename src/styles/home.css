@@ -374,8 +374,8 @@
     left: 0;
     width: 100%;
     height: 300%;
-    background: linear-gradient(to bottom, #a706f12a,3px , #a706f12a,3px, transparent, 3px , transparent);
-    background-size: 100% 9px;
+    background: linear-gradient(to bottom, var(--bg2-opac02),3px , var(--bg2-opac02),3px, transparent, 3px , transparent);
+    background-size: 100% 10px;
     z-index: 3;
     pointer-events: none;
 
@@ -1305,6 +1305,20 @@
         background-image: linear-gradient(to bottom right, var(--bg2-opac07), 50%, var(--bg2-opac05)), url(/homeBg.jpg);
         background-size: cover;
         background-position: 5% 50%;
+    }
+
+    .panOverlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 300%;
+        background: linear-gradient(to bottom, var(--bg2-opac02),1px , var(--bg2-opac02),1px, transparent, 2px , transparent);
+        background-size: 100% 6px;
+        z-index: 3;
+        pointer-events: none;
+    
+        animation: panOverlay 20s linear infinite;
     }
 
     .sectonAbsMain {
