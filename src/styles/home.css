@@ -1318,7 +1318,7 @@
         z-index: 3;
         pointer-events: none;
     
-        animation: panOverlay 20s linear infinite;
+        animation: panOverlay 30s linear infinite;
     }
 
     .sectonAbsMain {
