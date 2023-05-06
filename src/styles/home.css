@@ -183,7 +183,7 @@
     align-items: center;
     height: 100%;
     padding-inline: 4px;
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-weight: 300;
     font-family: var(--font-unica);
     background: linear-gradient(to right, var(--primary-clr), 50%,var(--primary-clr), 50%, var(--text-clr1));
@@ -1321,8 +1321,14 @@
         animation: panOverlay 30s linear infinite;
     }
 
+    .instruction {
+        font-size: 1.05em;
+    }
+
     .sectonAbsMain {
         height: 100vh;
+        align-items: flex-start;
+        padding-top: 2.1em;
     }
 
     .sectonAbsMain h1 {
@@ -1332,7 +1338,7 @@
     .sectonAbsMain .introCntn p{
         color: var(--text-clr1);
         font-weight: 300;
-        font-size: 1.2em;
+        font-size: 1.27em;
         width: 90%;
         margin-top: 12px;
     }
@@ -2136,7 +2142,7 @@
 @media screen and (max-width: 649px) {
     .sect3-home{
         min-height: 630px;
-        max-height: 740px;
+        max-height: 760px;
         height: 130vh;
         padding-top: 2.7em;
         padding-bottom: 2em;

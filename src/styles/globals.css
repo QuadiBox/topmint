@@ -252,7 +252,7 @@ a {
 @media screen and (max-width: 649px)  {
   body {
     --gen-padding: 5%;
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .cursorTrailer{

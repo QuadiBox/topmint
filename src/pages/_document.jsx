@@ -9,7 +9,7 @@ export default function Document() {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="theme-color"/>
         <link rel="icon" href="/IconVerse.svg"/>
-        <link rel="apple-touch-icon" href="./IconVerse.svg"></link>
+        <link rel="apple-touch-icon" href="/IconVerse.svg"></link>
         <link rel="stylesheet" href="/icofont/icofont.min.css"/>
         <meta property="og:title" content="QuadVerse"/>
         <meta property="og:description" content="A finely designed website for all space enthusiast and explorer to learn and find more about our solar system and the universe at large. It is a personal project."/>
