@@ -519,6 +519,22 @@
         height: 450px;
         background-size: cover;
         background-repeat: no-repeat;
+        align-items: center;
+        padding-top: calc(60px + 1.89em);
+        padding-bottom: 190px;
+    }
+
+    .solarSystem-Sect1 .details{
+        margin-left: 6px;
+        user-select: none;
+        margin-block: auto;
+    }
+
+    .solarSystem-Sect1 .details p{
+        font-size: 1.3em;
+        font-weight: 300;
+        color: var(--text-clr1);
+        width: 90%;
     }
 
     .unitVBN {
