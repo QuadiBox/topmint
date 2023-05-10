@@ -872,6 +872,7 @@
 
 .planetLists a img{
     height: 90%;
+    max-width: 35%;
     object-fit: contain;
     object-position: center;
 }

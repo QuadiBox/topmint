@@ -2305,7 +2305,7 @@ export const linksData = {
     planets: {
         planets: {
             name: "Planets",
-            baseImgUrl: "planets_base.jpg",
+            baseImgUrl: "/planets_base.jpg",
             baseText: "Planets",
             subText: "Four unique, rocky worlds, two complex gas giants and two distant ice giants.",
             next: {
@@ -2777,7 +2777,7 @@ export const linksData = {
                         {
                             content_type: "text",
                             head: null,
-                            content: "The four giant planets are orbited by planetary rings of varying size and complexity. The rings are composed primarily of dust or particulate matter, but can host tiny 'moonlets' whose gravity shapes and maintains their structure. Although the origins of planetary rings is not precisely known, they are believed to be the result of natural satellites that fell below their parent planet's Roche limit and were torn apart by tidal forces. The dwarf planets Haumea and Quaoar also have rings",
+                            content: "The four giant planets are orbited by planetary rings of varying size and complexity. The rings are composed primarily of dust or particulate matter, but can host tiny 'moonlets' whose gravity shapes and maintains their structure. Although the origins of planetary rings is not precisely known, they are believed to be the result of natural satellites that fell below their parent planet's Roche limit and were torn apart by tidal forces. The dwarf planets Haumea and Quaoar also have rings.",
                             content_description: null
                         },
                     ]
@@ -7482,6 +7482,2864 @@ export const linksData = {
                 },
             ],
             dateUpdate: "2023-05-03"
+        },
+    }, 
+    dwarf_planets: {
+        dwarf_planets: {
+            name: "Dwarf Planets",
+            baseImgUrl: "/dwarf_planets_1.jpg",
+            baseText: "Dwarf Planets",
+            subText: "Intriguing celestial bodies that orbit the Sun and share some features with planets but don't meet the criteria to be a full-fledged planets.",
+            next: {
+                key: "Pluto",
+                value: "/dwarf_planets/pluto"
+            },
+            prev: {
+                key: "Neptune",
+                value: "/planets/neptune"
+            },
+            subdata: [
+                {
+                    key: "Dwarf Planets | Planets",
+                    value: "5 | 8"
+                },
+                {
+                    key: "Moons",
+                    value: "200 +"
+                },
+                {
+                    key: "Asteroids",
+                    value: "1,278,402"
+                },
+                {
+                    key: "Comets",
+                    value: "3,865"
+                },
+            ],
+            overview: {
+                name: "Dwarf Planets",
+                topBox: null,
+                paragraphs: [
+                    "Dwarf planets are similar to planets in that they are spherical in shape and orbit the Sun, but they differ in their size and inability to clear their orbits of debris. Currently, there are five recognized dwarf planets in our solar system: Pluto, Eris, Haumea, Makemake, and Ceres. Pluto, once considered the ninth planet, played a crucial role in redefining the definition of a planet. Dwarf planets can be found in various locations within the solar system. For example, Ceres is located in the asteroid belt between Mars and Jupiter, while Pluto and Eris reside in the Kuiper Belt, a region beyond Neptune.",
+                    "These dwarf planets exhibit fascinating characteristics. Pluto, the most famous dwarf planet, has a thin atmosphere that undergoes freezing and snowfall during its frigid winters. Haumea, on the other hand, stands out for its unique, elongated shape, resembling a cigar. Makemake showcases a reddish surface coloration. Dwarf planets can also have moons. Pluto has five known moons, while Haumea has at least two. Exploring these dwarf planets provides valuable insights into the formation and evolution of our solar system, as well as the composition and processes occurring in these distant regions.",
+                    "Spacecraft missions have contributed significantly to our understanding of dwarf planets. The New Horizons spacecraft captured detailed images and data during its flyby of Pluto, unveiling unprecedented information about this distant world. NASA's Dawn mission extensively studied the dwarf planet Ceres, orbiting it and providing valuable insights into its composition and surface features. While these missions have shed light on specific dwarf planets, continued research and exploration are vital to expand our knowledge of these intriguing celestial objects and their role in the complex dynamics of our solar system."
+                ],
+                iframeLink: {
+                    type: "image",
+                    content: "/dwarf_planets_TNOs.png" ,
+                    content_description: "Illustration of the relative sizes, albedos, and colours of some of the largest trans-Neptunian objects (dwarf planets and other candiddates excluding Ceres which is located in the asteroid belt)."
+                },
+                facts_12: [
+                    {
+                        headText: "WHAT WE ARE",
+                        text: 'Dwarf planets are intriguing celestial bodies that orbit the Sun and share some characteristics with planets but don\'t meet the criteria to be classified as full-fledged planets.'
+                    },
+                    {
+                        headText: "PLANET WANNABES",
+                        text: 'Dwarf planets are spherical in shape and orbit the Sun but are distinct from regular planets due to their size and their inability to clear their orbits of debris.'
+                    },
+                    {
+                        headText: "FAMILY MEMBERS",
+                        text: "There are currently five recognized dwarf planets in our solar system: Pluto, Eris, Haumea, Makemake, and Ceres."
+                    },
+                    {
+                        headText: "FIRST OF ALL",
+                        text: 'The first confirmed dwarf planet, Pluto, was discovered in 1930 by astronomer Clyde Tombaugh.'
+                    },
+                    {
+                        headText: "THE DEBUNKER",
+                        text: 'Eris, the largest dwarf planet, is slightly larger than Pluto and was the catalyst for reclassifying Pluto. It is named after the Greek goddess of strife and discord.'
+                    },
+                    {
+                        headText: "WEIRD PLUTO",
+                        text: "Pluto, once considered the ninth planet, is now classified as a dwarf planet. Pluto has a thin atmosphere that freezes and falls to the ground as snow during its long and cold winters."
+                    },
+                    {
+                        headText: "KING OF ASTEROIDS",
+                        text: "Ceres, the largest body in the asteroid belt between Mars and Jupiter. It is the only dwarf planet located in the inner solar system and smallest of the dwarf planets."
+                    },
+                    {
+                        headText: "MAKEX2 'N' HAUMEA",
+                        text: 'Haumea, named after a Hawaiian goddess, is unique for its elongated, cigar-like shape. Makemake, named after the creation deity of the Rapa Nui people, has a reddish coloration on its surface.'
+                    },
+                    {
+                        headText: "FAR WANDERERS",
+                        text: 'Dwarf planets exist beyond the orbit of Neptune in a region called the Kuiper Belt.'
+                    },
+                    {
+                        headText: "INSIGHT PROVIDERS",
+                        text: 'Studying dwarf planets provides valuable insights into the formation and evolution of our solar system and the processes occurring in distant regions.'
+                    },
+                    {
+                        headText: "COSMIC COMPANIONS",
+                        text: "Dwarf planets can have moons too. Pluto has five known moons (Charon, Nix, Kerberos, hydra, Styx), and Haumea has at least two (Hi'iaka & Namaka)."
+                    },
+                    {
+                        headText: "VISITATIONS",
+                        text: "The New Horizons spacecraft captured detailed images and data during its flyby of Pluto, unveiling unprecedented information about this distant world. NASA's Dawn mission extensively studied the dwarf planet Ceres." 
+                    },
+                ]
+            },
+            inDepth: [
+                {
+                    title: "What Is A Dwarf Planet?",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "A dwarf planet is a small planetary-mass object that is in direct orbit of the Sun, smaller than any of the eight classical planets but still a world in its own right. The prototypical dwarf planet is Pluto. The interest of dwarf planets to planetary geologists is that they may be geologically active bodies, an expectation that was borne out in 2015 by the Dawn mission to Ceres and the New Horizons mission to Pluto.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Astronomers are in general agreement that at least the nine largest candidates are dwarf planets: Pluto, Eris, Haumea, Makemake, Gonggong, Quaoar, Sedna, Ceres, and Orcus. Of these nine plus the tenth-largest candidate Salacia, two have been visited by spacecraft (Pluto and Ceres) and seven others have at least one known moon (Eris, Haumea, Makemake, Gonggong, Quaoar, Orcus, and Salacia), which allows their masses and thus an estimate of their densities to be determined. Mass and density in turn can be fit into geophysical models in an attempt to determine the nature of these worlds. Only one, Sedna, has neither been visited nor has any known moons, making an accurate estimate of mass difficult. Some astronomers include many smaller bodies as well, but there is no consensus that these are likely to be dwarf planets.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/dwarf_planets_TNOs.png",
+                            content_description: "Illustration of the relative sizes, albedos, and colours of some of the largest trans-Neptunian objects (dwarf planets and other candiddates excluding Ceres which is located in the asteroid belt)."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: 'The term dwarf planet was coined by planetary scientist Alan Stern as part of a three-way categorization of planetary-mass objects in the Solar System: classical planets, dwarf planets, and satellite planets. Dwarf planets were thus conceived of as a category of planet. In 2006, however, the concept was adopted by the International Astronomical Union (IAU) as a category of sub-planetary objects, part of a three-way recategorization of bodies orbiting the Sun: planets, dwarf planets and small Solar System bodies.',
+                            content_description: null
+                        },
+                        
+                    ]
+                },
+                {
+                    title: "History of Concept",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Starting in 1801, astronomers discovered Ceres and other bodies between Mars and Jupiter that for decades were considered to be planets. Between then and around 1851, when the number of planets had reached 23, astronomers started using the word asteroid (from Greek, meaning 'star-like' or 'star-shaped') for the smaller bodies and began to distinguish them as minor planets rather than major planets.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "With the discovery of Pluto in 1930, most astronomers considered the Solar System to have nine major planets, along with thousands of significantly smaller bodies (asteroids and comets). For almost 50 years, Pluto was thought to be larger than Mercury, but with the discovery in 1978 of Pluto's moon Charon, it became possible to measure Pluto's mass accurately and to determine that it was much smaller than initial estimates. It was roughly one-twentieth the mass of Mercury, which made Pluto by far the smallest planet. Although it was still more than ten times as massive as the largest object in the asteroid belt, Ceres, it had only one-fifth the mass of Earth's Moon. Furthermore, having some unusual characteristics, such as large orbital eccentricity and a high orbital inclination, it became evident that it was a different kind of body from any of the other planets.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In the 1990s, astronomers began to find objects in the same region of space as Pluto (now known as the Kuiper belt), and some even farther away. Many of these shared several of Pluto's key orbital characteristics, and Pluto started being seen as the largest member of a new class of objects, the plutinos. It became clear that either the larger of these bodies would also have to be classified as planets, or Pluto would have to be reclassified, much as Ceres had been reclassified after the discovery of additional asteroids. This led some astronomers to stop referring to Pluto as a planet. Several terms, including subplanet and planetoid, started to be used for the bodies now known as dwarf planets. Astronomers were also confident that more objects as large as Pluto would be discovered, and the number of planets would start growing quickly if Pluto were to remain classified as a planet.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Eris (then known as 2003 UB313) was discovered in January 2005; it was thought to be slightly larger than Pluto, and some reports informally referred to it as the tenth planet. As a consequence, the issue became a matter of intense debate during the IAU General Assembly in August 2006. The IAU's initial draft proposal included Charon, Eris, and Ceres in the list of planets. After many astronomers objected to this proposal, an alternative was drawn up by the Uruguayan astronomers Julio Ángel Fernández and Gonzalo Tancredi: They proposed an intermediate category for objects large enough to be round but that had not cleared their orbits of planetesimals. Beside dropping Charon from the list, the new proposal also removed Pluto, Ceres, and Eris, because they have not cleared their orbits.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Although concerns were raised about the classification of planets orbiting other stars, the issue was not resolved; it was proposed instead to decide this only when dwarf-planet-size objects start to be observed. In the immediate aftermath of the IAU definition of dwarf planet, some scientists expressed their disagreement with the IAU resolution. Campaigns included car bumper stickers and T-shirts. Mike Brown (the discoverer of Eris) agrees with the reduction of the number of planets to eight. NASA announced in 2006 that it would use the new guidelines established by the IAU.",
+                            content_description: null
+                        },
+                        
+                    ]
+                },
+                { 
+                    title: "Definition And Similar Concepts",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The category dwarf planet arose from a conflict between dynamical and geophysical ideas of what a useful conception of a planet would be. In terms of the dynamics of the Solar System, the major distinction is between bodies that gravitationally dominate their neighbourhood (Mercury through Neptune) and those that do not (such as the asteroids and Kuiper belt objects). A celestial body may have a dynamic (planetary) geology at approximately the mass required for its mantle to become plastic under its own weight, which results in the body acquiring a round shape. Because this requires a much lower mass than gravitationally dominating the region of space near their orbit, there are a population of objects that are massive enough to have a world-like appearance and planetary geology, but not massive enough to clear their neighborhood. Examples are Ceres in the asteroid belt and Pluto in the Kuiper belt.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Orbital Dominance",
+                            content: "Alan Stern and Harold F. Levison introduced a parameter Λ (lambda), expressing the likelihood of an encounter resulting in a given deflection of orbit. The value of this parameter in Stern's model is proportional to the square of the mass and inversely proportional to the period. This value can be used to estimate the capacity of a body to clear the neighbourhood of its orbit, where Λ > 1 will eventually clear it. A gap of five orders of magnitude in Λ was found between the smallest terrestrial planets and the largest asteroids and Kuiper belt objects.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Using this parameter, Steven Soter and other astronomers argued for a distinction between planets and dwarf planets based on the inability of the latter to \"clear the neighbourhood around their orbits\": planets are able to remove smaller bodies near their orbits by collision, capture, or gravitational disturbance (or establish orbital resonances that prevent collisions), whereas dwarf planets lack the mass to do so.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Soter went on to propose a parameter he called the planetary discriminant, designated with the symbol µ (mu), that represents an experimental measure of the actual degree of cleanliness of the orbital zone (where µ is calculated by dividing the mass of the candidate body by the total mass of the other objects that share its orbital zone), where µ > 100 is deemed to be cleared. Jean-Luc Margot refined Stern and Levison's concept to produce a similar parameter Π (Pi). It is based on theory, avoiding the empirical data used by Λ. Π > 1 indicates a planet, and there is again a gap of several orders of magnitude between planets and dwarf planets. There are several other schemes that try to differentiate between planets and dwarf planets, but the 2006 definition uses this concept.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            content: "/dwarf_planets_positions.jpg",
+                            content_description: "An illustration of the positions of planets and dwarf planets in out solar system. Ceres being in the inner solar system in the Asteroid belt and rest of the dwarf planets far outwards in the kuiper belt and beyond."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Hydrostatic Equilibrium",
+                            content: "Enough internal pressure, caused by the body's gravitation, will turn a body plastic, and enough plasticity will allow high elevations to sink and hollows to fill in, a process known as gravitational relaxation. Bodies smaller than a few kilometers are dominated by non-gravitational forces and tend to have an irregular shape and may be rubble piles. Larger objects, where gravity is significant but not dominant, are potato-shaped; the more massive the body, the higher its internal pressure, the more solid it is and the more rounded its shape, until the pressure is enough to overcome its compressive strength and it achieves hydrostatic equilibrium. Then, a body is as round as it is possible to be, given its rotation and tidal effects, and is an ellipsoid in shape. This is the defining limit of a dwarf planet.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "An IAU question-and-answer press release from 2006 estimated that objects with mass above 0.5e21 kg and radius greater than 400 km would \"normally\" be in hydrostatic equilibrium (\"the shape ... would normally be determined by self-gravity\"), but that \"all borderline cases would need to be determined by observation.\"[52] This is close to what as of 2019 is believed to be roughly the limit for objects beyond Neptune that are fully compact, solid bodies, with Salacia (r = 423±11 km, m = (0.492 ± 0.007)e21 kg) and possibly 2002 MS4 (r = 400±12 km, m unknown) being borderline cases both for the 2006 Q&A expectations and in more recent evaluations, and with Orcus being just above the expected limit. No other body with a measured mass is close to the expected mass limit, though several without a measured mass approach the expected size limit.",
+                            content_description: null
+                        },
+                        
+                    ]
+                },
+                {
+                    title: "Nomenclature",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Names for large subplanetary bodies include dwarf planet, planetoid (more general term), meso-planet (narrowly used for sizes between Mercury and Ceres), quasi-planet and (in the transneptunian region) plutoid. Dwarf planet, however, was originally coined as a term for the smallest planets, not the largest sub-planets, and is still used that way by many planetary astronomers. Alan Stern coined the term dwarf planet, analogous to the term dwarf star, as part of a three-fold classification of planets, and he and many of his colleagues continue to classify dwarf planets as a class of planets. The IAU decided that dwarf planets are not to be considered planets, but kept Stern's term for them.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In most languages equivalent terms have been created by translating dwarf planet more-or-less literally: French planète naine, Spanish planeta enano, German Zwergplanet, Russian karlikovaya planeta (карликовая планета), Arabic kaukab qazm (كوكب قزم), Chinese ǎixíngxīng (矮行星), Korean waesohangseong (왜소행성 / 矮小行星) or waehangseong (왜행성 / 矮行星), but in Japanese they are called junwakusei (準惑星), meaning \"quasi-planets\" or \"peneplanets\" (pene- meaning \"almost\").",
+                            content_description: null
+                        },                          
+                    ]
+                },
+                {
+                    title: "Population of Dwarf Planets",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "There is no clear definition of what constitutes a dwarf planet, and whether to classify an object as one is up to individual astronomers. Thus, the number of dwarf planets in the Solar System is unknown. The three objects under consideration during the debates leading up to the 2006 IAU acceptance of the category of dwarf planet, Ceres, Pluto (5 known moons) and Eris (2003 UB313, 1 known moon) are generally accepted as dwarf planets, including by those astronomers who continue to classify dwarf planets as planets. Only one of them, Pluto, has been observed in enough detail to verify that its current shape fits what would be expected from hydrostatic equilibrium.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The IAU only established guidelines for which committee would oversee the naming of likely dwarf planets: any unnamed trans-Neptunian object with an absolute magnitude brighter than +1 (and hence a minimum diameter of 838 km at the maximum geometric albedo of 1) was to be named by a joint committee consisting of the Minor Planet Center and the planetary working group of the IAU. At the time (and still as of 2021), the only bodies to meet this threshold were Haumea (2003 EL61, 2 known moons) and Makemake (2005 FY9, 1 known moon). These bodies are generally assumed to be dwarf planets, although they have not yet been demonstrated to be in hydrostatic equilibrium, and there is some disagreement for Haumea.",
+                            content_description: null
+                        },                                                  
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "These five bodies, the three under consideration in 2006 (Pluto, Ceres and Eris) plus the two named in 2008 (Haumea and Makemake), are commonly presented as the dwarf planets of the Solar System, though the limiting factor (albedo) is not what defines an object as a dwarf planet.",
+                            content_description: null
+                        },     
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: '/dwarf_planets_lists.jpg',
+                            content_description: "Artistic comparison of Pluto, Eris, Haumea, Makemake, Ceres. The five commonly presented dwarf planets."
+                        },  
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The astronomical community commonly refers to other larger TNOs as dwarf planets as well. At least four additional bodies meet the preliminary criteria of Brown, of Tancredi et al., and of Grundy et al. for identifying dwarf planets, and are generally called dwarf planets by astronomers as well: Quaoar (2002 LM60, 1 known moon), Sedna (2003 VB12), Orcus (2004 DW, 1 known moon) and Gonggong (2007 OR10, 1 known moon).",
+                            content_description: null
+                        },                                             
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "More bodies have been proposed, such as Salacia (2004 SB60, 1 known moon) and 2002 MS4 by Brown, Varuna and Ixion by Tancredi et al., and 2013 FY27 by Sheppard et al. Most of the larger bodies have moons, which enables a determination of their mass and thus their density, which inform estimates of whether they could be dwarf planets. The largest TNOs that are not known to have moons are Sedna, 2002 MS4, 2002 AW197 and Ixion. In particular, Salacia has a known mass and diameter putting it as a borderline case by the IAU's 2006 Q&A.",
+                            content_description: null
+                        },  
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: '/TNOs_large.png',
+                            content_description: "Artistic comparison of Pluto, Eris, Haumea, Makemake, Gonggong, Quaoar, Sedna, Orcus, Salacia, 2002 MS4, and Earth along with the Moon."
+                        },                                           
+                    ]
+                },
+                {
+                    title: "Similar Objects",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "A number of bodies physically resemble dwarf planets. These include former dwarf planets, which may still have equilibrium shape or evidence of active geology; planetary-mass moons, which meet the physical but not the orbital definition for dwarf planet; and Charon in the Pluto-Charon system, which is arguably a binary dwarf planet. The categories may overlap: Triton, for example, is both a former dwarf planet and a planetary-mass moon.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Former Dwarf Planets",
+                            content: "Vesta, the next-most-massive body in the asteroid belt after Ceres, was once in hydrostatic equilibrium and is roughly spherical, deviating mainly due to massive impacts that formed the Rheasilvia and Veneneia craters after it solidified. Its dimensions are not consistent with it currently being in hydrostatic equilibrium. Triton is more massive than Eris or Pluto, has an equilibrium shape, and is thought to be a captured dwarf planet (likely a member of a binary system), but no longer directly orbits the sun. Phoebe is a captured centaur that, like Vesta, is no longer in hydrostatic equilibrium, but is thought to have been so early in its history due to radiogenic heating. Evidence from 2019 suggests that Theia, the former planet that collided with Earth in the giant-impact hypothesis, may have originated in the outer Solar System rather than the inner Solar System and that Earth's water originated on Theia, thus implying that Theia may have been a former dwarf planet from the Kuiper Belt.",
+                            content_description: null
+                        }, 
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: '/4_vesta_large.jpg',
+                            content_description: "4 Vesta, an asteroid that was once a dwarf planet: Vesta is a colorful world; craters of a variety of ages make splashes of lighter and darker brown against its surface. This photo was processed from data acquired on July 24, 2011, from a distance of about 5200 kilometers, during the third \"rotation characterization\" observation by Dawn."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Planetary-mass Moons",
+                            content: "At least nineteen moons have equilibrium shape from having relaxed under self-gravity at some point, though some have since frozen solid and are no longer in equilibrium. Seven are more massive than either Eris or Pluto. These moons are not physically distinct from the dwarf planets, but do not fit the IAU definition because they do not directly orbit the Sun. (Indeed, Neptune's moon Triton is a captured dwarf planet, and Ceres formed in the same region of the Solar System as the moons of Jupiter and Saturn.) Alan Stern calls planetary-mass moons \"satellite planets\", one of three categories of planet, together with dwarf planets and classical planets. The term planemo (\"planetary-mass object\") also covers all three populations.",
+                            content_description: null
+                        }, 
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: '/Triton.jpg',
+                            content_description: "Triton, as imaged by Voyager 2 in 1989. Triton is thought to be a captured dwarf planet."
+                        }, 
+                        {
+                            content_type: "text",
+                            head: "Charon",
+                            content: "There has been some debate as to whether the Pluto-Charon system should be considered a double dwarf planet. In a draft resolution for the IAU definition of planet, both Pluto and Charon were considered planets in a binary system. The IAU currently says Charon is not considered a dwarf planet but rather a satellite of Pluto, though the idea that Charon might qualify as a dwarf planet may be considered at a later date. Nonetheless, it is no longer clear that Charon is in hydrostatic equilibrium. Also, the location of the barycenter depends not only on the relative masses of the bodies, but also on the distance between them; the barycenter of the Sun-Jupiter orbit, for example, lies outside the Sun, but they are not considered a binary object. Thus, a formal definition of what constitutes a binary (dwarf) planet must be established before Pluto and Charon are formally defined as binary dwarf planets.",
+                            content_description: null
+                        },                                                
+                    ]
+                },
+                {
+                    title: "Exploration",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "On March 6, 2015, the Dawn spacecraft entered orbit around Ceres, becoming the first spacecraft to visit a dwarf planet. On July 14, 2015, the New Horizons space probe flew by Pluto and its five moons. Ceres displays such evidence of an active geology as salt deposits and cryovolcanos, while Pluto has water-ice mountains drifting in nitrogen-ice glaciers, as well as a significant atmosphere. Ceres evidently has brine percolating through its subsurface, while there is evidence that Pluto has an actual subsurface ocean.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Dawn had previously orbited the asteroid Vesta. Saturn's moon Phoebe has been imaged by Cassini and before that by Voyager 2, which also encountered Neptune's moon Triton. All three bodies show evidence of once being dwarf planets, and their exploration helps clarify the evolution of dwarf planets. New Horizons has captured distant images of Triton, Quaoar, Haumea, Eris, and Makemake, as well as the smaller candidates Ixion, 2002 MS4, and 2014 OE394.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Watch To Learn More...",
+                    texts: [
+                        {
+                            content_type: "embed_video",
+                            content: "6hWt_HHxZB4",
+                            content_description: "A journey through our Solar System to all of the confirmed dwarf planets. These amazing worlds show us a tiny fraction of what is possible in the vast expanse of space and time."
+                        },  
+                    ]
+                }
+            ],
+            summary: null,
+            dateUpdate: "2023-05-09"
+        },
+        pluto: {
+            name: "Pluto",
+            baseImgUrl: "/pluto_poster_A.jpg",
+            baseText: "Pluto",
+            subText: "Pluto is a complex world of ice mountains and frozen plains. Once considered the ninth planet, Pluto is the best known of a new class of worlds called dwarf planets.",
+            next: {
+                key: "Ceres",
+                value: "/dwarf_planets/ceres"
+            },
+            prev: {
+                key: "Dwarf Planets",
+                value: "/dwarf_planets"
+            },
+            subdata: [
+                {
+                    key: "Distance From Sun",
+                    value: "3,670,050,000 miles"
+                },
+                {
+                    key: "One Way Light Time From Sun",
+                    value: "5.5 hours"
+                },
+                {
+                    key: "Length Of Year",
+                    value: "90.530 Earth Days"
+                },
+                {
+                    key: "Satellites Count",
+                    value: "5"
+                },
+            ],
+            overview: {
+                name: "Pluto",
+                topBox: {
+                    headText: "PLUTO'S HEART",
+                    text: "Tombaugh Regio is a large, light-colored region about 1,590 km (990 mi) across. It  is the largest bright surface feature of the dwarf planet Pluto. The two lobes of the feature are geologically distinct. The western lobe, Sputnik Planitia, is smoother than the eastern, and they are of slightly different colors. Named after Clyde Tombaugh, the discoverer of Pluto, it was nicknamed Pluto's \"heart\" after its shape."
+                },
+                paragraphs: [
+                    "Pluto is a dwarf planet in the Kuiper Belt, a donut-shaped region of icy bodies beyond the orbit of Neptune. There may be millions of these icy objects, collectively referred to as Kuiper Belt objects (KBOs) or trans-Neptunian objects (TNOs), in this distant region of our solar system.",
+                    "Pluto, which is smaller than Earths Moon, has a heart-shaped glacier thats the size of Texas and Oklahoma. This fascinating world has blue skies, spinning moons, mountains as high as the Rockies, and it snows but the snow is red.", "On July 14, 2015, NASAs New Horizons spacecraft made its historic flight through the Pluto system providing the first close-up images of Pluto and its moons and collecting other data that has transformed our understanding of these mysterious worlds on the solar systems outer frontier.", "In the years since that groundbreaking flyby, nearly every conjecture about Pluto possibly being an inert ball of ice has been thrown out the window or flipped on its head."
+                ],
+                iframeLink: {
+                    type: "iframe",
+                    content: "https://eyes.nasa.gov/apps/solar-system/#/134340_pluto?embed=true&amp;logo=false" ,
+                    content_description: ""
+                },
+                facts_12: [
+                    {
+                        headText: "SMALL WORLD",
+                        text: "Pluto is about 1,400 miles (2,380 km) wide. That's about half the width of the United States, or 2/3 the width of Earth's moon."
+                    },
+                    {
+                        headText: "FAR WANDERER",
+                        text: "Pluto orbits the Sun about 3.6 billion miles (5.8 billion km) away on average, about 40 times as far as Earth, in a region called the Kuiper Belt."
+                    },
+                    {
+                        headText: "LONG WAY AROUND ",
+                        text: "A year on Pluto is 248 Earth years. A day on Pluto lasts 153 hours, or about 6 Earth days."
+                    },
+                    {
+                        headText: "HAZY WORLD",
+                        text: "Pluto has a thin atmosphere of nitrogen, methane and carbon monoxide. The atmosphere has a blue tint and distinct layers of haze."
+                    },
+                    {
+                        headText: "BIG HEART",
+                        text: "Pluto boasts a heart-shaped feature on its surface called Tombaugh Regio, named after the astronomer who discovered Pluto (Clyde Tombaugh)."
+                    },
+                    {
+                        headText: "GEO-ACTIVE",
+                        text: "Evidence of cryovolcanism suggests that Pluto's interior may harbor subsurface oceans of water, resulting in periodic eruptions of icy materials."
+                    },
+                    {
+                        headText: "NAMED BY A KID",
+                        text: " Venetia Burney (1918-2009), an eleven-year-old schoolgirl in Oxford, England, suggested the name Pluto in 1930."
+                    },
+                    {
+                        headText: "CHARON DANCE",
+                        text: "Pluto and its largest moon, Charon, are tidally locked, meaning they always show the same face to each other as they orbit."
+                    },
+                    {
+                        headText: "HARSH HABITAT",
+                        text: "Plutos surface is far too cold, -378 to -396 degrees F (-228 to -238 C), to sustain life as we know it."
+                    },
+                    {
+                        headText: "COSMIC COMPANIONS",
+                        text: "Pluto has five moons, Pluto and four smaller moons: Nix, Hydra, Kerberos, and Styx, which were discovered by the Hubble Space Telescope."
+                    },
+                    {
+                        headText: "SOLE ENCOUNTER",
+                        text: "The only spacecraft to visit Pluto is NASA's New Horizons, which passed close by in July 2015." 
+                    },
+                    {
+                        headText: "FANCY WORD",
+                        text: "In 2006, in its 17th annual words-of-the-year vote, the American Dialect Society voted \"plutoed\" as the word of the year. To \"pluto\" is to \"demote or devalue someone or something\"."
+                    },
+                ]
+            },
+            inDepth: [
+                {
+                    title: "Introduction",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Pluto (minor-planet designation: 134340 Pluto) is a dwarf planet in the Kuiper belt, a ring of bodies beyond the orbit of Neptune. It is the ninth-largest and tenth-most-massive known object to directly orbit the Sun. It is the largest known trans-Neptunian object by volume, by a small margin, but is slightly less massive than Eris. Like other Kuiper belt objects, Pluto is made primarily of ice and rock and is much smaller than the inner planets. Pluto has only one sixth the mass of Earth's moon, and one third its volume.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Pluto has a moderately eccentric and inclined orbit, ranging from 30 to 49 astronomical units (4.5 to 7.3 billion kilometers; 2.8 to 4.6 billion miles) from the Sun. Light from the Sun takes 5.5 hours to reach Pluto at its orbital distance of 39.5 AU (5.91 billion km; 3.67 billion mi). Pluto's eccentric orbit periodically brings it closer to the Sun than Neptune, but a stable orbital resonance prevents them from colliding. The dwarf planet has five known moons: Charon, the largest, whose diameter is just over half that of Pluto; Styx; Nix; Kerberos; and Hydra. Pluto and Charon are sometimes considered a binary system because the barycenter of their orbits does not lie within either body, and they are tidally locked. The New Horizons mission was the first spacecraft to visit Pluto and its moons, making a flyby on July 14, 2015 and taking detailed measurements and observations.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/plutoXcharon.jpg",
+                            content_description: "Charon and Pluto: Strikingly Different Worlds A composite of enhanced color images of Pluto (lower right) and Charon (upper left), taken by NASA's New Horizons spacecraft as it passed through the Pluto system on July 14, 2015. This image highlights the striking differences between Pluto and Charon. The color and brightness of both Pluto and Charon have been processed identically to allow direct comparison of their surface properties, and to highlight the similarity between Charon's polar red terrain and Pluto's equatorial red terrain. Pluto and Charon are shown with approximately correct relative sizes, but their true separation is not to scale."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Pluto was discovered in 1930, the first object in the Kuiper belt. It was immediately hailed as the ninth planet, but it was always the odd object out, and its planetary status was questioned when it was found to be much smaller than expected. These doubts increased following the discovery of additional objects in the Kuiper belt starting in the 1990s, and particularly the more massive scattered disk object Eris in 2005. In 2006, the International Astronomical Union (IAU) formally redefined the term planet to exclude dwarf planets such as Pluto. Many planetary astronomers, however, continue to consider Pluto and other dwarf planets to be planets.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Nomenclature And Mythology",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The name Pluto is for the Roman god of the underworld, equivalent to the Greek Hades. However, the Greek name \"Plouton\" (from which the Romans derived their name \"Pluto\") was also occasionally used as an alternative name for Hades. But Pluto is definitely the Roman spelling. The god Pluto was one of six surviving children of Saturn, and the others had already all been chosen as names of planets (his brothers Jupiter and Neptune, and his sisters Ceres, Juno and Vesta). The adjectival form of Uranus is \"Plutonian\". Pluto's planetary symbol ⟨♇⟩ was then created as a monogram of the letters \"PL\". This symbol is rarely used in astronomy today, though it is still common in astrology. However, the most-common astrological symbol for Pluto, now occasionally used in astronomy as well, is an orb (possibly representing Pluto's invisibility cap) over Pluto's bident ⟨⯓⟩, which dates to the early 1930s.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Upon the announcement of the discovery, Lowell Observatory received over a thousand suggestions for names. Three names topped the list: Minerva, Pluto and Cronus. 'Minerva' was the Lowell staff's first choice but was rejected because it had already been used for an asteroid; Cronus was disfavored because it was promoted by an unpopular and egocentric astronomer, Thomas Jefferson Jackson See. A vote was taken, and 'Pluto' was the unanimous choice. To make sure the name stuck, and that the planet would not suffer changes in its name as Uranus had, Lowell Observatory proposed the name to the American Astronomical Society and the Royal Astronomical Society; both approved it unanimously. The name was published on May 1, 1930.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The name 'Pluto' had received some 150 nominations among the letters and telegrams sent to Lowell. The first had been from Venetia Burney (1918-2009), an eleven-year-old schoolgirl in Oxford, England, who was interested in classical mythology. She had suggested it to her grandfather Falconer Madan when he read the news of Pluto's discovery to his family over breakfast; Madan passed the suggestion to astronomy professor Herbert Hall Turner, who cabled it to colleagues at Lowell on March 16, three days after the announcement.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Most languages use the name \"Pluto\" in various transliterations. In Japanese, Houei Nojiri suggested the calque Meiōsei (冥王星, \"Star of the King (God) of the Underworld\"), and this was borrowed into Chinese and Korean. Some languages of India use the name Pluto, but others, such as Hindi, use the name of Yama, the God of Death in Hinduism. Polynesian languages also tend to use the indigenous god of the underworld, as in Māori Whiro. Vietnamese might be expected to follow Chinese, but does not because the Sino-Vietnamese word 冥 minh \"dark\" is homophonous with 明 minh \"bright\". Vietnamese instead uses Yama, which is also a Buddhist deity, in the form of Sao Diêm Vương 星閻王 \"Yama's Star\", derived from Chinese 閻王 Yán Wáng / Yìhm Wòhng \"King Yama\".",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Pluto's moons are named for other mythological figures associated with the underworld. Charon is named for the river Styx boatman who ferries souls in the underworld (as well as honoring Sharon, the wife of discoverer James Christy); Nix is named for the mother of Charon, who is also the goddess of darkness and night; Hydra is named for the nine-headed serpent that guards the underworld; Kerberos is named after the three-headed dog of Greek mythology (and called Fluffy in the Harry Potter novels), and Styx is named for the mythological river that separates the world of the living from the realm of the dead.",
+                            content_description: null
+                        },
+
+                    ]
+                },
+                { 
+                    title: "Physical Characteristics",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: "Internal Structure",
+                            content: "Pluto's density is 1.860 ± 0.013 g/cu.cm. Because the decay of radioactive elements would eventually heat the ices enough for the rock to separate from them, scientists expect that Pluto's internal structure is differentiated, with the rocky material having settled into a dense core surrounded by a mantle of water ice. The pre-New Horizons estimate for the diameter of the core is 1700 km, 70% of Pluto's diameter. Pluto has no magnetic field.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "It is possible that such heating continues today, creating a subsurface ocean of liquid water 100 to 180 km thick at the core-mantle boundary. In September 2016, scientists at Brown University simulated the impact thought to have formed Sputnik Planitia, and showed that it might have been the result of liquid water upwelling from below after the collision, implying the existence of a subsurface ocean at least 100 km deep. In June 2020, astronomers reported evidence that Pluto may have had a subsurface ocean, and consequently may have been habitable, when it was first formed. In March 2022, they concluded that peaks on Pluto are actually a merger of \"ice volcanoes\", suggesting a source of heat on the body at levels previously thought not possible.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/pluto_internal_structure.jpg",
+                            content_description: "Model of the internal structure of Pluto: Water ice crust, Liquid water ocean, Silicate core."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Surface",
+                            content: "The plains on Pluto's surface are composed of more than 98 percent nitrogen ice, with traces of methane and carbon monoxide. Nitrogen and carbon monoxide are most abundant on the anti-Charon face of Pluto (around 180° longitude, where Tombaugh Regio's western lobe, Sputnik Planitia, is located), whereas methane is most abundant near 300° east. The mountains are made of water ice. Pluto's surface is quite varied, with large differences in both brightness and color. Pluto is one of the most contrastive bodies in the Solar System, with as much contrast as Saturn's moon Iapetus. The color varies from charcoal black, to dark orange and white. Pluto's color is more similar to that of Io with slightly more orange and significantly less red than Mars. Notable geographical features include Tombaugh Regio, or the \"Heart\" (a large bright area on the side opposite Charon), Cthulhu Macula, or the \"Whale\" (a large dark area on the trailing hemisphere), and the \"Brass Knuckles\" (a series of equatorial dark areas on the leading hemisphere).",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/pluto_true_color.jpg",
+                            content_description: "Pluto's image taken by New Horizons on July 14, 2015, from a range of 22,025 miles (35,445 kilometers). The striking features on Pluto are clearly visible, including the bright expanse of Pluto's icy, nitrogen-and-methane rich \"heart,\" Sputnik Planitia. The natural-looking colors result from refined calibration of data gathered by New Horizons' color Multispectral Visible Imaging Camera (MVIC)."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Sputnik Planitia, the western lobe of the \"Heart\", is a 1,000 km-wide basin of frozen nitrogen and carbon monoxide ices, divided into polygonal cells, which are interpreted as convection cells that carry floating blocks of water ice crust and sublimation pits towards their margins; there are obvious signs of glacial flows both into and out of the basin. It has no craters that were visible to New Horizons, indicating that its surface is less than 10 million years old. Latest studies have shown that the surface has an age of 180000 (+90000; -40000) years.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The New Horizons science team summarized initial findings as \"Pluto displays a surprisingly wide variety of geological landforms, including those resulting from glaciological and surface-atmosphere interactions as well as impact, tectonic, possible cryovolcanic, and mass-wasting processes\". In Western parts of Sputnik Planitia there are fields of transverse dunes formed by the winds blowing from the center of Sputnik Planitia in the direction of surrounding mountains. The dune wavelengths are in the range of 0.4-1 km and likely consist of methane particles 200-300 μm in size.[",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/pluto_water_ice.jpg",
+                            content_description: "Regions where water ice has been detected (blue regions)."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Atmosphere",
+                            content: "Pluto has a tenuous atmosphere consisting of nitrogen , methane , and carbon monoxide , which are in equilibrium with their ices on Pluto's surface. According to the measurements by New Horizons, the surface pressure is about 1 Pa (10 μbar), roughly one million to 100,000 times less than Earth's atmospheric pressure. It was initially thought that, as Pluto moves away from the Sun, its atmosphere should gradually freeze onto the surface; studies of New Horizons data and ground-based occultations show that Pluto's atmospheric density increases, and that it likely remains gaseous throughout Pluto's orbit. New Horizons observations showed that atmospheric escape of nitrogen to be 10,000 times less than expected. Pluto has no or almost no troposphere; observations by New Horizons suggest only a thin tropospheric boundary layer. Its thickness in the place of measurement was 4 km, and the temperature was 37 ± 3 K. The layer is not continuous.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/uranus_atmosphere.png",
+                            content_description: "A near-true-color image taken by New Horizons after its flyby. Numerous layers of blue haze float in Pluto's atmosphere. Along and near the limb, mountains and their shadows are visible."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In July 2019, an occultation by Pluto showed that its atmospheric pressure, against expectations, had fallen by 20% since 2016. In 2021, astronomers at the Southwest Research Institute confirmed the result using data from an occultation in 2018, which showed that light was appearing less gradually from behind Pluto's disc, indicating a thinning atmosphere. The presence of methane, a powerful greenhouse gas, in Pluto's atmosphere creates a temperature inversion, with the average temperature of its atmosphere tens of degrees warmer than its surface, though observations by New Horizons have revealed Pluto's upper atmosphere to be far colder than expected (70 K, as opposed to about 100 K). Pluto's atmosphere is divided into roughly 20 regularly spaced haze layers up to 150 km high, thought to be the result of pressure waves created by airflow across Pluto's mountains.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Magnetosphere",
+                            content: "It isn't known whether Pluto has a magnetic field, but its small size and slow rotation suggest little or none.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Mass and Size",
+                            content: "Pluto's diameter is 2376.6±3.2 km and its mass is (1.303 ± 0.003)e22 kg, 17.7% that of the Moon (0.22% that of Earth). Its surface area is 1.774443e7 sq.km, or just slightly bigger than Russia or Antarctica. Its surface gravity is 0.063 g (compared to 1 g for Earth and 0.17 g for the Moon). The discovery of Pluto's satellite Charon in 1978 enabled a determination of the mass of the Pluto-Charon system by application of Newton's formulation of Kepler's third law. Observations of Pluto in occultation with Charon allowed scientists to establish Pluto's diameter more accurately, whereas the invention of adaptive optics allowed them to determine its shape more accurately.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/plutoXearth.jpg",
+                            content_description: "Pluto (bottom left) compared in size to the Earth and the Moon. Diameter comparison of Pluto, Moon, and Earth. Scale: Approximately 28.9 km per pixel."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "With less than 0.2 lunar masses, Pluto is much less massive than the terrestrial planets, and also less massive than seven moons: Ganymede, Titan, Callisto, Io, the Moon, Europa, and Triton. The mass is much less than thought before Charon was discovered. Pluto is more than twice the diameter and a dozen times the mass of Ceres, the largest object in the asteroid belt. It is less massive than the dwarf planet Eris, a trans-Neptunian object discovered in 2005, though Pluto has a larger diameter of 2,376.6 km compared to Eris's approximate diameter of 2,326 km.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Determinations of Pluto's size have been complicated by its atmosphere and hydrocarbon haze. In March 2014, Lellouch, de Bergh et al. published findings regarding methane mixing ratios in Pluto's atmosphere consistent with a Plutonian diameter greater than 2,360 km, with a \"best guess\" of 2,368 km. On July 13, 2015, images from NASA's New Horizons mission Long Range Reconnaissance Imager (LORRI), along with data from the other instruments, determined Pluto's diameter to be 2,370 km (1,470 mi), which was later revised to be 2,372 km (1,474 mi) on July 24, and later to 2374±8 km.Using radio occultation data from the New Horizons Radio Science Experiment (REX), the diameter was found to be 2376.6 ± 3.2 km.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Orbit & Rotation",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Pluto's orbital period is currently about 248 years. Its orbital characteristics are substantially different from those of the planets, which follow nearly circular orbits around the Sun close to a flat reference plane called the ecliptic. In contrast, Pluto's orbit is moderately inclined relative to the ecliptic (over 17°) and moderately eccentric (elliptical). This eccentricity means a small region of Pluto's orbit lies closer to the Sun than Neptune's. The Pluto-Charon barycenter came to perihelion on September 5, 1989, and was last closer to the Sun than Neptune between February 7, 1979, and February 11, 1999.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Although the 3:2 resonance with Neptune (see below) is maintained, Pluto's inclination and eccentricity behave in a chaotic manner. Computer simulations can be used to predict its position for several million years (both forward and backward in time), but after intervals much longer than the Lyapunov time of 10-20 million years, calculations become unreliable: Pluto is sensitive to immeasurably small details of the Solar System, hard-to-predict factors that will gradually change Pluto's position in its orbit. The semi-major axis of Pluto's orbit varies between about 39.3 and 39.6 au with a period of about 19,951 years, corresponding to an orbital period varying between 246 and 249 years. The semi-major axis and period are presently getting longer.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/pluto_orbit.gif",
+                            content_description: "Simulated animation of Pluto's orbit from 1850 to 2097 around the Sun, The orbits (inner to outer) are for: Saturn(yellow), Uranus(cyan), Neptune(blue) and Pluto(purple)."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Relationship with Neptune",
+                            content: "Despite Pluto's orbit appearing to cross that of Neptune when viewed from directly above, the two objects' orbits do not intersect. When Pluto is closest to the Sun, and close to Neptune's orbit as viewed from above, it is also the farthest above Neptune's path. Pluto's orbit passes about 8 AU above that of Neptune, preventing a collision. This alone is not enough to protect Pluto; perturbations from the planets (especially Neptune) could alter Pluto's orbit (such as its orbital precession) over millions of years so that a collision could be possible. However, Pluto is also protected by its 2:3 orbital resonance with Neptune: for every two orbits that Pluto makes around the Sun, Neptune makes three. Each cycle lasts about 495 years. (There are many other objects in this same resonance, called plutinos).",
+                            content_description: null
+                        },                    
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The 2:3 resonance between the two bodies is highly stable and has been preserved over millions of years. This prevents their orbits from changing relative to one another, and so the two bodies can never pass near each other. Even if Pluto's orbit were not inclined, the two bodies could never collide. The long term stability of the mean-motion resonance is due to phase protection. When Pluto's period is slightly shorter than 3/2 of Neptune, its orbit relative to Neptune will drift, causing it to make closer approaches behind Neptune's orbit. The gravitational pull between the two then causes angular momentum to be transferred to Pluto, at Neptune's expense. This moves Pluto into a slightly larger orbit, where it travels slightly more slowly, according to Kepler's third law. After many such repetitions, Pluto is sufficiently slowed that Pluto's orbit relative to Neptune drifts in the opposite direction until the process is reversed. The whole process takes about 20,000 years to complete.",
+                            content_description: null
+                        },                    
+                        {
+                            content_type: "text",
+                            head: "Rotation",
+                            content: "Pluto's rotation period, its day, is equal to 6.387 Earth days. Like Uranus, Pluto rotates on its \"side\" in its orbital plane, with an axial tilt of 120°, and so its seasonal variation is extreme; at its solstices, one-fourth of its surface is in continuous daylight, whereas another fourth is in continuous darkness. The reason for this unusual orientation has been debated. Research from the University of Arizona has suggested that it may be due to the way that a body's spin will always adjust to minimise energy. This could mean a body reorienting itself to put extraneous mass near the equator and regions lacking mass tend towards the poles. This is called polar wander. According to a paper released from the University of Arizona, this could be caused by masses of frozen nitrogen building up in shadowed areas of the dwarf planet. These masses would cause the body to reorient itself, leading to its unusual axial tilt of 120°. The buildup of nitrogen is due to Pluto's vast distance from the Sun. At the equator, temperatures can drop to -240 °C (-400.0 °F; 33.1 K), causing nitrogen to freeze as water would freeze on Earth. The same effect seen on Pluto would be observed on Earth were the Antarctic ice sheet several times larger.",
+                            content_description: null
+                        },                    
+                    ]
+                },
+                {
+                    title: "Moons",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Pluto has five known natural satellites. The closest to Pluto is Charon. First identified in 1978 by astronomer James Christy, Charon is the only moon of Pluto that may be in hydrostatic equilibrium. Charon's mass is sufficient to cause the barycenter of the Pluto-Charon system to be outside Pluto. The similarity in size of Charon and Pluto has prompted some astronomers to call it a double dwarf planet. The system is also unusual among planetary systems in that each is tidally locked to the other, which means that Pluto and Charon always have the same hemisphere facing each other — a property shared by only one other known system, Eris and Dysnomia. From any position on either body, the other is always at the same position in the sky, or always obscured.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/pluto_charon.gif",
+                            content_description: "An oblique view of the Pluto-Charon system showing that Pluto orbits a point outside itself. The two bodies are mutually tidally locked."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Beyond Charon there are four much smaller circumbinary moons. In order of distance from Pluto they are Styx, Nix, Kerberos, and Hydra. Nix and Hydra were both discovered in 2005, Kerberos was discovered in 2011, and Styx was discovered in 2012. The satellites' orbits are circular (eccentricity < 0.006) and coplanar with Pluto's equator (inclination < 1°), and therefore tilted approximately 120° relative to Pluto's orbit. The Plutonian system is highly compact: the five known satellites orbit within the inner 3% of the region where prograde orbits would be stable.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/pluto_moons.png",
+                            content_description: "Family Portrait of Pluto's Moons: All the moons are displayed with a common intensity stretch and spatial scale (see scale bar). Charon is by far the largest of Pluto's moons, with a diameter of 751 miles (1,212 kilometers). Nix and Hydra have comparable sizes, approximately 25 miles (40 kilometers) across in their longest dimension above. Kerberos and Styx are much smaller and have comparable sizes, roughly 6-7 miles (10-12 kilometers) across in their longest dimension. All four small moons have highly elongated shapes, a characteristic thought to be typical of small bodies in the Kuiper Belt."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The orbital periods of all Pluto's moons are linked in a system of orbital resonances and near resonances. When precession is accounted for, the orbital periods of Styx, Nix, and Hydra are in an exact 18:22:33 ratio. There is a sequence of approximate ratios, 3:4:5:6, between the periods of Styx, Nix, Kerberos, and Hydra with that of Charon; the ratios become closer to being exact the further out the moons are. Pluto's moons are hypothesized to have been formed by a collision between Pluto and a similar-sized body, early in the history of the Solar System. The collision released material that consolidated into the moons around Pluto.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Quasi-satellites",
+                            content: "In 2012, it was calculated that 15810 Arawn could be a quasi-satellite of Pluto, a specific type of co-orbital configuration. According to the calculations, the object would be a quasi-satellite of Pluto for about 350,000 years out of every two-million-year period. Measurements made by the New Horizons spacecraft in 2015 made it possible to calculate the orbit of Arawn more accurately, and confirmed the earlier ones. However, it is not agreed upon among astronomers whether Arawn should be classified as a quasi-satellite of Pluto based on its orbital dynamics, since its orbit is primarily controlled by Neptune with only occasional perturbations by Pluto.",
+                            content_description: null
+                        },
+                            
+                                                   
+                    ]
+                },
+                {
+                    title: "Exploration",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The New Horizons spacecraft, which flew by Pluto in July 2015, is the first and so far only attempt to explore Pluto directly. Launched in 2006. New Horizons made its closest approach to Pluto on July 14, 2015, after a 3,462-day journey across the Solar System. Scientific observations of Pluto began five months before the closest approach and continued for at least a month after the encounter. Observations were conducted using a remote sensing package that included imaging instruments and a radio science investigation tool, as well as spectroscopic and other experiments.",
+                            content_description: null 
+                        },                                         
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The scientific goals of New Horizons were to characterize the global geology and morphology of Pluto and its moon Charon, map their surface composition, and analyze Pluto's neutral atmosphere and its escape rate. On October 25, 2016, at 05:48 pm ET, the last bit of data (of a total of 50 billion bits of data; or 6.25 gigabytes) was received from New Horizons from its close encounter with Pluto.",
+                            content_description: null 
+                        },                                         
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/pluto_exploration.jpg",
+                            content_description: "Panoramic view of Pluto's icy mountains and flat ice plains, imaged by New Horizons 15 minutes after its closest approach to Pluto. Distinct haze layers in Pluto's atmosphere can be seen backlit by the Sun." 
+                        },                                         
+                        {
+                            content_type: "text",
+                            head: "Future Mission",
+                            content: "Since the New Horizons flyby, scientists have advocated for an orbiter mission that would return to Pluto to fulfill new science objectives. They include mapping the surface at 9.1 m (30 ft) per pixel, observations of Pluto's smaller satellites, observations of how Pluto changes as it rotates on its axis, investigations of a possible subsurface ocean, and topographic mapping of Pluto's regions that are covered in long-term darkness due to its axial tilt. The last objective could be accomplished using laser pulses to generate a complete topographic map of Pluto.  New Horizons principal investigator Alan Stern has advocated for a Cassini-style orbiter that would launch around 2030 (the 100th anniversary of Pluto's discovery) and use Charon's gravity to adjust its orbit as needed to fulfill science objectives after arriving at the Pluto system. The orbiter could then use Charon's gravity to leave the Pluto system and study more KBOs after all Pluto science objectives are completed. A conceptual study funded by the NASA Innovative Advanced Concepts (NIAC) program describes a fusion-enabled Pluto orbiter and lander based on the Princeton field-reversed configuration reactor.",
+                            content_description: null
+                        },                                            
+                    ]
+                },
+                {
+                    title: "Watch To Learn More...",
+                    texts: [
+                        {
+                            content_type: "embed_video",
+                            content: "D5XPuS-Y0fg",
+                            content_description: "Astrum explores everything NASA's New Horizons saw and discovered in the Kuiper Belt around Pluto, Charon and Arrokoth (Ultima Thule)."
+                        },  
+                    ]
+                }
+            ],
+             summary: [
+                {
+                    head: "Discovery",
+                    keyValue: [
+                        {
+                            key: "Discovered By",
+                            value: "Clyde W. Tombaugh"
+                        },
+                        {
+                            key: "Discovery Site",
+                            value: "Lowell Observatory"
+                        },
+                        {
+                            key: "Discovery Date",
+                            value: "February 18, 1930"
+                        },
+                    ]
+                },
+                {
+                    head: "Designations",
+                    keyValue: [
+                        {
+                            key: "Designation",
+                            value: "(134340) Pluto"
+                        },
+                        {
+                            key: "Named After",
+                            value: "Pluto: Roman god of the underworld, from a Greek epithet for Hades."
+                        },
+                        {
+                            key: "Minor Planet Category",
+                            value: "Dwarf planet, Trans-Neptunian object, Kuiper belt object, Plutino."
+                        },
+                        {
+                            key: "Adjectives",
+                            value: "Plutonian"
+                        },
+                    ]
+                },
+                {
+                    head: "Orbital Characteristics",
+                    keyValue: [
+                        {
+                            key: "Earliest Precovery Date",
+                            value: "August 20, 1909"
+                        },
+                        {
+                            key: "Aphelion",
+                            value: "49.305 AU (7.37593 billion km); (Next Aphelion: February 2114)"
+                        },
+                        {
+                            key: "Perihelion",
+                            value: "29.658 AU (4.43682 billion km); (Last Periphelion: September 5, 1989)"
+                        },
+                        {
+                            key: "Semi-major Axis",
+                            value: "39.482 AU (5.90638 billion km)"
+                        },
+                        {
+                            key: "Eccentricity",
+                            value: "0.2488"
+                        },
+                        {
+                            key: "Orbital Period (sidereal)",
+                            value: "247.94 years; 90,560 days"
+                        },
+                        {
+                            key: "Orbital Period (synodic)",
+                            value: "366.73 days"
+                        },
+                        {
+                            key: "Average Orbital Speed",
+                            value: "4.743 km/s"
+                        },
+                        {
+                            key: "Mean Anomaly",
+                            value: "14.53°"
+                        },
+                        {
+                            key: "Inclination",
+                            value: "17.16° (11.88° to Sun's equator)"
+                        },
+                        {
+                            key: "Longitude of Ascending Node",
+                            value: "110.299°"
+                        },
+                        {
+                            key: "Argument of Perihelion",
+                            value: "113.834°"
+                        },
+                        {
+                            key: "Known Satellites",
+                            value: "5"
+                        },
+                    ]
+                },
+                {
+                    head: "Physical Characteristics",  
+                    keyValue: [
+                        {
+                            key: "Dimensions",
+                            value: "2,376.6±1.6 km (observations consistent with a sphere, predicted deviations too small to be observed)"
+                        },
+                        {
+                            key: "Mean Radius",
+                            value: "1,188.3 ± 0.8 km; 0.1868 Earths"
+                        },
+                        {
+                            key: "Flattening",
+                            value: "<1%"
+                        },
+                        {
+                            key: "Surface Area",
+                            value: "1.774443e7 sq.km; 0.035 Earths"
+                        },
+                        {
+                            key: "Volume",
+                            value: "(7.057±0.004)e9 cu.km; 0.00651 Earths"
+                        },
+                        {
+                            key: "Mass",
+                            value: "(1.303±0.003)e22 kg; 0.00218 Earths; 0.177 Moons"
+                        },
+                        {
+                            key: "Mean Density",
+                            value: "1.854 ± 0.006 g/cu.cm"
+                        },
+                        {
+                            key: "Surface Gravity",
+                            value: "0.620 m/sq.s; 0.063 g"
+                        },
+                        {
+                            key: "Escape Velocity",
+                            value: "1.212 km/s"
+                        },
+                        {
+                            key: "Synodic Rotation Period",
+                            value: "-6.38680 days; -6d, 9h, 17m, 00s (retrograde)"
+                        },
+                        {
+                            key: "Sidereal Rotation Period",
+                            value: "-6.387230 days; -6d, 9h, 17m, 36s (retrograde)"
+                        },
+                        {
+                            key: "Equatorial Rotation Velocity",
+                            value: "47.18 km/h"
+                        },
+                        {
+                            key: "Axial Tilt",
+                            value: "122.53° (to orbit)"
+                        },
+                        {
+                            key: "North Pole Right Ascension",
+                            value: "132.993°"
+                        },
+                        {
+                            key: "North Pole Declination",
+                            value: "-6.163°"
+                        },
+                        {
+                            key: "Albedo",
+                            value: "0.52 geometric; 0.72 Bond"
+                        },
+                        {
+                            key: "Minimum Surface Temp.",
+                            value: "33 K"
+                        },
+                        {
+                            key: "Mean Surface Temp.",
+                            value: "44 K (-229 °C)"
+                        },
+                        {
+                            key: "Maximum Surface Temp.",
+                            value: "55 k"
+                        },
+                        {
+                            key: "Apparent Magnitude",
+                            value: "13.65 to 16.3 (mean is 15.1)"
+                        },
+                        {
+                            key: "Absolute Magnitude (H)",
+                            value: "-0.44"
+                        },
+                        {
+                            key: "Angular Diameter",
+                            value: "0.06″ to 0.11″"
+                        },
+                    ]
+                },
+                {
+                    head: "Atmosphere",  
+                    keyValue: [
+                        {
+                            key: "Surface Pressure",
+                            value: "1.0 Pa (2015)"
+                        },
+                        {
+                            key: "Composition by Volume",
+                            value: "Nitrogen, methane, carbon monoxide."
+                        },
+    
+                    ]
+                },
+            ],
+            dateUpdate: "2023-05-10"
+        },
+        ceres: {
+            name: "Ceres",
+            baseImgUrl: "/ceres_poster_A.jpg",
+            baseText: "Ceres",
+            subText: "Ceres makes up almost a third of the asteroid belt's total mass, but it is still far smaller than Earth's Moon. Ceres is heavily cratered with large amounts of ice underground.",
+            next: {
+                key: "Makemake",
+                value: "/dwarf_planets/makemake"
+            },
+            prev: {
+                key: "Pluto",
+                value: "/dwarf_planets/pluto"
+            },
+            subdata: [
+                {
+                    key: "Distance From Sun",
+                    value: "257,055,204 miles"
+                },
+                {
+                    key: "One Way Light Time From Sun",
+                    value: "22 minutes"
+                },
+                {
+                    key: "Length Of Year",
+                    value: "1,680 Earth Days"
+                },
+                {
+                    key: "Satellites Count",
+                    value: "None"
+                },
+            ],
+            overview: {
+                name: "Ceres",
+                topBox: {
+                    headText: "AHUNA MONS",
+                    text: "Ahuna Mons is the largest mountain on the dwarf planet and asteroid Ceres. It protrudes above the cratered terrain, is not an impact feature, and is the only mountain of its kind on Ceres. Bright streaks run top to bottom on its slopes; these streaks are thought to be salt, similar to the better known Cererian bright spots."
+                },
+                paragraphs: [
+                    "Dwarf planet Ceres is the largest object in the asteroid belt between Mars and Jupiter, and it's the only dwarf planet located in the inner solar system. It was the first member of the asteroid belt to be discovered when Giuseppe Piazzi spotted it in 1801. And when NASA's Dawn arrived in 2015, Ceres became the first dwarf planet to receive a visit from a spacecraft.",
+                    "Called an asteroid for many years, Ceres is so much bigger and so different from its rocky neighbors that scientists classified it as a dwarf planet in 2006. Even though Ceres comprises 25% of the asteroid belt's total mass, Pluto is still 14 times more massive.", "Ceres is named for the Roman goddess of corn and harvests. The word cereal comes from the same name."
+                ],
+                iframeLink: {
+                    type: "iframe",
+                    content: "https://eyes.nasa.gov/apps/solar-system/#/1_ceres?embed=true&amp;logo=false" ,
+                    content_description: ""
+                },
+                facts_12: [
+                    {
+                        headText: "TINY WORLD",
+                        text: "Ceres' radius is just 296 miles (476 km). If Earth were the size of a nickel, Ceres would be about as big as a poppy seed."
+                    },
+                    {
+                        headText: "LONG-ISH ORBITER",
+                        text: "Ceres takes 1,682 Earth days, or 4.6 Earth years, to make one trip around the Sun."
+                    },
+                    {
+                        headText: "VERY SHORT DAY",
+                        text: "Ceres completes one rotation around its axis every 9 hours."
+                    },
+                    {
+                        headText: "NO LONGER AN ASTEROID",
+                        text: "Ceres is so much bigger and so different from its neighbors that scientists classified it as a dwarf planet in 2006."
+                    },
+                    {
+                        headText: "FRAGILE ATMOSPHERE",
+                        text: "Ceres has a very thin atmosphere, and there is evidence it contains water vapor. The vapor may be produced by ice volcanoes or by ice near the surface sublimating."
+                    },
+                    {
+                        headText: "ICE VOLCANO",
+                        text: "Scientists speculate that cryovolcanic activity, involving the eruption of water ice, may have shaped Ceres' surface and contributed to its intriguing features."
+                    },
+                    {
+                        headText: "UNIQUE AHUNA MONS",
+                        text: "Ahuna Mons is a mysterious mountain on Ceres, towering over its relatively flat surface, and is thought to be a cryovolcano composed of icy materials. It is the largest mountain on Ceres"
+                    },
+                    {
+                        headText: "ANCIENT OCEANS",
+                        text: "Evidence suggests that Ceres harbored a subsurface ocean in the past, making it an intriguing target for studying the potential for life beyond Earth."
+                    },
+                    {
+                        headText: "MYTHOLOGY",
+                        text: "Ceres is named for the Roman goddess of grain crops and harvests. The word cereal comes from the same name."
+                    },
+                    {
+                        headText: "POTENTIAL FOR LIFE?",
+                        text: "Scientists would like to search for possible signs of life on Ceres. It has something many other planets don't: water."
+                    },
+                    {
+                        headText: "COSMIC COMPANIONS",
+                        text: "Ceres has no moon, quasi-satellites or rings. Although, as it resides within the asteroid belt without the ability of orbital domimance, its cosmic companionship is not very lonely afterall."
+                    },
+                    {
+                        headText: "FIRST VISITATION",
+                        text: "Dawn reached it in 2015 to study its surface, composition and history making Ceres the first dwarf planet to be visited by spacecraft." 
+                    },
+                ]
+            },
+            inDepth: [
+                {
+                    title: "Introduction",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Ceres , minor-planet designation 1 Ceres, is a dwarf planet in the asteroid belt between the orbits of Mars and Jupiter. It was the first asteroid discovered, on 1 January 1801, by Giuseppe Piazzi at Palermo Astronomical Observatory in Sicily and announced as a new planet. Ceres was later classified as an asteroid and then a dwarf planet, the only dwarf planet orbiting entirely within Neptune's orbit.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Ceres's small size means that even at its brightest, it is too dim to be seen by the naked eye, except under extremely dark skies. Its apparent magnitude ranges from 6.7 to 9.3, peaking at opposition (when it is closest to Earth) once every 15- to 16-month synodic period. As a result, its surface features are barely visible even with the most powerful telescopes, and little was known about it until the robotic NASA spacecraft Dawn approached Ceres for its orbital mission in 2015. Dawn found Ceres's surface to be a mixture of water ice, and hydrated minerals such as carbonates and clay. Gravity data suggest Ceres to be partially differentiated into a muddy (ice-rock) mantle/core and a less dense but stronger crust that is at most 30% ice by volume.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/ceres_asteroids.jpg",
+                            content_description: "Relative sizes of the four largest minor planets in the asteroid belt (dwarf planet Ceres at left)."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Although Ceres likely lacks an internal ocean of liquid water, brines still flow through the outer mantle and reach the surface, allowing cryovolcanoes such as Ahuna Mons to form roughly every fifty million years. This makes Ceres the closest known cryovolcanic body to the Sun, and the brines provide a potential habitat for microbial life. In January 2014, emissions of water vapour were detected around Ceres, creating a tenuous, transient atmosphere known as an exosphere. This was unexpected because vapour is usually a hallmark of comets, not asteroids.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Nomenclature And Mythology",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Piazzi's proposed name for his discovery was Ceres Ferdinandea: Ceres after the Roman goddess of agriculture, whose earthly home, and oldest temple, lay in Sicily; and Ferdinandea in honour of Piazzi's monarch and patron, King Ferdinand III of Sicily. The latter was not acceptable to other nations and was dropped. Before von Zach's recovery of Ceres in December 1801, von Zach referred to the planet as Hera, and Bode referred to it as Juno. Despite Piazzi's objections, those names gained currency in Germany before the object's existence was confirmed. Once it was, astronomers settled on Piazzi's name. The adjectival forms of Ceres are Cererian and Cererean, both pronounced. Cerium, a rare-earth element discovered in 1803, was named after the dwarf planet Ceres.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The old astronomical symbol of Ceres, still used in astrology, is a sickle, ⚳. The sickle was one of the classical symbols of the goddess Ceres and was suggested, apparently independently, by von Zach and Bode in 1802.",
+                            content_description: null
+                        },
+
+                    ]
+                },
+                { 
+                    title: "Physical Characteristics",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Ceres is the largest asteroid in the main asteroid belt. It has been classified as a C-type or carbonaceous asteroid and, due to the presence of clay minerals, as a G-type asteroid. It has a similar, but not identical, composition to that of carbonaceous chondrite meteorites. It is an oblate spheroid, with an equatorial diameter 8% larger than its polar diameter.[ Measurements from the Dawn spacecraft found a mean diameter of 939.4 km (583.7 mi) and a mass of 9.38e20 kg. This gives Ceres a density of 2.16 g/cu.cm, suggesting that a quarter of its mass is water ice. Ceres comprises 40% of the estimated (2394 ± 5)e18 kg mass of the asteroid belt, and it has 3+1⁄2 times the mass of the next asteroid, Vesta, but it is only 1.3% the mass of the Moon.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Internal Structure",
+                            content: "The active geology of Ceres is driven by ice and brines. Water leached from rock is estimated to possess a salinity of around 5%. Altogether, Ceres is approximately 50% water by volume (compared to 0.1% for Earth) and 73% rock by mass. Ceres's largest craters are several kilometres deep, inconsistent with an ice-rich shallow subsurface. The fact that the surface has preserved craters almost 300 km (200 mi) in diameter indicates that the outermost layer of Ceres is roughly 1000 times stronger than water ice. This is consistent with a mixture of silicates, hydrated salts and methane clathrates, with no more than 30% water ice by volume.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Gravity measurements from Dawn have generated three competing models for Ceres's interior. In the three-layer model Ceres is thought to consist of an outer, 40 km (25 mi) thick crust of ice, salts and hydrated minerals and an inner muddy \"mantle\" of hydrated rock, such as clays, separated by a 60 km (37 mi) layer of a muddy mixture of brine and rock. It is not possible to tell if Ceres's deep interior contains liquid or a core of dense material rich in metal, but the low central density suggests it may retain about 10% porosity. One study estimated the densities of the core and mantle/crust to be 2.46-2.90 and 1.68-1.95 g/cm3 respectively, with the mantle and crust together being 70-190 km (40-120 mi) thick.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/ceres_internal_structure.jpg",
+                            content_description: "Three-layer model of Ceres's internal structure: Thick outer crust (ice, salts, hydrated minerals) Salt-rich liquid (brine) and rock \"Mantle\" (hydrated rock)."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In one two-layer model Ceres consists of a core of chondrules and a mantle of mixed ice and micron-sized solid particulates (\"mud\"). Sublimation of ice at the surface would leave a deposit of hydrated particulates perhaps twenty metres thick. The range of the extent of differentiation is consistent with the data, from a large, 360 km (220 mi) core of 75% chondrules and 25% particulates and a mantle of 75% ice and 25% particulates, to a small, 85 km (55 mi) core consisting nearly entirely of particulates and a mantle of 30% ice and 70% particulates. With a large core, the core-mantle boundary should be warm enough for pockets of brine. With a small core, the mantle should remain liquid below 110 km (68 mi). In the latter case a 2% freezing of the liquid reservoir would compress the liquid enough to force some to the surface, producing cryovolcanism.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "A second two-layer model suggests a partial differentiation of Ceres into a volatile-rich crust and a denser mantle of hydrated silicates. A range of densities for the crust and mantle can be calculated from the types of meteorite thought to have impacted Ceres. With CI-class meteorites (density 2.46 g/cm3), the crust would be approximately 70 km (40 mi) thick and have a density of 1.68 g/cm3; with CM-class meteorites (density 2.9 g/cm3), the crust would be approximately 190 km (120 mi) thick and have a density of 1.9 g/cm3. Best-fit modelling yields a crust approximately 40 km (25 mi) thick with a density of approximately 1.25 g/cm3, and a mantle/core density of approximately 2.4 g/cm3.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Composition",
+                            content: "The surface composition of Ceres is homogeneous on a global scale, and is rich in carbonates and ammoniated phyllosilicates that have been altered by water, though water ice in the regolith varies from approximately 10% in polar latitudes to much drier, even ice-free, in the equatorial regions. Studies using the Hubble Space Telescope show graphite, sulfur, and sulfur dioxide on Ceres's surface. The graphite is evidently the result of space weathering on Ceres's older surfaces; the latter two are volatile under Cererian conditions and would be expected to either escape quickly or settle in cold traps, and so are evidently associated with areas with relatively recent geological activity.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/ceres_poles.jpg",
+                            content_description: "Ceres, polar regions (November 2015): North (left); south (right). The south pole is in shadow. \"Ysolo Mons\" has since been renamed \"Yamor Mons\"."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Organic compounds were detected in Ernutet Crater, and most of the planet's near surface is rich in carbon, at approximately 20% by mass. The carbon content is more than five times higher than in carbonaceous chondrite meteorites analysed on Earth. The surface carbon shows evidence of being mixed with products of rock-water interactions, such as clays. This chemistry suggests Ceres formed in a cold environment, perhaps outside the orbit of Jupiter, and that it accreted from ultra-carbon-rich materials in the presence of water, which could provide conditions favourable to organic chemistry.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Craters",
+                            content: "Dawn revealed that Ceres has a heavily cratered surface, though with fewer large craters than expected. Models based on the formation of the current asteroid belt had predicted Ceres should have ten to fifteen craters larger than 400 km (250 mi) in diameter. The largest confirmed crater on Ceres, Kerwan Basin, is 284 km (176 mi) across. The most likely reason for this is viscous relaxation of the crust slowly flattening out larger impacts.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Ceres's north polar region shows far more cratering than the equatorial region, with the eastern equatorial region in particular comparatively lightly cratered. The overall size frequency of craters of between twenty and a hundred kilometres (10-60 mi) is consistent with their having originated in the Late Heavy Bombardment, with craters outside the ancient polar regions likely erased by early cryovolcanism. Three large shallow basins (planitiae) with degraded rims are likely to be eroded craters. The largest, Vendimia Planitia, at 800 km (500 mi) across, is also the largest single geographical feature on Ceres. Two of the three have higher than average ammonium concentrations. Dawn observed 4,423 boulders larger than 105 m (344 ft) in diameter on the surface of Ceres. These boulders likely formed through impacts, and are found within or near craters, though not all craters contain boulders.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/ceres_crater.jpg",
+                            content_description: "This simulated perspective view from NASA's Dawn mission shows the bright areas of Occator Crater, which contains the brightest area on Ceres, Cerealia Facula in the center and Vinalia Faculae to the side. This simulated perspective view shows Occator Crater, measuring 57 miles (92 kilometers) across and 2.5 miles (4 kilometers) deep, which contains the brightest area on Ceres."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Tectonic Features",
+                            content: "Although Ceres lacks plate tectonics, with the vast majority of its surface features linked either to impacts or to cryovolcanic activity, several potentially tectonic features have been tentatively identified on its surface, particularly in its eastern hemisphere. The Samhain Catenae, kilometre-scale linear fractures on Ceres's surface, lack any apparent link to impacts and bear a stronger resemblance to pit crater chains, which are indicative of buried normal faults. Also, several craters on Ceres have shallow, fractured floors consistent with cryomagmatic intrusion.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Cryovolcanism",
+                            content: "Ceres has one prominent mountain, Ahuna Mons; this appears to be a cryovolcano and has few craters, suggesting a maximum age of 240 million years. Its relatively high gravitational field suggests it is dense, and thus composed more of rock than ice, and that its placement is likely due to diapirism of a slurry of brine and silicate particles from the top of the mantle. It is roughly antipodal to Kerwan Basin. Seismic energy from the Kerwan-forming impact may have focused on the opposite side of Ceres, fracturing the outer layers of the crust and triggering the movement of high-viscosity cryomagma (muddy water ice softened by its content of salts) onto the surface. Kerwan too shows evidence of the effects of liquid water due to impact-melting of subsurface ice.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/ceres_volcano.jpg",
+                            content_description: "Ahuna Mons is an estimated 5 km (3 mi) high on its steepest side."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "An unexpectedly large number of Cererian craters have central pits, perhaps due to cryovolcanic processes; others have central peaks. Hundreds of bright spots (faculae) have been observed by Dawn, the brightest in the middle of 80 km (50 mi) Occator Crater. The bright spot in the centre of Occator is named Cerealia Facula, and the group of bright spots to its east, Vinalia Faculae. Occator possesses a pit 9-10 km wide, partially filled by a central dome. The dome post-dates the faculae and is likely due to freezing of a subterranean reservoir, comparable to pingos in Earth's Arctic region. A haze periodically appears above Cerealia, supporting the hypothesis that some sort of outgassing or sublimating ice formed the bright spots. In March 2016 Dawn found definitive evidence of water ice on the surface of Ceres at Oxo crater.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Atmosphere",
+                            content: "In 2017 Dawn confirmed that Ceres has a transient atmosphere of water vapour. Hints of an atmosphere had appeared in early 2014, when the Herschel Space Observatory detected localised mid-latitude sources of water vapour on Ceres, no more than 60 km (40 mi) in diameter, which each give off approximately 1026 molecules (3 kg) of water per second. Two potential source regions, designated Piazzi (123°E, 21°N) and Region A (231°E, 23°N), were visualised in the near infrared as dark areas (Region A also has a bright centre) by the Keck Observatory. Possible mechanisms for the vapour release are sublimation from approximately 0.6 km2 (0.2 sq mi) of exposed surface ice, cryovolcanic eruptions resulting from radiogenic internal heat, or pressurisation of a subsurface ocean due to thickening of an overlying layer of ice.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In 2015 David Jewitt included Ceres in his list of active asteroids. Surface water ice is unstable at distances less than 5 AU from the Sun, so it is expected to sublime if exposed directly to solar radiation. Water ice can migrate from the deep layers of Ceres to the surface, but escapes in a short time. Surface sublimation would be expected to be lower when Ceres is farther from the Sun in its orbit, and internally powered emissions should not be affected by its orbital position. The limited data previously available suggested cometary-style sublimation, but evidence from Dawn suggests geologic activity could be at least partially responsible. Studies using Dawn's gamma ray and neutron detector (GRaND) reveal that Ceres accelerates electrons from the solar wind; the most accepted hypothesis is that these electrons are being accelerated by collisions between the solar wind and a tenuous water vapour exosphere. Bow shocks like these could also be explained by a transient magnetic field, but this is considered less likely, as the interior of Ceres is not thought to be sufficiently electrically conductive.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Magnetosphere",
+                            content: "It isn't known whether Ceres has a magnetic field.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Orbit & Rotation",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Ceres follows an orbit between Mars and Jupiter, near the middle of the asteroid belt, with an orbital period (year) of 4.6 Earth years. Compared to other planets and dwarf planets, Ceres's orbit is moderately tilted relative to that of Earth; its inclination (i) is 10.6°, compared to 7° for Mercury and 17° for Pluto. It is also slightly elongated, with an eccentricity (e) = 0.08, compared to 0.09 for Mars. Ceres is not part of an asteroid family, probably due to its large proportion of ice, as smaller bodies with the same composition would have sublimated to nothing over the age of the Solar System. It was once thought to be a member of the Gefion family. Ceres was later found to have a different composition from the Gefion family and appears to be an interloper, having similar orbital elements but not a common origin.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/ceres_orbit.png",
+                            content_description: "Orbits of Ceres (red, inclined) along with Jupiter and the inner planets (white and grey). The upper diagram shows Ceres's orbit from top down. The bottom diagram is a side view showing Ceres's orbital inclination to the ecliptic. Lighter shades indicate above the ecliptic; darker indicate below."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Resonances",
+                            content: "Due to their small masses and large separations, objects within the asteroid belt rarely fall into gravitational resonances with each other. Nevertheless, Ceres is able to capture other asteroids into temporary 1:1 resonances (making them temporary trojans), for periods from a few hundred thousand to more than two million years. Fifty such objects have been identified. Ceres is close to a 1:1 mean-motion orbital resonance with Pallas (their proper orbital periods differ by 0.2%), but not close enough to be significant over astronomical timescales.",
+                            content_description: null
+                        },                                        
+                        {
+                            content_type: "text",
+                            head: "Rotation",
+                            content: "The rotation period of Ceres (the Cererian day) is 9 hours and 4 minutes; the small equatorial crater of Kait is selected as its prime meridian. Ceres has an axial tilt of 4°, small enough for its polar regions to contain permanently shadowed craters that are expected to act as cold traps and accumulate water ice over time, similar to what occurs on the Moon and Mercury. About 0.14% of water molecules released from the surface are expected to end up in the traps, hopping an average of three times before escaping or being trapped. Dawn, the first spacecraft to orbit Ceres, determined that the north polar axis points at right ascension 19h 25m 40.3s (291.418°), declination +66° 45' 50\" (about 1.5 degrees from Delta Draconis), which means an axial tilt of 4°. This means that Ceres currently sees little to no seasonal variation in sunlight by latitude.",
+                            content_description: null
+                        },                    
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Over the course of three million years, gravitational influence from Jupiter and Saturn has triggered cyclical shifts in Ceres's axial tilt, ranging from two to twenty degrees, meaning that seasonal variation in sun exposure has occurred in the past, with the last period of seasonal activity estimated at 14,000 years ago. Those craters that remain in shadow during periods of maximum axial tilt are the most likely to retain water ice from eruptions or cometary impacts over the age of the Solar System.",
+                            content_description: null
+                        },                    
+                    ]
+                },
+                {
+                    title: "Origin and Evolution",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Ceres is a surviving protoplanet that formed 4.56 billion years ago; alongside Pallas and Vesta, one of only three remaining in the inner Solar System, with the rest either merging to form terrestrial planets, being shattered in collisions or being ejected by Jupiter. Despite Ceres's current location, its composition is not consistent with having formed within the asteroid belt. It seems rather that it formed between the orbits of Jupiter and Saturn, and was deflected into the asteroid belt as Jupiter migrated outward. The discovery of ammonium salts in Occator Crater supports an origin in the outer Solar System, as ammonia is far more abundant in that region.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The early geological evolution of Ceres was dependent on the heat sources available during and after its formation: impact energy from planetesimal accretion and decay of radionuclides (possibly including short-lived extinct radionuclides such as aluminium-26). These may have been sufficient to allow Ceres to differentiate into a rocky core and icy mantle, or even a liquid water ocean, soon after its formation. This ocean should have left an icy layer under the surface as it froze. The fact that Dawn found no evidence of such a layer suggests that Ceres's original crust was at least partially destroyed by later impacts thoroughly mixing the ice with the salts and silicate-rich material of the ancient seafloor and the material beneath.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Ceres possesses surprisingly few large craters, suggesting that viscous relaxation and cryovolcanism have erased older geological features.The presence of clays and carbonates requires chemical reactions at temperatures above 50 °C, consistent with hydrothermal activity.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Habitability",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Although Ceres is not as actively discussed as a potential home for microbial extraterrestrial life as Mars, Europa, Enceladus, or Titan are, it has the most water of any body in the inner Solar System after Earth, and the likely brine pockets under its surface could provide habitats for life. It does not experience tidal heating, like Europa or Enceladus, but it is close enough to the Sun, and contains enough long-lived radioactive isotopes, to preserve liquid water in its subsurface for extended periods. The remote detection of organic compounds and the presence of water mixed with 20% carbon by mass in its near surface could provide conditions favourable to organic chemistry. Of the biochemical elements, Ceres is rich in carbon, hydrogen, oxygen and nitrogen, but phosphorus has yet to be detected, and sulfur, despite being suggested by Hubble UV observations, was not detected by Dawn.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/ceres_water_ice.jpg",
+                            content_description: "Hydrogen concentration (blue) in the upper metre of the regolith indicating presence of water ice."
+                        },
+                        
+                    ]
+                },
+                {
+                    title: "Exploration",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Dawn, the first space mission to visit either Vesta or Ceres, was launched on 27 September 2007. On 3 May 2011 Dawn acquired its first targeting image 1,200,000 km (750,000 mi) from Vesta. After orbiting Vesta for thirteen months, Dawn used its ion engine to depart for Ceres, with gravitational capture occurring on 6 March 2015 at a separation of 61,000 km (38,000 mi), four months before the New Horizons flyby of Pluto. On 13 January 2015, as Dawn approached Ceres, the spacecraft took its first images at near-Hubble resolution, revealing impact craters and a small high-albedo spot on the surface. Additional imaging sessions, at increasingly better resolution took place from February to April.",
+                            content_description: null 
+                        },                                         
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Dawn's mission profile called for it to study Ceres from a series of circular polar orbits at successively lower altitudes. It entered its first observational orbit (\"RC3\") around Ceres at an altitude of 13,500 km (8,400 mi) on 23 April 2015, staying for only one orbit (15 days). The spacecraft then reduced its orbital distance to 4,400 km (2,700 mi) for its second observational orbit (\"survey\") for three weeks, then down to 1,470 km (910 mi) (\"HAMO;\" high altitude mapping orbit) for two months and then down to its final orbit at 375 km (233 mi) (\"LAMO;\" low altitude mapping orbit) for at least three months. In October 2015 NASA released a true-colour portrait of Ceres made by Dawn. In 2017 Dawn's mission was extended to perform a series of closer orbits around Ceres until the hydrazine used to maintain its orbit ran out.",
+                            content_description: null 
+                        },                                        
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/ceres_dawn_spacecraft.gif",
+                            content_description: "Animation of Dawn's trajectory around Ceres from 1 February 2015 to 1 February 2025." 
+                        },  
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Dawn soon discovered evidence of cryovolcanism. Two distinct bright spots (or high-albedo features) inside a crater (different from the bright spots observed in earlier Hubble images) were seen in a 19 February 2015 image, leading to speculation about a possible cryovolcanic origin or outgassing. On 2 September 2016 scientists from the Dawn team argued in a Science paper that Ahuna Mons was the strongest evidence yet for cryovolcanic features on Ceres. On 11 May 2015 NASA released a higher-resolution image showing that the spots were composed of multiple smaller spots. In June 2016 near-infrared spectra of these bright areas were found to be consistent with a large amount of sodium carbonate, implying that recent geologic activity was probably involved in the creation of the bright spots. From June to October 2018 Dawn orbited Ceres from as close as 35 km (22 mi) to as far away as 4,000 km (2,500 mi). The Dawn mission ended on 1 November 2018 after the spacecraft ran out of fuel.",
+                            content_description: null 
+                        },                                        
+                        {
+                            content_type: "text",
+                            head: "Future Mission",
+                            content: "In 2020, an ESA team proposed the Calathus Mission concept, a followup mission to Occator Crater, to return a sample of the bright carbonate faculae and dark organics to Earth. The Chinese Space Agency is designing a sample-return mission from Ceres that would take place during the 2020s.",
+                            content_description: null
+                        },                                            
+                    ]
+                },
+                {
+                    title: "Watch To Learn More...",
+                    texts: [
+                        {
+                            content_type: "embed_video",
+                            content: "0w6KRajHMlo",
+                            content_description: "The NASA Dawn Probe's stunning findings around the dwarf planet Ceres and the protoplanet 4 Vesta. A complete recap of the Dawn mission. "
+                        },  
+                    ]
+                }
+            ],
+             summary: [
+                {
+                    head: "Discovery",
+                    keyValue: [
+                        {
+                            key: "Discovered By",
+                            value: "Giuseppe Piazzi"
+                        },
+                        {
+                            key: "Discovery Date",
+                            value: "1 January 1801"
+                        },
+                    ]
+                },
+                {
+                    head: "Designations",
+                    keyValue: [
+                        {
+                            key: "Designation",
+                            value: "(1) Ceres"
+                        },
+                        {
+                            key: "Named After",
+                            value: "Ceres: Roman goddess of agriculture."
+                        },
+                        {
+                            key: "Minor Planet Category",
+                            value: "Dwarf planet, asteroid."
+                        },
+                        {
+                            key: "Adjectives",
+                            value: "Cererian, -ean."
+                        },
+                    ]
+                },
+                {
+                    head: "Orbital Characteristics",
+                    keyValue: [
+                        {
+                            key: "Aphelion",
+                            value: "2.98 AU (446 million km)"
+                        },
+                        {
+                            key: "Perihelion",
+                            value: "2.55 AU (381 million km)"
+                        },
+                        {
+                            key: "Semi-major Axis",
+                            value: "2.77 AU (414 million km)"
+                        },
+                        {
+                            key: "Eccentricity",
+                            value: "0.0785"
+                        },
+                        {
+                            key: "Orbital Period (sidereal)",
+                            value: "4.60 yr; 1680 days"
+                        },
+                        {
+                            key: "Orbital Period (synodic)",
+                            value: "1.28 yr; 466.6 days"
+                        },
+                        {
+                            key: "Average Orbital Speed",
+                            value: "17.9 km/s"
+                        },
+                        {
+                            key: "Mean Anomaly",
+                            value: "291.4°"
+                        },
+                        {
+                            key: "Inclination",
+                            value: "10.6° to ecliptic; 9.20° to invariable plane"
+                        },
+                        {
+                            key: "Longitude of Ascending Node",
+                            value: "80.3°"
+                        },
+                        {
+                            key: "Time of Perihelion",
+                            value: "7 December 2022"
+                        },
+                        {
+                            key: "Argument of Perihelion",
+                            value: "73.6°"
+                        },
+                        {
+                            key: "Known Satellites",
+                            value: "None"
+                        },
+                    ]
+                },
+                {
+                    head: "Proper Orbital Elements",  
+                    keyValue: [
+                        {
+                            key: "Proper Semi-major axis",
+                            value: "2.77 AU"
+                        },
+                        {
+                            key: "Proper Eccentricity",
+                            value: "0.116"
+                        },
+                        {
+                            key: "Proper Inclination",
+                            value: "9.65°"
+                        },
+                        {
+                            key: "Proper Mean Motion",
+                            value: "78.2 deg / yr"
+                        },
+                        {
+                            key: "Proper Orbital Period",
+                            value: "4.60358 yr (1681.458 d)"
+                        },
+                        {
+                            key: "Procession of Periphelion",
+                            value: "54.1 arcsec / yr"
+                        },
+                        {
+                            key: "Procession of the Ascending Node",
+                            value: "-59.2 arcsec / yr"
+                        },
+    
+                    ]
+                },
+                {
+                    head: "Physical Characteristics",  
+                    keyValue: [
+                        {
+                            key: "Dimensions",
+                            value: "(966.2 x 962.0 x 891.8) ± 0.2 km"
+                        },
+                        {
+                            key: "Mean Diameter",
+                            value: "939.4±0.2 km"
+                        },
+                        {
+                            key: "Surface Area",
+                            value: "2,772,368 sq.km"
+                        },
+                        {
+                            key: "Volume",
+                            value: "434,130,000 ± 500,000 cu.km"
+                        },
+                        {
+                            key: "Mass",
+                            value: "(9.38392 ± 0.00005)e20 kg; 0.00016 Earths; 0.0128 Moons"
+                        },
+                        {
+                            key: "Mean Density",
+                            value: "2.1616 ± 0.0025 g/cu.cm"
+                        },
+                        {
+                            key: "Surface Gravity",
+                            value: "0.284 m/sq.s; 0.029 g"
+                        },
+                        {
+                            key: "Moment of Inertia Factor",
+                            value: "0.36±0.15 (estimate)"
+                        },
+                        {
+                            key: "Escape Velocity",
+                            value: "0.516 km/s; 1141 mph"
+                        },
+                        {
+                            key: "Synodic Rotation Period",
+                            value: "9.074170 ± 0.000001 hours"
+                        },
+                        {
+                            key: "Sidereal Rotation Period",
+                            value: "-6.387230 days; -6d, 9h, 17m, 36s (retrograde)"
+                        },
+                        {
+                            key: "Equatorial Rotation Velocity",
+                            value: "92.61 m/s"
+                        },
+                        {
+                            key: "Axial Tilt",
+                            value: "≈4°"
+                        },
+                        {
+                            key: "North Pole Right Ascension",
+                            value: "291.42744°"
+                        },
+                        {
+                            key: "North Pole Declination",
+                            value: "66.76033°"
+                        },
+                        {
+                            key: "Geometric Albedo",
+                            value: "0.090±0.0033 (V-band)"
+                        },
+                        {
+                            key: "Minimum Surface Temp.",
+                            value: "≈110 K"
+                        },
+                        {
+                            key: "Maximum Surface Temp.",
+                            value: "235 ± 4 k"
+                        },
+                        {
+                            key: "Spectral Type",
+                            value: "C"
+                        },
+                        {
+                            key: "Apparent Magnitude",
+                            value: "7.6; 9.27 July 2021"
+                        },
+                        {
+                            key: "Absolute Magnitude (H)",
+                            value: "3.34"
+                        },
+                        {
+                            key: "Angular Diameter",
+                            value: "0.854″ to 0.339″"
+                        },
+                    ]
+                },
+            ],
+            dateUpdate: "2023-05-10"
+        },
+        makemake: {
+            name: "Makemake",
+            baseImgUrl: "/makemake_base.jpg",
+            baseText: "Makemake",
+            subText: "Makemake is a dwarf planet and the second-largest of the classical population of Kuiper belt objects.",
+            next: {
+                key: "Haumea",
+                value: "/dwarf_planets/haumea"
+            },
+            prev: {
+                key: "Ceres",
+                value: "/dwarf_planets/ceres"
+            },
+            subdata: [
+                {
+                    key: "Distance From Sun",
+                    value: "4,214,975,546 miles."
+                },
+                {
+                    key: "One Way Light Time From Sun",
+                    value: "6h 20m"
+                },
+                {
+                    key: "Length Of Year",
+                    value: "306 Earth Years"
+                },
+                {
+                    key: "Satellites Count",
+                    value: "1"
+                },
+            ],
+            overview: {
+                name: "Makemake",
+                topBox: null,
+                paragraphs: [
+                    "Makemake (minor-planet designation 136472 Makemake) is a dwarf planet and the second-largest of what are known as the classical population of Kuiper belt objects, with a diameter approximately that of Saturn's moon Iapetus, or 60% that of Pluto. It has one known satellite.",
+                    "Makemake was discovered on March 31, 2005, by a team at the Palomar Observatory, led by Michael E. Brown, and was announced to the public on July 29, 2005. The team had planned to delay announcing their discoveries of the bright objects Makemake and Eris until further observations and calculations were complete, but announced them both on July 29 when the discovery of another large object they had been tracking, Haumea, was controversially announced on July 27 by a different team in Spain."
+                ],
+                iframeLink: {
+                    type: "iframe",
+                    content: "https://eyes.nasa.gov/apps/solar-system/#/136472_makemake?embed=true&amp;logo=false" ,
+                    content_description: ""
+                },
+                facts_12: [
+                    {
+                        headText: "ANOTHER TINY WORLD",
+                        text: "With a radius of approximately 444 miles (715 kilometers), Makemake is 1/9 the radius of Earth. If Earth were the size of a nickel, Makemake would be about as big as a mustard seed."
+                    },
+                    {
+                        headText: "FAR WANDERER",
+                        text: "Makemake resides in the Kuiper Belt, a region of icy bodies beyond Neptune, making it one of the most distant known objects in our solar system."
+                    },
+                    {
+                        headText: "SLOW ROTATION",
+                        text: "Makemake has a relatively slow rotation period of about 22.5 hours, causing its day-night cycle to be longer than that of Earth."
+                    },
+                    {
+                        headText: "ELUSIVE ATMOSPHERE",
+                        text: "Although not yet confirmed, scientists suspect that Makemake may have a thin atmosphere composed of nitrogen and methane."
+                    },
+                    {
+                        headText: "TENUOUS RINGS",
+                        text: "Recent observations suggest that Makemake may possess a faint and tenuous ring system, similar to other objects in the outer regions of the solar system."
+                    },
+                    {
+                        headText: "MYTHOLOGY",
+                        text: " Makemake is classified as a dwarf planet, discovered in 2005 and named after the creation deity of the Rapa Nui people of Easter Island."
+                    },
+                    {
+                        headText: "ASTRONOMICAL ANCESTRY",
+                        text: "Makemake belongs to a group of icy bodies known as plutoids, which includes Pluto and Eris, sharing similarities in their composition and location within the Kuiper Belt."
+                    },
+                    {
+                        headText: "COSMIC COMPANION",
+                        text: "Makemake has a single discovered moon, S/2015 (136472) 1 and nicknamed MK2."
+                    },
+                    {
+                        headText: "LIMITED EXPLORATION",
+                        text: "Due to its distance and challenging accessibility, no spacecraft missions have been specifically targeted to explore Makemake." 
+                    },
+                ]
+            },
+            inDepth: [
+                {
+                    title: "Introduction",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Makemake (minor-planet designation 136472 Makemake) is a dwarf planet and the second-largest of what are known as the classical population of Kuiper belt objects, with a diameter approximately that of Saturn's moon Iapetus, or 60% that of Pluto. It has one known satellite. Its extremely low average temperature, about 40 K (-230 °C), means its surface is covered with methane, ethane, and possibly nitrogen ices.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Makemake was discovered on March 31, 2005 by a team led by Michael E. Brown, and announced on July 29, 2005. It was initially known as 2005 FY9 and later given the minor-planet number 136472. In July 2008, it was named after Makemake, a creator god in the Rapa Nui mythology of Easter Island, under the expectation by the International Astronomical Union (IAU) that it would prove to be a dwarf planet.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/makemake_moon.jpeg",
+                            content_description: "This Hubble image reveals the first moon ever discovered around the dwarf planet Makemake. The tiny satellite, located just above Makemake in this image, is barely visible because it is almost lost in the glare of the very bright dwarf planet. Hubble's sharp-eyed WFC3 made the observation in April 2015. Credits: NASA, ESA, and A. Parker and M. Buie (SwRI)"
+                        },
+                    ]
+                },
+                {
+                    title: "Nomenclature And Mythology",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The provisional designation 2005 FY9 was given to Makemake when the discovery was made public. Before that, the discovery team used the codename \"Easterbunny\" for the object, because of its discovery shortly after Easter. In July 2008, in accordance with IAU rules for classical Kuiper belt objects, 2005 FY9 was given the name of a creator deity. The name of Makemake, the creator of humanity and god of fertility in the myths of the Rapa Nui, the native people of Easter Island, was chosen in part to preserve the object's connection with Easter. Planetary symbols are no longer much used in astronomy.",
+                            content_description: null
+                        },
+                    ]
+                },
+                { 
+                    title: "Physical Characteristics",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: "Brightness & Size",
+                            content: "Makemake is currently visually the second-brightest Kuiper belt object after Pluto, having a March opposition apparent magnitude of 17.0 it will pass from its present constellation Coma Berenices to Boötes in December 2027. It is bright enough to be visible using a high-end amateur telescope. Combining the detection in infrared by the Spitzer Space Telescope and Herschel Space Telescope with the similarities of spectrum with Pluto yielded an estimated diameter from 1,360 to 1,480 km.  Makemake was the fourth dwarf planet recognized, because it has a bright V-band absolute magnitude of 0.05. Makemake has a highly reflective surface with a geometrical albedo of 0.82 ± 0.02.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/makemake_brightness.jpg",
+                            content_description: "10 minute exposure of dwarf planet Makemake with a 24\" telescope. Makemake is about apparent magnitude 16.9 in this image taken at 2009-11-26 11:45 UT. The galaxy IC 3587 is visible above Makemake. The blooming star to the lower right is magnitude 10.8. Makemake rose at 08:15 and the sun would rise at 14:00."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Spectra and Surface",
+                            content: "Like Pluto, Makemake appears red in the visible spectrum, and significantly redder than the surface of Eris. The near-infrared spectrum is marked by the presence of the broad methane  absorption bands. Methane is observed also on Pluto and Eris, but its spectral signature is much weaker.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/makemake_color.jpg",
+                            content_description: "An artist's interpretation of the dwarf planet Makemake, depicted with its reddish surface and its moon."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Spectral analysis of Makemake's surface revealed that methane must be present in the form of large grains at least one centimetre in size. In addition to methane, large amounts of ethane and tholins as well as smaller amounts of ethylene, acetylene and high-mass alkanes (like propane) may be present, most likely created by photolysis of methane by solar radiation. The tholins are probably responsible for the red color of the visible spectrum. Although evidence exists for the presence of nitrogen ice on its surface, at least mixed with other ices, there is nowhere near the same level of nitrogen as on Pluto and Triton, where it composes more than 98 percent of the crust. The relative lack of nitrogen ice suggests that its supply of nitrogen has somehow been depleted over the age of the Solar System.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The far-infrared (24-70 μm) and submillimeter (70-500 μm) photometry performed by Spitzer and Herschel telescopes revealed that the surface of Makemake is not homogeneous. Although the majority of it is covered by nitrogen and methane ices, where the albedo ranges from 78 to 90%, there are small patches of dark terrain whose albedo is only 2 to 12%, and that make up 3 to 7% of the surface. These studies were made before S/2015 (136472) 1 was discovered; thus, these small dark patches may actually have been the dark surface of the satellite rather than any actual surface features on Makemake.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Atmosphere",
+                            content: "Makemake was expected to have an atmosphere similar to that of Pluto but with a lower surface pressure. However, on 23 April 2011 Makemake passed in front of an 18th-magnitude star and abruptly blocked its light. The results showed that Makemake presently lacks a substantial atmosphere and placed an upper limit of 4-12 nanobar on the pressure at its surface. The presence of methane and possibly nitrogen suggests that Makemake could have a transient atmosphere similar to that of Pluto near its perihelion. Nitrogen, if present, will be the dominant component of it.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Orbit & Rotation",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "As of April 2019, Makemake was 52.5 AU (7.85 billion km) from the Sun, almost as far from the Sun as it ever reaches on its orbit. Makemake follows an orbit very similar to that of Haumea: highly inclined at 29° and a moderate eccentricity of about 0.16. But still, Makemake's orbit is slightly farther from the Sun in terms of both the semi-major axis and perihelion. Its orbital period is 306 years, more than Pluto's 248 years and Haumea's 283 years. Both Makemake and Haumea are currently far from the ecliptic (at an angular distance of almost 29°). Makemake will reach its aphelion in 2033, whereas Haumea passed its aphelion in early 1992.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/makemake_orbit.png",
+                            content_description: "Makemake's orbit outside of Neptune is similar to Haumea's. The positions are as of 1 January 2018."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The rotation period of Makemake is estimated at 22.83 hours. A rotation period of 7.77 hours published in 2009 later turned out to be an alias of the actual rotation period. The possibility of this had been mentioned in the 2009 study, and the data from that study agrees well with the 22.83-hour period. This rotation period is relatively long for a dwarf planet. Part of this may be due to tidal acceleration from Makemake's satellite. It has been suggested that a second large, undiscovered satellite might better explain the dwarf planet's unusually long rotation. Makemake's lightcurve amplitude is small, only 0.03 mag. This was thought to be due to Makemake currently being viewed pole on from Earth; however, S/2015 (136472) 1's orbital plane (which is probably orbiting with little inclination relative to Makemake's equator due to tidal effects) is edge-on from Earth, implying that Makemake is really being viewed equator-on.",
+                            content_description: null
+                        },                                        
+                        {
+                            content_type: "text",
+                            head: "Classification",
+                            content: "Makemake is a classical Kuiper belt object (KBO), which means its orbit lies far enough from Neptune to remain stable over the age of the Solar System. Unlike plutinos, which can cross Neptune's orbit due to their 2:3 resonance with the planet, the classical objects have perihelia further from the Sun, free from Neptune's perturbation. Makemake is, probably coincidentally, near the 13:7 resonance with Neptune.",
+                            content_description: null
+                        },                                        
+                    ]
+                },
+                {
+                    title: "Satellites",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Although Ceres is not as actively discussed as a potential home for microbial extraterrestrial life as Mars, Europa, Enceladus, or Titan are, it has the most water of any body in the inner Solar System after Earth, and the likely brine pockets under its surface could provide habitats for life. It does not experience tidal heating, like Europa or Enceladus, but it is close enough to the Sun, and contains enough long-lived radioactive isotopes, to preserve liquid water in its subsurface for extended periods. The remote detection of organic compounds and the presence of water mixed with 20% carbon by mass in its near surface could provide conditions favourable to organic chemistry. Of the biochemical elements, Ceres is rich in carbon, hydrogen, oxygen and nitrogen, but phosphorus has yet to be detected, and sulfur, despite being suggested by Hubble UV observations, was not detected by Dawn.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/makemake_moon_2.jpg",
+                            content_description: "Two images of Makemake and its satellite taken by Hubble two days apart in April 2015."
+                        },
+                        
+                    ]
+                },
+                {
+                    title: "Exploration",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Makemake was observed from afar by the New Horizons spacecraft in October 2007 and January 2017, from distances of 52 AU and 70 AU, respectively. The spacecraft's outbound trajectory permitted observations of Makemake at high phase angles that are otherwise unobtainable from Earth, enabling the determination of the light scattering properties and phase curve behavior of Makemake's surface. It has been calculated that a flyby mission to Makemake could take just over 16 years using a Jupiter gravity assist, based on a launch date of 21 August 2024 or 24 August 2036. Makemake would be approximately 52 AU from the Sun when the spacecraft arrives.",
+                            content_description: null 
+                        },                                       
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/makemake_newHorizons.gif",
+                            content_description: "Makemake, indicated with red bars, as imaged by the New Horizons spacecraft in October 2007." 
+                        },                                           
+                    ]
+                },
+                {
+                    title: "Watch To Learn More...",
+                    texts: [
+                        {
+                            content_type: "embed_video",
+                            content: "SLsdsOSkq4Y",
+                            content_description: "..."
+                        },  
+                    ]
+                }
+            ],
+             summary: [
+                {
+                    head: "Discovery",
+                    keyValue: [
+                        {
+                            key: "Discovered By",
+                            value: "Michael E. Brown, Chad Trujillo, David Rabinowitz."
+                        },
+                        {
+                            key: "Discovery Date",
+                            value: "March 31, 2005"
+                        },
+                    ]
+                },
+                {
+                    head: "Designations",
+                    keyValue: [
+                        {
+                            key: "Designation",
+                            value: "(136472) Makemake"
+                        },
+                        {
+                            key: "Named After",
+                            value: "Makemake: a creator god in the Rapa Nui mythology of Easter Island."
+                        },
+                        {
+                            key: "Minor Planet Category",
+                            value: "Dwarf planet, TNO, cubewano, scattered-near."
+                        },
+                        {
+                            key: "Adjectives",
+                            value: "Makemakean"
+                        },
+                    ]
+                },
+                {
+                    head: "Orbital Characteristics (Epoch May 31, 2020.)",
+                    keyValue: [
+                        {
+                            key: "Earliest Precovery Date",
+                            value: "January 29, 1955"
+                        },
+                        {
+                            key: "Aphelion",
+                            value: "52.756 AU (7.8922 Tm)"
+                        },
+                        {
+                            key: "Perihelion",
+                            value: "38.104 AU (5.7003 Tm)"
+                        },
+                        {
+                            key: "Semi-major Axis",
+                            value: "45.430 AU (6.7962 Tm)"
+                        },
+                        {
+                            key: "Eccentricity",
+                            value: "0.16126"
+                        },
+                        {
+                            key: "Orbital Period (sidereal)",
+                            value: "306.21 yr; 111,845 days"
+                        },
+                        {
+                            key: "Average Orbital Speed",
+                            value: "4.419 km/s"
+                        },
+                        {
+                            key: "Mean Anomaly",
+                            value: "165.514°"
+                        },
+                        {
+                            key: "Inclination",
+                            value: "28.9835°"
+                        },
+                        {
+                            key: "Longitude of Ascending Node",
+                            value: "79.620°"
+                        },
+                        {
+                            key: "Time of Perihelion",
+                            value: "17 November 2186"
+                        },
+                        {
+                            key: "Argument of Perihelion",
+                            value: "294.834°"
+                        },
+                        {
+                            key: "Known Satellites",
+                            value: "1"
+                        },
+                    ]
+                },
+                {
+                    head: "Physical Characteristics",  
+                    keyValue: [
+                        {
+                            key: "Dimensions",
+                            value: "(1434 +48/-18) x projected (1420 +18/-24 km)"
+                        },
+                        {
+                            key: "Mean Diameter",
+                            value: "715 +19/-11 km"
+                        },
+                        {
+                            key: "Flattening",
+                            value: "0.0098"
+                        },
+                        {
+                            key: "Surface Area",
+                            value: "6.42e6 sq.km"
+                        },
+                        {
+                            key: "Volume",
+                            value: "1.53e9 cu.km"
+                        },
+                        {
+                            key: "Mass",
+                            value: "≈3.1e21 kg"
+                        },
+                        {
+                            key: "Mean Density",
+                            value: "≈1.7 g/cu.cm (using Ortiz et al. 2012 radius); ≈2.1 g/cu.cm (using Brown 2013 radius)"
+                        },
+                        {
+                            key: "Equitorial Surface Gravity",
+                            value: "< 0.57 m/sq.s"
+                        },
+                        {
+                            key: "Equitorial Escape Velocity",
+                            value: "< 0.91 km/s"
+                        },
+                        {
+                            key: "Synodic Rotation Period",
+                            value: "22.8266 ± 0.0001 hours"
+                        },
+                        {
+                            key: "Geometric Albedo",
+                            value: "0.82±0.02 geometric; 0.74±0.06 Bond"
+                        },
+                        {
+                            key: "Temprature",
+                            value: "32 to 36 K (single-terrain model); 40 to 44 K (two-terrain model)"
+                        },
+                        {
+                            key: "Spectral Type",
+                            value: "B-V = 0.83, V-R = 0.5"
+                        },
+                        {
+                            key: "Apparent Magnitude",
+                            value: "17.0 (opposition)"
+                        },
+                        {
+                            key: "Absolute Magnitude (H)",
+                            value: "-0.12"
+                        },
+                    ]
+                },
+            ],
+            dateUpdate: "2023-05-10"
+        },
+        haumea: {
+            name: "Haumea",
+            baseImgUrl: "/makemake_base.jpg",
+            baseText: "Haumea",
+            subText: "Haumea's Haumea (minor-planet designation 136108 Haumea) is a dwarf planet located beyond Neptune's orbit. Mass 1/1400 that of Earth.",
+            next: {
+                key: "Eris",
+                value: "/dwarf_planets/eris"
+            },
+            prev: {
+                key: "Makemake",
+                value: "/dwarf_planets/makemake"
+            },
+            subdata: [
+                {
+                    key: "Distance From Sun",
+                    value: "4,010,000,000 miles"
+                },
+                {
+                    key: "One Way Light Time From Sun",
+                    value: "6hours"
+                },
+                {
+                    key: "Length Of Year",
+                    value: "103.660 Earth Days"
+                },
+                {
+                    key: "Satellites Count",
+                    value: "2"
+                },
+            ],
+            overview: {
+                name: "Haumea",
+                topBox: null,
+                paragraphs: [
+                    "Originally designated 2003 EL61 (and nicknamed Santa by one discovery team), Haumea is located in the Kuiper Belt, a donut-shaped region of icy bodies beyond the orbit of Neptune. The other known dwarf planets in the Kuiper Belt are Pluto, Eris, and Makemake (dwarf planet Ceres is located in the main asteroid belt between Mars and Jupiter).",
+                    "Haumea is roughly the same size as Pluto. It is one of the fastest rotating large objects in our solar system. The fast spin distorts Haumea's shape, making this dwarf planet look like a American football.", "Two teams claim credit for discovering Haumea citing evidence from observations made in 2003 and 2004. The International Astronomical Union's Gazetteer of Planetary Nomenclature lists the discovery location as Sierra Nevada Observatory in Spain on Mar. 7, 2003, but no official discoverer is listed.", "Everything we know about Haumea is from observations with ground-based telescopes from around the world."
+                ],
+                iframeLink: {
+                    type: "iframe",
+                    content: "https://eyes.nasa.gov/apps/solar-system/#/136108_haumea?embed=true&amp;logo=false" ,
+                    content_description: ""
+                },
+                facts_12: [
+                    {
+                        headText: "SMALL WORLD",
+                        text: "With a radius of about 385 miles (620 kilometers), Haumea is about 1/14 the radius of Earth. If Earth were the size of a nickel, Haumea would be about as big as a sesame seed."
+                    },
+                    {
+                        headText: "SHORT DAY, LONG YEAR",
+                        text: "Haumea takes 285 Earth years to make one trip around the Sun. As Haumea orbits the Sun, it completes one rotation every 4 hours."
+                    },
+                    {
+                        headText: "SWIFT SPIN",
+                        text: "Haumea spins rapidly, completing one rotation in just under four hours, causing it to have a pronounced bulge around its equator making it one of the fastest rotating large objects in our solar system."
+                    },
+                    {
+                        headText: "DYNAMIC ATMOSPHERE",
+                        text: "Haumea is believed to have a tenuous and transient atmosphere composed of nitrogen, similar to Pluto and Triton, which is replenished by surface sublimation."
+                    },
+                    {
+                        headText: "RING SYSTEM",
+                        text: "Haumea is the first and only known dwarf planet to have a ring system, composed of debris from a collision that occurred in the distant past."
+                    },
+                    {
+                        headText: "MYTHOLOGY",
+                        text: "Haumea is named after the Hawaiian goddess of childbirth and fertility, reflecting its connection to the culture and mythology of the Hawaiian people."
+                    },
+                    {
+                        headText: "FAMILY TIES",
+                        text: "Haumea belongs to a family of objects in the Kuiper Belt known as the Haumea family, which share similar compositions and characteristics."
+                    },
+                    {
+                        headText: "MOON DANCE",
+                        text: "Haumea has two known moons, Hi'iaka and Namaka, named after Hawaiian goddesses. These moons provide insight into the dwarf planet's formation and history."
+                    },
+                    {
+                        headText: "SCARCE EXPLORATION",
+                        text: "No spacecraft missions have been planned or launched specifically to study Haumea. Our knowledge of this intriguing dwarf planet comes primarily from ground-based observations using telescopes." 
+                    },
+                ]
+            },
+            inDepth: [
+                {
+                    title: "Introduction",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Haumea (minor-planet designation 136108 Haumea) is a dwarf planet located beyond Neptune's orbit. It was discovered in 2004 by a team headed by Mike Brown of Caltech at the Palomar Observatory in the United States and disputably also in 2005 by a team headed by José Luis Ortiz Moreno at the Sierra Nevada Observatory in Spain, though the latter claim has been contested. On September 17, 2008, it was named after Haumea, the Hawaiian goddess of childbirth, under the expectation by the International Astronomical Union (IAU) that it would prove to be a dwarf planet. Nominal estimates make it the third-largest known trans-Neptunian object, after Eris and Pluto, and approximately the size of Uranus's moon Titania.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Haumea's mass is about one-third that of Pluto, and 1/1400 that of Earth. In October 2017, astronomers announced the discovery of a ring system around Haumea, representing the first ring system discovered for a trans-Neptunian object. Haumea's gravity was until recently thought to be sufficient for it to have relaxed into hydrostatic equilibrium, though that is now unclear. Haumea's elongated shape together with its rapid rotation, rings, and high albedo (from a surface of crystalline water ice), are thought to be the consequences of a giant collision, which left Haumea the largest member of a collisional family that includes several large trans-Neptunian objects and Haumea's two known moons, Hiʻiaka and Namaka.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/haumea_moons.gif",
+                            content_description: "Haumea and its orbiting moons, imaged by Hubble in 2008. Hiʻiaka is the brighter, outermost moon, while Namaka is the fainter, inner moon. This animation of the moons' orbits spans 7 days and the orbital plane of Namaka is oriented vertically."
+                        },
+                    ]
+                },
+                {
+                    title: "Nomenclature And Mythology",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Until it was given a permanent name, the Caltech discovery team used the nickname \"Santa\" among themselves, because they had discovered Haumea on December 28, 2004, just after Christmas. On July 29, 2005, Haumea was given the provisional designation 2003 EL61, based on the date of the Spanish discovery image. On September 7, 2006, it was numbered and admitted into the official minor planet catalog as (136108) 2003 EL61. The names were proposed by David Rabinowitz of the Caltech team. Haumea is the matron goddess of the island of Hawai'i, where the Mauna Kea Observatory is located. In addition, she is identified with Papa, the goddess of the earth and wife of Wākea (space), which, at the time, seemed appropriate because Haumea was thought to be composed almost entirely of solid rock, without the thick ice mantle over a small rocky core typical of other known Kuiper belt objects.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Lastly, Haumea is the goddess of fertility and childbirth, with many children who sprang from different parts of her body; this corresponds to the swarm of icy bodies thought to have broken off the main body during an ancient collision. The two known moons, also believed to have formed in this manner, are thus named after two of Haumea's daughters, Hiʻiaka and Nāmaka. Planetary symbols are no longer much used in astronomy. A Haumea symbol is included in Unicode as U+1F77B: it is mostly used by astrologers, but has also been used by NASA. The symbol was designed by Denis Moskowitz, a software engineer in Massachusetts; it combines and simplifies Hawaiian petroglyphs meaning 'woman' and 'childbirth'.",
+                            content_description: null
+                        },
+                    ]
+                },
+                { 
+                    title: "Physical Characteristics",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: "Size, Shape, and Composition",
+                            content: "The size of a Solar System object can be deduced from its optical magnitude, its distance, and its albedo. Objects appear bright to Earth observers either because they are large or because they are highly reflective. If their reflectivity (albedo) can be ascertained, then a rough estimate can be made of their size. For most distant objects, the albedo is unknown, but Haumea is large and bright enough for its thermal emission to be measured, which has given an approximate value for its albedo and thus its size.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The rotation and amplitude of Haumea's light curve were argued to place strong constraints on its composition. If Haumea were in hydrostatic equilibrium and had a low density like Pluto, with a thick mantle of ice over a small rocky core, its rapid rotation would have elongated it to a greater extent than the fluctuations in its brightness allow. Such considerations constrained its density to a range of 2.6-3.3 g/cu.cm. By comparison, the Moon, which is rocky, has a density of 3.3 g/cu.cm, whereas Pluto, which is typical of icy objects in the Kuiper belt, has a density of 1.86 g/cu.cm. Haumea's possible high density covered the values for silicate minerals such as olivine and pyroxene, which make up many of the rocky objects in the Solar System. This also suggested that the bulk of Haumea was rock covered with a relatively thin layer of ice. A thick ice mantle more typical of Kuiper belt objects may have been blasted off during the impact that formed the Haumean collisional family.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Because Haumea has moons, the mass of the system can be calculated from their orbits using Kepler's third law. The result is 4.2e21 kg, 28% the mass of the Plutonian system and 6% that of the Moon. Nearly all of this mass is in Haumea. Several ellipsoid-model calculations of Haumea's dimensions have been made. The first model produced after Haumea's discovery was calculated from ground-based observations of Haumea's light curve at optical wavelengths: it provided a total length of 1,960 to 2,500 km and a visual albedo (pv) greater than 0.6. The most likely shape is a triaxial ellipsoid with approximate dimensions of 2,000 x 1,500 x 1,000 km, with an albedo of 0.71. However the observations of a stellar occultation in January 2017 cast a doubt on all those conclusions. The measured shape of Haumea, while elongated as presumed before, appeared to have significantly larger dimensions - according to the data obtained from the occultation Haumea is approximately the diameter of Pluto along its longest axis and about half that at its poles.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The resulting density calculated from the observed shape of Haumea was about 1.8 g/cm3 - more in line with densities of other large TNOs. This resulting shape appeared to be inconsistent with a homogenous body in hydrostatic equilibrium, though Haumea appears to be one of the largest trans-Neptunian objects discovered nonetheless, smaller than Eris, Pluto, similar to Makemake, and possibly Gonggong, and larger than Sedna, Quaoar, and Orcus.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "A 2019 study attempted to resolve the conflicting measurements of Haumea's shape and density using numerical modeling of Haumea as a differentiated body. It found that dimensions of ≈ 2,100 x 1,680 x 1,074 km (modeling the long axis at intervals of 25 km) were a best-fit match to the observed shape of Haumea during the 2017 occultation, while also being consistent with both surface and core scalene ellipsoid shapes in hydrostatic equilibrium. The revised solution for Haumea's shape implies that it has a core of approximately 1,626 x 1,446 x 940 km, with a relatively high density of ≈ 2.68 g/cm3, indicative of a composition largely of hydrated silicates such as kaolinite. The core is surrounded by an icy mantle that ranges in thickness from about 70 km at the poles to 170 km along its longest axis, comprising up to 17% of Haumea's mass. Haumea's mean density is estimated at ≈ 2.018 g/cm3, with an albedo of ≈ 0.66.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/haumea_rotation.gif",
+                            content_description: "Haumea rapidly rotates in just under 4 hours, causing it to be elongated. Haumea exhibits distinguishable variations in colour as it rotates, indicative of a dark red spot on its surface as depicted here."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Surface",
+                            content: "In 2005, the Gemini and Keck telescopes obtained spectra of Haumea which showed strong crystalline water ice features similar to the surface of Pluto's moon Charon. This is peculiar, because crystalline ice forms at temperatures above 110 K, whereas Haumea's surface temperature is below 50 K, a temperature at which amorphous ice is formed. Radiation damage should also redden and darken the surface of trans-Neptunian objects where the common surface materials of organic ices and tholin-like compounds are present, as is the case with Pluto. Therefore, the spectra and colour suggest Haumea and its family members have undergone recent resurfacing that produced fresh ice. However, no plausible resurfacing mechanism has been suggested.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Haumea is as bright as snow, with an albedo in the range of 0.6-0.8, consistent with crystalline ice. Other large TNOs such as Eris appear to have albedos as high or higher. Best-fit modeling of the surface spectra suggested that 66% to 80% of the Haumean surface appears to be pure crystalline water ice, with one contributor to the high albedo possibly hydrogen cyanide or phyllosilicate clays. Inorganic cyanide salts such as copper potassium cyanide may also be present. However, further studies of the visible and near infrared spectra suggest a homogeneous surface covered by an intimate 1:1 mixture of amorphous and crystalline ice, together with no more than 8% organics. The absence of ammonia hydrate excludes cryovolcanism and the observations confirm that the collisional event must have happened more than 100 million years ago, in agreement with the dynamic studies. The absence of measurable methane in the spectra of Haumea is consistent with a warm collisional history that would have removed such volatiles, in contrast to Makemake.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Orbit & Rotation",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Haumea has an orbital period of 284 Earth years, a perihelion of 35 AU, and an orbital inclination of 28°. It passed aphelion in early 1992, and is currently more than 50 AU from the Sun. It will come to perihelion in 2133. Haumea's orbit has a slightly greater eccentricity than that of the other members of its collisional family. This is thought to be due to Haumea's weak 7:12 orbital resonance with Neptune gradually modifying its initial orbit over the course of a billion years, through the Kozai effect, which allows the exchange of an orbit's inclination for increased eccentricity. With a visual magnitude of 17.3, Haumea is the third-brightest object in the Kuiper belt after Pluto and Makemake, and easily observable with a large amateur telescope.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/makemake_orbit.png",
+                            content_description: "Haumea's orbit outside of Neptune is similar to Makemake's. The positions are as of 1 January 2018."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "THaumea displays large fluctuations in brightness over a period of 3.9 hours, which can only be explained by a rotational period of this length. This is faster than any other known equilibrium body in the Solar System, and indeed faster than any other known body larger than 100 km in diameter. While most rotating bodies in equilibrium are flattened into oblate spheroids, Haumea rotates so quickly that it is distorted into a triaxial ellipsoid. If Haumea were to rotate much more rapidly, it would distort itself into a dumbbell shape and split in two. This rapid rotation is thought to have been caused by the impact that created its satellites and collisional family.",
+                            content_description: null
+                        },                                        
+                        {
+                            content_type: "text",
+                            head: "Possible resonance with Neptune",
+                            content: "Haumea is thought to be in an intermittent 7:12 orbital resonance with Neptune. Its ascending node Ω precesses with a period of about 4.6 million years, and the resonance is broken twice per precession cycle, or every 2.3 million years, only to return a hundred thousand years or so later. As this is not a simple resonance, Marc Buie qualifies it as non-resonant.",
+                            content_description: null
+                        },                                        
+                    ]
+                },
+                {
+                    title: "Satellites",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Two small satellites have been discovered orbiting Haumea, (136108) Haumea I Hiʻiaka and (136108) Haumea II Namaka. Darin Ragozzine and Michael Brown discovered both in 2005, through observations of Haumea using the W. M. Keck Observatory. Hiʻiaka, at first nicknamed \"Rudolph\" by the Caltech team, was discovered January 26, 2005. It is the outer and, at roughly 310 km in diameter, the larger and brighter of the two, and orbits Haumea in a nearly circular path every 49 days. Strong absorption features at 1.5 and 2 micrometres in the infrared spectrum are consistent with nearly pure crystalline water ice covering much of the surface.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Namaka, the smaller, inner satellite of Haumea, was discovered on June 30, 2005, and nicknamed \"Blitzen\". It is a tenth the mass of Hiʻiaka, orbits Haumea in 18 days in a highly elliptical, non-Keplerian orbit, and as of 2008 is inclined 13° from the larger moon, which perturbs its orbit. The relatively large eccentricities together with the mutual inclination of the orbits of the satellites are unexpected as they should have been damped by the tidal effects. A relatively recent passage by a 3:1 resonance with Hiʻiaka might explain the current excited orbits of the Haumean moons.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/haumea_moons.gif",
+                            content_description: "Haumea and its orbiting moons, imaged by Hubble in 2008. Hiʻiaka is the brighter, outermost moon, while Namaka is the fainter, inner moon. This animation of the moons' orbits spans 7 days and the orbital plane of Namaka is oriented vertically."
+                        },
+                        
+                    ]
+                },
+                {
+                    title: "Rings",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "A stellar occultation observed on January 21, 2017, and described in an October 2017 Nature article indicated the presence of a ring around Haumea. This represents the first ring system discovered for a TNO. The ring has a radius of about 2,287 km, a width of ~70 km and an opacity of 0.5. It is well within Haumea's Roche limit, which would be at a radius of about 4,400 km if it were spherical (being nonspherical pushes the limit out farther). The ring plane is inclined 3.2° ± 1.4° with respect to Haumea's equatorial plane and approximately coincides with the orbital plane of its larger, outer moon Hiʻiaka. The ring is also close to the 1:3 orbit-spin resonance with Haumea's rotation (which is at a radius of 2,285 ± 8 km from Haumea's center). The ring is estimated to contribute 5% to the total brightness of Haumea.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/haumea_rings.gif",
+                            content_description: "Haumea's 3.9155-hour rotation within its discovered ring."
+                        },
+                        
+                    ]
+                },
+                {
+                    title: "Exploration",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Haumea was observed from afar by the New Horizons spacecraft in October 2007, January 2017, and May 2020, from distances of 49 AU, 59 AU, and 63 AU, respectively. The spacecraft's outbound trajectory permitted observations of Haumea at high phase angles that are otherwise unobtainable from Earth, enabling the determination of the light scattering properties and phase curve behavior of Haumea's surface.",
+                            content_description: null 
+                        },                                       
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/haumea_newHorizons.gif",
+                            content_description: "Haumea imaged by the New Horizons spacecraft in October 2007." 
+                        },                                           
+                    ]
+                },
+                {
+                    title: "Watch To Learn More...",
+                    texts: [
+                        {
+                            content_type: "embed_video",
+                            content: "Keh1goOGDFY",
+                            content_description: "This is one of the strangest objects in the solar system, it is classified as a dwarf planet, but it is not round."
+                        },  
+                    ]
+                }
+            ],
+             summary: [
+                {
+                    head: "Discovery",
+                    keyValue: [
+                        {
+                            key: "Discovered By",
+                            value: "Brown et al., Ortiz et al."
+                        },
+                        {
+                            key: "Discovery Date",
+                            value: "December 28, 2004 (Brown); July 27, 2005 (Ortiz)"
+                        },
+                    ]
+                },
+                {
+                    head: "Designations",
+                    keyValue: [
+                        {
+                            key: "Designation",
+                            value: "(136108) Haumea"
+                        },
+                        {
+                            key: "Alternate Designation",
+                            value: "2003 EL61"
+                        },
+                        {
+                            key: "Named After",
+                            value: "Haumea: the Hawaiian goddess of fertility."
+                        },
+                        {
+                            key: "Minor Planet Category",
+                            value: "Dwarf planet, TNO, Haumea family trinary."
+                        },
+                        {
+                            key: "Adjectives",
+                            value: "Haumean"
+                        },
+                    ]
+                },
+                {
+                    head: "Orbital Characteristics (Epoch 17 December 2020.)",
+                    keyValue: [
+                        {
+                            key: "Observation Arc",
+                            value: "65years and 291days (24033 days)"
+                        },
+                        {
+                            key: "Earliest Precovery Date",
+                            value: "March 22, 1955"
+                        },
+                        {
+                            key: "Aphelion",
+                            value: "51.585 AU (7.7170 Tm)"
+                        },
+                        {
+                            key: "Perihelion",
+                            value: "34.647 AU (5.1831 Tm)"
+                        },
+                        {
+                            key: "Semi-major Axis",
+                            value: "43.116 AU (6.4501 Tm)"
+                        },
+                        {
+                            key: "Eccentricity",
+                            value: "0.19642"
+                        },
+                        {
+                            key: "Orbital Period (sidereal)",
+                            value: "283.12 yr (103,410 days)"
+                        },
+                        {
+                            key: "Average Orbital Speed",
+                            value: "4.53 km/s"
+                        },
+                        {
+                            key: "Mean Anomaly",
+                            value: "218.205°"
+                        },
+                        {
+                            key: "Mean Motion",
+                            value: "0° 0m 12.533s / day"
+                        },
+                        {
+                            key: "Inclination",
+                            value: "28.2137°"
+                        },
+                        {
+                            key: "Longitude of Ascending Node",
+                            value: "122.167°"
+                        },
+                        {
+                            key: "Time of Perihelion",
+                            value: "≈1 June 2133 ± 2 days"
+                        },
+                        {
+                            key: "Argument of Perihelion",
+                            value: "239.041°"
+                        },
+                        {
+                            key: "Known Satellites",
+                            value: "2 (Hi'iaka and Namaka)"
+                        },
+                    ]
+                },
+                {
+                    head: "Physical Characteristics",  
+                    keyValue: [
+                        {
+                            key: "Dimensions",
+                            value: "≈ 2,100 x 1,680 x 1,074 km; 2,322 ± 60 x 1,704±8 x 1,026 ± 32 km"
+                        },
+                        {
+                            key: "Mean Diameter",
+                            value: "≈ 780km; 798 ± 6km to 816km"
+                        },
+                        {
+                            key: "Surface Area",
+                            value: "≈ 8.14e6 sq.km"
+                        },
+                        {
+                            key: "Volume",
+                            value: "≈ 1.98e9 cu.km; 0.0018 Earths"
+                        },
+                        {
+                            key: "Mass",
+                            value: "(4.006 ± 0.040)e21 kg; 0.00066 Earths"
+                        },
+                        {
+                            key: "Mean Density",
+                            value: "≈ 2.018 g/cu.cm"
+                        },
+                        {
+                            key: "Equitorial Surface Gravity",
+                            value: "0.93 m/sq.s at poles to 0.24 m/sq.s at longest axis"
+                        },
+                        {
+                            key: "Equitorial Escape Velocity",
+                            value: "1 km/s at poles to 0.71 km/s at longest axis"
+                        },
+                        {
+                            key: "Synodic Rotation Period",
+                            value: "3.915341 ± 0.000005 hours (0.163139208 days)"
+                        },
+                        {
+                            key: "Axial Tilt",
+                            value: "≈ 126° (to orbit; assumed); 81.2° or 78.9° (to ecliptic)"
+                        },
+                        {
+                            key: "North Pole Right Ascension",
+                            value: "282.6° ± 1.2°"
+                        },
+                        {
+                            key: "North Pole Right Declination",
+                            value: "-13.0° ± 1.3° or -11.8° ± 1.2°"
+                        },
+                        {
+                            key: "Geometric Albedo",
+                            value: "≈0.66 geometric; ≤ 0.51 ± 0.02 geometric; 0.33 ± 0.03 Bond"
+                        },
+                        {
+                            key: "Temprature",
+                            value: "<50 K"
+                        },
+                        {
+                            key: "Spectral Type",
+                            value: "BB (neutral); B-V = 0.64, V-R = 0.33; B0-V0 = 0.646"
+                        },
+                        {
+                            key: "Apparent Magnitude",
+                            value: "17.3 (opposition)"
+                        },
+                        {
+                            key: "Absolute Magnitude (H)",
+                            value: "0.428 ± 0.011 (V-band)"
+                        },
+                    ]
+                },
+            ],
+            dateUpdate: "2023-05-10"
+        },
+        eris: {
+            name: "Eris",
+            baseImgUrl: "/makemake_base.jpg",
+            baseText: "Eris",
+            subText: "Haumea's Haumea (minor-planet designation 136108 Haumea) is a dwarf planet located beyond Neptune's orbit. Mass 1/1400 that of Earth.",
+            next: {
+                key: "Earth moon",
+                value: "/moons/earth"
+            },
+            prev: {
+                key: "Haumea",
+                value: "/dwarf_planets/haumea"
+            },
+            subdata: [
+                {
+                    key: "Distance From Sun",
+                    value: "4,010,000,000 miles"
+                },
+                {
+                    key: "One Way Light Time From Sun",
+                    value: "6hours"
+                },
+                {
+                    key: "Length Of Year",
+                    value: "103.660 Earth Days"
+                },
+                {
+                    key: "Satellites Count",
+                    value: "2"
+                },
+            ],
+            overview: {
+                name: "Haumea",
+                topBox: null,
+                paragraphs: [
+                    "Originally designated 2003 EL61 (and nicknamed Santa by one discovery team), Haumea is located in the Kuiper Belt, a donut-shaped region of icy bodies beyond the orbit of Neptune. The other known dwarf planets in the Kuiper Belt are Pluto, Eris, and Makemake (dwarf planet Ceres is located in the main asteroid belt between Mars and Jupiter).",
+                    "Haumea is roughly the same size as Pluto. It is one of the fastest rotating large objects in our solar system. The fast spin distorts Haumea's shape, making this dwarf planet look like a American football.", "Two teams claim credit for discovering Haumea citing evidence from observations made in 2003 and 2004. The International Astronomical Union's Gazetteer of Planetary Nomenclature lists the discovery location as Sierra Nevada Observatory in Spain on Mar. 7, 2003, but no official discoverer is listed.", "Everything we know about Haumea is from observations with ground-based telescopes from around the world."
+                ],
+                iframeLink: {
+                    type: "iframe",
+                    content: "https://eyes.nasa.gov/apps/solar-system/#/136108_haumea?embed=true&amp;logo=false" ,
+                    content_description: ""
+                },
+                facts_12: [
+                    {
+                        headText: "SMALL WORLD",
+                        text: "With a radius of about 385 miles (620 kilometers), Haumea is about 1/14 the radius of Earth. If Earth were the size of a nickel, Haumea would be about as big as a sesame seed."
+                    },
+                    {
+                        headText: "SHORT DAY, LONG YEAR",
+                        text: "Haumea takes 285 Earth years to make one trip around the Sun. As Haumea orbits the Sun, it completes one rotation every 4 hours."
+                    },
+                    {
+                        headText: "SWIFT SPIN",
+                        text: "Haumea spins rapidly, completing one rotation in just under four hours, causing it to have a pronounced bulge around its equator making it one of the fastest rotating large objects in our solar system."
+                    },
+                    {
+                        headText: "DYNAMIC ATMOSPHERE",
+                        text: "Haumea is believed to have a tenuous and transient atmosphere composed of nitrogen, similar to Pluto and Triton, which is replenished by surface sublimation."
+                    },
+                    {
+                        headText: "RING SYSTEM",
+                        text: "Haumea is the first and only known dwarf planet to have a ring system, composed of debris from a collision that occurred in the distant past."
+                    },
+                    {
+                        headText: "MYTHOLOGY",
+                        text: "Haumea is named after the Hawaiian goddess of childbirth and fertility, reflecting its connection to the culture and mythology of the Hawaiian people."
+                    },
+                    {
+                        headText: "FAMILY TIES",
+                        text: "Haumea belongs to a family of objects in the Kuiper Belt known as the Haumea family, which share similar compositions and characteristics."
+                    },
+                    {
+                        headText: "MOON DANCE",
+                        text: "Haumea has two known moons, Hi'iaka and Namaka, named after Hawaiian goddesses. These moons provide insight into the dwarf planet's formation and history."
+                    },
+                    {
+                        headText: "SCARCE EXPLORATION",
+                        text: "No spacecraft missions have been planned or launched specifically to study Haumea. Our knowledge of this intriguing dwarf planet comes primarily from ground-based observations using telescopes." 
+                    },
+                ]
+            },
+            inDepth: [
+                {
+                    title: "Introduction",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Haumea (minor-planet designation 136108 Haumea) is a dwarf planet located beyond Neptune's orbit. It was discovered in 2004 by a team headed by Mike Brown of Caltech at the Palomar Observatory in the United States and disputably also in 2005 by a team headed by José Luis Ortiz Moreno at the Sierra Nevada Observatory in Spain, though the latter claim has been contested. On September 17, 2008, it was named after Haumea, the Hawaiian goddess of childbirth, under the expectation by the International Astronomical Union (IAU) that it would prove to be a dwarf planet. Nominal estimates make it the third-largest known trans-Neptunian object, after Eris and Pluto, and approximately the size of Uranus's moon Titania.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Haumea's mass is about one-third that of Pluto, and 1/1400 that of Earth. In October 2017, astronomers announced the discovery of a ring system around Haumea, representing the first ring system discovered for a trans-Neptunian object. Haumea's gravity was until recently thought to be sufficient for it to have relaxed into hydrostatic equilibrium, though that is now unclear. Haumea's elongated shape together with its rapid rotation, rings, and high albedo (from a surface of crystalline water ice), are thought to be the consequences of a giant collision, which left Haumea the largest member of a collisional family that includes several large trans-Neptunian objects and Haumea's two known moons, Hiʻiaka and Namaka.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/haumea_moons.gif",
+                            content_description: "Haumea and its orbiting moons, imaged by Hubble in 2008. Hiʻiaka is the brighter, outermost moon, while Namaka is the fainter, inner moon. This animation of the moons' orbits spans 7 days and the orbital plane of Namaka is oriented vertically."
+                        },
+                    ]
+                },
+                {
+                    title: "Nomenclature And Mythology",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Until it was given a permanent name, the Caltech discovery team used the nickname \"Santa\" among themselves, because they had discovered Haumea on December 28, 2004, just after Christmas. On July 29, 2005, Haumea was given the provisional designation 2003 EL61, based on the date of the Spanish discovery image. On September 7, 2006, it was numbered and admitted into the official minor planet catalog as (136108) 2003 EL61. The names were proposed by David Rabinowitz of the Caltech team. Haumea is the matron goddess of the island of Hawai'i, where the Mauna Kea Observatory is located. In addition, she is identified with Papa, the goddess of the earth and wife of Wākea (space), which, at the time, seemed appropriate because Haumea was thought to be composed almost entirely of solid rock, without the thick ice mantle over a small rocky core typical of other known Kuiper belt objects.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Lastly, Haumea is the goddess of fertility and childbirth, with many children who sprang from different parts of her body; this corresponds to the swarm of icy bodies thought to have broken off the main body during an ancient collision. The two known moons, also believed to have formed in this manner, are thus named after two of Haumea's daughters, Hiʻiaka and Nāmaka. Planetary symbols are no longer much used in astronomy. A Haumea symbol is included in Unicode as U+1F77B: it is mostly used by astrologers, but has also been used by NASA. The symbol was designed by Denis Moskowitz, a software engineer in Massachusetts; it combines and simplifies Hawaiian petroglyphs meaning 'woman' and 'childbirth'.",
+                            content_description: null
+                        },
+                    ]
+                },
+                { 
+                    title: "Physical Characteristics",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: "Size, Shape, and Composition",
+                            content: "The size of a Solar System object can be deduced from its optical magnitude, its distance, and its albedo. Objects appear bright to Earth observers either because they are large or because they are highly reflective. If their reflectivity (albedo) can be ascertained, then a rough estimate can be made of their size. For most distant objects, the albedo is unknown, but Haumea is large and bright enough for its thermal emission to be measured, which has given an approximate value for its albedo and thus its size.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The rotation and amplitude of Haumea's light curve were argued to place strong constraints on its composition. If Haumea were in hydrostatic equilibrium and had a low density like Pluto, with a thick mantle of ice over a small rocky core, its rapid rotation would have elongated it to a greater extent than the fluctuations in its brightness allow. Such considerations constrained its density to a range of 2.6-3.3 g/cu.cm. By comparison, the Moon, which is rocky, has a density of 3.3 g/cu.cm, whereas Pluto, which is typical of icy objects in the Kuiper belt, has a density of 1.86 g/cu.cm. Haumea's possible high density covered the values for silicate minerals such as olivine and pyroxene, which make up many of the rocky objects in the Solar System. This also suggested that the bulk of Haumea was rock covered with a relatively thin layer of ice. A thick ice mantle more typical of Kuiper belt objects may have been blasted off during the impact that formed the Haumean collisional family.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Because Haumea has moons, the mass of the system can be calculated from their orbits using Kepler's third law. The result is 4.2e21 kg, 28% the mass of the Plutonian system and 6% that of the Moon. Nearly all of this mass is in Haumea. Several ellipsoid-model calculations of Haumea's dimensions have been made. The first model produced after Haumea's discovery was calculated from ground-based observations of Haumea's light curve at optical wavelengths: it provided a total length of 1,960 to 2,500 km and a visual albedo (pv) greater than 0.6. The most likely shape is a triaxial ellipsoid with approximate dimensions of 2,000 x 1,500 x 1,000 km, with an albedo of 0.71. However the observations of a stellar occultation in January 2017 cast a doubt on all those conclusions. The measured shape of Haumea, while elongated as presumed before, appeared to have significantly larger dimensions - according to the data obtained from the occultation Haumea is approximately the diameter of Pluto along its longest axis and about half that at its poles.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The resulting density calculated from the observed shape of Haumea was about 1.8 g/cm3 - more in line with densities of other large TNOs. This resulting shape appeared to be inconsistent with a homogenous body in hydrostatic equilibrium, though Haumea appears to be one of the largest trans-Neptunian objects discovered nonetheless, smaller than Eris, Pluto, similar to Makemake, and possibly Gonggong, and larger than Sedna, Quaoar, and Orcus.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "A 2019 study attempted to resolve the conflicting measurements of Haumea's shape and density using numerical modeling of Haumea as a differentiated body. It found that dimensions of ≈ 2,100 x 1,680 x 1,074 km (modeling the long axis at intervals of 25 km) were a best-fit match to the observed shape of Haumea during the 2017 occultation, while also being consistent with both surface and core scalene ellipsoid shapes in hydrostatic equilibrium. The revised solution for Haumea's shape implies that it has a core of approximately 1,626 x 1,446 x 940 km, with a relatively high density of ≈ 2.68 g/cm3, indicative of a composition largely of hydrated silicates such as kaolinite. The core is surrounded by an icy mantle that ranges in thickness from about 70 km at the poles to 170 km along its longest axis, comprising up to 17% of Haumea's mass. Haumea's mean density is estimated at ≈ 2.018 g/cm3, with an albedo of ≈ 0.66.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/haumea_rotation.gif",
+                            content_description: "Haumea rapidly rotates in just under 4 hours, causing it to be elongated. Haumea exhibits distinguishable variations in colour as it rotates, indicative of a dark red spot on its surface as depicted here."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Surface",
+                            content: "In 2005, the Gemini and Keck telescopes obtained spectra of Haumea which showed strong crystalline water ice features similar to the surface of Pluto's moon Charon. This is peculiar, because crystalline ice forms at temperatures above 110 K, whereas Haumea's surface temperature is below 50 K, a temperature at which amorphous ice is formed. Radiation damage should also redden and darken the surface of trans-Neptunian objects where the common surface materials of organic ices and tholin-like compounds are present, as is the case with Pluto. Therefore, the spectra and colour suggest Haumea and its family members have undergone recent resurfacing that produced fresh ice. However, no plausible resurfacing mechanism has been suggested.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Haumea is as bright as snow, with an albedo in the range of 0.6-0.8, consistent with crystalline ice. Other large TNOs such as Eris appear to have albedos as high or higher. Best-fit modeling of the surface spectra suggested that 66% to 80% of the Haumean surface appears to be pure crystalline water ice, with one contributor to the high albedo possibly hydrogen cyanide or phyllosilicate clays. Inorganic cyanide salts such as copper potassium cyanide may also be present. However, further studies of the visible and near infrared spectra suggest a homogeneous surface covered by an intimate 1:1 mixture of amorphous and crystalline ice, together with no more than 8% organics. The absence of ammonia hydrate excludes cryovolcanism and the observations confirm that the collisional event must have happened more than 100 million years ago, in agreement with the dynamic studies. The absence of measurable methane in the spectra of Haumea is consistent with a warm collisional history that would have removed such volatiles, in contrast to Makemake.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Orbit & Rotation",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Haumea has an orbital period of 284 Earth years, a perihelion of 35 AU, and an orbital inclination of 28°. It passed aphelion in early 1992, and is currently more than 50 AU from the Sun. It will come to perihelion in 2133. Haumea's orbit has a slightly greater eccentricity than that of the other members of its collisional family. This is thought to be due to Haumea's weak 7:12 orbital resonance with Neptune gradually modifying its initial orbit over the course of a billion years, through the Kozai effect, which allows the exchange of an orbit's inclination for increased eccentricity. With a visual magnitude of 17.3, Haumea is the third-brightest object in the Kuiper belt after Pluto and Makemake, and easily observable with a large amateur telescope.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/makemake_orbit.png",
+                            content_description: "Haumea's orbit outside of Neptune is similar to Makemake's. The positions are as of 1 January 2018."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "THaumea displays large fluctuations in brightness over a period of 3.9 hours, which can only be explained by a rotational period of this length. This is faster than any other known equilibrium body in the Solar System, and indeed faster than any other known body larger than 100 km in diameter. While most rotating bodies in equilibrium are flattened into oblate spheroids, Haumea rotates so quickly that it is distorted into a triaxial ellipsoid. If Haumea were to rotate much more rapidly, it would distort itself into a dumbbell shape and split in two. This rapid rotation is thought to have been caused by the impact that created its satellites and collisional family.",
+                            content_description: null
+                        },                                        
+                        {
+                            content_type: "text",
+                            head: "Possible resonance with Neptune",
+                            content: "Haumea is thought to be in an intermittent 7:12 orbital resonance with Neptune. Its ascending node Ω precesses with a period of about 4.6 million years, and the resonance is broken twice per precession cycle, or every 2.3 million years, only to return a hundred thousand years or so later. As this is not a simple resonance, Marc Buie qualifies it as non-resonant.",
+                            content_description: null
+                        },                                        
+                    ]
+                },
+                {
+                    title: "Satellites",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Two small satellites have been discovered orbiting Haumea, (136108) Haumea I Hiʻiaka and (136108) Haumea II Namaka. Darin Ragozzine and Michael Brown discovered both in 2005, through observations of Haumea using the W. M. Keck Observatory. Hiʻiaka, at first nicknamed \"Rudolph\" by the Caltech team, was discovered January 26, 2005. It is the outer and, at roughly 310 km in diameter, the larger and brighter of the two, and orbits Haumea in a nearly circular path every 49 days. Strong absorption features at 1.5 and 2 micrometres in the infrared spectrum are consistent with nearly pure crystalline water ice covering much of the surface.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Namaka, the smaller, inner satellite of Haumea, was discovered on June 30, 2005, and nicknamed \"Blitzen\". It is a tenth the mass of Hiʻiaka, orbits Haumea in 18 days in a highly elliptical, non-Keplerian orbit, and as of 2008 is inclined 13° from the larger moon, which perturbs its orbit. The relatively large eccentricities together with the mutual inclination of the orbits of the satellites are unexpected as they should have been damped by the tidal effects. A relatively recent passage by a 3:1 resonance with Hiʻiaka might explain the current excited orbits of the Haumean moons.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/haumea_moons.gif",
+                            content_description: "Haumea and its orbiting moons, imaged by Hubble in 2008. Hiʻiaka is the brighter, outermost moon, while Namaka is the fainter, inner moon. This animation of the moons' orbits spans 7 days and the orbital plane of Namaka is oriented vertically."
+                        },
+                        
+                    ]
+                },
+                {
+                    title: "Rings",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "A stellar occultation observed on January 21, 2017, and described in an October 2017 Nature article indicated the presence of a ring around Haumea. This represents the first ring system discovered for a TNO. The ring has a radius of about 2,287 km, a width of ~70 km and an opacity of 0.5. It is well within Haumea's Roche limit, which would be at a radius of about 4,400 km if it were spherical (being nonspherical pushes the limit out farther). The ring plane is inclined 3.2° ± 1.4° with respect to Haumea's equatorial plane and approximately coincides with the orbital plane of its larger, outer moon Hiʻiaka. The ring is also close to the 1:3 orbit-spin resonance with Haumea's rotation (which is at a radius of 2,285 ± 8 km from Haumea's center). The ring is estimated to contribute 5% to the total brightness of Haumea.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/haumea_rings.gif",
+                            content_description: "Haumea's 3.9155-hour rotation within its discovered ring."
+                        },
+                        
+                    ]
+                },
+                {
+                    title: "Exploration",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Haumea was observed from afar by the New Horizons spacecraft in October 2007, January 2017, and May 2020, from distances of 49 AU, 59 AU, and 63 AU, respectively. The spacecraft's outbound trajectory permitted observations of Haumea at high phase angles that are otherwise unobtainable from Earth, enabling the determination of the light scattering properties and phase curve behavior of Haumea's surface.",
+                            content_description: null 
+                        },                                       
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/haumea_newHorizons.gif",
+                            content_description: "Haumea imaged by the New Horizons spacecraft in October 2007." 
+                        },                                           
+                    ]
+                },
+                {
+                    title: "Watch To Learn More...",
+                    texts: [
+                        {
+                            content_type: "embed_video",
+                            content: "Keh1goOGDFY",
+                            content_description: "This is one of the strangest objects in the solar system, it is classified as a dwarf planet, but it is not round."
+                        },  
+                    ]
+                }
+            ],
+             summary: [
+                {
+                    head: "Discovery",
+                    keyValue: [
+                        {
+                            key: "Discovered By",
+                            value: "Brown et al., Ortiz et al."
+                        },
+                        {
+                            key: "Discovery Date",
+                            value: "December 28, 2004 (Brown); July 27, 2005 (Ortiz)"
+                        },
+                    ]
+                },
+                {
+                    head: "Designations",
+                    keyValue: [
+                        {
+                            key: "Designation",
+                            value: "(136108) Haumea"
+                        },
+                        {
+                            key: "Alternate Designation",
+                            value: "2003 EL61"
+                        },
+                        {
+                            key: "Named After",
+                            value: "Haumea: the Hawaiian goddess of fertility."
+                        },
+                        {
+                            key: "Minor Planet Category",
+                            value: "Dwarf planet, TNO, Haumea family trinary."
+                        },
+                        {
+                            key: "Adjectives",
+                            value: "Haumean"
+                        },
+                    ]
+                },
+                {
+                    head: "Orbital Characteristics (Epoch 17 December 2020.)",
+                    keyValue: [
+                        {
+                            key: "Observation Arc",
+                            value: "65years and 291days (24033 days)"
+                        },
+                        {
+                            key: "Earliest Precovery Date",
+                            value: "March 22, 1955"
+                        },
+                        {
+                            key: "Aphelion",
+                            value: "51.585 AU (7.7170 Tm)"
+                        },
+                        {
+                            key: "Perihelion",
+                            value: "34.647 AU (5.1831 Tm)"
+                        },
+                        {
+                            key: "Semi-major Axis",
+                            value: "43.116 AU (6.4501 Tm)"
+                        },
+                        {
+                            key: "Eccentricity",
+                            value: "0.19642"
+                        },
+                        {
+                            key: "Orbital Period (sidereal)",
+                            value: "283.12 yr (103,410 days)"
+                        },
+                        {
+                            key: "Average Orbital Speed",
+                            value: "4.53 km/s"
+                        },
+                        {
+                            key: "Mean Anomaly",
+                            value: "218.205°"
+                        },
+                        {
+                            key: "Mean Motion",
+                            value: "0° 0m 12.533s / day"
+                        },
+                        {
+                            key: "Inclination",
+                            value: "28.2137°"
+                        },
+                        {
+                            key: "Longitude of Ascending Node",
+                            value: "122.167°"
+                        },
+                        {
+                            key: "Time of Perihelion",
+                            value: "≈1 June 2133 ± 2 days"
+                        },
+                        {
+                            key: "Argument of Perihelion",
+                            value: "239.041°"
+                        },
+                        {
+                            key: "Known Satellites",
+                            value: "2 (Hi'iaka and Namaka)"
+                        },
+                    ]
+                },
+                {
+                    head: "Physical Characteristics",  
+                    keyValue: [
+                        {
+                            key: "Dimensions",
+                            value: "≈ 2,100 x 1,680 x 1,074 km; 2,322 ± 60 x 1,704±8 x 1,026 ± 32 km"
+                        },
+                        {
+                            key: "Mean Diameter",
+                            value: "≈ 780km; 798 ± 6km to 816km"
+                        },
+                        {
+                            key: "Surface Area",
+                            value: "≈ 8.14e6 sq.km"
+                        },
+                        {
+                            key: "Volume",
+                            value: "≈ 1.98e9 cu.km; 0.0018 Earths"
+                        },
+                        {
+                            key: "Mass",
+                            value: "(4.006 ± 0.040)e21 kg; 0.00066 Earths"
+                        },
+                        {
+                            key: "Mean Density",
+                            value: "≈ 2.018 g/cu.cm"
+                        },
+                        {
+                            key: "Equitorial Surface Gravity",
+                            value: "0.93 m/sq.s at poles to 0.24 m/sq.s at longest axis"
+                        },
+                        {
+                            key: "Equitorial Escape Velocity",
+                            value: "1 km/s at poles to 0.71 km/s at longest axis"
+                        },
+                        {
+                            key: "Synodic Rotation Period",
+                            value: "3.915341 ± 0.000005 hours (0.163139208 days)"
+                        },
+                        {
+                            key: "Axial Tilt",
+                            value: "≈ 126° (to orbit; assumed); 81.2° or 78.9° (to ecliptic)"
+                        },
+                        {
+                            key: "North Pole Right Ascension",
+                            value: "282.6° ± 1.2°"
+                        },
+                        {
+                            key: "North Pole Right Declination",
+                            value: "-13.0° ± 1.3° or -11.8° ± 1.2°"
+                        },
+                        {
+                            key: "Geometric Albedo",
+                            value: "≈0.66 geometric; ≤ 0.51 ± 0.02 geometric; 0.33 ± 0.03 Bond"
+                        },
+                        {
+                            key: "Temprature",
+                            value: "<50 K"
+                        },
+                        {
+                            key: "Spectral Type",
+                            value: "BB (neutral); B-V = 0.64, V-R = 0.33; B0-V0 = 0.646"
+                        },
+                        {
+                            key: "Apparent Magnitude",
+                            value: "17.3 (opposition)"
+                        },
+                        {
+                            key: "Absolute Magnitude (H)",
+                            value: "0.428 ± 0.011 (V-band)"
+                        },
+                    ]
+                },
+            ],
+            dateUpdate: "2023-05-10"
         },
     }
 }

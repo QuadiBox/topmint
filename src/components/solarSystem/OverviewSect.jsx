@@ -80,7 +80,7 @@ const OverviewSect = ({ data }) => {
 
 
             <div className="planetDataSection">
-                <h1>12 Facts About {data?.name}:</h1>
+                <h1>{data?.facts_12.length} Facts About {data?.name}:</h1>
 
                 <div className="planetsGridntn">
                     {
