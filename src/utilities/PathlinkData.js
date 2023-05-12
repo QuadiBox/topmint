@@ -9455,7 +9455,7 @@ export const linksData = {
                 },
                 {
                     key: "Length Of Year",
-                    value: "103.660 Earth Days"
+                    value: "103,660 Earth Days"
                 },
                 {
                     key: "Satellites Count",
@@ -9888,9 +9888,9 @@ export const linksData = {
         },
         eris: {
             name: "Eris",
-            baseImgUrl: "/makemake_base.jpg",
+            baseImgUrl: "/eris_base.jpg",
             baseText: "Eris",
-            subText: "Haumea's Haumea (minor-planet designation 136108 Haumea) is a dwarf planet located beyond Neptune's orbit. Mass 1/1400 that of Earth.",
+            subText: "Eris, a fascinating dwarf planet located in the distant Kuiper Belt region of our solar system. It is one of the largest known objects in this icy realm.",
             next: {
                 key: "Earth moon",
                 value: "/moons/earth"
@@ -9902,69 +9902,69 @@ export const linksData = {
             subdata: [
                 {
                     key: "Distance From Sun",
-                    value: "4,010,000,000 miles"
+                    value: "6,289,000,000 miles"
                 },
                 {
                     key: "One Way Light Time From Sun",
-                    value: "6hours"
+                    value: ">9hours"
                 },
                 {
                     key: "Length Of Year",
-                    value: "103.660 Earth Days"
+                    value: "203,670 Earth Days"
                 },
                 {
                     key: "Satellites Count",
-                    value: "2"
+                    value: "1"
                 },
             ],
             overview: {
-                name: "Haumea",
+                name: "Eris",
                 topBox: null,
                 paragraphs: [
-                    "Originally designated 2003 EL61 (and nicknamed Santa by one discovery team), Haumea is located in the Kuiper Belt, a donut-shaped region of icy bodies beyond the orbit of Neptune. The other known dwarf planets in the Kuiper Belt are Pluto, Eris, and Makemake (dwarf planet Ceres is located in the main asteroid belt between Mars and Jupiter).",
-                    "Haumea is roughly the same size as Pluto. It is one of the fastest rotating large objects in our solar system. The fast spin distorts Haumea's shape, making this dwarf planet look like a American football.", "Two teams claim credit for discovering Haumea citing evidence from observations made in 2003 and 2004. The International Astronomical Union's Gazetteer of Planetary Nomenclature lists the discovery location as Sierra Nevada Observatory in Spain on Mar. 7, 2003, but no official discoverer is listed.", "Everything we know about Haumea is from observations with ground-based telescopes from around the world."
+                    "Eris is one of the largest known dwarf planets in our solar system. It's about the same size as Pluto but is three times farther from the Sun.",
+                    "At first, Eris appeared to be larger than Pluto. This triggered a debate in the scientific community that led to the International Astronomical Union's decision in 2006 to clarify the definition of a planet. Pluto, Eris, and other similar objects are now classified as dwarf planets.", "Eris was discovered on Jan. 5, 2005, from data obtained on Oct. 21, 2003 during a Palomar Observatory survey of the outer solar system by Mike Brown, a professor of planetary astronomy at the California Institute of Technology; Chad Trujillo of the Gemini Observatory; and David Rabinowitz of Yale University.", "Sep 14, 2006: The International Astronomical Union (IAU) announces that the dwarf planet known as Xena will be called Eris, after the Greek goddess of discord. Eris's moon is named Dysnomia, the demon goddess of lawlessness and the daughter of Eris."
                 ],
                 iframeLink: {
                     type: "iframe",
-                    content: "https://eyes.nasa.gov/apps/solar-system/#/136108_haumea?embed=true&amp;logo=false" ,
+                    content: "https://eyes.nasa.gov/apps/solar-system/#/136199_eris?embed=true&amp;logo=false" ,
                     content_description: ""
                 },
                 facts_12: [
                     {
                         headText: "SMALL WORLD",
-                        text: "With a radius of about 385 miles (620 kilometers), Haumea is about 1/14 the radius of Earth. If Earth were the size of a nickel, Haumea would be about as big as a sesame seed."
+                        text: "With a radius of about 722 miles (1,163 kilometers), Eris is about 1/5 the radius of Earth. Eris, like Pluto, is a little smaller than Earth's Moon. If the Earth were the size of a nickel, Eris would be about as big as a popcorn kernel."
                     },
                     {
-                        headText: "SHORT DAY, LONG YEAR",
-                        text: "Haumea takes 285 Earth years to make one trip around the Sun. As Haumea orbits the Sun, it completes one rotation every 4 hours."
+                        headText: "ROUND ORBIT",
+                        text: "Eris has a highly eccentric orbit, taking it from a distance of about 38 astronomical units (AU) at its closest approach to the Sun to 97 AU at its farthest point."
                     },
                     {
-                        headText: "SWIFT SPIN",
-                        text: "Haumea spins rapidly, completing one rotation in just under four hours, causing it to have a pronounced bulge around its equator making it one of the fastest rotating large objects in our solar system."
+                        headText: "LONG WAY AROUND",
+                        text: "Eris has a slow orbital period, taking about 558 Earth years to complete one trip around the Sun."
                     },
                     {
-                        headText: "DYNAMIC ATMOSPHERE",
-                        text: "Haumea is believed to have a tenuous and transient atmosphere composed of nitrogen, similar to Pluto and Triton, which is replenished by surface sublimation."
+                        headText: "CHAOTIC SPIN",
+                        text: " Eris rotates on its axis at a slow and irregular rate, with one full rotation taking about 25.9 hours."
                     },
                     {
-                        headText: "RING SYSTEM",
-                        text: "Haumea is the first and only known dwarf planet to have a ring system, composed of debris from a collision that occurred in the distant past."
+                        headText: "CHILLY WORLD",
+                        text: "Eris is an extremely cold world, with surface temperatures estimated to be around -231 degrees Celsius (-384 degrees Fahrenheit), making it one of the coldest known objects in the solar system."
+                    },
+                    {
+                        headText: "TENUOUS ATMOSPHERE",
+                        text: "Observations suggest that Eris may possess a thin atmosphere composed mainly of nitrogen, similar to Pluto."
                     },
                     {
                         headText: "MYTHOLOGY",
-                        text: "Haumea is named after the Hawaiian goddess of childbirth and fertility, reflecting its connection to the culture and mythology of the Hawaiian people."
+                        text: "Eris is named after the Greek goddess Eris, a personification of strife and discord. The name was proposed by the Caltech team on September 6, 2006."
                     },
                     {
-                        headText: "FAMILY TIES",
-                        text: "Haumea belongs to a family of objects in the Kuiper Belt known as the Haumea family, which share similar compositions and characteristics."
-                    },
-                    {
-                        headText: "MOON DANCE",
-                        text: "Haumea has two known moons, Hi'iaka and Namaka, named after Hawaiian goddesses. These moons provide insight into the dwarf planet's formation and history."
+                        headText: "COSMIC COMPANION",
+                        text: "Eris has one known moon named Dysnomia, which was discovered in 2005 and is named after the daughter of Eris in Greek mythology."
                     },
                     {
                         headText: "SCARCE EXPLORATION",
-                        text: "No spacecraft missions have been planned or launched specifically to study Haumea. Our knowledge of this intriguing dwarf planet comes primarily from ground-based observations using telescopes." 
+                        text: "No spacecraft missions have been specifically targeted to study Eris, so our understanding of this intriguing dwarf planet comes primarily from ground-based observations using advanced telescopes." 
                     },
                 ]
             },
@@ -10167,11 +10167,11 @@ export const linksData = {
                     keyValue: [
                         {
                             key: "Discovered By",
-                            value: "Brown et al., Ortiz et al."
+                            value: "M. E. Brown, C. A. Trujillo, D. L. Rabinowitz."
                         },
                         {
                             key: "Discovery Date",
-                            value: "December 28, 2004 (Brown); July 27, 2005 (Ortiz)"
+                            value: "January 5, 2005"
                         },
                     ]
                 },
@@ -10180,23 +10180,23 @@ export const linksData = {
                     keyValue: [
                         {
                             key: "Designation",
-                            value: "(136108) Haumea"
+                            value: "(136199) Eris"
                         },
                         {
                             key: "Alternate Designation",
-                            value: "2003 EL61"
+                            value: "2003 UB313; Xena (nickname)"
                         },
                         {
                             key: "Named After",
-                            value: "Haumea: the Hawaiian goddess of fertility."
+                            value: "Ἔρις Eris: Greek goddess of strife and discord."
                         },
                         {
                             key: "Minor Planet Category",
-                            value: "Dwarf planet, TNO, Haumea family trinary."
+                            value: "Dwarf planet, Trans-Neptunian Object (TNO), Scattered-disk Object (SDO), Binary."
                         },
                         {
                             key: "Adjectives",
-                            value: "Haumean"
+                            value: "Eridian"
                         },
                     ]
                 },
