@@ -9625,7 +9625,7 @@ export const linksData = {
                         {
                             content_type: "text",
                             head: null,
-                            content: "THaumea displays large fluctuations in brightness over a period of 3.9 hours, which can only be explained by a rotational period of this length. This is faster than any other known equilibrium body in the Solar System, and indeed faster than any other known body larger than 100 km in diameter. While most rotating bodies in equilibrium are flattened into oblate spheroids, Haumea rotates so quickly that it is distorted into a triaxial ellipsoid. If Haumea were to rotate much more rapidly, it would distort itself into a dumbbell shape and split in two. This rapid rotation is thought to have been caused by the impact that created its satellites and collisional family.",
+                            content: "Haumea displays large fluctuations in brightness over a period of 3.9 hours, which can only be explained by a rotational period of this length. This is faster than any other known equilibrium body in the Solar System, and indeed faster than any other known body larger than 100 km in diameter. While most rotating bodies in equilibrium are flattened into oblate spheroids, Haumea rotates so quickly that it is distorted into a triaxial ellipsoid. If Haumea were to rotate much more rapidly, it would distort itself into a dumbbell shape and split in two. This rapid rotation is thought to have been caused by the impact that created its satellites and collisional family.",
                             content_description: null
                         },                                        
                         {
@@ -9975,20 +9975,26 @@ export const linksData = {
                         {
                             content_type: "text",
                             head: null,
-                            content: "Haumea (minor-planet designation 136108 Haumea) is a dwarf planet located beyond Neptune's orbit. It was discovered in 2004 by a team headed by Mike Brown of Caltech at the Palomar Observatory in the United States and disputably also in 2005 by a team headed by José Luis Ortiz Moreno at the Sierra Nevada Observatory in Spain, though the latter claim has been contested. On September 17, 2008, it was named after Haumea, the Hawaiian goddess of childbirth, under the expectation by the International Astronomical Union (IAU) that it would prove to be a dwarf planet. Nominal estimates make it the third-largest known trans-Neptunian object, after Eris and Pluto, and approximately the size of Uranus's moon Titania.",
+                            content: "Eris (minor-planet designation 136199 Eris) is the most massive and second-largest known dwarf planet in the Solar System. It is a trans-Neptunian object (TNO) in the scattered disk and has a high-eccentricity orbit. Eris was discovered in January 2005 by a Palomar Observatory-based team led by Mike Brown and verified later that year. In September 2006, it was named after the Greco-Roman goddess of strife and discord. Eris is the ninth-most massive known object orbiting the Sun and the sixteenth-most massive overall in the Solar System (counting moons). It is also the largest object that has not been visited by a spacecraft. Eris has been measured at 2,326 ± 12 kilometers (1,445 ± 7 mi) in diameter; its mass is 0.28% that of the Earth and 27% greater than that of Pluto, although Pluto is slightly larger by volume, both having a surface area that is comparable to the area of Russia or Antarctica.",
                             content_description: null
                         },
                         {
                             content_type: "text",
                             head: null,
-                            content: "Haumea's mass is about one-third that of Pluto, and 1/1400 that of Earth. In October 2017, astronomers announced the discovery of a ring system around Haumea, representing the first ring system discovered for a trans-Neptunian object. Haumea's gravity was until recently thought to be sufficient for it to have relaxed into hydrostatic equilibrium, though that is now unclear. Haumea's elongated shape together with its rapid rotation, rings, and high albedo (from a surface of crystalline water ice), are thought to be the consequences of a giant collision, which left Haumea the largest member of a collisional family that includes several large trans-Neptunian objects and Haumea's two known moons, Hiʻiaka and Namaka.",
+                            content: "Eris has one large known moon, Dysnomia. In February 2016, Eris's distance from the Sun was 96.3 AU (14.41 billion km; 8.95 billion mi), more than three times that of Neptune or Pluto. With the exception of long-period comets, Eris and Dysnomia were the most distant known natural objects in the Solar System until the discovery of 2018 VG18 in 2018.",
                             content_description: null
                         },
                         {
                             content_type: "image",
                             head: null,
-                            content: "/haumea_moons.gif",
-                            content_description: "Haumea and its orbiting moons, imaged by Hubble in 2008. Hiʻiaka is the brighter, outermost moon, while Namaka is the fainter, inner moon. This animation of the moons' orbits spans 7 days and the orbital plane of Namaka is oriented vertically."
+                            content: "/eris_moon.jpg",
+                            content_description: "Eris (center) and Dysnomia (left of center); image taken by the Hubble Space Telescope."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Because Eris appeared to be larger than Pluto, NASA initially described it as the Solar System's tenth planet. This, along with the prospect of other objects of similar size being discovered in the future, motivated the International Astronomical Union (IAU) to define the term planet for the first time. Under the IAU definition approved on August 24, 2006, Eris, Pluto and Ceres are \"dwarf planets\", reducing the number of known planets in the Solar System to eight, the same as before Pluto's discovery in 1930. Observations of a stellar occultation by Eris in 2010 showed that it was slightly smaller than Pluto, which was measured by New Horizons as having a mean diameter of 2,377 ± 4 kilometers (1,477 ± 2 mi) in July 2015.",
+                            content_description: null
                         },
                     ]
                 },
@@ -9998,13 +10004,13 @@ export const linksData = {
                         {
                             content_type: "text",
                             head: null,
-                            content: "Until it was given a permanent name, the Caltech discovery team used the nickname \"Santa\" among themselves, because they had discovered Haumea on December 28, 2004, just after Christmas. On July 29, 2005, Haumea was given the provisional designation 2003 EL61, based on the date of the Spanish discovery image. On September 7, 2006, it was numbered and admitted into the official minor planet catalog as (136108) 2003 EL61. The names were proposed by David Rabinowitz of the Caltech team. Haumea is the matron goddess of the island of Hawai'i, where the Mauna Kea Observatory is located. In addition, she is identified with Papa, the goddess of the earth and wife of Wākea (space), which, at the time, seemed appropriate because Haumea was thought to be composed almost entirely of solid rock, without the thick ice mantle over a small rocky core typical of other known Kuiper belt objects.",
+                            content: "Eris is named after the Greek goddess Eris (Greek Ἔρις), a personification of strife and discord. The name was proposed by the Caltech team on September 6, 2006, and it was assigned on September 13, 2006, following an unusually long period in which the object was known by the provisional designation 2003 UB313, which was granted automatically by the IAU under their naming protocols for minor planets. The Greek and Latin oblique stem of the name is Erid-, as can be seen in Italian Eride and Russian Эрида Erida, so the adjective in English is Eridian",
                             content_description: null
                         },
                         {
                             content_type: "text",
-                            head: null,
-                            content: "Lastly, Haumea is the goddess of fertility and childbirth, with many children who sprang from different parts of her body; this corresponds to the swarm of icy bodies thought to have broken off the main body during an ancient collision. The two known moons, also believed to have formed in this manner, are thus named after two of Haumea's daughters, Hiʻiaka and Nāmaka. Planetary symbols are no longer much used in astronomy. A Haumea symbol is included in Unicode as U+1F77B: it is mostly used by astrologers, but has also been used by NASA. The symbol was designed by Denis Moskowitz, a software engineer in Massachusetts; it combines and simplifies Hawaiian petroglyphs meaning 'woman' and 'childbirth'.",
+                            head: "Xena",
+                            content: "Due to uncertainty over whether the object would be classified as a planet or a minor planet, because varying nomenclature procedures apply to these classes of objects, the decision on what to name the object had to wait until after the August 24, 2006, IAU ruling. For a time the object became known to the wider public as Xena. \"Xena\" was an informal name used internally by the discovery team, inspired by the title character of the television series Xena: Warrior Princess. The discovery team had reportedly saved the nickname \"Xena\" for the first body they discovered that was larger than Pluto.",
                             content_description: null
                         },
                     ]
@@ -10014,50 +10020,38 @@ export const linksData = {
                     texts: [
                         {
                             content_type: "text",
-                            head: "Size, Shape, and Composition",
-                            content: "The size of a Solar System object can be deduced from its optical magnitude, its distance, and its albedo. Objects appear bright to Earth observers either because they are large or because they are highly reflective. If their reflectivity (albedo) can be ascertained, then a rough estimate can be made of their size. For most distant objects, the albedo is unknown, but Haumea is large and bright enough for its thermal emission to be measured, which has given an approximate value for its albedo and thus its size.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "The rotation and amplitude of Haumea's light curve were argued to place strong constraints on its composition. If Haumea were in hydrostatic equilibrium and had a low density like Pluto, with a thick mantle of ice over a small rocky core, its rapid rotation would have elongated it to a greater extent than the fluctuations in its brightness allow. Such considerations constrained its density to a range of 2.6-3.3 g/cu.cm. By comparison, the Moon, which is rocky, has a density of 3.3 g/cu.cm, whereas Pluto, which is typical of icy objects in the Kuiper belt, has a density of 1.86 g/cu.cm. Haumea's possible high density covered the values for silicate minerals such as olivine and pyroxene, which make up many of the rocky objects in the Solar System. This also suggested that the bulk of Haumea was rock covered with a relatively thin layer of ice. A thick ice mantle more typical of Kuiper belt objects may have been blasted off during the impact that formed the Haumean collisional family.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "Because Haumea has moons, the mass of the system can be calculated from their orbits using Kepler's third law. The result is 4.2e21 kg, 28% the mass of the Plutonian system and 6% that of the Moon. Nearly all of this mass is in Haumea. Several ellipsoid-model calculations of Haumea's dimensions have been made. The first model produced after Haumea's discovery was calculated from ground-based observations of Haumea's light curve at optical wavelengths: it provided a total length of 1,960 to 2,500 km and a visual albedo (pv) greater than 0.6. The most likely shape is a triaxial ellipsoid with approximate dimensions of 2,000 x 1,500 x 1,000 km, with an albedo of 0.71. However the observations of a stellar occultation in January 2017 cast a doubt on all those conclusions. The measured shape of Haumea, while elongated as presumed before, appeared to have significantly larger dimensions - according to the data obtained from the occultation Haumea is approximately the diameter of Pluto along its longest axis and about half that at its poles.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "The resulting density calculated from the observed shape of Haumea was about 1.8 g/cm3 - more in line with densities of other large TNOs. This resulting shape appeared to be inconsistent with a homogenous body in hydrostatic equilibrium, though Haumea appears to be one of the largest trans-Neptunian objects discovered nonetheless, smaller than Eris, Pluto, similar to Makemake, and possibly Gonggong, and larger than Sedna, Quaoar, and Orcus.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "A 2019 study attempted to resolve the conflicting measurements of Haumea's shape and density using numerical modeling of Haumea as a differentiated body. It found that dimensions of ≈ 2,100 x 1,680 x 1,074 km (modeling the long axis at intervals of 25 km) were a best-fit match to the observed shape of Haumea during the 2017 occultation, while also being consistent with both surface and core scalene ellipsoid shapes in hydrostatic equilibrium. The revised solution for Haumea's shape implies that it has a core of approximately 1,626 x 1,446 x 940 km, with a relatively high density of ≈ 2.68 g/cm3, indicative of a composition largely of hydrated silicates such as kaolinite. The core is surrounded by an icy mantle that ranges in thickness from about 70 km at the poles to 170 km along its longest axis, comprising up to 17% of Haumea's mass. Haumea's mean density is estimated at ≈ 2.018 g/cm3, with an albedo of ≈ 0.66.",
+                            head: "Size, Mass, and Density",
+                            content: "In November 2010, Eris was the subject of one of the most distant stellar occultations yet from Earth. Preliminary data from this event cast doubt on previous size estimates. The teams announced their final results from the occultation in October 2011, with an estimated diameter of 2326 ± 12 km. This makes Eris a little smaller than Pluto by area and diameter, which is 2372 ± 4 km across, although Eris is more massive. It also indicates a geometric albedo of 0.96. It is speculated that the high albedo is due to the surface ices being replenished because of temperature fluctuations as Eris's eccentric orbit takes it closer and farther from the Sun.",
                             content_description: null
                         },
                         {
                             content_type: "image",
                             head: null,
-                            content: "/haumea_rotation.gif",
-                            content_description: "Haumea rapidly rotates in just under 4 hours, causing it to be elongated. Haumea exhibits distinguishable variations in colour as it rotates, indicative of a dark red spot on its surface as depicted here."
+                            content: "/erisXearth.png",
+                            content_description: "Size comparison: Eris (lower left) with the Moon and Earth (top and right)."
                         },
                         {
                             content_type: "text",
-                            head: "Surface",
-                            content: "In 2005, the Gemini and Keck telescopes obtained spectra of Haumea which showed strong crystalline water ice features similar to the surface of Pluto's moon Charon. This is peculiar, because crystalline ice forms at temperatures above 110 K, whereas Haumea's surface temperature is below 50 K, a temperature at which amorphous ice is formed. Radiation damage should also redden and darken the surface of trans-Neptunian objects where the common surface materials of organic ices and tholin-like compounds are present, as is the case with Pluto. Therefore, the spectra and colour suggest Haumea and its family members have undergone recent resurfacing that produced fresh ice. However, no plausible resurfacing mechanism has been suggested.",
+                            head: null,
+                            content: "The mass of Eris can be calculated with much greater precision. Based on the accepted value for Dysnomia's period at the time (15.774 days), Eris is 27% more massive than Pluto. Using the 2011 occultation results, Eris has a density of 2.52 ± 0.07 g/cm3, substantially denser than Pluto, and thus must be composed largely of rocky materials. Models of internal heating via radioactive decay suggest that Eris could have an internal ocean of liquid water at the mantle-core boundary.",
                             content_description: null
                         },
                         {
                             content_type: "text",
                             head: null,
-                            content: "Haumea is as bright as snow, with an albedo in the range of 0.6-0.8, consistent with crystalline ice. Other large TNOs such as Eris appear to have albedos as high or higher. Best-fit modeling of the surface spectra suggested that 66% to 80% of the Haumean surface appears to be pure crystalline water ice, with one contributor to the high albedo possibly hydrogen cyanide or phyllosilicate clays. Inorganic cyanide salts such as copper potassium cyanide may also be present. However, further studies of the visible and near infrared spectra suggest a homogeneous surface covered by an intimate 1:1 mixture of amorphous and crystalline ice, together with no more than 8% organics. The absence of ammonia hydrate excludes cryovolcanism and the observations confirm that the collisional event must have happened more than 100 million years ago, in agreement with the dynamic studies. The absence of measurable methane in the spectra of Haumea is consistent with a warm collisional history that would have removed such volatiles, in contrast to Makemake.",
+                            content: "In July 2015, after nearly a decade of Eris being thought to be the ninth-largest known object to directly orbit the sun, close-up imagery from the New Horizons mission determined the volume of Pluto to be slightly larger than that of Eris. Eris is now understood to be the tenth-largest known object to directly orbit the sun by volume, but remains the ninth-largest by mass.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Surface",
+                            content: "The discovery team followed up their initial identification of Eris with spectroscopic observations made at the 8 m Gemini North Telescope in Hawaii on January 25, 2005. Infrared light from the object revealed the presence of methane ice, indicating that the surface may be similar to that of Pluto, which at the time was the only TNO known to have surface methane, and of Neptune's moon Triton, which also has methane on its surface. Due to the distant and eccentric orbit of Eris, its surface temperature is estimated to vary from about 30 k to 56 K (-243.2 to -217.2 °C; -405.7 to -358.9 °F).",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Unlike the somewhat reddish Pluto and Triton, Eris appears almost white. Pluto's reddish color is thought to be due to deposits of tholins on its surface, and where these deposits darken the surface, the lower albedo leads to higher temperatures and the evaporation of methane deposits. In contrast, Eris is far enough from the Sun that methane can condense onto its surface even where the albedo is low. The condensation of methane uniformly over the surface reduces any albedo contrasts and would cover up any deposits of red tholins.",
                             content_description: null
                         },
                     ]
@@ -10068,25 +10062,37 @@ export const linksData = {
                         {
                             content_type: "text",
                             head: null,
-                            content: "Haumea has an orbital period of 284 Earth years, a perihelion of 35 AU, and an orbital inclination of 28°. It passed aphelion in early 1992, and is currently more than 50 AU from the Sun. It will come to perihelion in 2133. Haumea's orbit has a slightly greater eccentricity than that of the other members of its collisional family. This is thought to be due to Haumea's weak 7:12 orbital resonance with Neptune gradually modifying its initial orbit over the course of a billion years, through the Kozai effect, which allows the exchange of an orbit's inclination for increased eccentricity. With a visual magnitude of 17.3, Haumea is the third-brightest object in the Kuiper belt after Pluto and Makemake, and easily observable with a large amateur telescope.",
+                            content: "Eris has an orbital period of 559 years. Its maximum possible distance from the Sun (aphelion) is 97.5 AU, and its closest (perihelion) is 38 AU. As the time of perihelion is defined at the epoch chosen using an unperturbed two-body solution, the further the epoch is from the date of perihelion, the less accurate the result. Numerical integration is required to predict the time of perihelion accurately. Numerical integration by JPL Horizons shows that Eris came to perihelion around 1699, to aphelion around 1977, and will return to perihelion around December 2257. Unlike those of the eight planets, whose orbits all lie roughly in the same plane as the Earth's, Eris's orbit is highly inclined: it is tilted at an angle of about 44 degrees to the ecliptic. When discovered, Eris and its moon were the most distant known objects in the Solar System, apart from long-period comets and space probes. It retained this distinction until the discovery of 2018 VG18 in 2018.",
                             content_description: null
                         },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "As of 2008, there were approximately forty known TNOs, most notably 2006 SQ372, 2000 OO67 and Sedna, that are currently closer to the Sun than Eris, even although their semimajor axis is larger than that of Eris (67.8 AU). The Eridian orbit is highly eccentric, and brings Eris to within 37.9 AU of the Sun, a typical perihelion for scattered objects. This is within the orbit of Pluto, but still safe from direct interaction with Neptune (~37 AU). Pluto, on the other hand, like other plutinos, follows a less inclined and less eccentric orbit and, protected by orbital resonance, can cross Neptune's orbit. In about 800 years, Eris will be closer to the Sun than Pluto for some time.",
+                            content_description: null
+                        }, 
                         {
                             content_type: "image",
                             head: null,
-                            content: "/makemake_orbit.png",
-                            content_description: "Haumea's orbit outside of Neptune is similar to Makemake's. The positions are as of 1 January 2018."
+                            content: "/eris_orbit.png",
+                            content_description: "The orbit of Eris (blue) compared to those of Saturn, Uranus, Neptune, and Pluto (white/gray). The arcs below the ecliptic are plotted in darker colors, and the red dot is the Sun. The diagram on the left is a polar view whereas the diagrams on the right are different views from the ecliptic."
                         },
                         {
                             content_type: "text",
                             head: null,
-                            content: "THaumea displays large fluctuations in brightness over a period of 3.9 hours, which can only be explained by a rotational period of this length. This is faster than any other known equilibrium body in the Solar System, and indeed faster than any other known body larger than 100 km in diameter. While most rotating bodies in equilibrium are flattened into oblate spheroids, Haumea rotates so quickly that it is distorted into a triaxial ellipsoid. If Haumea were to rotate much more rapidly, it would distort itself into a dumbbell shape and split in two. This rapid rotation is thought to have been caused by the impact that created its satellites and collisional family.",
+                            content: "As of 2007, Eris has an apparent magnitude of 18.7, making it bright enough to be detectable to some amateur telescopes. A 200-millimeter (7.9 in) telescope with a CCD can detect Eris under favorable conditions. The reason it had not been noticed until now is its steep orbital inclination; searches for large outer Solar System objects tend to concentrate on the ecliptic plane, where most bodies are found. Because of the high inclination of its orbit, Eris passes through only a few constellations of the traditional Zodiac; it is now in the constellation Cetus. It was in Sculptor from 1876 until 1929 and Phoenix from roughly 1840 until 1875. In 2036 it will enter Pisces and stay there until 2065, when it will enter Aries. It will then move into the northern sky, entering Perseus in 2128 and Camelopardalis (where it will reach its northernmost declination) in 2173.",
                             content_description: null
                         },                                        
                         {
+                            content_type: "image",
+                            head: null,
+                            content: "/eris_rotation.png",
+                            content_description: "Seen from Earth, Eris makes small loops in the sky through the constellation of Cetus. Eris (dwarf planet) retrograde loops in sky from earth, from 1940 to 2060."
+                        },                                       
+                        {
                             content_type: "text",
-                            head: "Possible resonance with Neptune",
-                            content: "Haumea is thought to be in an intermittent 7:12 orbital resonance with Neptune. Its ascending node Ω precesses with a period of about 4.6 million years, and the resonance is broken twice per precession cycle, or every 2.3 million years, only to return a hundred thousand years or so later. As this is not a simple resonance, Marc Buie qualifies it as non-resonant.",
+                            head: "Rotation",
+                            content: "Eris displays very little variation in brightness as it rotates due to its uniform surface, making measurement of its rotation period difficult. Precise long-term monitoring of Eris's brightness indicates that it is tidally locked to its moon Dysnomia, with a rotation period synchronous with the moon's orbital period of 15.78 Earth days. Dysnomia is also tidally locked to Eris, which makes the Eris-Dysnomia system the second known case of double-synchronous rotation, after Pluto and Charon. Previous measurements of Eris's rotation period obtained highly uncertain values ranging tens of hours to several days due to insufficient long-term coverage of Eris's rotation. The axial tilt of Eris has not been measured, but it can be reasonably assumed that it is the same as Dysnomia's orbital inclination, which would be about 78 degrees with respect to the ecliptic. If this were the case, most of Eris's northern hemisphere would be illuminated by sunlight, with 30% of the hemisphere experiencing constant illumination in 2018.",
                             content_description: null
                         },                                        
                     ]
@@ -10097,38 +10103,14 @@ export const linksData = {
                         {
                             content_type: "text",
                             head: null,
-                            content: "Two small satellites have been discovered orbiting Haumea, (136108) Haumea I Hiʻiaka and (136108) Haumea II Namaka. Darin Ragozzine and Michael Brown discovered both in 2005, through observations of Haumea using the W. M. Keck Observatory. Hiʻiaka, at first nicknamed \"Rudolph\" by the Caltech team, was discovered January 26, 2005. It is the outer and, at roughly 310 km in diameter, the larger and brighter of the two, and orbits Haumea in a nearly circular path every 49 days. Strong absorption features at 1.5 and 2 micrometres in the infrared spectrum are consistent with nearly pure crystalline water ice covering much of the surface.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "Namaka, the smaller, inner satellite of Haumea, was discovered on June 30, 2005, and nicknamed \"Blitzen\". It is a tenth the mass of Hiʻiaka, orbits Haumea in 18 days in a highly elliptical, non-Keplerian orbit, and as of 2008 is inclined 13° from the larger moon, which perturbs its orbit. The relatively large eccentricities together with the mutual inclination of the orbits of the satellites are unexpected as they should have been damped by the tidal effects. A relatively recent passage by a 3:1 resonance with Hiʻiaka might explain the current excited orbits of the Haumean moons.",
+                            content: "In 2005, the adaptive optics team at the Keck telescopes in Hawaii carried out observations of the four brightest TNOs (Pluto, Makemake, Haumea, and Eris), using the newly commissioned laser guide star adaptive optics system. Images taken on September 10 revealed a moon in orbit around Eris. In keeping with the \"Xena\" nickname already in use for Eris, Brown's team nicknamed the moon \"Gabrielle\", after the television warrior princess's sidekick. When Eris received its official name from the IAU, the moon received the name Dysnomia, after the Greek goddess of lawlessness who was Eris's daughter. Brown says he picked it for similarity to his wife's name, Diane. The name also retains an oblique reference to Eris's old informal name Xena, portrayed on television by Lucy Lawless, though the connection was unintentional.",
                             content_description: null
                         },
                         {
                             content_type: "image",
                             head: null,
-                            content: "/haumea_moons.gif",
-                            content_description: "Haumea and its orbiting moons, imaged by Hubble in 2008. Hiʻiaka is the brighter, outermost moon, while Namaka is the fainter, inner moon. This animation of the moons' orbits spans 7 days and the orbital plane of Namaka is oriented vertically."
-                        },
-                        
-                    ]
-                },
-                {
-                    title: "Rings",
-                    texts: [
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "A stellar occultation observed on January 21, 2017, and described in an October 2017 Nature article indicated the presence of a ring around Haumea. This represents the first ring system discovered for a TNO. The ring has a radius of about 2,287 km, a width of ~70 km and an opacity of 0.5. It is well within Haumea's Roche limit, which would be at a radius of about 4,400 km if it were spherical (being nonspherical pushes the limit out farther). The ring plane is inclined 3.2° ± 1.4° with respect to Haumea's equatorial plane and approximately coincides with the orbital plane of its larger, outer moon Hiʻiaka. The ring is also close to the 1:3 orbit-spin resonance with Haumea's rotation (which is at a radius of 2,285 ± 8 km from Haumea's center). The ring is estimated to contribute 5% to the total brightness of Haumea.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "image",
-                            head: null,
-                            content: "/haumea_rings.gif",
-                            content_description: "Haumea's 3.9155-hour rotation within its discovered ring."
+                            content: "/eris_moon.jpg",
+                            content_description: "Artist's conception of Eris and its dark moon Dysnomia."
                         },
                         
                     ]
@@ -10139,14 +10121,14 @@ export const linksData = {
                         {
                             content_type: "text",
                             head: null,
-                            content: "Haumea was observed from afar by the New Horizons spacecraft in October 2007, January 2017, and May 2020, from distances of 49 AU, 59 AU, and 63 AU, respectively. The spacecraft's outbound trajectory permitted observations of Haumea at high phase angles that are otherwise unobtainable from Earth, enabling the determination of the light scattering properties and phase curve behavior of Haumea's surface.",
+                            content: "Eris was observed from afar by the outbound New Horizons spacecraft in May 2020, as part of its extended mission following its successful Pluto flyby in 2015. Although Eris was farther from New Horizons (112 AU) than it was from Earth (96 AU), the spacecraft's unique vantage point inside the Kuiper belt permitted observations of Eris at high phase angles that are otherwise unobtainable from Earth, enabling the determination of the light scattering properties and phase curve behavior of the Eridian surface.",
                             content_description: null 
                         },                                       
                         {
-                            content_type: "image",
+                            content_type: "text",
                             head: null,
-                            content: "/haumea_newHorizons.gif",
-                            content_description: "Haumea imaged by the New Horizons spacecraft in October 2007." 
+                            content: "In the 2010s, there were multiple studies for follow-on missions to explore the Kuiper belt, among which Eris was evaluated as a candidate. It was calculated that a flyby mission to Eris would take 24.66 years using a Jupiter gravity-assist, based on launch dates of April 3, 2032, or April 7, 2044. Eris would be 92.03 or 90.19 AU from the Sun when the spacecraft arrives.",
+                            content_description: null
                         },                                           
                     ]
                 },
@@ -10155,8 +10137,8 @@ export const linksData = {
                     texts: [
                         {
                             content_type: "embed_video",
-                            content: "Keh1goOGDFY",
-                            content_description: "This is one of the strangest objects in the solar system, it is classified as a dwarf planet, but it is not round."
+                            content: "2JcA8FUEqVQ",
+                            content_description: "..."
                         },  
                     ]
                 }
@@ -10201,67 +10183,63 @@ export const linksData = {
                     ]
                 },
                 {
-                    head: "Orbital Characteristics (Epoch 17 December 2020.)",
+                    head: "Orbital Characteristics (Epoch May 31, 2020.)",
                     keyValue: [
                         {
-                            key: "Observation Arc",
-                            value: "65years and 291days (24033 days)"
-                        },
-                        {
                             key: "Earliest Precovery Date",
-                            value: "March 22, 1955"
+                            value: "September 3, 1954"
                         },
                         {
                             key: "Aphelion",
-                            value: "51.585 AU (7.7170 Tm)"
+                            value: "97.457 AU (14.579 Tm)"
                         },
                         {
                             key: "Perihelion",
-                            value: "34.647 AU (5.1831 Tm)"
+                            value: "38.271 AU (5.725 Tm)"
                         },
                         {
                             key: "Semi-major Axis",
-                            value: "43.116 AU (6.4501 Tm)"
+                            value: "67.864 AU (10.152 Tm)"
                         },
                         {
                             key: "Eccentricity",
-                            value: "0.19642"
+                            value: "0.43607"
                         },
                         {
                             key: "Orbital Period (sidereal)",
-                            value: "283.12 yr (103,410 days)"
+                            value: "559.07 year (204,199 days)"
                         },
                         {
                             key: "Average Orbital Speed",
-                            value: "4.53 km/s"
+                            value: "3.434 km/s"
                         },
                         {
                             key: "Mean Anomaly",
-                            value: "218.205°"
+                            value: "205.989°"
                         },
                         {
                             key: "Mean Motion",
-                            value: "0° 0m 12.533s / day"
+                            value: "0° 0m 6.307s / day"
                         },
                         {
                             key: "Inclination",
-                            value: "28.2137°"
+                            value: "44.040°"
                         },
                         {
                             key: "Longitude of Ascending Node",
-                            value: "122.167°"
+                            value: "35.951°"
                         },
                         {
                             key: "Time of Perihelion",
-                            value: "≈1 June 2133 ± 2 days"
+                            value: "≈ 7 December 2257; ±2 weeks"
                         },
                         {
                             key: "Argument of Perihelion",
-                            value: "239.041°"
+                            value: "151.639°"
                         },
                         {
                             key: "Known Satellites",
-                            value: "2 (Hi'iaka and Namaka)"
+                            value: "1 (Dysnomia)"
                         },
                     ]
                 },
@@ -10269,44 +10247,40 @@ export const linksData = {
                     head: "Physical Characteristics",  
                     keyValue: [
                         {
-                            key: "Dimensions",
-                            value: "≈ 2,100 x 1,680 x 1,074 km; 2,322 ± 60 x 1,704±8 x 1,026 ± 32 km"
-                        },
-                        {
                             key: "Mean Diameter",
-                            value: "≈ 780km; 798 ± 6km to 816km"
+                            value: "2326 ± 12 km"
                         },
                         {
                             key: "Surface Area",
-                            value: "≈ 8.14e6 sq.km"
+                            value: "(1.70 ± 0.02)e7 sq.km"
                         },
                         {
                             key: "Volume",
-                            value: "≈ 1.98e9 cu.km; 0.0018 Earths"
+                            value: "(6.59 ± 0.10)e9 cu.km"
                         },
                         {
                             key: "Mass",
-                            value: "(4.006 ± 0.040)e21 kg; 0.00066 Earths"
+                            value: "(1.6466 ± 0.0085)e22 kg (system)"
                         },
                         {
                             key: "Mean Density",
-                            value: "≈ 2.018 g/cu.cm"
+                            value: "2.43±0.05 g/cu.cm"
                         },
                         {
                             key: "Equitorial Surface Gravity",
-                            value: "0.93 m/sq.s at poles to 0.24 m/sq.s at longest axis"
+                            value: "0.82 ± 0.02 m/sq.s; 0.084 ± 0.002 g"
                         },
                         {
                             key: "Equitorial Escape Velocity",
-                            value: "1 km/s at poles to 0.71 km/s at longest axis"
+                            value: "1.38 ± 0.01 km/s"
                         },
                         {
                             key: "Synodic Rotation Period",
-                            value: "3.915341 ± 0.000005 hours (0.163139208 days)"
+                            value: "15.786 days (synchronous)"
                         },
                         {
                             key: "Axial Tilt",
-                            value: "≈ 126° (to orbit; assumed); 81.2° or 78.9° (to ecliptic)"
+                            value: "≈ 78.3° to orbit (assumed); ≈ 61.6° to ecliptic (assumed)"
                         },
                         {
                             key: "North Pole Right Ascension",
@@ -10318,28 +10292,36 @@ export const linksData = {
                         },
                         {
                             key: "Geometric Albedo",
-                            value: "≈0.66 geometric; ≤ 0.51 ± 0.02 geometric; 0.33 ± 0.03 Bond"
+                            value: "0.96 (+0.09; -0.04) geometric; 0.99(+0.01; -0.09) Bond"
                         },
                         {
-                            key: "Temprature",
-                            value: "<50 K"
+                            key: "Minimum Surface Temp.",
+                            value: "30 K"
+                        },
+                        {
+                            key: "Mean Surface Temp.",
+                            value: "42 K"
+                        },
+                        {
+                            key: "Maximum Surface Temp.",
+                            value: "56 K"
                         },
                         {
                             key: "Spectral Type",
-                            value: "BB (neutral); B-V = 0.64, V-R = 0.33; B0-V0 = 0.646"
+                            value: "B-V = 0.78, V-R = 0.45"
                         },
                         {
                             key: "Apparent Magnitude",
-                            value: "17.3 (opposition)"
+                            value: "-1.21"
                         },
                         {
                             key: "Absolute Magnitude (H)",
-                            value: "0.428 ± 0.011 (V-band)"
+                            value: "34.4 ± 1.4 milli-arcsec"
                         },
                     ]
                 },
             ],
-            dateUpdate: "2023-05-10"
+            dateUpdate: "2023-05-13"
         },
     }
 }
