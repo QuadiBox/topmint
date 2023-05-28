@@ -313,7 +313,7 @@
 
 .systemMainSect{
     width: 100%;
-    min-height: 100vh;
+    min-height: 50vh;
     padding-inline: var(--gen-padding);
     padding-block: 4em 5em;
 }
@@ -887,4 +887,205 @@
     font-size: 1.05em;
     color: var(--text-clr2);
     font-weight: 350;
+}
+
+.visualSummarySect {
+    width: 100%;
+    padding-top: 0.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.visualSummarySect > h1{
+    font-size: 3.3em;
+    color: var(--text-clr2);
+    font-family: var(--font-unica);
+    font-weight: 500;
+    width: 100%;
+    padding-block: 3px;
+    border-bottom: 1px dashed var(--secBg-clr);
+}
+
+.visualSummarySect > p{
+    font-size: 1.3em;
+    color: var(--text-clr1);
+    font-family: var(--font-jost);
+    font-weight: 300;
+    width: 100%;
+    text-align: center;
+}
+
+.visualDisplayCntn {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15%, 15%));
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.visualDisplayUnit {
+    padding: 0.7px;
+    clip-path: var(--clip-type3);
+    background-color: var(--primary-clr);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+
+    transition: background-color 0.4s ease-in-out;
+}
+
+.visualDisplayUnit:hover {
+    background-color: var(--sec-clr);
+}
+
+.visualDisplay{
+    width: 100%;
+    clip-path: inherit;
+    border-radius: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    padding: 15px 12px;
+    background-color: var(--dark-clr1);
+}
+
+.visualDisplay img{
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+}
+
+.visualDisplay i {
+    font-size: 6em;
+    width: 100%;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secBg-clr);
+}
+
+.visualDisplay h1{
+    font-size: 1.7em;
+    color: var(--text-clr2);
+    font-family: var(--font-unica);
+    font-weight: 400;
+}
+
+.visualDisplay p{
+    font-size: 1.02em;
+    font-weight: 300;
+    color: var(--text-clr1);
+}
+
+.visualDisplay p a{
+    font-size: 1.1em;
+    color: var(--primary-clr);
+    margin-left: 3px;
+}
+
+.moonList {
+    width: 100%;
+    /* padding-top: 0.5em; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center; 
+}
+
+.moonList .theTopSection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.moonListSearchbox {
+    height: 50px;
+    border: 0.8px solid var(--primary-clr);
+    border-radius: 9px;
+    position: relative;
+    width: 50px;
+    cursor: pointer;
+    overflow-x: hidden;
+
+    transition: width 300ms cubic-bezier(0.175, 0.885, 0.32, 1.05), border-color 300ms ease;
+}
+
+.moonListSearchbox:hover {
+    border-color: var(--sec-clr);
+}
+
+.moonListSearchbox:focus-within{
+    width: 400px;
+}
+
+.moonListSearchbox:focus-within .inpt{
+    display: block;
+    opacity: 0;
+    animation: input 900ms ease-out forwards 0.2s;
+}
+
+@keyframes input{
+    to{
+        opacity: 1;
+    }
+}
+
+.moonListSearchbox .inpt{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    border: none;
+    outline: none;
+    font-size: 1.2em;
+    font-weight: 300;
+    color: var(--text-clr2);
+    background-color: var(--dark-clr1);
+    border-radius: 9px;
+    padding: 0px 0px 0px 10px;
+    display: flex;
+    place-items: center;
+    display: none;
+}
+
+
+.moonListSearchbox .btn{
+    width: 50px;
+    height: 100%;
+    border: none;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.moonListSearchbox:hover .btn i{
+    color: var(--sec-clr);
+}
+
+
+.moonListSearchbox button i{
+    font-size: 1.8em;
+    color: var(--primary-clr);
+    z-index: 2;
+
+    transition: color 300ms ease;
 }

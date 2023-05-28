@@ -78,25 +78,31 @@ const OverviewSect = ({ data }) => {
                 )
             }
 
+            {
+                data?.facts_12 && (
+                    <div className="planetDataSection">
+                        <h1>{data?.facts_12.length} Facts About {data?.name}:</h1>
 
-            <div className="planetDataSection">
-                <h1>{data?.facts_12.length} Facts About {data?.name}:</h1>
+                        <div className="planetsGridntn">
+                            {
+                                data?.facts_12.map((elem, idx) => (
+                                    <motion.div initial={{ opacity: 0.2, y: "20%" }} whileInView={{ opacity: 1, y: 0, transition: { type: "spring", damping: 30, stiffness: 200 } }} viewport={{ once: true, amount: 0.1 }} className="planetUnitDataCntn" key={`${elem.headText}${idx}`}>
+                                        <div className="planetUnitData">
+                                            <div className="factNumber">{idx + 1}</div>
+                                            <h4>{elem?.headText}</h4>
+                                            <span>{elem?.text}</span>
+                                        </div>
+                                    </motion.div>
+                                ))
+                            }
+                            
+                        </div>
+                    </div>
 
-                <div className="planetsGridntn">
-                    {
-                        data?.facts_12.map((elem, idx) => (
-                            <motion.div initial={{ opacity: 0.2, y: "20%" }} whileInView={{ opacity: 1, y: 0, transition: { type: "spring", damping: 30, stiffness: 200 } }} viewport={{ once: true, amount: 0.1 }} className="planetUnitDataCntn" key={`${elem.headText}${idx}`}>
-                                <div className="planetUnitData">
-                                    <div className="factNumber">{idx + 1}</div>
-                                    <h4>{elem?.headText}</h4>
-                                    <span>{elem?.text}</span>
-                                </div>
-                            </motion.div>
-                        ))
-                    }
-                    
-                </div>
-            </div>
+                )
+            }
+
+
 
 
 

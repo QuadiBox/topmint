@@ -8,7 +8,7 @@ export default function Document() {
         <meta charSet="UTF-8"/>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="theme-color"/>
-        <link rel="icon" href="/IconVerse.svg"/>
+        <link rel="icon" href="/IconVerseLarge.png"/>
         <link rel="apple-touch-icon" href="/IconVerse.svg"></link>
         <link rel="stylesheet" href="/icofont/icofont.min.css"/>
         <meta property="og:title" content="QuadVerse"/>

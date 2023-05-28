@@ -328,7 +328,7 @@
 .Sect1-apod {
   width: 100%;
   max-height: 760px;
-  min-height: 520px;
+  min-height: 740px;
   height: 100vh;
   position: relative;
 }

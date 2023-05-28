@@ -61,18 +61,20 @@ const Sect1 = ({ data }) => {
             <motion.p variants={fadeIn}>{data?.subText}</motion.p>
           </div>
 
-          <div className="valueByNumber">
-            {
-              data.subdata.map((elem, idx) => (
-                <div className="unitVBN" key={elem?.key}>
-                  <p>{elem?.key}</p>
-                  <div style={{overflow: "hidden"}}>
-                    <motion.h3 variants={slideUp}>{elem?.value}</motion.h3>
+          {data?.subdata && (
+            <div className="valueByNumber">
+              {
+                data.subdata.map((elem, idx) => (
+                  <div className="unitVBN" key={elem?.key}>
+                    <p>{elem?.key}</p>
+                    <div style={{overflow: "hidden"}}>
+                      <motion.h3 variants={slideUp}>{elem?.value}</motion.h3>
+                    </div>
                   </div>
-                </div>
-              ))
-            }
-          </div>
+                ))
+              }
+            </div>
+          )}
         </div>
     </motion.section>
   )

@@ -3,6 +3,8 @@ import Indepth from './Indepth'
 import OverviewSect from './OverviewSect'
 import Summary from './Summary'
 import { AnimatePresence } from 'framer-motion'
+import VisualSummary from './VisualSummary'
+import Moonlist from './Moonlist'
 
 const MainSect = ({ data, navOption, factor }) => {
     return (
@@ -21,6 +23,16 @@ const MainSect = ({ data, navOption, factor }) => {
                 {
                     navOption === "summary" && (
                         <Summary data={data?.summary}/>
+                    )
+                }
+                {
+                    navOption === "visualSummary" && (
+                        <VisualSummary data={data?.visual_summary}/>
+                    )
+                }
+                {
+                    navOption === "moonList" && (
+                        <Moonlist data={data?.moonList}/>
                     )
                 }
             </AnimatePresence>
