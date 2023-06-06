@@ -52,7 +52,7 @@ const Sect1 = ({ data }) => {
 
 
   return (
-    <motion.section initial="init" animate="finale" variants={parentVar} className='solarSystem-Sect1' style={{backgroundImage: `linear-gradient( 150deg, var(--bg1-opac09),var(--bg1-opac05), var(--bg1-opac02)), url(${data?.baseImgUrl})`}}>
+    <motion.section initial="init" animate="finale" variants={parentVar} className={`solarSystem-Sect1 ${data?.subdata ? "" : "noSubData"}`} style={{backgroundImage: `linear-gradient( 150deg, var(--bg1-opac09),var(--bg1-opac05), var(--bg1-opac02)), url(${data?.baseImgUrl})`}}>
         <div className="heroSect-1">
           <div className="details">
             <div style={{overflow: "hidden"}}>

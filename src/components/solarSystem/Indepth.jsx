@@ -38,7 +38,11 @@ const Indepth = ({ data, factor }) => {
             {
                 data?.map((elem, idx) => (
                     <div className="unitParagraph" key={idx / factor}>
-                        <h2>{elem.title}</h2>
+                        {
+                            elem.title && (
+                                <h2>{elem.title}</h2>
+                            )
+                        }
 
                         {
                             elem?.texts.map((elem, index) => {
@@ -61,7 +65,7 @@ const Indepth = ({ data, factor }) => {
                                 } else if (elem?.content_type === "video") {
                                     return (
                                         <motion.div initial={{ opacity: 0.2, y: "20%" }} whileInView={{ opacity: 1, y: 0, transition: { type: "spring", damping: 30, stiffness: 200 } }} viewport={{ once: true, amount: 0.1 }} className="unitDetailImage" key={`${index + 1}image`}>
-                                            <video src={elem.content} autoPlay loop></video>
+                                            <video src={elem.content} autoPlay loop muted></video>
                                             <p className="imageDetails">{elem?.content_description}</p>
                                         </motion.div>
                                     )

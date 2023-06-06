@@ -98,8 +98,8 @@
 .homeLoaderMain{
     width: 100%;
     min-height: 100dvh;
-    background-image: linear-gradient(to bottom right, var(--bg2-opac07), 50%, var(--bg2-opac05)), url(/homeBg.jpg);
-    background-size: 120%;
+    background-image: linear-gradient(to bottom, var(--bg1-opac05), var(--bg1-opac09), rgba(19, 0, 31, 0.951)), url(/homeBg2.jpg);
+    background-size: 100%;
     background-position: 0% 0%;
     overflow: hidden;
     display: flex;

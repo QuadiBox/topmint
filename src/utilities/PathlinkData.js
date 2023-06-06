@@ -10857,7 +10857,7 @@ export const linksData = {
             subdata: [
                 {
                     key: "Distance From Earth",
-                    value: "93,615,784 miles"
+                    value: "238,855 miles"
                 },
                 {
                     key: "Human Visitors",
@@ -12016,7 +12016,7 @@ export const linksData = {
                 },
                 {
                     name: "Rhea",
-                    imageSrc: null,
+                    imageSrc: "/summary_rhea.jpg",
                     note: "Rhea is the second-largest moon of Saturn and the ninth-largest moon in the Solar System, with a surface area that is compareable to the area of Australia",
                     state: "Confirmed",
                     href: "/moons/Rhea"
@@ -12142,7 +12142,7 @@ export const linksData = {
                 },
                 {
                     name: "S/2009 S1",
-                    imageSrc: "/summary_s_2009_s1.jpg",
+                    imageSrc: "/summary_s2009_s1.jpg",
                     note: "",
                     state: "Provisional",
                     href: "/moons/S_2009_S1"
@@ -12219,7 +12219,7 @@ export const linksData = {
                 },
                 {
                     name: "Tethys",
-                    imageSrc: "summary_tethys.jpg",
+                    imageSrc: "/summary_tethys.jpg",
                     note: "Tethys, or Saturn III, is a mid-sized moon of Saturn about 1,060 km (660 mi) across. It was discovered by G. D. Cassini in 1684 and is named after the titan Tethys of Greek mythology.",
                     state: "Confirmed",
                     href: "/moons/Tethys"
@@ -12240,7 +12240,7 @@ export const linksData = {
                 },
                 {
                     name: "Titan",
-                    imageSrc: "/summary_titan,jpg",
+                    imageSrc: "/summary_titan.jpg",
                     note: "Titan is the largest moon of Saturn, the second-largest in the Solar System and larger than any of the dwarf planets of the Solar System. It is the only moon known to have a dense atmosphere. The International Astronomical Union officially numbers Titan as Saturn VI.",
                     state: "Confirmed",
                     href: "/moons/Titan"
