@@ -12289,7 +12289,7 @@ export const linksData = {
                 {
                     name: "Ariel",
                     imageSrc: "/summary_ariel.jpg",
-                    note: "Ariel is the fourth-largest of the 27 known moons of Uranus. v",
+                    note: "Ariel is the fourth-largest of the 27 known moons of Uranus.",
                     state: "Confirmed",
                     href: "/moons/Ariel"
                 },
@@ -12336,13 +12336,6 @@ export const linksData = {
                     href: "/moons/Cupid"
                 },
                 {
-                    name: "Bebhionn",
-                    imageSrc: null,
-                    note: "",
-                    state: "Confirmed",
-                    href: "/moons/Bebhionn"
-                },
-                {
                     name: "Desdemona",
                     imageSrc: null,
                     note: "",
@@ -12386,7 +12379,7 @@ export const linksData = {
                 },
                 {
                     name: "Miranda",
-                    imageSrc: null,
+                    imageSrc: "/miranda.jpg",
                     note: "",
                     state: "Confirmed",
                     href: "/moons/Miranda"
