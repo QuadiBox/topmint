@@ -58,7 +58,7 @@ const OverviewSect = ({ data }) => {
                             data?.iframeLink.type === "iframe" && (
                                 <>
                                     <motion.div initial={{ opacity: 0.2, y: "10%" }} whileInView={{ opacity: 1, y: 0, transition: { type: "spring", damping: 30, stiffness: 200 } }} viewport={{ once: true, amount: 0.1 }} className="iframeCntn">
-                                        <iframe src={data?.iframeLink.content} frameBorder="0" 
+                                        <iframe allowFullScreen allow='fullscreen' src={data?.iframeLink.content} frameBorder="0" 
                                         scrolling='no' width="900" height="600"></iframe>
                                     </motion.div>
                                     <p><i className="icofont-info-square"> </i>   Interact with this interface to explore a relatively immersive 3d view of the Solar System. Click on any of the element to get a better view of it. Scroll up/down(pinch up/down) to zoom in/out.</p>
