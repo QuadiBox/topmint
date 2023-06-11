@@ -784,7 +784,7 @@
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 9; 
+    -webkit-line-clamp: 8; 
     white-space: pre-wrap;
     width: 100%;
     font-size: 0.87em;

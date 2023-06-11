@@ -69,7 +69,7 @@ const Footer = ({ bg }) => {
                         </div>
                         <div className="linkCouple">
                             <div className="linkUnit">
-                                <div className='linkHeader asteroids'><Link href={"/asteroids-comets-meteors"}>Asteroids, Comets and Meteors</Link></div>
+                                <div className='linkHeader asteroids'><Link href={"/asteroids_comets_meteors"}>Asteroids, Comets and Meteors</Link></div>
                                 <ul className="linkList">
                                     <li><Link className='unitLink' href={"/asteroids_comets_meteors/asteroids"}><span className="coloredtile grey"></span><p>Asteroids</p></Link></li>
                                     <li><Link className='unitLink' href={"/asteroids_comets_meteors/comets"}><span className="coloredtile grey3"></span><p>Comets</p></Link></li>

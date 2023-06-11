@@ -115,6 +115,8 @@ const Sect1 = ({ apodDisplay, setApodDisplay, LSData , setLSData }) => {
             try {
                 const response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=enHpDWxtD5yefBSZ24PQey3jlAkE24zKrHDl6Eq4&date=${ddmmyyyy}`);
                 const data = await response.json();
+
+                console.log(data)
                 
                 if ( data.hdurl || data.url ) {
                     setApodDisplay(data);

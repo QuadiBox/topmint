@@ -10439,7 +10439,7 @@ export const linksData = {
                         {
                             content_type: "image",
                             head: null,
-                            content: "/moons_charon.gif",
+                            content: "/pluto_charon.gif",
                             content_description: "The revolution animation of Charon orbiting Pluto as a natural satellite. 6.387 day revolution shown 1 second/day. "
                         },                  
                     ]
@@ -12678,6 +12678,602 @@ export const linksData = {
                 },
             ],
             dateUpdate: "2023-05-28"
+        },
+    },
+    asteroids_comets_meteors: {
+        asteroids_comets_meteors: {
+            name: "Asteroids, Meteors & Comets",
+            baseImgUrl: "/pluto_poster_A.jpg",
+            baseText: "Asteroids, Meteors & Comets",
+            subText: "Pluto is a complex world of ice mountains and frozen plains. Once considered the ninth planet, Pluto is the best known of a new class of worlds called dwarf planets.",
+            next: {
+                key: "Asteroids",
+                value: "/asteroids_comets_meteors/asteroids"
+            },
+            prev: {
+                key: "Pluto Moons",
+                value: "/moons/pluto"
+            },
+            subdata: [
+                {
+                    key: "Distance From Sun",
+                    value: "3,670,050,000 miles"
+                },
+                {
+                    key: "One Way Light Time From Sun",
+                    value: "5.5 hours"
+                },
+                {
+                    key: "Length Of Year",
+                    value: "90.530 Earth Days"
+                },
+                {
+                    key: "Satellites Count",
+                    value: "5"
+                },
+            ],
+            overview: {
+                name: "Pluto",
+                topBox: {
+                    headText: "PLUTO'S HEART",
+                    text: "Tombaugh Regio is a large, light-colored region about 1,590 km (990 mi) across. It  is the largest bright surface feature of the dwarf planet Pluto. The two lobes of the feature are geologically distinct. The western lobe, Sputnik Planitia, is smoother than the eastern, and they are of slightly different colors. Named after Clyde Tombaugh, the discoverer of Pluto, it was nicknamed Pluto's \"heart\" after its shape."
+                },
+                paragraphs: [
+                    "Pluto is a dwarf planet in the Kuiper Belt, a donut-shaped region of icy bodies beyond the orbit of Neptune. There may be millions of these icy objects, collectively referred to as Kuiper Belt objects (KBOs) or trans-Neptunian objects (TNOs), in this distant region of our solar system.",
+                    "Pluto, which is smaller than Earths Moon, has a heart-shaped glacier thats the size of Texas and Oklahoma. This fascinating world has blue skies, spinning moons, mountains as high as the Rockies, and it snows but the snow is red.", "On July 14, 2015, NASAs New Horizons spacecraft made its historic flight through the Pluto system providing the first close-up images of Pluto and its moons and collecting other data that has transformed our understanding of these mysterious worlds on the solar systems outer frontier.", "In the years since that groundbreaking flyby, nearly every conjecture about Pluto possibly being an inert ball of ice has been thrown out the window or flipped on its head."
+                ],
+                iframeLink: {
+                    type: "iframe",
+                    content: "https://eyes.nasa.gov/apps/solar-system/#/134340_pluto?embed=true&amp;logo=false" ,
+                    content_description: ""
+                },
+                facts_12: [
+                    {
+                        headText: "SMALL WORLD",
+                        text: "Pluto is about 1,400 miles (2,380 km) wide. That's about half the width of the United States, or 2/3 the width of Earth's moon."
+                    },
+                    {
+                        headText: "FAR WANDERER",
+                        text: "Pluto orbits the Sun about 3.6 billion miles (5.8 billion km) away on average, about 40 times as far as Earth, in a region called the Kuiper Belt."
+                    },
+                    {
+                        headText: "LONG WAY AROUND ",
+                        text: "A year on Pluto is 248 Earth years. A day on Pluto lasts 153 hours, or about 6 Earth days."
+                    },
+                    {
+                        headText: "HAZY WORLD",
+                        text: "Pluto has a thin atmosphere of nitrogen, methane and carbon monoxide. The atmosphere has a blue tint and distinct layers of haze."
+                    },
+                    {
+                        headText: "BIG HEART",
+                        text: "Pluto boasts a heart-shaped feature on its surface called Tombaugh Regio, named after the astronomer who discovered Pluto (Clyde Tombaugh)."
+                    },
+                    {
+                        headText: "GEO-ACTIVE",
+                        text: "Evidence of cryovolcanism suggests that Pluto's interior may harbor subsurface oceans of water, resulting in periodic eruptions of icy materials."
+                    },
+                    {
+                        headText: "NAMED BY A KID",
+                        text: " Venetia Burney (1918-2009), an eleven-year-old schoolgirl in Oxford, England, suggested the name Pluto in 1930."
+                    },
+                    {
+                        headText: "CHARON DANCE",
+                        text: "Pluto and its largest moon, Charon, are tidally locked, meaning they always show the same face to each other as they orbit."
+                    },
+                    {
+                        headText: "HARSH HABITAT",
+                        text: "Plutos surface is far too cold, -378 to -396 degrees F (-228 to -238 C), to sustain life as we know it."
+                    },
+                    {
+                        headText: "COSMIC COMPANIONS",
+                        text: "Pluto has five moons, Pluto and four smaller moons: Nix, Hydra, Kerberos, and Styx, which were discovered by the Hubble Space Telescope."
+                    },
+                    {
+                        headText: "SOLE ENCOUNTER",
+                        text: "The only spacecraft to visit Pluto is NASA's New Horizons, which passed close by in July 2015." 
+                    },
+                    {
+                        headText: "FANCY WORD",
+                        text: "In 2006, in its 17th annual words-of-the-year vote, the American Dialect Society voted \"plutoed\" as the word of the year. To \"pluto\" is to \"demote or devalue someone or something\"."
+                    },
+                ]
+            },
+            inDepth: [
+                {
+                    title: "Introduction",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Pluto (minor-planet designation: 134340 Pluto) is a dwarf planet in the Kuiper belt, a ring of bodies beyond the orbit of Neptune. It is the ninth-largest and tenth-most-massive known object to directly orbit the Sun. It is the largest known trans-Neptunian object by volume, by a small margin, but is slightly less massive than Eris. Like other Kuiper belt objects, Pluto is made primarily of ice and rock and is much smaller than the inner planets. Pluto has only one sixth the mass of Earth's moon, and one third its volume.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Pluto has a moderately eccentric and inclined orbit, ranging from 30 to 49 astronomical units (4.5 to 7.3 billion kilometers; 2.8 to 4.6 billion miles) from the Sun. Light from the Sun takes 5.5 hours to reach Pluto at its orbital distance of 39.5 AU (5.91 billion km; 3.67 billion mi). Pluto's eccentric orbit periodically brings it closer to the Sun than Neptune, but a stable orbital resonance prevents them from colliding. The dwarf planet has five known moons: Charon, the largest, whose diameter is just over half that of Pluto; Styx; Nix; Kerberos; and Hydra. Pluto and Charon are sometimes considered a binary system because the barycenter of their orbits does not lie within either body, and they are tidally locked. The New Horizons mission was the first spacecraft to visit Pluto and its moons, making a flyby on July 14, 2015 and taking detailed measurements and observations.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/plutoXcharon.jpg",
+                            content_description: "Charon and Pluto: Strikingly Different Worlds A composite of enhanced color images of Pluto (lower right) and Charon (upper left), taken by NASA's New Horizons spacecraft as it passed through the Pluto system on July 14, 2015. This image highlights the striking differences between Pluto and Charon. The color and brightness of both Pluto and Charon have been processed identically to allow direct comparison of their surface properties, and to highlight the similarity between Charon's polar red terrain and Pluto's equatorial red terrain. Pluto and Charon are shown with approximately correct relative sizes, but their true separation is not to scale."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Pluto was discovered in 1930, the first object in the Kuiper belt. It was immediately hailed as the ninth planet, but it was always the odd object out, and its planetary status was questioned when it was found to be much smaller than expected. These doubts increased following the discovery of additional objects in the Kuiper belt starting in the 1990s, and particularly the more massive scattered disk object Eris in 2005. In 2006, the International Astronomical Union (IAU) formally redefined the term planet to exclude dwarf planets such as Pluto. Many planetary astronomers, however, continue to consider Pluto and other dwarf planets to be planets.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Nomenclature And Mythology",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The name Pluto is for the Roman god of the underworld, equivalent to the Greek Hades. However, the Greek name \"Plouton\" (from which the Romans derived their name \"Pluto\") was also occasionally used as an alternative name for Hades. But Pluto is definitely the Roman spelling. The god Pluto was one of six surviving children of Saturn, and the others had already all been chosen as names of planets (his brothers Jupiter and Neptune, and his sisters Ceres, Juno and Vesta). The adjectival form of Uranus is \"Plutonian\". Pluto's planetary symbol ⟨♇⟩ was then created as a monogram of the letters \"PL\". This symbol is rarely used in astronomy today, though it is still common in astrology. However, the most-common astrological symbol for Pluto, now occasionally used in astronomy as well, is an orb (possibly representing Pluto's invisibility cap) over Pluto's bident ⟨⯓⟩, which dates to the early 1930s.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Upon the announcement of the discovery, Lowell Observatory received over a thousand suggestions for names. Three names topped the list: Minerva, Pluto and Cronus. 'Minerva' was the Lowell staff's first choice but was rejected because it had already been used for an asteroid; Cronus was disfavored because it was promoted by an unpopular and egocentric astronomer, Thomas Jefferson Jackson See. A vote was taken, and 'Pluto' was the unanimous choice. To make sure the name stuck, and that the planet would not suffer changes in its name as Uranus had, Lowell Observatory proposed the name to the American Astronomical Society and the Royal Astronomical Society; both approved it unanimously. The name was published on May 1, 1930.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The name 'Pluto' had received some 150 nominations among the letters and telegrams sent to Lowell. The first had been from Venetia Burney (1918-2009), an eleven-year-old schoolgirl in Oxford, England, who was interested in classical mythology. She had suggested it to her grandfather Falconer Madan when he read the news of Pluto's discovery to his family over breakfast; Madan passed the suggestion to astronomy professor Herbert Hall Turner, who cabled it to colleagues at Lowell on March 16, three days after the announcement.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Most languages use the name \"Pluto\" in various transliterations. In Japanese, Houei Nojiri suggested the calque Meiōsei (冥王星, \"Star of the King (God) of the Underworld\"), and this was borrowed into Chinese and Korean. Some languages of India use the name Pluto, but others, such as Hindi, use the name of Yama, the God of Death in Hinduism. Polynesian languages also tend to use the indigenous god of the underworld, as in Māori Whiro. Vietnamese might be expected to follow Chinese, but does not because the Sino-Vietnamese word 冥 minh \"dark\" is homophonous with 明 minh \"bright\". Vietnamese instead uses Yama, which is also a Buddhist deity, in the form of Sao Diêm Vương 星閻王 \"Yama's Star\", derived from Chinese 閻王 Yán Wáng / Yìhm Wòhng \"King Yama\".",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Pluto's moons are named for other mythological figures associated with the underworld. Charon is named for the river Styx boatman who ferries souls in the underworld (as well as honoring Sharon, the wife of discoverer James Christy); Nix is named for the mother of Charon, who is also the goddess of darkness and night; Hydra is named for the nine-headed serpent that guards the underworld; Kerberos is named after the three-headed dog of Greek mythology (and called Fluffy in the Harry Potter novels), and Styx is named for the mythological river that separates the world of the living from the realm of the dead.",
+                            content_description: null
+                        },
+
+                    ]
+                },
+                { 
+                    title: "Physical Characteristics",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: "Internal Structure",
+                            content: "Pluto's density is 1.860 ± 0.013 g/cu.cm. Because the decay of radioactive elements would eventually heat the ices enough for the rock to separate from them, scientists expect that Pluto's internal structure is differentiated, with the rocky material having settled into a dense core surrounded by a mantle of water ice. The pre-New Horizons estimate for the diameter of the core is 1700 km, 70% of Pluto's diameter. Pluto has no magnetic field.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "It is possible that such heating continues today, creating a subsurface ocean of liquid water 100 to 180 km thick at the core-mantle boundary. In September 2016, scientists at Brown University simulated the impact thought to have formed Sputnik Planitia, and showed that it might have been the result of liquid water upwelling from below after the collision, implying the existence of a subsurface ocean at least 100 km deep. In June 2020, astronomers reported evidence that Pluto may have had a subsurface ocean, and consequently may have been habitable, when it was first formed. In March 2022, they concluded that peaks on Pluto are actually a merger of \"ice volcanoes\", suggesting a source of heat on the body at levels previously thought not possible.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/pluto_internal_structure.jpg",
+                            content_description: "Model of the internal structure of Pluto: Water ice crust, Liquid water ocean, Silicate core."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Surface",
+                            content: "The plains on Pluto's surface are composed of more than 98 percent nitrogen ice, with traces of methane and carbon monoxide. Nitrogen and carbon monoxide are most abundant on the anti-Charon face of Pluto (around 180° longitude, where Tombaugh Regio's western lobe, Sputnik Planitia, is located), whereas methane is most abundant near 300° east. The mountains are made of water ice. Pluto's surface is quite varied, with large differences in both brightness and color. Pluto is one of the most contrastive bodies in the Solar System, with as much contrast as Saturn's moon Iapetus. The color varies from charcoal black, to dark orange and white. Pluto's color is more similar to that of Io with slightly more orange and significantly less red than Mars. Notable geographical features include Tombaugh Regio, or the \"Heart\" (a large bright area on the side opposite Charon), Cthulhu Macula, or the \"Whale\" (a large dark area on the trailing hemisphere), and the \"Brass Knuckles\" (a series of equatorial dark areas on the leading hemisphere).",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/pluto_true_color.jpg",
+                            content_description: "Pluto's image taken by New Horizons on July 14, 2015, from a range of 22,025 miles (35,445 kilometers). The striking features on Pluto are clearly visible, including the bright expanse of Pluto's icy, nitrogen-and-methane rich \"heart,\" Sputnik Planitia. The natural-looking colors result from refined calibration of data gathered by New Horizons' color Multispectral Visible Imaging Camera (MVIC)."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Sputnik Planitia, the western lobe of the \"Heart\", is a 1,000 km-wide basin of frozen nitrogen and carbon monoxide ices, divided into polygonal cells, which are interpreted as convection cells that carry floating blocks of water ice crust and sublimation pits towards their margins; there are obvious signs of glacial flows both into and out of the basin. It has no craters that were visible to New Horizons, indicating that its surface is less than 10 million years old. Latest studies have shown that the surface has an age of 180000 (+90000; -40000) years.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The New Horizons science team summarized initial findings as \"Pluto displays a surprisingly wide variety of geological landforms, including those resulting from glaciological and surface-atmosphere interactions as well as impact, tectonic, possible cryovolcanic, and mass-wasting processes\". In Western parts of Sputnik Planitia there are fields of transverse dunes formed by the winds blowing from the center of Sputnik Planitia in the direction of surrounding mountains. The dune wavelengths are in the range of 0.4-1 km and likely consist of methane particles 200-300 μm in size.[",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/pluto_water_ice.jpg",
+                            content_description: "Regions where water ice has been detected (blue regions)."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Atmosphere",
+                            content: "Pluto has a tenuous atmosphere consisting of nitrogen , methane , and carbon monoxide , which are in equilibrium with their ices on Pluto's surface. According to the measurements by New Horizons, the surface pressure is about 1 Pa (10 μbar), roughly one million to 100,000 times less than Earth's atmospheric pressure. It was initially thought that, as Pluto moves away from the Sun, its atmosphere should gradually freeze onto the surface; studies of New Horizons data and ground-based occultations show that Pluto's atmospheric density increases, and that it likely remains gaseous throughout Pluto's orbit. New Horizons observations showed that atmospheric escape of nitrogen to be 10,000 times less than expected. Pluto has no or almost no troposphere; observations by New Horizons suggest only a thin tropospheric boundary layer. Its thickness in the place of measurement was 4 km, and the temperature was 37 ± 3 K. The layer is not continuous.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/uranus_atmosphere.png",
+                            content_description: "A near-true-color image taken by New Horizons after its flyby. Numerous layers of blue haze float in Pluto's atmosphere. Along and near the limb, mountains and their shadows are visible."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In July 2019, an occultation by Pluto showed that its atmospheric pressure, against expectations, had fallen by 20% since 2016. In 2021, astronomers at the Southwest Research Institute confirmed the result using data from an occultation in 2018, which showed that light was appearing less gradually from behind Pluto's disc, indicating a thinning atmosphere. The presence of methane, a powerful greenhouse gas, in Pluto's atmosphere creates a temperature inversion, with the average temperature of its atmosphere tens of degrees warmer than its surface, though observations by New Horizons have revealed Pluto's upper atmosphere to be far colder than expected (70 K, as opposed to about 100 K). Pluto's atmosphere is divided into roughly 20 regularly spaced haze layers up to 150 km high, thought to be the result of pressure waves created by airflow across Pluto's mountains.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Magnetosphere",
+                            content: "It isn't known whether Pluto has a magnetic field, but its small size and slow rotation suggest little or none.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Mass and Size",
+                            content: "Pluto's diameter is 2376.6±3.2 km and its mass is (1.303 ± 0.003)e22 kg, 17.7% that of the Moon (0.22% that of Earth). Its surface area is 1.774443e7 sq.km, or just slightly bigger than Russia or Antarctica. Its surface gravity is 0.063 g (compared to 1 g for Earth and 0.17 g for the Moon). The discovery of Pluto's satellite Charon in 1978 enabled a determination of the mass of the Pluto-Charon system by application of Newton's formulation of Kepler's third law. Observations of Pluto in occultation with Charon allowed scientists to establish Pluto's diameter more accurately, whereas the invention of adaptive optics allowed them to determine its shape more accurately.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/plutoXearth.jpg",
+                            content_description: "Pluto (bottom left) compared in size to the Earth and the Moon. Diameter comparison of Pluto, Moon, and Earth. Scale: Approximately 28.9 km per pixel."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "With less than 0.2 lunar masses, Pluto is much less massive than the terrestrial planets, and also less massive than seven moons: Ganymede, Titan, Callisto, Io, the Moon, Europa, and Triton. The mass is much less than thought before Charon was discovered. Pluto is more than twice the diameter and a dozen times the mass of Ceres, the largest object in the asteroid belt. It is less massive than the dwarf planet Eris, a trans-Neptunian object discovered in 2005, though Pluto has a larger diameter of 2,376.6 km compared to Eris's approximate diameter of 2,326 km.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Determinations of Pluto's size have been complicated by its atmosphere and hydrocarbon haze. In March 2014, Lellouch, de Bergh et al. published findings regarding methane mixing ratios in Pluto's atmosphere consistent with a Plutonian diameter greater than 2,360 km, with a \"best guess\" of 2,368 km. On July 13, 2015, images from NASA's New Horizons mission Long Range Reconnaissance Imager (LORRI), along with data from the other instruments, determined Pluto's diameter to be 2,370 km (1,470 mi), which was later revised to be 2,372 km (1,474 mi) on July 24, and later to 2374±8 km.Using radio occultation data from the New Horizons Radio Science Experiment (REX), the diameter was found to be 2376.6 ± 3.2 km.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Orbit & Rotation",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Pluto's orbital period is currently about 248 years. Its orbital characteristics are substantially different from those of the planets, which follow nearly circular orbits around the Sun close to a flat reference plane called the ecliptic. In contrast, Pluto's orbit is moderately inclined relative to the ecliptic (over 17°) and moderately eccentric (elliptical). This eccentricity means a small region of Pluto's orbit lies closer to the Sun than Neptune's. The Pluto-Charon barycenter came to perihelion on September 5, 1989, and was last closer to the Sun than Neptune between February 7, 1979, and February 11, 1999.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Although the 3:2 resonance with Neptune (see below) is maintained, Pluto's inclination and eccentricity behave in a chaotic manner. Computer simulations can be used to predict its position for several million years (both forward and backward in time), but after intervals much longer than the Lyapunov time of 10-20 million years, calculations become unreliable: Pluto is sensitive to immeasurably small details of the Solar System, hard-to-predict factors that will gradually change Pluto's position in its orbit. The semi-major axis of Pluto's orbit varies between about 39.3 and 39.6 au with a period of about 19,951 years, corresponding to an orbital period varying between 246 and 249 years. The semi-major axis and period are presently getting longer.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/pluto_orbit.gif",
+                            content_description: "Simulated animation of Pluto's orbit from 1850 to 2097 around the Sun, The orbits (inner to outer) are for: Saturn(yellow), Uranus(cyan), Neptune(blue) and Pluto(purple)."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Relationship with Neptune",
+                            content: "Despite Pluto's orbit appearing to cross that of Neptune when viewed from directly above, the two objects' orbits do not intersect. When Pluto is closest to the Sun, and close to Neptune's orbit as viewed from above, it is also the farthest above Neptune's path. Pluto's orbit passes about 8 AU above that of Neptune, preventing a collision. This alone is not enough to protect Pluto; perturbations from the planets (especially Neptune) could alter Pluto's orbit (such as its orbital precession) over millions of years so that a collision could be possible. However, Pluto is also protected by its 2:3 orbital resonance with Neptune: for every two orbits that Pluto makes around the Sun, Neptune makes three. Each cycle lasts about 495 years. (There are many other objects in this same resonance, called plutinos).",
+                            content_description: null
+                        },                    
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The 2:3 resonance between the two bodies is highly stable and has been preserved over millions of years. This prevents their orbits from changing relative to one another, and so the two bodies can never pass near each other. Even if Pluto's orbit were not inclined, the two bodies could never collide. The long term stability of the mean-motion resonance is due to phase protection. When Pluto's period is slightly shorter than 3/2 of Neptune, its orbit relative to Neptune will drift, causing it to make closer approaches behind Neptune's orbit. The gravitational pull between the two then causes angular momentum to be transferred to Pluto, at Neptune's expense. This moves Pluto into a slightly larger orbit, where it travels slightly more slowly, according to Kepler's third law. After many such repetitions, Pluto is sufficiently slowed that Pluto's orbit relative to Neptune drifts in the opposite direction until the process is reversed. The whole process takes about 20,000 years to complete.",
+                            content_description: null
+                        },                    
+                        {
+                            content_type: "text",
+                            head: "Rotation",
+                            content: "Pluto's rotation period, its day, is equal to 6.387 Earth days. Like Uranus, Pluto rotates on its \"side\" in its orbital plane, with an axial tilt of 120°, and so its seasonal variation is extreme; at its solstices, one-fourth of its surface is in continuous daylight, whereas another fourth is in continuous darkness. The reason for this unusual orientation has been debated. Research from the University of Arizona has suggested that it may be due to the way that a body's spin will always adjust to minimise energy. This could mean a body reorienting itself to put extraneous mass near the equator and regions lacking mass tend towards the poles. This is called polar wander. According to a paper released from the University of Arizona, this could be caused by masses of frozen nitrogen building up in shadowed areas of the dwarf planet. These masses would cause the body to reorient itself, leading to its unusual axial tilt of 120°. The buildup of nitrogen is due to Pluto's vast distance from the Sun. At the equator, temperatures can drop to -240 °C (-400.0 °F; 33.1 K), causing nitrogen to freeze as water would freeze on Earth. The same effect seen on Pluto would be observed on Earth were the Antarctic ice sheet several times larger.",
+                            content_description: null
+                        },                    
+                    ]
+                },
+                {
+                    title: "Moons",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Pluto has five known natural satellites. The closest to Pluto is Charon. First identified in 1978 by astronomer James Christy, Charon is the only moon of Pluto that may be in hydrostatic equilibrium. Charon's mass is sufficient to cause the barycenter of the Pluto-Charon system to be outside Pluto. The similarity in size of Charon and Pluto has prompted some astronomers to call it a double dwarf planet. The system is also unusual among planetary systems in that each is tidally locked to the other, which means that Pluto and Charon always have the same hemisphere facing each other — a property shared by only one other known system, Eris and Dysnomia. From any position on either body, the other is always at the same position in the sky, or always obscured.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/pluto_charon.gif",
+                            content_description: "An oblique view of the Pluto-Charon system showing that Pluto orbits a point outside itself. The two bodies are mutually tidally locked."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Beyond Charon there are four much smaller circumbinary moons. In order of distance from Pluto they are Styx, Nix, Kerberos, and Hydra. Nix and Hydra were both discovered in 2005, Kerberos was discovered in 2011, and Styx was discovered in 2012. The satellites' orbits are circular (eccentricity < 0.006) and coplanar with Pluto's equator (inclination < 1°), and therefore tilted approximately 120° relative to Pluto's orbit. The Plutonian system is highly compact: the five known satellites orbit within the inner 3% of the region where prograde orbits would be stable.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/pluto_moons.png",
+                            content_description: "Family Portrait of Pluto's Moons: All the moons are displayed with a common intensity stretch and spatial scale (see scale bar). Charon is by far the largest of Pluto's moons, with a diameter of 751 miles (1,212 kilometers). Nix and Hydra have comparable sizes, approximately 25 miles (40 kilometers) across in their longest dimension above. Kerberos and Styx are much smaller and have comparable sizes, roughly 6-7 miles (10-12 kilometers) across in their longest dimension. All four small moons have highly elongated shapes, a characteristic thought to be typical of small bodies in the Kuiper Belt."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The orbital periods of all Pluto's moons are linked in a system of orbital resonances and near resonances. When precession is accounted for, the orbital periods of Styx, Nix, and Hydra are in an exact 18:22:33 ratio. There is a sequence of approximate ratios, 3:4:5:6, between the periods of Styx, Nix, Kerberos, and Hydra with that of Charon; the ratios become closer to being exact the further out the moons are. Pluto's moons are hypothesized to have been formed by a collision between Pluto and a similar-sized body, early in the history of the Solar System. The collision released material that consolidated into the moons around Pluto.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Quasi-satellites",
+                            content: "In 2012, it was calculated that 15810 Arawn could be a quasi-satellite of Pluto, a specific type of co-orbital configuration. According to the calculations, the object would be a quasi-satellite of Pluto for about 350,000 years out of every two-million-year period. Measurements made by the New Horizons spacecraft in 2015 made it possible to calculate the orbit of Arawn more accurately, and confirmed the earlier ones. However, it is not agreed upon among astronomers whether Arawn should be classified as a quasi-satellite of Pluto based on its orbital dynamics, since its orbit is primarily controlled by Neptune with only occasional perturbations by Pluto.",
+                            content_description: null
+                        },
+                            
+                                                   
+                    ]
+                },
+                {
+                    title: "Exploration",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The New Horizons spacecraft, which flew by Pluto in July 2015, is the first and so far only attempt to explore Pluto directly. Launched in 2006. New Horizons made its closest approach to Pluto on July 14, 2015, after a 3,462-day journey across the Solar System. Scientific observations of Pluto began five months before the closest approach and continued for at least a month after the encounter. Observations were conducted using a remote sensing package that included imaging instruments and a radio science investigation tool, as well as spectroscopic and other experiments.",
+                            content_description: null 
+                        },                                         
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The scientific goals of New Horizons were to characterize the global geology and morphology of Pluto and its moon Charon, map their surface composition, and analyze Pluto's neutral atmosphere and its escape rate. On October 25, 2016, at 05:48 pm ET, the last bit of data (of a total of 50 billion bits of data; or 6.25 gigabytes) was received from New Horizons from its close encounter with Pluto.",
+                            content_description: null 
+                        },                                         
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/pluto_exploration.jpg",
+                            content_description: "Panoramic view of Pluto's icy mountains and flat ice plains, imaged by New Horizons 15 minutes after its closest approach to Pluto. Distinct haze layers in Pluto's atmosphere can be seen backlit by the Sun." 
+                        },                                         
+                        {
+                            content_type: "text",
+                            head: "Future Mission",
+                            content: "Since the New Horizons flyby, scientists have advocated for an orbiter mission that would return to Pluto to fulfill new science objectives. They include mapping the surface at 9.1 m (30 ft) per pixel, observations of Pluto's smaller satellites, observations of how Pluto changes as it rotates on its axis, investigations of a possible subsurface ocean, and topographic mapping of Pluto's regions that are covered in long-term darkness due to its axial tilt. The last objective could be accomplished using laser pulses to generate a complete topographic map of Pluto.  New Horizons principal investigator Alan Stern has advocated for a Cassini-style orbiter that would launch around 2030 (the 100th anniversary of Pluto's discovery) and use Charon's gravity to adjust its orbit as needed to fulfill science objectives after arriving at the Pluto system. The orbiter could then use Charon's gravity to leave the Pluto system and study more KBOs after all Pluto science objectives are completed. A conceptual study funded by the NASA Innovative Advanced Concepts (NIAC) program describes a fusion-enabled Pluto orbiter and lander based on the Princeton field-reversed configuration reactor.",
+                            content_description: null
+                        },                                            
+                    ]
+                },
+                {
+                    title: "Watch To Learn More...",
+                    texts: [
+                        {
+                            content_type: "embed_video",
+                            content: "D5XPuS-Y0fg",
+                            content_description: "Astrum explores everything NASA's New Horizons saw and discovered in the Kuiper Belt around Pluto, Charon and Arrokoth (Ultima Thule)."
+                        },  
+                    ]
+                }
+            ],
+             summary: [
+                {
+                    head: "Discovery",
+                    keyValue: [
+                        {
+                            key: "Discovered By",
+                            value: "Clyde W. Tombaugh"
+                        },
+                        {
+                            key: "Discovery Site",
+                            value: "Lowell Observatory"
+                        },
+                        {
+                            key: "Discovery Date",
+                            value: "February 18, 1930"
+                        },
+                    ]
+                },
+                {
+                    head: "Designations",
+                    keyValue: [
+                        {
+                            key: "Designation",
+                            value: "(134340) Pluto"
+                        },
+                        {
+                            key: "Named After",
+                            value: "Pluto: Roman god of the underworld, from a Greek epithet for Hades."
+                        },
+                        {
+                            key: "Minor Planet Category",
+                            value: "Dwarf planet, Trans-Neptunian object, Kuiper belt object, Plutino."
+                        },
+                        {
+                            key: "Adjectives",
+                            value: "Plutonian"
+                        },
+                    ]
+                },
+                {
+                    head: "Orbital Characteristics",
+                    keyValue: [
+                        {
+                            key: "Earliest Precovery Date",
+                            value: "August 20, 1909"
+                        },
+                        {
+                            key: "Aphelion",
+                            value: "49.305 AU (7.37593 billion km); (Next Aphelion: February 2114)"
+                        },
+                        {
+                            key: "Perihelion",
+                            value: "29.658 AU (4.43682 billion km); (Last Periphelion: September 5, 1989)"
+                        },
+                        {
+                            key: "Semi-major Axis",
+                            value: "39.482 AU (5.90638 billion km)"
+                        },
+                        {
+                            key: "Eccentricity",
+                            value: "0.2488"
+                        },
+                        {
+                            key: "Orbital Period (sidereal)",
+                            value: "247.94 years; 90,560 days"
+                        },
+                        {
+                            key: "Orbital Period (synodic)",
+                            value: "366.73 days"
+                        },
+                        {
+                            key: "Average Orbital Speed",
+                            value: "4.743 km/s"
+                        },
+                        {
+                            key: "Mean Anomaly",
+                            value: "14.53°"
+                        },
+                        {
+                            key: "Inclination",
+                            value: "17.16° (11.88° to Sun's equator)"
+                        },
+                        {
+                            key: "Longitude of Ascending Node",
+                            value: "110.299°"
+                        },
+                        {
+                            key: "Argument of Perihelion",
+                            value: "113.834°"
+                        },
+                        {
+                            key: "Known Satellites",
+                            value: "5"
+                        },
+                    ]
+                },
+                {
+                    head: "Physical Characteristics",  
+                    keyValue: [
+                        {
+                            key: "Dimensions",
+                            value: "2,376.6±1.6 km (observations consistent with a sphere, predicted deviations too small to be observed)"
+                        },
+                        {
+                            key: "Mean Radius",
+                            value: "1,188.3 ± 0.8 km; 0.1868 Earths"
+                        },
+                        {
+                            key: "Flattening",
+                            value: "<1%"
+                        },
+                        {
+                            key: "Surface Area",
+                            value: "1.774443e7 sq.km; 0.035 Earths"
+                        },
+                        {
+                            key: "Volume",
+                            value: "(7.057±0.004)e9 cu.km; 0.00651 Earths"
+                        },
+                        {
+                            key: "Mass",
+                            value: "(1.303±0.003)e22 kg; 0.00218 Earths; 0.177 Moons"
+                        },
+                        {
+                            key: "Mean Density",
+                            value: "1.854 ± 0.006 g/cu.cm"
+                        },
+                        {
+                            key: "Surface Gravity",
+                            value: "0.620 m/sq.s; 0.063 g"
+                        },
+                        {
+                            key: "Escape Velocity",
+                            value: "1.212 km/s"
+                        },
+                        {
+                            key: "Synodic Rotation Period",
+                            value: "-6.38680 days; -6d, 9h, 17m, 00s (retrograde)"
+                        },
+                        {
+                            key: "Sidereal Rotation Period",
+                            value: "-6.387230 days; -6d, 9h, 17m, 36s (retrograde)"
+                        },
+                        {
+                            key: "Equatorial Rotation Velocity",
+                            value: "47.18 km/h"
+                        },
+                        {
+                            key: "Axial Tilt",
+                            value: "122.53° (to orbit)"
+                        },
+                        {
+                            key: "North Pole Right Ascension",
+                            value: "132.993°"
+                        },
+                        {
+                            key: "North Pole Declination",
+                            value: "-6.163°"
+                        },
+                        {
+                            key: "Albedo",
+                            value: "0.52 geometric; 0.72 Bond"
+                        },
+                        {
+                            key: "Minimum Surface Temp.",
+                            value: "33 K"
+                        },
+                        {
+                            key: "Mean Surface Temp.",
+                            value: "44 K (-229 °C)"
+                        },
+                        {
+                            key: "Maximum Surface Temp.",
+                            value: "55 k"
+                        },
+                        {
+                            key: "Apparent Magnitude",
+                            value: "13.65 to 16.3 (mean is 15.1)"
+                        },
+                        {
+                            key: "Absolute Magnitude (H)",
+                            value: "-0.44"
+                        },
+                        {
+                            key: "Angular Diameter",
+                            value: "0.06″ to 0.11″"
+                        },
+                    ]
+                },
+                {
+                    head: "Atmosphere",  
+                    keyValue: [
+                        {
+                            key: "Surface Pressure",
+                            value: "1.0 Pa (2015)"
+                        },
+                        {
+                            key: "Composition by Volume",
+                            value: "Nitrogen, methane, carbon monoxide."
+                        },
+    
+                    ]
+                },
+            ],
+            dateUpdate: "2023-05-10"
         },
     }
 }

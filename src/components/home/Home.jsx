@@ -17,8 +17,9 @@ const defaultApod = {
     title: "Pillars of Creation",
     date: "Inifity",
     copyright: "None",
-    explanation: "An elephant trunks of interstellar gas and dust in the Eagle Nebula, in the Serpens constellation, some 6,500-7,000 light-years (2,000-2,100 pc; 61-66 Em) from Earth. Photograph taken by Hubble's Telescope on April 1, 1995.",
-    hdurl: "/pillarsofcreation.png"
+    explanation: "If you see this image, that means there's an issue with the NASA APOD API. Kindly visit later to view the Astronomy picture of today. This image is the elephant trunks of interstellar gas and dust in the Eagle Nebula, in the Serpens constellation, some 6,500-7,000 light-years (2,000-2,100 pc; 61-66 Em) from Earth. Photograph taken by Hubble's Telescope on April 1, 1995.",
+    hdurl: "/pillarsofcreation.png",
+    media_type: "image"
 }
 
 
@@ -42,6 +43,10 @@ const HomePage = ({ apod = defaultApod }) => {
           router.events.off('beforeHistoryChange', handleBeforeRouteChange);
         };
     }, [router.events]);
+
+    useEffect(() => {
+        console.log(apod);
+    }, [])
 
 
     const backShift = useRef(null);
