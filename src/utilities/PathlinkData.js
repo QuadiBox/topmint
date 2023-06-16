@@ -2331,7 +2331,7 @@ export const linksData = {
                 },
                 {
                     key: "Comets",
-                    value: "3,865"
+                    value: "3,865+"
                 },
             ],
             overview: {
@@ -5691,7 +5691,7 @@ export const linksData = {
                         {
                             content_type: "text",
                             head: "Galileo Mission",
-                            content: "The first spacecraft to orbit Jupiter was the Galileo mission, which reached the planet on December 7, 1995. It remained in orbit for over seven years, conducting multiple flybys of all the Galilean moons and Amalthea. The spacecraft also witnessed the impact of Comet Shoemaker-Levy 9 when it collided with Jupiter in 1994. Some of the goals for the mission were thwarted due to a malfunction in Galileo's high-gain antenna. Data from this mission revealed that hydrogen composes up to 90% of Jupiter's atmosphere.[54] The recorded temperature was more than 300 °C (570 °F) and the windspeed measured more than 644 km/h (>400 mph) before the probes was deliberately vaporized to avoid any possibility of the spacecraft crashing into and possibly contaminating the moon Europa, which may harbour life.",
+                            content: "The first spacecraft to orbit Jupiter was the Galileo mission, which reached the planet on December 7, 1995. It remained in orbit for over seven years, conducting multiple flybys of all the Galilean moons and Amalthea. The spacecraft also witnessed the impact of Comet Shoemaker-Levy 9 when it collided with Jupiter in 1994. Some of the goals for the mission were thwarted due to a malfunction in Galileo's high-gain antenna. Data from this mission revealed that hydrogen composes up to 90% of Jupiter's atmosphere. The recorded temperature was more than 300 °C (570 °F) and the windspeed measured more than 644 km/h (>400 mph) before the probes was deliberately vaporized to avoid any possibility of the spacecraft crashing into and possibly contaminating the moon Europa, which may harbour life.",
                             content_description: null
                         },
                         {
@@ -10329,7 +10329,7 @@ export const linksData = {
             name: "Moons",
             baseImgUrl: "/dwarf_planets_1.jpg",
             baseText: "Moons",
-            subText: "Intriguing celestial bodies that orbit the Sun and share some features with planets but don't meet the criteria to be a full-fledged planets.",
+            subText: "Natural satellites that orbit planets, providing companionship and gravitational influence coming in various sizes and play a crucial role in shaping the dynamics and stability of their host planets.",
             next: {
                 key: "Earth's Moon",
                 value: "/moons/earth"
@@ -10952,7 +10952,7 @@ export const linksData = {
             name: "Jupiter Moons",
             baseImgUrl: "/jupiterMoons_bg.jpg",
             baseText: "Jupiter Moons",
-            subText: "Mars' moons are among the smallest in the solar system. Mars has two moons, Phobos and Deimos. Both are believed to be captured asteroids.",
+            subText: "Jupiter's  moons showcase a range of fascinating features, including volcanic activity, subsurface oceans, and ancient cratered terrains, making them prime targets for potential habitats for extraterrestrial life.",
             next: {
                 key: "Saturn Moons",
                 value: "/moons/saturn"
@@ -12683,9 +12683,9 @@ export const linksData = {
     asteroids_comets_meteors: {
         asteroids_comets_meteors: {
             name: "Asteroids, Meteors & Comets",
-            baseImgUrl: "/pluto_poster_A.jpg",
+            baseImgUrl: "/A.C.M_bg2.jpg",
             baseText: "Asteroids, Meteors & Comets",
-            subText: "Pluto is a complex world of ice mountains and frozen plains. Once considered the ninth planet, Pluto is the best known of a new class of worlds called dwarf planets.",
+            subText: "Small celestial objects that share common characteristics. They are remnants from the early solar system, composed of rock and/or ice.",
             next: {
                 key: "Asteroids",
                 value: "/asteroids_comets_meteors/asteroids"
@@ -12696,85 +12696,82 @@ export const linksData = {
             },
             subdata: [
                 {
-                    key: "Distance From Sun",
-                    value: "3,670,050,000 miles"
+                    key: "Asteroids Count",
+                    value: "1,297,188"
                 },
                 {
-                    key: "One Way Light Time From Sun",
-                    value: "5.5 hours"
+                    key: "Comets Count",
+                    value: "4,584"
                 },
                 {
-                    key: "Length Of Year",
-                    value: "90.530 Earth Days"
+                    key: "Meteorites Count",
+                    value: "< 50,000 meteorites"
                 },
                 {
-                    key: "Satellites Count",
-                    value: "5"
+                    key: "Composition",
+                    value: "Ice or Rock"
                 },
             ],
             overview: {
-                name: "Pluto",
-                topBox: {
-                    headText: "PLUTO'S HEART",
-                    text: "Tombaugh Regio is a large, light-colored region about 1,590 km (990 mi) across. It  is the largest bright surface feature of the dwarf planet Pluto. The two lobes of the feature are geologically distinct. The western lobe, Sputnik Planitia, is smoother than the eastern, and they are of slightly different colors. Named after Clyde Tombaugh, the discoverer of Pluto, it was nicknamed Pluto's \"heart\" after its shape."
-                },
+                name: "Asteroids, Meteors & Comets",
+                topBox: null,
                 paragraphs: [
-                    "Pluto is a dwarf planet in the Kuiper Belt, a donut-shaped region of icy bodies beyond the orbit of Neptune. There may be millions of these icy objects, collectively referred to as Kuiper Belt objects (KBOs) or trans-Neptunian objects (TNOs), in this distant region of our solar system.",
-                    "Pluto, which is smaller than Earths Moon, has a heart-shaped glacier thats the size of Texas and Oklahoma. This fascinating world has blue skies, spinning moons, mountains as high as the Rockies, and it snows but the snow is red.", "On July 14, 2015, NASAs New Horizons spacecraft made its historic flight through the Pluto system providing the first close-up images of Pluto and its moons and collecting other data that has transformed our understanding of these mysterious worlds on the solar systems outer frontier.", "In the years since that groundbreaking flyby, nearly every conjecture about Pluto possibly being an inert ball of ice has been thrown out the window or flipped on its head."
+                    "Do not let the name fool you. Our solar system's small bodies - asteroids, comets, and meteors - pack big surprises. These chunks of rock, ice, and metal are leftovers from the formation of our solar system 4.6 billion years ago. They are a lot like a fossil record of our early solar system. There are currently 1,297,188 known asteroids and 3,878 known comets.",
+                    "Asteroids are small rocky objects that orbit the Sun, primarily located in the asteroid belt between Mars and Jupiter. They vary in size, ranging from tiny boulders to large bodies several hundred kilometers in diameter.", "Comets are icy bodies that orbit the Sun in elongated orbits. They are composed of a mixture of frozen gases, dust, and rocky material. When a comet gets close to the Sun, the heat causes the ice to vaporize, creating a glowing coma and often a tail that can be visible from Earth.", "Meteors are small celestial objects, typically fragments of asteroids or comets, that enter Earth's atmosphere. As they plunge through the atmosphere, the friction with the air causes them to heat up and glow, creating a streak of light known as a shooting star. Most meteors burn up completely before reaching the Earth's surface, but those that survive and land on the ground are called meteorites."
                 ],
                 iframeLink: {
                     type: "iframe",
-                    content: "https://eyes.nasa.gov/apps/solar-system/#/134340_pluto?embed=true&amp;logo=false" ,
-                    content_description: ""
+                    content: "https://eyes.nasa.gov/apps/asteroids/#/asteroids?embed=true&amp;logo=false" ,
+                    content_description: "Explore the 3D world of asteroids, comets, and NEOs. Learn about past and future missions, tracking and predicting orbits, and close approaches to Earth."
                 },
                 facts_12: [
                     {
-                        headText: "SMALL WORLD",
-                        text: "Pluto is about 1,400 miles (2,380 km) wide. That's about half the width of the United States, or 2/3 the width of Earth's moon."
+                        headText: "ROCKY RELICS",
+                        text: "Asteroids are rocky objects that orbit the Sun, mostly located in the asteroid belt between Mars and Jupiter, but can also be found in other regions of the solar system."
                     },
                     {
-                        headText: "FAR WANDERER",
-                        text: "Pluto orbits the Sun about 3.6 billion miles (5.8 billion km) away on average, about 40 times as far as Earth, in a region called the Kuiper Belt."
+                        headText: "IMPACT CRATERS",
+                        text: "Asteroids have played a significant role in shaping planetary surfaces, creating impact craters like the famous Chicxulub crater associated with the extinction of the dinosaurs."
                     },
                     {
-                        headText: "LONG WAY AROUND ",
-                        text: "A year on Pluto is 248 Earth years. A day on Pluto lasts 153 hours, or about 6 Earth days."
+                        headText: "METALLIC RICHES",
+                        text: "Some asteroids are rich in valuable metals like iron, nickel, and platinum, raising the possibility of asteroid mining for future resource extraction."
                     },
                     {
-                        headText: "HAZY WORLD",
-                        text: "Pluto has a thin atmosphere of nitrogen, methane and carbon monoxide. The atmosphere has a blue tint and distinct layers of haze."
+                        headText: "BINARY SYSTEMS",
+                        text: "Certain asteroids have companions, forming binary systems where two asteroids orbit each other."
                     },
                     {
-                        headText: "BIG HEART",
-                        text: "Pluto boasts a heart-shaped feature on its surface called Tombaugh Regio, named after the astronomer who discovered Pluto (Clyde Tombaugh)."
+                        headText: "ASTEROID MOONS",
+                        text: "Some asteroids have moons of their own, with the largest known example being asteroid (87) Sylvia, which has two moons named Romulus and Remus." 
                     },
                     {
-                        headText: "GEO-ACTIVE",
-                        text: "Evidence of cryovolcanism suggests that Pluto's interior may harbor subsurface oceans of water, resulting in periodic eruptions of icy materials."
+                        headText: "ICY WANDERERS",
+                        text: "Comets are composed of ice, dust, and organic compounds, originating from the outer regions of the solar system in areas like the Kuiper Belt and Oort Cloud."
                     },
                     {
-                        headText: "NAMED BY A KID",
-                        text: " Venetia Burney (1918-2009), an eleven-year-old schoolgirl in Oxford, England, suggested the name Pluto in 1930."
+                        headText: "TAILS 'N' HALOS",
+                        text: "As a comet approaches the Sun, the heat causes its icy nucleus to vaporize, creating a glowing coma and often developing two distinctive tails — an ion tail and a dust tail — pointing away from the Sun."
                     },
                     {
-                        headText: "CHARON DANCE",
-                        text: "Pluto and its largest moon, Charon, are tidally locked, meaning they always show the same face to each other as they orbit."
+                        headText: "FAR RANGERS",
+                        text: "Comets have elongated orbits that can take them far from the Sun, with some having extremely long orbital periods, spanning hundreds or even thousands of years."
                     },
                     {
-                        headText: "HARSH HABITAT",
-                        text: "Plutos surface is far too cold, -378 to -396 degrees F (-228 to -238 C), to sustain life as we know it."
+                        headText: "WATER SOURCES",
+                        text: "Comets are believed to have delivered a significant amount of water to Earth during the early stages of the planet's formation, contributing to the presence of liquid water necessary for life."
                     },
                     {
-                        headText: "COSMIC COMPANIONS",
-                        text: "Pluto has five moons, Pluto and four smaller moons: Nix, Hydra, Kerberos, and Styx, which were discovered by the Hubble Space Telescope."
+                        headText: "SHOOTING STARS",
+                        text: "Meteors, also known as shooting stars, are small rocky or metallic objects that enter Earth's atmosphere and burn up due to friction, creating a streak of light."
                     },
                     {
-                        headText: "SOLE ENCOUNTER",
-                        text: "The only spacecraft to visit Pluto is NASA's New Horizons, which passed close by in July 2015." 
+                        headText: "METEORS SHOWERS",
+                        text: "Meteor showers occur when Earth passes through the debris left behind by comets, resulting in an increased number of meteors visible in the sky."
                     },
                     {
-                        headText: "FANCY WORD",
-                        text: "In 2006, in its 17th annual words-of-the-year vote, the American Dialect Society voted \"plutoed\" as the word of the year. To \"pluto\" is to \"demote or devalue someone or something\"."
+                        headText: "BOLIDES",
+                        text: "Particularly bright meteors are called \"Bolides\" and can produce sonic booms known as meteoric booms when they disintegrate in the atmosphere."
                     },
                 ]
             },
@@ -12785,275 +12782,165 @@ export const linksData = {
                         {
                             content_type: "text",
                             head: null,
-                            content: "Pluto (minor-planet designation: 134340 Pluto) is a dwarf planet in the Kuiper belt, a ring of bodies beyond the orbit of Neptune. It is the ninth-largest and tenth-most-massive known object to directly orbit the Sun. It is the largest known trans-Neptunian object by volume, by a small margin, but is slightly less massive than Eris. Like other Kuiper belt objects, Pluto is made primarily of ice and rock and is much smaller than the inner planets. Pluto has only one sixth the mass of Earth's moon, and one third its volume.",
+                            content: "At the very beginning of our solar system, before Earth, the other planets, and the moons formed - a huge swirling cloud of dust and gas circled the young Sun. The dust particles in this disk collided with each other and formed into larger bits of rock. This process continued until they reached the size of boulders. This gradual buildup - a process called accretion - eventually formed the planets of our solar system.",
                             content_description: null
                         },
                         {
                             content_type: "text",
                             head: null,
-                            content: "Pluto has a moderately eccentric and inclined orbit, ranging from 30 to 49 astronomical units (4.5 to 7.3 billion kilometers; 2.8 to 4.6 billion miles) from the Sun. Light from the Sun takes 5.5 hours to reach Pluto at its orbital distance of 39.5 AU (5.91 billion km; 3.67 billion mi). Pluto's eccentric orbit periodically brings it closer to the Sun than Neptune, but a stable orbital resonance prevents them from colliding. The dwarf planet has five known moons: Charon, the largest, whose diameter is just over half that of Pluto; Styx; Nix; Kerberos; and Hydra. Pluto and Charon are sometimes considered a binary system because the barycenter of their orbits does not lie within either body, and they are tidally locked. The New Horizons mission was the first spacecraft to visit Pluto and its moons, making a flyby on July 14, 2015 and taking detailed measurements and observations.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "image",
-                            head: null,
-                            content: "/plutoXcharon.jpg",
-                            content_description: "Charon and Pluto: Strikingly Different Worlds A composite of enhanced color images of Pluto (lower right) and Charon (upper left), taken by NASA's New Horizons spacecraft as it passed through the Pluto system on July 14, 2015. This image highlights the striking differences between Pluto and Charon. The color and brightness of both Pluto and Charon have been processed identically to allow direct comparison of their surface properties, and to highlight the similarity between Charon's polar red terrain and Pluto's equatorial red terrain. Pluto and Charon are shown with approximately correct relative sizes, but their true separation is not to scale."
-                        },
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "Pluto was discovered in 1930, the first object in the Kuiper belt. It was immediately hailed as the ninth planet, but it was always the odd object out, and its planetary status was questioned when it was found to be much smaller than expected. These doubts increased following the discovery of additional objects in the Kuiper belt starting in the 1990s, and particularly the more massive scattered disk object Eris in 2005. In 2006, the International Astronomical Union (IAU) formally redefined the term planet to exclude dwarf planets such as Pluto. Many planetary astronomers, however, continue to consider Pluto and other dwarf planets to be planets.",
+                            content: "Billions of small space rocks never evolved into planets. Amazingly, many of these mysterious worlds have been altered very little in the 4.6 billion years since they first formed. Their relatively pristine state makes comets, asteroids, and some meteors wonderful storytellers with much to share about conditions in the early solar system. They can reveal secrets about our origins, chronicling the processes and events that led to the birth of our world. They might offer clues about where the water and raw materials that made life possible on Earth came from.",
                             content_description: null
                         },
                     ]
                 },
                 {
-                    title: "Nomenclature And Mythology",
+                    title: "What Is An Asteroid?",
                     texts: [
                         {
                             content_type: "text",
                             head: null,
-                            content: "The name Pluto is for the Roman god of the underworld, equivalent to the Greek Hades. However, the Greek name \"Plouton\" (from which the Romans derived their name \"Pluto\") was also occasionally used as an alternative name for Hades. But Pluto is definitely the Roman spelling. The god Pluto was one of six surviving children of Saturn, and the others had already all been chosen as names of planets (his brothers Jupiter and Neptune, and his sisters Ceres, Juno and Vesta). The adjectival form of Uranus is \"Plutonian\". Pluto's planetary symbol ⟨♇⟩ was then created as a monogram of the letters \"PL\". This symbol is rarely used in astronomy today, though it is still common in astrology. However, the most-common astrological symbol for Pluto, now occasionally used in astronomy as well, is an orb (possibly representing Pluto's invisibility cap) over Pluto's bident ⟨⯓⟩, which dates to the early 1930s.",
+                            content: "An asteroid is a rocky object that orbits the Sun, typically found in the asteroid belt between Mars and Jupiter. These celestial bodies are remnants from the early solar system formation and are composed of various materials, including rock, metal, and sometimes ice. Asteroids come in a wide range of sizes, from tiny fragments to objects several hundred kilometers in diameter. They are irregularly shaped and lack the characteristics of a planet or moon, often resembling small planets or rocky debris.",
                             content_description: null
                         },
                         {
                             content_type: "text",
                             head: null,
-                            content: "Upon the announcement of the discovery, Lowell Observatory received over a thousand suggestions for names. Three names topped the list: Minerva, Pluto and Cronus. 'Minerva' was the Lowell staff's first choice but was rejected because it had already been used for an asteroid; Cronus was disfavored because it was promoted by an unpopular and egocentric astronomer, Thomas Jefferson Jackson See. A vote was taken, and 'Pluto' was the unanimous choice. To make sure the name stuck, and that the planet would not suffer changes in its name as Uranus had, Lowell Observatory proposed the name to the American Astronomical Society and the Royal Astronomical Society; both approved it unanimously. The name was published on May 1, 1930.",
+                            content: "Asteroids play a significant role in the study of the solar system's history and composition. They are believed to be remnants of the protoplanetary disk that surrounded the young Sun, providing insights into the processes that led to the formation of planets. Some asteroids have been visited and studied by spacecraft, offering valuable data about their composition, structure, and potential resources. Additionally, the study of asteroids is crucial for understanding the potential impact hazards they pose to Earth and developing strategies for planetary defense.",
                             content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/243_ida.jpg",
+                            content_description: "Asteroid 243 Ida with its moon Dactyl (the 1-2 km sized dot to the right) as seen by the Galileo probe on August 28, 1993. Image Credit: NASA/JPL/Processed by Kevin M. Gill"
                         },
                         {
                             content_type: "text",
                             head: null,
-                            content: "The name 'Pluto' had received some 150 nominations among the letters and telegrams sent to Lowell. The first had been from Venetia Burney (1918-2009), an eleven-year-old schoolgirl in Oxford, England, who was interested in classical mythology. She had suggested it to her grandfather Falconer Madan when he read the news of Pluto's discovery to his family over breakfast; Madan passed the suggestion to astronomy professor Herbert Hall Turner, who cabled it to colleagues at Lowell on March 16, three days after the announcement.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "Most languages use the name \"Pluto\" in various transliterations. In Japanese, Houei Nojiri suggested the calque Meiōsei (冥王星, \"Star of the King (God) of the Underworld\"), and this was borrowed into Chinese and Korean. Some languages of India use the name Pluto, but others, such as Hindi, use the name of Yama, the God of Death in Hinduism. Polynesian languages also tend to use the indigenous god of the underworld, as in Māori Whiro. Vietnamese might be expected to follow Chinese, but does not because the Sino-Vietnamese word 冥 minh \"dark\" is homophonous with 明 minh \"bright\". Vietnamese instead uses Yama, which is also a Buddhist deity, in the form of Sao Diêm Vương 星閻王 \"Yama's Star\", derived from Chinese 閻王 Yán Wáng / Yìhm Wòhng \"King Yama\".",
-                            content_description: null
-                        },
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "Pluto's moons are named for other mythological figures associated with the underworld. Charon is named for the river Styx boatman who ferries souls in the underworld (as well as honoring Sharon, the wife of discoverer James Christy); Nix is named for the mother of Charon, who is also the goddess of darkness and night; Hydra is named for the nine-headed serpent that guards the underworld; Kerberos is named after the three-headed dog of Greek mythology (and called Fluffy in the Harry Potter novels), and Styx is named for the mythological river that separates the world of the living from the realm of the dead.",
+                            content: "Asteroids are of significant interest due to their potential impact hazards and valuable resources. Some asteroids have orbits that bring them close to Earth, raising concerns about potential collisions. Scientists track and study these near-Earth asteroids to assess any risks they may pose. Additionally, asteroids are rich in various minerals and metals, including precious metals like platinum and rare-earth elements. The exploration and potential mining of asteroids hold promise for future space missions and resource utilization, opening up new possibilities for space exploration and long-duration missions.",
                             content_description: null
                         },
 
                     ]
                 },
                 { 
-                    title: "Physical Characteristics",
+                    title: "What is A Comet?",
                     texts: [
                         {
                             content_type: "text",
-                            head: "Internal Structure",
-                            content: "Pluto's density is 1.860 ± 0.013 g/cu.cm. Because the decay of radioactive elements would eventually heat the ices enough for the rock to separate from them, scientists expect that Pluto's internal structure is differentiated, with the rocky material having settled into a dense core surrounded by a mantle of water ice. The pre-New Horizons estimate for the diameter of the core is 1700 km, 70% of Pluto's diameter. Pluto has no magnetic field.",
+                            head: null,
+                            content: "A comet is a celestial object composed of ice, dust, and other organic compounds that orbits the Sun. Often referred to as \"dirty snowballs\", comets are remnants from the early stages of the solar system's formation. They typically originate from the outer regions of the solar system, in areas such as the Kuiper Belt or the Oort Cloud. Comets are characterized by their highly elliptical orbits, which can take them far from the Sun before swinging back towards it.",
                             content_description: null
                         },
                         {
                             content_type: "text",
                             head: null,
-                            content: "It is possible that such heating continues today, creating a subsurface ocean of liquid water 100 to 180 km thick at the core-mantle boundary. In September 2016, scientists at Brown University simulated the impact thought to have formed Sputnik Planitia, and showed that it might have been the result of liquid water upwelling from below after the collision, implying the existence of a subsurface ocean at least 100 km deep. In June 2020, astronomers reported evidence that Pluto may have had a subsurface ocean, and consequently may have been habitable, when it was first formed. In March 2022, they concluded that peaks on Pluto are actually a merger of \"ice volcanoes\", suggesting a source of heat on the body at levels previously thought not possible.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "image",
-                            head: null,
-                            content: "/pluto_internal_structure.jpg",
-                            content_description: "Model of the internal structure of Pluto: Water ice crust, Liquid water ocean, Silicate core."
-                        },
-                        {
-                            content_type: "text",
-                            head: "Surface",
-                            content: "The plains on Pluto's surface are composed of more than 98 percent nitrogen ice, with traces of methane and carbon monoxide. Nitrogen and carbon monoxide are most abundant on the anti-Charon face of Pluto (around 180° longitude, where Tombaugh Regio's western lobe, Sputnik Planitia, is located), whereas methane is most abundant near 300° east. The mountains are made of water ice. Pluto's surface is quite varied, with large differences in both brightness and color. Pluto is one of the most contrastive bodies in the Solar System, with as much contrast as Saturn's moon Iapetus. The color varies from charcoal black, to dark orange and white. Pluto's color is more similar to that of Io with slightly more orange and significantly less red than Mars. Notable geographical features include Tombaugh Regio, or the \"Heart\" (a large bright area on the side opposite Charon), Cthulhu Macula, or the \"Whale\" (a large dark area on the trailing hemisphere), and the \"Brass Knuckles\" (a series of equatorial dark areas on the leading hemisphere).",
+                            content: "As a comet approaches the Sun, the heat causes the icy nucleus to vaporize and release gas and dust, forming a glowing coma around the nucleus. The released material may also form a long, glowing tail that stretches away from the Sun due to the solar wind. Comets can display stunning visual displays as they travel through the inner solar system, with their tails visible from Earth.",
                             content_description: null
                         },
                         {
                             content_type: "image",
                             head: null,
-                            content: "/pluto_true_color.jpg",
-                            content_description: "Pluto's image taken by New Horizons on July 14, 2015, from a range of 22,025 miles (35,445 kilometers). The striking features on Pluto are clearly visible, including the bright expanse of Pluto's icy, nitrogen-and-methane rich \"heart,\" Sputnik Planitia. The natural-looking colors result from refined calibration of data gathered by New Horizons' color Multispectral Visible Imaging Camera (MVIC)."
+                            content: "/67P.jpg",
+                            content_description: "The nucleus of Comet 67P/Churyumov-Gerasimenko imaged by Rosetta's OSIRIS narrow-angle camera from a distance of 177 miles (285 km). (Image credit: ESA/Rosetta/MPS for OSIRIS Team MPS/UPD/LAM/IAA/SSO/INTA/UPM/DASP/IDA)"
                         },
                         {
                             content_type: "text",
                             head: null,
-                            content: "Sputnik Planitia, the western lobe of the \"Heart\", is a 1,000 km-wide basin of frozen nitrogen and carbon monoxide ices, divided into polygonal cells, which are interpreted as convection cells that carry floating blocks of water ice crust and sublimation pits towards their margins; there are obvious signs of glacial flows both into and out of the basin. It has no craters that were visible to New Horizons, indicating that its surface is less than 10 million years old. Latest studies have shown that the surface has an age of 180000 (+90000; -40000) years.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "The New Horizons science team summarized initial findings as \"Pluto displays a surprisingly wide variety of geological landforms, including those resulting from glaciological and surface-atmosphere interactions as well as impact, tectonic, possible cryovolcanic, and mass-wasting processes\". In Western parts of Sputnik Planitia there are fields of transverse dunes formed by the winds blowing from the center of Sputnik Planitia in the direction of surrounding mountains. The dune wavelengths are in the range of 0.4-1 km and likely consist of methane particles 200-300 μm in size.[",
-                            content_description: null
-                        },
-                        {
-                            content_type: "image",
-                            head: null,
-                            content: "/pluto_water_ice.jpg",
-                            content_description: "Regions where water ice has been detected (blue regions)."
-                        },
-                        {
-                            content_type: "text",
-                            head: "Atmosphere",
-                            content: "Pluto has a tenuous atmosphere consisting of nitrogen , methane , and carbon monoxide , which are in equilibrium with their ices on Pluto's surface. According to the measurements by New Horizons, the surface pressure is about 1 Pa (10 μbar), roughly one million to 100,000 times less than Earth's atmospheric pressure. It was initially thought that, as Pluto moves away from the Sun, its atmosphere should gradually freeze onto the surface; studies of New Horizons data and ground-based occultations show that Pluto's atmospheric density increases, and that it likely remains gaseous throughout Pluto's orbit. New Horizons observations showed that atmospheric escape of nitrogen to be 10,000 times less than expected. Pluto has no or almost no troposphere; observations by New Horizons suggest only a thin tropospheric boundary layer. Its thickness in the place of measurement was 4 km, and the temperature was 37 ± 3 K. The layer is not continuous.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "image",
-                            head: null,
-                            content: "/uranus_atmosphere.png",
-                            content_description: "A near-true-color image taken by New Horizons after its flyby. Numerous layers of blue haze float in Pluto's atmosphere. Along and near the limb, mountains and their shadows are visible."
-                        },
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "In July 2019, an occultation by Pluto showed that its atmospheric pressure, against expectations, had fallen by 20% since 2016. In 2021, astronomers at the Southwest Research Institute confirmed the result using data from an occultation in 2018, which showed that light was appearing less gradually from behind Pluto's disc, indicating a thinning atmosphere. The presence of methane, a powerful greenhouse gas, in Pluto's atmosphere creates a temperature inversion, with the average temperature of its atmosphere tens of degrees warmer than its surface, though observations by New Horizons have revealed Pluto's upper atmosphere to be far colder than expected (70 K, as opposed to about 100 K). Pluto's atmosphere is divided into roughly 20 regularly spaced haze layers up to 150 km high, thought to be the result of pressure waves created by airflow across Pluto's mountains.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "text",
-                            head: "Magnetosphere",
-                            content: "It isn't known whether Pluto has a magnetic field, but its small size and slow rotation suggest little or none.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "text",
-                            head: "Mass and Size",
-                            content: "Pluto's diameter is 2376.6±3.2 km and its mass is (1.303 ± 0.003)e22 kg, 17.7% that of the Moon (0.22% that of Earth). Its surface area is 1.774443e7 sq.km, or just slightly bigger than Russia or Antarctica. Its surface gravity is 0.063 g (compared to 1 g for Earth and 0.17 g for the Moon). The discovery of Pluto's satellite Charon in 1978 enabled a determination of the mass of the Pluto-Charon system by application of Newton's formulation of Kepler's third law. Observations of Pluto in occultation with Charon allowed scientists to establish Pluto's diameter more accurately, whereas the invention of adaptive optics allowed them to determine its shape more accurately.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "image",
-                            head: null,
-                            content: "/plutoXearth.jpg",
-                            content_description: "Pluto (bottom left) compared in size to the Earth and the Moon. Diameter comparison of Pluto, Moon, and Earth. Scale: Approximately 28.9 km per pixel."
-                        },
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "With less than 0.2 lunar masses, Pluto is much less massive than the terrestrial planets, and also less massive than seven moons: Ganymede, Titan, Callisto, Io, the Moon, Europa, and Triton. The mass is much less than thought before Charon was discovered. Pluto is more than twice the diameter and a dozen times the mass of Ceres, the largest object in the asteroid belt. It is less massive than the dwarf planet Eris, a trans-Neptunian object discovered in 2005, though Pluto has a larger diameter of 2,376.6 km compared to Eris's approximate diameter of 2,326 km.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "Determinations of Pluto's size have been complicated by its atmosphere and hydrocarbon haze. In March 2014, Lellouch, de Bergh et al. published findings regarding methane mixing ratios in Pluto's atmosphere consistent with a Plutonian diameter greater than 2,360 km, with a \"best guess\" of 2,368 km. On July 13, 2015, images from NASA's New Horizons mission Long Range Reconnaissance Imager (LORRI), along with data from the other instruments, determined Pluto's diameter to be 2,370 km (1,470 mi), which was later revised to be 2,372 km (1,474 mi) on July 24, and later to 2374±8 km.Using radio occultation data from the New Horizons Radio Science Experiment (REX), the diameter was found to be 2376.6 ± 3.2 km.",
+                            content: "Comets have fascinated scientists and astronomers for centuries, as they provide valuable insights into the early stages of the solar system's formation. By studying comets, scientists can learn about the composition and chemical makeup of the early solar system. Cometary missions, such as NASA's Stardust and ESA's Rosetta, have provided close-up observations of comets, collecting samples and data to better understand their structure, composition, and the role they may have played in delivering water and organic molecules to Earth. Comets are considered important celestial objects for studying the origins of life and the evolution of planetary systems.",
                             content_description: null
                         },
                     ]
                 },
                 {
-                    title: "Orbit & Rotation",
+                    title: "Meteors",
                     texts: [
                         {
                             content_type: "text",
                             head: null,
-                            content: "Pluto's orbital period is currently about 248 years. Its orbital characteristics are substantially different from those of the planets, which follow nearly circular orbits around the Sun close to a flat reference plane called the ecliptic. In contrast, Pluto's orbit is moderately inclined relative to the ecliptic (over 17°) and moderately eccentric (elliptical). This eccentricity means a small region of Pluto's orbit lies closer to the Sun than Neptune's. The Pluto-Charon barycenter came to perihelion on September 5, 1989, and was last closer to the Sun than Neptune between February 7, 1979, and February 11, 1999.",
+                            content: "Meteors, often called shooting stars or falling stars, have captivated humanity's imagination for centuries. These celestial phenomena are captivating, appearing as streaks of light across the night sky. In this article, we delve into the fascinating world of meteors, exploring their origins, types, and the impact they have on our planet. Meteors are small celestial bodies that enter Earth's atmosphere, vaporizing and producing a visible streak of light. They are primarily composed of rocky or metallic materials, originating from asteroids or comets.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Meteoroids, Meteors, and Meteorites",
+                            content: "- Meteoroids: Small objects traveling through space, ranging in size from dust particles to several meters in diameter.",
                             content_description: null
                         },
                         {
                             content_type: "text",
                             head: null,
-                            content: "Although the 3:2 resonance with Neptune (see below) is maintained, Pluto's inclination and eccentricity behave in a chaotic manner. Computer simulations can be used to predict its position for several million years (both forward and backward in time), but after intervals much longer than the Lyapunov time of 10-20 million years, calculations become unreliable: Pluto is sensitive to immeasurably small details of the Solar System, hard-to-predict factors that will gradually change Pluto's position in its orbit. The semi-major axis of Pluto's orbit varies between about 39.3 and 39.6 au with a period of about 19,951 years, corresponding to an orbital period varying between 246 and 249 years. The semi-major axis and period are presently getting longer.",
+                            content: "- Meteors: Meteoroids that burn up upon entering Earth's atmosphere, causing a bright streak of light.",
                             content_description: null
                         },
                         {
-                            content_type: "image",
+                            content_type: "text",
                             head: null,
-                            content: "/pluto_orbit.gif",
-                            content_description: "Simulated animation of Pluto's orbit from 1850 to 2097 around the Sun, The orbits (inner to outer) are for: Saturn(yellow), Uranus(cyan), Neptune(blue) and Pluto(purple)."
+                            content: "- Meteorites: Surviving fragments of meteoroids that reach Earth's surface.",
+                            content_description: null
                         },
                         {
                             content_type: "text",
-                            head: "Relationship with Neptune",
-                            content: "Despite Pluto's orbit appearing to cross that of Neptune when viewed from directly above, the two objects' orbits do not intersect. When Pluto is closest to the Sun, and close to Neptune's orbit as viewed from above, it is also the farthest above Neptune's path. Pluto's orbit passes about 8 AU above that of Neptune, preventing a collision. This alone is not enough to protect Pluto; perturbations from the planets (especially Neptune) could alter Pluto's orbit (such as its orbital precession) over millions of years so that a collision could be possible. However, Pluto is also protected by its 2:3 orbital resonance with Neptune: for every two orbits that Pluto makes around the Sun, Neptune makes three. Each cycle lasts about 495 years. (There are many other objects in this same resonance, called plutinos).",
+                            head: "Meteor Showers",
+                            content: "Meteor showers are events when Earth passes through the debris trail left by comets.They occur annually, creating a spectacle of numerous meteors visible within a short period. Some notable meteor showers includes: Perseids- Active in August, originating from the debris of Comet Swift-Tuttle; Geminids- Peak in December, known for their colorful meteors and high meteor rates; Leonids- Known for periodic intense meteor storms, associated with Comet Tempel-Tuttle.",
+                            content_description: null
+                        },                    
+                        {
+                            content_type: "text",
+                            head: "Impact and Significance",
+                            content: "Meteors experience immense friction and heat during atmospheric entry, resulting in their bright, fiery appearance. Most burn up completely, contributing to the mesmerizing display of shooting stars. Occasionally, meteoroids survive atmospheric entry, falling to Earth as meteorites.",
                             content_description: null
                         },                    
                         {
                             content_type: "text",
                             head: null,
-                            content: "The 2:3 resonance between the two bodies is highly stable and has been preserved over millions of years. This prevents their orbits from changing relative to one another, and so the two bodies can never pass near each other. Even if Pluto's orbit were not inclined, the two bodies could never collide. The long term stability of the mean-motion resonance is due to phase protection. When Pluto's period is slightly shorter than 3/2 of Neptune, its orbit relative to Neptune will drift, causing it to make closer approaches behind Neptune's orbit. The gravitational pull between the two then causes angular momentum to be transferred to Pluto, at Neptune's expense. This moves Pluto into a slightly larger orbit, where it travels slightly more slowly, according to Kepler's third law. After many such repetitions, Pluto is sufficiently slowed that Pluto's orbit relative to Neptune drifts in the opposite direction until the process is reversed. The whole process takes about 20,000 years to complete.",
+                            content: "Meteorite falls provide valuable scientific insights into the composition and history of our solar system.",
                             content_description: null
                         },                    
                         {
                             content_type: "text",
-                            head: "Rotation",
-                            content: "Pluto's rotation period, its day, is equal to 6.387 Earth days. Like Uranus, Pluto rotates on its \"side\" in its orbital plane, with an axial tilt of 120°, and so its seasonal variation is extreme; at its solstices, one-fourth of its surface is in continuous daylight, whereas another fourth is in continuous darkness. The reason for this unusual orientation has been debated. Research from the University of Arizona has suggested that it may be due to the way that a body's spin will always adjust to minimise energy. This could mean a body reorienting itself to put extraneous mass near the equator and regions lacking mass tend towards the poles. This is called polar wander. According to a paper released from the University of Arizona, this could be caused by masses of frozen nitrogen building up in shadowed areas of the dwarf planet. These masses would cause the body to reorient itself, leading to its unusual axial tilt of 120°. The buildup of nitrogen is due to Pluto's vast distance from the Sun. At the equator, temperatures can drop to -240 °C (-400.0 °F; 33.1 K), causing nitrogen to freeze as water would freeze on Earth. The same effect seen on Pluto would be observed on Earth were the Antarctic ice sheet several times larger.",
+                            head: "Meteoroids and Planetary Defense",
+                            content: "Understanding meteoroid populations is crucial for assessing potential impact hazards to Earth. Efforts are underway to detect and track near-Earth objects, aiming to prevent catastrophic impacts.",
                             content_description: null
                         },                    
                     ]
                 },
                 {
-                    title: "Moons",
+                    title: "Raw Materials for Life?",
                     texts: [
                         {
                             content_type: "text",
                             head: null,
-                            content: "Pluto has five known natural satellites. The closest to Pluto is Charon. First identified in 1978 by astronomer James Christy, Charon is the only moon of Pluto that may be in hydrostatic equilibrium. Charon's mass is sufficient to cause the barycenter of the Pluto-Charon system to be outside Pluto. The similarity in size of Charon and Pluto has prompted some astronomers to call it a double dwarf planet. The system is also unusual among planetary systems in that each is tidally locked to the other, which means that Pluto and Charon always have the same hemisphere facing each other — a property shared by only one other known system, Eris and Dysnomia. From any position on either body, the other is always at the same position in the sky, or always obscured.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "image",
-                            head: null,
-                            content: "/pluto_charon.gif",
-                            content_description: "An oblique view of the Pluto-Charon system showing that Pluto orbits a point outside itself. The two bodies are mutually tidally locked."
-                        },
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "Beyond Charon there are four much smaller circumbinary moons. In order of distance from Pluto they are Styx, Nix, Kerberos, and Hydra. Nix and Hydra were both discovered in 2005, Kerberos was discovered in 2011, and Styx was discovered in 2012. The satellites' orbits are circular (eccentricity < 0.006) and coplanar with Pluto's equator (inclination < 1°), and therefore tilted approximately 120° relative to Pluto's orbit. The Plutonian system is highly compact: the five known satellites orbit within the inner 3% of the region where prograde orbits would be stable.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "image",
-                            head: null,
-                            content: "/pluto_moons.png",
-                            content_description: "Family Portrait of Pluto's Moons: All the moons are displayed with a common intensity stretch and spatial scale (see scale bar). Charon is by far the largest of Pluto's moons, with a diameter of 751 miles (1,212 kilometers). Nix and Hydra have comparable sizes, approximately 25 miles (40 kilometers) across in their longest dimension above. Kerberos and Styx are much smaller and have comparable sizes, roughly 6-7 miles (10-12 kilometers) across in their longest dimension. All four small moons have highly elongated shapes, a characteristic thought to be typical of small bodies in the Kuiper Belt."
-                        },
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "The orbital periods of all Pluto's moons are linked in a system of orbital resonances and near resonances. When precession is accounted for, the orbital periods of Styx, Nix, and Hydra are in an exact 18:22:33 ratio. There is a sequence of approximate ratios, 3:4:5:6, between the periods of Styx, Nix, Kerberos, and Hydra with that of Charon; the ratios become closer to being exact the further out the moons are. Pluto's moons are hypothesized to have been formed by a collision between Pluto and a similar-sized body, early in the history of the Solar System. The collision released material that consolidated into the moons around Pluto.",
+                            content: "Comets and asteroids probably delivered some of the water and other ingredients that allowed the complex chemistry of life to begin on Earth. The amino acid glycine was discovered in the comet dust returned to Earth by the Stardust mission. Glycine is used by living organisms to make proteins. The discovery supports the theory that some of life's ingredients formed in space and were delivered to Earth long ago by meteorite and comet impacts.",
                             content_description: null
                         },
                         {
                             content_type: "text",
-                            head: "Quasi-satellites",
-                            content: "In 2012, it was calculated that 15810 Arawn could be a quasi-satellite of Pluto, a specific type of co-orbital configuration. According to the calculations, the object would be a quasi-satellite of Pluto for about 350,000 years out of every two-million-year period. Measurements made by the New Horizons spacecraft in 2015 made it possible to calculate the orbit of Arawn more accurately, and confirmed the earlier ones. However, it is not agreed upon among astronomers whether Arawn should be classified as a quasi-satellite of Pluto based on its orbital dynamics, since its orbit is primarily controlled by Neptune with only occasional perturbations by Pluto.",
+                            head: null,
+                            content: "Like forensic detectives, scientists follow clues about what happened when the solar system was young to piece together the story of our origins. What we learn will also teach us about systems of planets around other stars, and how life might develop there as well.",
                             content_description: null
-                        },
-                            
-                                                   
+                        },                          
                     ]
                 },
                 {
-                    title: "Exploration",
+                    title: "Planetary Defence",
                     texts: [
                         {
                             content_type: "text",
                             head: null,
-                            content: "The New Horizons spacecraft, which flew by Pluto in July 2015, is the first and so far only attempt to explore Pluto directly. Launched in 2006. New Horizons made its closest approach to Pluto on July 14, 2015, after a 3,462-day journey across the Solar System. Scientific observations of Pluto began five months before the closest approach and continued for at least a month after the encounter. Observations were conducted using a remote sensing package that included imaging instruments and a radio science investigation tool, as well as spectroscopic and other experiments.",
+                            content: "Asteroid and comet impacts are capable of ending life as well as advancing it. These cosmic collisions are as natural as rain, although they happened a lot more often when the solar system was young. Scientists believe stray objects or fragments from earlier collisions slammed into Earth in the past, playing a major role in the evolution of our planet.",
                             content_description: null 
                         },                                         
                         {
                             content_type: "text",
                             head: null,
-                            content: "The scientific goals of New Horizons were to characterize the global geology and morphology of Pluto and its moon Charon, map their surface composition, and analyze Pluto's neutral atmosphere and its escape rate. On October 25, 2016, at 05:48 pm ET, the last bit of data (of a total of 50 billion bits of data; or 6.25 gigabytes) was received from New Horizons from its close encounter with Pluto.",
+                            content: "With increasing regularity, scientists are discovering asteroids and comets with unusual orbits, ones that take them close to Earth and the Sun. Very few of these bodies are potential hazards to Earth, but the more we know and understand about them, the better prepared we will be to take appropriate measures if one is heading our way. Knowing the size, shape, mass, composition, and structure of these objects will help determine the best way to divert a space rock found to be on an Earth-threatening path. Missions to comets and asteroids provide valuable information about their composition and structure, helping scientists assess the best methods to deal with those in potentially hazardous orbits.",
                             content_description: null 
-                        },                                         
-                        {
-                            content_type: "image",
-                            head: null,
-                            content: "/pluto_exploration.jpg",
-                            content_description: "Panoramic view of Pluto's icy mountains and flat ice plains, imaged by New Horizons 15 minutes after its closest approach to Pluto. Distinct haze layers in Pluto's atmosphere can be seen backlit by the Sun." 
-                        },                                         
+                        },                                       
                         {
                             content_type: "text",
-                            head: "Future Mission",
-                            content: "Since the New Horizons flyby, scientists have advocated for an orbiter mission that would return to Pluto to fulfill new science objectives. They include mapping the surface at 9.1 m (30 ft) per pixel, observations of Pluto's smaller satellites, observations of how Pluto changes as it rotates on its axis, investigations of a possible subsurface ocean, and topographic mapping of Pluto's regions that are covered in long-term darkness due to its axial tilt. The last objective could be accomplished using laser pulses to generate a complete topographic map of Pluto.  New Horizons principal investigator Alan Stern has advocated for a Cassini-style orbiter that would launch around 2030 (the 100th anniversary of Pluto's discovery) and use Charon's gravity to adjust its orbit as needed to fulfill science objectives after arriving at the Pluto system. The orbiter could then use Charon's gravity to leave the Pluto system and study more KBOs after all Pluto science objectives are completed. A conceptual study funded by the NASA Innovative Advanced Concepts (NIAC) program describes a fusion-enabled Pluto orbiter and lander based on the Princeton field-reversed configuration reactor.",
+                            head: null,
+                            content: "By immediately tracking potentially hazardous near-Earth objects, or PHAs, we have more time to study potentially threatening situations. NASA's Near Earth Object Program was established in 1998 to coordinate NASA-sponsored efforts to detect, track and characterize potentially hazardous asteroids and comets that could approach the Earth. To better organize U.S. efforts to track asteroids that might one day threaten Earth, NASA established the Planetary Defense Coordination Office (PDCO) in 2016. To date, NASA-sponsored NEO surveys have provided over 95% of all near-Earth object discoveries.",
                             content_description: null
                         },                                            
                     ]
@@ -13063,217 +12950,993 @@ export const linksData = {
                     texts: [
                         {
                             content_type: "embed_video",
-                            content: "D5XPuS-Y0fg",
-                            content_description: "Astrum explores everything NASA's New Horizons saw and discovered in the Kuiper Belt around Pluto, Charon and Arrokoth (Ultima Thule)."
+                            content: "bS3TUj0bnXY",
+                            content_description: "From their differences in sizes, to the impact they could have on Earth, join us as we explore the question, \"What's the Difference Between Comets, Asteroids, Meteoroids, Meteors & Meteorites?\". \"A Whole Lot Of Rocks!\""
                         },  
                     ]
                 }
             ],
-             summary: [
+             summary: null,
+            dateUpdate: "2023-06-15"
+        },
+        asteroids: {
+            name: "Asteroids",
+            baseImgUrl: "/asteroids_poster_A.jpg",
+            baseText: "Asteroids",
+            subText: "Small celestial rocky objects that orbit the Sun, ranging in size from small boulders to dwarf planets.",
+            next: {
+                key: "Comets",
+                value: "/asteroids_comets_meteors/comets"
+            },
+            prev: {
+                key: "Asteroids, Meteors & Comets",
+                value: "/asteroids_comets_meteors"
+            },
+            subdata: [
                 {
-                    head: "Discovery",
-                    keyValue: [
-                        {
-                            key: "Discovered By",
-                            value: "Clyde W. Tombaugh"
-                        },
-                        {
-                            key: "Discovery Site",
-                            value: "Lowell Observatory"
-                        },
-                        {
-                            key: "Discovery Date",
-                            value: "February 18, 1930"
-                        },
-                    ]
+                    key: "Asteroids Count",
+                    value: "1,297,188"
                 },
                 {
-                    head: "Designations",
-                    keyValue: [
-                        {
-                            key: "Designation",
-                            value: "(134340) Pluto"
-                        },
-                        {
-                            key: "Named After",
-                            value: "Pluto: Roman god of the underworld, from a Greek epithet for Hades."
-                        },
-                        {
-                            key: "Minor Planet Category",
-                            value: "Dwarf planet, Trans-Neptunian object, Kuiper belt object, Plutino."
-                        },
-                        {
-                            key: "Adjectives",
-                            value: "Plutonian"
-                        },
-                    ]
+                    key: "Classification",
+                    value: "C, M, & S Types"
                 },
                 {
-                    head: "Orbital Characteristics",
-                    keyValue: [
-                        {
-                            key: "Earliest Precovery Date",
-                            value: "August 20, 1909"
-                        },
-                        {
-                            key: "Aphelion",
-                            value: "49.305 AU (7.37593 billion km); (Next Aphelion: February 2114)"
-                        },
-                        {
-                            key: "Perihelion",
-                            value: "29.658 AU (4.43682 billion km); (Last Periphelion: September 5, 1989)"
-                        },
-                        {
-                            key: "Semi-major Axis",
-                            value: "39.482 AU (5.90638 billion km)"
-                        },
-                        {
-                            key: "Eccentricity",
-                            value: "0.2488"
-                        },
-                        {
-                            key: "Orbital Period (sidereal)",
-                            value: "247.94 years; 90,560 days"
-                        },
-                        {
-                            key: "Orbital Period (synodic)",
-                            value: "366.73 days"
-                        },
-                        {
-                            key: "Average Orbital Speed",
-                            value: "4.743 km/s"
-                        },
-                        {
-                            key: "Mean Anomaly",
-                            value: "14.53°"
-                        },
-                        {
-                            key: "Inclination",
-                            value: "17.16° (11.88° to Sun's equator)"
-                        },
-                        {
-                            key: "Longitude of Ascending Node",
-                            value: "110.299°"
-                        },
-                        {
-                            key: "Argument of Perihelion",
-                            value: "113.834°"
-                        },
-                        {
-                            key: "Known Satellites",
-                            value: "5"
-                        },
-                    ]
+                    key: "Largest Member",
+                    value: "Ceres"
                 },
                 {
-                    head: "Physical Characteristics",  
-                    keyValue: [
-                        {
-                            key: "Dimensions",
-                            value: "2,376.6±1.6 km (observations consistent with a sphere, predicted deviations too small to be observed)"
-                        },
-                        {
-                            key: "Mean Radius",
-                            value: "1,188.3 ± 0.8 km; 0.1868 Earths"
-                        },
-                        {
-                            key: "Flattening",
-                            value: "<1%"
-                        },
-                        {
-                            key: "Surface Area",
-                            value: "1.774443e7 sq.km; 0.035 Earths"
-                        },
-                        {
-                            key: "Volume",
-                            value: "(7.057±0.004)e9 cu.km; 0.00651 Earths"
-                        },
-                        {
-                            key: "Mass",
-                            value: "(1.303±0.003)e22 kg; 0.00218 Earths; 0.177 Moons"
-                        },
-                        {
-                            key: "Mean Density",
-                            value: "1.854 ± 0.006 g/cu.cm"
-                        },
-                        {
-                            key: "Surface Gravity",
-                            value: "0.620 m/sq.s; 0.063 g"
-                        },
-                        {
-                            key: "Escape Velocity",
-                            value: "1.212 km/s"
-                        },
-                        {
-                            key: "Synodic Rotation Period",
-                            value: "-6.38680 days; -6d, 9h, 17m, 00s (retrograde)"
-                        },
-                        {
-                            key: "Sidereal Rotation Period",
-                            value: "-6.387230 days; -6d, 9h, 17m, 36s (retrograde)"
-                        },
-                        {
-                            key: "Equatorial Rotation Velocity",
-                            value: "47.18 km/h"
-                        },
-                        {
-                            key: "Axial Tilt",
-                            value: "122.53° (to orbit)"
-                        },
-                        {
-                            key: "North Pole Right Ascension",
-                            value: "132.993°"
-                        },
-                        {
-                            key: "North Pole Declination",
-                            value: "-6.163°"
-                        },
-                        {
-                            key: "Albedo",
-                            value: "0.52 geometric; 0.72 Bond"
-                        },
-                        {
-                            key: "Minimum Surface Temp.",
-                            value: "33 K"
-                        },
-                        {
-                            key: "Mean Surface Temp.",
-                            value: "44 K (-229 °C)"
-                        },
-                        {
-                            key: "Maximum Surface Temp.",
-                            value: "55 k"
-                        },
-                        {
-                            key: "Apparent Magnitude",
-                            value: "13.65 to 16.3 (mean is 15.1)"
-                        },
-                        {
-                            key: "Absolute Magnitude (H)",
-                            value: "-0.44"
-                        },
-                        {
-                            key: "Angular Diameter",
-                            value: "0.06″ to 0.11″"
-                        },
-                    ]
-                },
-                {
-                    head: "Atmosphere",  
-                    keyValue: [
-                        {
-                            key: "Surface Pressure",
-                            value: "1.0 Pa (2015)"
-                        },
-                        {
-                            key: "Composition by Volume",
-                            value: "Nitrogen, methane, carbon monoxide."
-                        },
-    
-                    ]
+                    key: "Composition",
+                    value: "Ice, Rock or Metal."
                 },
             ],
-            dateUpdate: "2023-05-10"
+            overview: {
+                name: "Asteroids",
+                topBox: null,
+                paragraphs: [
+                    "Asteroids, sometimes called minor planets, are rocky, airless remnants left over from the early formation of our solar system about 4.6 billion years ago.",
+                    "The current known asteroid count is: 1,297,234.", "Most of this ancient space rubble can be found orbiting the Sun between Mars and Jupiter within the main asteroid belt. Asteroids range in size from Vesta - the largest at about 329 miles (530 kilometers) in diameter - to bodies that are less than 33 feet (10 meters) across. The total mass of all the asteroids combined is less than that of Earth's Moon.", 
+                ],
+                iframeLink: {
+                    type: "iframe",
+                    content: "https://eyes.nasa.gov/apps/asteroids/#/asteroids?embed=true&amp;logo=false" ,
+                    content_description: "Explore the 3D world of asteroids, comets, and NEOs. Learn about past and future missions, tracking and predicting orbits, and close approaches to Earth."
+                },
+                facts_12: null
+            },
+            inDepth: [
+                {
+                    title: "Introduction",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "An asteroid is a minor planet—an object that is neither a planet nor a comet — that orbits within the inner Solar System. They are rocky, metallic or icy bodies with no atmosphere. Sizes and shapes of asteroids vary significantly, ranging from 1-meter rocks to a dwarf planet almost 1000 km in diameter.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Of the roughly one million known asteroids the greatest number are located between the orbits of Mars and Jupiter, approximately 2 to 4 AU from the Sun, in the main asteroid belt. Asteroids are generally classified to be of three types: C-type, M-type, and S-type. These were named after and are generally identified with carbonaceous, metallic, and silicaceous compositions, respectively. The size of asteroids varies greatly; the largest, Ceres, is almost 1,000 km (600 mi) across and qualifies as a dwarf planet. The total mass of all the asteroids combined is only 3% that of Earth's Moon. The majority of main belt asteroids follow slightly elliptical, stable orbits, revolving in the same direction as the Earth and taking from three to six years to complete a full circuit of the Sun.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/Ceres.jpg",
+                            content_description: "Ceres, a considerably larger asteroid and dwarf planet 1,000 km across - Approximate true-color image of Ceres, using the F7 ('red'), F2 ('green') and F8 ('blue') filters, projected onto a clear filter image. Images were acquired by Dawn at 04:13 UT May 4, 2015, at a distance of 13641 km. At the time, Dawn was over Ceres' northern hemisphere. The prominent, bright crater at right is Haulani. The smaller bright spot to its left is exposed on the floor of Oxo. Ejecta from these impacts appears to have exposed high albedo material similar to deposits found on the floor of Occator Crater. Image Credit: NASA/JPL-Caltech/UCLA/MPS/DLR/IDA/Justin Cowart"
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Asteroids have been historically observed from Earth; the Galileo spacecraft provided the first close observation of an asteroid. Several dedicated missions to asteroids were subsequently launched by NASA and JAXA, with plans for other missions in progress. NASA's NEAR Shoemaker studied Eros, and Dawn observed Vesta and Ceres. JAXA's missions Hayabusa and Hayabusa2 studied and returned samples of Itokawa and Ryugu, respectively. OSIRIS-REx studied Bennu, collecting a sample in 2020 to be delivered back to Earth in 2023. NASA's Lucy, launched in 2021, will study ten different asteroids, two from the main belt and eight Jupiter trojans. Psyche, scheduled for launch in 2023, will study a metallic asteroid of the same name.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Near-Earth asteroids can threaten all life on the planet; an asteroid impact event resulted in the Cretaceous-Paleogene extinction. Different asteroid deflection strategies have been proposed; the Double Asteroid Redirection Test spacecraft, or DART, was launched in 2021 and intentionally impacted Dimorphos in September 2022, successfully altering its orbit by crashing into it.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Nomenclature",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "By 1851, the Royal Astronomical Society decided that asteroids were being discovered at such a rapid rate that a different system was needed to categorize or name asteroids. In 1852, when de Gasparis discovered the twentieth asteroid, Benjamin Valz gave it a name and a number designating its rank among asteroid discoveries, 20 Massalia. Sometimes asteroids were discovered and not seen again. So, starting in 1892, new asteroids were listed by the year and a capital letter indicating the order in which the asteroid's orbit was calculated and registered within that specific year. For example, the first two asteroids discovered in 1892 were labeled 1892A and 1892B. However, there were not enough letters in the alphabet for all of the asteroids discovered in 1893, so 1893Z was followed by 1893AA. A number of variations of these methods were tried, including designations that included year plus a Greek letter in 1914. A simple chronological numbering system was established in 1925.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Currently all newly discovered asteroids receive a provisional designation (such as 2002 AT4) consisting of the year of discovery and an alphanumeric code indicating the half-month of discovery and the sequence within that half-month. Once an asteroid's orbit has been confirmed, it is given a number, and later may also be given a name (e.g. 433 Eros). The formal naming convention uses parentheses around the number — e.g. (433) Eros—but dropping the parentheses is quite common. Informally, it is also common to drop the number altogether, or to drop it after the first mention when a name is repeated in running text. In addition, names can be proposed by the asteroid's discoverer, within guidelines established by the International Astronomical Union.",
+                            content_description: null
+                        },
+                    ]
+                },
+                { 
+                    title: "Formation",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Many asteroids are the shattered remnants of planetesimals, bodies within the young Sun's solar nebula that never grew large enough to become planets. It is thought that planetesimals in the asteroid belt evolved much like the rest of objects in the solar nebula until Jupiter neared its current mass, at which point excitation from orbital resonances with Jupiter ejected over 99% of planetesimals in the belt. Simulations and a discontinuity in spin rate and spectral properties suggest that asteroids larger than approximately 120 km (75 mi) in diameter accreted during that early era, whereas smaller bodies are fragments from collisions between asteroids during or after the Jovian disruption. Ceres and Vesta grew large enough to melt and differentiate, with heavy metallic elements sinking to the core, leaving rocky minerals in the crust.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In the Nice model, many Kuiper-belt objects are captured in the outer asteroid belt, at distances greater than 2.6 AU. Most were later ejected by Jupiter, but those that remained may be the D-type asteroids, and possibly include Ceres.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Asteroid Classifications",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: "Main Asteroid Belt",
+                            content: "The majority of known asteroids orbit within the asteroid belt between Mars and Jupiter, generally with not very elongated orbits. The belt is estimated to contain between 1.1 and 1.9 million asteroids larger than 1 kilometer (0.6 miles) in diameter, and millions of smaller ones. Early in the history of the solar system, the gravity of newly formed Jupiter brought an end to the formation of planetary bodies in this region and caused the small bodies to collide with one another, fragmenting them into the asteroids we observe today.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The absolute magnitudes of most of the known asteroids are between 11 and 19, with the median at about 16. The total mass of the asteroid belt is estimated to be 2.39e21 kg, which is just 3% of the mass of the Moon; the mass of the Kuiper Belt and Scattered Disk is over 100 times as large. The four largest objects, Ceres, Vesta, Pallas, and Hygiea, account for maybe 62% of the belt's total mass, with 39% accounted for by Ceres alone.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/asteroids_sizes.png",
+                            content_description: "The asteroids of the Solar System, categorized by size and number. Research Lab in 2015. Image is released under CC-BY-SA licence. Attribution goes to \"Marco Colombo, DensityDesign Research Lab\". - DensityDesign Integrated Course Final Synthesis Studio"
+                        },
+                        {
+                            content_type: "text",
+                            head: "Trojans",
+                            content: "These asteroids share an orbit with a larger planet, but do not collide with it because they gather around two special places in the orbit (called the L4 and L5 Lagrangian points). There, the gravitational pull from the Sun and the planet are balanced by a trojan's tendency to otherwise fly out of orbit. The Jupiter trojans form the most significant population of trojan asteroids. It is thought that they are as numerous as the asteroids in the asteroid belt. There are Mars and Neptune trojans, and NASA announced the discovery of an Earth trojan in 2011.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In the Solar System, most known trojans share the orbit of Jupiter. They are divided into the Greek camp at L4 (ahead of Jupiter) and the Trojan camp at L5 (trailing Jupiter). More than a million Jupiter trojans larger than one kilometer are thought to exist, of which more than 7,000 are currently catalogued. In other planetary orbits only nine Mars trojans, 28 Neptune trojans, two Uranus trojans, and two Earth trojans, have been found to date. A temporary Venus trojan is also known. Numerical orbital dynamics stability simulations indicate that Saturn and Uranus probably do not have any primordial trojans.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/Inner_solar_system_asteroids.png",
+                            content_description: "Overview of the Inner Solar System asteroids up to the Jovian System."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Near-Earth Asteroids",
+                            content: "Near-Earth asteroids, or NEAs, are asteroids that have orbits that pass close to that of Earth. Asteroids that actually cross Earth's orbital path are known as Earth-crossers. As of April 2022, a total of 28,772 near-Earth asteroids were known; 878 have a diameter of one kilometer or larger.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "A small number of NEAs are extinct comets that have lost their volatile surface materials, although having a faint or intermittent comet-like tail does not necessarily result in a classification as a near-Earth comet, making the boundaries somewhat fuzzy. The rest of the near-Earth asteroids are driven out of the asteroid belt by gravitational interactions with Jupiter. Many asteroids have natural satellites (minor-planet moons). As of October 2021, there were 85 NEAs known to have at least one moon, including three known to have two moons. The asteroid 3122 Florence, one of the largest potentially hazardous asteroids with a diameter of 4.5 km (2.8 mi), has two moons measuring 100-300 m (330-980 ft) across, which were discovered by radar imaging during the asteroid's 2017 approach to Earth.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/asteroids_nea.jpg",
+                            content_description: "Artist's concept of spacious structure of near-Earth asteroid 2011 MD. Credit: NASA/JPL"
+                        },                  
+                    ]
+                },
+                { 
+                    title: "Compostion",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The three broad composition classes of asteroids are C-, S-, and M-types.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "▪️ The C-type (chondrite) asteroids are most common. They probably consist of clay and silicate rocks, and are dark in appearance. They are among the most ancient objects in the solar system.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "▪️ The S-types (\"stony\") are made up of silicate materials and nickel-iron.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "▪️ The M-types are metallic (nickel-iron). The asteroids' compositional differences are related to how far from the Sun they formed. Some experienced high temperatures after they formed and partly melted, with iron sinking to the center and forcing basaltic (volcanic) lava to the surface.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Physical Characteristics",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: "Rotation",
+                            content: "Measurements of the rotation rates of large asteroids in the asteroid belt show that there is an upper limit. Very few asteroids with a diameter larger than 100 meters have a rotation period less than 2.2 hours. For asteroids rotating faster than approximately this rate, the inertial force at the surface is greater than the gravitational force, so any loose surface material would be flung out. However, a solid object should be able to rotate much more rapidly. This suggests that most asteroids with a diameter over 100 meters are rubble piles formed through the accumulation of debris after collisions between asteroids.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Color",
+                            content: "Asteroids become darker and redder with age due to space weathering. However evidence suggests most of the color change occurs rapidly, in the first hundred thousand years, limiting the usefulness of spectral measurement for determining the age of asteroids.",
+                            content_description: null
+                        },                          
+                        {
+                            content_type: "text",
+                            head: "Surface Features",
+                            content: "Except for the \"big four\" (Ceres, Pallas, Vesta, and Hygiea), asteroids are likely to be broadly similar in appearance, if irregular in shape. 50 km (31 mi) 253 Mathilde is a rubble pile saturated with craters with diameters the size of the asteroid's radius. Earth-based observations of 300 km (190 mi) 511 Davida, one of the largest asteroids after the big four, reveal a similarly angular profile, suggesting it is also saturated with radius-size craters. Medium-sized asteroids such as Mathilde and 243 Ida, that have been observed up close, also reveal a deep regolith covering the surface. Of the big four, Pallas and Hygiea are practically unknown. Vesta has compression fractures encircling a radius-size crater at its south pole but is otherwise a spheroid.",
+                            content_description: null
+                        },                          
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/vesta_surface.jpg",
+                            content_description: "Cratered terrain on 4 Vesta - An image of cratered terrain with hills and ridges on Vesta taken by Dawn on August 6, 2011. It has a resolution of about 260 meters per pixel. Credit: NASA/JPL-Caltech/UCLA/MPS/DLR/IDA"
+                        },                          
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Dawn spacecraft revealed that Ceres has a heavily cratered surface, but with fewer large craters than expected. Models based on the formation of the current asteroid belt had suggested Ceres should possess 10 to 15 craters larger than 400 km (250 mi) in diameter. The largest confirmed crater on Ceres, Kerwan Basin, is 284 km (176 mi) across. The most likely reason for this is viscous relaxation of the crust slowly flattening out larger impacts.",
+                            content_description: null
+                        },                          
+                        {
+                            content_type: "text",
+                            head: "Composition",
+                            content: "Asteroids are classified by their characteristic emission spectra, with the majority falling into three main groups: C-type, M-type, and S-type. These were named after and are generally identified with carbonaceous (carbon-rich), metallic, and silicaceous (stony) compositions, respectively. The physical composition of asteroids is varied and in most cases poorly understood. Ceres appears to be composed of a rocky core covered by an icy mantle, where Vesta is thought to have a nickel-iron core, olivine mantle, and basaltic crust. Thought to be the largest undifferentiated asteroid, 10 Hygiea seems to have a uniformly primitive composition of carbonaceous chondrite, but it may actually be a differentiated asteroid that was globally disrupted by an impact and then reassembled. Other asteroids appear to be the remnant cores or mantles of proto-planets, high in rock and metal. Most small asteroids are believed to be piles of rubble held together loosely by gravity, although the largest are probably solid. Some asteroids have moons or are co-orbiting binaries: rubble piles, moons, binaries, and scattered asteroid families are thought to be the results of collisions that disrupted a parent asteroid, or possibly a planet.",
+                            content_description: null
+                        },                          
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In the main asteroid belt, there appear to be two primary populations of asteroid: a dark, volatile-rich population, consisting of the C-type and P-type asteroids, with albedos less than 0.10 and densities under 2.2 g/cu.cm, and a dense, volatile-poor population, consisting of the S-type and M-type asteroids, with albedos over 0.15 and densities greater than 2.7. Within these populations, larger asteroids are denser, presumably due to compression. There appears to be minimal macro-porosity (interstitial vacuum) in the score of asteroids with masses greater than 10e18 kg.",
+                            content_description: null
+                        },                          
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The last can only be determined accurately by observing the orbits of moons the asteroid might have. So far, every asteroid with moons has turned out to be a rubble pile, a loose conglomeration of rock and metal that may be half empty space by volume. The investigated asteroids are as large as 280 km in diameter, and include 121 Hermione (268 x 186 x 183 km), and 87 Sylvia (384 x 262 x 232 km). Few asteroids are larger than 87 Sylvia, none of them have moons. The fact that such large asteroids as Sylvia may be rubble piles, presumably due to disruptive impacts, has important consequences for the formation of the Solar System: computer simulations of collisions involving solid bodies show them destroying each other as often as merging, but colliding rubble piles are more likely to merge. This means that the cores of the planets could have formed relatively quickly.",
+                            content_description: null
+                        },                          
+                        {
+                            content_type: "text",
+                            head: "Water",
+                            content: "Scientists hypothesize that some of the first water brought to Earth was delivered by asteroid impacts after the collision that produced the Moon. In 2009, the presence of water ice was confirmed on the surface of 24 Themis using NASA's Infrared Telescope Facility. The surface of the asteroid appears completely covered in ice. As this ice layer is sublimating, it may be getting replenished by a reservoir of ice under the surface. Organic compounds were also detected on the surface. The presence of ice on 24 Themis makes the initial theory plausible. In October 2013, water was detected on an extrasolar body for the first time, on an asteroid orbiting the white dwarf GD 61. On 22 January 2014, European Space Agency (ESA) scientists reported the detection, for the first definitive time, of water vapor on Ceres, the largest object in the asteroid belt.",
+                            content_description: null
+                        },                          
+                    ]
+                },
+                {
+                    title: "Observation and Explorations",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Until the age of space travel, objects in the asteroid belt could only be observed with large telescopes, their shapes and terrain remaining a mystery. The best modern ground-based telescopes and the Earth-orbiting Hubble Space Telescope can only resolve a small amount of detail on the surfaces of the largest asteroids. Limited information about the shapes and compositions of asteroids can be inferred from their light curves (variation in brightness during rotation) and their spectral properties. Sizes can be estimated by timing the lengths of star occultations (when an asteroid passes directly in front of a star). Radar imaging can yield good information about asteroid shapes and orbital and rotational parameters, especially for near-Earth asteroids. Spacecraft flybys can provide much more data than any ground or space-based observations; sample-return missions gives insights about regolith composition.",
+                            content_description: null 
+                        },                                         
+                        {
+                            content_type: "text",
+                            head: "Ground-based Observations",
+                            content: "As asteroids are rather small and faint objects, the data that can be obtained from ground-based observations (GBO) are limited. By means of ground-based optical telescopes the visual magnitude can be obtained; when converted into the absolute magnitude it gives a rough estimate of the asteroid's size. Near-Earth asteroids that come into close vicinity of the planet can be studied in more details with radar; it provides information about the surface of the asteroid (for example can show the presence of craters and boulders). Such observations were conducted by the Arecibo Observatory in Puerto Rico (305 meter dish) and Goldstone Observatory in California (70 meter dish). Radar observations can also be used for accurate determination of the orbital and rotational dynamics of observed objects.",
+                            content_description: null 
+                        },                                       
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/goldstone_observatory.jpg",
+                            content_description: "The 70m antenna at Goldstone Observatory."
+                        },                                            
+                        {
+                            content_type: "text",
+                            head: "Space-based Observations",
+                            content: "Both space and ground-based observatories conducted asteroid search programs; the space-based searches are expected to detect more objects because there is no atmosphere to interfere and because they can observe larger portions of the sky. NEOWISE observed more than 100,000 asteroids of the main belt, Spitzer Space Telescope observed more than 700 near-Earth asteroids. These observations determined rough sizes of the majority of observed objects, but provided limited detail about surface properties (such as regolith depth and composition, angle of repose, cohesion, and porosity).",
+                            content_description: null
+                        },                                            
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Asteroids were also studied by the Hubble Space Telescope, such as tracking the colliding asteroids in the main belt, break-up of an asteroid, observing an active asteroid with six comet-like tails, and observing asteroids that were chosen as targets of dedicated missions.",
+                            content_description: null
+                        },                                            
+                        {
+                            content_type: "text",
+                            head: "Space Probe Missions",
+                            content: "The first asteroid to be photographed in close-up was 951 Gaspra in 1991, followed in 1993 by 243 Ida and its moon Dactyl, all of which were imaged by the Galileo probe en route to Jupiter. Other asteroids briefly visited by spacecraft en route to other destinations include 9969 Braille (by Deep Space 1 in 1999), 5535 Annefrank (by Stardust in 2002), 2867 Šteins and 21 Lutetia (by the Rosetta probe in 2008), and 4179 Toutatis (China's lunar orbiter Chang'e 2, which flew within 3.2 km (2 mi) in 2012). The first dedicated asteroid probe was NASA's NEAR Shoemaker, which photographed 253 Mathilde in 1997, before entering into orbit around 433 Eros, finally landing on its surface in 2001. It was the first spacecraft to successfully orbit and land on an asteroid. From September to November 2005, the Japanese Hayabusa probe studied 25143 Itokawa in detail and returned samples of its surface to Earth on 13 June 2010, the first asteroid sample-return mission. In 2007, NASA launched the Dawn spacecraft, which orbited 4 Vesta for a year, and observed the dwarf planet Ceres for three years.",
+                            content_description: null
+                        },                                      
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Hayabusa2, a probe launched by JAXA 2014, orbited its target asteroid 162173 Ryugu for more than a year and took samples that were delivered to Earth in 2020. The spacecraft is now on an extended mission and expected to arrive at a new target in 2031. NASA launched the OSIRIS-REx in 2016, a sample return mission to asteroid 101955 Bennu. In 2021, the probe departed the asteroid with a sample from its surface. Sample delivery to Earth is expected on September 24, 2023. The spacecraft will continue on an extended mission, designated OSIRIS-APEX, to explore near-Earth asteroid Apophis in 2029.",
+                            content_description: null
+                        },   
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/hayabusa2.jpg",
+                            content_description: "Hayabusa2"
+                        },                                           
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In 2021, NASA launched Double Asteroid Redirection Test (DART), a mission to test technology for defending Earth against potential hazardous objects. DART deliberately crashed into the minor-planet moon Dimorphos of the double asteroid Didymos in September 2022 to assess the potential of a spacecraft impact to deflect an asteroid from a collision course with Earth. In October, NASA declared DART a success, confirming it had shortened Dimorphos' orbital period around Didymos by about 32 minutes.",
+                            content_description: null
+                        }, 
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/asteroids_some.jpg",
+                            content_description: "A montage of 18 of the 20 asteroids and comets that have been photographed up close as of December 2018, when New Horizons flew past Arrokoth. This version is in color but does not show the bodies at their correct relative albedo or brightness. Not included are Vesta or Ceres, both of which are many times larger than Lutetia. Montage by Emily Lakdawalla for The Planetary Society. Data from NASA/JPL/JHUAPL/SwRI/UMD/JAXA/ESA/OSIRIS team/Russian Academy of Sciences/China National Space Agency."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Future",
+                            content: "Currently, several asteroid-dedicated missions are planned by NASA, JAXA, ESA, and CNSA. NASA's Lucy, launched in 2021, would visit eight asteroids, one from the main belt and seven Jupiter trojans; it is the first mission to trojans. The main mission would start in 2027. ESA's Hera, planned for launch in 2024, will study the results of the DART impact. It will measure the size and morphology of the crater, and momentum transmitted by the impact, to determine the efficiency of the deflection produced by DART. NASA's Psyche would be launched in 2023 or 2024 to study the large metallic asteroid of the same name.",
+                            content_description: null
+                        }, 
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/psyche.jpg",
+                            content_description: "An illustration, created in March 2021, of NASA's Psyche spacecraft, which is targeted to launch to the main asteroid belt in August 2022 to investigate the metal-rich asteroid Psyche. Credits: NASA/JPL-Caltech/ASU"
+                        },                                            
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "JAXA's DESTINY+ is a mission for a flyby of the Geminids meteor shower parent body 3200 Phaethon, as well as various minor bodies. Its launch is planned for 2024. CNSA's Tianwen-2 is planned to launch in 2025. It will use solar electric propulsion to explore the co-orbital near-Earth asteroid 469219 Kamoʻoalewa and the active asteroid 311P/PanSTARRS. The spacecraft will collect samples of the regolith of Kamo'oalewa.",
+                            content_description: null
+                        },                                             
+                    ]
+                },
+                {
+                    title: "Watch To Learn More...",
+                    texts: [
+                        {
+                            content_type: "embed_video",
+                            content: "gWvVvdwAH8g",
+                            content_description: "Asteroids are small, rocky objects that orbit the sun, just like the rest of the planets and celestial bodies in our solar system. Although asteroids are present throughout the solar system, most of them live in the asteroid belt—a region located between the orbits of Mars and Jupiter. The size of objects within the asteroid belt have a wide range, from being no bigger than a dust particle to almost a thousand kilometers wide. Our solar system came into existence about 4.6 billion years ago when a large cloud of gas and dust collapsed."
+                        },  
+                    ]
+                }
+            ],
+             summary: null,
+            dateUpdate: "2023-06-16"
+        },
+        comets: {
+            name: "Comets",
+            baseImgUrl: "/comets_poster_A.jpg",
+            baseText: "Comets",
+            subText: "Comets are cosmic wanderers, composed of ice, dust, and organic compounds. When they approach the Sun, they develop a glowing coma and a beautiful tail, showcasing their ethereal beauty.",
+            next: {
+                key: "Meteors",
+                value: "/asteroids_comets_meteors/meteors"
+            },
+            prev: {
+                key: "Asteroids",
+                value: "/asteroids_comets_meteors/asteroids"
+            },
+            subdata: [
+                {
+                    key: "Comets Count",
+                    value: "4,584"
+                },
+                {
+                    key: "Estimated Age",
+                    value: "~4.6 billion years"
+                },
+                {
+                    key: "Largest Known Member",
+                    value: "95P/Chiron"
+                },
+                {
+                    key: "Composition",
+                    value: "Ice, Rock or Dust."
+                },
+            ],
+            overview: {
+                name: "Comets",
+                topBox: {
+                    headText: "THE COMA",
+                    text: "The coma is the nebulous envelope around the nucleus of a comet, formed when the comet passes close to the Sun on its highly elliptical orbit; as the comet warms, parts of it sublimate. This gives a comet a \"fuzzy\" appearance when viewed in telescopes and distinguishes it from stars. The word coma comes from the Greek \"kome\" (κόμη), which means \"hair\" and is the origin of the word comet itself."
+                },
+                paragraphs: [
+                    "Comets are cosmic snowballs of frozen gases, rock, and dust that orbit the Sun. When frozen, they are the size of a small town. When a comet's orbit brings it close to the Sun, it heats up and spews dust and gases into a giant glowing head larger than most planets. The dust and gases form a tail that stretches away from the Sun for millions of miles. There are likely billions of comets orbiting our Sun in the Kuiper Belt and even more distant Oort Cloud.",
+                    "The current number of known comets is: 4,584.", "We now know that comets are leftovers from the dawn of our solar system around 4.6 billion years ago, and consist mostly of ice coated with dark organic material. They have been referred to as \"dirty snowballs\". They may yield important clues about the formation of our solar system. Comets may have brought water and organic compounds, the building blocks of life, to the early Earth and other parts of the solar system.", 
+                ],
+                iframeLink: {
+                    type: "image",
+                    content: "/67P.jpg" ,
+                    content_description: "Rosetta navigation camera image taken in 2014 at about 64 km from comet 67P/Churyumov-Gerasimenko. Credit: ESA/Rosetta/NAVCAM"
+                },
+                facts_12: null
+            },
+            inDepth: [
+                {
+                    title: "Introduction",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "A comet is an icy, small Solar System body that warms and begins to release gases when passing close to the Sun, a process called outgassing. This produces an extended, gravitationally unbound atmosphere or coma surrounding the nucleus, and sometimes a tail of gas and dust gas blown out from the coma. These phenomena are due to the effects of solar radiation and the outstreaming solar wind plasma acting upon the nucleus of the comet. Comet nuclei range from a few hundred meters to tens of kilometers across and are composed of loose collections of ice, dust, and small rocky particles. The coma may be up to 15 times Earth's diameter, while the tail may stretch beyond one astronomical unit. If sufficiently close and bright, a comet may be seen from Earth without the aid of a telescope and can subtend an arc of up to 30° (60 Moons) across the sky. Comets have been observed and recorded since ancient times by many cultures and religions.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Comets usually have highly eccentric elliptical orbits, and they have a wide range of orbital periods, ranging from several years to potentially several millions of years. Short-period comets originate in the Kuiper belt or its associated scattered disc, which lie beyond the orbit of Neptune. Long-period comets are thought to originate in the Oort cloud, a spherical cloud of icy bodies extending from outside the Kuiper belt to halfway to the nearest star. Long-period comets are set in motion towards the Sun by gravitational perturbations from passing stars and the galactic tide. Hyperbolic comets may pass once through the inner Solar System before being flung to interstellar space. The appearance of a comet is called an apparition.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/comets_hale_bopp.jpg",
+                            content_description: "Image of comet C/1995 O1 (Hale-Bopp), taken on 1997 April 04, with a 225mm f/2.0 Schmidt Camera (focal length 450mm) on Kodak Panther 400 color slide film with an exposure time of 10 minutes. The field shown is about 6.5°x6.5°. At full resolution, the stars in the image appear slightly elongated, as the camera tracked the comet during the exposure. Credit: E. Kolmhofer, H. Raab; Johannes-Kepler-Observatory, Linz, Austria."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Extinct comets that have passed close to the Sun many times have lost nearly all of their volatile ices and dust and may come to resemble small asteroids. Asteroids are thought to have a different origin from comets, having formed inside the orbit of Jupiter rather than in the outer Solar System. However, the discovery of main-belt comets and active centaur minor planets has blurred the distinction between asteroids and comets. In the early 21st century, the discovery of some minor bodies with long-period comet orbits, but characteristics of inner solar system asteroids, were called Manx comets. They are still classified as comets, such as C/2014 S3 (PANSTARRS). Twenty-seven Manx comets were found from 2013 to 2017.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "As of November 2021 there are 4,584 known comets. However, this represents a very small fraction of the total potential comet population, as the reservoir of comet-like bodies in the outer Solar System (in the Oort cloud) is about one trillion. Roughly one comet per year is visible to the naked eye, though many of those are faint and unspectacular. Particularly bright examples are called \"great comets\". Comets have been visited by uncrewed probes such as NASA's Deep Impact, which blasted a crater on Comet Tempel 1 to study its interior, and the European Space Agency's Rosetta, which became the first to land a robotic spacecraft on a comet.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Nomenclature",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The word comet derives from the Old English cometa from the Latin comēta or comētēs. That, in turn, is a romanization of the Greek κομήτης 'wearing long hair', and the Oxford English Dictionary notes that the term (ἀστὴρ) κομήτης already meant 'long-haired star, comet' in Greek. Κομήτης was derived from κομᾶν (koman) 'to wear the hair long', which was itself derived from κόμη (komē) 'the hair of the head' and was used to mean 'the tail of a comet'. The astronomical symbol for comets, \"☄\", consisting of a small disc with three hairlike extensions.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Comet naming can be complicated. Comets are generally named for their discoverer — either a person or a spacecraft. This International Astronomical Union guideline was developed only in the last century. For example, comet Shoemaker-Levy 9 was so named because it was the ninth short-periodic comet discovered by Eugene and Carolyn Shoemaker and David Levy. Since spacecraft are very effective at spotting comets many comets have LINEAR, SOHO or WISE in their names.",
+                            content_description: null
+                        },
+                    ]
+                },
+                { 
+                    title: "Where Do Comets Come From?",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "As theorized by astronomer Gerard Kuiper in 1951, a disc-like belt of icy bodies exists beyond Neptune, where a population of dark comets orbits the Sun in the realm of Pluto. These icy objects, occasionally pushed by gravity into orbits bringing them closer to the Sun, become the so-called short-period comets. Taking less than 200 years to orbit the Sun, in many cases their appearance is predictable because they have passed by before. Less predictable are long-period comets, many of which arrive from a region called the Oort Cloud about 100,000 astronomical units (that is, about 100,000 times the distance between Earth and the Sun) from the Sun. These Oort Cloud comets can take as long as 30 million years to complete one trip around the Sun.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Each comet has a tiny frozen part, called a nucleus, often no larger than a few kilometers across. The nucleus contains icy chunks, frozen gases with bits of embedded dust. A comet warms up as it nears the Sun and develops an atmosphere, or coma. The Sun's heat causes the comet's ices to change to gases so the coma gets larger. The coma may extend hundreds of thousands of kilometers. The pressure of sunlight and high-speed solar particles (solar wind) can blow the coma dust and gas away from the Sun, sometimes forming a long, bright tail. Comets actually have two tails―a dust tail and an ion (gas) tail.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Most comets travel a safe distance from the Sun―comet Halley comes no closer than 89 million kilometers (55 million miles). However, some comets, called sungrazers, crash straight into the Sun or get so close that they break up and evaporate.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Physical Characteristics",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: "Nucleus",
+                            content: "The solid, core structure of a comet is known as the nucleus. Cometary nuclei are composed of an amalgamation of rock, dust, water ice, and frozen carbon dioxide, carbon monoxide, methane, and ammonia.[16] As such, they are popularly described as \"dirty snowballs\" after Fred Whipple's model. Comets with a higher dust content have been called \"icy dirtballs\". The term \"icy dirtballs\" arose after observation of Comet 9P/Tempel 1 collision with an \"impactor\" probe sent by NASA Deep Impact mission in July 2005. Research conducted in 2014 suggests that comets are like \"deep fried ice cream\", in that their surfaces are formed of dense crystalline ice mixed with organic compounds, while the interior ice is colder and less dense.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/comets_hartley.jpg",
+                            content_description: "Nucleus of 103P/Hartley as imaged during a spacecraft flyby. The nucleus is about 2 km in length. Image of Comet Hartley 2. This image was captured by NASA's EPOXI mission between Nov. 3 and 4, 2010, during the spacecraft's flyby of comet Hartley 2. It was captured using the spacecraft's Medium-Resolution Instrument. Credit: NASA/JPL-Caltech/UMD"
+                        },                          
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The outer surfaces of cometary nuclei have a very low albedo, making them among the least reflective objects found in the Solar System. The Giotto space probe found that the nucleus of Halley's Comet (1P/Halley) reflects about four percent of the light that falls on it. Roughly six percent of the near-Earth asteroids are thought to be the extinct nuclei of comets that no longer experience outgassing, including 14827 Hypnos and 3552 Don Quixote.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Coma",
+                            content: "The streams of dust and gas thus released form a huge and extremely thin atmosphere around the comet called the \"coma\". The force exerted on the coma by the Sun's radiation pressure and solar wind cause an enormous \"tail\" to form pointing away from the Sun. The coma is generally made of water and dust, with water making up to 90% of the volatiles that outflow from the nucleus when the comet is within 3 to 4 astronomical units (450,000,000 to 600,000,000 km; 280,000,000 to 370,000,000 mi) of the Sun. The H2O parent molecule is destroyed primarily through photodissociation and to a much smaller extent photoionization, with the solar wind playing a minor role in the destruction of water compared to photochemistry. Larger dust particles are left along the comet's orbital path whereas smaller particles are pushed away from the Sun into the comet's tail by light pressure.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/comets_ISON.jpg",
+                            content_description: "Hubble image of Comet ISON shortly before perihelion - The round coma around ISON's nucleus is blue and the tail has a redder hue. Ice and gas in the coma reflect blue light from the Sun, while dust grains in the tail reflect more red light than blue light. This is the most colour separation seen so far in ISON and the comet, nearer than ever to the Sun, is brighter and more structured than ever before. Comet ISON will come closest to the Sun on 28 November 2013, a point in its orbit known as perihelion. Comet ISON was fairly quiet until 1 November 2013, when it experienced an outburst that doubled the amount of gas the comet emitted. Credit: ESA/Hubble"
+                        },                          
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Although the solid nucleus of comets is generally less than 60 kilometers (37 mi) across, the coma may be thousands or millions of kilometers across, sometimes becoming larger than the Sun. For example, about a month after an outburst in October 2007, comet 17P/Holmes briefly had a tenuous dust atmosphere larger than the Sun. Even though the coma can become quite large, its size can decrease about the time it crosses the orbit of Mars around 1.5 astronomical units (220,000,000 km; 140,000,000 mi) from the Sun. At this distance the solar wind becomes strong enough to blow the gas and dust away from the coma, and in doing so enlarging the tail. Ion tails have been observed to extend one astronomical unit (150 million km) or more.",
+                            content_description: null
+                        },                      
+                        {
+                            content_type: "text",
+                            head: "Bow Shock",
+                            content: "Bow shocks form as a result of the interaction between the solar wind and the cometary ionosphere, which is created by the ionization of gases in the coma. As the comet approaches the Sun, increasing outgassing rates cause the coma to expand, and the sunlight ionizes gases in the coma. When the solar wind passes through this ion coma, the bow shock appears. The first observations were made in the 1980s and 1990s as several spacecraft flew by comets 21P/Giacobini-Zinner, 1P/Halley, and 26P/Grigg-Skjellerup. It was then found that the bow shocks at comets are wider and more gradual than the sharp planetary bow shocks seen at, for example, Earth. These observations were all made near perihelion when the bow shocks already were fully developed.",
+                            content_description: null
+                        },                          
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The Rosetta spacecraft observed the bow shock at comet 67P/Churyumov-Gerasimenko at an early stage of bow shock development when the outgassing increased during the comet's journey toward the Sun. This young bow shock was called the \"infant bow shock\". The infant bow shock is asymmetric and, relative to the distance to the nucleus, wider than fully developed bow shocks.",
+                            content_description: null
+                        },                          
+                        {
+                            content_type: "text",
+                            head: "Tails",
+                            content: "In the outer Solar System, comets remain frozen and inactive and are extremely difficult or impossible to detect from Earth due to their small size. Statistical detections of inactive comet nuclei in the Kuiper belt have been reported from observations by the Hubble Space Telescope but these detections have been questioned. As a comet approaches the inner Solar System, solar radiation causes the volatile materials within the comet to vaporize and stream out of the nucleus, carrying dust away with them.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/comets_tails.png",
+                            content_description: "Diagram of a comet showing the dust trail, the dust tail, and the ion gas tail formed by solar wind - This is an artist's concept of a comet dust trail and dust tail. The trail can only be seen in the light of radiated heat. The dust trail is made of particles that are the size of sand grains and pebbles. They are large enough that they are not affected much by the Sun's light and solar wind. The dust tail, on the other hand, is made of grains the size of cigarette-smoke particles. These grains are blown out of the dust coma near the comet nucleus by the Sun's light. Credit: NASA Ames Research Center/K. Jobse, P. Jenniskens"
+                        },                          
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The streams of dust and gas each form their own distinct tail, pointing in slightly different directions. The tail of dust is left behind in the comet's orbit in such a manner that it often forms a curved tail called the type II or dust tail. At the same time, the ion or type I tail, made of gases, always points directly away from the Sun because this gas is more strongly affected by the solar wind than is dust, following magnetic field lines rather than an orbital trajectory. On occasions — such as when Earth passes through a comet's orbital plane, the antitail, pointing in the opposite direction to the ion and dust tails, may be seen.  The ion tail is formed as a result of the ionization by solar ultra-violet radiation of particles in the coma. Once the particles have been ionized, they attain a net positive electrical charge, which in turn gives rise to an \"induced magnetosphere\" around the comet. The comet and its induced magnetic field form an obstacle to outward flowing solar wind particles. Because the relative orbital speed of the comet and the solar wind is supersonic, a bow shock is formed upstream of the comet in the flow direction of the solar wind. In this bow shock, large concentrations of cometary ions (called \"pick-up ions\") congregate and act to \"load\" the solar magnetic field with plasma, such that the field lines \"drape\" around the comet forming the ion tail.",
+                            content_description: null
+                        },                          
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "If the ion tail loading is sufficient, the magnetic field lines are squeezed together to the point where, at some distance along the ion tail, magnetic reconnection occurs. This leads to a \"tail disconnection event\". This has been observed on a number of occasions, one notable event being recorded on 20 April 2007, when the ion tail of Encke's Comet was completely severed while the comet passed through a coronal mass ejection. This event was observed by the STEREO space probe. In 2013, ESA scientists reported that the ionosphere of the planet Venus streams outwards in a manner similar to the ion tail seen streaming from a comet under similar conditions.",
+                            content_description: null
+                        },                          
+                        {
+                            content_type: "text",
+                            head: "Jets",
+                            content: "Uneven heating can cause newly generated gases to break out of a weak spot on the surface of comet's nucleus, like a geyser. These streams of gas and dust can cause the nucleus to spin, and even split apart. In 2010 it was revealed dry ice (frozen carbon dioxide) can power jets of material flowing out of a comet nucleus. Infrared imaging of Hartley 2 shows such jets exiting and carrying with it dust grains into the coma.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/comets_jets.jpg",
+                            content_description: "Gas and snow jets of 103P/Hartley. Credit: NASA/JPL-Caltech/UMD/EPOXI Mission"
+                        },                         
+                    ]
+                },
+                {
+                    title: "Orbital Classifications",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Most comets are small Solar System bodies with elongated elliptical orbits that take them close to the Sun for a part of their orbit and then out into the further reaches of the Solar System for the remainder. Comets are often classified according to the length of their orbital periods: The longer the period the more elongated the ellipse.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Short Period Comets",
+                            content: "Periodic comets or short-period comets are generally defined as those having orbital periods of less than 200 years. They usually orbit more-or-less in the ecliptic plane in the same direction as the planets. Their orbits typically take them out to the region of the outer planets (Jupiter and beyond) at aphelion; for example, the aphelion of Halley's Comet is a little beyond the orbit of Neptune. Comets whose aphelia are near a major planet's orbit are called its \"family\". Such families are thought to arise from the planet capturing formerly long-period comets into shorter orbits. At the shorter orbital period extreme, Encke's Comet has an orbit that does not reach the orbit of Jupiter, and is known as an Encke-type comet. Short-period comets with orbital periods less than 20 years and low inclinations (up to 30 degrees) to the ecliptic are called traditional Jupiter-family comets (JFCs). Those like Halley, with orbital periods of between 20 and 200 years and inclinations extending from zero to more than 90 degrees, are called Halley-type comets (HTCs). As of 2023, 70 Encke-type comets, 100 HTCs, and 755 JFCs have been reported.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Because their elliptical orbits frequently take them close to the giant planets, comets are subject to further gravitational perturbations. Short-period comets have a tendency for their aphelia to coincide with a giant planet's semi-major axis, with the JFCs being the largest group. It is clear that comets coming in from the Oort cloud often have their orbits strongly influenced by the gravity of giant planets as a result of a close encounter. Jupiter is the source of the greatest perturbations, being more than twice as massive as all the other planets combined. These perturbations can deflect long-period comets into shorter orbital periods. Based on their orbital characteristics, short-period comets are thought to originate from the centaurs and the Kuiper belt/scattered disc — a disk of objects in the trans-Neptunian region—whereas the source of long-period comets is thought to be the far more distant spherical Oort cloud (after the Dutch astronomer Jan Hendrik Oort who hypothesized its existence).",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Long Period Comets",
+                            content: "Long-period comets have highly eccentric orbits and periods ranging from 200 years to thousands or even millions of years. An eccentricity greater than 1 when near perihelion does not necessarily mean that a comet will leave the Solar System. For example, Comet McNaught had a heliocentric osculating eccentricity of 1.000019 near its perihelion passage epoch in January 2007 but is bound to the Sun with roughly a 92,600-year orbit because the eccentricity drops below 1 as it moves farther from the Sun. The future orbit of a long-period comet is properly obtained when the osculating orbit is computed at an epoch after leaving the planetary region and is calculated with respect to the center of mass of the Solar System. By definition long-period comets remain gravitationally bound to the Sun; those comets that are ejected from the Solar System due to close passes by major planets are no longer properly considered as having \"periods\". The orbits of long-period comets take them far beyond the outer planets at aphelia, and the plane of their orbits need not lie near the ecliptic. Long-period comets such as C/1999 F1 and C/2017 T2 (PANSTARRS) can have aphelion distances of nearly 70,000 AU (0.34 pc; 1.1 ly) with orbital periods estimated around 6 million years.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Single-apparition or non-periodic comets are similar to long-period comets because they have parabolic or slightly hyperbolic trajectories when near perihelion in the inner Solar System. However, gravitational perturbations from giant planets cause their orbits to change. Single-apparition comets have a hyperbolic or parabolic osculating orbit which allows them to permanently exit the Solar System after a single pass of the Sun. The Sun's Hill sphere has an unstable maximum boundary of 230,000 AU (1.1 pc; 3.6 ly). Only a few hundred comets have been seen to reach a hyperbolic orbit (e > 1) when near perihelion that using a heliocentric unperturbed two-body best-fit suggests they may escape the Solar System.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "As of 2022, only two objects have been discovered with an eccentricity significantly greater than one: 1I/ʻOumuamua and 2I/Borisov, indicating an origin outside the Solar System. While ʻOumuamua, with an eccentricity of about 1.2, showed no optical signs of cometary activity during its passage through the inner Solar System in October 2017, changes to its trajectory — which suggests outgassing — indicate that it is probably a comet. On the other hand, 2I/Borisov, with an estimated eccentricity of about 3.36, has been observed to have the coma feature of comets, and is considered the first detected interstellar comet. Comet C/1980 E1 had an orbital period of roughly 7.1 million years before the 1982 perihelion passage, but a 1980 encounter with Jupiter accelerated the comet giving it the largest eccentricity (1.057) of any known solar comet with a reasonable observation arc. Comets not expected to return to the inner Solar System include C/1980 E1, C/2000 U5, C/2001 Q4 (NEAT), C/2009 R1, C/1956 R1, and C/2007 F1 (LONEOS).",
+                            content_description: null
+                        },                 
+                        {
+                            content_type: "text",
+                            head: "Exocomets",
+                            content: "Exocomets beyond the Solar System have been detected and may be common in the Milky Way. The first exocomet system detected was around Beta Pictoris, a very young A-type main-sequence star, in 1987. A total of 11 such exocomet systems have been identified as of 2013, using the absorption spectrum caused by the large clouds of gas emitted by comets when passing close to their star. After Kepler Space Telescope retired in October 2018, a new telescope called TESS Telescope has taken over Kepler's mission. Since the launch of TESS, astronomers have discovered the transits of comets around the star Beta Pictoris using a light curve from TESS. Since TESS has taken over, astronomers have since been able to better distinguish exocomets with the spectroscopic method. New planets are detected by the white light curve method which is viewed as a symmetrical dip in the charts readings when a planet overshadows its parent star. However, after further evaluation of these light curves, it has been discovered that the asymmetrical patterns of the dips presented are caused by the tail of a comet or of hundreds of comets.",
+                            content_description: null
+                        },                 
+                    ]
+                },
+                {
+                    title: "Connection To Meteor Showers",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "As a comet is heated during close passes to the Sun, outgassing of its icy components releases solid debris too large to be swept away by radiation pressure and the solar wind. If Earth's orbit sends it through that trail of debris, which is composed mostly of fine grains of rocky material, there is likely to be a meteor shower as Earth passes through. Denser trails of debris produce quick but intense meteor showers and less dense trails create longer but less intense showers. Typically, the density of the debris trail is related to how long ago the parent comet released the material. The Perseid meteor shower, for example, occurs every year between 9 and 13 August, when Earth passes through the orbit of Comet Swift-Tuttle. Halley's Comet is the source of the Orionid shower in October.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Spacecraft Missions",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "◽ The space shuttle Challenger was intended to do a study of Halley's Comet in 1986, but exploded shortly after being launched.",
+                            content_description: null 
+                        },                                         
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "◽ Deep Impact: Debate continues about how much ice is in a comet. In 2001, the Deep Space 1 spacecraft obtained high-resolution images of the surface of Comet Borrelly. It was found that the surface of comet Borrelly is hot and dry, with a temperature of between 26 and 71 °C (79 and 160 °F), and extremely dark, suggesting that the ice has been removed by solar heating and maturation, or is hidden by the soot-like material that covers Borrelly. In July 2005, the Deep Impact probe blasted a crater on Comet Tempel 1 to study its interior. The mission yielded results suggesting that the majority of a comet's water ice is below the surface and that these reservoirs feed the jets of vaporized water that form the coma of Tempel 1. Renamed EPOXI, it made a flyby of Comet Hartley 2 on 4 November 2010.",
+                            content_description: null 
+                        },                                         
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "◽ Ulysses: In 2007, the Ulysses probe unexpectedly passed through the tail of the comet C/2006 P1 (McNaught) which was discovered in 2006. Ulysses was launched in 1990 and the intended mission was for Ulysses to orbit around the sun for further study at all latitudes.",
+                            content_description: null 
+                        },                                         
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "◽ Stardust: Data from the Stardust mission show that materials retrieved from the tail of Wild 2 were crystalline and could only have been \"born in fire\", at extremely high temperatures of over 1,000 °C (1,830 °F). Although comets formed in the outer Solar System, radial mixing of material during the early formation of the Solar System is thought to have redistributed material throughout the proto-planetary disk. As a result, comets contain crystalline grains that formed in the early, hot inner Solar System. This is seen in comet spectra as well as in sample return missions. More recent still, the materials retrieved demonstrate that the \"comet dust resembles asteroid materials\". These new results have forced scientists to rethink the nature of comets and their distinction from asteroids.",
+                            content_description: null 
+                        },                                         
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "◽ Rosetta: The Rosetta probe orbited Comet Churyumov-Gerasimenko. On 12 November 2014, its lander Philae successfully landed on the comet's surface, the first time a spacecraft has ever landed on such an object in history.",
+                            content_description: null 
+                        },                                           
+                    ]
+                },
+                {
+                    title: "Watch To Learn More...",
+                    texts: [
+                        {
+                            content_type: "embed_video",
+                            content: "yB9HHyPpKds",
+                            content_description: "Comets are chunks of ice and rock that orbit the Sun. When they get near the Sun the ice turns into gas, forming the long tail, and also releases dust that forms a different tail. We've visited comets up close and found them to be lumpy, with vents on the surface that release the gas as ice sublimates. Eons ago, comets (and asteroids) may have brought a lot of water to Earth -- as well as the ingredients for life."
+                        },  
+                    ]
+                }
+            ],
+             summary: null,
+            dateUpdate: "2023-06-17"
+        },
+        meteors: {
+            name: "Meteors, Meteorites & Meteorides",
+            baseImgUrl: "/meteors_bg.webp",
+            baseText: "Meteors, Meteorites & Meteorides",
+            subText: "Celestial fireworks, streaks of light that grace our atmosphere.",
+            next: {
+                key: "Space Missions",
+                value: "/space_missions"
+            },
+            prev: {
+                key: "Comets",
+                value: "/asteroids_comets_meteors/comets"
+            },
+            subdata: null,
+            overview: {
+                name: "Meteors, Meteorites & Meteorides",
+                topBox: null,
+                paragraphs: [
+                    "What's that flash of light streaking across the sky? We call the objects that creates this brilliant effect by different names, depending on where it is.", "Meteoroids are what we call “space rocks” that range in size from dust grains to small asteroids. This term only applies when they're in space. Most are pieces of other, larger bodies that have been broken or blasted off. Some come from comets, others from asteroids, and some even come from the Moon and other planets. Some meteoroids are rocky, while others are metallic, or combinations of rock and metal.",
+                    "When meteoroids enter Earth's atmosphere, or that of another planet, like Mars, at high speed and burn up, they're called meteors. This is also when we refer to them as “shooting stars.” Sometimes meteors can even appear brighter than Venus -- that's when we call them “fireballs.” Scientists estimate that about 48.5 tons (44,000 kilograms) of meteoritic material falls on Earth each day.", "When a meteoroid survives its trip through the atmosphere and hits the ground, it's called a meteorite."
+                ],
+                iframeLink: {
+                    type: "image",
+                    content: "/meteors_anim.gif" ,
+                    content_description: "Animated illustration of the same Meteoroid, Meteor, and Meteorite - A meteoroid shown entering the atmosphere, causing a visible meteor and hitting the Earth's surface as a meteorite."
+                },
+                facts_12: null
+            },
+            inDepth: [
+                {
+                    title: "Introduction",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "A comet is an icy, small Solar System body that warms and begins to release gases when passing close to the Sun, a process called outgassing. This produces an extended, gravitationally unbound atmosphere or coma surrounding the nucleus, and sometimes a tail of gas and dust gas blown out from the coma. These phenomena are due to the effects of solar radiation and the outstreaming solar wind plasma acting upon the nucleus of the comet. Comet nuclei range from a few hundred meters to tens of kilometers across and are composed of loose collections of ice, dust, and small rocky particles. The coma may be up to 15 times Earth's diameter, while the tail may stretch beyond one astronomical unit. If sufficiently close and bright, a comet may be seen from Earth without the aid of a telescope and can subtend an arc of up to 30° (60 Moons) across the sky. Comets have been observed and recorded since ancient times by many cultures and religions.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Comets usually have highly eccentric elliptical orbits, and they have a wide range of orbital periods, ranging from several years to potentially several millions of years. Short-period comets originate in the Kuiper belt or its associated scattered disc, which lie beyond the orbit of Neptune. Long-period comets are thought to originate in the Oort cloud, a spherical cloud of icy bodies extending from outside the Kuiper belt to halfway to the nearest star. Long-period comets are set in motion towards the Sun by gravitational perturbations from passing stars and the galactic tide. Hyperbolic comets may pass once through the inner Solar System before being flung to interstellar space. The appearance of a comet is called an apparition.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/comets_hale_bopp.jpg",
+                            content_description: "Image of comet C/1995 O1 (Hale-Bopp), taken on 1997 April 04, with a 225mm f/2.0 Schmidt Camera (focal length 450mm) on Kodak Panther 400 color slide film with an exposure time of 10 minutes. The field shown is about 6.5°x6.5°. At full resolution, the stars in the image appear slightly elongated, as the camera tracked the comet during the exposure. Credit: E. Kolmhofer, H. Raab; Johannes-Kepler-Observatory, Linz, Austria."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Extinct comets that have passed close to the Sun many times have lost nearly all of their volatile ices and dust and may come to resemble small asteroids. Asteroids are thought to have a different origin from comets, having formed inside the orbit of Jupiter rather than in the outer Solar System. However, the discovery of main-belt comets and active centaur minor planets has blurred the distinction between asteroids and comets. In the early 21st century, the discovery of some minor bodies with long-period comet orbits, but characteristics of inner solar system asteroids, were called Manx comets. They are still classified as comets, such as C/2014 S3 (PANSTARRS). Twenty-seven Manx comets were found from 2013 to 2017.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "As of November 2021 there are 4,584 known comets. However, this represents a very small fraction of the total potential comet population, as the reservoir of comet-like bodies in the outer Solar System (in the Oort cloud) is about one trillion. Roughly one comet per year is visible to the naked eye, though many of those are faint and unspectacular. Particularly bright examples are called \"great comets\". Comets have been visited by uncrewed probes such as NASA's Deep Impact, which blasted a crater on Comet Tempel 1 to study its interior, and the European Space Agency's Rosetta, which became the first to land a robotic spacecraft on a comet.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Nomenclature",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The word comet derives from the Old English cometa from the Latin comēta or comētēs. That, in turn, is a romanization of the Greek κομήτης 'wearing long hair', and the Oxford English Dictionary notes that the term (ἀστὴρ) κομήτης already meant 'long-haired star, comet' in Greek. Κομήτης was derived from κομᾶν (koman) 'to wear the hair long', which was itself derived from κόμη (komē) 'the hair of the head' and was used to mean 'the tail of a comet'. The astronomical symbol for comets, \"☄\", consisting of a small disc with three hairlike extensions.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Comet naming can be complicated. Comets are generally named for their discoverer — either a person or a spacecraft. This International Astronomical Union guideline was developed only in the last century. For example, comet Shoemaker-Levy 9 was so named because it was the ninth short-periodic comet discovered by Eugene and Carolyn Shoemaker and David Levy. Since spacecraft are very effective at spotting comets many comets have LINEAR, SOHO or WISE in their names.",
+                            content_description: null
+                        },
+                    ]
+                },
+                { 
+                    title: "Where Do Comets Come From?",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "As theorized by astronomer Gerard Kuiper in 1951, a disc-like belt of icy bodies exists beyond Neptune, where a population of dark comets orbits the Sun in the realm of Pluto. These icy objects, occasionally pushed by gravity into orbits bringing them closer to the Sun, become the so-called short-period comets. Taking less than 200 years to orbit the Sun, in many cases their appearance is predictable because they have passed by before. Less predictable are long-period comets, many of which arrive from a region called the Oort Cloud about 100,000 astronomical units (that is, about 100,000 times the distance between Earth and the Sun) from the Sun. These Oort Cloud comets can take as long as 30 million years to complete one trip around the Sun.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Each comet has a tiny frozen part, called a nucleus, often no larger than a few kilometers across. The nucleus contains icy chunks, frozen gases with bits of embedded dust. A comet warms up as it nears the Sun and develops an atmosphere, or coma. The Sun's heat causes the comet's ices to change to gases so the coma gets larger. The coma may extend hundreds of thousands of kilometers. The pressure of sunlight and high-speed solar particles (solar wind) can blow the coma dust and gas away from the Sun, sometimes forming a long, bright tail. Comets actually have two tails―a dust tail and an ion (gas) tail.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Most comets travel a safe distance from the Sun―comet Halley comes no closer than 89 million kilometers (55 million miles). However, some comets, called sungrazers, crash straight into the Sun or get so close that they break up and evaporate.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Physical Characteristics",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: "Nucleus",
+                            content: "The solid, core structure of a comet is known as the nucleus. Cometary nuclei are composed of an amalgamation of rock, dust, water ice, and frozen carbon dioxide, carbon monoxide, methane, and ammonia.[16] As such, they are popularly described as \"dirty snowballs\" after Fred Whipple's model. Comets with a higher dust content have been called \"icy dirtballs\". The term \"icy dirtballs\" arose after observation of Comet 9P/Tempel 1 collision with an \"impactor\" probe sent by NASA Deep Impact mission in July 2005. Research conducted in 2014 suggests that comets are like \"deep fried ice cream\", in that their surfaces are formed of dense crystalline ice mixed with organic compounds, while the interior ice is colder and less dense.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/comets_hartley.jpg",
+                            content_description: "Nucleus of 103P/Hartley as imaged during a spacecraft flyby. The nucleus is about 2 km in length. Image of Comet Hartley 2. This image was captured by NASA's EPOXI mission between Nov. 3 and 4, 2010, during the spacecraft's flyby of comet Hartley 2. It was captured using the spacecraft's Medium-Resolution Instrument. Credit: NASA/JPL-Caltech/UMD"
+                        },                          
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The outer surfaces of cometary nuclei have a very low albedo, making them among the least reflective objects found in the Solar System. The Giotto space probe found that the nucleus of Halley's Comet (1P/Halley) reflects about four percent of the light that falls on it. Roughly six percent of the near-Earth asteroids are thought to be the extinct nuclei of comets that no longer experience outgassing, including 14827 Hypnos and 3552 Don Quixote.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Coma",
+                            content: "The streams of dust and gas thus released form a huge and extremely thin atmosphere around the comet called the \"coma\". The force exerted on the coma by the Sun's radiation pressure and solar wind cause an enormous \"tail\" to form pointing away from the Sun. The coma is generally made of water and dust, with water making up to 90% of the volatiles that outflow from the nucleus when the comet is within 3 to 4 astronomical units (450,000,000 to 600,000,000 km; 280,000,000 to 370,000,000 mi) of the Sun. The H2O parent molecule is destroyed primarily through photodissociation and to a much smaller extent photoionization, with the solar wind playing a minor role in the destruction of water compared to photochemistry. Larger dust particles are left along the comet's orbital path whereas smaller particles are pushed away from the Sun into the comet's tail by light pressure.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/comets_ISON.jpg",
+                            content_description: "Hubble image of Comet ISON shortly before perihelion - The round coma around ISON's nucleus is blue and the tail has a redder hue. Ice and gas in the coma reflect blue light from the Sun, while dust grains in the tail reflect more red light than blue light. This is the most colour separation seen so far in ISON and the comet, nearer than ever to the Sun, is brighter and more structured than ever before. Comet ISON will come closest to the Sun on 28 November 2013, a point in its orbit known as perihelion. Comet ISON was fairly quiet until 1 November 2013, when it experienced an outburst that doubled the amount of gas the comet emitted. Credit: ESA/Hubble"
+                        },                          
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Although the solid nucleus of comets is generally less than 60 kilometers (37 mi) across, the coma may be thousands or millions of kilometers across, sometimes becoming larger than the Sun. For example, about a month after an outburst in October 2007, comet 17P/Holmes briefly had a tenuous dust atmosphere larger than the Sun. Even though the coma can become quite large, its size can decrease about the time it crosses the orbit of Mars around 1.5 astronomical units (220,000,000 km; 140,000,000 mi) from the Sun. At this distance the solar wind becomes strong enough to blow the gas and dust away from the coma, and in doing so enlarging the tail. Ion tails have been observed to extend one astronomical unit (150 million km) or more.",
+                            content_description: null
+                        },                      
+                        {
+                            content_type: "text",
+                            head: "Bow Shock",
+                            content: "Bow shocks form as a result of the interaction between the solar wind and the cometary ionosphere, which is created by the ionization of gases in the coma. As the comet approaches the Sun, increasing outgassing rates cause the coma to expand, and the sunlight ionizes gases in the coma. When the solar wind passes through this ion coma, the bow shock appears. The first observations were made in the 1980s and 1990s as several spacecraft flew by comets 21P/Giacobini-Zinner, 1P/Halley, and 26P/Grigg-Skjellerup. It was then found that the bow shocks at comets are wider and more gradual than the sharp planetary bow shocks seen at, for example, Earth. These observations were all made near perihelion when the bow shocks already were fully developed.",
+                            content_description: null
+                        },                          
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The Rosetta spacecraft observed the bow shock at comet 67P/Churyumov-Gerasimenko at an early stage of bow shock development when the outgassing increased during the comet's journey toward the Sun. This young bow shock was called the \"infant bow shock\". The infant bow shock is asymmetric and, relative to the distance to the nucleus, wider than fully developed bow shocks.",
+                            content_description: null
+                        },                          
+                        {
+                            content_type: "text",
+                            head: "Tails",
+                            content: "In the outer Solar System, comets remain frozen and inactive and are extremely difficult or impossible to detect from Earth due to their small size. Statistical detections of inactive comet nuclei in the Kuiper belt have been reported from observations by the Hubble Space Telescope but these detections have been questioned. As a comet approaches the inner Solar System, solar radiation causes the volatile materials within the comet to vaporize and stream out of the nucleus, carrying dust away with them.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/comets_tails.png",
+                            content_description: "Diagram of a comet showing the dust trail, the dust tail, and the ion gas tail formed by solar wind - This is an artist's concept of a comet dust trail and dust tail. The trail can only be seen in the light of radiated heat. The dust trail is made of particles that are the size of sand grains and pebbles. They are large enough that they are not affected much by the Sun's light and solar wind. The dust tail, on the other hand, is made of grains the size of cigarette-smoke particles. These grains are blown out of the dust coma near the comet nucleus by the Sun's light. Credit: NASA Ames Research Center/K. Jobse, P. Jenniskens"
+                        },                          
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The streams of dust and gas each form their own distinct tail, pointing in slightly different directions. The tail of dust is left behind in the comet's orbit in such a manner that it often forms a curved tail called the type II or dust tail. At the same time, the ion or type I tail, made of gases, always points directly away from the Sun because this gas is more strongly affected by the solar wind than is dust, following magnetic field lines rather than an orbital trajectory. On occasions — such as when Earth passes through a comet's orbital plane, the antitail, pointing in the opposite direction to the ion and dust tails, may be seen.  The ion tail is formed as a result of the ionization by solar ultra-violet radiation of particles in the coma. Once the particles have been ionized, they attain a net positive electrical charge, which in turn gives rise to an \"induced magnetosphere\" around the comet. The comet and its induced magnetic field form an obstacle to outward flowing solar wind particles. Because the relative orbital speed of the comet and the solar wind is supersonic, a bow shock is formed upstream of the comet in the flow direction of the solar wind. In this bow shock, large concentrations of cometary ions (called \"pick-up ions\") congregate and act to \"load\" the solar magnetic field with plasma, such that the field lines \"drape\" around the comet forming the ion tail.",
+                            content_description: null
+                        },                          
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "If the ion tail loading is sufficient, the magnetic field lines are squeezed together to the point where, at some distance along the ion tail, magnetic reconnection occurs. This leads to a \"tail disconnection event\". This has been observed on a number of occasions, one notable event being recorded on 20 April 2007, when the ion tail of Encke's Comet was completely severed while the comet passed through a coronal mass ejection. This event was observed by the STEREO space probe. In 2013, ESA scientists reported that the ionosphere of the planet Venus streams outwards in a manner similar to the ion tail seen streaming from a comet under similar conditions.",
+                            content_description: null
+                        },                          
+                        {
+                            content_type: "text",
+                            head: "Jets",
+                            content: "Uneven heating can cause newly generated gases to break out of a weak spot on the surface of comet's nucleus, like a geyser. These streams of gas and dust can cause the nucleus to spin, and even split apart. In 2010 it was revealed dry ice (frozen carbon dioxide) can power jets of material flowing out of a comet nucleus. Infrared imaging of Hartley 2 shows such jets exiting and carrying with it dust grains into the coma.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/comets_jets.png",
+                            content_description: "Gas and snow jets of 103P/Hartley. Credit: NASA/JPL-Caltech/UMD/EPOXI Mission"
+                        },                         
+                    ]
+                },
+                {
+                    title: "Orbital Classifications",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Most comets are small Solar System bodies with elongated elliptical orbits that take them close to the Sun for a part of their orbit and then out into the further reaches of the Solar System for the remainder. Comets are often classified according to the length of their orbital periods: The longer the period the more elongated the ellipse.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Short Period Comets",
+                            content: "Periodic comets or short-period comets are generally defined as those having orbital periods of less than 200 years. They usually orbit more-or-less in the ecliptic plane in the same direction as the planets. Their orbits typically take them out to the region of the outer planets (Jupiter and beyond) at aphelion; for example, the aphelion of Halley's Comet is a little beyond the orbit of Neptune. Comets whose aphelia are near a major planet's orbit are called its \"family\". Such families are thought to arise from the planet capturing formerly long-period comets into shorter orbits. At the shorter orbital period extreme, Encke's Comet has an orbit that does not reach the orbit of Jupiter, and is known as an Encke-type comet. Short-period comets with orbital periods less than 20 years and low inclinations (up to 30 degrees) to the ecliptic are called traditional Jupiter-family comets (JFCs). Those like Halley, with orbital periods of between 20 and 200 years and inclinations extending from zero to more than 90 degrees, are called Halley-type comets (HTCs). As of 2023, 70 Encke-type comets, 100 HTCs, and 755 JFCs have been reported.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Because their elliptical orbits frequently take them close to the giant planets, comets are subject to further gravitational perturbations. Short-period comets have a tendency for their aphelia to coincide with a giant planet's semi-major axis, with the JFCs being the largest group. It is clear that comets coming in from the Oort cloud often have their orbits strongly influenced by the gravity of giant planets as a result of a close encounter. Jupiter is the source of the greatest perturbations, being more than twice as massive as all the other planets combined. These perturbations can deflect long-period comets into shorter orbital periods. Based on their orbital characteristics, short-period comets are thought to originate from the centaurs and the Kuiper belt/scattered disc — a disk of objects in the trans-Neptunian region—whereas the source of long-period comets is thought to be the far more distant spherical Oort cloud (after the Dutch astronomer Jan Hendrik Oort who hypothesized its existence).",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Long Period Comets",
+                            content: "Long-period comets have highly eccentric orbits and periods ranging from 200 years to thousands or even millions of years. An eccentricity greater than 1 when near perihelion does not necessarily mean that a comet will leave the Solar System. For example, Comet McNaught had a heliocentric osculating eccentricity of 1.000019 near its perihelion passage epoch in January 2007 but is bound to the Sun with roughly a 92,600-year orbit because the eccentricity drops below 1 as it moves farther from the Sun. The future orbit of a long-period comet is properly obtained when the osculating orbit is computed at an epoch after leaving the planetary region and is calculated with respect to the center of mass of the Solar System. By definition long-period comets remain gravitationally bound to the Sun; those comets that are ejected from the Solar System due to close passes by major planets are no longer properly considered as having \"periods\". The orbits of long-period comets take them far beyond the outer planets at aphelia, and the plane of their orbits need not lie near the ecliptic. Long-period comets such as C/1999 F1 and C/2017 T2 (PANSTARRS) can have aphelion distances of nearly 70,000 AU (0.34 pc; 1.1 ly) with orbital periods estimated around 6 million years.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Single-apparition or non-periodic comets are similar to long-period comets because they have parabolic or slightly hyperbolic trajectories when near perihelion in the inner Solar System. However, gravitational perturbations from giant planets cause their orbits to change. Single-apparition comets have a hyperbolic or parabolic osculating orbit which allows them to permanently exit the Solar System after a single pass of the Sun. The Sun's Hill sphere has an unstable maximum boundary of 230,000 AU (1.1 pc; 3.6 ly). Only a few hundred comets have been seen to reach a hyperbolic orbit (e > 1) when near perihelion that using a heliocentric unperturbed two-body best-fit suggests they may escape the Solar System.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "As of 2022, only two objects have been discovered with an eccentricity significantly greater than one: 1I/ʻOumuamua and 2I/Borisov, indicating an origin outside the Solar System. While ʻOumuamua, with an eccentricity of about 1.2, showed no optical signs of cometary activity during its passage through the inner Solar System in October 2017, changes to its trajectory — which suggests outgassing — indicate that it is probably a comet. On the other hand, 2I/Borisov, with an estimated eccentricity of about 3.36, has been observed to have the coma feature of comets, and is considered the first detected interstellar comet. Comet C/1980 E1 had an orbital period of roughly 7.1 million years before the 1982 perihelion passage, but a 1980 encounter with Jupiter accelerated the comet giving it the largest eccentricity (1.057) of any known solar comet with a reasonable observation arc. Comets not expected to return to the inner Solar System include C/1980 E1, C/2000 U5, C/2001 Q4 (NEAT), C/2009 R1, C/1956 R1, and C/2007 F1 (LONEOS).",
+                            content_description: null
+                        },                 
+                        {
+                            content_type: "text",
+                            head: "Exocomets",
+                            content: "Exocomets beyond the Solar System have been detected and may be common in the Milky Way. The first exocomet system detected was around Beta Pictoris, a very young A-type main-sequence star, in 1987. A total of 11 such exocomet systems have been identified as of 2013, using the absorption spectrum caused by the large clouds of gas emitted by comets when passing close to their star. After Kepler Space Telescope retired in October 2018, a new telescope called TESS Telescope has taken over Kepler's mission. Since the launch of TESS, astronomers have discovered the transits of comets around the star Beta Pictoris using a light curve from TESS. Since TESS has taken over, astronomers have since been able to better distinguish exocomets with the spectroscopic method. New planets are detected by the white light curve method which is viewed as a symmetrical dip in the charts readings when a planet overshadows its parent star. However, after further evaluation of these light curves, it has been discovered that the asymmetrical patterns of the dips presented are caused by the tail of a comet or of hundreds of comets.",
+                            content_description: null
+                        },                 
+                    ]
+                },
+                {
+                    title: "Connection To Meteor Showers",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "As a comet is heated during close passes to the Sun, outgassing of its icy components releases solid debris too large to be swept away by radiation pressure and the solar wind. If Earth's orbit sends it through that trail of debris, which is composed mostly of fine grains of rocky material, there is likely to be a meteor shower as Earth passes through. Denser trails of debris produce quick but intense meteor showers and less dense trails create longer but less intense showers. Typically, the density of the debris trail is related to how long ago the parent comet released the material. The Perseid meteor shower, for example, occurs every year between 9 and 13 August, when Earth passes through the orbit of Comet Swift-Tuttle. Halley's Comet is the source of the Orionid shower in October.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Spacecraft Missions",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "◽ The space shuttle Challenger was intended to do a study of Halley's Comet in 1986, but exploded shortly after being launched.",
+                            content_description: null 
+                        },                                         
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "◽ Deep Impact: Debate continues about how much ice is in a comet. In 2001, the Deep Space 1 spacecraft obtained high-resolution images of the surface of Comet Borrelly. It was found that the surface of comet Borrelly is hot and dry, with a temperature of between 26 and 71 °C (79 and 160 °F), and extremely dark, suggesting that the ice has been removed by solar heating and maturation, or is hidden by the soot-like material that covers Borrelly. In July 2005, the Deep Impact probe blasted a crater on Comet Tempel 1 to study its interior. The mission yielded results suggesting that the majority of a comet's water ice is below the surface and that these reservoirs feed the jets of vaporized water that form the coma of Tempel 1. Renamed EPOXI, it made a flyby of Comet Hartley 2 on 4 November 2010.",
+                            content_description: null 
+                        },                                         
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "◽ Ulysses: In 2007, the Ulysses probe unexpectedly passed through the tail of the comet C/2006 P1 (McNaught) which was discovered in 2006. Ulysses was launched in 1990 and the intended mission was for Ulysses to orbit around the sun for further study at all latitudes.",
+                            content_description: null 
+                        },                                         
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "◽ Stardust: Data from the Stardust mission show that materials retrieved from the tail of Wild 2 were crystalline and could only have been \"born in fire\", at extremely high temperatures of over 1,000 °C (1,830 °F). Although comets formed in the outer Solar System, radial mixing of material during the early formation of the Solar System is thought to have redistributed material throughout the proto-planetary disk. As a result, comets contain crystalline grains that formed in the early, hot inner Solar System. This is seen in comet spectra as well as in sample return missions. More recent still, the materials retrieved demonstrate that the \"comet dust resembles asteroid materials\". These new results have forced scientists to rethink the nature of comets and their distinction from asteroids.",
+                            content_description: null 
+                        },                                         
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "◽ Rosetta: The Rosetta probe orbited Comet Churyumov-Gerasimenko. On 12 November 2014, its lander Philae successfully landed on the comet's surface, the first time a spacecraft has ever landed on such an object in history.",
+                            content_description: null 
+                        },                                           
+                    ]
+                },
+                {
+                    title: "Watch To Learn More...",
+                    texts: [
+                        {
+                            content_type: "embed_video",
+                            content: "yB9HHyPpKds",
+                            content_description: "Comets are chunks of ice and rock that orbit the Sun. When they get near the Sun the ice turns into gas, forming the long tail, and also releases dust that forms a different tail. We've visited comets up close and found them to be lumpy, with vents on the surface that release the gas as ice sublimates. Eons ago, comets (and asteroids) may have brought a lot of water to Earth -- as well as the ingredients for life."
+                        },  
+                    ]
+                }
+            ],
+             summary: null,
+            dateUpdate: "2023-06-17"
         },
     }
 }

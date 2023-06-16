@@ -22,8 +22,8 @@ const Moonlist = ({ data }) => {
           filterData.map((elem, idx) => { 
             if (idx < maxLoad) {
               return (
-                <Link href={elem.href} className="visualDisplayUnit" key={idx * Math.random()} title={`${elem.name}`}>
-                  <div className="visualDisplay">
+                <div className="visualDisplayUnit" key={idx * Math.random()} title={`${elem.name}`}>
+                  <Link href={elem.href} className="visualDisplay">
                     {
                       elem.imageSrc ? (
                         <img src={elem.imageSrc} alt={`${elem.name}`} />
@@ -31,8 +31,8 @@ const Moonlist = ({ data }) => {
                       <i className="icofont-image"></i>
                     }
                     <h1>{elem.name}</h1>
-                  </div>
-                </Link>
+                  </Link>
+                </div>
               )
             } else {
               return

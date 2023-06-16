@@ -13,7 +13,7 @@ import Link from 'next/link';
 import Planets_Sect from '../../components/solarSystem/Planets_Sect';
 
 
-const Pluto = ({ data }) => {
+const SmallLinkValue = ({ data, param }) => {
     const [showExit, setShowExit] = useState(false);
     const router = useRouter();
     const ctx = useContext(themeContext);
@@ -36,73 +36,40 @@ const Pluto = ({ data }) => {
     }, [router.events]);
 
     const planetsListData = {
-        title: "Planetary Moons",
+        title: "Small Bodies",
         the_data: [
             {
-               id: "satelliteParent01",
-               color: "#6f6f6f",
-               name: "Earth's Moon",
-               note: "The fifth largest moon in the solar system, Earth's moon is the only place beyond Earth where humans have set foot.",
-               image_src: "/moon_poster_A.jpg",
-               link: "/moons/earth",
-               icon:  null
-            },
-            {
-                id: "satelliteParent02",
-               color: "#b68e2a",
-               name: "Mars Moons",
-               note: "Mars' moons are among the smallest in the solar system. Mars has two moons, Phobos and Deimos. Both are believed to be captured asteroids.",
-               image_src: "/phobosMoons_bg.jpg",
-               link: "/moons/mars",
-               icon: null
-            },
-            {
-                id: "satelliteParent03",
-               color: "#ECA730",
-               name: "Jupiter Moons",
-               note: "Jupiter's  moons showcase a range of fascinating features, including volcanic activity, subsurface oceans, and ancient cratered terrains, making them prime targets for potential habitats for extraterrestrial life.",
-               image_src: "/io_poster_A.jpg",
-               link: "/moons/jupiter",
-               icon:  null
-            },
-            {
-                id: "satelliteParent04",
-               color: "#A2C4D9",
-               name: "Saturn Moons",
-               note: "The moons of Saturn are numerous and diverse, ranging from tiny moonlets only tens of meters across to the enormous Titan, which is larger than the planet Mercury.",
-               image_src: "/enceladus_poster_A.jpg",
-               link: "/moons/saturn",
-               icon: null
-            },
-            {
-                id: "satelliteParent05",
-               color: "#717171",
-               name: "Uranus Moons",
-               note: "Uranus' moons are named after characters that appear in, or are mentioned in, the works of William Shakespeare and Alexander Pope.",
-               image_src: "/umbriel_poster_A.jpg",
-               link: "/moons/uranus",
-               icon:  null
-            },
-            {
-                id: "satelliteParent06",
+               id: "smallBody01",
                color: "#acc7df",
-               name: "Neptune Moons",
-               note: "The planet Neptune has 14 known moons, which are named for minor water deities in Greek mythology. By far the largest of them is Triton.",
-               image_src: "/triton_poster_A.jpg",
-               link: "/moons/neptune",
-               icon: null
+               name: "Asteroids",
+               note: "Small celestial rocky objects that orbit the Sun, ranging in size from small boulders to dwarf planets.",
+               image_src: "/asteroids_poster_A.jpg",
+               link: "/asteroids_comets_meteors/asteroids",
+               icon:  param === "asteroids" ? "icofont-readernaut": null
             },
             {
-                id: "satelliteParent07",
-               color: "#8E3C2D",
-               name: "Pluto Moons",
-               note: "Charon, the largest, is mutually tidally locked with Pluto, and is massive enough that Pluto-Charon is sometimes considered a double dwarf planet.",
-               image_src: "/plutoXcharon.jpg",
-               link: "/moons/pluto",
-               icon: "icofont-readernaut"
+                id: "smallBody02",
+               color: "#A2C4D9",
+               name: "Comets",
+               note: "Comets are cosmic wanderers, composed of ice, dust, and organic compounds. When they approach the Sun, they develop a glowing coma and a beautiful tail, showcasing their ethereal beauty.",
+               image_src: "/comets_poster_B.jpg",
+               link: "/asteroids_comets_meteors/comets",
+               icon: param === "comets" ? "icofont-readernaut": null
             },
+            {
+                id: "smallBody03",
+               color: "#717171",
+               name: "Meteors",
+               note: "Celestial fireworks, streaks of light that grace our atmosphere.",
+               image_src: "/meteors_poster_A.webp",
+               link: "/asteroids_comets_meteors/meteors",
+               icon:  param === "meteors" ? "icofont-readernaut": null
+            },
+            
         ]
     }
+
+    
 
     return (
         <div className='solarsystemHomePage' onClick={(e) => {handleToggles( e, setShowOtherPageLinks)}}>
@@ -128,14 +95,30 @@ const Pluto = ({ data }) => {
                         )
                     }
                     {
-                        data.moonList && (
+                        data.inDepth && (
                             <p 
-                                onClick={() => {setNavOptions("moonList")}}
-                                className={navOption === "moonList" ? 'activeNavOption' : ""}
+                                onClick={() => {setNavOptions("indepth")}}
+                                className={navOption === "indepth" ? 'activeNavOption' : ""}
                             >
-                                Moon List
+                                In Depth
                                 {
-                                    navOption === "moonList" && (
+                                    navOption === "indepth" && (
+                                        <motion.span layoutId="pointer" className="navMarker"></motion.span>
+                                    ) 
+                                }
+                            </p>
+
+                        )
+                    }
+                    {
+                        data.summary && (
+                            <p 
+                                onClick={() => {setNavOptions("summary")}}
+                                className={navOption === "summary" ? 'activeNavOption' : ""}
+                            >
+                                Summary
+                                {
+                                    navOption === "summary" && (
                                         <motion.span layoutId="pointer" className="navMarker"></motion.span>
                                     ) 
                                 }
@@ -146,8 +129,9 @@ const Pluto = ({ data }) => {
                 </div>
             </div>
 
-            <MainSect data={data} navOption={navOption} factor={41}/>
+            <MainSect data={data} navOption={navOption} factor={56}/>
             <Planets_Sect planetsListData={planetsListData}/>
+
 
             <div className="nextPrevSect">
                 {
@@ -181,14 +165,17 @@ const Pluto = ({ data }) => {
     )
 }
 
-export default Pluto
+export default SmallLinkValue
 
-export async function getServerSideProps ( ) {
+export async function getServerSideProps (context) {
     const linksDat = linksData;
+    const { params } = context;
+    const { smallBodyValue } = params;
 
     return {
         props: {
-            data: linksDat.moons.pluto
+            data: linksDat.asteroids_comets_meteors[smallBodyValue],
+            param: smallBodyValue
         }
     }
 }

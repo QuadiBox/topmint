@@ -61,7 +61,13 @@ const OverviewSect = ({ data }) => {
                                         <iframe allowFullScreen allow='fullscreen' src={data?.iframeLink.content} frameBorder="0" 
                                         scrolling='no' width="900" height="600"></iframe>
                                     </motion.div>
-                                    <p><i className="icofont-info-square"> </i>   Interact with this interface to explore a relatively immersive 3d view of the Solar System. Click on any of the element to get a better view of it. Scroll up/down(pinch up/down) to zoom in/out.</p>
+                                    {
+                                        data?.iframeLink.content_description === "" ? (
+                                            <p><i className="icofont-info-square"> </i>   Interact with this interface to explore a relatively immersive 3d view of the Solar System. Click on any of the element to get a better view of it. Scroll up/down(pinch up/down) to zoom in/out.</p>
+                                        ) : (
+                                            <p className="imageDetails">{data?.iframeLink.content_description}</p>
+                                        )
+                                    }
                                 </>
                             )
                         }

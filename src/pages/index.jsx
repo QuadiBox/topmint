@@ -328,30 +328,37 @@ export async function getServerSideProps () {
 
   const ddmmyyyy = year + "-" + pad(month + 1) + "-" + pad(dayOfMonth);
 
-  const promise = new Promise((resolve, reject) => {
-    const response =  fetch(`https://api.nasa.gov/planetary/apod?api_key=enHpDWxtD5yefBSZ24PQey3jlAkE24zKrHDl6Eq4&date=${ddmmyyyy}`);
-    const data =  response.json();
+  const response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=enHpDWxtD5yefBSZ24PQey3jlAkE24zKrHDl6Eq4&date=${ddmmyyyy}`);
+  const  result =  await response.json();
 
-    setTimeout(() => {
-      if (response.status == 200) {
-        resolve(response.json());
-      } else {
-        const error = new Error('An error occurred');
-        reject(error);
-      }
-    }, 9000);
-  });
+  // const promise = new Promise((resolve, reject) => {
+  //   const response =  fetch(`https://api.nasa.gov/planetary/apod?api_key=enHpDWxtD5yefBSZ24PQey3jlAkE24zKrHDl6Eq4&date=${ddmmyyyy}`);
+  //   const data =  response.json();
 
-  try {
-    const result = await promise;
-    return {
-      props: { data: result },
-    };
-  } catch (error) {
-    return {
-      props: { error: error.message },
-    };
-  }
+  //   setTimeout(() => {
+  //     if (response.status == 200) {
+  //       resolve(response.json());
+  //     } else {
+  //       const error = new Error('An error occurred');
+  //       reject(error);
+  //     }
+  //   }, 9000);
+  // });
+
+  // try {
+  //   const result = await promise;
+  //   return {
+  //     props: { data: result },
+  //   };
+  // } catch (error) {
+  //   return {
+  //     props: { error: error.message },
+  //   };
+  // }
+
+  return {
+    props: { data: result },
+  };
 
 }
 

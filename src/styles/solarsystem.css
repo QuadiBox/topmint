@@ -1053,6 +1053,7 @@
   align-items: center;
   justify-content: center;
   color: var(--secBg-clr);
+  pointer-events: none;
 }
 
 .visualDisplay h1 {
@@ -1076,7 +1077,6 @@
 
 .moonList {
   width: 100%;
-  /* padding-top: 0.5em; */
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -1100,7 +1100,7 @@
   cursor: pointer;
   overflow-x: hidden;
 
-  transition: width 300ms cubic-bezier(0.175, 0.885, 0.32, 1.05),
+  transition: width 300ms cubic-bezier(0.175, 0.885, 0.32, 1.07),
     border-color 300ms ease;
 }
 
