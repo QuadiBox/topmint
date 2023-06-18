@@ -11,6 +11,8 @@ import Footer from '../../components/footer';
 import MainSect from '../../components/solarSystem/MainSect';
 import Link from 'next/link';
 import Planets_Sect from '../../components/solarSystem/Planets_Sect';
+import ScrollButton from '../../components/ScrollButton';
+
 
 const Earth = ({ data }) => {
     const [showExit, setShowExit] = useState(false);
@@ -18,6 +20,8 @@ const Earth = ({ data }) => {
     const ctx = useContext(themeContext);
     const { setShowOtherPageLinks } = ctx;
     const [ navOption, setNavOptions ] = useState("overview");
+    const [ inview, setInview ] = useState(true);
+
 
     useEffect(() => {
         const handleBeforeRouteChange = (url) => {
@@ -106,7 +110,7 @@ const Earth = ({ data }) => {
   return (
     <div className='solarsystemHomePage' onClick={(e) => {handleToggles( e, setShowOtherPageLinks)}}>
         <Navbar/>
-        <Sect1 data={data}/>
+        <Sect1 data={data} setInview={setInview}/>
 
         <div className="navigationSelect">
             <div className="navOptionsCntn">
@@ -169,6 +173,13 @@ const Earth = ({ data }) => {
 
         
         <Footer bg={"transparent"}/>
+        <AnimatePresence mode='wait'>
+            {
+                navOption === "indepth" && !inview && (
+                    <ScrollButton/>   
+                )
+            }
+        </AnimatePresence>
 
         <TransitionPage animateState={"initial"}/>
         <AnimatePresence mode='wait'>

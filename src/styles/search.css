@@ -658,6 +658,7 @@
   margin-top: 5px;
   font-size: 0.9em;
   font-weight: 500;
+  color: var(--text-clr1);
 }
 
 .apodHistoryUnit .rightData p span {

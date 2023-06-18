@@ -23,7 +23,7 @@ const defaultApod = {
 }
 
 
-const HomePage = ({ apod = defaultApod }) => {
+const HomePage = ({ apod }) => {
     const [showExit, setShowExit] = useState(false);
     const ctx = useContext(themeContext);
     const { setShowOtherPageLinks } = ctx;

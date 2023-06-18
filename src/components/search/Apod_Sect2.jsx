@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 
-const Apod_Sect2 = ({ setApodDisplay, LSData, setLSData  }) => {
+const Apod_Sect2 = ({ apodDisplay, setApodDisplay, LSData, setLSData  }) => {
     const [listCount, setListCount] = useState(2);
     const filteredList = LSData.filter((elem, idx) => idx <= listCount - 1);
     const sectionRef = useRef(null);
@@ -91,14 +91,18 @@ const Apod_Sect2 = ({ setApodDisplay, LSData, setLSData  }) => {
                     filteredList.map((elem, idx) => (
                         <motion.a initial={{ opacity: 0.1, x: "20%" }} whileInView={{ opacity: 1, x: 0, transition: { type: "spring", damping: 30, stiffness: 200 } }} viewport={{ once: true, amount: 0.2 }} href='#apodTop' className="apodHistoryCntn" onClick={() => {setApodDisplay(elem)}} key={idx}>
                             <div className="apodHistoryUnit">
-                                <motion.div
-                                    className="unitImage" 
-                                    initial={{ opacity: 0.1 }} 
-                                    whileInView={{ opacity: 1, transition: { type: "spring", damping: 30, stiffness: 200 } }} 
-                                    viewport={{ once: true, amount: 0.45 }}
-                                >
-                                    <img src={`${ elem?.hdurl ? elem?.hdurl : elem?.url }`} alt="" />
-                                </motion.div>
+                                {
+                                    apodDisplay?.media_type === "image" && (
+                                        <motion.div
+                                            className="unitImage" 
+                                            initial={{ opacity: 0.1 }} 
+                                            whileInView={{ opacity: 1, transition: { type: "spring", damping: 30, stiffness: 200 } }} 
+                                            viewport={{ once: true, amount: 0.45 }}
+                                        >
+                                            <img src={`${ elem?.hdurl ? elem?.hdurl : elem?.url }`} alt="" />
+                                        </motion.div>
+                                    )
+                                }
                                 <div className="rightData">
                                     <div style={{overflowY: "hidden"}}>
                                         <h2>{elem.title}</h2>

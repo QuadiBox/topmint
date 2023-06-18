@@ -1,7 +1,16 @@
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
+import { useRef, useEffect } from "react";
 
 
-const Sect1 = ({ data }) => {
+const Sect1 = ({ data, setInview }) => {
+  const sectionRef = useRef(null);
+
+  const inView = useInView(sectionRef, { amount: 0.58 });
+
+  useEffect(() => {
+    setInview(inView);
+  }, [inView])
+
 
   //Animation Variables 
   const parentVar = {
@@ -52,7 +61,7 @@ const Sect1 = ({ data }) => {
 
 
   return (
-    <motion.section initial="init" animate="finale" variants={parentVar} className={`solarSystem-Sect1 ${data?.subdata ? "" : "noSubData"}`} style={{backgroundImage: `linear-gradient( 150deg, var(--bg1-opac09),var(--bg1-opac05), var(--bg1-opac02)), url(${data?.baseImgUrl})`}}>
+    <motion.section ref={sectionRef} initial="init" animate="finale" variants={parentVar} className={`solarSystem-Sect1 ${data?.subdata ? "" : "noSubData"}`} style={{backgroundImage: `linear-gradient( 150deg, var(--bg1-opac09),var(--bg1-opac05), var(--bg1-opac02)), url(${data?.baseImgUrl})`}}>
         <div className="heroSect-1">
           <div className="details">
             <div style={{overflow: "hidden"}}>

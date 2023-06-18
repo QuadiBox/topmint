@@ -7487,7 +7487,7 @@ export const linksData = {
     dwarf_planets: {
         dwarf_planets: {
             name: "Dwarf Planets",
-            baseImgUrl: "/dwarf_planets_1.jpg",
+            baseImgUrl: "/haumea_poster_A.webp",
             baseText: "Dwarf Planets",
             subText: "Intriguing celestial bodies that orbit the Sun and share some features with planets but don't meet the criteria to be a full-fledged planets.",
             next: {
@@ -7735,7 +7735,7 @@ export const linksData = {
                         {
                             content_type: "image",
                             head: null,
-                            content: '/dwarf_planets_lists.jpg',
+                            content: '/dwarf_planets_lists_1.jpg',
                             content_description: "Artistic comparison of Pluto, Eris, Haumea, Makemake, Ceres. The five commonly presented dwarf planets."
                         },  
                         {
@@ -12685,7 +12685,7 @@ export const linksData = {
             name: "Asteroids, Meteors & Comets",
             baseImgUrl: "/A.C.M_bg2.jpg",
             baseText: "Asteroids, Meteors & Comets",
-            subText: "Small celestial objects that share common characteristics. They are remnants from the early solar system, composed of rock and/or ice.",
+            subText: " ",
             next: {
                 key: "Asteroids",
                 value: "/asteroids_comets_meteors/asteroids"
@@ -13673,255 +13673,169 @@ export const linksData = {
                         {
                             content_type: "text",
                             head: null,
-                            content: "A comet is an icy, small Solar System body that warms and begins to release gases when passing close to the Sun, a process called outgassing. This produces an extended, gravitationally unbound atmosphere or coma surrounding the nucleus, and sometimes a tail of gas and dust gas blown out from the coma. These phenomena are due to the effects of solar radiation and the outstreaming solar wind plasma acting upon the nucleus of the comet. Comet nuclei range from a few hundred meters to tens of kilometers across and are composed of loose collections of ice, dust, and small rocky particles. The coma may be up to 15 times Earth's diameter, while the tail may stretch beyond one astronomical unit. If sufficiently close and bright, a comet may be seen from Earth without the aid of a telescope and can subtend an arc of up to 30° (60 Moons) across the sky. Comets have been observed and recorded since ancient times by many cultures and religions.",
+                            content: "A meteor or shooting star is the visible passage of a meteoroid, comet, or asteroid entering Earth's atmosphere. At a speed typically in excess of 20 km/s (72,000 km/h; 45,000 mph), aerodynamic heating of that object produces a streak of light, both from the glowing object and the trail of glowing particles that it leaves in its wake. Meteors typically become visible when they are about 100 km (62 mi) above sea level. A series of many meteors appearing seconds or minutes apart and appearing to originate from the same fixed point in the sky is called a meteor shower.",
                             content_description: null
                         },
                         {
                             content_type: "text",
                             head: null,
-                            content: "Comets usually have highly eccentric elliptical orbits, and they have a wide range of orbital periods, ranging from several years to potentially several millions of years. Short-period comets originate in the Kuiper belt or its associated scattered disc, which lie beyond the orbit of Neptune. Long-period comets are thought to originate in the Oort cloud, a spherical cloud of icy bodies extending from outside the Kuiper belt to halfway to the nearest star. Long-period comets are set in motion towards the Sun by gravitational perturbations from passing stars and the galactic tide. Hyperbolic comets may pass once through the inner Solar System before being flung to interstellar space. The appearance of a comet is called an apparition.",
+                            content: "A meteoroid is a small rocky or metallic body in outer space. Meteoroids are distinguished as objects significantly smaller than asteroids, ranging in size from grains to objects up to a meter wide. Objects smaller than meteoroids are classified as micrometeoroids or space dust. Most are fragments from comets or asteroids, whereas others are collision impact debris ejected from bodies such as the Moon or Mars.",
                             content_description: null
                         },
                         {
                             content_type: "image",
                             head: null,
-                            content: "/comets_hale_bopp.jpg",
-                            content_description: "Image of comet C/1995 O1 (Hale-Bopp), taken on 1997 April 04, with a 225mm f/2.0 Schmidt Camera (focal length 450mm) on Kodak Panther 400 color slide film with an exposure time of 10 minutes. The field shown is about 6.5°x6.5°. At full resolution, the stars in the image appear slightly elongated, as the camera tracked the comet during the exposure. Credit: E. Kolmhofer, H. Raab; Johannes-Kepler-Observatory, Linz, Austria."
+                            content: "/meteors_anim.gif",
+                            content_description: "Animated illustration of the same Meteoroid, Meteor, and Meteorite - A meteoroid shown entering the atmosphere, causing a visible meteor and hitting the Earth's surface as a meteorite."
                         },
                         {
                             content_type: "text",
                             head: null,
-                            content: "Extinct comets that have passed close to the Sun many times have lost nearly all of their volatile ices and dust and may come to resemble small asteroids. Asteroids are thought to have a different origin from comets, having formed inside the orbit of Jupiter rather than in the outer Solar System. However, the discovery of main-belt comets and active centaur minor planets has blurred the distinction between asteroids and comets. In the early 21st century, the discovery of some minor bodies with long-period comet orbits, but characteristics of inner solar system asteroids, were called Manx comets. They are still classified as comets, such as C/2014 S3 (PANSTARRS). Twenty-seven Manx comets were found from 2013 to 2017.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "As of November 2021 there are 4,584 known comets. However, this represents a very small fraction of the total potential comet population, as the reservoir of comet-like bodies in the outer Solar System (in the Oort cloud) is about one trillion. Roughly one comet per year is visible to the naked eye, though many of those are faint and unspectacular. Particularly bright examples are called \"great comets\". Comets have been visited by uncrewed probes such as NASA's Deep Impact, which blasted a crater on Comet Tempel 1 to study its interior, and the European Space Agency's Rosetta, which became the first to land a robotic spacecraft on a comet.",
+                            content: "An estimated 25 million meteoroids, micrometeoroids and other space debris enter Earth's atmosphere each day, which results in an estimated 15,000 tonnes of that material entering the atmosphere each year. A meteorite is the remains of a meteoroid that has survived the ablation of its surface material during its passage through the atmosphere as a meteor and has impacted the ground.",
                             content_description: null
                         },
                     ]
                 },
                 {
-                    title: "Nomenclature",
+                    title: "Meteors",
                     texts: [
                         {
                             content_type: "text",
                             head: null,
-                            content: "The word comet derives from the Old English cometa from the Latin comēta or comētēs. That, in turn, is a romanization of the Greek κομήτης 'wearing long hair', and the Oxford English Dictionary notes that the term (ἀστὴρ) κομήτης already meant 'long-haired star, comet' in Greek. Κομήτης was derived from κομᾶν (koman) 'to wear the hair long', which was itself derived from κόμη (komē) 'the hair of the head' and was used to mean 'the tail of a comet'. The astronomical symbol for comets, \"☄\", consisting of a small disc with three hairlike extensions.",
+                            content: "A meteor, known colloquially as a shooting star or falling star, is the visible passage of a glowing meteoroid, micrometeoroid, comet or asteroid through Earth's atmosphere, after being heated to incandescence by collisions with air molecules in the upper atmosphere, creating a streak of light via its rapid motion and sometimes also by shedding glowing material in its wake. Although a meteor may seem to be a few thousand feet from the Earth, meteors typically occur in the mesosphere at altitudes from 76 to 100 km (250,000 to 330,000 ft). The root word meteor comes from the Greek meteōros, meaning \"high in the air\".",
                             content_description: null
                         },
                         {
                             content_type: "text",
                             head: null,
-                            content: "Comet naming can be complicated. Comets are generally named for their discoverer — either a person or a spacecraft. This International Astronomical Union guideline was developed only in the last century. For example, comet Shoemaker-Levy 9 was so named because it was the ninth short-periodic comet discovered by Eugene and Carolyn Shoemaker and David Levy. Since spacecraft are very effective at spotting comets many comets have LINEAR, SOHO or WISE in their names.",
+                            content: "Millions of meteors occur in Earth's atmosphere daily. Most meteoroids that cause meteors are about the size of a grain of sand, i.e. they are usually millimeter-sized or smaller. Meteoroid sizes can be calculated from their mass and density which, in turn, can be estimated from the observed meteor trajectory in the upper atmosphere.  Meteors may occur in showers, which arise when Earth passes through a stream of debris left by a comet, or as \"random\" or \"sporadic\" meteors, not associated with a specific stream of space debris. A number of specific meteors have been observed, largely by members of the public and largely by accident, but with enough detail that orbits of the meteoroids producing the meteors have been calculated. The atmospheric velocities of meteors result from the movement of Earth around the Sun at about 30 km/s (67,000 mph), the orbital speeds of meteoroids, and the gravity well of Earth.",
                             content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/meteors_alma.jpg",
+                            content_description: "Meteor seen from the site of the Atacama Large Millimeter Array (ALMA)- The spectacular javelin of light over the ALMA array is a shooting star, slicing through the image in a vivid streak of colours. Emerald green, golden and faint crimson hues blaze brightly as the meteor burns up as it enters the Earth's atmosphere and makes its fiery voyage across the sky. As the high-speed fireball — which is, in reality, a small grain of rock from interplanetary space — interacts with the atmosphere it heats up, vapourising the surface layers of the meteor, which are left behind in a glowing trail. These trails disappear in just a few seconds, but are captured here at the click of a button. The brightest star in the constellation of Virgo (The Virgin), known as Spica, and our neighbouring planet Mars glow brightly in the centre of the image — cosmic spectators to this fiery descent as they rise above the horizon. "
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Meteors become visible between about 75 to 120 km (250,000 to 390,000 ft) above Earth. They usually disintegrate at altitudes of 50 to 95 km (160,000 to 310,000 ft). Meteors have roughly a fifty percent chance of a daylight (or near daylight) collision with Earth. Most meteors are, however, observed at night, when darkness allows fainter objects to be recognized. For bodies with a size scale larger than 10 cm (3.9 in) to several meters meteor visibility is due to the atmospheric ram pressure (not friction) that heats the meteoroid so that it glows and creates a shining trail of gases and melted meteoroid particles. The gases include vaporised meteoroid material and atmospheric gases that heat up when the meteoroid passes through the atmosphere. Most meteors glow for about a second.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Fireball",
+                            content: "A fireball is a brighter-than-usual meteor that also becomes visible when about 100 km from sea level. The International Astronomical Union (IAU) defines a fireball as \"a meteor brighter than any of the planets\" (apparent magnitude -4 or greater). The International Meteor Organization (an amateur organization that studies meteors) has a more rigid definition. It defines a fireball as a meteor that would have a magnitude of -3 or brighter if seen at zenith. This definition corrects for the greater distance between an observer and a meteor near the horizon. For example, a meteor of magnitude -1 at 5 degrees above the horizon would be classified as a fireball because, if the observer had been directly below the meteor, it would have appeared as magnitude -6.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Fireballs reaching apparent magnitude -14 or brighter are called bolides. The IAU has no official definition of \"bolide\", and generally considers the term synonymous with \"fireball\". Astronomers often use \"bolide\" to identify an exceptionally bright fireball, particularly one that explodes in a meteor air burst. They are sometimes called detonating fireballs. It may also be used to mean a fireball which creates audible sounds. In the late twentieth century, bolide has also come to mean any object that hits Earth and explodes, with no regard to its composition (asteroid or comet). The word bolide comes from the Greek βολίς (bolis) which can mean a missile or to flash. If the magnitude of a bolide reaches -17 or brighter it is known as a superbolide. A relatively small percentage of fireballs hit Earth's atmosphere and then pass out again: these are termed Earth-grazing fireballs. Such an event happened in broad daylight over North America in 1972. Another rare phenomenon is a meteor procession, where the meteor breaks up into several fireballs traveling nearly parallel to the surface of Earth.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "A steadily growing number of fireballs are recorded at the American Meteor Society every year. There are probably more than 500,000 fireballs a year, but most go unnoticed because most occur over the ocean and half occur during daytime. A European Fireball Network and a NASA All-sky Fireball Network detect and track many fireballs.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Colours",
+                            content: "The visible light produced by a meteor may take on various hues, depending on the chemical composition of the meteoroid, and the speed of its movement through the atmosphere. As layers of the meteoroid abrade and ionize, the colour of the light emitted may change according to the layering of minerals. Colours of meteors depend on the relative influence of the metallic content of the meteoroid versus the superheated air plasma, which its passage engenders: Orange-yellow (sodium); Yellow (iron); Blue-green (magnesium); Violet (calcium); Red (atmospheric nitrogen and oxygen).",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/meteors_color.jpg",
+                            content_description: "A meteor of the Leonid meteor shower; the photograph shows the meteor, afterglow, and wake as distinct components. Location: 37° 6′ 22.41″ N, 121° 55′ 0.2″ W"
+                        },
+                        {
+                            content_type: "text",
+                            head: "Meteor Showers",
+                            content: "Several meteors per hour can usually be seen on any given night. When there are lots more meteors, you're watching a meteor shower. Some meteor showers occur annually or at regular intervals as the Earth passes through the trail of dusty debris left by a comet (and, in a few cases, asteroids). Meteor showers are usually named after a star or constellation that is close to where the meteors appear to originate in the sky. Perhaps the most famous are the Perseids, which peak around August 12 every year. Every Perseid meteor is a tiny piece of the comet Swift-Tuttle, which swings by the Sun every 135 years. Other notable meteor showers include the Leonids, associated with comet Tempel-Tuttle; the Aquarids and Orionids, linked to comet Halley, and the Taurids, associated with comet Encke. Most of this comet debris is between the size of a grain of sand and a pea and burns up in the atmosphere before reaching the ground. Sometimes, meteor dust is captured by high-altitude aircraft and analyzed in NASA laboratories.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/meteors_shower.jpg",
+                            content_description: "This picture is of the Alpha-Monocerotid meteor outburst in 1995. The Perseid meteor shower, usually the richest meteor shower of the year, peaks in August. Over the course of an hour, a person watching a clear sky from a dark location might see as many as 50-100 meteors. Meteors are actually pieces of rock that have broken off a comet and continue to orbit the Sun. The Earth travels through the comet debris in its orbit. As the small pieces enter the Earth's atmosphere, friction causes them to burn up. Credit: NASA/ Ames Research Center/S. Molau and P. Jenniskens"
                         },
                     ]
                 },
                 { 
-                    title: "Where Do Comets Come From?",
+                    title: "Meteoroids",
                     texts: [
                         {
                             content_type: "text",
                             head: null,
-                            content: "As theorized by astronomer Gerard Kuiper in 1951, a disc-like belt of icy bodies exists beyond Neptune, where a population of dark comets orbits the Sun in the realm of Pluto. These icy objects, occasionally pushed by gravity into orbits bringing them closer to the Sun, become the so-called short-period comets. Taking less than 200 years to orbit the Sun, in many cases their appearance is predictable because they have passed by before. Less predictable are long-period comets, many of which arrive from a region called the Oort Cloud about 100,000 astronomical units (that is, about 100,000 times the distance between Earth and the Sun) from the Sun. These Oort Cloud comets can take as long as 30 million years to complete one trip around the Sun.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "Each comet has a tiny frozen part, called a nucleus, often no larger than a few kilometers across. The nucleus contains icy chunks, frozen gases with bits of embedded dust. A comet warms up as it nears the Sun and develops an atmosphere, or coma. The Sun's heat causes the comet's ices to change to gases so the coma gets larger. The coma may extend hundreds of thousands of kilometers. The pressure of sunlight and high-speed solar particles (solar wind) can blow the coma dust and gas away from the Sun, sometimes forming a long, bright tail. Comets actually have two tails―a dust tail and an ion (gas) tail.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "Most comets travel a safe distance from the Sun―comet Halley comes no closer than 89 million kilometers (55 million miles). However, some comets, called sungrazers, crash straight into the Sun or get so close that they break up and evaporate.",
-                            content_description: null
-                        },
-                    ]
-                },
-                {
-                    title: "Physical Characteristics",
-                    texts: [
-                        {
-                            content_type: "text",
-                            head: "Nucleus",
-                            content: "The solid, core structure of a comet is known as the nucleus. Cometary nuclei are composed of an amalgamation of rock, dust, water ice, and frozen carbon dioxide, carbon monoxide, methane, and ammonia.[16] As such, they are popularly described as \"dirty snowballs\" after Fred Whipple's model. Comets with a higher dust content have been called \"icy dirtballs\". The term \"icy dirtballs\" arose after observation of Comet 9P/Tempel 1 collision with an \"impactor\" probe sent by NASA Deep Impact mission in July 2005. Research conducted in 2014 suggests that comets are like \"deep fried ice cream\", in that their surfaces are formed of dense crystalline ice mixed with organic compounds, while the interior ice is colder and less dense.",
+                            content: "In 1961, the International Astronomical Union (IAU) defined a meteoroid as \"a solid object moving in interplanetary space, of a size considerably smaller than an asteroid and considerably larger than an atom\". In 1995, Beech and Steel, writing in the Quarterly Journal of the Royal Astronomical Society, proposed a new definition where a meteoroid would be between 100 µm and 10 m (33 ft) across. In 2010, following the discovery of asteroids below 10 m in size, Rubin and Grossman proposed a revision of the previous definition of meteoroid to objects between 10 μm (0.00039 in) and one meter (3 ft 3 in) in diameter in order to maintain the distinction. According to Rubin and Grossman, the minimum size of an asteroid is given by what can be discovered from Earth-bound telescopes, so the distinction between meteoroid and asteroid is fuzzy.",
                             content_description: null
                         },
                         {
                             content_type: "image",
                             head: null,
-                            content: "/comets_hartley.jpg",
-                            content_description: "Nucleus of 103P/Hartley as imaged during a spacecraft flyby. The nucleus is about 2 km in length. Image of Comet Hartley 2. This image was captured by NASA's EPOXI mission between Nov. 3 and 4, 2010, during the spacecraft's flyby of comet Hartley 2. It was captured using the spacecraft's Medium-Resolution Instrument. Credit: NASA/JPL-Caltech/UMD"
-                        },                          
+                            content: "/meteroids_entry.jpg",
+                            content_description: "Meteoroid embedded in aerogel; the meteoroid is 10 µm in diameter and its track is 1.5 mm long. Credit: NASA/ESA."
+                        },
                         {
                             content_type: "text",
                             head: null,
-                            content: "The outer surfaces of cometary nuclei have a very low albedo, making them among the least reflective objects found in the Solar System. The Giotto space probe found that the nucleus of Halley's Comet (1P/Halley) reflects about four percent of the light that falls on it. Roughly six percent of the near-Earth asteroids are thought to be the extinct nuclei of comets that no longer experience outgassing, including 14827 Hypnos and 3552 Don Quixote.",
+                            content: "Some of the smallest asteroids discovered (based on absolute magnitude H) are 2008 TS26 with H = 33.2 and 2011 CQ1 with H = 32.1 both with an estimated size of one m (3 ft 3 in). In April 2017, the IAU adopted an official revision of its definition, limiting size to between 30 μm (0.0012 in) and one meter in diameter, but allowing for a deviation for any object causing a meteor. Objects smaller than meteoroids are classified as micrometeoroids and interplanetary dust. The Minor Planet Center does not use the term \"meteoroid\".",
                             content_description: null
                         },
                         {
                             content_type: "text",
-                            head: "Coma",
-                            content: "The streams of dust and gas thus released form a huge and extremely thin atmosphere around the comet called the \"coma\". The force exerted on the coma by the Sun's radiation pressure and solar wind cause an enormous \"tail\" to form pointing away from the Sun. The coma is generally made of water and dust, with water making up to 90% of the volatiles that outflow from the nucleus when the comet is within 3 to 4 astronomical units (450,000,000 to 600,000,000 km; 280,000,000 to 370,000,000 mi) of the Sun. The H2O parent molecule is destroyed primarily through photodissociation and to a much smaller extent photoionization, with the solar wind playing a minor role in the destruction of water compared to photochemistry. Larger dust particles are left along the comet's orbital path whereas smaller particles are pushed away from the Sun into the comet's tail by light pressure.",
+                            head: "Composition",
+                            content: "Almost all meteoroids contain extraterrestrial nickel and iron. They have three main classifications: iron, stone, and stony-iron. Some stone meteoroids contain grain-like inclusions known as chondrules and are called chondrites. Stony meteoroids without these features are called \"achondrites\", which are typically formed from extraterrestrial igneous activity; they contain little or no extraterrestrial iron. The composition of meteoroids can be inferred as they pass through Earth's atmosphere from their trajectories and the light spectra of the resulting meteor. Their effects on radio signals also give information, especially useful for daytime meteors, which are otherwise very difficult to observe. From these trajectory measurements, meteoroids have been found to have many different orbits, some clustering in streams (see meteor showers) often associated with a parent comet, others apparently sporadic. Debris from meteoroid streams may eventually be scattered into other orbits. The light spectra, combined with trajectory and light curve measurements, have yielded various compositions and densities, ranging from fragile snowball-like objects with density about a quarter that of ice, to nickel-iron rich dense rocks. The study of meteorites also gives insights into the composition of non-ephemeral meteoroids.",
                             content_description: null
                         },
                         {
-                            content_type: "image",
-                            head: null,
-                            content: "/comets_ISON.jpg",
-                            content_description: "Hubble image of Comet ISON shortly before perihelion - The round coma around ISON's nucleus is blue and the tail has a redder hue. Ice and gas in the coma reflect blue light from the Sun, while dust grains in the tail reflect more red light than blue light. This is the most colour separation seen so far in ISON and the comet, nearer than ever to the Sun, is brighter and more structured than ever before. Comet ISON will come closest to the Sun on 28 November 2013, a point in its orbit known as perihelion. Comet ISON was fairly quiet until 1 November 2013, when it experienced an outburst that doubled the amount of gas the comet emitted. Credit: ESA/Hubble"
-                        },                          
-                        {
                             content_type: "text",
-                            head: null,
-                            content: "Although the solid nucleus of comets is generally less than 60 kilometers (37 mi) across, the coma may be thousands or millions of kilometers across, sometimes becoming larger than the Sun. For example, about a month after an outburst in October 2007, comet 17P/Holmes briefly had a tenuous dust atmosphere larger than the Sun. Even though the coma can become quite large, its size can decrease about the time it crosses the orbit of Mars around 1.5 astronomical units (220,000,000 km; 140,000,000 mi) from the Sun. At this distance the solar wind becomes strong enough to blow the gas and dust away from the coma, and in doing so enlarging the tail. Ion tails have been observed to extend one astronomical unit (150 million km) or more.",
-                            content_description: null
-                        },                      
-                        {
-                            content_type: "text",
-                            head: "Bow Shock",
-                            content: "Bow shocks form as a result of the interaction between the solar wind and the cometary ionosphere, which is created by the ionization of gases in the coma. As the comet approaches the Sun, increasing outgassing rates cause the coma to expand, and the sunlight ionizes gases in the coma. When the solar wind passes through this ion coma, the bow shock appears. The first observations were made in the 1980s and 1990s as several spacecraft flew by comets 21P/Giacobini-Zinner, 1P/Halley, and 26P/Grigg-Skjellerup. It was then found that the bow shocks at comets are wider and more gradual than the sharp planetary bow shocks seen at, for example, Earth. These observations were all made near perihelion when the bow shocks already were fully developed.",
-                            content_description: null
-                        },                          
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "The Rosetta spacecraft observed the bow shock at comet 67P/Churyumov-Gerasimenko at an early stage of bow shock development when the outgassing increased during the comet's journey toward the Sun. This young bow shock was called the \"infant bow shock\". The infant bow shock is asymmetric and, relative to the distance to the nucleus, wider than fully developed bow shocks.",
-                            content_description: null
-                        },                          
-                        {
-                            content_type: "text",
-                            head: "Tails",
-                            content: "In the outer Solar System, comets remain frozen and inactive and are extremely difficult or impossible to detect from Earth due to their small size. Statistical detections of inactive comet nuclei in the Kuiper belt have been reported from observations by the Hubble Space Telescope but these detections have been questioned. As a comet approaches the inner Solar System, solar radiation causes the volatile materials within the comet to vaporize and stream out of the nucleus, carrying dust away with them.",
+                            head: "Collision with Earth's Atmosphere",
+                            content: "When meteoroids intersect with Earth's atmosphere at night, they are likely to become visible as meteors. If meteoroids survive the entry through the atmosphere and reach Earth's surface, they are called meteorites. Meteorites are transformed in structure and chemistry by the heat of entry and force of impact. A noted 4-metre (13 ft) asteroid, 2008 TC3, was observed in space on a collision course with Earth on 6 October 2008 and entered Earth's atmosphere the next day, striking a remote area of northern Sudan. It was the first time that a meteoroid had been observed in space and tracked prior to impacting Earth. NASA has produced a map showing the most notable asteroid collisions with Earth and its atmosphere from 1994 to 2013 from data gathered by U.S. government sensors",
                             content_description: null
                         },
                         {
                             content_type: "image",
                             head: null,
-                            content: "/comets_tails.png",
-                            content_description: "Diagram of a comet showing the dust trail, the dust tail, and the ion gas tail formed by solar wind - This is an artist's concept of a comet dust trail and dust tail. The trail can only be seen in the light of radiated heat. The dust trail is made of particles that are the size of sand grains and pebbles. They are large enough that they are not affected much by the Sun's light and solar wind. The dust tail, on the other hand, is made of grains the size of cigarette-smoke particles. These grains are blown out of the dust coma near the comet nucleus by the Sun's light. Credit: NASA Ames Research Center/K. Jobse, P. Jenniskens"
-                        },                          
+                            content: "/meteorites_TC3.jpg",
+                            content_description: "2008 TC3 meteorite fragments found on February 28, 2009, in the Nubian Desert, Sudan - Almahata Sitta fragment. On Feb. 28, 2009, Peter Jenniskens, with help from students and staff of the University of Khartoum, found his first 2008TC3 fragment. Nubian Desert, Sudan. Credit: NASA/SETI/P. Jenniskens."
+                        },
+                        
+                    ]
+                },
+                {
+                    title: "Meteorites",
+                    texts: [
                         {
                             content_type: "text",
                             head: null,
-                            content: "The streams of dust and gas each form their own distinct tail, pointing in slightly different directions. The tail of dust is left behind in the comet's orbit in such a manner that it often forms a curved tail called the type II or dust tail. At the same time, the ion or type I tail, made of gases, always points directly away from the Sun because this gas is more strongly affected by the solar wind than is dust, following magnetic field lines rather than an orbital trajectory. On occasions — such as when Earth passes through a comet's orbital plane, the antitail, pointing in the opposite direction to the ion and dust tails, may be seen.  The ion tail is formed as a result of the ionization by solar ultra-violet radiation of particles in the coma. Once the particles have been ionized, they attain a net positive electrical charge, which in turn gives rise to an \"induced magnetosphere\" around the comet. The comet and its induced magnetic field form an obstacle to outward flowing solar wind particles. Because the relative orbital speed of the comet and the solar wind is supersonic, a bow shock is formed upstream of the comet in the flow direction of the solar wind. In this bow shock, large concentrations of cometary ions (called \"pick-up ions\") congregate and act to \"load\" the solar magnetic field with plasma, such that the field lines \"drape\" around the comet forming the ion tail.",
-                            content_description: null
-                        },                          
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "If the ion tail loading is sufficient, the magnetic field lines are squeezed together to the point where, at some distance along the ion tail, magnetic reconnection occurs. This leads to a \"tail disconnection event\". This has been observed on a number of occasions, one notable event being recorded on 20 April 2007, when the ion tail of Encke's Comet was completely severed while the comet passed through a coronal mass ejection. This event was observed by the STEREO space probe. In 2013, ESA scientists reported that the ionosphere of the planet Venus streams outwards in a manner similar to the ion tail seen streaming from a comet under similar conditions.",
-                            content_description: null
-                        },                          
-                        {
-                            content_type: "text",
-                            head: "Jets",
-                            content: "Uneven heating can cause newly generated gases to break out of a weak spot on the surface of comet's nucleus, like a geyser. These streams of gas and dust can cause the nucleus to spin, and even split apart. In 2010 it was revealed dry ice (frozen carbon dioxide) can power jets of material flowing out of a comet nucleus. Infrared imaging of Hartley 2 shows such jets exiting and carrying with it dust grains into the coma.",
+                            content: "A meteorite is a portion of a meteoroid or asteroid that survives its passage through the atmosphere and hits the ground without being destroyed. Meteorites are sometimes, but not always, found in association with hypervelocity impact craters; during energetic collisions, the entire impactor may be vaporized, leaving no meteorites. Geologists use the term, \"bolide\", in a different sense from astronomers to indicate a very large impactor. For example, the USGS uses the term to mean a generic large crater-forming projectile in a manner \"to imply that we do not know the precise nature of the impacting body ... whether it is a rocky or metallic asteroid, or an icy comet for example\". Meteoroids also hit other bodies in the Solar System. On such stony bodies as the Moon or Mars that have little or no atmosphere, they leave enduring craters.",
                             content_description: null
                         },
                         {
                             content_type: "image",
                             head: null,
-                            content: "/comets_jets.png",
-                            content_description: "Gas and snow jets of 103P/Hartley. Credit: NASA/JPL-Caltech/UMD/EPOXI Mission"
-                        },                         
-                    ]
-                },
-                {
-                    title: "Orbital Classifications",
-                    texts: [
+                            content: "/M-Type_asteroid.jpg",
+                            content_description: "Murnpeowie Meteorite - this spectacular, 2520 pound iron meteorite was found in the South Australian Outback in 1909. Iron meteorites exposed at Earth's surface oxidize & rust relatively quickly. Given the fresh nature of Murnpeowie, it's been estimated that it fell to Earth within five years of it being found. This rock is an octahedrite, dominated by kamacite & taenite. (SAM Met 30A, South Australian Museum, Adelaide, Australia) Location: South Australian Outback between Lake Callabonna and Lake Blanche, NE by E of Mt. Hopeless, near the Strzelecki Track, eastern South Australia."
+                        },                          
                         {
                             content_type: "text",
-                            head: null,
-                            content: "Most comets are small Solar System bodies with elongated elliptical orbits that take them close to the Sun for a part of their orbit and then out into the further reaches of the Solar System for the remainder. Comets are often classified according to the length of their orbital periods: The longer the period the more elongated the ellipse.",
+                            head: "Impact Craters",
+                            content: "The outer surfaces of cometary nuclei have a very low albedo, maMeteoroid collisions with solid Solar System objects, including the Moon, Mercury, Callisto, Ganymede, and most small moons and asteroids, create impact craters, which are the dominant geographic features of many of those objects. On other planets and moons with active surface geological processes, such as Earth, Venus, Mars, Europa, Io, and Titan, visible impact craters may become eroded, buried, or transformed by tectonics over time. In early literature, before the significance of impact cratering was widely recognised, the terms cryptoexplosion or cryptovolcanic structure were often used to describe what are now recognised as impact-related features on Earth. Molten terrestrial material ejected from a meteorite impact crater can cool and solidify into an object known as a tektite. These are often mistaken for meteorites.",
                             content_description: null
                         },
                         {
-                            content_type: "text",
-                            head: "Short Period Comets",
-                            content: "Periodic comets or short-period comets are generally defined as those having orbital periods of less than 200 years. They usually orbit more-or-less in the ecliptic plane in the same direction as the planets. Their orbits typically take them out to the region of the outer planets (Jupiter and beyond) at aphelion; for example, the aphelion of Halley's Comet is a little beyond the orbit of Neptune. Comets whose aphelia are near a major planet's orbit are called its \"family\". Such families are thought to arise from the planet capturing formerly long-period comets into shorter orbits. At the shorter orbital period extreme, Encke's Comet has an orbit that does not reach the orbit of Jupiter, and is known as an Encke-type comet. Short-period comets with orbital periods less than 20 years and low inclinations (up to 30 degrees) to the ecliptic are called traditional Jupiter-family comets (JFCs). Those like Halley, with orbital periods of between 20 and 200 years and inclinations extending from zero to more than 90 degrees, are called Halley-type comets (HTCs). As of 2023, 70 Encke-type comets, 100 HTCs, and 755 JFCs have been reported.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "text",
+                            content_type: "image",
                             head: null,
-                            content: "Because their elliptical orbits frequently take them close to the giant planets, comets are subject to further gravitational perturbations. Short-period comets have a tendency for their aphelia to coincide with a giant planet's semi-major axis, with the JFCs being the largest group. It is clear that comets coming in from the Oort cloud often have their orbits strongly influenced by the gravity of giant planets as a result of a close encounter. Jupiter is the source of the greatest perturbations, being more than twice as massive as all the other planets combined. These perturbations can deflect long-period comets into shorter orbital periods. Based on their orbital characteristics, short-period comets are thought to originate from the centaurs and the Kuiper belt/scattered disc — a disk of objects in the trans-Neptunian region—whereas the source of long-period comets is thought to be the far more distant spherical Oort cloud (after the Dutch astronomer Jan Hendrik Oort who hypothesized its existence).",
-                            content_description: null
-                        },
-                        {
-                            content_type: "text",
-                            head: "Long Period Comets",
-                            content: "Long-period comets have highly eccentric orbits and periods ranging from 200 years to thousands or even millions of years. An eccentricity greater than 1 when near perihelion does not necessarily mean that a comet will leave the Solar System. For example, Comet McNaught had a heliocentric osculating eccentricity of 1.000019 near its perihelion passage epoch in January 2007 but is bound to the Sun with roughly a 92,600-year orbit because the eccentricity drops below 1 as it moves farther from the Sun. The future orbit of a long-period comet is properly obtained when the osculating orbit is computed at an epoch after leaving the planetary region and is calculated with respect to the center of mass of the Solar System. By definition long-period comets remain gravitationally bound to the Sun; those comets that are ejected from the Solar System due to close passes by major planets are no longer properly considered as having \"periods\". The orbits of long-period comets take them far beyond the outer planets at aphelia, and the plane of their orbits need not lie near the ecliptic. Long-period comets such as C/1999 F1 and C/2017 T2 (PANSTARRS) can have aphelion distances of nearly 70,000 AU (0.34 pc; 1.1 ly) with orbital periods estimated around 6 million years.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "Single-apparition or non-periodic comets are similar to long-period comets because they have parabolic or slightly hyperbolic trajectories when near perihelion in the inner Solar System. However, gravitational perturbations from giant planets cause their orbits to change. Single-apparition comets have a hyperbolic or parabolic osculating orbit which allows them to permanently exit the Solar System after a single pass of the Sun. The Sun's Hill sphere has an unstable maximum boundary of 230,000 AU (1.1 pc; 3.6 ly). Only a few hundred comets have been seen to reach a hyperbolic orbit (e > 1) when near perihelion that using a heliocentric unperturbed two-body best-fit suggests they may escape the Solar System.",
-                            content_description: null
-                        },
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "As of 2022, only two objects have been discovered with an eccentricity significantly greater than one: 1I/ʻOumuamua and 2I/Borisov, indicating an origin outside the Solar System. While ʻOumuamua, with an eccentricity of about 1.2, showed no optical signs of cometary activity during its passage through the inner Solar System in October 2017, changes to its trajectory — which suggests outgassing — indicate that it is probably a comet. On the other hand, 2I/Borisov, with an estimated eccentricity of about 3.36, has been observed to have the coma feature of comets, and is considered the first detected interstellar comet. Comet C/1980 E1 had an orbital period of roughly 7.1 million years before the 1982 perihelion passage, but a 1980 encounter with Jupiter accelerated the comet giving it the largest eccentricity (1.057) of any known solar comet with a reasonable observation arc. Comets not expected to return to the inner Solar System include C/1980 E1, C/2000 U5, C/2001 Q4 (NEAT), C/2009 R1, C/1956 R1, and C/2007 F1 (LONEOS).",
-                            content_description: null
-                        },                 
-                        {
-                            content_type: "text",
-                            head: "Exocomets",
-                            content: "Exocomets beyond the Solar System have been detected and may be common in the Milky Way. The first exocomet system detected was around Beta Pictoris, a very young A-type main-sequence star, in 1987. A total of 11 such exocomet systems have been identified as of 2013, using the absorption spectrum caused by the large clouds of gas emitted by comets when passing close to their star. After Kepler Space Telescope retired in October 2018, a new telescope called TESS Telescope has taken over Kepler's mission. Since the launch of TESS, astronomers have discovered the transits of comets around the star Beta Pictoris using a light curve from TESS. Since TESS has taken over, astronomers have since been able to better distinguish exocomets with the spectroscopic method. New planets are detected by the white light curve method which is viewed as a symmetrical dip in the charts readings when a planet overshadows its parent star. However, after further evaluation of these light curves, it has been discovered that the asymmetrical patterns of the dips presented are caused by the tail of a comet or of hundreds of comets.",
-                            content_description: null
-                        },                 
-                    ]
-                },
-                {
-                    title: "Connection To Meteor Showers",
-                    texts: [
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "As a comet is heated during close passes to the Sun, outgassing of its icy components releases solid debris too large to be swept away by radiation pressure and the solar wind. If Earth's orbit sends it through that trail of debris, which is composed mostly of fine grains of rocky material, there is likely to be a meteor shower as Earth passes through. Denser trails of debris produce quick but intense meteor showers and less dense trails create longer but less intense showers. Typically, the density of the debris trail is related to how long ago the parent comet released the material. The Perseid meteor shower, for example, occurs every year between 9 and 13 August, when Earth passes through the orbit of Comet Swift-Tuttle. Halley's Comet is the source of the Orionid shower in October.",
-                            content_description: null
-                        },
-                    ]
-                },
-                {
-                    title: "Spacecraft Missions",
-                    texts: [
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "◽ The space shuttle Challenger was intended to do a study of Halley's Comet in 1986, but exploded shortly after being launched.",
-                            content_description: null 
-                        },                                         
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "◽ Deep Impact: Debate continues about how much ice is in a comet. In 2001, the Deep Space 1 spacecraft obtained high-resolution images of the surface of Comet Borrelly. It was found that the surface of comet Borrelly is hot and dry, with a temperature of between 26 and 71 °C (79 and 160 °F), and extremely dark, suggesting that the ice has been removed by solar heating and maturation, or is hidden by the soot-like material that covers Borrelly. In July 2005, the Deep Impact probe blasted a crater on Comet Tempel 1 to study its interior. The mission yielded results suggesting that the majority of a comet's water ice is below the surface and that these reservoirs feed the jets of vaporized water that form the coma of Tempel 1. Renamed EPOXI, it made a flyby of Comet Hartley 2 on 4 November 2010.",
-                            content_description: null 
-                        },                                         
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "◽ Ulysses: In 2007, the Ulysses probe unexpectedly passed through the tail of the comet C/2006 P1 (McNaught) which was discovered in 2006. Ulysses was launched in 1990 and the intended mission was for Ulysses to orbit around the sun for further study at all latitudes.",
-                            content_description: null 
-                        },                                         
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "◽ Stardust: Data from the Stardust mission show that materials retrieved from the tail of Wild 2 were crystalline and could only have been \"born in fire\", at extremely high temperatures of over 1,000 °C (1,830 °F). Although comets formed in the outer Solar System, radial mixing of material during the early formation of the Solar System is thought to have redistributed material throughout the proto-planetary disk. As a result, comets contain crystalline grains that formed in the early, hot inner Solar System. This is seen in comet spectra as well as in sample return missions. More recent still, the materials retrieved demonstrate that the \"comet dust resembles asteroid materials\". These new results have forced scientists to rethink the nature of comets and their distinction from asteroids.",
-                            content_description: null 
-                        },                                         
-                        {
-                            content_type: "text",
-                            head: null,
-                            content: "◽ Rosetta: The Rosetta probe orbited Comet Churyumov-Gerasimenko. On 12 November 2014, its lander Philae successfully landed on the comet's surface, the first time a spacecraft has ever landed on such an object in history.",
-                            content_description: null 
-                        },                                           
+                            content: "/Namibia_Hoba_Meteorite.JPG",
+                            content_description: "The 60-tonne, 2.7 m-long (8.9 ft) long Hoba meteorite in Namibia is the largest known intact meteorite. Photograph taken by: GIRAUD Patrick"
+                        },                        
                     ]
                 },
                 {
@@ -13929,14 +13843,14 @@ export const linksData = {
                     texts: [
                         {
                             content_type: "embed_video",
-                            content: "yB9HHyPpKds",
-                            content_description: "Comets are chunks of ice and rock that orbit the Sun. When they get near the Sun the ice turns into gas, forming the long tail, and also releases dust that forms a different tail. We've visited comets up close and found them to be lumpy, with vents on the surface that release the gas as ice sublimates. Eons ago, comets (and asteroids) may have brought a lot of water to Earth -- as well as the ingredients for life."
+                            content: "TuDfZ2Md5x8",
+                            content_description: "Today Phil helps keep you from ticking off an astronomer in your life by making sure you know the difference between a meteor, meteorite, and meteoroid. When the Earth plows through the stream emitted by a comet we get a meteor shower. Meteors burn up about 100 km above the Earth, but some survive to hit the ground. Most of these meteorites are rocky, some are metallic, and a few are a mix of the two. Very big meteorites can be a very big problem, but there are plans in the works to prevent us from going the way of the dinosaurs."
                         },  
                     ]
                 }
             ],
              summary: null,
-            dateUpdate: "2023-06-17"
+            dateUpdate: "2023-06-19"
         },
     }
 }

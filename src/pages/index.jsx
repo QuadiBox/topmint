@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect, useContext, useRef } from "react";
 import { themeContext } from "../../providers/ThemeProvider";
@@ -329,7 +328,7 @@ export async function getServerSideProps () {
   const ddmmyyyy = year + "-" + pad(month + 1) + "-" + pad(dayOfMonth);
 
   const response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=enHpDWxtD5yefBSZ24PQey3jlAkE24zKrHDl6Eq4&date=${ddmmyyyy}`);
-  const  result =  await response.json();
+  const data =  await response.json();
 
   // const promise = new Promise((resolve, reject) => {
   //   const response =  fetch(`https://api.nasa.gov/planetary/apod?api_key=enHpDWxtD5yefBSZ24PQey3jlAkE24zKrHDl6Eq4&date=${ddmmyyyy}`);
@@ -357,7 +356,7 @@ export async function getServerSideProps () {
   // }
 
   return {
-    props: { data: result },
+    props: { apod: data },
   };
 
 }

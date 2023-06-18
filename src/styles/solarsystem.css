@@ -1171,6 +1171,28 @@
   transition: color 300ms ease;
 }
 
+.scrollToTopButton{
+  width: 40px;
+  aspect-ratio: 1;
+  background-color: var(--secBg-clr);
+  border-radius: 5px;
+  clip-path: var(--clip-type3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  color: var(--primary-clr);
+  position: fixed;
+  right: 30px;
+  bottom: 6%;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  box-shadow: inset 2px 2px 4px #090208be,
+              inset -2px -2px 4px #96849643
+  ;
+}
+
 @media screen and (max-width: 1100px) {
   .unitParagraph {
     display: flex;

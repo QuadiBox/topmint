@@ -58,7 +58,7 @@ const Apod = () => {
         <motion.div initial="init" animate="finale" variants={grandparentvar} className='apodBasicPage' onClick={(e) => {handleToggles( e, setShowOtherPageLinks)}}>
             <Navbar/>
             <Sect1 apodDisplay={apodDisplay} setApodDisplay={setApodDisplay} LSData={LSData} setLSData={setLSData}/>
-            <Apod_Sect2 setApodDisplay={setApodDisplay} LSData={LSData} setLSData={setLSData}/>
+            <Apod_Sect2 apodDisplay={apodDisplay} setApodDisplay={setApodDisplay} LSData={LSData} setLSData={setLSData}/>
             <Footer bg={"transparent"}/>
             <TransitionPage animateState={"initial"}/>
             <AnimatePresence mode='wait'>
