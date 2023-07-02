@@ -149,7 +149,7 @@ export const linksData = {
                         {
                             content_type: "text",
                             head: null,
-                            content: "Leftover debris that never became planets congregated in regions such as the asteroid belt, Kuiper belt, and Oort cloud.[16] The Nice model is an explanation for the creation of these regions and how the outer planets could have formed in different positions and migrated to their current orbits through various gravitational interactions",
+                            content: "Leftover debris that never became planets congregated in regions such as the asteroid belt, Kuiper belt, and Oort cloud.= The Nice model is an explanation for the creation of these regions and how the outer planets could have formed in different positions and migrated to their current orbits through various gravitational interactions",
                             content_description: null
                         },
                         {
@@ -13851,6 +13851,1164 @@ export const linksData = {
             ],
              summary: null,
             dateUpdate: "2023-06-19"
+        },
+    },
+    space_missions_explorations: {
+        space_missions_explorations: {
+            name: "Space Missions & Explorations",
+            baseImgUrl: "/mars_spaceX.jpg",
+            baseText: "Space Missions & Explorations",
+            subText: " ",
+            prev: {
+                key: "Meteors, Meteorites and Meteoroids",
+                value: "/asteroids_comets_meteors/meteors"
+            },
+            next: {
+                key: "Voyager 1",
+                value: "/space_missions_explorations/voyager_1"
+            },
+            subdata: [
+                {
+                    key: "NASA's Robotic Spacecrafts",
+                    value: "250"
+                },
+                {
+                    key: "First Human SpaceFlight",
+                    value: "Vostok 1 (Yuri Gagarin)"
+                },
+                {
+                    key: "First Earth Orbit Mission",
+                    value: "Sputnik 1"
+                },
+                {
+                    key: "First Moon Landing Mission",
+                    value: "Apollo 11"
+                },
+            ],
+            overview: {
+                name: "Space Missions & Explorations",
+                topBox: null,
+                paragraphs: [
+                    "Space missions and explorations represent humanity's endeavors to understand and explore the vastness of outer space beyond our home planet. These missions involve the launch of spacecraft equipped with scientific instruments, rovers, and satellites to gather data and explore celestial bodies such as planets, moons, asteroids, and comets. They are conducted by various space agencies, including NASA, Roscosmos, ESA, CNSA, and others, with the aim of advancing scientific knowledge, technological development, and expanding our understanding of the universe.",
+                    "Space missions have achieved significant milestones throughout history. Human spaceflight missions, like the Apollo program, have successfully landed astronauts on the Moon, providing valuable insights into lunar geology and enhancing our knowledge of space travel. Robotic missions, such as the Mars rovers Curiosity and Perseverance, have provided detailed information about the Martian surface and the potential for past or present life on the Red Planet. Deep space probes, like Voyager 1 and Voyager 2, have ventured beyond our solar system, sending back valuable data about the outer planets and continuing their interstellar journey.", "Space missions also play a crucial role in Earth observation and satellite technology. Weather satellites help monitor and predict weather patterns, while Earth observation satellites provide data on climate change, natural disasters, and environmental changes. Communication satellites enable global connectivity, while GPS satellites allow precise navigation and positioning worldwide. These applications improve our daily lives and contribute to scientific research and development in numerous fields.", "Overall, space missions and explorations have revolutionized our understanding of the universe, expanded our knowledge of celestial bodies, and advanced scientific and technological frontiers. They continue to push the boundaries of human exploration, inspiring future generations and paving the way for exciting discoveries and innovations in the realm of space."
+                ],
+                iframeLink: null,
+                facts_12: null
+            },
+            inDepth: [
+                {
+                    title: "Introduction",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Space exploration is the use of astronomy and space technology to explore outer space. While the exploration of space is carried out mainly by astronomers with telescopes, its physical exploration is conducted both by uncrewed robotic space probes and human spaceflight. Space exploration, like its classical form astronomy, is one of the main sources for space science.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "While the observation of objects in space, known as astronomy, predates reliable recorded history, it was the development of large and relatively efficient rockets during the mid-twentieth century that allowed physical space exploration to become a reality. The world's first large-scale experimental rocket program was Opel-RAK under the leadership of Fritz von Opel and Max Valier during the late 1920s leading to the first crewed rocket cars and rocket planes, which paved the way for the Nazi era V2 program and US and Soviet activities from 1950 onwards. The Opel-RAK program and the spectacular public demonstrations of ground and air vehicles drew large crowds, as well as caused global public excitement as so-called \"Rocket Rumble\" and had a large long-lasting impact on later spaceflight pioneers like Wernher von Braun. Common rationales for exploring space include advancing scientific research, national prestige, uniting different nations, ensuring the future survival of humanity, and developing military and strategic advantages against other countries.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The early era of space exploration was driven by a \"Space Race\" between the Soviet Union and the United States. A driving force of the start of space exploration was during the Cold War. After the ability to create nuclear weapons, the narrative of defense/offense left land and the power to control the air became the focus. Both the Soviet and the U.S. were fighting to prove their superiority in technology through exploring the unknown: space. In fact, the reason NASA was made was due to the response of Sputnik I. The launch of the first human-made object to orbit Earth, the Soviet Union's Sputnik 1, on 4 October 1957, and the first Moon landing by the American Apollo 11 mission on 20 July 1969 are often taken as landmarks for this initial period. ",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/space_missions_apollo.jpg",
+                            content_description: "Buzz Aldrin taking a core sample of the Moon during the Apollo 11 mission. Credit: NASA/ Project Apollo Archive"
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The Soviet space program achieved many of the first milestones, including the first living being in orbit in 1957, the first human spaceflight (Yuri Gagarin aboard Vostok 1) in 1961, the first spacewalk (by Alexei Leonov) on 18 March 1965, the first automatic landing on another celestial body in 1966, and the launch of the first space station (Salyut 1) in 1971. After the first 20 years of exploration, focus shifted from one-off flights to renewable hardware, such as the Space Shuttle program, and from competition to cooperation as with the International Space Station (ISS).",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "With the substantial completion of the ISS following STS-133 in March 2011, plans for space exploration by the U.S. remain in flux. Constellation, a Bush Administration program for a return to the Moon by 2020 was judged inadequately funded and unrealistic by an expert review panel reporting in 2009. The Obama Administration proposed a revision of Constellation in 2010 to focus on the development of the capability for crewed missions beyond low Earth orbit (LEO), envisioning extending the operation of the ISS beyond 2020, transferring the development of launch vehicles for human crews from NASA to the private sector, and developing technology to enable missions to beyond LEO, such as Earth-Moon L1, the Moon, Earth-Sun L2, near-Earth asteroids, and Phobos or Mars orbit.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "With the substantial completion of the ISS following STS-133 in March 2011, plans for space exploration by the U.S. remain in flux. Constellation, a Bush Administration program for a return to the Moon by 2020 was judged inadequately funded and unrealistic by an expert review panel reporting in 2009. The Obama Administration proposed a revision of Constellation in 2010 to focus on the development of the capability for crewed missions beyond low Earth orbit (LEO), envisioning extending the operation of the ISS beyond 2020, transferring the development of launch vehicles for human crews from NASA to the private sector, and developing technology to enable missions to beyond LEO, such as Earth-Moon L1, the Moon, Earth-Sun L2, near-Earth asteroids, and Phobos or Mars orbit.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In the 2000s, China initiated a successful crewed spaceflight program while India launched Chandraayan 1, while the European Union and Japan have also planned future crewed space missions. China, Russia, and Japan have advocated crewed missions to the Moon during the 21st century, while the European Union has advocated crewed missions to both the Moon and Mars during the 20th and 21st century.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Firsts In Space Exploration History",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: "First Telescopes",
+                            content: "The first telescope is said to have been invented in 1608 in the Netherlands by an eyeglass maker named Hans Lippershey, but their first uses in astronomy was by Galileo Galilei in 1609. In 1668 Isaac Newton built his own reflecting telescope, the first fully functional telescope of this kind, and a landmark for future developments due to its superior features over the previous Galilean telescope. A string of discoveries in the Solar System (and beyond) followed, then and in the next centuries: the mountains of the Moon, the phases of Venus, the main satellites of Jupiter and Saturn, the rings of Saturn, many comets, the asteroids, the new planets Uranus and Neptune, and many more satellites.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "First outer space flights",
+                            content: "MW 18014 was a German V-2 rocket test launch that took place on 20 June 1944, at the Peenemünde Army Research Center in Peenemünde. It was the first man-made object to reach outer space, attaining an apogee of 176 kilometers, which is well above the Kármán line. It was a vertical test launch. Although the rocket reached space, it did not reach orbital velocity, and therefore returned to Earth in an impact, becoming the first sub-orbital spaceflight.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "First Astronomical Body Space Explorations",
+                            content: "The first artificial object to reach another celestial body was Luna 2 reaching the Moon in 1959. The first soft landing on another celestial body was performed by Luna 9 landing on the Moon on 3 February 1966. Luna 10 became the first artificial satellite of the Moon, entering in a lunar orbit on 3 April 1966. The first crewed landing on another celestial body was performed by Apollo 11 on 20 July 1969, landing on the Moon. There have been a total of six spacecraft with humans landing on the Moon starting from 1969 to the last human landing in 1972.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The first interplanetary flyby was the 1961 Venera 1 flyby of Venus, though the 1962 Mariner 2 was the first flyby of Venus to return data (closest approach 34,773 kilometers). Pioneer 6 was the first satellite to orbit the Sun, launched on 16 December 1965. The other planets were first flown by in 1965 for Mars by Mariner 4, 1973 for Jupiter by Pioneer 10, 1974 for Mercury by Mariner 10, 1979 for Saturn by Pioneer 11, 1986 for Uranus by Voyager 2, 1989 for Neptune by Voyager 2. In 2015, the dwarf planets Ceres and Pluto were orbited by Dawn and passed by New Horizons, respectively. This accounts for flybys of each of the eight planets in the Solar System, the Sun, the Moon and Ceres & Pluto (2 of the 5 recognized dwarf planets).",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The first interplanetary surface mission to return at least limited surface data from another planet was the 1970 landing of Venera 7, which returned data to Earth for 23 minutes from Venus. In 1975 the Venera 9 was the first to return images from the surface of another planet, returning images from Venus. In 1971 the Mars 3 mission achieved the first soft landing on Mars returning data for almost 20 seconds. Later much longer duration surface missions were achieved, including over six years of Mars surface operation by Viking 1 from 1975 to 1982 and over two hours of transmission from the surface of Venus by Venera 13 in 1982, the longest ever Soviet planetary surface mission. Venus and Mars are the two planets outside of Earth on which humans have conducted surface missions with uncrewed robotic spacecraft.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/space_missions_firsts.jpeg",
+                            content_description: "The Hall of Space Technology in the Tsiolkovsky State Museum of the History of Cosmonautics, Kaluga, Russia. The exhibition includes the models and replicas of the following Russian/Soviet inventions: the first satellite, Sputnik 1 (a ball under the ceiling); the first spacesuits (lower-left corner); the first human spaceflight module, the Vostok 3KA (center); the first Molniya-type satellite (upper right corner); the first space rover, Lunokhod 1 (lower right); the first space station, Salyut 1 (left); the first modular space station, Mir (upper left). Author: Vladimir Birukov."
+                        },
+                        {
+                            content_type: "text",
+                            head: "First Space Station",
+                            content: "Salyut 1 was the first space station of any kind, launched into low Earth orbit by the Soviet Union on 19 April 1971. The International Space Station is currently the largest and oldest of the 2 current fully functional space stations, inhabited continuously since the year 2000. The other, Tiangong space station built by China, is now fully crewed and operational.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "First Interstellar Space Flight",
+                            content: "Voyager 1 became the first human-made object to leave the Solar System into interstellar space on 25 August 2012. The probe passed the heliopause at 121 AU to enter interstellar space.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Farthest from Earth",
+                            content: "The Apollo 13 flight passed the far side of the Moon at an altitude of 254 kilometers (158 miles; 137 nautical miles) above the lunar surface, and 400,171 km (248,655 mi) from Earth, marking the record for the farthest humans have ever traveled from Earth in 1970. As of 26 November 2022 Voyager 1 was at a distance of 159 AU (23.8 billion km; 14.8 billion mi) from Earth.[32] It is the most distant human-made object from Earth.",
+                            content_description: null
+                        },
+
+                    ]
+                },
+                { 
+                    title: "Targets of Exploration",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Starting in the mid-20th century probes and then human mission were sent into Earth orbit, and then on to the Moon. Also, probes were sent throughout the known Solar system, and into Solar orbit. Uncrewed spacecraft have been sent into orbit around Saturn, Jupiter, Mars, Venus, and Mercury by the 21st century, and the most distance active spacecraft, Voyager 1 and 2 traveled beyond 100 times the Earth-Sun distance. The instruments were enough though that it is thought they have left the Sun's heliosphere, a sort of bubble of particles made in the Galaxy by the Sun's solar wind.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "The Sun",
+                            content: "The Sun is a major focus of space exploration. Being above the atmosphere in particular and Earth's magnetic field gives access to the solar wind and infrared and ultraviolet radiations that cannot reach Earth's surface. The Sun generates most space weather, which can affect power generation and transmission systems on Earth and interfere with, and even damage, satellites and space probes. Numerous spacecraft dedicated to observing the Sun, beginning with the Apollo Telescope Mount, have been launched and still others have had solar observation as a secondary objective. Parker Solar Probe, launched in 2018, will approach the Sun to within 1/9th the orbit of Mercury.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Mercury",
+                            content: "Mercury remains the least explored of the Terrestrial planets. As of May 2013, the Mariner 10 and MESSENGER missions have been the only missions that have made close observations of Mercury. MESSENGER entered orbit around Mercury in March 2011, to further investigate the observations made by Mariner 10 in 1975 (Munsell, 2006b). A third mission to Mercury, scheduled to arrive in 2025, BepiColombo is to include two probes. BepiColombo is a joint mission between Japan and the European Space Agency. MESSENGER and BepiColombo are intended to gather complementary data to help scientists understand many of the mysteries discovered by Mariner 10's flybys.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/space_missions_mercury_messenger.png",
+                            content_description: "A MESSENGER image from 18,000 km showing a region about 500 km across (2008) - Shortly following MESSENGER's closest approach to Mercury on January 14, 2008, the spacecraft's Narrow Angle Camera (NAC) on the Mercury Dual Imaging System (MDIS) instrument acquired this image as part of a mosaic that covers much of the sunlit portion of the hemisphere not viewed by Mariner 10. The region shown is about 500 kilometers (300 miles) across, and craters as small as 1 kilometer (0.6 mile) can be seen in this image. Credit: NASA/JPL"
+                        },
+                        {
+                            content_type: "text",
+                            head: "Venus",
+                            content: "Venus was the first target of interplanetary flyby and lander missions and, despite one of the most hostile surface environments in the Solar System, has had more landers sent to it (nearly all from the Soviet Union) than any other planet in the Solar System. The first flyby was the 1961 Venera 1, though the 1962 Mariner 2 was the first flyby to successfully return data. Mariner 2 has been followed by several other flybys by multiple space agencies often as part of missions using a Venus flyby to provide a gravitational assist en route to other celestial bodies. In 1967 Venera 4 became the first probe to enter and directly examine the atmosphere of Venus. In 1970, Venera 7 became the first successful lander to reach the surface of Venus and by 1985 it had been followed by eight additional successful Soviet Venus landers which provided images and other direct surface data. Starting in 1975 with the Soviet orbiter Venera 9 some ten successful orbiter missions have been sent to Venus, including later missions which were able to map the surface of Venus using radar to pierce the obscuring atmosphere.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Earth",
+                            content: "Space exploration has been used as a tool to understand Earth as a celestial object. Orbital missions can provide data for Earth that can be difficult or impossible to obtain from a purely ground-based point of reference.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/TIROS-1-Earth.png",
+                            content_description: "First television image of Earth from space, taken by TIROS-1 in 1960. Credit: NASA"
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "For example, the existence of the Van Allen radiation belts was unknown until their discovery by the United States' first artificial satellite, Explorer 1. These belts contain radiation trapped by Earth's magnetic fields, which currently renders construction of habitable space stations above 1000km impractical. Following this early unexpected discovery, a large number of Earth observation satellites have been deployed specifically to explore Earth from a space based perspective. These satellites have significantly contributed to the understanding of a variety of Earth-based phenomena. For instance, the hole in the ozone layer was found by an artificial satellite that was exploring Earth's atmosphere, and satellites have allowed for the discovery of archeological sites or geological formations that were difficult or impossible to otherwise identify.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Moon",
+                            content: "The Moon was the first celestial body to be the object of space exploration. It holds the distinctions of being the first remote celestial object to be flown by, orbited, and landed upon by spacecraft, and the only remote celestial object ever to be visited by humans. In 1959 the Soviets obtained the first images of the far side of the Moon, never previously visible to humans. The U.S. exploration of the Moon began with the Ranger 4 impactor in 1962. Starting in 1966 the Soviets successfully deployed a number of landers to the Moon which were able to obtain data directly from the Moon's surface; just four months later, Surveyor 1 marked the debut of a successful series of U.S. landers. The Soviet uncrewed missions culminated in the Lunokhod program in the early 1970s, which included the first uncrewed rovers and also successfully brought lunar soil samples to Earth for study. This marked the first (and to date the only) automated return of extraterrestrial soil samples to Earth. Uncrewed exploration of the Moon continues with various nations periodically deploying lunar orbiters, and in 2008 the Indian Moon Impact Probe.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Crewed exploration of the Moon began in 1968 with the Apollo 8 mission that successfully orbited the Moon, the first time any extraterrestrial object was orbited by humans. In 1969, the Apollo 11 mission marked the first time humans set foot upon another world. Crewed exploration of the Moon did not continue for long. The Apollo 17 mission in 1972 marked the sixth landing and the most recent human visit. Artemis 2 is scheduled to complete a crewed flyby of the Moon in 2024. Robotic missions are still pursued vigorously.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Mars",
+                            content: "The exploration of Mars has been an important part of the space exploration programs of the Soviet Union (later Russia), the United States, Europe, Japan and India. Dozens of robotic spacecraft, including orbiters, landers, and rovers, have been launched toward Mars since the 1960s. These missions were aimed at gathering data about current conditions and answering questions about the history of Mars. The questions raised by the scientific community are expected to not only give a better appreciation of the Red Planet but also yield further insight into the past, and possible future, of Earth.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/mars_surface_spirit_rover.jpg",
+                            content_description: "Surface of Mars by the Spirit rover (2004) - This image was cropped version of the image 'Santa Anita' Panorama from the JPL MER website. According to account, this image was acquired from a position roughly three-fourths the way between \"Bonneville Crater\" and the base of the \"Columbia Hills\". Credit: NASA/JPL-Caltech."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The exploration of Mars has come at a considerable financial cost with roughly two-thirds of all spacecraft destined for Mars failing before completing their missions, with some failing before they even began. Such a high failure rate can be attributed to the complexity and large number of variables involved in an interplanetary journey, and has led researchers to jokingly speak of The Great Galactic Ghoul which subsists on a diet of Mars probes. This phenomenon is also informally known as the \"Mars Curse\". In contrast to overall high failure rates in the exploration of Mars, India has become the first country to achieve success of its maiden attempt. India's Mars Orbiter Mission (MOM) is one of the least expensive interplanetary missions ever undertaken with an approximate total cost of ₹ 450 Crore (US$73 million). The first mission to Mars by any Arab country has been taken up by the United Arab Emirates. Called the Emirates Mars Mission, it is scheduled for launch in 2020. The uncrewed exploratory probe has been named \"Hope Probe\" and will be sent to Mars to study its atmosphere in detail.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Phobos",
+                            content: "The Russian space mission Fobos-Grunt, which launched on 9 November 2011 experienced a failure leaving it stranded in low Earth orbit. It was to begin exploration of the Phobos and Martian circumterrestrial orbit, and study whether the moons of Mars, or at least Phobos, could be a \"trans-shipment point\" for spaceships traveling to Mars.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Asteroids",
+                            content: "Until the advent of space travel, objects in the asteroid belt were merely pinpricks of light in even the largest telescopes, their shapes and terrain remaining a mystery. Several asteroids have now been visited by probes, the first of which was Galileo, which flew past two: 951 Gaspra in 1991, followed by 243 Ida in 1993. Both of these lay near enough to Galileo's planned trajectory to Jupiter that they could be visited at acceptable cost. The first landing on an asteroid was performed by the NEAR Shoemaker probe in 2000, following an orbital survey of the object, 433 Eros. The dwarf planet Ceres and the asteroid 4 Vesta, two of the three largest asteroids, were visited by NASA's Dawn spacecraft, launched in 2007. Hayabusa was a robotic spacecraft developed by the Japan Aerospace Exploration Agency to return a sample of material from the small near-Earth asteroid 25143 Itokawa to Earth for further analysis.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/4_vesta.jpg",
+                            content_description: "Asteroid 4 Vesta, imaged by the Dawn spacecraft (2011) - NASA's Dawn obtained this image with its framing camera on July 9, 2011. It was taken from a distance of about 26,000 miles (41,000 kilometers) away from the protoplanet Vesta. Each pixel in the image corresponds to roughly 2.4 miles (3.8 kilometers). Credit: NASA/JPL-Caltech/UCLA/MPS/DLR/IDA."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Jupiter",
+                            content: "The exploration of Jupiter has consisted solely of a number of automated NASA spacecraft visiting the planet since 1973. A large majority of the missions have been \"flybys\", in which detailed observations are taken without the probe landing or entering orbit; such as in Pioneer and Voyager programs. The Galileo and Juno spacecraft are the only spacecraft to have entered the planet's orbit. As Jupiter is believed to have only a relatively small rocky core and no real solid surface, a landing mission is precluded. Reaching Jupiter from Earth requires a delta-v of 9.2 km/s, which is comparable to the 9.7 km/s delta-v needed to reach low Earth orbit. Fortunately, gravity assists through planetary flybys can be used to reduce the energy required at launch to reach Jupiter, albeit at the cost of a significantly longer flight duration.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Saturn",
+                            content: "Saturn has been explored only through uncrewed spacecraft launched by NASA, including one mission (Cassini-Huygens) planned and executed in cooperation with other space agencies. These missions consist of flybys in 1979 by Pioneer 11, in 1980 by Voyager 1, in 1982 by Voyager 2 and an orbital mission by the Cassini spacecraft, which lasted from 2004 until 2017. Saturn has at least 62 known moons, although the exact number is debatable since Saturn's rings are made up of vast numbers of independently orbiting objects of varying sizes. The largest of the moons is Titan, which holds the distinction of being the only moon in the Solar System with an atmosphere denser and thicker than that of Earth. Titan holds the distinction of being the only object in the Outer Solar System that has been explored with a lander, the Huygens probe deployed by the Cassini spacecraft.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Uranus",
+                            content: "The exploration of Uranus has been entirely through the Voyager 2 spacecraft, with no other visits currently planned. Given its axial tilt of 97.77°, with its polar regions exposed to sunlight or darkness for long periods, scientists were not sure what to expect at Uranus. The closest approach to Uranus occurred on 24 January 1986. Voyager 2 studied the planet's unique atmosphere and magnetosphere. Voyager 2 also examined its ring system and the moons of Uranus including all five of the previously known moons, while discovering an additional ten previously unknown moons.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Neptune",
+                            content: "The exploration of Neptune began with 25 August 1989 Voyager 2 flyby, the sole visit to the system as of 2023. The possibility of a Neptune Orbiter has been discussed, but no other missions have been given serious thought.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Pluto",
+                            content: "The dwarf planet Pluto presents significant challenges for spacecraft because of its great distance from Earth (requiring high velocity for reasonable trip times) and small mass (making capture into orbit very difficult at present). Voyager 1 could have visited Pluto, but controllers opted instead for a close flyby of Saturn's moon Titan, resulting in a trajectory incompatible with a Pluto flyby. Voyager 2 never had a plausible trajectory for reaching Pluto. After an intense political battle, a mission to Pluto dubbed New Horizons was granted funding from the United States government in 2003. New Horizons was launched successfully on 19 January 2006. In early 2007 the craft made use of a gravity assist from Jupiter. Its closest approach to Pluto was on 14 July 2015; scientific observations of Pluto began five months prior to closest approach and continued for 16 days after the encounter.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Kuiper Belt Objects [K.B.Os]",
+                            content: "The New Horizons mission also did a flyby of the small planetesimal Arrokoth, in the Kuiper belt, in 2019. This was its first extended mission.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Comets",
+                            content: "Although many comets have been studied from Earth sometimes with centuries-worth of observations, only a few comets have been closely visited. In 1985, the International Cometary Explorer conducted the first comet fly-by (21P/Giacobini-Zinner) before joining the Halley Armada studying the famous comet. The Deep Impact probe smashed into 9P/Tempel to learn more about its structure and composition and the Stardust mission returned samples of another comet's tail. The Philae lander successfully landed on Comet Churyumov-Gerasimenko in 2014 as part of the broader Rosetta mission.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "comets_hartley.jpg",
+                            content_description: "Comet 103P/Hartley (2010) - Image of Comet Hartley 2. This image was captured by NASA's EPOXI mission between Nov. 3 and 4, 2010, during the spacecraft's flyby of comet Hartley 2. It was captured using the spacecraft's Medium-Resolution Instrument. Credit: NASA/JPL-Caltech"
+                        },
+                        {
+                            content_type: "text",
+                            head: "Deep Space Exploration",
+                            content: "Deep space exploration is the branch of astronomy, astronautics and space technology that is involved with the exploration of distant regions of outer space. Physical exploration of space is conducted both by human spaceflights (deep-space astronautics) and by robotic spacecraft.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "Hubble_ultra_deep_field.jpg",
+                            content_description: "The Hubble Ultra Deep Field (edited), is an image of a small region of space in the constellation Fornax, composited from Hubble Space Telescope data accumulated over a period from September 3, 2003 through January 16, 2004. The patch of sky in which the galaxies reside was chosen because it had a low density of bright stars in the near-field. This high-resolution image of the Hubble Ultra Deep Field includes galaxies of various ages, sizes, shapes, and colors. The smallest, reddest galaxies, are some of the most distant galaxies to have been imaged by an optical telescope. Credit: NASA/ESA; Edited by Noodle snacks"
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Some of the best candidates for future deep space engine technologies include anti-matter, nuclear power and beamed propulsion. The latter, beamed propulsion, appears to be the best candidate for deep space exploration presently available, since it uses known physics and known technology that is being developed for other purposes.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Future of Space Exploration",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: "Breakthrough Starshot",
+                            content: "Breakthrough Starshot is a research and engineering project by the Breakthrough Initiatives to develop a proof-of-concept fleet of light sail spacecraft named StarChip, to be capable of making the journey to the Alpha Centauri star system 4.37 light-years away. It was founded in 2016 by Yuri Milner, Stephen Hawking, and Mark Zuckerberg.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "James Webb Space Telescope",
+                            content: "The James Webb Space Telescope (JWST or \"Webb\") is a space telescope that is the successor to the Hubble Space Telescope. The JWST will provide greatly improved resolution and sensitivity over the Hubble, and will enable a broad range of investigations across the fields of astronomy and cosmology, including observing some of the most distant events and objects in the universe, such as the formation of the first galaxies. Other goals include understanding the formation of stars and planets, and direct imaging of exoplanets and novas.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/JWST_Full_Mirror.jpg",
+                            content_description: "Main mirror assembly for the James Webb Space Telescope from the front with primary mirrors attached, November 2016. Credit: NASA/JWST"
+                        },
+                        {
+                            content_type: "text",
+                            head: "Artemis Program",
+                            content: "The Artemis program is an ongoing crewed spaceflight program carried out by NASA, U.S. commercial spaceflight companies, and international partners such as ESA, with the goal of landing \"the first woman and the next man\" on the Moon, specifically at the lunar south pole region by 2024. Artemis would be the next step towards the long-term goal of establishing a sustainable presence on the Moon, laying the foundation for private companies to build a lunar economy, and eventually sending humans to Mars.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In 2017, the lunar campaign was authorized by Space Policy Directive 1, utilizing various ongoing spacecraft programs such as Orion, the Lunar Gateway, Commercial Lunar Payload Services, and adding an undeveloped crewed lander. The Space Launch System will serve as the primary launch vehicle for Orion, while commercial launch vehicles are planned for use to launch various other elements of the campaign. NASA requested $1.6 billion in additional funding for Artemis for fiscal year 2020, while the Senate Appropriations Committee requested from NASA a five-year budget profile which is needed for evaluation and approval by Congress.",
+                            content_description: null
+                        },                   
+                    ]
+                },
+                {
+                    title: "Watch To Learn More...",
+                    texts: [
+                        {
+                            content_type: "embed_video",
+                            content: "3JuKR7jf46o",
+                            content_description: "\"Let us to take you back through the timeline of space exploration and its rich, fascinating history. Starting in 1946, with a rudimentary German military rocket, we will explore world firsts and milestones, broken frontiers and heart-breaking tragedy, canine astronauts, sophisticated robots, alien landscapes and everything in between!\""
+                        },  
+                    ]
+                }
+            ],
+            summary: null,
+            dateUpdate: "2023-06-21"
+        },
+        voyager_1: {
+            name: "Voyager 1",
+            baseImgUrl: "/Voyager_1.jpg",
+            baseText: "Voyager 1",
+            subText: "Farthest human-made object in space whose mission included exploring Jupiter, Saturn, and interstellar space, providing invaluable data and images of these distant realms.",
+            prev: {
+                key: "Space Missions & Explorations",
+                value: "/space_missions_explorations"
+            },
+            next: {
+                key: "Voyager 2",
+                value: "/space_missions_explorations/voyager_2"
+            },
+            subdata: [
+                {
+                    key: "Launch Date",
+                    value: "Sept. 5, 1977"
+                },
+                {
+                    key: "Overtook Pionner 10",
+                    value: "Feb. 17, 1998"
+                },
+                {
+                    key: "Reached 100 A.U.",
+                    value: "Aug. 16, 2006"
+                },
+                {
+                    key: "Went Interstellar",
+                    value: "Aug. 1, 2012"
+                },
+            ],
+            overview: {
+                name: "Voyager 1",
+                topBox: null,
+                paragraphs: [
+                    "No spacecraft has gone farther than NASA's Voyager 1. Launched in 1977 to fly by Jupiter and Saturn, Voyager 1 crossed into interstellar space in August 2012 and continues to collect data.",
+                    "Voyager 1 and its sister ship Voyager 2 have been flying longer than any other spacecraft in history. Not only are the Voyager missions providing humanity with observations of truly uncharted territory, but they are also helping scientists understand the very nature of energy and radiation in space — key information for protecting future missions and astronauts.", "Voyager 1 carries a copy of the Golden Record—a message from humanity to the cosmos that includes greetings in 55 languages, pictures of people and places on Earth and music ranging from Beethoven to Chuck Berry's \"Johnny B. Goode\".", "Voyager 1 was the first spacecraft to cross the heliosphere, the boundary where the influences outside our solar system are stronger than those from our Sun. Voyager 1 is also the first human-made object to venture into interstellar space. It discovered a thin ring around Jupiter and two new Jovian moons: Thebe and Metis. At Saturn, Voyager 1 found five new moons and a new ring called the G-ring."
+                ],
+                iframeLink: {
+                    type: "iframe",
+                    content: "https://eyes.nasa.gov/apps/orrery/#/sc_voyager_1?embed=true&amp;logo=false" ,
+                    content_description: "Explore the 3D world of the farthest faring spacescraft. Learn about all it's components and features (mini-superpowers) that helped make it's mission a wholesome success."
+                },
+                facts_12: null
+            },
+            inDepth: [
+                {
+                    title: "Mission Accounts",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "NASA's Voyager 1 was launched after Voyager 2, but because of a faster route, it exited the asteroid belt earlier than its twin, having overtaken Voyager 2 on Dec. 15, 1977.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Jovian Flyby",
+                            content: "It began its Jovian imaging mission in April 1978 when it was about 165 million miles (265 million kilometers) from the planet. Images sent back by January 1979 indicated that Jupiter's atmosphere was more turbulent than during the Pioneer flybys in 1973-1974. Beginning Jan. 30, 1979, Voyager 1 took a picture every 96 seconds for a span of 100 hours to generate a color time-lapse movie to depict 10 rotations of Jupiter.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "On Feb. 10, 1979, the spacecraft crossed into the Jovian moon system and in early March, it discovered a thin ring circling Jupiter (less than 19-miles or 30 kilometers-thick). Voyager 1's closest encounter with Jupiter was at 12:05 UT March 5, 1979, at a range of about 174,000 miles (280,000 kilometers), following which it encountered several of Jupiter's moons, including Amalthea (at a 261,100-mile or 420,200-kilometer range), Io (13,050 miles or 21,000 kilometers), Europa (45,830 miles or 733,760 kilometers), Ganymede (71,280 miles or 114,710 kilometers), and Callisto (78,540 miles or 126,400 kilometers), in that order, returning spectacular photos of their terrains and opening up completely new worlds for planetary scientists. Among the most interesting findings was on Io, where images showed a bizarre yellow, orange, and brown world with at least eight active volcanoes spewing material into space, making it one of the most (if not the most) geologically active planetary bodies in the solar system. The presence of active volcanoes suggested that the sulfur and oxygen in Jovian space may be a result of the volcanic plumes from Io which are rich in sulfur dioxide. The spacecraft also discovered two new moons, Thebe and Metis.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "The Saturn Flyby",
+                            content: "Following the Jupiter encounter, Voyager 1 completed an initial course correction April 9, 1979, in preparation for its meeting with Saturn. A second correction on Oct. 10, 1979, ensured that the spacecraft would not hit Saturn's moon Titan. Its flyby of the Saturn system in November 1979 was as spectacular as its previous encounter. Voyager 1 found five new moons, a ring system consisting of thousands of bands, wedge-shaped transient clouds of tiny particles in the B-ring that scientists called “spokes,” a new ring (the G-ring), and “shepherding” satellites on either side of the F-ring -- satellites that keep the rings well-defined.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "During its flyby, the spacecraft photographed Saturn's moons Titan, Mimas, Enceladus, Tethys, Dione, and Rhea. Based on incoming data, all the moons appeared to be composed largely of water ice. Perhaps the most interesting target was Titan, which Voyager 1 passed at 05:41 UT Nov. 12, 1979, at a range of about 2,500 miles (4,000 kilometers). Images showed a thick atmosphere that completely hid the surface. The spacecraft found that the moon's atmosphere was composed of 90% nitrogen. Pressure and temperature at the surface was 1.6 atmospheres and minus 292 degrees Fahrenheit (minus 180 degrees Celsius), respectively. Atmospheric data suggested that Titan might be the first body in the solar system, apart from Earth, where liquid might exist on the surface. In addition, the presence of nitrogen, methane, and more complex hydrocarbons indicated that prebiotic chemical reactions might be possible on Titan. Voyager 1's closest approach to Saturn was at 23:46 UT Nov. 12, 1980, at a range of about 78,290 miles (126,000 kilometers).",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "The Escape",
+                            content: "Following the encounter with Saturn, Voyager 1 headed on a trajectory to escape the solar system at a speed of about 3.5 AU (325 million miles or 523 million kilometers) per year, 35 degrees out of the ecliptic plane to the north and in the general direction of the Sun's motion relative to nearby stars. Because of the specific requirements for the Titan flyby, the spacecraft was not directed to Uranus and Neptune. On Feb. 14, 1990, Voyager 1's cameras were pointed backward and captured about 60 images of the Sun and planets -- the first \"portrait\" of our solar system as seen from the outside. The images were taken when the spacecraft was about 40 AU from the Sun (3.7 billion miles or 6 billion kilometers). A mosaic of those images became the “Pale Blue Dot” image made famous by Cornell University professor and Voyager science team member Carl Sagan (1934-1996).",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/voyager_blue_dot.jpg",
+                            content_description: "The Pale Blue Dot is a photograph of Earth taken Feb. 14, 1990, by NASA's Voyager 1 at a distance of 3.7 billion miles (6 billion kilometers) from the Sun. The image inspired the title of scientist Carl Sagan's book, \"Pale Blue Dot: A Vision of the Human Future in Space\", in which he wrote: \"Look again at that dot. That's here. That's home. That's us.\". Source: NASA/JPL-Caltech; Published: February 5, 2019."
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The image has also been called the \"Solar System Family Portrait\" — even though Mercury and Mars can't be seen. Mercury was too close to the Sun to be seen, and Mars was on the same side of the Sun as Voyager 1, so only its dark side faced the cameras. These images were the last of 67,000 images taken by the two Voyager spacecraft. Their cameras were turned off to save power and memory for the interstellar mission.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Start of the Interstellar Mission",
+                            content: "All the planetary encounters finally were over in 1989 and the missions of Voyager 1 and 2 were declared part of the Voyager Interstellar Mission (VIM), which officially began Jan. 1, 1990. The goal of the new mission is to extend NASA's exploration of the solar system beyond the neighborhood of the outer planets to the outer limits of the Sun's sphere of influence, and possibly beyond. Specific goals include collecting data on the transition between the heliosphere — the region of space dominated by the Sun's magnetic field and solar field — and the interstellar medium. On Feb. 17, 1998, Voyager 1 became the most distant human-made object in existence when, at a distance of 69.4 AU from the Sun, it overtook Pioneer 10.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "On Dec. 16, 2004, Voyager scientists announced that Voyager 1 had reported high values for the intensity for the magnetic field at a distance of 94 AU, indicating that it had reached the termination shock and had now entered the heliosheath. The spacecraft finally exited the heliosphere and began measuring the interstellar environment on Aug. 25, 2012, the first spacecraft to do so. On Sept. 5, 2017, NASA marked the 40th anniversary of Voyager 1's launch, as it continues to communicate with NASA's Deep Space Network and to send data back from four still-functioning instruments -- the cosmic ray telescope, the low-energy charged particles experiment, the magnetometer, and the plasma waves experiment. Each Voyager carries a message, prepared by a team headed by Carl Sagan, in the form of a 12 inch (30-centimeter) diameter gold-plated copper disc for potential extraterrestrials who might find the spacecraft.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Like the plaques on Pioneers 10 and 11, the record has symbols to show the location of Earth relative to several pulsars. The records also contain instructions to play them using a cartridge and a needle, much like a vinyl record player. The audio on the disc includes greetings in 55 languages, 35 sounds from life on Earth (such as whale songs, laughter, etc.), 90 minutes of generally Western music including everything from Mozart and Bach to Chuck Berry and Blind Willie Johnson. It also includes 115 images of life on Earth and recorded greetings from then U.S. President Jimmy Carter (1924 - .... ) and then-UN Secretary-General Kurt Waldheim (1918-2007).",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The two Voyagers are now over 11 billion miles (18 billion kilometers) from the Sun and far from its warmth. To ensure the vintage robots continue to return the best scientific data possible, mission engineers in 2019 began implementing a new plan to manage them. The plan involves making difficult choices, particularly about instruments and thrusters on the spacecraft.",
+                            content_description: null
+                        },
+                    ]
+                }, 
+                {
+                    title: "Jupiter Accomplishments",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "During the Jupiter leg of its journey, Voyager 1 explored the giant planet, its magnetosphere and moons in greater detail than the Pioneer spacecraft that preceded it. Voyager 1 also used Jupiter as a springboard to Saturn, using the gravity-assist technique. Voyager 1 succeeded on all counts Jupiter, with the single exception of experiments using its photopolarimeter, which failed to operate.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Jupiter's atmosphere was found to be more active than during the visits of Pioneer 10 and 11, sparking a rethinking of the earlier atmospheric models which could not explain the new features.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The spacecraft imaged the moons Amalthea, Io, Europa, Ganymede, and Callisto, showing details of their terrain for the first time. Possibly the most stunning of Voyager 1's discoveries was that Io has extremely active volcanoes, powered by heat generated by the stretching and relaxing the moon endures every 42 hours as its elliptical orbit brings it closer to and then farther from Jupiter. This finding revolutionized scientists' concept of the moons of the outer planets. The spacecraft also discovered a thin ring around the planet (then making it the second planet known to have a ring), and two new moons: Thebe and Metis.",
+                            content_description: null
+                        },
+
+                    ]
+                },
+                { 
+                    title: "Saturn Accomplishments",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Voyager 1 was the second spacecraft to visit Saturn. It explored the planet and its rings, moons, and magnetic field in greater detail than was possible for its predecessor, Pioneer 11.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Voyager 1 met all of its goals except for the experiments planned for its photopolarimeter, which failed to operate. The spacecraft found three new moons: Prometheus and Pandora, the \"shepherding\" moons that keep the F ring well-defined, and Atlas which similarly shepherds the A ring. Saturn's largest moon, Titan, was found to have a thick atmosphere which hides its surface from visible-light cameras and telescopes. Spacecraft instruments showed it to be mostly nitrogen, like Earth's atmosphere, but with a surface pressure 1.6 times as high as ours.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The spacecraft also imaged the moons Mimas, Enceladus, Tethys, Dione, and Rhea; revealed the fine structures of Saturn's complex and beautiful ring system; and added the G ring to the list of known rings. Just as it used Jupiter's gravity to help it reach Saturn, Voyager 1 used a gravity assist at Saturn to alter its course and increase its speed, giving it a trajectory to take it out of the solar system.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Interstellar Accomplishments",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In August 2012, Voyager 1 became the first spacecraft to cross into interstellar space.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "However, if we define our solar system as the Sun and everything that primarily orbits the Sun, Voyager 1 will remain within the confines of the solar system until it emerges from the Oort cloud in another 14,000 to 28,000 years.",
+                            content_description: null
+                        },                   
+                    ]
+                },
+                {
+                    title: "Watch To Learn More...",
+                    texts: [
+                        {
+                            content_type: "embed_video",
+                            content: "Du5hekU95mY",
+                            content_description: "Everything to to know about Voyager 1's 42-years long journey. What it went through, what it saw, where it is now and what it sees now."
+                        },  
+                    ]
+                }
+            ],
+            exploration_link: {
+                href: "https://eyes.nasa.gov/apps/solar-system/#/story/voyager_grand_tour",
+                backTrack_href: "/space_missions_explorations/voyager_1",
+                goExplore_href: "/story/voyager",
+                description: "An immersive insight into the Voyager space missions, the mission timelines and discoveries in story mode",
+                headText: "Explore Voyager In 3D",
+                bgImg_src: "/Voyager_1.jpg"
+            },
+            summary: null,
+            dateUpdate: "2023-06-21"
+        },
+        voyager_2: {
+            name: "Voyager 2",
+            baseImgUrl: "/Voyager_1.jpg",
+            baseText: "Voyager 2",
+            subText: "Remarkable space probe that has explored Jupiter, Saturn, Uranus, and Neptune. Its mission has greatly expanded our understanding of these giant planets and their moons.",
+            prev: {
+                key: "Voyager 1",
+                value: "/space_missions_explorations/voyager_1"
+            },
+            next: {
+                key: "Cassini",
+                value: "/space_missions_explorations/cassini_huygens"
+            },
+            subdata: [
+                {
+                    key: "Launch Date",
+                    value: "Aug. 20, 1977"
+                },
+                {
+                    key: "Jovian Flyby",
+                    value: "July 9, 1979"
+                },
+                {
+                    key: "Neptune Flyby",
+                    value: "Aug. 25, 1989"
+                },
+                {
+                    key: "Went Interstellar",
+                    value: "Dec. 10, 2018"
+                },
+            ],
+            overview: {
+                name: "Voyager 2",
+                topBox: null,
+                paragraphs: [
+                    "NASA's Voyager 2 is the second spacecraft to enter interstellar space. On Dec. 10, 2018, the spacecraft joined its twin — Voyager 1 — as the only human-made objects to enter the space between the stars.",
+                    "Voyager 1 and 2 were designed to take advantage of a rare planetary alignment to study the outer solar system up close. Voyager 2 targeted Jupiter, Saturn, Uranus and Neptune. Like its sister spacecraft, Voyager 2 also was designed to find and study the edge of our solar system.", "Voyager 2 is the only spacecraft to study all four of the solar system's giant planets at close range. It discovered a 14th moon at Jupiter and was the first human-made object to fly past Uranus.", "At Uranus, Voyager 2 discovered 10 new moons and two new rings. Voyager 2 was also the first human-made object to fly by Neptune. At Neptune, Voyager 2 discovered five moons, four rings, and a \"Great Dark Spot\"."
+                ],
+                iframeLink: {
+                    type: "iframe",
+                    content: "https://eyes.nasa.gov/apps/orrery/#/sc_voyager_2?embed=true&amp;logo=false" ,
+                    content_description: "Explore the 3D world of the Voyager 1 sister spacecraft (Voyager 2). Learn about all it's components and features (mini-superpowers) that helped make it's mission a wholesome success."
+                },
+                facts_12: null
+            },
+            inDepth: [
+                {
+                    title: "Introduction",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The two-spacecraft Voyager missions were designed to replace original plans for a “Grand Tour” of the planets that would have used four highly complex spacecraft to explore the five outer planets during the late 1970s. NASA canceled the plan in January 1972 largely due to anticipated costs (projected at $1 billion) and instead proposed to launch only two spacecraft in 1977 to Jupiter and Saturn. The two spacecraft were designed to explore the two gas giants in more detail than the two Pioneers (Pioneers 10 and 11) that preceded them.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In 1974, mission planners proposed a mission in which, if the first Voyager was successful, the second one could be redirected to Uranus and then Neptune using gravity assist maneuvers. Each of the two spacecraft was equipped with a slow-scan color TV camera to take images of the planets and their moons and each also carried an extensive suite of instruments to record magnetic, atmospheric, lunar, and other data about the planetary systems. The design of the two spacecraft was based on the older Mariners, and they were known as Mariner 11 and Mariner 12 until March 7, 1977, when NASA Administrator James C. Fletcher (1919-1991) announced that they would be renamed Voyager.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/voyager_2_launch.webp",
+                            content_description: "Voyager 2 launched on Aug. 20, 1977, about two weeks before the Sept. 5 launch of Voyager 1. Why the reversal of order? The two were sent on different trajectories, and Voyager 1 was put on a path to reach its planetary targets, Jupiter and Saturn, ahead of Voyager 2. Image credit: NASA/JPL-Caltech"
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Power was provided by three plutonium dioxide radioisotope thermoelectric generators (RTGs) mounted at the end of a boom.",
+                            content_description: null
+                        },
+
+                    ]
+                }, 
+                {
+                    title: "Mission Accounts",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Voyager 2 began transmitting images of Jupiter April 24, 1979, for time-lapse movies of atmospheric circulation. Unlike Voyager 1, Voyager 2 made close passes to the Jovian moons on its way into the system, with scientists especially interested in more information from Europa and Io (which necessitated a 10 hour-long “volcano watch”).",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Jovian Flyby",
+                            content: "During its encounter, it relayed back spectacular photos of the entire Jovian system, including its moons Callisto, Ganymede, Europa (at a range of about 127,830 miles or 205,720 kilometers, much closer than Voyager 1), Io, and Amalthea, all of which had already been surveyed by Voyager 1. Voyager 2's closest encounter to Jupiter was at 22:29 UT July 9, 1979, at a range of about 400,785 miles (645,000 kilometers). It transmitted new data on the planet's clouds, its newly discovered four moons, and ring system as well as 17,000 new pictures.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "When the earlier Pioneers flew by Jupiter, they detected few atmospheric changes from one encounter to the second, but Voyager 2 detected many significant changes, including a drift in the Great Red Spot as well as changes in its shape and color. With the combined cameras of the two Voyagers, at least 80% of the surfaces of Ganymede and Callisto were mapped out to a resolution of about 3 miles (5 kilometers).",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "The Saturn Flyby",
+                            content: "Following a course correction two hours after its closest approach to Jupiter, Voyager 2 sped to Saturn, its trajectory determined to a large degree by a decision made in January 1981, to try to send the spacecraft to Uranus and Neptune later in the decade. Its encounter with the sixth planet began Aug. 22, 1981, two years after leaving the Jovian system, with imaging of the moon Iapetus. Once again, Voyager 2 repeated the photographic mission of its predecessor, although it actually flew about 14,290 miles (23,000 kilometers) closer to Saturn. The closest encounter to Saturn was at 01:21 UT Aug. 26, 1981, at a range of about 63,000 miles (101,000 kilometers). The spacecraft provided more detailed images of the ring “spokes” and kinks, and also the F-ring and its shepherding moons, all found by Voyager 1. Voyager 2’s data suggested that Saturn’s A-ring was perhaps only about 980 feet (300 meters) thick.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "As it flew behind and up past Saturn, the probe passed through the plane of Saturn’s rings at a speed of 8 miles per second (13 kilometers per second). For several minutes during this phase, the spacecraft was hit by thousands of micron-sized dust grains that created “puff” plasma as they were vaporized. Because the vehicle's attitude was repeatedly shifted by the particles, attitude control jets automatically fired many times to stabilize the vehicle. During the encounter, Voyager 2 also photographed the Saturn moons Hyperion (the “hamburger moon”), Enceladus, Tethys, and Phoebe as well as the more recently discovered Helene, Telesto and Calypso.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "The Fly By The Uranian System",
+                            content: "Although Voyager 2 had fulfilled its primary mission goals with the two planetary encounters, mission planners directed the veteran spacecraft to Uranus — a journey that would take about 4.5 years. In fact, its encounter with Jupiter was optimized in part to ensure that future planetary flybys would be possible. The Uranus encounter's geometry was also defined by the possibility of a future encounter with Neptune: Voyager 2 had only 5.5 hours of close study during its flyby. Voyager 2 was the first human-made object to fly past the planet Uranus.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Long-range observations of the planet began Nov. 4, 1985, when signals took approximately 2.5 hours to reach Earth. Light conditions were 400 times less than terrestrial conditions. Closest approach to Uranus took place at 17:59 UT Jan. 24, 1986, at a range of about 50,640 miles (81,500 kilometers). During its flyby, Voyager 2 discovered 10 new moons (given such names as Puck, Portia, Juliet, Cressida, Rosalind, Belinda, Desdemona, Cordelia, Ophelia, and Bianca -- obvious allusions to Shakespeare), two new rings in addition to the “older” nine rings, and a magnetic field tilted at 55 degrees off-axis and off-center. The spacecraft found wind speeds in Uranus' atmosphere as high as 450 miles per hour (724 kilometers per hour) and found evidence of a boiling ocean of water some 497 miles (800 kilometers) below the top cloud surface. Its rings were found to be extremely variable in thickness and opacity.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Voyager 2 also returned spectacular photos of Miranda, Oberon, Ariel, Umbriel, and Titania, five of Uranus' larger moons. In flying by Miranda at a range of only 17,560 miles (28,260 kilometers), the spacecraft came closest to any object so far in its nearly decade-long travels. Images of the moon showed a strange object whose surface was a mishmash of peculiar features that seemed to have no rhyme or reason. Uranus itself appeared generally featureless. The spectacular news of the Uranus encounter was interrupted the same week by the tragic Challenger accident that killed seven astronauts during their space shuttle launch Jan. 28, 1986.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Following the Uranus encounter, the spacecraft performed a single midcourse correction Feb. 14, 1986 — the largest ever made by Voyager 2 — to set it on a precise course to Neptune.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "The Fly By the Neptunian System",
+                            content: "Voyager 2's encounter with Neptune capped a 4.3 billion-mile (7 billion-kilometer) journey when, on Aug. 25, 1989, at 03:56 UT, it flew about 2,980 miles (4,800 kilometers) over the cloud tops of the giant planet, the closest of its four flybys. It was the first human-made object to fly by the planet. Its 10 instruments were still in working order at the time. During the encounter, the spacecraft discovered six new moons (Proteus, Larissa, Despina, Galatea, Thalassa, and Naiad) and four new rings. The planet itself was found to be more active than previously believed, with 680-mile (1,100-kilometer) per hour winds. Hydrogen was found to be the most common atmospheric element, although the abundant methane gave the planet its blue appearance. Images revealed details of the three major features in the planetary clouds — the Lesser Dark Spot, the Great Dark Spot, and Scooter.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Voyager photographed two-thirds of Neptune's largest moon Triton, revealing the coldest known planetary body in the solar system and a nitrogen ice “volcano” on its surface. Spectacular images of its southern hemisphere showed a strange, pitted cantaloupe-type terrain. The flyby of Neptune concluded Voyager 2’s planetary encounters, which spanned an amazing 12 years in deep space, virtually accomplishing the originally planned “Grand Tour” of the solar system, at least in terms of targets reached if not in science accomplished. Once past the Neptune system, Voyager 2 followed a course below the ecliptic plane and out of the solar system. Approximately 35 million miles (56 million kilometers) past the encounter, Voyager 2's instruments were put in low power mode to conserve energy.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Start of the Interstellar Mission",
+                            content: "After the Neptune encounter, NASA formally renamed the entire project the Voyager Interstellar Mission (VIM). Of the four spacecraft sent out to beyond the environs of the solar system in the 1970s, three of them -- Voyagers 1 and 2 and Pioneer 11 -- were all heading in the direction of the solar apex, i.e., the apparent direction of the Sun's travel in the Milky Way galaxy, and thus would be expected to reach the heliopause earlier than Pioneer 10 which was headed in the direction of the heliospheric tail.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In November 1998, 21 years after launch, nonessential instruments were permanently turned off, leaving seven instruments still operating. Through the turn of the century, NASA's Jet Propulsion Laboratory (JPL) continued to receive ultraviolet and particle fields data. For example, on Jan. 12, 2001, an immense shock wave that had blasted out of the outer heliosphere on July 14, 2000, finally reached Voyager 2. During its six-month journey, the shock wave had plowed through the solar wind, sweeping up and accelerating charged particles. The spacecraft provided important information on high-energy shock-energized ions.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "On Aug. 30, 2007, Voyager 2 passed the termination shock and then entered the heliosheath. By Nov. 5, 2017, the spacecraft was 116.167 AU (about 10.8 billion miles or about 17.378 billion kilometers) from Earth, moving at a velocity of 9.6 miles per second (15.4 kilometers per second) relative to the Sun, heading in the direction of the constellation Telescopium. At this velocity, it would take about 19,390 years to traverse a single light-year. On July 8, 2019, Voyager 2 successfully fired up its trajectory correction maneuver thrusters and will be using them to control the pointing of the spacecraft for the foreseeable future. Voyager 2 last used those thrusters during its encounter with Neptune in 1989.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The spacecraft's aging attitude control thrusters have been experiencing degradation that required them to fire an increasing and untenable number of pulses to keep the spacecraft's antenna pointed at Earth. Voyager 1 had switched to its trajectory correction maneuver thrusters for the same reason in January 2018. To ensure that both vintage robots continue to return the best scientific data possible from the frontiers of space, mission engineers are implementing a new plan to manage them. The plane will involve making difficult choices, particularly about instruments and thrusters.",
+                            content_description: null
+                        },
+                    ]
+                }, 
+                {
+                    title: "Jupiter Accomplishments",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "During the Jupiter leg of its journey, Voyager 2 explored the giant planet, its magnetosphere and moons in greater detail than had the Pioneer spacecraft that preceded it. Voyager 2 also used it as a springboard to Saturn, using the gravity-assist technique. Voyager 2 succeeded on all counts. It returned spectacular photos of the entire Jovian system, and time-lapse movies made from its images of Jupiter showed how the planet had changed since Voyager 1's visit.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Its images of Io revealed changes in the moon's surface and the persistence of its volcanic eruptions. The spacecraft resolved the streaks Voyager 1 had shown on Europa into a collection of cracks in a thick and remarkably smooth icy crust. It also discovered a 14th moon and revealed a third component to the planet's rings.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/voyager_2_jupiter.webp",
+                            content_description: "This image shows a crescent Uranus, a view that Earthlings never witnessed until Voyager 2 flew near and then beyond Uranus on January 24, 1986."
+                        },
+
+                    ]
+                },
+                { 
+                    title: "Saturn Accomplishments",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Voyager 2 was to become the third spacecraft to visit Saturn. It gave us another close-range look at Saturn and its moons. Using its photopolarimeter, an instrument that had failed on Voyager 1, Voyager 2 was able to observe the planet's rings at much higher resolution and to discover many more ringlets. It also provided more detailed images of the ring spokes and kinks, and of the F-ring and its shepherding moons. Finally, it employed a gravity-assist maneuver at Saturn to help it reach its next destination, Uranus.",
+                            content_description: null
+                        },
+                    ]
+                },
+                { 
+                    title: "Uranus Accomplishments",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Following its flybys of Jupiter and Saturn, Voyager 2 became the first spacecraft to visit Uranus. Voyager 2 remains the only spacecraft to have flown by Uranus. The planet appeared to have few features but Voyager 2 found evidence of an ocean of boiling water about 500 miles (800 kilometers) below its cloud tops. Curiously, the average temperature of its Sun-facing pole was found to be the same as that at the equator.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/voyager_2_uranus.webp",
+                            content_description: "The complex terrain of Ariel is viewed in this image, the best Voyager 2 color picture of the Uranian moon. Image Credit: NASA/JPL"
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Voyager 2 discovered 10 new moons, two new rings, and a strangely tilted magnetic field stronger than that of Saturn. A gravity assist at Uranus propelled the spacecraft toward its next destination, Neptune.",
+                            content_description: null
+                        },
+                    ]
+                },
+                { 
+                    title: "Neptune Accomplishments",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Voyager 2 is the only human-made object to have flown by Neptune. In the closest approach of its entire tour, the spacecraft passed less than 3,100 miles (5,000 kilometers) above the planet's cloud tops. It discovered five moons, four rings, and a \"Great Dark Spot\" that vanished by the time the Hubble Space Telescope imaged Neptune five years later.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/voyager_2_neptune.webp",
+                            content_description: "This picture of Neptune was produced from the last whole planet images taken through the green and orange filters on the Voyager 2 narrow angle camera. Image Credit: NASA/JPL"
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Neptune's largest moon, Triton, was found to be the coldest known planetary body in the solar system, with a nitrogen ice \"volcano\" on its surface.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Interstellar Accomplishments",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "A gravity assist at Neptune shot Voyager 2 below the plane in which the planets orbit the Sun, on a course out of the solar system. NASA announced in December 2018 that Voyager 2 had entered interstellar space, the second spacecraft to do so after sister ship Voyager 1.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "As of July 2019, Voyager 2 continued to return data from five instruments as it travels through interstellar space. Eventually, there will not be enough electricity to power even one instrument. Then, Voyager 2 will silently continue its eternal journey among the stars.",
+                            content_description: null
+                        },                   
+                    ]
+                },
+                {
+                    title: "Watch To Learn More...",
+                    texts: [
+                        {
+                            content_type: "embed_video",
+                            content: "nmQK0_ltYZs",
+                            content_description: "In 1965, the age of space exploration had just begun. Flandro was tasked with figuring out the most effective way to launch a space probe to Jupiter, or perhaps even out to Saturn, Uranus, or Neptune, while he was a part-time employee at NASA's Jet Propulsion Laboratory in Pasadena, California"
+                        },  
+                    ]
+                }
+            ],
+            exploration_link: {
+                href: "https://eyes.nasa.gov/apps/solar-system/#/story/voyager_grand_tour",
+                backTrack_href: "/space_missions_explorations/voyager_2",
+                goExplore_href: "/story/voyager",
+                description: "An immersive insight into the Voyager space missions, the mission timelines and discoveries in story mode",
+                headText: "Explore Voyager In 3D",
+                bgImg_src: "/Voyager_1.jpg"
+            },
+            summary: null,
+            dateUpdate: "2023-06-21"
+        },
+        cassini_huygens: {
+            name: "Cassini-Huygens",
+            baseImgUrl: "/cassini_bg.jpg",
+            baseText: "Cassini-Huygens",
+            subText: "A joint NASA/ESA mission, that embarked on an epic journey to study Saturn and its moons provided unprecedented insights into the ringed planet. Cassini (Saturn Orbiter), Huygens (Titan lander).",
+            prev: {
+                key: "Voyager 2",
+                value: "/space_missions_explorations/voyager_2"
+            },
+            next: null,
+            subdata: [
+                {
+                    key: "Launch Date",
+                    value: "October 15, 1997"
+                },
+                {
+                    key: "Cassini Orbital Insertion",
+                    value: "July 1, 2004"
+                },
+                {
+                    key: "Huygens Landing",
+                    value: "January 14, 2005"
+                },
+                {
+                    key: "Cassini's Data Collection",
+                    value: "635 GB"
+                },
+            ],
+            overview: {
+                name: "Cassini-Huygens",
+                topBox: null,
+                paragraphs: [
+                    "Cassini-Huygens, commonly called Cassini, was a space-research mission by NASA, the European Space Agency (ESA), and the Italian Space Agency (ASI) to send a space probe to study the planet Saturn and its system, including its rings and natural satellites. The Flagship-class robotic spacecraft comprised both NASA's Cassini space probe and ESA's Huygens lander, which landed on Saturn's largest moon, Titan. Cassini was the fourth space probe to visit Saturn and the first to enter its orbit, where it stayed from 2004 to 2017. The two craft took their names from the astronomers Giovanni Cassini and Christiaan Huygens.",
+                    "For more than a decade, NASA's Cassini spacecraft shared the wonders of Saturn and its family of icy moons—taking us to astounding worlds where methane rivers run to a methane sea and where jets of ice and gas are blasting material into space from a liquid water ocean that might harbor the ingredients for life. Cassini revealed in great detail the true wonders of Saturn, a giant world ruled by raging storms and delicate harmonies of gravity.", "The Huygens module traveled with Cassini until its separation from the probe on December 25, 2004; Huygens landed by parachute on Titan on January 14, 2005. The separation was facilitated by the SED (Spin/Eject device), which provided a relative separation speed of 0.35 metres per second (1.1 ft/s) and a spin rate of 7.5 rpm. It returned data to Earth for around 90 minutes, using the orbiter as a relay. This was the first landing ever accomplished in the outer Solar System and the first landing on a moon other than Earth's Moon.", "At the end of its mission, the Cassini spacecraft executed its \"Grand Finale\": a number of risky passes through the gaps between Saturn and its inner rings. This phase aimed to maximize Cassini's scientific outcome before the spacecraft was intentionally destroyed[18] to prevent potential contamination of Saturn's moons"
+                ],
+                iframeLink: {
+                    type: "iframe",
+                    content: "https://eyes.nasa.gov/apps/solar-system/#/sc_cassini?embed=true&amp;logo=false" ,
+                    content_description: "Explore the 3D world of the Cassini. Learn about all it's components and features (mini-superpowers) that helped make it's mission a wholesome success."
+                },
+                facts_12: null
+            },
+            inDepth: [
+                {
+                    title: "Introduction",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Scientists and individuals from 27 countries made up the joint team responsible for designing, building, flying and collecting data from the Cassini orbiter and the Huygens probe.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "NASA's Jet Propulsion Laboratory in the United States, where the orbiter was assembled, managed the mission. The European Space Research and Technology Centre developed Huygens. The centre's prime contractor, Aérospatiale of France (part of Thales Alenia Space from 2005), assembled the probe with equipment and instruments supplied by many European countries (including Huygens' batteries and two scientific instruments from the United States). The Italian Space Agency (ASI) provided the Cassini orbiter's high-gain radio antenna, with the incorporation of a low-gain antenna (to ensure telecommunications with the Earth for the entire duration of the mission), a compact and lightweight radar, which also used the high-gain antenna and served as a synthetic-aperture radar, a radar altimeter, a radiometer, the radio science subsystem (RSS), and the visible-channel portion VIMS-V of VIMS spectrometer.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/cassini.jpg",
+                            content_description: " This is an artists concept of Cassini during the Saturn Orbit Insertion (SOI) maneuver, just after the main engine has begun firing. The spacecraft is moving out of the plane of the page and to the right (firing to reduce its spacecraft velocity with respect to Saturn) and has just crossed the ring plane. The SOI maneuver, which is approximately 90 minutes long, will allow Cassini to be captured by Saturn's gravity into a five-month orbit. Cassini's close proximity to the planet after the maneuver offers a unique opportunity to observe Saturn and its rings at extremely high resolution. Image source: NASA/JPL"
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "NASA provided the VIMS infrared counterpart, as well as the Main Electronic Assembly, which included electronic sub-assemblies provided by CNES of France. On April 16, 2008, NASA announced a two-year extension of the funding for ground operations of this mission, at which point it was renamed the Cassini Equinox Mission. The round of funding was again extended[by whom?] in February 2010 with the Cassini Solstice Mission.",
+                            content_description: null
+                        },
+
+                    ]
+                }, 
+                {
+                    title: "Mission Accounts",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "The Cassini space probe performed two gravitational-assist flybys of Venus on April 26, 1998, and June 24, 1999. These flybys provided the space probe with enough momentum to travel all the way out to the asteroid belt, while the Sun's gravity pulled the space probe back into the inner Solar System. On August 18, 1999, at 03:28 UTC, the craft made a gravitational-assist flyby of the Earth. One hour and 20 minutes before closest approach, Cassini made its closest approach to the Earth's Moon at 377,000 kilometers, and it took a series of calibration photos.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "On January 23, 2000, Cassini performed a flyby of the asteroid 2685 Masursky at around 10:00 UTC. It took photos in the period five to seven hours before the flyby at a distance of 1.6e6 km (0.99e6 mi) and a diameter of 15 to 20 km (9.3 to 12.4 mi) was estimated for the asteroid.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Jovian Flyby",
+                            content: "Cassini made its closest approach to Jupiter on December 30, 2000, at 9.7 million kilometers, and made many scientific measurements. About 26,000 images of Jupiter, its faint rings, and its moons were taken during the six-month flyby. It produced the most detailed global color portrait of the planet yet (see image at right), in which the smallest visible features are approximately 60 km (37 mi) across.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "A major finding of the flyby, announced on March 6, 2003, was of Jupiter's atmospheric circulation. Dark \"belts\" alternate with light \"zones\" in the atmosphere, and scientists had long considered the zones, with their pale clouds, to be areas of upwelling air, partly because many clouds on Earth form where air is rising. But analysis of Cassini imagery showed that individual storm cells of upwelling bright-white clouds, too small to see from Earth, pop up almost without exception in the dark belts. According to Anthony Del Genio of NASA's Goddard Institute for Space Studies, \"the belts must be the areas of net-rising atmospheric motion on Jupiter, [so] the net motion in the zones has to be sinking\".",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Other atmospheric observations included a swirling dark oval of high atmospheric haze, about the size of the Great Red Spot, near Jupiter's north pole. Infrared imagery revealed aspects of circulation near the poles, with bands of globe-encircling winds, with adjacent bands moving in opposite directions. The same announcement also discussed the nature of Jupiter's rings. Light scattering by particles in the rings showed the particles were irregularly shaped (rather than spherical) and likely originate as ejecta from micrometeorite impacts on Jupiter's moons, probably Metis and Adrastea.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "The Saturn Flyby",
+                            content: "In total, the Cassini mission discovered seven new moons orbiting Saturn. Using images taken by Cassini, researchers discovered Methone, Pallene and Polydeuces in 2004, although later analysis revealed that Voyager 2 had photographed Pallene in its 1981 flyby of the ringed planet.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "On May 1, 2005, a new moon was discovered by Cassini in the Keeler gap. It was given the designation S/2005 S1 before being named Daphnis. A fifth new moon was discovered by Cassini on May 30, 2007, and was provisionally labeled S/2007 S4. It is now known as Anthe. A press release on February 3, 2009, showed a sixth new moon found by Cassini. The moon is approximately 500 m (0.3 mi) in diameter within the G-ring of the ring system of Saturn, and is now named Aegaeon (formerly S/2008 S1). A press release on November 2, 2009, mentions the seventh new moon found by Cassini on July 26, 2009. It is presently labeled S/2009 S1 and is approximately 300 m (1000 ft) in diameter in the B-ring system. On April 14, 2014, NASA scientists reported the possible beginning of a new moon in Saturn's A Ring.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/cassini_daphnis.jpg",
+                            content_description: "Discovery photograph of moon Daphnis: Photograph of moon Daphnis in the Keeler gap in the A ring of Saturn. The wave-like appearance of the ring debris is a result of gravitic perturbations from the moon's gravity. Image Source: NASA/JPL-Space Science Institute."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Phoebe Flyby",
+                            content: "On June 11, 2004, Cassini flew by the moon Phoebe. This was the first opportunity for close-up studies of this moon (Voyager 2 performed a distant flyby in 1981 but returned no detailed images). It also was Cassini's only possible flyby for Phoebe due to the mechanics of the available orbits around Saturn. The first close-up images were received on June 12, 2004, and mission scientists immediately realized that the surface of Phoebe looks different from asteroids visited by spacecraft. Parts of the heavily cratered surface look very bright in those pictures, and it is currently believed that a large amount of water ice exists under its immediate surface.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Orbiting Saturn",
+                            content: "On July 1, 2004, the spacecraft flew through the gap between the F and G rings and achieved orbit, after a seven-year voyage. It was the first spacecraft to ever orbit Saturn. The Saturn Orbital Insertion (SOI) maneuver performed by Cassini was complex, requiring the craft to orient its High-Gain Antenna away from Earth and along its flight path, to shield its instruments from particles in Saturn's rings. Once the craft crossed the ring plane, it had to rotate again to point its engine along its flight path, and then the engine fired to decelerate the craft by 622 m/s to allow Saturn to capture it. Cassini was captured by Saturn's gravity at around 8:54 pm Pacific Daylight Time on June 30, 2004. During the maneuver Cassini passed within 20,000 km (12,000 mi) of Saturn's cloud tops. When Cassini was in Saturnian orbit, departure from the Saturn system was evaluated in 2008 during end of mission planning.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/cassini_saturn.jpg",
+                            content_description: "Saturn reached equinox in 2008, shortly after the end of the prime mission. This Natural color view of the planet Saturn was created from images collected shortly after Cassini began its extended Equinox Mission in July 2008. (Saturn actually reached equinox on August 11, 2009)."
+                        },
+                        {
+                            content_type: "text",
+                            head: "Titan Flybys",
+                            content: "Cassini had its first flyby of Saturn's largest moon, Titan, on July 2, 2004, a day after orbit insertion, when it approached to within 339,000 km (211,000 mi) of Titan. Images taken through special filters (able to see through the moon's global haze) showed south polar clouds thought to be composed of methane and surface features with widely differing brightness. On October 27, 2004, the spacecraft executed the first of the 45 planned close flybys of Titan when it passed a mere 1,200 km (750 mi) above the moon. Almost four gigabits of data were collected and transmitted to Earth, including the first radar images of the moon's haze-enshrouded surface. It revealed the surface of Titan (at least the area covered by radar) to be relatively level, with topography reaching no more than about 50 m (160 ft) in altitude. The flyby provided a remarkable increase in imaging resolution over previous coverage. Images with up to 100 times better resolution were taken and are typical of resolutions planned for subsequent Titan flybys. Cassini collected pictures of Titan and the lakes of methane were similar to the lakes of water on Earth.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Huygens Landing",
+                            content: "Cassini released the Huygens probe on December 25, 2004, by means of a spring and spiral rails intended to rotate the probe for greater stability. It entered the atmosphere of Titan on January 14, 2005, and after a two-and-a-half-hour descent landed on solid ground. Although Cassini successfully relayed 350 of the pictures that it received from Huygens of its descent and landing site, a software error failed to turn on one of the Cassini receivers and caused the loss of another 350 pictures. While landing, for caution, NASA loaded Huygens with 3 parachutes.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Radar images obtained on July 21, 2006, appear to show lakes of liquid hydrocarbon (such as methane and ethane) in Titan's northern latitudes. This is the first discovery of currently existing lakes anywhere besides on Earth. The lakes range in size from one to one-hundred kilometers across. On March 13, 2007, the Jet Propulsion Laboratory announced that it had found strong evidence of seas of methane and ethane in the northern hemisphere of Titan. At least one of these is larger than any of the Great Lakes in North America.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In November 2006, scientists discovered a storm at the south pole of Saturn with a distinct eyewall. This is characteristic of a hurricane on Earth and had never been seen on another planet before. Unlike a terrestrial hurricane, the storm appears to be stationary at the pole. The storm is 8,000 km (5,000 mi) across, and 70 km (43 mi) high, with winds blowing at 560 km/h (350 mph). On September 10, 2007, Cassini completed its flyby of the strange, two-toned, walnut-shaped moon, Iapetus. Images were taken from 1,600 km (1,000 mi) above the surface. As it was sending the images back to Earth, it was hit by a cosmic ray that forced it to temporarily enter safe mode. All of the data from the flyby were recovered.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/cassini_iapetus.jpg",
+                            content_description: "Taken on September 10, 2007, at a distance of 62,331 km (38,731 mi) Iapetus's equatorial ridge and surface are revealed. (CL1 and CL2 filters)."
+                        },
+                    ]
+                }, 
+                {
+                    title: "Misssion Extensions",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "On April 15, 2008, Cassini received funding for a 27-month extended mission. It consisted of 60 more orbits of Saturn, with 21 more close Titan flybys, seven of Enceladus, six of Mimas, eight of Tethys, and one targeted flyby each of Dione, Rhea, and Helene. The extended mission began on July 1, 2008, and was renamed the Cassini Equinox Mission as the mission coincided with Saturn's equinox.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "A proposal was submitted to NASA for a second mission extension (September 2010 - May 2017), provisionally named the extended-extended mission or XXM.[109] This ($60M per-annum) was approved in February 2010 and renamed the Cassini Solstice Mission. It included Cassini orbiting Saturn 155 more times, conducting 54 additional flybys of Titan and 11 more of Enceladus.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Great Storm of 2010 and aftermath",
+                            content: "On October 25, 2012, Cassini witnessed the aftermath of the massive Great White Spot storm that recurs roughly every 30 years on Saturn. Data from the composite infrared spectrometer (CIRS) instrument indicated a powerful discharge from the storm that caused a temperature spike in the stratosphere of Saturn 83 K (83 °C; 149 °F) above normal. Simultaneously, a huge increase in ethylene gas was detected by NASA researchers at Goddard Research Center in Greenbelt, Maryland. Ethylene is a colorless gas that is highly uncommon on Saturn and is produced both naturally and through man-made sources on Earth. The storm that produced this discharge was first observed by the spacecraft on December 5, 2010, in Saturn's northern hemisphere. The storm is the first of its kind to be observed by a spacecraft in orbit around Saturn as well as the first to be observed at thermal infrared wavelengths, allowing scientists to observe the temperature of Saturn's atmosphere and track phenomena that are invisible to the naked eye. The spike of ethylene gas that was produced by the storm reached levels that were 100 times more than those thought possible for Saturn. Scientists have also determined that the storm witnessed was the largest, hottest stratospheric vortex ever detected in the Solar System, initially being larger than Jupiter's Great Red Spot.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/cassini_saturn_storm.jpg",
+                            content_description: "The huge storm (great white spot) churning through the atmosphere in Saturn's northern hemisphere overtakes itself as it encircles the planet in this true-color view from NASA's Cassini spacecraft. Image credit: NASA/JPL-Caltech/SSI"
+                        },
+                        {
+                            content_type: "text",
+                            head: "The Day the Earth Smiled",
+                            content: "On October 25, 2012, Cassini witnessed the aftermath of the massive Great WhitOn July 19, 2013, the probe was pointed towards Earth to capture an image of the Earth and the Moon, as part of a natural light, multi-image portrait of the entire Saturn system. The event was unique as it was the first time NASA informed the public that a long-distance photo was being taken in advance.[ The imaging team said they wanted people to smile and wave to the skies, with Cassini scientist Carolyn Porco describing the moment as a chance to \"celebrate life on the Pale Blue Dot\".",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/cassini_saturn_moons.jpg",
+                            content_description: "The Day the Earth Smiled - Saturn with some of its moons, Earth, Venus, and Mars as visible in this Cassini montage (July 19, 2013) - The Day the Earth Smiled On July 19, 2013, in an event celebrated the world over, NASA's Cassini spacecraft slipped into Saturn's shadow and turned to image the planet, seven of its moons, its inner rings -- and, in the background, our home planet, Earth. With the sun's powerful and potentially damaging rays eclipsed by Saturn itself, Cassini's onboard cameras were able to take advantage of this unique viewing geometry. This mosaic is special as it marks the third time our home planet was imaged from the outer solar system; the second time it was imaged by Cassini from Saturn's orbit; and the first time ever that inhabitants of Earth were made aware in advance that their photo would be taken from such a great distance. Image Credit: NASA/JPL-Caltech/SSI"
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "On February 10, 2015, the Cassini spacecraft visited Rhea more closely, coming within 47,000 km (29,000 mi). The spacecraft observed the moon with its cameras producing some of the highest resolution color images yet of Rhea. Cassini performed its latest flyby of Saturn's moon Hyperion on May 31, 2015, at a distance of about 34,000 km (21,000 mi). Cassini performed its last flyby of Saturn's moon Dione on August 17, 2015, at a distance of about 475 km (295 mi). A previous flyby was performed on June 16.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: "Saturn's North-Polar Hexagon Storm",
+                            content: "Between 2012 and 2016, the persistent hexagonal cloud pattern at Saturn's north pole changed from a mostly blue color to more of a golden color. One theory for this is a seasonal change: extended exposure to sunlight may be creating haze as the pole swivels toward the Sun. It was previously noted that there was less blue color overall on Saturn between 2004 and 2008.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "image",
+                            head: null,
+                            content: "/cassini_hexagonal_storm.gif",
+                            content_description: "2013 and 2017: hexagon color changes - These natural color views (and corresponding animated movie sequences) from NASA's Cassini spacecraft compare the appearance of Saturn's north-polar region in June 2013 and April 2017. In both views, Saturn's polar hexagon dominates the scene. The comparison shows how clearly the color of the region changed in the interval between the two views, which represents the latter half of Saturn's northern hemisphere spring. In 2013, the entire interior of the hexagon appeared blue. By 2017, most of the hexagon's interior was covered in yellowish haze, and only the center of the polar vortex retained the blue color. Image Credit: NASA/JPL-Caltech/SSI/Hampton University"
+                        },
+
+                    ]
+                },
+                { 
+                    title: "Grand Finale and Destruction",
+                    texts: [
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "Cassini's end involved a series of close Saturn passes, approaching within the rings, then an entry into Saturn's atmosphere on September 15, 2017, to destroy the spacecraft. This method was chosen because it is imperative to ensure protection and prevent biological contamination to any of the moons of Saturn thought to offer potential habitability. In 2008 a number of options were evaluated to achieve this goal, each with varying funding, scientific, and technical challenges. A short period Saturn impact for an end of mission was rated \"excellent\" with the reasons \"D-ring option satisfies unachieved AO goals; cheap and easily achievable\" while collision with an icy moon was rated \"good\" for being \"cheap and achievable anywhere/time\".",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "There was budgetary drama in 2013-14 about NASA receiving U.S. government funding for the Grand Finale. The two phases of the Grand Finale ended up being the equivalent of having two separate Discovery Program-class missions in that the Grand Finale was completely different from the main Cassini regular mission. The U.S. government in late 2014 approved the Grand Finale at the cost of $200 million. This was far cheaper than building two new probes in separate Discovery-class missions. On November 29, 2016, the spacecraft performed a Titan flyby that took it to the gateway of F-ring orbits: This was the start of the Grand Finale phase culminating in its impact with the planet. A final Titan flyby on April 22, 2017, changed the orbit again to fly through the gap between Saturn and its inner ring days later on April 26. Cassini passed about 3,100 km (1,900 mi) above Saturn's cloud layer and 320 km (200 mi) from the visible edge of the inner ring; it successfully took images of Saturn's atmosphere and began returning data the next day. After a further 22 orbits through the gap, the mission was ended with a dive into Saturn's atmosphere on September 15; signal was lost at 11:55:46 UTC on September 15, 2017, just 30 seconds later than predicted. It is estimated that the spacecraft burned up about 45 seconds after the last transmission.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In September 2018, NASA won an Emmy Award for Outstanding Original Interactive Program for its presentation of the Cassini mission's Grand Finale at Saturn. In December 2018, Netflix aired \"NASA's Cassini Mission\" on their series 7 Days Out documenting the final days of work on the Cassini mission before the spacecraft crashed into Saturn to complete its Grand Finale.",
+                            content_description: null
+                        },
+                        {
+                            content_type: "text",
+                            head: null,
+                            content: "In January 2019, new research using data collected during Cassini's Grand Finale phase was published: The final close passes by the rings and planet enabled scientists to measure the length of a day on Saturn: 10 hours, 33 minutes and 38 seconds; Saturn's rings are relatively new, 10 to 100 million years old.",
+                            content_description: null
+                        },
+                    ]
+                },
+                {
+                    title: "Watch To Learn More...",
+                    texts: [
+                        {
+                            content_type: "embed_video",
+                            content: "tyMbktsAScE",
+                            content_description: "Everything you need to know about the last 'bouts of the Cassini Spacecraft and it's final stunning images."
+                        },  
+                    ]
+                }
+            ],
+            exploration_link: {
+                href: "https://eyes.nasa.gov/apps/solar-system/#/story/enceladus_discovery",
+                backTrack_href: "/space_missions_explorations/cassini_huygens",
+                goExplore_href: "/story/enceladus",
+                description: "An immersive insight into the Cassini space missions and it's discovery of the Saturnian moon - Enceladus, the mission timelines and discoveries in story mode",
+                headText: "Explore Cassini In 3D",
+                bgImg_src: "/cassini.jpg"
+            },
+            summary: null,
+            dateUpdate: "2023-06-28"
         },
     }
 }

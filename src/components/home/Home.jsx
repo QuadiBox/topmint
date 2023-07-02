@@ -44,11 +44,6 @@ const HomePage = ({ apod }) => {
         };
     }, [router.events]);
 
-    useEffect(() => {
-        console.log(apod);
-    }, [])
-
-
     const backShift = useRef(null);
 
     const handleBackgroundShift = (e) => {

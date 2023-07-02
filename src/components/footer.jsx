@@ -77,11 +77,11 @@ const Footer = ({ bg }) => {
                                 </ul>
                             </div>
                             <div className="linkUnit">
-                                <div className='linkHeader spacemissions'><Link href={"/space_missions"}>Space Missions</Link></div>
+                                <div className='linkHeader spacemissions'><Link href={"/space_missions_explorations"}>Space Missions & Explorations</Link></div>
                                 <ul className="linkList">
-                                    <li><Link className='unitLink' href={"/space_missions/voyager_1"}><span className="coloredtile yellow"></span><p>Voyager 1</p></Link></li>
-                                    <li><Link className='unitLink' href={"/space_missions/voyager_2"}><span className="coloredtile brown3"></span><p>Voyager 2</p></Link></li>
-                                    <li><Link className='unitLink' href={"/space_missions/vassini"}><span className="coloredtile yellow"></span><p>Cassini</p></Link></li>
+                                    <li><Link className='unitLink' href={"/space_missions_explorations/voyager_1"}><span className="coloredtile yellow"></span><p>Voyager 1</p></Link></li>
+                                    <li><Link className='unitLink' href={"/space_missions_explorations/voyager_2"}><span className="coloredtile brown3"></span><p>Voyager 2</p></Link></li>
+                                    <li><Link className='unitLink' href={"/space_missions_explorations/cassini_huygens"}><span className="coloredtile yellow"></span><p>Cassini-Huygens</p></Link></li>
                                 </ul>
                             </div>
                         </div>

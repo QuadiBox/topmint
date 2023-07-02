@@ -165,6 +165,27 @@
     margin-block: auto;
 }
 
+.centerNav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backTrackBtn {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: var(--primary-clr);
+    clip-path: var(--clip-type3);
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: 4px;
+    font-family: var(--font-unica);
+    color: var(--text-clr2);
+    font-size: 1.05em;
+}
+
 
 .rightNav{
     display: flex;

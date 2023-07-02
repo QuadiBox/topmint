@@ -330,6 +330,10 @@ export async function getServerSideProps () {
   const response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=enHpDWxtD5yefBSZ24PQey3jlAkE24zKrHDl6Eq4&date=${ddmmyyyy}`);
   const data =  await response.json();
 
+  return {
+    props: { apod: data },
+  };
+
   // const promise = new Promise((resolve, reject) => {
   //   const response =  fetch(`https://api.nasa.gov/planetary/apod?api_key=enHpDWxtD5yefBSZ24PQey3jlAkE24zKrHDl6Eq4&date=${ddmmyyyy}`);
   //   const data =  response.json();
@@ -354,10 +358,5 @@ export async function getServerSideProps () {
   //     props: { error: error.message },
   //   };
   // }
-
-  return {
-    props: { apod: data },
-  };
-
 }
 

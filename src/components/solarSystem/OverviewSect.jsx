@@ -52,7 +52,7 @@ const OverviewSect = ({ data }) => {
 
             {
                 data?.iframeLink && (
-                    <div className="sectionIframe">
+                    <figure className="sectionIframe">
 
                         {
                             data?.iframeLink.type === "iframe" && (
@@ -63,9 +63,9 @@ const OverviewSect = ({ data }) => {
                                     </motion.div>
                                     {
                                         data?.iframeLink.content_description === "" ? (
-                                            <p><i className="icofont-info-square"> </i>   Interact with this interface to explore a relatively immersive 3d view of the Solar System. Click on any of the element to get a better view of it. Scroll up/down(pinch up/down) to zoom in/out.</p>
+                                            <figcaption><i className="icofont-info-square"> </i>   Interact with this interface to explore a relatively immersive 3d view of the Solar System. Click on any of the element to get a better view of it. Scroll up/down(pinch up/down) to zoom in/out.</figcaption>
                                         ) : (
-                                            <p className="imageDetails">{data?.iframeLink.content_description}</p>
+                                            <figcaption className="imageDetails">{data?.iframeLink.content_description}</figcaption>
                                         )
                                     }
                                 </>
@@ -74,13 +74,13 @@ const OverviewSect = ({ data }) => {
 
                         {
                             data?.iframeLink.type === "image" && (
-                                <motion.div initial={{ opacity: 0.2, y: "10%" }} whileInView={{ opacity: 1, y: 0, transition: { type: "spring", damping: 30, stiffness: 200 } }} viewport={{ once: true, amount: 0.1 }} className="unitDetailImage">
+                                <motion.figure initial={{ opacity: 0.2, y: "10%" }} whileInView={{ opacity: 1, y: 0, transition: { type: "spring", damping: 30, stiffness: 200 } }} viewport={{ once: true, amount: 0.1 }} className="unitDetailImage">
                                     <img src={data?.iframeLink.content} alt="BlaBla Vlad image" />
-                                    <p className="imageDetails">{data?.iframeLink.content_description}</p>
-                                </motion.div>
+                                    <figcaption className="imageDetails">{data?.iframeLink.content_description}</figcaption>
+                                </motion.figure>
                             )
                         }
-                    </div>
+                    </figure>
                 )
             }
 
@@ -107,13 +107,7 @@ const OverviewSect = ({ data }) => {
 
                 )
             }
-
-
-
-
-
-
-
+            
         </motion.div>
     )
 }

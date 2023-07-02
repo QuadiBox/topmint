@@ -1,11 +1,18 @@
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { useState, useContext } from "react";
+import { useContext } from "react";
 import { themeContext } from "../../providers/ThemeProvider";
+import { useRouter } from "next/router";
 
-const Navbar = () => {
+const Navbar = ({ trackback = ''}) => {
     const ctx = useContext(themeContext);
-    const { showOtherPageLinks } = ctx;
+    const { showOtherPageLinks, navBackLink } = ctx;
+    const router = useRouter();
+
+    const navigateBack = () => {
+        router.back();
+    };
+
 
     //Animation Variables
     const parentVarExit = {
@@ -161,6 +168,13 @@ const Navbar = () => {
                     </Link>
                 </motion.div>
             </div>
+            {
+                trackback === "true" && (
+                    <div className="centerNav">
+                        <Link href={navBackLink} className="backTrackBtn" type="button" onClick={navigateBack}>Back</Link>
+                    </div>
+                )
+            }
             <div className="rightNav">
                 <Link href={"/search"} className="searchLinkNav" style={{overflowY: "hidden"}}>
                     <motion.p initial="init" animate="finale" variants={logoV}>Search</motion.p>
@@ -179,7 +193,7 @@ const Navbar = () => {
                                 <motion.div variants={swipeExit} className='linkHeader dwarfplanets'><Link href={"/dwarf_planets"}>Dwarf Planets</Link></motion.div>
                                 <motion.div variants={swipeExit} className='linkHeader moons'><Link href={"/moons"}>Moons</Link></motion.div>
                                 <motion.div variants={swipeExit} className='linkHeader asteroids'><Link href={"/asteroids_comets_meteors"}>Asteroids, Comets and Meteors</Link></motion.div>
-                                <motion.div variants={swipeExit} className='linkHeader spacemissions'><Link href={"/space_missions"}>Space Missions</Link></motion.div>
+                                <motion.div variants={swipeExit} className='linkHeader spacemissions'><Link href={"/space_missions_explorations"}>Space Missions & Explorations</Link></motion.div>
                             </motion.div>
                         )}
                     </AnimatePresence>

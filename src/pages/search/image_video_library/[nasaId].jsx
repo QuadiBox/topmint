@@ -33,12 +33,8 @@ export default function NasaId ({ details }) {
       };
   }, [router.events]);
 
-  useEffect(() => {
-    console.log(details);
-  }, []);
 
   //animation Variables
-  
 
   const grandparentvar = {
     init: {

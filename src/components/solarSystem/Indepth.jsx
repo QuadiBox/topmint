@@ -1,7 +1,16 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useContext } from 'react';
+import { themeContext } from '../../../providers/ThemeProvider';
 
 const Indepth = ({ data, factor }) => {
+    const ctx = useContext(themeContext);
+    const { setShowImageViewer, setActiveImageViwerData } = ctx;
+
+    const handleImageViewer = (vlad) => {
+        setActiveImageViwerData(vlad);
+        setShowImageViewer(prev => !prev);
+    }
 
     //Animation Variables
     const parentvar = {
@@ -58,7 +67,7 @@ const Indepth = ({ data, factor }) => {
                                 } else if (elem?.content_type === "image") {
                                     return (
                                         <motion.div initial={{ opacity: 0.2, y: "20%" }} whileInView={{ opacity: 1, y: 0, transition: { type: "spring", damping: 30, stiffness: 200 } }} viewport={{ once: true, amount: 0.1 }} className="unitDetailImage" key={`${index + 1}image`}>
-                                            <img src={elem.content} alt="BlaBla Vlad image" />
+                                            <img src={elem.content} alt={elem.content.replace(".jpg", "")} onClick={() => {handleImageViewer(elem)}}/>
                                             <p className="imageDetails">{elem?.content_description}</p>
                                         </motion.div>
                                     )
