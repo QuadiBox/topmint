@@ -111,7 +111,7 @@ const Jupiter = ({ data }) => {
   return (
     <div className='solarsystemHomePage' onClick={(e) => {handleToggles( e, setShowOtherPageLinks)}}>
         <Navbar/>
-        <Sect1 data={data}/>
+        <Sect1 data={data} setInview={setInview}/>
 
         <div className="navigationSelect">
             <div className="navOptionsCntn">

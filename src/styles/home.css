@@ -1861,7 +1861,7 @@
 .articleUnit{
     width: 100px;
     height: 300px;
-    border-radius: 90px;
+    border-radius: 20px;
     background-size: cover;
     position: relative;
     isolation: isolate;
@@ -1874,7 +1874,7 @@
     background-color: var(--bg2-opac05);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
-    transition: flex 0.45s ease-in-out;
+    transition: flex 0.45s ease-in-out,  border-radius 0.65s ease;
 }
 
 
@@ -1890,7 +1890,7 @@
 
 .articleUnit:focus-within {
     flex: 1;
-    border-radius: 20px;
+    border-radius: 25px;
     transition: flex 0.35s ease-in-out;
 }
 
@@ -2406,6 +2406,12 @@
 
 .linkHeader.spacemissions{
     background-image: linear-gradient(to bottom, #30300086, #c0ad1b7d), url(/Voyager_1.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+
+.linkHeader.playground{
+    background-image: linear-gradient(to bottom, #1709158e, #241822da), url(/playground_1.jpg);
     background-size: 100%;
     background-position: center;
 }

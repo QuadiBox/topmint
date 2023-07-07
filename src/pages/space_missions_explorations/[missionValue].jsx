@@ -102,8 +102,8 @@ const PlanetValue = ({ data, param }) => {
             <MainSect data={data} navOption={navOption} factor={65}/>
             <div className="exploreCntn" style={{backgroundImage: `linear-gradient(to bottom right, #241822da, #130711b2), url(${data.exploration_link.bgImg_src})`}}>
                 <div className="exploreBox">
-                    <h1>Explore Voyager In 3D</h1>
-                    <p>An immersive insight into the Voyager space missions, the mission timelines and discoveries in story mode</p>
+                    <h1>{data.exploration_link.headText}</h1>
+                    <p>{data.exploration_link.description}</p>
                     <Link href={`${data.exploration_link.goExplore_href}`} onClick={() => {handleNavBackLinkSet(data.exploration_link.backTrack_href)}}  className='exploreGoBtn afterHover'>Go</Link>
                 </div>
             </div>

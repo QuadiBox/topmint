@@ -194,6 +194,7 @@ const Navbar = ({ trackback = ''}) => {
                                 <motion.div variants={swipeExit} className='linkHeader moons'><Link href={"/moons"}>Moons</Link></motion.div>
                                 <motion.div variants={swipeExit} className='linkHeader asteroids'><Link href={"/asteroids_comets_meteors"}>Asteroids, Comets and Meteors</Link></motion.div>
                                 <motion.div variants={swipeExit} className='linkHeader spacemissions'><Link href={"/space_missions_explorations"}>Space Missions & Explorations</Link></motion.div>
+                                <motion.div variants={swipeExit} className='linkHeader playground'><Link href={"/playground"}>Playground</Link></motion.div>
                             </motion.div>
                         )}
                     </AnimatePresence>
