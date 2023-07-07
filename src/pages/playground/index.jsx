@@ -175,7 +175,7 @@ const Index = () => {
                                 <div className='title_container'>
                                     <h2 className='UtilText'>EYES ON THE EARTH</h2>
                                 </div>
-                                <p>Explore, experience and study all the latest Earth's data in 3D.</p>
+                                <p>Explore, experience and study all the latest Earth&apos;s data in 3D.</p>
                             </div>
                             <button className="goExploreBtn" type="button"><span>GO</span><i class="icofont-ui-video-chat"></i></button>
                         </Link>
@@ -224,7 +224,7 @@ const Index = () => {
                             <span>Enceladus Discovery</span>
                         </button>
                         <div className="accordion_content">
-                            <p className="accodrion_text">An immersive insight into the Cassini space missions and it's discovery of the Saturnian moon - Enceladus, the mission timelines and discoveries in story mode.</p>
+                            <p className="accodrion_text">An immersive insight into the Cassini space missions and it&apos;s discovery of the Saturnian moon - Enceladus, the mission timelines and discoveries in story mode.</p>
                         </div>
                     </Link>
                     <Link href={"/story/voyager"} className="accordion_unit acc1" onClick={() => {handleNavBackLinkSet("/playground")}}>
