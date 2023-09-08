@@ -827,7 +827,7 @@
     justify-content: center;
 
     backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(8px);
     clip-path: var(--clip-type3);
 }
 
@@ -1031,7 +1031,7 @@
         justify-content: center;
     
         backdrop-filter: blur(15px);
-        -webkit-backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(10px);
         clip-path: var(--clip-type1);
     }
     
