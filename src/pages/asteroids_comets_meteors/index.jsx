@@ -73,7 +73,7 @@ const Index = ({ data }) => {
 
 
     return (
-        <div className='solarsystemHomePage' onClick={(e) => {handleToggles( e, setShowOtherPageLinks)}}>
+        <div className='solarsystemHomePage overflow' onClick={(e) => {handleToggles( e, setShowOtherPageLinks)}}>
             <Navbar/>
             <Sect1 data={data} setInview={setInview}/>
 

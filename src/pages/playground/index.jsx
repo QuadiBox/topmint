@@ -95,7 +95,6 @@ const Index = () => {
                     </div>
 
                     <div className="valueByNumber">
-                        
                         <div className="unitVBN">
                             <p>Unus</p>
                             <div style={{overflow: "hidden"}}>
@@ -146,7 +145,7 @@ const Index = () => {
                                 </div>
                                 <p>Real-time 3D visualisation of our precious solar system - Past, Present and Future.</p>
                             </div>
-                            <button className="goExploreBtn" type="button"><span>GO</span><i class="icofont-ui-video-chat"></i></button>
+                            <button className="goExploreBtn" type="button"><span>GO</span><i className="icofont-ui-video-chat"></i></button>
                         </Link>
                         <Link 
                             href={"/interactives/orrery"} 
@@ -161,7 +160,7 @@ const Index = () => {
                                 </div>
                                 <p>A live 3D look at the relative sizes of bodies in our solar system.</p>
                             </div>
-                            <button className="goExploreBtn" type="button"><span>GO</span><i class="icofont-ui-video-chat"></i></button>                        
+                            <button className="goExploreBtn" type="button"><span>GO</span><i className="icofont-ui-video-chat"></i></button>                        
                         </Link>
                     </div>
                     <div className="middle_large">
@@ -177,7 +176,7 @@ const Index = () => {
                                 </div>
                                 <p>Explore, experience and study all the latest Earth&apos;s data in 3D.</p>
                             </div>
-                            <button className="goExploreBtn" type="button"><span>GO</span><i class="icofont-ui-video-chat"></i></button>
+                            <button className="goExploreBtn" type="button"><span>GO</span><i className="icofont-ui-video-chat"></i></button>
                         </Link>
                     </div>
                     <div className="firstTwo">
@@ -193,7 +192,7 @@ const Index = () => {
                                 </div>
                                 <p>Explore and track all near-Earth objects including asteroids, comets and space debris in real-time.</p>
                             </div>
-                            <button className="goExploreBtn" type="button"><span>GO</span><i class="icofont-ui-video-chat"></i></button>                        </Link>
+                            <button className="goExploreBtn" type="button"><span>GO</span><i className="icofont-ui-video-chat"></i></button>                        </Link>
                         <Link 
                             href={"/interactives/exo"} 
                             className="unitInteractive" 
@@ -206,7 +205,7 @@ const Index = () => {
                                 </div>
                                 <p>Explore worlds beyond the bounds of our solar system in full 3D immersion.</p>
                             </div>
-                            <button className="goExploreBtn" type="button"><span>GO</span><i class="icofont-ui-video-chat"></i></button>                        </Link>
+                            <button className="goExploreBtn" type="button"><span>GO</span><i className="icofont-ui-video-chat"></i></button>                        </Link>
                     </div>
                 </div>
             </section>
@@ -253,6 +252,89 @@ const Index = () => {
                         </div>
                     </Link>
                 </div>
+            </section>
+
+            <section className="experience_Sect">
+                <div className='header_1' style={{overflow: "hidden"}}>
+                    <motion.h2 initial="init" animate="finale" variants={slideUp}>EXPERIENCES</motion.h2>
+                </div>
+
+                <div className="firstTwo">
+                    <Link 
+                        href={"/experiences/curiosity"} 
+                        className="unitInteractive"  
+                        style={{backgroundImage: `linear-gradient(to bottom right, #1307115d, #cd7b2e18, #cb6f19a1), url(/curiosity_1.jpeg)`}}
+                        onClick={() => {handleNavBackLinkSet("/playground")}}
+                    >
+                        <div className="description_Cntn">
+                            <div className='title_container'>
+                                <h2 className='UtilText' style={{color: "#e49042"}}>Experience Curiosity</h2>
+                            </div>
+                            <p style={{color: "#f8eee2"}}>A 3D experience interface that gives you insights into Curiosity rover and the things it did at the Pahrumps Hills region of Gale crater.</p>
+                        </div>
+                        <button className="goExploreBtn" style={{backgroundColor: "#673b06"}} type="button"><span style={{color: "#f8eee2"}}>SEE</span><i className="icofont-eye-alt" style={{color: "#f8eee2"}}></i></button>
+                    </Link>
+                    <Link 
+                        href={"/experiences/insight"} 
+                        className="unitInteractive" 
+                        style={{backgroundImage: `linear-gradient(to bottom right, #130711f1, #cd7b2e18, #cb6f19a1), url(/insight_1.jpg)`}}
+                        onClick={() => {handleNavBackLinkSet("/playground")}}
+                    >
+                        <div className="description_Cntn">
+                            <div className='title_container'>
+                                <h2 className='UtilText' style={{color: "#d87a06"}}>Experience Insight</h2>
+                            </div>
+                            <p style={{color: "#f8eee2"}}>A immersive experince interface that gives you ability to bring the Insight lander to life, interact and control it while also learning about many intsruments aboard.</p>
+                        </div>
+                        <button className="goExploreBtn" style={{backgroundColor: "#985300"}} type="button"><span>SEE</span><i className="icofont-eye-alt"></i></button>                        
+                    </Link>
+                </div>
+                {/* <div className="theGrid">
+                    <div className="middle_large">
+                        <Link 
+                            href={"/interactives/earth"} 
+                            className="unitInteractive" 
+                            style={{backgroundImage: `linear-gradient(to bottom right, #130711f1, #130711b2, #130711b2), url(/earthUtil2.jpg)`}}
+                            onClick={() => {handleNavBackLinkSet("/playground")}}
+                        >
+                            <div className="description_Cntn">
+                                <div className='title_container'>
+                                    <h2 className='UtilText'>EYES ON THE EARTH</h2>
+                                </div>
+                                <p>Explore, experience and study all the latest Earth&apos;s data in 3D.</p>
+                            </div>
+                            <button className="goExploreBtn" type="button"><span>GO</span><i class="icofont-ui-video-chat"></i></button>
+                        </Link>
+                    </div>
+                    <div className="firstTwo">
+                        <Link 
+                            href={"/interactives/asteroids"} 
+                            className="unitInteractive" 
+                            style={{backgroundImage: `linear-gradient(to bottom right, #1307115d, #130711e6, #1307115d), url(/asteroid_belt_1.webp)`}}
+                            onClick={() => {handleNavBackLinkSet("/playground")}}
+                        >
+                            <div className="description_Cntn">
+                                <div className='title_container'>
+                                    <h2>EYES ON THE ASTEROIDS</h2>
+                                </div>
+                                <p>Explore and track all near-Earth objects including asteroids, comets and space debris in real-time.</p>
+                            </div>
+                            <button className="goExploreBtn" type="button"><span>GO</span><i class="icofont-ui-video-chat"></i></button>                        </Link>
+                        <Link 
+                            href={"/interactives/exo"} 
+                            className="unitInteractive" 
+                            style={{backgroundImage: `linear-gradient(to bottom right, #1307115d, #130711e6, #1307115d), url(/earth_future.jpg)`}}
+                            onClick={() => {handleNavBackLinkSet("/playground")}}
+                        >
+                            <div className="description_Cntn">
+                                <div className='title_container'>
+                                    <h2>EYES ON EXOPLANETS</h2>
+                                </div>
+                                <p>Explore worlds beyond the bounds of our solar system in full 3D immersion.</p>
+                            </div>
+                            <button className="goExploreBtn" type="button"><span>GO</span><i class="icofont-ui-video-chat"></i></button>                        </Link>
+                    </div>
+                </div> */}
             </section>
 
 

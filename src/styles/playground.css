@@ -142,10 +142,19 @@
   width: 100%;
   min-height: 100vh;
   padding-inline: var(--gen-padding);
-  padding-block: 5em 3em;
+  padding-block: 4em 3em;
   display: flex;
   flex-direction: column;
   gap: 40px;
+}
+
+.experience_Sect {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+  padding-inline: var(--gen-padding);
+  padding-block: 1em 5em;
 }
 
 .header_1 h2 {
@@ -477,7 +486,7 @@
   background-image: linear-gradient(to bottom, transparent, 86%, #0789c6ac), url(/cassini.jpg);
 }
 .accordion_unit.acc3{
-  background-image: linear-gradient(to bottom, transparent, 60%, #cb6f19a1), url(/perseverance_1.jpg);
+  background-image: linear-gradient(to bottom, transparent, 60%, #cd7b2ea1), url(/perseverance_1.jpg);
 }
 
 

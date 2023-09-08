@@ -101,7 +101,6 @@
   align-items: center;
   flex-direction: column;
   position: relative;
-  overflow: hidden;
   background-color: var(--dark-clr2);
   background: radial-gradient(
       circle at 50% 100%,
@@ -153,6 +152,37 @@
     );
   background-size: 2em 2em;
   opacity: 1;
+  overflow: hidden;
+}
+
+.glossarysect {
+  background: radial-gradient(
+    circle at left bottom,
+    transparent 14%,
+    var(--bg2-opac05) 15%,
+    var(--bg2-opac05) 25%,
+    transparent 26%,
+    transparent 34%,
+    var(--bg2-opac02) 35%,
+    var(--bg2-opac02) 45%,
+    transparent 46%,
+    transparent 54%,
+    var(--bg2-opac05) 55%,
+    var(--bg2-opac05) 65%,
+    transparent 66%,
+    transparent 74%,
+    var(--bg2-opac02) 75%,
+    var(--bg2-opac02  ) 85%,
+    transparent 86%
+  );
+  background-size: 1.5em 1.5em;
+  opacity: 0.8;
+  width: 100%;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
 }
 
 .solarSystem-Sect1 {
@@ -247,7 +277,7 @@
   align-items: center;
   justify-content: center;
   position: sticky;
-  top: 0;
+  top: 60px;
 }
 
 .navOptionsCntn {
@@ -297,13 +327,13 @@
 
 .navMarker {
   position: absolute;
+  clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
   width: 20px;
   height: 12px;
   background-color: var(--secBg-clr);
   top: 160%;
   left: 29%;
   transition: left 0.45s ease-in-out;
-  clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
 }
 
 .utilDiv {
@@ -381,8 +411,8 @@
   opacity: 1;
 }
 
-.subMoonSect{
-    display: flex;
+.subMoonSect {
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 50px;
@@ -708,6 +738,10 @@
 @media screen and (max-width: 385px) {
   .solarSystem-Sect1 h1 {
     font-size: 4.1em;
+  }
+
+  .unitVBN {
+    width: 46%;
   }
 }
 
@@ -1172,7 +1206,7 @@
   transition: color 300ms ease;
 }
 
-.scrollToTopButton{
+.scrollToTopButton {
   width: 40px;
   aspect-ratio: 1;
   background-color: var(--secBg-clr);
@@ -1189,9 +1223,7 @@
   cursor: pointer;
   border: none;
   outline: none;
-  box-shadow: inset 2px 2px 4px #090208be,
-              inset -2px -2px 4px #96849643
-  ;
+  box-shadow: inset 2px 2px 4px #090208be, inset -2px -2px 4px #96849643;
 }
 
 .exploreCntn {
@@ -1213,9 +1245,9 @@
   transition: background-size 0.65s ease-in-out;
 }
 
-.exploreCntn:hover{
+.exploreCntn:hover {
   background-size: 120%;
-} 
+}
 
 .exploreBox {
   display: flex;
@@ -1229,7 +1261,7 @@
   color: var(--text-clr2);
 }
 
-.exploreCntn  p {
+.exploreCntn p {
   font-size: 1.3em;
   color: var(--text-clr1);
   font-weight: 300;
@@ -1261,14 +1293,14 @@
   font-weight: 500;
 }
 
-.storyExplorationCntn{
+.storyExplorationCntn {
   margin-top: 60px;
   height: calc(100vh - 60px);
   width: 100%;
   overflow: hidden;
 }
 
-.storyExplorationCntn > iframe{
+.storyExplorationCntn > iframe {
   width: 100%;
   height: 100%;
 }
@@ -1299,7 +1331,7 @@
   background-repeat: no-repeat;
 }
 
-.largeImageDescription{
+.largeImageDescription {
   padding: 20px var(--small-padding);
   width: 100%;
   background-color: var(--dark-clr1);
@@ -1315,20 +1347,20 @@
   overscroll-behavior-block: contain;
 }
 
-.textCntn h3{
+.textCntn h3 {
   font-size: 1.5em;
   color: var(--text-clr2);
   font-family: var(--font-unica);
   line-height: 1.2;
 }
 
-.largeImageDescription  p {
+.largeImageDescription p {
   font-size: 1.2em;
   font-weight: 300;
   color: var(--text-clr2);
 }
 
-.closeBtnImgViewwer{
+.closeBtnImgViewwer {
   position: absolute;
   right: 3%;
   top: 5%;
@@ -1443,7 +1475,7 @@
     width: 100%;
     text-align: center;
   }
-  
+
   .moonListSearchbox {
     height: 42px;
     border-radius: 3px;
@@ -1462,5 +1494,4 @@
   .moonListSearchbox .inpt {
     display: flex;
   }
-
 }

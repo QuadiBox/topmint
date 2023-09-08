@@ -6,7 +6,7 @@ const ThemeProvider = ({ children }) => {
     const [showAbsMain, setShowAbsMain] = useState(true);
     const [showOtherPageLinks, setShowOtherPageLinks] = useState(false);
     const [ mainData, setMainData ] = useState([]);
-    const [ navBackLink, setNavBackLink ] = useState("/space_missions_explorations/voyager_1");
+    const [ navBackLink, setNavBackLink ] = useState("/playground");
     const [ showImageViewer, setShowImageViewer ] = useState(false);
     const [ activeImageViewerData, setActiveImageViwerData] = useState({
         content_type: "image",
