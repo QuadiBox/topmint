@@ -12,6 +12,8 @@ import MainSect from '../../components/solarSystem/MainSect';
 import Link from 'next/link';
 import MoonsSect from '../../components/solarSystem/MoonsSect';
 import ScrollButton from '../../components/ScrollButton';
+import SearchBoxInterface from '../../components/SearchBoxInterface';
+
 
 
 const MoonLinkValue = ({ data, param }) => {
@@ -89,7 +91,7 @@ const MoonLinkValue = ({ data, param }) => {
                                 onClick={() => {setNavOptions("summary")}}
                                 className={navOption === "summary" ? 'activeNavOption' : ""}
                             >
-                                Summary
+                                Quick Jots
                                 {
                                     navOption === "summary" && (
                                         <motion.span layoutId="pointer" className="navMarker"></motion.span>
@@ -128,7 +130,10 @@ const MoonLinkValue = ({ data, param }) => {
             <AnimatePresence mode='wait'>
                 {
                     navOption === "indepth" && !inview && (
-                        <ScrollButton/>   
+                        <>
+                            <SearchBoxInterface imageLink={"../astronaut-interface.svg"}/>
+                            <ScrollButton/>   
+                        </>
                     )
                 }
             </AnimatePresence>

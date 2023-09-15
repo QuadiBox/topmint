@@ -290,6 +290,7 @@
     font-size: 4.5em;
     font-family: var(--font-jost);
     position: relative;
+    color: var(--text-clr2);
 }
 
 .headercntn.left h3 {
@@ -826,8 +827,8 @@
     align-items: center;
     justify-content: center;
 
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(4px);
     clip-path: var(--clip-type3);
 }
 
@@ -930,7 +931,7 @@
     .GlossSect1 {
         position: static;
         gap: 0.5em;
-        padding-inline: 2%;
+        padding-inline: 0% 2%;
         grid-template-columns: 0 1fr max-content;
     }
 
@@ -956,9 +957,6 @@
         border-right: none;
         gap: 10px;
         width: 50px;
-        /* position: sticky;
-        position: -webkit-sticky;
-        top: 70px; */
     }
 
     .sideAlphabetTab button{
@@ -983,6 +981,12 @@
     .bgSpacecraftCntn img{
         margin-top: 9%;
         width: 68%;
+    }
+
+    .emptyGlossTextBox {
+    
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(5px);
     }
 
     .emptyGlossTextBox > p{
@@ -1030,8 +1034,8 @@
         align-items: center;
         justify-content: center;
     
-        backdrop-filter: blur(15px);
-        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(5px);
         clip-path: var(--clip-type1);
     }
     

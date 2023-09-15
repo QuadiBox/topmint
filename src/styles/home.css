@@ -749,7 +749,10 @@
     background-size: cover;
     background-position: center;
     z-index: 1;
+    border: none;
+    outline: none;
 }
+
 
 .apodVid{
     width: 103%;
@@ -786,6 +789,31 @@
     transition: transform 0.35s ease;
 }
 
+.download_share {
+    position: absolute;
+    bottom: 4%;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.download_share > button{
+    cursor: pointer;
+    color: var(--text-clr2);
+    font-size: 0.95em;
+    padding: 5px 6px;
+    border-radius: 7px;
+    background-color: var(--bg2-opac05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secBg-clr);
+    border: none;
+    outline: none;
+    box-shadow: inset 2px 2px 4px #090208be, inset -2px -2px 4px #96849643;
+}
+
 .leftDetails{
     flex: 2;
     height: 90%;
@@ -811,6 +839,15 @@
     font-size: 0.87em;
     font-weight: 500;
     color: var(--text-clr1);
+}
+
+.leftDetails p.detaildataOverflow {
+    overflow: auto;
+    overscroll-behavior-y: contain;
+}
+
+.leftDetails p.detaildataOverflow::-webkit-scrollbar{
+    width: 2px;
 }
 
 .leftDetails p span {

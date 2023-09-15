@@ -11,6 +11,8 @@ import Footer from '../../components/footer';
 import MainSect from '../../components/solarSystem/MainSect';
 import Link from 'next/link';
 import ScrollButton from '../../components/ScrollButton';
+import SearchBoxInterface from '../../components/SearchBoxInterface';
+
 
 
 export default function SolarSystemValue ({ data, param }) {
@@ -83,7 +85,7 @@ export default function SolarSystemValue ({ data, param }) {
                                 onClick={() => {setNavOptions("summary")}}
                                 className={navOption === "summary" ? 'activeNavOption' : ""}
                             >
-                                Summary
+                                Quick Jots
                                 {
                                     navOption === "summary" && (
                                         <motion.span layoutId="pointer" className="navMarker"></motion.span>
@@ -120,7 +122,10 @@ export default function SolarSystemValue ({ data, param }) {
             <AnimatePresence mode='wait'>
                 {
                     navOption === "indepth" && !inview && (
-                        <ScrollButton/>   
+                        <>
+                            <SearchBoxInterface imageLink={"../astronaut-interface.svg"}/>
+                            <ScrollButton/>   
+                        </>
                     )
                 }
             </AnimatePresence>

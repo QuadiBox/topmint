@@ -11,6 +11,7 @@ import Footer from '../../components/footer';
 import MainSect from '../../components/solarSystem/MainSect';
 import Link from 'next/link';
 import ScrollButton from '../../components/ScrollButton';
+import SearchBoxInterface from '../../components/SearchBoxInterface';
 
 
 const Home = ({ data }) => {
@@ -70,7 +71,7 @@ const Home = ({ data }) => {
                         onClick={() => {setNavOptions("summary")}}
                         className={navOption === "summary" ? 'activeNavOption' : ""}
                     >
-                        Summary
+                        Quick Jots
                         {
                             navOption === "summary" && (
                                 <motion.span layoutId="pointer" className="navMarker"></motion.span>
@@ -102,10 +103,14 @@ const Home = ({ data }) => {
             </div>
 
             <Footer bg={"transparent"}/>
+
             <AnimatePresence mode='wait'>
                 {
                     navOption === "indepth" && !inview && (
-                        <ScrollButton/>   
+                        <>
+                            <SearchBoxInterface/>
+                            <ScrollButton/>   
+                        </>
                     )
                 }
             </AnimatePresence>

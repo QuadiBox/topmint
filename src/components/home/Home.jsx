@@ -63,6 +63,23 @@ const HomePage = ({ apod }) => {
         });
     }
 
+    const shareContent = {
+        title: 'Check out this amazing astronomy picture!',
+        text: 'Astronomy Picture of the Day',
+        url: 'https://quadverse.vercel.app',
+    };
+
+    const handleShare = () => {
+        if (navigator.share) {
+            navigator
+            .share(shareContent)
+            .then(() => console.log('Shared successfully'))
+            .catch((error) => console.error('Share error:', error));
+        } else {
+            console.log('Web Share API not supported on this browser');
+        }
+    };
+
 
     //Animation Variables
     const parentVar = {
@@ -166,11 +183,14 @@ const HomePage = ({ apod }) => {
                                     <div className="apodDetails">
                                         <div className="leftDetails">
                                             <h2>{apod?.title}</h2>
-                                            <p>Details: <span>{apod?.explanation}</span></p>
+                                            <p className="detaildataOverflow">Details: <span>{apod?.explanation}</span></p>
                                             <p>Date: <span>{apod?.date}</span></p>
                                             <p>Copyright: <span>{apod?.copyright}</span></p>
                                         </div>
                                         <div className="rightDetails" style={{backgroundImage: `url(${apod?.hdurl})`}}></div>
+                                        <div className="download_share">
+                                            <button type="button" onClick={handleShare}><i className="icofont-share"></i> Share</button>
+                                        </div>
                                     </div>
                                 )
                             }

@@ -70,76 +70,88 @@ const Sect1 = ({ apodDisplay, setApodDisplay, LSData , setLSData }) => {
     const [year, setYear] = useState("");
     const [ddmmyyyy, setDDMMYYYY] = useState("2023-04-01");
 
+    const fetcher = async (vlad) => {
+        setApodDisplay(Loading);
+        try {
+            const response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=enHpDWxtD5yefBSZ24PQey3jlAkE24zKrHDl6Eq4&date=${vlad}`);
+            const data = await response.json();
+            
+            if ( data.hdurl || data.url ) {
+                setApodDisplay(data);
+                let LSData = JSON.parse(localStorage.getItem("APOD_Data")) || [];
+                let util = [data, ...LSData];
+                let uniqueArr = util.filter( (obj, index, self) => self.findIndex((t) => t.date === obj.date) === index );
 
+                setLSData(uniqueArr);
 
-    useEffect(() => {
-        const date = dateFormatter(new Date(), 0);
-
-        setDDMMYYYY(date);
-
-        const fetcher = async () => {
-            try {
-                const response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=enHpDWxtD5yefBSZ24PQey3jlAkE24zKrHDl6Eq4&date=${date}`);
-                const data = await response.json();
-                
-                if ( data.hdurl ) {
-                    setApodDisplay(data);
-                } else if ( data.msg ) {
-                    console.error('Error fetching data:', data);
-                    const utilObj = {...Error, ...data};
-
-                    setApodDisplay(utilObj);
-                }
-            } catch (error) {
-                console.error('Error fetching data:', error);
-                const utilObj = {...Error, ...error};
+                let stringify = JSON.stringify(uniqueArr);
+                localStorage.setItem("APOD_Data", stringify);
+            } else if ( data.msg ) {
+                console.error('Error fetching data:', data);
+                const utilObj = {...Error, ...data};
 
                 setApodDisplay(utilObj);
             }
-        };
-        fetcher();
+        } catch (error) {
+            console.error('Error fetching data:', error);
+            const utilObj = {...Error, ...error};
 
-        const localApodData = JSON.parse(localStorage.getItem("APOD_Data"));
-        if (localApodData) {
-            setLSData(localApodData);
+            setApodDisplay(utilObj);
+        }
+    };
+
+
+
+    useEffect(() => {
+        const utilityArr = window.location.href.split("?");
+        if (utilityArr.length < 2) {
+            const date = dateFormatter(new Date(), 0);
+    
+            setDDMMYYYY(date);
+    
+            const fetcher = async () => {
+                try {
+                    const response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=enHpDWxtD5yefBSZ24PQey3jlAkE24zKrHDl6Eq4&date=${date}`);
+                    const data = await response.json();
+                    
+                    if ( data.hdurl || data.url ) {
+                        setApodDisplay(data);
+                    } else if ( data.msg ) {
+                        console.error('Error fetching data:', data);
+                        const utilObj = {...Error, ...data};
+    
+                        setApodDisplay(utilObj);
+                    }
+                } catch (error) {
+                    console.error('Error fetching data:', error);
+                    const utilObj = {...Error, ...error};
+    
+                    setApodDisplay(utilObj);
+                }
+            };
+            fetcher();
+    
+            const localApodData = JSON.parse(localStorage.getItem("APOD_Data"));
+            if (localApodData) {
+                setLSData(localApodData);
+            } else {
+                setLSData([]);
+            }
+
         } else {
-            setLSData([]);
+            setDDMMYYYY(utilityArr[1]);
+            setYear(utilityArr[1].split("-")[0]);
+            setMonth(utilityArr[1].split("-")[1]);
+            setDay(utilityArr[1].split("-")[2]);
         }
 
     }, []);
 
     useEffect(() => {
-
-        const fetcher = async () => {
-            setApodDisplay(Loading);
-            try {
-                const response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=enHpDWxtD5yefBSZ24PQey3jlAkE24zKrHDl6Eq4&date=${ddmmyyyy}`);
-                const data = await response.json();
-                
-                if ( data.hdurl || data.url ) {
-                    setApodDisplay(data);
-
-                    let util = [data, ...LSData];
-                    let uniqueArr = util.filter( (obj, index, self) => self.findIndex((t) => t.date === obj.date) === index );
-
-                    setLSData(uniqueArr);
-
-                    let stringify = JSON.stringify(uniqueArr);
-                    localStorage.setItem("APOD_Data", stringify);
-                } else if ( data.msg ) {
-                    console.error('Error fetching data:', data);
-                    const utilObj = {...Error, ...data};
-
-                    setApodDisplay(utilObj);
-                }
-            } catch (error) {
-                console.error('Error fetching data:', error);
-                const utilObj = {...Error, ...error};
-
-                setApodDisplay(utilObj);
-            }
-        };
-        fetcher();
+        fetcher(ddmmyyyy);
+        setYear(ddmmyyyy.split("-")[0]);
+        setMonth(ddmmyyyy.split("-")[1]);
+        setDay(ddmmyyyy.split("-")[2]);
     }, [ddmmyyyy]);
 
     const inputHandler = (e, vlad, clad, blad) => {
@@ -159,6 +171,23 @@ const Sect1 = ({ apodDisplay, setApodDisplay, LSData , setLSData }) => {
             setDDMMYYYY(dateFormatter(`${year}-${month}-${day}`, 0));
         };
     }
+
+    const shareContent = {
+        title: 'Check out this amazing astronomy picture!',
+        text: 'Astronomy Picture of the Day',
+        url: `https://quadverse.vercel.app/apod?${ddmmyyyy}`,
+    };
+
+    const handleShare = () => {
+        if (navigator.share) {
+            navigator
+            .share(shareContent)
+            .then(() => console.log('Shared successfully'))
+            .catch((error) => console.error('Share error:', error));
+        } else {
+            console.log('Web Share API not supported on this browser');
+        }
+    };
 
     //Animation variables
     const parentvar = {
@@ -324,7 +353,7 @@ const Sect1 = ({ apodDisplay, setApodDisplay, LSData , setLSData }) => {
                         <div className="apodDetails">
                             <div className="leftDetails">
                                 <h2>{apodDisplay?.title}</h2>
-                                <p>
+                                <p className="detaildataOverflow">
                                     Details: <span>{apodDisplay?.explanation ? apodDisplay?.explanation : apodDisplay?.msg}</span>
                                 </p>
                                 <p>
@@ -338,6 +367,13 @@ const Sect1 = ({ apodDisplay, setApodDisplay, LSData , setLSData }) => {
                                 className="rightDetails"
                                 style={{ backgroundImage: `url(${apodDisplay?.hdurl})` }}
                             ></div>
+                            {
+                                apodDisplay?.title !== "Error !!!" && (
+                                    <div className="download_share">
+                                        <button type="button" onClick={handleShare}><i className="icofont-share"></i> Share</button>
+                                    </div>
+                                )
+                            }
                         </div>
                     )}
                 </motion.div>

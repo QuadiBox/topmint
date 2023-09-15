@@ -177,7 +177,10 @@ const Jupiter = ({ data }) => {
         <AnimatePresence mode='wait'>
             {
                 navOption === "indepth" && !inview && (
-                    <ScrollButton/>   
+                    <>
+                        <SearchBoxInterface/>
+                        <ScrollButton/>   
+                    </>
                 )
             }
         </AnimatePresence>

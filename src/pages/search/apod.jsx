@@ -21,6 +21,7 @@ const Apod = () => {
     const [ LSData , setLSData ] = useState([]);
 
 
+
     useEffect(() => {
         const handleBeforeRouteChange = (url) => {
           // Do something before the route changes
@@ -57,7 +58,7 @@ const Apod = () => {
     return (
         <motion.div initial="init" animate="finale" variants={grandparentvar} className='apodBasicPage' onClick={(e) => {handleToggles( e, setShowOtherPageLinks)}}>
             <Navbar/>
-            <Sect1 apodDisplay={apodDisplay} setApodDisplay={setApodDisplay} LSData={LSData} setLSData={setLSData}/>
+            <Sect1 apodDisplay={apodDisplay} setApodDisplay={setApodDisplay} LSData={LSData} setLSData={setLSData} />
             <Apod_Sect2 apodDisplay={apodDisplay} setApodDisplay={setApodDisplay} LSData={LSData} setLSData={setLSData}/>
             <Footer bg={"transparent"}/>
             <TransitionPage animateState={"initial"}/>
