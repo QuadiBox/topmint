@@ -12,6 +12,8 @@ import MainSect from '../../components/solarSystem/MainSect';
 import Planets_Sect from '../../components/solarSystem/Planets_Sect';
 import Link from 'next/link';
 import ScrollButton from '../../components/ScrollButton';
+import SearchBoxInterface from '../../components/SearchBoxInterface';
+
 
 
 
