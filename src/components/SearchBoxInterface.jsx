@@ -191,7 +191,7 @@ const SearchBoxInterface = ({ imageLink }) => {
 
                                         ) : (
                                             <>
-                                                <h4>There was no match for <span>"{searchQuery}"</span>. {subSearchRes.length > 0 ? "Here are some related results to what you searched for:" : ""}</h4>
+                                                <h4>There was no match for <span>&quot;{searchQuery}&quot;</span>. {subSearchRes.length > 0 ? "Here are some related results to what you searched for:" : ""}</h4>
                                                 {
                                                     subSearchRes.map((elem) => (
                                                         <div  className={`unitsearchword`} key={`${elem.term}_#intfacerender_unit`}>
