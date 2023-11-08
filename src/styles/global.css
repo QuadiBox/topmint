@@ -1,0 +1,111 @@
+:root {
+  --primary-clr: #ffa86a;
+  --sec-clr: #fe7e22;
+  --text-clr1: #fffbf7;
+  --text-deco: #eee8e2e3;
+  --dark-clr1: #030303;
+  --dark-clr2: #000000;
+  --bg1-opac05: #0000006e;
+  --bg1-opac02: #00000022;
+
+  --grey-opac: #9c9793ca;
+
+  --borderline-clr: #ffa86a7f;
+  --borderline-clr2: #fe7e2289;
+
+  --rad-grad: radial-gradient(#ffa86ab3 0%, rgba(64, 42, 28, 0) 77%, rgba(7, 5, 5, 0) 100%);
+
+  --gen-padding: 16%;
+  --small-padding: 5%;
+  --vader-right: 15%;
+
+
+  --font-unica: "Unica One", sans-serif;
+  --font-sedgwick: 'Sedgwick Ave Display', cursive;
+  --font-roboto: 'Roboto', sans-serif;
+  --font-forum: 'Forum', cursive;
+}
+
+*::selection{
+  color: var(--primary-clr);
+  background: var(--text-clr2);
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: 'Andika', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  max-width: 100vw;
+}
+
+body{
+  background-color: var(--dark-clr1);
+}
+
+::-webkit-scrollbar{
+  width: 7px;
+  height: 3px;
+  background-color: var(--dark-clr1);
+}
+
+::-webkit-scrollbar-track{
+  background: transparent;
+  padding: 3px;
+  width: 100%;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 7px;
+  background: var(--primary-clr);
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+@media screen and (max-width: 1309px)  {
+  body {
+    --gen-padding: 6%;
+    --vader-right: 5%;
+    font-size: 14px;
+  }
+
+}
+
+
+@media screen and (max-width: 600px)  {
+  body {
+    --gen-padding: 5%;
+    --vader-right: 2%;
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (max-width: 290px)  {
+  body {
+    --gen-padding: 3%;
+    --vader-right: 1%;
+    font-size: 10px;
+  }
+
+}

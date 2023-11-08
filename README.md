@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Project QuadVerse
 
-Project QuadVerse is a personal developmental project, build by a entry-level Front-end developer aiming to perfect and polish his programming skill. This is his first shot at wriiting a README and also Git. 
+Project QuadVox is a personal portfolio website, build by a entry-level Front-end developer aiming to perfect and polish his programming skill.
 
 This website is currently running locally on [http://localhost:3000](http://localhost:3000) at the time of this writing.
 

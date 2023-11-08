@@ -1,17 +1,11 @@
-import '../styles/globals.css';
 import '../styles/home.css';
-import "../styles/search.css";
-import "../styles/solarsystem.css";
-import "../styles/playground.css";
-import "../styles/glossary.css";
-import "../styles/404.css";
+import '../styles/projects.css';
+import '../styles/global.css';
 import Head from "next/head";
-import { Alegreya } from "next/font/google";
 import { useState, useRef } from 'react';
 import ThemeProvider from '../../providers/ThemeProvider';
 import { AnimatePresence } from 'framer-motion';
 
-const alegreya = Alegreya({ subsets: ['latin'] })
  
 export default function App({ Component, pageProps }) {
   const [cursorValues, setCursorValues] = useState({
@@ -49,12 +43,20 @@ export default function App({ Component, pageProps }) {
   return (
     <ThemeProvider>
       <AnimatePresence mode='wait'>
-        <main onMouseMove={handleCursorTrailer} onMouseEnter={handleCursorOn} onMouseLeave={handleCursorOff}>
+        <main>
           <Head>
+            <title>QuadVox</title>
             <title>QuadVerse</title>
+            <meta charSet="UTF-8"/>
+            <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
+            <meta name="theme-color" content='#ffa86a'/>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <link rel="icon" href="/darkLogosmall.png"/>
+            <link rel="apple-touch-icon" href="/darkLogosmall.png"/>
+            <meta property="og:title" content="QuadVox"/>
+            <meta property="og:description" content="A finely designed portfolio website showcasing my talent as an experienced Frontend software developer."/>
+            <meta property="og:image" content="/darkLogosmall.png"/>
           </Head>
-          <div ref={cursorRef} className='cursorTrailer'></div>
           <Component {...pageProps} />
         </main>
       </AnimatePresence>

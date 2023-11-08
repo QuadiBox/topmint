@@ -7,16 +7,16 @@ export default function Document() {
       <Head>
         <meta charSet="UTF-8"/>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
-        <meta name="theme-color"/>
-        <link rel="icon" href="/IconVerseLarge.png"/>
-        <link rel="apple-touch-icon" href="/IconVerse.svg"></link>
+        <meta name="theme-color" content='#ffa86a'/>
         <link rel="stylesheet" href="/icofont/icofont.min.css"/>
-        <meta property="og:title" content="QuadVerse"/>
-        <meta property="og:description" content="A finely designed website for all space enthusiast and explorer to learn and find more about our solar system and the universe at large. It is a personal project."/>
-        <meta property="og:image" content="/IconVerse.svg"/>
+        <meta property="og:title" content="QuadVox"/>
+        <meta property="og:description" content="A finely designed portfolio website showcasing my talent as an experienced Frontend software developer."/>
+        <link rel="icon" href="/darkLogosmall.png"/>
+        <link rel="apple-touch-icon" href="/darkLogosmall.png"/>
+        <meta property="og:image" content="/darkLogosmall.png"/>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
-        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Handjet:wght@200;300;400;500;600;700;800;900&family=IBM+Plex+Mono:ital,wght@0,200;0,300;0,400;0,700;1,500;1,600&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Metrophobic&family=Unica+One&display=swap" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&family=Andika:wght@400;700&family=Dancing+Script:wght@400;500;600&family=Forum&family=IBM+Plex+Mono:wght@300;400;500&family=Josefin+Sans:wght@200;300;400;500;600&family=Jost:wght@300;400;500&family=Metrophobic&family=Oswald:wght@200;400;500;600&family=Sedgwick+Ave+Display&family=Unica+One&display=swap" rel="stylesheet"/>
       </Head>
       <body>
         <Main />
