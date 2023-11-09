@@ -46,7 +46,6 @@ export default function App({ Component, pageProps }) {
         <main>
           <Head>
             <title>QuadVox</title>
-            <title>QuadVerse</title>
             <meta charSet="UTF-8"/>
             <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
             <meta name="theme-color" content='#ffa86a'/>
