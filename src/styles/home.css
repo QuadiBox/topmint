@@ -410,6 +410,9 @@
 }
 
 @media screen and (max-width: 600px)  {
+    .homefirstsect, .homeSecondSect{
+        padding-bottom: 1px;
+    }
     .vaderImg{
         height: 58%;
         right: -23%;
@@ -739,6 +742,7 @@
     .homethirdSect{
         width: 100%;
         min-height: 100vh;
+        padding-bottom: 1px;
     }
 
     .homethirdSect .overlaysect{
@@ -798,7 +802,7 @@
 
     .homeFourthSect{
         min-height: max-content;
-        padding-bottom: 2px;
+        padding-bottom: 1px;
         overflow: hidden;
     }
     
@@ -848,7 +852,7 @@
     display: inline-block;
     font-size: 0.35em;
     color: var(--primary-clr);
-    transform: rotate(100deg);
+    transform: rotate(10deg);
 }
 
 .unitWorkBox > a span i{ 
@@ -1010,6 +1014,10 @@
 
     .scrolldownButtonCntn.contact{
         --circle-width: 40vw;
+    }
+
+    .homefifthSect{
+        padding-bottom: 1px;
     }
 }
 

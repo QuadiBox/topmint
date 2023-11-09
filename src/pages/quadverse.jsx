@@ -91,15 +91,15 @@ const Quadverse = () => {
             </section>
             <section className="projectSecSect">
                 <div style={{overflow: "hidden"}}  className="itemCntn leftMargin">
-                    <motion.div initial={{ opacity: 0, y: "100%" }} whileInView={{ opacity: 1, y: 0, transition: { type: "spring", damping: 30, stiffness: 200 } }} viewport={{ once: true, amount: 0.15 }} className='colorPallete'>
-                        <span className="unitPallete p1"></span>
-                        <span className="unitPallete p2"></span>
-                        <span className="unitPallete p3"></span>
-                        <span className="unitPallete p4"></span>
-                        <span className="unitPallete p5"></span>
-                        <span className="unitPallete p6"></span>
-                        <span className="unitPallete p7"></span>
-                        <span className="unitPallete p8"></span>
+                    <motion.div initial={{ opacity: 0, y: "70%" }} whileInView={{ opacity: 1, y: 0, transition: { type: "spring", damping: 30, stiffness: 200 } }} viewport={{ once: true, amount: 0.15 }} className='colorPallete'>
+                        <span style={{backgroundColor: "#a706f1"}} className="unitPallete p1"></span>
+                        <span style={{backgroundColor: "#ff5882"}} className="unitPallete p2"></span>
+                        <span style={{backgroundColor: "#42273f"}} className="unitPallete p3"></span>
+                        <span style={{backgroundColor: "#ff964e"}} className="unitPallete p4"></span>
+                        <span style={{backgroundColor: "#241822"}} className="unitPallete p5"></span>
+                        <span style={{backgroundColor: "#ebcae3"}} className="unitPallete p6"></span>
+                        <span style={{backgroundColor: "#090208"}} className="unitPallete p7"></span>
+                        <span style={{backgroundColor: "#fff6ff"}} className="unitPallete p8"></span>
                     </motion.div>
                     <p className="itemLabel">(Color Board)</p>
                 </div>
