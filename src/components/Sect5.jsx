@@ -1,7 +1,8 @@
-import {useState, useRef} from 'react';
+import {useEffect, useRef} from 'react';
 import { motion, useInView } from 'framer-motion';
+import emailjs from "@emailjs/browser";
 
-const Sect5 = () => {
+const Sect5 = ({ setMsg, msg }) => {
     const ballRef = useRef(null);
     const backgroundRef = useRef(null);
     const SectRef = useRef(null);
@@ -55,6 +56,52 @@ const Sect5 = () => {
           timingFunction: "ease-in-out"
         });
     }
+
+    useEffect(() => {
+        const timeoutId = setTimeout(() => {
+          setMsg({
+            text: "",
+            color: "#a706f1",
+          })
+        }, 4000);
+    
+        return () => {
+          clearTimeout(timeoutId);
+        };
+    }, [msg]);
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+  
+        emailjs
+        .sendForm(
+          "service_sguscc2",
+          "template_f9p75lg",
+          formRef.current,
+          "Zp0CfEWsESXaa7Ury"
+        )
+        .then(
+          (result) => {
+            setMsg({
+                text: "Message Sent Succesfully",
+                color1: "#ffa86a",
+                color2: "#6226002d",
+                color3: "#ffa86a7f",
+            });
+            formRef.current.reset();
+          },
+          (error) => {
+            console.log(error.text);
+            setMsg({
+                text: "Message Not Sent",
+                color1: "#ea0303fc",
+                color2: "#5b010125",
+                color3: "#7b212187",
+            });
+            formRef.current.reset();
+          }
+        ); 
+    };
 
     //Animation Variables
     const parentVar = {
@@ -164,7 +211,7 @@ const Sect5 = () => {
                 <div style={{overflow: "hidden", width: "100%", display: "flex"}}>
                     <motion.h2 variants={slideUp} onClick={handleInputFocus}>Let's Talk</motion.h2>
                 </div>
-                <motion.form variants={parentVar2} animate="clad" ref={formRef} action="#" className="contactForm">
+                <motion.form variants={parentVar2} animate="clad" ref={formRef} className="contactForm" onSubmit={sendEmail}>
                     <div style={{overflow: "hidden", width: "100%", display: "flex"}}>
                         <motion.input variants={slideUp2}  className='nameInput' type="text" name="user_name" id="name" placeholder="Your Name here..."/>
                     </div>

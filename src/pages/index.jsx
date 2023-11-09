@@ -16,6 +16,12 @@ export default function Home() {
   const sectRef = useRef(null);
   const router = useRouter();
   const [showExit, setShowExit] = useState(false);
+  const [msg, setMsg] = useState({
+    text: "",
+    color1: "#ffa86a",
+    color2: "#6226002d",
+    color3: "#ffa86a7f",
+  });
 
   const handleBackgroundShift = (e) => {
     const x = e.clientX / window.innerWidth * 100;
@@ -156,6 +162,29 @@ export default function Home() {
     }
   }
 
+  const toastPop = {
+    init: {
+      opacity: 0,
+      x: "50%"
+    },
+    finale: {
+      opacity: 1,
+      x: 0,
+      transition: {
+        ease: "easeInOut",
+        duration: 0.3
+      }
+    },
+    exit: {
+      opacity: 0,
+      x: "60%",
+      transition: {
+        ease: "easeInOut",
+        duration: 0.3
+      }
+    }
+  }
+
 
   return (
       <main className="HomefirstPageCtn">
@@ -228,7 +257,17 @@ export default function Home() {
               </div>
             </div>
         </div>
-        <Sect5/>
+        <Sect5 setMsg={setMsg} msg={msg}/>
+        <AnimatePresence>
+          {
+            msg.text !== "" && (
+              <motion.div variants={toastPop} initial="init" animate="finale" exit="exit" style={{backgroundColor: `${msg.color2}`, border: `1px dashed ${msg.color3}`}} className="toaster">
+                <p>{msg.text}</p>
+                <button style={{backgroundColor: `${msg.color1}`}}>x</button>
+              </motion.div>
+            )
+          }
+        </AnimatePresence>
         {/* <TransOverlay animateState={"initial"}/> */}
         <AnimatePresence mode="wait">
           {!showExit && (

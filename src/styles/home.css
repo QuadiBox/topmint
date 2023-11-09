@@ -844,6 +844,18 @@
     color: var(--primary-clr);
 }
 
+.unitWorkBox > a span{
+    display: inline-block;
+    font-size: 0.35em;
+    color: var(--primary-clr);
+    transform: rotate(10deg);
+}
+
+.unitWorkBox > a span i{ 
+    font-size: 1.3em;
+    color: var(--primary-clr);
+}
+
 .bottomWorkboxUnit{
     display: flex;
     flex-wrap: wrap;
@@ -1327,4 +1339,41 @@
 }
 .transOverlay .brown{
     background-color: var(--primary-clr);
+}
+
+.toaster{
+    border-radius: 10px;
+    position: fixed;
+    right: 2%;
+    top: 3%;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    background-color: #6226002d;
+    border: 1px dashed var(--borderline-clr);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    width: max-content;
+}
+
+.toaster p{
+    font-size: 1.07em;
+    color: var(--text-deco);
+}
+
+.toaster button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: var(--primary-clr);
+    font-size: 0.95em;
+    color: var(--dark-clr1);
+
+    border: none;
+    outline: none;
+    cursor: pointer;
 }

@@ -72,7 +72,7 @@ const Sect4 = () => {
                     <div className="rightWorkBox">
                         <motion.div initial={{ opacity: 0, y: "50%" }} whileInView={{ opacity: 1, y: 0, transition: { type: "spring", damping: 30, stiffness: 200 } }} viewport={{ once: true, amount: 0.17 }} className="unitWorkBox" onMouseEnter={() => {setDisplayedImage("/quadair_1.png")}} onMouseLeave={() => {setDisplayedImage("/quadair_1.png")}}>
                             <div className="topImageDisplay"><img src="/quadair_h.png" alt="wooden airplane image {#QuadAir}" /></div>
-                            <Link href={"/quadair"}>QuadAir: An Exploration of Airline website designs and functionalities</Link>
+                            <Link href={"/quadair"}>QuadAir: An Exploration of Airline website designs and functionalities <span><i class="icofont-hand-left"></i> Click me.</span></Link>
                             <div className='bottomWorkboxUnit'>
                                 <p>January 2023 - March 2023</p>
                                 <a href="https://quadair.netlify.app/" target='_blank' className="visit_site">
@@ -84,7 +84,7 @@ const Sect4 = () => {
                         <div className='hrDiv'></div>
                         <motion.div initial={{ opacity: 0, y: "50%" }} whileInView={{ opacity: 1, y: 0, transition: { type: "spring", damping: 30, stiffness: 200 } }} viewport={{ once: true, amount: 0.17 }} className="unitWorkBox" onMouseEnter={() => {setDisplayedImage("/quadverse_1.png")}} onMouseLeave={() => {setDisplayedImage("/quadair_1.png")}}>
                             <div className="topImageDisplay"><img src="/quadverse_h.png" alt="wooden airplane image {#QuadAir}" /></div>
-                            <Link href={"/quadverse"}>QuadVerse: A detailed Insight into our Universe and its Science</Link>
+                            <Link href={"/quadverse"}>QuadVerse: A detailed Insight into our Universe and its Science <span><i class="icofont-hand-left"></i> Click me.</span></Link>
                             <div className='bottomWorkboxUnit'>
                                 <p>April 2023 - October 2023</p>
                                 <a href="https://quadverse.vercel.app/" target='_blank' className="visit_site">

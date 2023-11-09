@@ -70,13 +70,13 @@ const TransOverlay = ({ animateState }) => {
         finale: {
             x: "700%",
             transition: {
-                duration: 0.05,
+                duration: 0.07,
             }
         },
         exit: {
             x: 0,
             transition: {
-                duration: 0.11,
+                duration: 0.22,
                 ease: "easeInOut"
             }
         }
