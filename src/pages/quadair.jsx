@@ -105,7 +105,7 @@ const Quadair = () => {
                 </div>
 
                 <div className="colorDatacntn">
-                    <motion.p initial={{ opacity: 0, y: "70%" }} whileInView={{ opacity: 1, y: 0, transition: { type: "spring", damping: 30, stiffness: 200 } }} viewport={{ once: true, amount: 0.15 }} className="colorData">Practically, the colors were chosen for my love of purple and all it's shades then using the color harmony theory to choose pleasing and suiting colors in tandem with my shade of purple. Eventually, a pleasing interface that serves it's purpose and appears seemingly attractive was achieved.</motion.p>
+                    <motion.p initial={{ opacity: 0, y: "70%" }} whileInView={{ opacity: 1, y: 0, transition: { type: "spring", damping: 30, stiffness: 200 } }} viewport={{ once: true, amount: 0.15 }} className="colorData">Practically, the colors were chosen for my love of purple and all it&apos;s shades then using the color harmony theory to choose pleasing and suiting colors in tandem with my shade of purple. Eventually, a pleasing interface that serves it&apos;s purpose and appears seemingly attractive was achieved.</motion.p>
                 </div>
             </section>
             <section className="fontSect">

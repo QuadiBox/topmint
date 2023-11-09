@@ -209,7 +209,7 @@ const Sect5 = ({ setMsg, msg }) => {
         <motion.section variants={parentVar} animate="clad" id='contact' ref={SectRef} className="homefifthSect" onMouseEnter={(e) => {handleCursorTrailer(e, ballRef), handleBackgroundShift(e);}} onMouseMove={(e) => {handleCursorTrailer(e, ballRef), handleBackgroundShift(e);}}>
             <div className="overlaysect">
                 <div style={{overflow: "hidden", width: "100%", display: "flex"}}>
-                    <motion.h2 variants={slideUp} onClick={handleInputFocus}>Let's Talk</motion.h2>
+                    <motion.h2 variants={slideUp} onClick={handleInputFocus}>Let&apos;s Talk</motion.h2>
                 </div>
                 <motion.form variants={parentVar2} animate="clad" ref={formRef} className="contactForm" onSubmit={sendEmail}>
                     <div style={{overflow: "hidden", width: "100%", display: "flex"}}>

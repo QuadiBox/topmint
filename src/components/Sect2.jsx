@@ -98,7 +98,7 @@ const Sect2 = () => {
             <motion.h2 variants={slideUp}>Coding is my <br /> Passion</motion.h2>
           </div>
           <div style={{overflow: "hidden"}}>
-            <motion.p variants={slideUp}>Hi, I'm Quadri, a passionate Frontend Web Developer with 1year+ programming experience in creating unique, well-crafted software masterpieces solving specific problems. My skills in coding, design-thinking and problem solving have been honed over months of programming repititions, allowing me to create stunning, performant, optimized, highly-interactive and valuable digital softwares. I am also an undergraduate studying Physiology in the University of Ibadan, Ibadan, Nigeria.</motion.p>
+            <motion.p variants={slideUp}>Hi, I&apos;m Quadri, a passionate Frontend Web Developer with 1year+ programming experience in creating unique, well-crafted software masterpieces solving specific problems. My skills in coding, design-thinking and problem solving have been honed over months of programming repititions, allowing me to create stunning, performant, optimized, highly-interactive and valuable digital softwares. I am also an undergraduate studying Physiology in the University of Ibadan, Ibadan, Nigeria.</motion.p>
           </div>
           <div style={{overflow: "hidden"}}>
             <motion.p variants={slideUp}>I love programming, art, country music, space science, ciphers and sci-fi movies/characters.</motion.p>

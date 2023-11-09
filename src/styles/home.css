@@ -848,7 +848,7 @@
     display: inline-block;
     font-size: 0.35em;
     color: var(--primary-clr);
-    transform: rotate(10deg);
+    transform: rotate(100deg);
 }
 
 .unitWorkBox > a span i{ 

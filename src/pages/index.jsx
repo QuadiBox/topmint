@@ -250,7 +250,7 @@ export default function Home() {
                 <p>
                   {
                     text2.split("").map((elem, idx) => (
-                      <span style={{transform: `rotate(${idx * 11.2}deg)`}}>{elem}</span>
+                      <span key={`rotating_text ${idx}`} style={{transform: `rotate(${idx * 11.2}deg)`}}>{elem}</span>
                     ))
                   }
                 </p>
