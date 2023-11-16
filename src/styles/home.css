@@ -906,7 +906,7 @@
     width: 70px;
     aspect-ratio: 1;
     border-radius: 50%;
-    border: 1px solid var(--text-deco);
+    border: 0.5px solid var(--text-deco);
     z-index: -1;
 
     transform: translateX(-15%);
@@ -1019,6 +1019,10 @@
 
     .homefifthSect{
         padding-bottom: 1px;
+    }
+
+    .visit_site .visitSiteLink > img{
+        transform: rotate(-135deg);
     }
 }
 
