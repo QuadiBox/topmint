@@ -263,7 +263,7 @@ export default function Home() {
             msg.text !== "" && (
               <motion.div variants={toastPop} initial="init" animate="finale" exit="exit" style={{backgroundColor: `${msg.color2}`, border: `1px dashed ${msg.color3}`}} className="toaster">
                 <p>{msg.text}</p>
-                <button style={{backgroundColor: `${msg.color1}`}}>x</button>
+                <button onClick={setMsg({text: "", color2: "#6226002d", color1: "#ffa86a", color3: "#ffa86a7f"})} style={{backgroundColor: `${msg.color1}`}}><i class="icofont-close"></i></button>
               </motion.div>
             )
           }

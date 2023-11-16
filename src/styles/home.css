@@ -595,6 +595,7 @@
     flex-direction: column;
     align-items: center;
     padding: 10px;
+    color: var(--text-deco);
     justify-content: space-between;
 
     font-size: 2em;
