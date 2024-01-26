@@ -13,6 +13,7 @@ const InvestAdminSect = ({ setInvestData, setProfileState, investments}) => {
 
         updateDoc(docRef, {
             status: "Expired",
+            roi: vlad?.capital * 5
         });
 
         setProfileState("Withdrawals");

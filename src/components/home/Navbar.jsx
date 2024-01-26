@@ -66,7 +66,7 @@ const Navbar = ({ showsidecard, setShowsideCard, shownavOptions, showDisplayCard
         }
         <div className="rightBox">
             {
-                Object?.keys(currentUser)?.length > 0 ? (
+                currentUser?.idnum ? (
                     <div id="mobilenone" className="profileIcon">
                         <i className="icofont-user-alt-3"></i>
                         <AnimatePresence>
