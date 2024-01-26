@@ -21,6 +21,7 @@ import UsersAdmin from "../components/dashAdmin/UsersAdmin";
 import UnitUserSect from "../components/dashAdmin/UnitUserSect";
 import WithdrawAdmin from "../components/dashAdmin/WithdrawAdmin";
 import UnitWithdrawSect from "../components/dashAdmin/UnitWithdrawSect";
+import Head from "next/head";
 
 const Dashboard_admin = () => {
   const [passwordShow, setPasswordShow] = useState(true);
@@ -270,6 +271,10 @@ const Dashboard_admin = () => {
 
   return (
     <div className="mainprofileSect">
+      <Head>
+          <title>Admin Dashboard</title>
+          <meta property="og:title" content="Admin Dashboard"/>
+      </Head>
       <div id="mobilenone" className="leftProfile">
         <div className="topmostRightPrile">
           <Link href={"/"}>

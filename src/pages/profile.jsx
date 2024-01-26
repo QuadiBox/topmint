@@ -23,6 +23,7 @@ import PaymentSect from "../components/dashboard/PaymentSect";
 import WithdrawalSect from "../components/dashboard/WithdrawalSect";
 import WithdrawalPayment from "../components/dashboard/WithdrawPayment";
 import NotificationSect from "../components/dashboard/NotificationSect";
+import Head from "next/head";
 
 const Profile = () => {
   const [passwordShow, setPasswordShow] = useState(true);
@@ -247,6 +248,10 @@ const Profile = () => {
 
   return (
     <div className="mainprofileSect">
+      <Head>
+          <title>User Dashboard</title>
+          <meta property="og:title" content="User Dashboard"/>
+      </Head>
       <div id="mobilenone" className="leftProfile">
         <div className="topmostRightPrile">
           <Link href={"/"}>

@@ -5,6 +5,7 @@ import { firebaseConfig } from '../database/firebaseConfig';
 import { getFirestore, collection, query, where, onSnapshot } from "firebase/firestore";
 import { themeContext } from '../../providers/ThemeProvider';
 import { useRouter } from 'next/router';
+import Head from 'next/head';
 
 
 
@@ -90,6 +91,10 @@ const Signin = () => {
 
     return (
         <div className='signupCntn'>
+            <Head>
+                <title>Sign In - Admin</title>
+                <meta property="og:title" content="Sign In - Admin"/>
+            </Head>
                 <div className="leftSide">
                         <video src="signup_vid2.mp4" autoPlay loop muted></video>
                         <div className="overlay">

@@ -6,6 +6,7 @@ import { firebaseConfig } from '../database/firebaseConfig';
 import { getFirestore, collection, query, where, onSnapshot } from "firebase/firestore";
 import { themeContext } from '../../providers/ThemeProvider';
 import { useRouter } from 'next/router';
+import Head from 'next/head';
 
 
 
