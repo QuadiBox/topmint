@@ -1,0 +1,436 @@
+:root {
+    --primary-clr: #0672CD;
+    --sec2-clr: #9864AD;
+    --sec-clr: #D8A31A;
+    --text-clr1: #F5F9FF;
+    --text-deco: #F3F9FF;
+    --white-purple: #b9dfff;
+    --dark-clr1: #000613;
+    --dark-clr2: #070e1e;
+    --dark-clr3: #020d25;
+    --dark-clr4: #002848;
+    --dark-clr5: #070032;
+
+    --opac-clr1: #00123345;
+    --opac-clr2: #0263b37d;
+    --opac-clr3: #364763a1;
+  
+    --danger-clr: #DC1262;
+    --grey-clr: #5b574e;
+    --linear-grad1: linear-gradient(180deg, #0672cd 40%, #d8a31a);
+    --linear-grad2: linear-gradient(120deg, #0672cd , #d8a31a);
+    --linear-grad3: linear-gradient(180deg,  #d8a31a, #0672cd, #d8a31a);
+
+  
+    --gen-padding: 10%;
+    --btn-height: 40px;
+  
+  
+    --font-alegreya: 'Alegreya Sans', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+    --font-mont: 'Montserrat', sans-serif;
+}
+
+.signupCntn{
+    width: 100%;
+    height: 100dvh;
+    gap: 20px;
+    position: relative;
+}
+
+.leftSide{
+    height: calc(100vh - 20px);
+    width: 50%;
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-left: 10px;
+    position: fixed;
+    top: 10px;
+    z-index: 200;
+}
+
+.leftSide video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.leftSide .overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    gap: 3em;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: linear-gradient(to bottom, #0006134c, 20%, #020d25e4);
+}
+
+.leftSide .overlay h2{
+    font-size: 4em;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: var(--linear-grad2);
+    font-weight: 400;
+    color: transparent;
+    text-align: center;
+    color: var(--dark-clr3);
+    color: #0a497c;
+}
+
+.leftSide .overlay p{
+    font-size: 1.3em;
+    color: var(--text-deco);
+    font-weight: 400;
+}
+
+.leftSide .overlay p span{
+    color: var(--primary-clr);
+}
+
+.righside{
+    padding-inline: 10%;
+    width: 50%;
+    margin-left: auto;
+    position: relative;
+}
+
+.righside form{
+    --input-width: 350px;
+    --input-height: 50px;
+    min-height: 100dvh;
+    padding-block: 0em 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .leftSide{
+        display: none;
+    } 
+    .righside{
+        padding-inline: 5%;
+        width: 100%;
+        margin-left: auto;
+        position: relative;
+    }
+
+    .righside form{
+        --input-width: 100%;
+    }
+}
+
+.righside form .topsignuplink{
+    width: 100%;
+    background-color: var(--dark-clr1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 2em 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.righside form a img{
+    height: 30px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.righside form h1{
+    font-size: 1.5em;
+    color: var(--text-deco);
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+form .inputcontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.inputCntn, .passcntn {
+    width: var(--input-width);
+    height: var(--input-height);
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid #183b59b3;
+
+    transition: border 0.35s ease;
+}
+
+.inputCntn:focus-within, .passcntn:focus-within{
+    border:  1px solid var(--primary-clr);
+}
+
+.inputCntn input{
+    background-color: transparent;
+    font-size: 1.1em;
+    color: var(--text-clr1);
+    padding-left: 40px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+
+.passcntn input{
+    background-color: transparent;
+    font-size: 1.1em;
+    color: var(--text-clr1);
+    padding-right: 40px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: 16px;
+}
+
+.inputCntn span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 40px;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.passcntn button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 40px;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.inputCntn span i{
+    font-size: 0.5em;
+    font-weight: 300;
+    color: var(--primary-clr);
+}
+
+.passcntn button i{
+    font-size: 0.6em;
+    font-weight: 300;
+    color: var(--primary-clr);
+}
+
+.inputcontainer .form-control2{
+    font-size: 0.96em;
+    font-weight: 300;
+    line-height: 1.4;
+    color: var(--text-clr);
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 20px;
+    cursor: pointer;
+    align-items: center;
+}
+
+
+.inputcontainer input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: var(--dark-clr1);
+    margin: 0;
+    font: inherit;
+    color: gray;
+    width: 20px;
+    aspect-ratio: 1;
+    border: 1px solid #183b59b3;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+    display: grid;
+    place-content: center;
+}
+
+.inputcontainer input[type="checkbox"]::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--sec-clr);
+    background-color: var(--sec-clr);
+    transform-origin: bottom left;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+
+.inputcontainer input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}
+
+.inputcontainer input[type="checkbox"]:focus {
+    outline: 2px solid var(--primary-clr);
+    outline-offset: 1px;
+}
+
+._cloudflr_verifcation_widget{
+    width: var(--input-width);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid var(--dark-clr2);
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.verification_Box{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.checkbox_cntn{
+    position: relative;
+    width: 30px;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox_cntn input{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.checkbox_cntn span, .checkbox_cntn i{
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.checkbox_cntn span{
+    width: 90%;
+    aspect-ratio: 1;
+    border-radius: 4px;
+    border: 1px solid var(--opac-clr2);
+}
+
+.checkbox_cntn i.icofont-check-circled {
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    font-size: 2em;
+    color: var(--primary-clr);
+    animation: scale 0.5s ease-in-out forwards;
+    transform-origin: center;
+}
+.checkbox_cntn i.icofont-spinner-alt-2 {
+    pointer-events: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    font-size: 2em;
+    color: var(--sec-clr);
+    animation: spin 2s ease-in-out infinite;
+}
+
+@keyframes scale {
+    0%{
+        scale: 0.9;
+    }
+    100%{
+        scale: 1;
+    }
+}
+@keyframes spin {
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+
+.verification_status{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.verification_status p{
+    text-align: center;
+    color: #f8f6e0;
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+.service_provider p{
+    font-size: 0.5em;
+    color: #525252;
+    font-weight: 500;
+}
+
+.service_provider p img{
+    width: 50px;
+    object-fit: contain;
+    object-position: center;
+}
+
+form button[type="submit"]{
+    width: var(--input-width);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.haveanaccount{
+    min-width: var(--input-width);
+    color: var(--grey-clr);
+    font-weight: 400;
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.haveanaccount a{
+    color: var(--primary-clr);
+    font-size: 1.1em;
+}
+
+form .errorMsg{
+    width: var(--input-width);
+    color: var(--danger-clr);
+    font-size: 0.8em;
+    font-weight: 400;
+}

@@ -1,0 +1,1067 @@
+:root {
+    --primary-clr: #0672CD;
+    --sec2-clr: #9864AD;
+    --sec-clr: #D8A31A;
+    --text-clr1: #F5F9FF;
+    --text-deco: #F3F9FF;
+    --white-purple: #b9dfff;
+    --dark-clr1: #000613;
+    --dark-clr2: #070e1e;
+    --dark-clr3: #020d25;
+    --dark-clr4: #002848;
+    --dark-clr5: #070032;
+  
+    --opac-clr1: #00123345;
+    --opac-clr2: #0263b37d;
+    --opac-clr3: #364763a1;
+  
+    --danger-clr: #DC1262;
+    --yellow-clr: #F9F871;
+    --green-clr: #2DC194;
+    --grey-clr: #928e84;
+    --linear-grad1: linear-gradient(180deg, #0672cd 40%, #d8a31a);
+    --linear-grad2: linear-gradient(120deg, #0672cd , #d8a31a);
+    --linear-grad3: linear-gradient(180deg,  #d8a31a, #0672cd, #d8a31a);
+  
+  
+    --gen-padding: 10%;
+    --btn-height: 40px;
+  
+  
+    --font-alegreya: 'Alegreya Sans', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+    --font-mont: 'Montserrat', sans-serif;
+}
+
+
+.mainprofileSect{
+    --profile-gap: 20px;
+    --profile-bg: #070e1e;
+    width: 100%;
+    background-color: var(--dark-clr1);
+    height: 100dvh;
+    gap: 30px;
+    padding: 10px;
+}
+
+
+.mainprofileSect .leftProfile{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+    padding-block: 30px 50px;
+    background-color: var(--profile-bg);
+    height: calc(100dvh - 20px);
+    width: 17.5%;
+    min-width: max-content;
+
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.topmostRightPrile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    padding-inline: 20px;
+    width: 100%;
+}
+
+.topmostRightPrile .theLogo{
+    height: 27px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.panelPrfileDisp {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    align-items: center;
+    width: 100%;
+    gap: 16px;
+}
+
+.panelPrfileDisp .left{
+    width: 40px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-image: url(/avatar_1.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.panelPrfileDisp .right h3{
+    font-size: 0.89em;
+    color: var(--text-deco);
+    font-weight: 400;
+}
+.panelPrfileDisp .right p{
+    font-size: 0.59em;
+    color: var(--text-deco);
+    font-weight: 300;
+    word-break: break-all;
+    margin-top: 8px;
+}
+
+.centerRightProfile{
+    width: 100%;
+}
+
+.centerRightProfile ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.centerRightProfile ul li, .centerRightProfile ul a{
+    padding-inline: 20px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    cursor: pointer;
+    padding-block: 8px;
+    border-radius: 6px;
+    font-size: 0.98em;
+    color: var(--text-deco);
+    font-weight: 300;
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: background-color 0.4s ease;
+}
+.centerRightProfile ul li.active{
+    transform: scale(1.05);
+    background-color: #0028486d;
+}
+
+
+.centerRightProfile ul li:hover, .centerRightProfile ul a:hover{
+    background-color: var(--opac-clr3);
+}
+
+.centerRightProfile ul li i, .centerRightProfile ul a i{
+    font-size: 1.4em;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: var(--linear-grad2);
+    color: var(--text-deco);
+    pointer-events: none;
+}
+
+.centerRightProfile ul li span{
+    height: 15px;
+    padding-inline: 5px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--danger-clr);
+    color: var(--text-deco);
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.rightLeftProfile{
+    padding-inline: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin-top: auto;
+}
+
+.rightLeftProfile button{
+    width: 100%;
+    color: var(--text-deco);
+    border: none;
+    outline: none;
+    display: flex;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.rightLeftProfile button:nth-child(1) i{
+    font-size: 1.2em;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: var(--linear-grad2);
+    pointer-events: none;
+}
+
+.rightLeftProfile button:nth-child(2) {
+    align-items: center;
+    justify-content: center;
+    padding-block: 8px;
+    border-radius: 6px;
+    font-size: 0.98em;
+    color: var(--text-deco);
+    font-weight: 300;
+    background-color: #dc126326;
+    /* color: var(--danger-clr); */
+    padding-inline: 12px;
+    font-weight: 400;
+
+    transition: background-color 0.4s ease;
+}
+
+.rightLeftProfile button:nth-child(2):hover{
+    background-color:  #dc126348;
+}
+
+.rightLeftProfile button:nth-child(2) i{
+    color: var(--danger-clr);
+}
+
+.rightProfile{
+    display: flex;
+    flex-direction: column;
+    gap: var(--profile-gap);
+    padding-right: 5%;
+    width: 80%;
+    margin-left: auto;
+}
+
+.rightProfile h1{
+    font-size: 3em;
+    color: var(--text-deco);
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.rightProfile h1 span{
+    font-size: 0.3em;
+    color: var(--text-clr1);
+    margin-left: 40px;
+    font-weight: 400;
+}
+
+.topmostRightProfile{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--profile-gap);
+    margin-top: 20px;
+}
+
+.unitUserEarningDisplay{
+    padding: 15px;
+    background-color: var(--profile-bg);
+    border-radius: 10px;
+    height: 100%;
+}
+
+.unitUserEarningDisplay h3{
+    font-size: 0.96em;
+    font-weight: 400;
+}
+
+.unitUserEarningDisplay h3 span{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.unitUserEarningDisplay h3 span i{
+    color: var(--primary-clr);
+    font-size: 1.2em;
+}
+
+.unitUserEarningDisplay h2{
+    margin-top: 8px;
+    font-size: 1.9em;
+    font-weight: 600;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: var(--linear-grad2);
+    /* color: var(--text-deco); */
+    pointer-events: none;
+}
+
+
+.lengthyAnalytics{
+    width: 100%;
+    aspect-ratio: 16/6;
+    border-radius: 20px;
+    background-color: var(--profile-bg);
+    overflow: hidden;
+}
+
+.gridAnalytics{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: var(--profile-gap);
+    align-items: flex-start;
+}
+
+.leftGridAnalaytics{
+    background-color: var(--profile-bg);
+    border-radius: 20px;
+    aspect-ratio: 16/8;
+    height: 100%;
+    overflow: hidden;
+}
+.rightGridAnalaytics{
+    background-color: var(--profile-bg);
+    border-radius: 20px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.rightProfile .packages{
+    border-radius: 20px;
+}
+
+.profilefooter{
+    width: 100%;
+    background-color: var(--profile-bg);
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.profilefooter p{
+    font-size: 0.8em;
+    font-weight: 300;
+    color: var(--grey-clr);
+}
+
+.profilefooter p a{
+    color: var(--primary-clr);
+    font-weight: 500;
+    font-size: 1.05em;
+}
+
+.profilefooter p a img{
+    height: 20px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.profileMainCntn{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--profile-gap);
+    align-items: flex-start;
+}
+
+.topmostProfileMainDisplay, .profileEditableDisplay{
+    width: 100%;
+    padding: 2em 5%;
+    border-radius: 20px;
+    background-color: var(--profile-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.topmostProfileMainDisplay h2, .investmentMainCntn h2{
+    font-size: 2.5em;
+    color: var(--text-deco);
+    font-weight: 300;
+}
+
+.profileUtilCntn{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.profilepix{
+    width: 80px;
+    aspect-ratio: 1;
+    cursor: pointer;
+    background-image: url(/avatar_2.png);
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.topmostProfileMainDisplay .profilebasicdata{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.profilebasicdata{
+    font-size: 1.5em;
+    font-weight: 400;
+    color: var(--text-deco);
+}
+
+.profilebasicdata p{
+    font-size: 0.95em;
+    color: var(--grey-clr);
+    font-weight: 500;
+}
+
+.profileEditableDisplay{
+    width: 100%;
+    padding: 2em 5%;
+    border-radius: 20px;
+    background-color: var(--profile-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.profileEditableDisplay h2{
+    font-size: 2.5em;
+    color: var(--text-deco);
+    font-weight: 300;
+}
+
+.theFormField{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--profile-gap);
+    align-items: flex-end;
+    margin-top: 30px;
+}
+
+.unitInputField{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+}
+
+.unitInputField label{
+    font-size: 0.95em;
+    font-weight: 400;
+    color: var(--text-deco);
+}
+
+.unitInputField input{
+    height: 40px;
+    border-radius: 7px;
+    background-color: transparent;
+    border: 1px solid var(--primary-clr);
+    font-size: 1.1em;
+    font-weight: 400;
+    color: var(--text-deco);
+    outline: none;
+    padding-left: 16px;
+    width: 100%;
+}
+
+.unitInputField select{
+    height: 40px;
+    border-radius: 7px;
+    background-color: transparent;
+    border: 1px solid var(--primary-clr);
+    font-size: 1.1em;
+    font-weight: 400;
+    color: var(--text-deco);
+    outline: none;
+    padding-left: 16px; 
+    width: 100%;
+}
+
+.unitInputField select option{
+    padding: 8px 16px;
+    background-color: var(--dark-clr1);
+    color: var(--text-deco);
+}
+
+.unitInputField input:disabled {
+    border: none;
+    background-color: #00284889;
+}
+
+.unitInputField input:focus{
+    background-color: #000d276e;
+}
+
+.unitInputField span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    border-radius: 7px;
+
+    transition: background-color 0.35s ease;
+}
+
+.unitInputField span:hover{
+    background-color: var(--opac-clr2);
+}
+
+.unitInputField span i{
+    font-size: 1.2em;
+    color: var(--primary-clr);
+}
+
+.profileEditableDisplay button{
+    background-color: var(--primary-clr);
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 25px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.profileEditableDisplay button.activateBtn{
+    background-color: rgb(0, 98, 63);
+}
+.profileEditableDisplay button.delBtn{
+    background-color: var(--danger-clr);
+}
+
+.flex-align-jusc{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    width: max-content;
+}
+
+
+
+.theFormField p{
+    font-size: 0.8em;
+    font-weight: 400;
+    color: var(--danger-clr);
+}
+
+.absoluteDynamicWidget{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #020d25d1;
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatarSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--dark-clr4);
+    border-radius: 10px;
+    min-width: 300px;
+    padding: 10px 10px;
+    padding-bottom: 2em;
+}
+
+.avatarSection > span{
+    background-color: transparent;
+    width: 30px;
+    aspect-ratio: 1;
+    margin-left: auto;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.avatarSection h2{
+    font-size: 1.4em;
+    font-weight: 400;
+    color: var(--text-deco);
+}
+
+.avatarSection .avatars{
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.avatars button{
+    padding: 12px 4px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.avatars button:focus{
+    border: 1px solid var(--primary-clr);
+}
+
+.avatars button span{
+    width: 60px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: var(--dark-clr1);
+    display: flex;
+    background-size: cover;
+    background-position: center;
+}
+
+.avatars button:nth-child(1) span{
+    background-image: url(/avatar_1.png);
+}
+.avatars button:nth-child(2) span{
+    background-image: url(/avatar_2.png);
+}
+
+.avatarSection > button{
+    padding: 7px 12px;
+    border-radius: 7px;
+    background-color: var(--primary-clr);
+    display: flex;
+    outline: none;
+    border: none;
+    background-size: cover;
+    background-position: center;
+    color: var(--text-deco);
+    font-size: 0.95em;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.emptySesction{
+    max-width: 350px;
+    align-items: center;
+}
+
+.emptySesction h2{
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.avatarSection.investwidgetSection{
+    padding-inline: 30px;
+    width: 370px;
+}
+
+.investwidgetSection > p{
+    font-size: 0.95em;
+    color: var(--grey-clr);
+    font-weight: 400;
+    text-align: center;
+}
+
+.investwidgetSection > p span{
+    font-size: 1.1em;
+    font-weight: 500;
+    color: var(--primary-clr);
+}
+
+.investMinmax {
+    font-size: 0.98em;
+    font-weight: 400;
+    color: var(--green-clr);
+    width: 100%;
+    border-radius: 7px;
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--opac-clr3);
+}
+
+.widgetInvestForm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 20px;
+}
+
+.bottomBtnCntn{
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomBtnCntn button{
+    padding: 9px 16px;
+    border-radius: 7px;
+    font-size: 0.95em;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.bottomBtnCntn button:nth-child(1){
+    background-color: var(--primary-clr);
+}
+.bottomBtnCntn button:nth-child(2){
+    background-color: var(--danger-clr);
+}
+
+.investmentMainCntn, .widthdrawMainSect{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--profile-gap);
+    margin-top: 30px;
+}
+
+.historyTable{
+    width: 100%;
+    border-radius: 20px;
+    background-color: var(--profile-bg);
+    padding: 3em 20px;
+    overflow-x: auto;
+    margin-block: 20px;
+}
+
+.historyTable::-webkit-scrollbar{
+    display: none;
+}
+
+.investmentTablehead{
+    width: 100%;
+    min-width: max-content;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(150px, 1fr);
+    height: 60px;
+    border-bottom: 1px solid var(--opac-clr3);
+    cursor: pointer;
+
+    transition: all 0.35s ease;
+}
+
+.investmentTablehead:hover {
+    background-color: var(--opac-clr3);
+}
+
+.investmentTablehead.header{
+    background-color: var(--dark-clr1);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    cursor: default;
+}
+
+.investmentTablehead.header:hover{
+    background-color: var(--dark-clr1);
+}
+
+.investmentTablehead > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.investmentTablehead > div span{
+    color: var(--yellow-clr);
+}
+
+
+.investmentTablehead > div:not(:last-child) {
+    border-right: 1px solid var(--opac-clr3);
+}
+
+.emptyTable{
+    width: 100%;
+    padding-block: 20px 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.emptyTable i{
+    font-size: 5em;
+    color: var(--primary-clr);
+}
+
+.emptyTable p{
+    font-size: 1.6em;
+    color: var(--text-deco);
+    font-weight: 400;
+}
+
+.emptyTable p a{
+    color: var(--primary-clr);
+}
+
+.emptyTable p button{
+    display: inline;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--primary-clr);
+    font-size: 1.6em;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.unitNotif{
+    width: 100%;
+    border-bottom: 1px solid var(--opac-clr3);
+    padding-block: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--opac-clr1);
+    padding-inline: 3%;
+}
+
+.unitNotif h4{
+    font-weight: 300;
+    font-size: 1.3em;
+    color: var(--text-deco);
+}
+
+.unitNotif p{
+    font-weight: 400;
+    font-size: 0.91em;
+    color: var(--grey-clr);
+}
+
+
+.paymentSect, .topmostWithdraw, .widthdrawalGuides{
+    width: 100%;
+    padding: 3em 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+    background-color: var(--profile-bg);
+}
+
+.paymentSect h2, .topmostWithdraw h2{
+    font-size: 2.5em;
+    color: var(--text-deco);
+    font-weight: 300;
+}
+
+.topmostWithdraw h2 span{
+    font-size: 1.5em;
+    font-weight: 400;
+    color: var(--primary-clr);
+}
+
+.mainPaymentSect{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-block: 20px;
+}
+
+.mainPaymentSect h3{
+    font-size: 1.4em;
+    color: var(--text-deco);
+    font-weight: 400;
+}
+
+.mainPaymentSect h3 span{
+    font-size: 1.2em;
+    color: var(--primary-clr);
+    font-weight: 500;
+}
+
+.mainPaymentSect p{
+    padding: 5px 12px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 7px;
+    font-size: 0.95em;
+    color: var(--yellow-clr);
+    background-color: var(--opac-clr3);
+    width: max-content;
+}
+
+.mainPaymentSect p span{
+    margin-left: 5px;
+    height: 100%;
+    border-radius: 5px;
+    background-color: var(--opac-clr1);
+    cursor: pointer;
+    padding: 4px;
+}
+
+.paymentSect > p {
+    font-size: 0.95em;
+    color: var(--grey-clr);
+    font-weight: 400;
+    max-width: 100ch;
+}
+
+.paymentSect > button, .topmostWithdraw >button{
+    padding: 6px 20px;
+    border-radius: 7px;
+    font-size: 1.05em;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: var(--primary-clr);
+    width: max-content;
+    margin-top: 20px;
+    border: 1px solid transparent;
+
+    transition:  all 0.3s ease;
+}
+
+
+.paymentSect > button:hover, .topmostWithdraw >button:hover{
+    border: 1px solid var(--primary-clr);
+    background-color: transparent;
+}
+
+
+.widthdrawalGuides h2{
+    font-size: 2em;
+    color: var(--text-deco);
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.widthdrawalGuides .guides{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.guides p{
+    font-size: 0.92em;
+    font-weight: 500;
+    color: var(--grey-clr);
+}
+
+.menuBtn#floatingButton{
+    border-radius: 7px;
+    position: fixed;
+    top: 3%;
+    left: 3%;
+    background-color: var(--opac-clr3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding-inline: 6px;
+    height: 35px;
+    width: 45px;
+    display: none;
+}
+
+#mobilepop{
+    display: none;
+}
+
+#mobilepop .centerRightProfile ul li.active{
+    transform: scale(1.02);
+    background-color: #0028486d;
+}
+
+#mobilepop .panelCloseBtn{
+    width: 40px;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 2em;
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width: 600px) {
+    #mobilepop{
+        display: flex;
+        z-index: 100;
+        width: calc(100vw - 20px);
+    }
+
+    .menuBtn#floatingButton{
+        display: flex;
+    }
+
+    .topmostRightProfile{
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .rightProfile{
+        width: 100%;
+        padding-inline: 3%;
+        padding-top: calc(3% + 30px);
+    }
+
+    .lengthyAnalytics{
+        aspect-ratio: 9/10;
+    }
+
+    .gridAnalytics{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .leftGridAnalaytics{
+        aspect-ratio: 9/10;
+        width: 100%;
+    }
+    .rightGridAnalaytics{
+        width: 100%;
+        aspect-ratio: 9/14;
+    }
+
+    .profilefooter{
+        margin-bottom: 2em;
+    }
+
+    .avatarSection.investwidgetSection{
+        padding-inline: 30px;
+        width: calc(100vw - 30px);
+    }
+}

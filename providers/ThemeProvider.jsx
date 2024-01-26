@@ -1,9 +1,19 @@
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 
 export const themeContext = createContext(null);
 
 const ThemeProvider = ({ children }) => {
     const [showAbsMain, setShowAbsMain] = useState(true);
+
+    const [registerFromPath, setregisterFromPath] = useState("/");
+
+    const [currentUser, setCurrentUser] = useState({});
+
+
+    useEffect(() => {
+        const getActiveUser = JSON.parse(sessionStorage.getItem("activeUser")) || {};
+        setCurrentUser(getActiveUser);
+    }, []);
 
 
     return (
@@ -11,6 +21,10 @@ const ThemeProvider = ({ children }) => {
             value={{
                 showAbsMain,
                 setShowAbsMain,
+                currentUser,
+                setCurrentUser,
+                registerFromPath,
+                setregisterFromPath
             }}
         >
             {children}

@@ -1,34 +1,41 @@
 :root {
-  --primary-clr: #ffa86a;
-  --sec-clr: #fe7e22;
-  --text-clr1: #fffbf7;
-  --text-deco: #eee8e2e3;
-  --dark-clr1: #030303;
-  --dark-clr2: #000000;
-  --bg1-opac05: #0000006e;
-  --bg1-opac02: #00000022;
+  --primary-clr: #0672CD;
+  --sec2-clr: #9864AD;
+  --sec-clr: #D8A31A;
+  --text-clr1: #F5F9FF;
+  --text-deco: #F3F9FF;
+  --white-purple: #b9dfff;
+  --dark-clr1: #000613;
+  --dark-clr2: #070e1e;
+  --dark-clr3: #020d25;
+  --dark-clr4: #002848;
+  --dark-clr5: #070032;
 
-  --grey-opac: #9c9793ca;
+  --opac-clr1: #00123345;
+  --opac-clr2: #0263b37d;
+  --opac-clr3: #364763a1;
 
-  --borderline-clr: #ffa86a7f;
-  --borderline-clr2: #fe7e2289;
+  --danger-clr: #DC1262;
+  --yellow-clr: #F9F871;
+  --green-clr: #2DC194;
+  --grey-clr: #928e84;
+  --linear-grad1: linear-gradient(180deg, #0672cd 40%, #d8a31a);
+  --linear-grad2: linear-gradient(120deg, #0672cd , #d8a31a);
+  --linear-grad3: linear-gradient(180deg,  #d8a31a, #0672cd, #d8a31a);
 
-  --rad-grad: radial-gradient(#ffa86ab3 0%, rgba(64, 42, 28, 0) 77%, rgba(7, 5, 5, 0) 100%);
 
-  --gen-padding: 16%;
-  --small-padding: 5%;
-  --vader-right: 15%;
+  --gen-padding: 10%;
+  --btn-height: 40px;
 
 
-  --font-unica: "Unica One", sans-serif;
-  --font-sedgwick: 'Sedgwick Ave Display', cursive;
-  --font-roboto: 'Roboto', sans-serif;
-  --font-forum: 'Forum', cursive;
+  --font-alegreya: 'Alegreya Sans', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+  --font-mont: 'Montserrat', sans-serif;
 }
 
 *::selection{
   color: var(--primary-clr);
-  background: var(--text-clr2);
+  background: var(--text-clr1);
 }
 
 
@@ -37,7 +44,8 @@
   padding: 0;
   margin: 0;
   list-style: none;
-  font-family: 'Andika', sans-serif;
+  font-family: var(--font-alegreya);
+  color: var(--text-clr1);
 }
 
 html {
@@ -84,28 +92,15 @@ a {
 
 @media screen and (max-width: 1309px)  {
   body {
-    --gen-padding: 6%;
-    --vader-right: 5%;
+    --gen-padding: 5%;
     font-size: 14px;
   }
 
 }
-
-
 @media screen and (max-width: 600px)  {
   body {
-    --gen-padding: 5%;
-    --vader-right: 2%;
     font-size: 12px;
   }
 
 }
 
-@media screen and (max-width: 290px)  {
-  body {
-    --gen-padding: 3%;
-    --vader-right: 1%;
-    font-size: 10px;
-  }
-
-}

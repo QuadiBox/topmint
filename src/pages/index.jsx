@@ -1,78 +1,45 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useState, useRef, useEffect } from "react";
-import Sect2 from "../components/Sect2";
-import Sect3 from "../components/Sect3";
-import Sect4 from "../components/Sect4";
-import Sect5 from "../components/Sect5";
-import TransOverlay from "../components/TransOverlay";
 import { useRouter } from "next/router";
+import Testimonies from "../components/home/testimonies";
+import FAQ from "../components/home/FAQ";
+import Footer from "../components/home/Footer";
+import Navbar from "../components/home/Navbar";
+import Link from "next/link";
+import IframeSect from "../components/home/IframeSect";
 
 
 export default function Home() {
-  const [text, setText] = useState("SCROLL DOWN  SCROLL DOWN  SCROLL DOWN");
-  const [text2, setText2] = useState("CONTACT CONTACT CONTACT CONTACT");
-  const backgroundRef = useRef(null);
-  const ballRef = useRef(null);
-  const sectRef = useRef(null);
-  const router = useRouter();
-  const [showExit, setShowExit] = useState(false);
-  const [msg, setMsg] = useState({
-    text: "",
-    color1: "#ffa86a",
-    color2: "#6226002d",
-    color3: "#ffa86a7f",
-  });
+  useEffect(() => {
+    // Load the Google Translate API script dynamically
+    const script = document.createElement('script');
+    // script.type = 'text/javascript';
+    script.src = 'https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js';
+    script.async = true;
+    document.head.appendChild(script);
 
-  const handleBackgroundShift = (e) => {
-    const x = e.clientX / window.innerWidth * 100;
+    // Clean up the script tag when the component is unmounted
+    return () => {
+      document.head.removeChild(script);
+    };
+  }, []);
+  const [currentUser, setCurrentUser] = useState({});
 
-    let transX = (x / 10).toFixed(3);
+  const [showsidecard, setShowsideCard] = useState(false);
+  const [showDisplayCard, setshowDisplayCard] = useState(false);
 
-
-    const keyframes = {
-      transform: `translateX(-${transX}%)`
+  const handleGrandMovementTraffic = (e) => {
+    if (e.target.className === "profileIcon") {
+      setshowDisplayCard(prev => !prev);
+    } else {
+      setshowDisplayCard(false);
     }
-
-    backgroundRef.current.animate(keyframes, {
-      duration: 1900,
-      fill: "forwards",
-      timingFunction: "ease-in-out"
-    });
-  }
-
-  const handleCursorTrailer = (e, vlad) => {
-    vlad.current.style.opacity = 1;
-    const containerRect = sectRef.current.getBoundingClientRect();
-    const offsetY = e.clientY - containerRect.top;
-
-    const x = e.clientX / sectRef.current.clientWidth * 100;
-    const y = offsetY / sectRef.current.clientHeight * 100;
-  
-    const keyframes = {
-      top: `${y}%`,
-      left: `${x}%`
-    }
-  
-    vlad.current.animate(keyframes, {
-      duration: 600,
-      fill: "forwards"
-    });
   }
 
   useEffect(() => {
-    const handleBeforeRouteChange = (url) => {
-      // Do something before the route changes
-      setShowExit(true);
-    };
-
-    // Subscribe to the router's "beforeHistoryChange" event
-    router.events.on('beforeHistoryChange', handleBeforeRouteChange);
-
-    // Unsubscribe from the event when the component is unmounted
-    return () => {
-      router.events.off('beforeHistoryChange', handleBeforeRouteChange);
-    };
-  }, [router.events]);
+    const user = JSON.parse(sessionStorage.getItem("activeUser")) || JSON.parse(localStorage.getItem("activeUser"));
+    setCurrentUser(user);
+  }, []);
 
 
   //Animation variables
@@ -103,178 +70,180 @@ export default function Home() {
     }
   }
 
-  const specslideUp = {
-    init: {
-      opacity: 0,
-      y: "100%",
-      rotate: -90
-    },
-    finale: {
-      opacity: 1,
-      y: 0,
-      rotate: -90,
-      transition: {
-        ease: "easeInOut",
-        duration: 1,
-      }
-    }
-  }
-  const slidedown = {
-    init: {
-      opacity: 0,
-      y: "-100%"
-    },
-    finale: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        ease: "easeInOut",
-        duration: 1,
-      }
-    }
-  }
-
-  const scaleUp = {
-    init: {
-      opacity: 0,
-      scale: 0.3
-    },
-    finale: {
-      opacity: 1,
-      scale: 1,
-      transition: {
-        ease: "easeInOut",
-        duration: 0.9,
-      }
-    }
-  }
-
-  const fadeIn = {
-    init: {
-      opacity: 0,
-    },
-    finale: {
-      opacity: 1,
-      transition: {
-        ease: "easeIn",
-        duration: 1,
-      }
-    }
-  }
-
-  const toastPop = {
-    init: {
-      opacity: 0,
-      x: "50%"
-    },
-    finale: {
-      opacity: 1,
-      x: 0,
-      transition: {
-        ease: "easeInOut",
-        duration: 0.3
-      }
-    },
-    exit: {
-      opacity: 0,
-      x: "60%",
-      transition: {
-        ease: "easeInOut",
-        duration: 0.3
-      }
-    }
-  }
-
 
   return (
-      <main className="HomefirstPageCtn">
-        <motion.section variants={parentVar} initial="init" animate="finale" ref={sectRef} className="homefirstsect">
-          <div className="overlaysect" onMouseEnter={(e) => {handleCursorTrailer(e, ballRef); handleBackgroundShift(e);}} onMouseMove={(e) => {handleBackgroundShift(e); handleCursorTrailer(e, ballRef);}}>
-            <motion.img variants={slideUp} ref={backgroundRef} className="vaderImg" src="/vader.webp" alt="carved woooden star wars vader {#strength&confidence_symbol}"/>
-            <nav>
-              <motion.div variants={slidedown} className="center"><img src="/darkLogosmall.png" alt="" /></motion.div>
-
-              <motion.div variants={slidedown} className="leftnavsect">
-                <a href="#about">ABOUT</a>
-                <a href="#stack">STACKS</a>
-                <a href="#works">WORKS</a>
-              </motion.div>
-
-
-              <motion.a variants={slidedown} className="rightnavsect" href="#contact">SAY HELLO</motion.a>
-            </nav>
-
-            <motion.div variants={slideUp} className="mainsect">
-              <div style={{overflow: "hidden", width: "max-content"}}>
-                <motion.p variants={slideUp} className="lilHead">Coding Art & Solutions</motion.p>
-              </div>
-              <div style={{overflow: "hidden"}}>
-                <motion.h1 variants={slideUp}>Bringing <br /> Ideas to Life</motion.h1>
-              </div>
-              <motion.p variants={slideUp} className="topText">Expertly dispatched websites and PWAs that showcase the beauty and versatility of Frontend Software Development</motion.p>
-            </motion.div>
-
-
-            <motion.div variants={specslideUp} className="abssectText">Programmers are tools for converting <span>caffeine</span> into <span>code</span></motion.div>
-            <motion.div variants={slideUp} className="absSocialLinks">
-              <a className="twitter" href="https://twitter.com/Quadvox" target="_blank"><i className="icofont-twitter"></i></a>
-              <a className="github" href='https://github.com/QuadiBox' target="_blank"><span></span></a>
-              <a className="twitter" href='https://www.instagram.com/oladojaabdquadri/' target="_blank"><i class="icofont-instagram"></i></a>
-            </motion.div>
-
-            <motion.a href="#contact" variants={scaleUp}  className="scrolldownButtonCntn">
-              <a href="#contact" className="scrollDownButton"><img src="/arrowdown.svg" alt="down arrow image.svg" /></a>
-              <div className="circleText">
-                <p>
-                  {
-                    text.split("").map((elem, idx) => (
-                      <span key={`text1_${idx}`} style={{transform: `rotate(${idx * 9.35}deg)`}}>{elem}</span>
-                    ))
-                  }
-                </p>
-              </div>
-            </motion.a>
-
+      <div className="HomefirstPageCtn" onClick={handleGrandMovementTraffic}>
+        <Navbar showsidecard={showsidecard} setShowsideCard={setShowsideCard} shownavOptions={true} showDisplayCard={showDisplayCard}/>
+        <main>
+          <section className="homeIntro">
+            <h1>The World’s Premier <br /> Investent & Trading Platform</h1>
+            <p>Trade with us and get a high margin return on your investment</p>
+            <ul>
+              <li><i className="icofont-cop-badge"></i> Trading with us guarantees <span>high profit margin</span></li>
+              <li><i className="icofont-cop-badge"></i> Leader in <span>regulatory compliance</span> and <span>security certifications</span></li>
+              <li><i className="icofont-cop-badge"></i> Trusted by over <span> over 1 million users</span> worldwide</li>
+              <li><i className="icofont-cop-badge"></i> Get <span>$50 bonus</span> when you register with us</li>
+            </ul>
+            <div className="cta">
+              <a href="#" className="fancyBtn">Invest Now</a>
+            </div>
+          </section>
+          <div className="keyfactsCntn">
+            <div className="keyfacts fancybg">
+                <div className="unitfact">
+                  <h2>1M+</h2>
+                  <p>Active Users</p>
+                </div>
+                <div className="unitfact">
+                  <h2>$490.9M+</h2>
+                  <p>Total Withdrawals</p>
+                </div>
+                <div className="unitfact">
+                  <h2>$180M+</h2>
+                  <p>Total Investment</p>
+                </div>
+                <div className="unitfact">
+                  <h2>$700M</h2>
+                  <p>Market Cap</p>
+                </div>
+            </div>
           </div>
+          <section id="about" className="about">
 
-          <motion.div variants={fadeIn} ref={ballRef} className="bgBall"></motion.div>
-        </motion.section>
-        <Sect2/>
-        <Sect3/>
-        <Sect4/>
-
-        <div className="intersection">
-          <img src="/laptop_1.png" alt="wooden laptop .png" />
-          <div className="scrolldownButtonCntn contact">
-              <div className="circleText contact">
-                <p>
-                  {
-                    text2.split("").map((elem, idx) => (
-                      <span key={`rotating_text ${idx}`} style={{transform: `rotate(${idx * 11.2}deg)`}}>{elem}</span>
-                    ))
-                  }
-                </p>
+            <div className="whatareweabout">
+              <div className="aboutimg"></div>
+              <div className="abouttext">
+                <h2>At Our Company</h2>
+                <p>We are a legally operating trading/investment company. The company was created by a group of qualified experts, professional bankers, traders and analysts who specialized in <span>cryptocurrency</span>, <span>binary</span>, <span>the stock</span>, <span>bond</span>, <span>futures</span>, <span>currencies</span>, <span>gold</span>, <span>silver</span> and <span>oil trading</span> with having more than ten years of extensive practical experiences of combined personal skills, knowledge, talents and collective ambitions for success.</p>
+                <p>We believe that superior investment performance is achieved through a skillful balance of three core attributes: knowledge, experience and adaptability. There is only one way to be on the cutting edge – commitment to innovation. We do our best to achieve a consistent increase in investment performance for our clients, and superior value-add. We appreciate our clients loyalty and value the relationships we build with each customer.</p>
+                <Link className="borderBtn" href={"/about"}>More About Our Company...</Link>
               </div>
             </div>
-        </div>
-        <Sect5 setMsg={setMsg} msg={msg}/>
-        <AnimatePresence>
+            <coingecko-coin-price-marquee-widget  coin-ids="bitcoin,ethereum,eos,ripple,litecoin,tron,dogecoin,stellar,algorand,flow,dai,usdd,maker,astar,tezos,solana,neo,gala,cardano,aptos,helium,kava" currency="usd" background-color="#000613" locale="en"></coingecko-coin-price-marquee-widget>
+
+            <div className="companyscopes">
+              <div className="unitscope advantage">
+                <h3>OUR ADVANTAGES</h3>
+                <p>Our Investment Options are very fair and all transactional data is stored on Block chain, which allows to create, transfer and verify ultra-secure financial data without interference of third parties.</p>
+              </div>
+              <span className="vertSept" role="separator"></span>
+              <div className="unitscope advantage">
+                <h3>OUR GUARANTEES</h3>
+                <p>We are here because we are passionate about open, transparent markets and aim to be a major driving force in widespread adoption, we assure you of maximum profit using our platform and of cause we will safeguard your data.</p>
+              </div>
+              <span className="vertSept" role="separator"></span>
+              <div className="unitscope advantage">
+                <h3>OUR MISSION</h3>
+                <p>Our mission as a platform is to to help get you on the right track and earn out of every option even as you start your investing journey.</p>
+              </div>
+            </div>
+          </section>
+          <section className="features">
+            <h2>You Can Never Go Wrong With TOPMINT</h2>
+            <div className="thefeatureGrid">
+              <div className="topSubgrid">
+                <div className="lefttopSubgrid">
+                  <div className="gridunit floater">
+                    <h3>STRONG SECURITY</h3>
+                    <p>Protection against DDoS attacks, full data encryption.</p>
+                  </div>
+                  <div className="gridunit floater">
+                    <h3>PAYMENT OPTIONS</h3>
+                    <p>Our Major payment option is Crypto currency which is accessible to all users world wide.</p>
+                  </div>
+                </div>
+                <div className="righttopsubgrid floater">
+                  <h3>MOBILE ACCESS</h3>
+                  <p>Access Your Investment conveniently on your mobile phone any time, anywhere, any day.</p>
+                </div>
+              </div>
+              <div className="bottomSubgrid">
+                <div className="leftbottomSubgrid floater">
+                  <h3>COST EFFECTIVE</h3>
+                  <p>Reasonable system fees for all platform users across all market options.</p>
+                </div>
+                <div className="rightBottomSubgrid floater">
+                  <h3>HIGH LIQUIDITY</h3>
+                  <p>Our Platform offers high liquidity for all investment options available to our users.</p>
+                </div>
+              </div>
+              <div className="cta2 fancybg">
+                <div className="leftCta2">
+                  <h2>Join our <span>1M+ active users</span></h2>
+                  <p>Get Started Today</p>
+                </div>
+                <a href="#" className="fancyBtn">Join now</a>
+              </div>
+            </div>
+          </section>
+          <coingecko-coin-price-marquee-widget  coin-ids="bitcoin,ethereum,eos,ripple,litecoin,tron,dogecoin,stellar,algorand,flow,dai,usdd,maker,astar,tezos,solana,neo,gala,cardano,aptos,helium,kava,fantom" currency="usd" background-color="#000613" locale="en"></coingecko-coin-price-marquee-widget>
+          <section className="pathToInvest">
+            <h2>Your Investment Journey Starts Here</h2>
+            <div className="pathCntn">
+              <div className="unitPathSect">
+                <span>1.</span>
+                <img src="/download_coin.png" alt="Register" />
+                <h2>Register</h2>
+                <p>Complete Our Details and Verify Your Email Address.</p>
+              </div>
+              <div className="unitPathSect">
+                <span>2.</span>
+                <img src="/add_coins.png" alt="Register" />
+                <h2>Buy any of our packages</h2>
+                <p>Fund your wallet and buy into any plan of your choice and watch our system trade for you.</p>
+              </div>
+              <div className="unitPathSect">
+                <span>3.</span>
+                <img src="/buy_sell.png" alt="Register" />
+                <h2>Start Earning</h2>
+                <p>Instantly watch your investment grow. Pay Outs Every 60 Minutes.</p>
+              </div>
+            </div>
+          </section>
           {
-            msg.text !== "" && (
-              <motion.div variants={toastPop} initial="init" animate="finale" exit="exit" style={{backgroundColor: `${msg.color2}`, border: `1px dashed ${msg.color3}`}} className="toaster">
-                <p>{msg.text}</p>
-                <button onClick={setMsg({text: "", color2: "#6226002d", color1: "#ffa86a", color3: "#ffa86a7f"})} style={{backgroundColor: `${msg.color1}`}}><i class="icofont-close"></i></button>
-              </motion.div>
+            !currentUser?.admin && (
+              <section id="packages" className="packages">
+                <h2>Kickstart Your Journey To Financial Freedom</h2>
+                <div className="packagesCntn">
+                  <div className="unitPackage">
+                    <h3>SILVER</h3>
+                    <h4><span>$100</span> <br /> - <br /> <span>$900</span></h4>
+                    <ul>
+                      <li><i className="icofont-tick-mark"></i> <span>10% ROI</span></li>
+                      <li><i className="icofont-tick-mark"></i> <span>Get ROI in 2 Days</span></li>
+                    </ul>
+                    <Link href={"/profile#packages"} className="borderBtn">Invest</Link>
+                  </div>
+                  <div className="unitPackage fancybg">
+                    <h3>DIAMOND <i class="icofont-diamond"></i></h3>
+                    <h4><span>$10,000</span> <br /> - <br /> <span>$100,000</span></h4>
+                    <ul>
+                      <li><i className="icofont-tick-mark"></i> <span>50% ROI</span></li>
+                      <li><i className="icofont-tick-mark"></i> <span>Get ROI in 7 Days</span></li>
+                      <li><i className="icofont-tick-mark"></i> <span>Access to 15 of our digital financial resources</span></li>
+                    </ul>
+                    <Link href={"/profile#packages"} className="fancyBtn">Get Rich</Link>
+                  </div>
+                  <div className="unitPackage">
+                    <h3>GOLD</h3>
+                    <h4><span>$1,000</span> <br /> - <br /> <span>$9,000</span></h4>
+                    <ul>
+                      <li><i className="icofont-tick-mark"></i> <span>25% ROI</span></li>
+                      <li><i className="icofont-tick-mark"></i> <span>Get ROI in 4 Days</span></li>
+                      <li><i className="icofont-tick-mark"></i> <span>Access to 5 of our digital financial resources</span></li>
+                    </ul>
+                    <Link href={"/profile#packages"} className="borderBtn">Invest</Link>
+                  </div>
+                </div>
+              </section>
             )
           }
-        </AnimatePresence>
-        {/* <TransOverlay animateState={"initial"}/> */}
-        <AnimatePresence mode="wait">
-          {!showExit && (
-            <TransOverlay animateState={"exit"}/>
-          )}
-        </AnimatePresence>
-      </main>
+          <IframeSect/>
+          <Testimonies/>
+          <FAQ/>
+          <Footer/>
+        </main>
+      </div>
   );
 }
 
