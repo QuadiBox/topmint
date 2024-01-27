@@ -1026,6 +1026,13 @@
         display: flex;
     }
 
+    .panelPrfileDisp .right h3{
+        font-size: 1.01em;
+    }
+    .panelPrfileDisp .right p{
+        font-size: 0.79em;
+    }
+
     .topmostRightProfile{
         grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
         height: max-content;

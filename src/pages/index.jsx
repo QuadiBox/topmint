@@ -172,7 +172,7 @@ export default function Home() {
                   <h2>Join our <span>1M+ active users</span></h2>
                   <p>Get Started Today</p>
                 </div>
-                <a href="#" className="fancyBtn">Join now</a>
+                <a href="#packages" className="fancyBtn">Join now</a>
               </div>
             </div>
           </section>
@@ -201,7 +201,7 @@ export default function Home() {
             </div>
           </section>
           {
-            currentUser?.admin && (
+            !currentUser?.admin && (
               <section id="packages" className="packages">
                 <h2>Kickstart Your Journey To Financial Freedom</h2>
                 <div className="packagesCntn">
