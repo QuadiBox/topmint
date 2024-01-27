@@ -203,7 +203,11 @@ const Navbar = ({ showsidecard, setShowsideCard, shownavOptions, showDisplayCard
 
                             </div>
                             <div className="bottomMobiNavSect">
-                                <Link href={`${!currentUser?.admin ? "/profile" : "/dashboard_admin"}`}>Dashboard</Link>
+                                {
+                                    currentUser?.id && (
+                                        <Link href={`${!currentUser?.admin ? "/profile" : "/dashboard_admin"}`}>Dashboard</Link>
+                                    )
+                                }
                                 <Link href={"/about"}>About</Link>
                                 <a href="#FAQ">FAQs</a>
                                 <Link href={"/contact"}>Contact</Link>
