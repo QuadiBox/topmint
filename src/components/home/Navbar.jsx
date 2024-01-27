@@ -136,7 +136,7 @@ const Navbar = ({ showsidecard, setShowsideCard, shownavOptions, showDisplayCard
                             <div className="topMobiNavSect">
                                 <div className="profileDisplay">
                                     {
-                                        Object?.keys(currentUser)?.length > 0 ? (
+                                        currentUser?.id ? (
                                             <>
                                                 <h2>{currentUser?.name}</h2>
                                 
@@ -209,7 +209,7 @@ const Navbar = ({ showsidecard, setShowsideCard, shownavOptions, showDisplayCard
                                 <Link href={"/contact"}>Contact</Link>
 
                                 {
-                                    Object?.keys(currentUser)?.length > 0 && (
+                                    currentUser?.id && (
                                         <button className="logout borderBtn" onClick={() => {handleLogOut()}}>Log Out <i className="icofont-logout"></i></button>
                                     )
                                 }

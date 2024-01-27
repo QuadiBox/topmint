@@ -85,7 +85,7 @@ export default function Home() {
               <li><i className="icofont-cop-badge"></i> Get <span>$50 bonus</span> when you register with us</li>
             </ul>
             <div className="cta">
-              <a href="#" className="fancyBtn">Invest Now</a>
+              <a href="#packages" className="fancyBtn">Invest Now</a>
             </div>
           </section>
           <div className="keyfactsCntn">
@@ -201,7 +201,7 @@ export default function Home() {
             </div>
           </section>
           {
-            !currentUser?.admin && (
+            currentUser?.admin && (
               <section id="packages" className="packages">
                 <h2>Kickstart Your Journey To Financial Freedom</h2>
                 <div className="packagesCntn">
@@ -209,10 +209,10 @@ export default function Home() {
                     <h3>SILVER</h3>
                     <h4><span>$100</span> <br /> - <br /> <span>$900</span></h4>
                     <ul>
-                      <li><i className="icofont-tick-mark"></i> <span>10% ROI</span></li>
+                      <li><i className="icofont-tick-mark"></i> <span>500% ROI</span></li>
                       <li><i className="icofont-tick-mark"></i> <span>Get ROI in 2 Days</span></li>
                     </ul>
-                    <Link href={"/profile#packages"} className="borderBtn">Invest</Link>
+                    <Link href={currentUser?.id ? "/profile#packages" : "/signup"} className="borderBtn">Invest</Link>
                   </div>
                   <div className="unitPackage fancybg">
                     <h3>DIAMOND <i class="icofont-diamond"></i></h3>
@@ -222,7 +222,7 @@ export default function Home() {
                       <li><i className="icofont-tick-mark"></i> <span>Get ROI in 7 Days</span></li>
                       <li><i className="icofont-tick-mark"></i> <span>Access to 15 of our digital financial resources</span></li>
                     </ul>
-                    <Link href={"/profile#packages"} className="fancyBtn">Get Rich</Link>
+                    <Link href={currentUser?.id ? "/profile#packages" : "/signup"} className="fancyBtn">Get Rich</Link>
                   </div>
                   <div className="unitPackage">
                     <h3>GOLD</h3>
@@ -232,7 +232,7 @@ export default function Home() {
                       <li><i className="icofont-tick-mark"></i> <span>Get ROI in 4 Days</span></li>
                       <li><i className="icofont-tick-mark"></i> <span>Access to 5 of our digital financial resources</span></li>
                     </ul>
-                    <Link href={"/profile#packages"} className="borderBtn">Invest</Link>
+                    <Link href={currentUser?.id ? "/profile#packages" : "/signup"} className="borderBtn">Invest</Link>
                   </div>
                 </div>
               </section>

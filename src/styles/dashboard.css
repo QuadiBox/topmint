@@ -1027,7 +1027,16 @@
     }
 
     .topmostRightProfile{
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        height: max-content;
+    }
+
+    .unitUserEarningDisplay{
+        padding: 15px;
+        background-color: var(--profile-bg);
+        border-radius: 10px;
+        height: max-content;
+        max-height: 80px;
     }
 
     .rightProfile{

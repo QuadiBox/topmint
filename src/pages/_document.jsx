@@ -7,7 +7,7 @@ export default function Document() {
       <Head>
         <meta charSet="UTF-8"/>
         <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
-        <meta name="theme-color" content='#ffa86a'/>
+        <meta name="theme-color" content='#0672CD'/>
         <link rel="stylesheet" href="/icofont/icofont.min.css"/>
         <meta name="title" content="Coinbase 10X investment"></meta>
         <meta name="description" content="Coinbase 10X investment is a trusted paying binary and Cryptocurrency trading company. Earn high returns from our proven trading strategies."></meta>

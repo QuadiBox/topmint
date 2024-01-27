@@ -46,6 +46,7 @@
   list-style: none;
   font-family: var(--font-alegreya);
   color: var(--text-clr1);
+  user-select: none;
 }
 
 html {
