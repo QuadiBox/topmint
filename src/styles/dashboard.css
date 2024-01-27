@@ -1033,6 +1033,10 @@
         font-size: 0.79em;
     }
 
+    .centerRightProfile ul li span{
+        font-size: 0.95em;
+    }
+
     .topmostRightProfile{
         grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
         height: max-content;
