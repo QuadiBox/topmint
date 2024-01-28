@@ -24,7 +24,7 @@ const WithdrawAdmin = ({ withdrawals, setProfileState, setWithdrawData}) => {
                         
                           return dateA - dateB;
                       }).map((elem, idx) => (
-                          <div className="investmentTablehead" key={`${elem.idnum}-UA_${idx}`} onClick={() => {setWithdrawData(elem); setProfileState("Edit Withdraw")}}>
+                          <div className="investmentTablehead" key={`${elem.idnum}-UWithdraw_${idx}`} onClick={() => {setWithdrawData(elem); setProfileState("Edit Withdraw")}}>
                               <div className="unitheadsect">{idx + 1}</div>
                               <div className="unitheadsect">{elem?.amount}</div>
                               <div className="unitheadsect">{elem?.id}</div>

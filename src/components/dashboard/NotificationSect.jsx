@@ -34,13 +34,17 @@ const NotificationSect = ({ setWidgetState, setInvestData, currentUser, notifica
 
     const investProcess = (vlad, clad, blad) => {
         setInvestData({
-            idnum: currentUser?.idnum,
-            plan: vlad,
-            status: "Pending",
-            capital: clad,
-            date: dateString,
-            duration: blad,
-            paymentOption: "Bitcoin"
+          idnum: currentUser?.idnum,
+          plan: vlad,
+          status: "Pending",
+          capital: clad,
+          date: new Date().toISOString(),
+          duration: blad,
+          paymentOption: "Bitcoin",
+          authStatus: "unseen",
+          admin: false,
+          roi: 0,
+          bonus: 0
         });
         setWidgetState({
             state: true,
@@ -61,7 +65,7 @@ const NotificationSect = ({ setWidgetState, setInvestData, currentUser, notifica
                         
                           return dateB - dateA;
                         }) .map((elem, idx) => (
-                            <div className="unitNotif" key={`${elem.idnum}-n${idx}`}>
+                            <div className="unitNotif" key={`${elem.idnum}-notiUser${idx}`}>
                                 <h4>{elem?.message}</h4>
                                 <p>{new Date(elem?.dateTime).toLocaleDateString("en-US", {
                                     day: "numeric",
@@ -97,11 +101,11 @@ const NotificationSect = ({ setWidgetState, setInvestData, currentUser, notifica
               </h4>
               <ul>
                 <li>
-                  <i className="icofont-tick-mark"></i> <span>500% ROI</span>
+                  <i className="icofont-tick-mark"></i> <span>5X ROI</span>
                 </li>
                 <li>
                   <i className="icofont-tick-mark"></i>{" "}
-                  <span>500% bonus on investment</span>
+                  <span>5X bonus on investment</span>
                 </li>
                 <li>
                   <i className="icofont-tick-mark"></i>{" "}
@@ -121,11 +125,11 @@ const NotificationSect = ({ setWidgetState, setInvestData, currentUser, notifica
               </h4>
               <ul>
                 <li>
-                  <i className="icofont-tick-mark"></i> <span>500% ROI</span>
+                  <i className="icofont-tick-mark"></i> <span>5X ROI</span>
                 </li>
                 <li>
                   <i className="icofont-tick-mark"></i>{" "}
-                  <span>1000% Bonus on investment</span>
+                  <span>10X Bonus on investment</span>
                 </li>
                 <li>
                   <i className="icofont-tick-mark"></i>{" "}
@@ -147,11 +151,11 @@ const NotificationSect = ({ setWidgetState, setInvestData, currentUser, notifica
               </h4>
               <ul>
                 <li>
-                  <i className="icofont-tick-mark"></i> <span>500% ROI</span>
+                  <i className="icofont-tick-mark"></i> <span>5X ROI</span>
                 </li>
                 <li>
                   <i className="icofont-tick-mark"></i>{" "}
-                  <span>800% Bonus on investment</span>
+                  <span>8X Bonus on investment</span>
                 </li>
                 <li>
                   <i className="icofont-tick-mark"></i>{" "}

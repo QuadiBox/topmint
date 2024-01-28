@@ -37,9 +37,9 @@ const UsersAdmin = ({ activeUsers, setProfileState, setUserData}) => {
                           const dateA = new Date(a.date);
                           const dateB = new Date(b.date);
                         
-                          return dateA - dateB;
+                          return dateB - dateA;
                       }).map((elem, idx) => (
-                          <div className="investmentTablehead" key={`${elem.idnum}-UA_${idx}`} onClick={() => {setUserData(elem); setProfileState("Edit User")}}>
+                          <div className="investmentTablehead" key={`${elem.idnum}-UAdmin_${idx}`} onClick={() => {setUserData(elem); setProfileState("Edit User")}}>
                               <div className="unitheadsect">{idx + 1}</div>
                               <div className="unitheadsect">{elem?.name}</div>
                               <div className="unitheadsect">{elem?.email}</div>

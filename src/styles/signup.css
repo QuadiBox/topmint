@@ -49,6 +49,7 @@
     position: fixed;
     top: 10px;
     z-index: 200;
+    pointer-events: none;
 }
 
 .leftSide video{
@@ -60,6 +61,7 @@
     top: 0;
     left: 0;
     z-index: -1;
+    pointer-events: none;
 }
 
 .leftSide .overlay {
@@ -72,6 +74,7 @@
     align-items: center;
     justify-content: flex-end;
     background-image: linear-gradient(to bottom, #0006134c, 20%, #020d25e4);
+    pointer-events: none;
 }
 
 .leftSide .overlay h2{
@@ -114,10 +117,12 @@
     align-items: center;
 }
 
-@media screen and (max-width: 600px) {
-    .leftSide{
+@media screen and (max-width: 700px) {
+    .leftSide, .leftSide video, .leftSide .overlay{
         display: none;
+        opacity: 0;
     } 
+
     .righside{
         padding-inline: 5%;
         width: 100%;

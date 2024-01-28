@@ -13,7 +13,6 @@ const InvestAdminSect = ({ setInvestData, setProfileState, investments}) => {
 
         updateDoc(docRef, {
             status: "Expired",
-            roi: vlad?.capital * 5
         });
 
         setProfileState("Withdrawals");
@@ -46,9 +45,9 @@ const InvestAdminSect = ({ setInvestData, setProfileState, investments}) => {
                             const dateA = new Date(a.date);
                             const dateB = new Date(b.date);
                           
-                            return dateA - dateB;
+                            return dateB - dateA;
                         }).map((elem, idx) => (
-                            <div className="investmentTablehead" key={elem.idnum} onClick={() => {setInvestData(elem); setProfileState("Edit Investment")}}>
+                            <div className="investmentTablehead" key={`${elem.id}-aDash_${idx}`} onClick={() => {setInvestData(elem); setProfileState("Edit Investment")}}>
                                 <div className="unitheadsect">{idx + 1}</div>
                                 <div className="unitheadsect">{elem?.plan}</div>
                                 <div className="unitheadsect">${elem?.capital.toLocaleString()}</div>

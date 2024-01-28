@@ -45,8 +45,13 @@ const InvestmentSect = ({ setWidgetState, setInvestData, currentUser, investment
                         <div className="unitheadsect">Days Remaining</div>
                     </div>
                     {
-                        investments.map((elem, idx) => (
-                            <div className="investmentTablehead" key={elem.idnum}>
+                        investments.sort((a, b) => {
+                          const dateA = new Date(a.date);
+                          const dateB = new Date(b.date);
+                        
+                          return dateB - dateA;
+                        }).map((elem, idx) => (
+                            <div className="investmentTablehead" key={`${elem.id}-userDash_${idx}`}>
                                 <div className="unitheadsect">{idx + 1}</div>
                                 <div className="unitheadsect">{elem?.plan}</div>
                                 <div className="unitheadsect">${elem?.capital.toLocaleString()}</div>
@@ -79,11 +84,11 @@ const InvestmentSect = ({ setWidgetState, setInvestData, currentUser, investment
               </h4>
               <ul>
                 <li>
-                  <i className="icofont-tick-mark"></i> <span>500% ROI</span>
+                  <i className="icofont-tick-mark"></i> <span>5X ROI</span>
                 </li>
                 <li>
                   <i className="icofont-tick-mark"></i>{" "}
-                  <span>500% bonus on investment</span>
+                  <span>5X bonus on investment</span>
                 </li>
                 <li>
                   <i className="icofont-tick-mark"></i>{" "}
@@ -103,11 +108,11 @@ const InvestmentSect = ({ setWidgetState, setInvestData, currentUser, investment
               </h4>
               <ul>
                 <li>
-                  <i className="icofont-tick-mark"></i> <span>500% ROI</span>
+                  <i className="icofont-tick-mark"></i> <span>5X ROI</span>
                 </li>
                 <li>
                   <i className="icofont-tick-mark"></i>{" "}
-                  <span>1000% Bonus on investment</span>
+                  <span>10X Bonus on investment</span>
                 </li>
                 <li>
                   <i className="icofont-tick-mark"></i>{" "}
@@ -129,11 +134,11 @@ const InvestmentSect = ({ setWidgetState, setInvestData, currentUser, investment
               </h4>
               <ul>
                 <li>
-                  <i className="icofont-tick-mark"></i> <span>500% ROI</span>
+                  <i className="icofont-tick-mark"></i> <span>5X ROI</span>
                 </li>
                 <li>
                   <i className="icofont-tick-mark"></i>{" "}
-                  <span>800% Bonus on investment</span>
+                  <span>8X Bonus on investment</span>
                 </li>
                 <li>
                   <i className="icofont-tick-mark"></i>{" "}

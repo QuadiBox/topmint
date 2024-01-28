@@ -209,7 +209,7 @@ export default function Home() {
                     <h3>SILVER</h3>
                     <h4><span>$100</span> <br /> - <br /> <span>$900</span></h4>
                     <ul>
-                      <li><i className="icofont-tick-mark"></i> <span>500% ROI</span></li>
+                      <li><i className="icofont-tick-mark"></i> <span>5X ROI</span></li>
                       <li><i className="icofont-tick-mark"></i> <span>Get ROI in 2 Days</span></li>
                     </ul>
                     <Link href={currentUser?.id ? "/profile#packages" : "/signup"} className="borderBtn">Invest</Link>
@@ -218,7 +218,7 @@ export default function Home() {
                     <h3>DIAMOND <i class="icofont-diamond"></i></h3>
                     <h4><span>$10,000</span> <br /> - <br /> <span>$100,000</span></h4>
                     <ul>
-                      <li><i className="icofont-tick-mark"></i> <span>50% ROI</span></li>
+                      <li><i className="icofont-tick-mark"></i> <span>10X ROI</span></li>
                       <li><i className="icofont-tick-mark"></i> <span>Get ROI in 7 Days</span></li>
                       <li><i className="icofont-tick-mark"></i> <span>Access to 15 of our digital financial resources</span></li>
                     </ul>
@@ -228,7 +228,7 @@ export default function Home() {
                     <h3>GOLD</h3>
                     <h4><span>$1,000</span> <br /> - <br /> <span>$9,000</span></h4>
                     <ul>
-                      <li><i className="icofont-tick-mark"></i> <span>25% ROI</span></li>
+                      <li><i className="icofont-tick-mark"></i> <span>7X ROI</span></li>
                       <li><i className="icofont-tick-mark"></i> <span>Get ROI in 4 Days</span></li>
                       <li><i className="icofont-tick-mark"></i> <span>Access to 5 of our digital financial resources</span></li>
                     </ul>

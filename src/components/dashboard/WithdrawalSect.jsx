@@ -40,7 +40,7 @@ const WithdrawalSect = ({currentUser, setWidgetState, totalBonus, totalCapital, 
                     </div>
                     {
                         withdrawals.map((elem, idx) => (
-                            <div className="investmentTablehead" key={`${elem.idnum}-w${idx}`}>
+                            <div className="investmentTablehead" key={`${elem.idnum}-wUser${idx}`}>
                                 <div className="unitheadsect">{idx + 1}</div>
                                 <div className="unitheadsect">{elem?.id}</div>
                                 <div className="unitheadsect">${elem?.amount}</div>

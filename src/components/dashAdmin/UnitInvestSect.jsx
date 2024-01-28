@@ -22,14 +22,8 @@ const UnitInvestSect = ({ setInvestData, setProfileState, investData }) => {
 
         updateDoc(docRef, {
             roi: investData?.roi,
-            status: investData?.status,
-            date: investData?.date,
             authStatus: "seen"
         });
-
-        if (investData?.status === "Active") {
-            addDoc(colRefNotif, {...notificationPush})
-        }
 
         setProfileState("Investments");
     };
@@ -43,20 +37,11 @@ const UnitInvestSect = ({ setInvestData, setProfileState, investData }) => {
             authStatus: "seen"
         });
 
-        addDoc(colRefNotif, {...notificationPush});
+        addDoc(colRefNotif, {...notificationPush}).then(() => {
+          setProfileState("Investments");
+        })
 
-        setProfileState("Investments");
     };
-
-    const handleComplicatedSelectOption = (e) => {
-        if (investData?.status === "Pending") {
-            setInvestData({...investData, status: e.target.value, date: new Date().toISOString()})
-        } else if (investData?.status === "Active") {
-            setInvestData({...investData, status: "Active"})
-        } else if (investData?.status === "Expired") {
-            setInvestData({...investData, status: "Expired"})
-        }
-    }
 
   return (
     <div className="profileMainCntn">
@@ -65,15 +50,11 @@ const UnitInvestSect = ({ setInvestData, setProfileState, investData }) => {
           <div className="theFormField">
             <div className="unitInputField">
               <label htmlFor="name">ROI</label>
-              <input type="text" value={investData?.roi} onChange={(e) => {setInvestData({...investData, roi: e.target.value})}}/>
+              <input type="text" value={investData?.roi} onChange={(e) => {setInvestData({...investData, roi: parseInt(e.target.value !== ""? e.target.value : "0")})}}/>
             </div>
             <div className="unitInputField">
-                <label htmlFor="name">Investment Status</label>
-                <select required value={investData?.status} onChange={(e) => {handleComplicatedSelectOption(e)}}>
-                    <option value="Pending">Pending</option>
-                    <option value="Active">Active</option>
-                    <option value="Expired">Expired</option>
-                </select>
+              <label htmlFor="name">Inestment Status</label>
+              <input type="text" disabled value={investData?.status} />
             </div>
             <div className="unitInputField">
               <label htmlFor="name">Plan</label>
