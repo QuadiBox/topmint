@@ -762,7 +762,7 @@ nav .logoCntn img{
         padding: 20px;
         gap: 20px;
         transform: translateY(-40%);
-        grid-template-columns: repeat(auto-fit, minmax(80px, 40%));
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
     }
 
     .about{
@@ -1700,26 +1700,3 @@ footer .faller{
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

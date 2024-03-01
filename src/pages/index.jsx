@@ -1,6 +1,5 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { useState, useRef, useEffect } from "react";
-import { useRouter } from "next/router";
+import { useState, useEffect } from "react";
 import Testimonies from "../components/home/testimonies";
 import FAQ from "../components/home/FAQ";
 import Footer from "../components/home/Footer";
@@ -76,7 +75,7 @@ export default function Home() {
         <Navbar showsidecard={showsidecard} setShowsideCard={setShowsideCard} shownavOptions={true} showDisplayCard={showDisplayCard}/>
         <main>
           <section className="homeIntro">
-            <h1>The World’s Premier <br /> Investent & Trading Platform</h1>
+            <h1>The World&apos;s Premier <br /> Investent & Trading Platform</h1>
             <p>Trade with us and get a high margin return on your investment</p>
             <ul>
               <li><i className="icofont-cop-badge"></i> Trading with us guarantees <span>high profit margin</span></li>
